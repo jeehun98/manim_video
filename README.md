@@ -1,4 +1,29 @@
-# ReLU · 10초 세로형 모션그래픽
+# Activation Function Series · ReLU
+
+## 38-second introduction
+
+```powershell
+python -m manim render activation_relu.py ReLUIntroduction
+```
+
+Output: `media/videos/activation_relu/1920p30/ReLUIntroduction.mp4`.
+1080×1920 portrait, 30 fps. Silent visual master with optional narration in `narration_relu.md`.
+
+The six connected sections introduce the name and formula (4 s), transform a
+column vector element by element (10 s), carry its colors into graph samples
+(8 s), show selective suppression with OFF/PASS regions (9 s), briefly highlight
+the kink and name nonlinearity (3 s), and return to the vector and graph (4 s).
+Negative input markers rise from the faint identity reference to the zero-output
+branch; positive markers pulse in place. Section budgets, colors, values, and
+reusable text and column-vector helpers are in `activation_relu.py`.
+
+The source uses Arial text for mathematical notation, so LaTeX is not required.
+To adapt to another activation, update the function, formula, explanatory text,
+and graph geometry together. For a smaller preview, change `config.pixel_width`
+and `config.pixel_height` in the source; these explicit settings take precedence
+over CLI resolution flags in the installed Manim version.
+
+## Original 10-second short
 
 검은 배경과 cyan 네온 라인으로 음수 입력이 ReLU를 거쳐 0이 되는 과정을 표현합니다.
 
