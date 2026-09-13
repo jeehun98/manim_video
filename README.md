@@ -1,50 +1,38 @@
-# Activation Function Series · ReLU
+# Activation Function Series
 
-## 38-second introduction
+Manim 세로형 수학 Shorts. 1080 × 1920, 30fps, 어두운 배경과 원소별 파스텔 색상.
+영상은 음성·음악 없는 마스터이며 LaTeX는 필요 없습니다.
 
-```powershell
-python -m manim render activation_relu.py ReLUIntroduction
-```
+## 에피소드
 
-Output: `media/videos/activation_relu/1920p30/ReLUIntroduction.mp4`.
-1080×1920 portrait, 30 fps. Silent visual master with optional narration in `narration_relu.md`.
-
-The six connected sections introduce the name and formula (4 s), transform a
-column vector element by element (10 s), carry its colors into graph samples
-(8 s), show selective suppression with OFF/PASS regions (9 s), briefly highlight
-the kink and name nonlinearity (3 s), and return to the vector and graph (4 s).
-Negative input markers rise from the faint identity reference to the zero-output
-branch; positive markers pulse in place. Section budgets, colors, values, and
-reusable text and column-vector helpers are in `activation_relu.py`.
-
-The source uses Arial text for mathematical notation, so LaTeX is not required.
-To adapt to another activation, update the function, formula, explanatory text,
-and graph geometry together. For a smaller preview, change `config.pixel_width`
-and `config.pixel_height` in the source; these explicit settings take precedence
-over CLI resolution flags in the installed Manim version.
-
-## Original 10-second short
-
-검은 배경과 cyan 네온 라인으로 음수 입력이 ReLU를 거쳐 0이 되는 과정을 표현합니다.
+| ID | 주제 | 길이 | 소스·대본 | 결과물 |
+| --- | --- | --- | --- | --- |
+| 01 | ReLU 소개 | 38초 | `episodes/01_relu/` | `exports/01.mp4` |
+| 02 | ReLU — Information Loss #1 | 42초 | `episodes/02_relu_information_loss/` | `exports/02.mp4` |
+| legacy | 초기 프로토타입 | 10초 | `archive/relu_short.py` | `exports/legacy.mp4` |
 
 ## 실행
 
 ```powershell
 python -m pip install -r requirements.txt
-python -m manim render relu_short.py ReLUShort
+python scripts/render.py 02 --preview
+python scripts/render.py 02
+python scripts/render.py 01
+python scripts/render.py legacy
 ```
 
-기본 출력: `media/videos/relu_short/1920p30/ReLUShort.mp4`
+미리보기는 360 × 640이며 `exports/02_preview.mp4`처럼 별도 저장됩니다.
+렌더 스크립트는 실행 위치와 무관하게 프로젝트 루트를 기준으로 동작합니다.
 
-- 1080×1920, 9:16, 30 fps, 정확히 10초
-- 제목 → 입력 −3 → ReLU → 0으로 변환 → 출력 → 정의와 결론
-- 외부 이미지, LaTeX, 유료 영상 생성 도구 없이 렌더링
-- 음성 및 음악 없는 영상으로, Resolve/After Effects에서 후반 작업 가능
+## 폴더 규칙
 
-빠른 미리보기는 `python -m manim render -r 360,640 relu_short.py ReLUShort`를 사용합니다.
-`-ql`과 같은 품질 프리셋은 해상도와 프레임률을 덮어쓸 수 있으므로 최종 렌더에서는 생략합니다.
+- `episodes/<번호>_<주제>/`: scene.py, narration.md, 필요하면 brief.md.
+- `archive/`: 보존하는 초기 프로토타입.
+- `scripts/`: 공통 렌더 도구.
+- `exports/`: 공유·편집용 MP4. Git 제외.
+- `media/<ID>/`: 재생성 가능한 렌더 캐시. 기존 media 결과도 보존.
 
-스타일과 배치는 `relu_short.py`의 색상 상수, `label`, `neon` 및 장면 좌표에서 수정할 수 있습니다.
-
-python.exe -m pip install --upgrade pip       
-pip install -U manim
+새 에피소드는 scripts/render.py의 EPISODES에 등록합니다.
+각 에피소드 소스는 독립적으로 동작하며 공통 해상도 환경변수를 지원합니다.
+02편은 벡터 → 억제 비율 → 분포 → 음수 확률 → 같은 개수, 다른 크기로 이어집니다.
+Zeroed Ratio는 정보 손실 자체가 아닌 단순 억제 지표입니다.

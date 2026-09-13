@@ -1,12 +1,13 @@
 """Activation Function Series — ReLU. 38 seconds, portrait, no LaTeX needed.
 
-Render: python -m manim render activation_relu.py ReLUIntroduction
+Render: python scripts/render.py 01
 Change VALUES, COLORS, activation(), and section budgets to adapt the lesson.
 """
 from manim import *
+import os
 
-config.pixel_width = 1080
-config.pixel_height = 1920
+config.pixel_width = int(os.getenv("VIDEO_WIDTH", "1080"))
+config.pixel_height = int(os.getenv("VIDEO_HEIGHT", "1920"))
 config.frame_width = 9
 config.frame_height = 16
 config.frame_rate = 30
