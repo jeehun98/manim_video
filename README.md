@@ -12,12 +12,18 @@ Manim 세로형 수학 Shorts. 1080 × 1920, 30fps, 어두운 배경과 원소�
 | 03 | ReLU — Beyond the count | 40초 | `episodes/03_relu_change_magnitude/` | `exports/03.mp4` |
 | 04 | Irreversibility — Beyond Information Loss | 100초 | `episodes/04_irreversibility/` | `exports/04.mp4` |
 | 05 | Information Guides Optimization | 100초 | `episodes/05_computation_simplification/` | `exports/05.mp4` |
+| 06 | Sigmoid 01 — 위치에 따라 달라지는 압축 | 70초 | `episodes/06_sigmoid_intro/` | `exports/06.mp4` |
+| 07 | Sigmoid 02 — 기울기로 읽는 압축률 | 100초 | `episodes/07_sigmoid_derivative/` | `exports/07.mp4` |
 | legacy | 초기 프로토타입 | 10초 | `archive/relu_short.py` | `exports/legacy.mp4` |
 
 ## 실행
 
 ```powershell
 python -m pip install -r requirements.txt
+python scripts/render.py 07 --preview
+python scripts/render.py 07
+python scripts/render.py 06 --preview
+python scripts/render.py 06
 python scripts/render.py 05 --preview
 python scripts/render.py 05
 python scripts/render.py 04 --preview
