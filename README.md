@@ -14,12 +14,27 @@ Manim 세로형 수학 Shorts. 1080 × 1920, 30fps, 어두운 배경과 원소�
 | 05 | Information Guides Optimization | 100초 | `episodes/05_computation_simplification/` | `exports/05.mp4` |
 | 06 | Sigmoid 01 — 위치에 따라 달라지는 압축 | 70초 | `episodes/06_sigmoid_intro/` | `exports/06.mp4` |
 | 07 | Sigmoid 02 — 기울기로 읽는 압축률 | 100초 | `episodes/07_sigmoid_derivative/` | `exports/07.mp4` |
+| 08 | Sigmoid 03 — 포화와 작아지는 학습 신호 | 100초 | `episodes/08_sigmoid_saturation/` | `exports/08.mp4` |
+| 09 | Sigmoid 04 — 값에서 분포로 | 100초 | `episodes/09_sigmoid_distribution/` | `exports/09.mp4` |
+| 10 | Sigmoid 05 — 누적확률이라는 새 좌표 | 137초 | `episodes/10_sigmoid_cdf/` | `exports/10.mp4` |
+| 11 | Sigmoid 06 — 한계와 선택의 이유 | 150초 | `episodes/11_sigmoid_finale/` | `exports/11.mp4` |
+| 12 | Softmax 01 — 점수에서 분포로 | 90초 | `episodes/12_softmax_intro/` | `exports/12.mp4` |
 | legacy | 초기 프로토타입 | 10초 | `archive/relu_short.py` | `exports/legacy.mp4` |
 
 ## 실행
 
 ```powershell
 python -m pip install -r requirements.txt
+python scripts/render.py 12 --preview
+python scripts/render.py 12
+python scripts/render.py 11 --preview
+python scripts/render.py 11
+python scripts/render.py 10 --preview
+python scripts/render.py 10
+python scripts/render.py 09 --preview
+python scripts/render.py 09
+python scripts/render.py 08 --preview
+python scripts/render.py 08
 python scripts/render.py 07 --preview
 python scripts/render.py 07
 python scripts/render.py 06 --preview
