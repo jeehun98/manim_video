@@ -19,12 +19,27 @@ Manim 세로형 수학 Shorts. 1080 × 1920, 30fps, 어두운 배경과 원소�
 | 10 | Sigmoid 05 — 누적확률이라는 새 좌표 | 137초 | `episodes/10_sigmoid_cdf/` | `exports/10.mp4` |
 | 11 | Sigmoid 06 — 한계와 선택의 이유 | 150초 | `episodes/11_sigmoid_finale/` | `exports/11.mp4` |
 | 12 | Softmax 01 — 점수에서 분포로 | 90초 | `episodes/12_softmax_intro/` | `exports/12.mp4` |
+| 13 | Softmax 02 — 숫자가 달라도 결과가 같은 이유 | 84초 | `episodes/13_softmax_shift/` | `exports/13.mp4` |
+| 14 | Softmax 03 — 차이가 비율이 되는 이유 | 80초 | `episodes/14_softmax_ratio/` | `exports/14.mp4` |
+| 15 | Softmax 04 — Temperature로 분포 조절하기 | 108초 | `episodes/15_softmax_temperature/` | `exports/15.mp4` |
+| 16 | Softmax 05 — 서로 연결된 출력과 자코비안 | 119초 | `episodes/16_softmax_jacobian/` | `exports/16.mp4` |
+| 17 | Softmax 06 — 두 입력의 Softmax와 Sigmoid | 124초 | `episodes/17_softmax_sigmoid/` | `exports/17.mp4` |
 | legacy | 초기 프로토타입 | 10초 | `archive/relu_short.py` | `exports/legacy.mp4` |
 
 ## 실행
 
 ```powershell
 python -m pip install -r requirements.txt
+python scripts/render.py 17 --preview
+python scripts/render.py 17
+python scripts/render.py 16 --preview
+python scripts/render.py 16
+python scripts/render.py 15 --preview
+python scripts/render.py 15
+python scripts/render.py 14 --preview
+python scripts/render.py 14
+python scripts/render.py 13 --preview
+python scripts/render.py 13
 python scripts/render.py 12 --preview
 python scripts/render.py 12
 python scripts/render.py 11 --preview
@@ -66,3 +81,7 @@ python scripts/render.py legacy
 각 에피소드 소스는 독립적으로 동작하며 공통 해상도 환경변수를 지원합니다.
 02편은 벡터 → 억제 비율 → 분포 → 음수 확률 → 같은 개수, 다른 크기로 이어집니다.
 Zeroed Ratio는 정보 손실 자체가 아닌 단순 억제 지표입니다.
+
+## TTS 편집용 타이밍
+
+13편부터 짧은 질문·연결 문장은 2~3.5초 내에 전환하고, 문장 길이와 시각적 설명량에 따라 시간을 배분합니다. 전환 시간은 각 구간에 포함합니다. 실제 음성 미제공 시 발화 길이를 추정하며, 타임코드 대본과 SRT를 함께 제공합니다.
