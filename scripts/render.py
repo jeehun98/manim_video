@@ -8,6 +8,16 @@ EPISODES["gpu03"] = ("episodes/gpu03_memory_access/scene.py", "MemoryAccessIntro
 
 EPISODES["gpu04"] = ("episodes/gpu04_memory_spaces/scene.py", "MemorySpacesIntroduction")
 
+EPISODES["gpu05"] = ("episodes/gpu05_naive_gemm/scene.py", "NaiveGEMMIntroduction")
+
+EPISODES["gpu06"] = ("episodes/gpu06_tiled_gemm/scene.py", "TiledGEMMIntroduction")
+
+EPISODES["gpu07"] = ("episodes/gpu07_tile_size/scene.py", "TileSizeIntroduction")
+
+EPISODES["gpu08"] = ("episodes/gpu08_register_occupancy/scene.py", "RegisterOccupancyIntroduction")
+
+EPISODES["gpu09"] = ("episodes/gpu09_bank_conflict/scene.py", "BankConflictIntroduction")
+
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("episode", choices=EPISODES)
