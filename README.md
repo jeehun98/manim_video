@@ -117,3 +117,11 @@ Zeroed Ratio는 정보 손실 자체가 아닌 단순 억제 지표입니다.
 - GPU 08: `episodes/gpu08_register_occupancy/scene.py` → `python scripts/render.py gpu08` → `exports/gpu08.mp4` (174초, 무음)
 
 - GPU 09: `episodes/gpu09_bank_conflict/scene.py` → `python scripts/render.py gpu09` → `exports/gpu09.mp4` (174초, 무음)
+
+## 선형대수학 시리즈
+
+- LA 01 **행렬은 관계를 기록한다** — 154초, 1080×1920, 30fps, 무음. 세 대상 사이의 방향 있는 연결이 행렬의 각 칸으로 정리되는 과정.
+- [대본](episodes/la01_matrix_relations/narration.md) · [제작 의도와 시리즈 구상](episodes/la01_matrix_relations/brief.md)
+- `python scripts/render.py la01 --preview` → `exports/la01_preview.mp4`
+- `python scripts/render.py la01` → `exports/la01.mp4`
+- 이전 공간 변환 버전 영상·대본: `archive/la01_space_version/`. 다음 편 예고: 행렬과 벡터의 곱.
