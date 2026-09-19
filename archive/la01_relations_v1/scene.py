@@ -10,31 +10,31 @@ config.background_color='#0B1220'
 BLUE,GOLD,PINK,INK,MUTED='#66D9EF','#F6CA78','#EF9DCA','#EDF2FA','#93A5BF'
 COLORS=[BLUE,GOLD,PINK]
 VALUES=[[0,.8,.1],[.3,0,.5],[.2,.7,0]]
-DURATION=130
+DURATION=154
 CAPTIONS=[
 (0,'intro','행렬을 처음 보면, 그냥 숫자를\n네모 모양으로 배열한 것처럼 보입니다.'),
 (6,'numbers','하지만 이 숫자들은\n단순히 나열되어 있는 것이 아닙니다.'),
-(10,'objects','이번에는 행렬을 지우고,\n세 개의 대상을 놓아보겠습니다.'),
-(15,'cycle','각 대상은 서로 영향을 줄 수 있습니다.\n첫 번째에서 두 번째로, 두 번째에서 세 번째로,\n세 번째에서 첫 번째로.'),
-(22,'complex','반대 방향까지 연결하면\n그림은 금방 복잡해집니다.'),
-(27,'weight','이제 각각의 연결에\n숫자를 하나씩 붙여보겠습니다.'),
-(32,'edge08','두 번째 대상이 첫 번째 대상에 주는 영향은\n0.8이라고 해보겠습니다.'),
-(38,'edge01','세 번째 대상이 첫 번째 대상에 주는 영향은\n0.1입니다.'),
-(44,'convention','그리고 기록하는 규칙을 정합니다.\n행은 영향을 받는 대상, 열은 영향을 주는 대상입니다.'),
-(51,'place08','두 번째가 첫 번째에게 주는 영향 0.8은\n첫 번째 행, 두 번째 열에 놓입니다.'),
-(58,'place01','세 번째가 첫 번째에게 주는 영향 0.1은\n첫 번째 행, 세 번째 열에 놓입니다.'),
-(65,'fill','나머지 관계도 같은 방식으로 정리하면,\n복잡했던 연결 구조가 하나의 행렬이 됩니다.'),
-(73,'meaning','이제 숫자 하나는\n두 대상 사이의 관계 하나를 나타냅니다.'),
-(79,'structure','즉 행렬은 가능한 관계들을\n정해진 위치에 정리해 둔 구조입니다.'),
-(85,'neural','이 방식은 여러 곳에서 반복됩니다.\n신경망에서는 뉴런 사이의 가중치,'),
-(91,'graph','그래프에서는 노드 사이의 연결,'),
-(96,'probability','확률에서는 상태 사이의 전이를\n행렬로 표현할 수 있습니다.'),
-(101,'common','서로 다른 문제지만, 누가 누구에게\n얼마나 연결되어 있는가라는 구조는 비슷합니다.'),
-(108,'summary','행렬은 많은 관계를\n하나의 숫자표 안에 체계적으로 담는 방법입니다.'),
-(115,'input','그렇다면 이 관계 안으로\n실제 값이 들어오면 무슨 일이 일어날까요?'),
-(122,'next','다음에는 행렬과 벡터의 곱을 통해,\n관계가 실제 계산으로 바뀌는 과정을 보겠습니다.'),
+(11,'objects','이번에는 행렬을 지우고,\n세 개의 대상을 놓아보겠습니다.'),
+(17,'cycle','각 대상은 서로 영향을 줄 수 있습니다.\n첫 번째에서 두 번째로, 두 번째에서 세 번째로.'),
+(24,'complex','세 번째에서 첫 번째로. 반대 방향도 연결하면\n그림은 금방 복잡해집니다.'),
+(31,'weight','각각의 연결에\n숫자를 하나씩 붙이면 어떨까요?'),
+(37,'edge08','예를 들어 두 번째 대상이\n첫 번째 대상에 주는 영향은 영 점 팔.'),
+(43,'edge01','세 번째 대상이\n첫 번째 대상에 주는 영향은 영 점 일입니다.'),
+(49,'convention','이제 기록하는 위치를 정하겠습니다.\n행은 받는 대상, 열은 주는 대상입니다.'),
+(57,'place08','두 번째가 첫 번째에게 주는 영향은\n첫 번째 행, 두 번째 열에 놓습니다.'),
+(64,'place01','세 번째가 첫 번째에게 주는 영향은\n첫 번째 행, 세 번째 열에 놓습니다.'),
+(71,'fill','나머지 관계도 같은 규칙으로 정리하면,\n전체 연결 구조가 하나의 행렬이 됩니다.'),
+(79,'diagonal','이 예에서 대각선은 모두 영입니다.\n자기 자신에게 주는 직접 영향은 없다고 정한 겁니다.'),
+(86,'meaning','이제 숫자 하나는 단순한 숫자가 아니라,\n두 대상 사이의 관계 하나를 나타냅니다.'),
+(93,'neural','이 방식은 여러 분야에 쓰입니다.\n신경망에서는 뉴런 사이의 가중치를 담을 수 있고,'),
+(101,'graph','그래프에서는 노드 사이의 연결과\n그 연결의 가중치를 담을 수 있습니다.'),
+(108,'probability','확률에서는 한 상태에서 다른 상태로\n이동할 가능성을 담을 수 있습니다.'),
+(115,'prob_rule','이때는 확률에 맞는 별도 규칙이 필요합니다.\n열을 출발 상태로 정하면, 각 열의 합은 일입니다.'),
+(123,'common','서로 다른 문제지만, 누가 누구에게\n얼마나 영향을 주는가라는 구조로 볼 수 있습니다.'),
+(131,'summary','행렬은 많은 관계를\n하나의 숫자표 안에 체계적으로 담는 방법입니다.'),
+(138,'input','그렇다면 이 행렬에 어떤 값을 넣으면,\n그 관계들은 실제 계산에 어떻게 사용될까요?'),
+(146,'next','행렬의 숫자 하나는 결과에 어떤 영향을 줄까요?\n다음에는 행렬과 벡터의 곱을 살펴보겠습니다.'),
 ]
-
 
 def txt(s,size=28,color=INK,width=7.7):
     m=Text(str(s),font='Malgun Gothic',font_size=size,color=color,line_spacing=1.25)
@@ -105,21 +105,18 @@ class MatrixRelations(Scene):
         self.clear('세 개의 대상','화살표 방향: 주는 대상 → 받는 대상')
         self.net=Network().scale(1.15);return [FadeIn(self.net.nodes)],1.5
     def cycle(self):
-        return [LaggedStart(*[Create(self.net.lookup[k][0]) for k in [(0,1),(1,2),(2,0)]],lag_ratio=.65)],4.5
+        return [LaggedStart(*[Create(self.net.lookup[k][0]) for k in [(0,1),(1,2)]],lag_ratio=.65)],3
     def complex(self):
-        return [LaggedStart(*[Create(self.net.lookup[k][0]) for k in [(1,0),(2,1),(0,2)]],lag_ratio=.35)],3
+        return [LaggedStart(*[Create(self.net.lookup[k][0]) for k in [(2,0),(1,0),(2,1),(0,2)]],lag_ratio=.35)],3
     def weight(self):
         self.heading('연결마다 숫자를 하나씩');self.formula('방향 + 가중치 = 하나의 관계')
         return [FadeIn(self.net.weights)],1.8
     def focus_edge(self,source,target):
         for key,(edge,label) in self.net.lookup.items():
-            opacity=1 if key==(source,target) else .18
-            edge.set_stroke(opacity=opacity)
-            edge.set_fill(opacity=0,family=False)
-            edge.get_tip().set_opacity(opacity)
+            edge.set_opacity(1 if key==(source,target) else .18)
             label.set_opacity(1 if key==(source,target) else .25)
         edge,label=self.net.lookup[(source,target)]
-        return [Indicate(edge,color=COLORS[source],scale_factor=1.05),Circumscribe(label,color=COLORS[source])],2
+        return [Indicate(edge),Circumscribe(label,color=COLORS[source])],2
     def edge08(self):
         self.heading('두 번째 → 첫 번째');self.formula('2 → 1 : 0.8')
         return self.focus_edge(1,0)
@@ -147,12 +144,12 @@ class MatrixRelations(Scene):
             animations.append(TransformFromCopy(self.net.lookup[(source,target)][1],entry))
         for k in [0,4,8]:self.table.entries[k].set_opacity(1);animations.append(FadeIn(self.table.entries[k]))
         return [LaggedStart(*animations,lag_ratio=.25)],3.5
+    def diagonal(self):
+        self.heading('대각선: 자기 자신과의 관계');self.formula('이 예에서는 직접적인 자기 연결이 없음 → 0')
+        return [Circumscribe(self.table.cells[k],color=INK) for k in [0,4,8]],2
     def meaning(self):
         self.heading('숫자 하나 = 방향을 가진 관계 하나');self.formula('0.8은 2 → 1     ·     0.3은 1 → 2')
         return [Circumscribe(self.table.cells[1],color=GOLD),Circumscribe(self.table.cells[3],color=BLUE)],2
-    def structure(self):
-        self.heading('가능한 관계마다, 정해진 자리');self.formula('행: 받는 대상     ·     열: 주는 대상')
-        return [LaggedStart(*[Indicate(cell,color=COLORS[i%3],scale_factor=1.05) for i,cell in enumerate(self.table.cells)],lag_ratio=.12)],2.8
     def neural(self):
         self.clear('신경망 · 뉴런 사이의 가중치','가중치: 입력 신호를 얼마나 반영할까?')
         # A separate feed-forward illustration, not the recurrent example graph.
@@ -171,6 +168,10 @@ class MatrixRelations(Scene):
         self.prob.labels[1].become(txt('도착\n상태\n(행)',22,MUTED).move_to([-2.65,0,0]))
         self.prob.scale(1.2)
         return [FadeIn(self.prob)],2
+    def prob_rule(self):
+        self.heading('확률에는 추가 조건이 있습니다');self.formula('각 원소 ≥ 0     ·     각 열의 합 = 1')
+        sums=VGroup(*[txt('합 1',24,COLORS[j]).move_to([(j-1)*1.26,-2.04,0]) for j in range(3)])
+        return [FadeIn(sums),Circumscribe(VGroup(*[self.prob.cells[k] for k in [0,3,6]]),color=BLUE)],2
     def common(self):
         self.clear('누가 · 누구에게 · 얼마나','분야마다 의미와 조건은 달라도, 기록하는 틀은 같습니다')
         items=VGroup(txt('주는 대상  j',35,GOLD),txt('↓',48,MUTED),txt('관계의 크기  Aᵢⱼ',38),txt('↓',48,MUTED),txt('받는 대상  i',35,BLUE)).arrange(DOWN,buff=.35)
@@ -184,5 +185,5 @@ class MatrixRelations(Scene):
         return [FadeIn(row)],1.5
     def next(self):
         self.clear('다음 이야기','02  /  행렬과 벡터의 곱')
-        title=txt('관계가 계산으로\n바뀌는 순간',40).move_to(UP*.5)
+        title=txt('숫자 하나가\n결과에 미치는 영향',40).move_to(UP*.5)
         return [FadeIn(title)],1.5

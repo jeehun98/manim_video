@@ -18,6 +18,9 @@ EPISODES["gpu08"] = ("episodes/gpu08_register_occupancy/scene.py", "RegisterOccu
 
 EPISODES["gpu09"] = ("episodes/gpu09_bank_conflict/scene.py", "BankConflictIntroduction")
 EPISODES["la01"] = ("episodes/la01_matrix_relations/scene.py", "MatrixRelations")
+EPISODES["la02"] = ("episodes/la02_matrix_vector_product/scene.py", "MatrixVectorProduct")
+EPISODES["la03"] = ("episodes/la03_matrix_paths/scene.py", "MatrixPaths")
+EPISODES["la04"] = ("episodes/la04_repeated_patterns/scene.py", "RepeatedPatterns")
 
 def main():
     p = argparse.ArgumentParser()

@@ -120,8 +120,24 @@ Zeroed Ratio는 정보 손실 자체가 아닌 단순 억제 지표입니다.
 
 ## 선형대수학 시리즈
 
-- LA 01 **행렬은 관계를 기록한다** — 154초, 1080×1920, 30fps, 무음. 세 대상 사이의 방향 있는 연결이 행렬의 각 칸으로 정리되는 과정.
+- LA 01 **행렬은 관계를 기록한다** — 130초, 1080×1920, 30fps, 무음. 세 대상 사이의 방향 있는 연결이 행렬의 각 칸으로 정리되는 과정.
 - [대본](episodes/la01_matrix_relations/narration.md) · [제작 의도와 시리즈 구상](episodes/la01_matrix_relations/brief.md)
 - `python scripts/render.py la01 --preview` → `exports/la01_preview.mp4`
 - `python scripts/render.py la01` → `exports/la01.mp4`
 - 이전 공간 변환 버전 영상·대본: `archive/la01_space_version/`. 다음 편 예고: 행렬과 벡터의 곱.
+
+- LA 02 **기여를 모으면 결과가 된다** — 90초, 1080×1920, 30fps, 무음. 여러 출발점의 가중 기여를 목적지별로 합산합니다.
+- [2편 대본](episodes/la02_matrix_vector_product/narration.md) · [구성 및 수학 확인](episodes/la02_matrix_vector_product/brief.md)
+- `python scripts/render.py la02` → `exports/la02.mp4` (`--preview`는 별도 미리보기).
+
+- LA 03 **경로를 잇고, 기여를 모은다** — 100초, 1080×1920, 30fps, 무음. 두 단계 경로의 곱과 합을 통해 A²와 행렬곱을 설명합니다.
+- [3편 대본](episodes/la03_matrix_paths/narration.md) · [구성 및 수학 확인](episodes/la03_matrix_paths/brief.md)
+- `python scripts/render.py la03` → `exports/la03.mp4` (`--preview`는 별도 미리보기).
+
+## 화면 표기와 TTS 표기
+
+영상의 화면 문구, 자막(SRT), narration.md에서는 숫자·영어·수식을 원래 표기 그대로 사용합니다(예: `0.8`, `A²`, `k`, `BA`). `영 점 팔`, `에이 제곱`, `케이` 같은 한글 발음 표기는 `tts_script.txt`에만 사용합니다. 자연스러운 한국어 서수 표현(첫 번째, 두 번째 등)은 유지합니다.
+
+- LA 04 **반복하면 어떤 패턴이 남을까?** — 110초, 1080×1920, 30fps, 무음. 반복 계산의 크기와 비율을 비교하며 고유벡터·고유값을 예고합니다.
+- [4편 대본](episodes/la04_repeated_patterns/narration.md) · [구성 및 수학 확인](episodes/la04_repeated_patterns/brief.md)
+- `python scripts/render.py la04` → `exports/la04.mp4` (`--preview`는 별도 미리보기).
