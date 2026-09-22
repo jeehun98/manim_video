@@ -21,6 +21,21 @@ EPISODES["la01"] = ("episodes/la01_matrix_relations/scene.py", "MatrixRelations"
 EPISODES["la02"] = ("episodes/la02_matrix_vector_product/scene.py", "MatrixVectorProduct")
 EPISODES["la03"] = ("episodes/la03_matrix_paths/scene.py", "MatrixPaths")
 EPISODES["la04"] = ("episodes/la04_repeated_patterns/scene.py", "RepeatedPatterns")
+EPISODES["la05"] = ("episodes/la05_pattern_filter/scene.py", "PatternFilter")
+EPISODES["la06"] = ("episodes/la06_nullspace/scene.py", "Nullspace")
+EPISODES["la07"] = ("episodes/la07_independence/scene.py", "Independence")
+EPISODES["la08"] = ("episodes/la08_rank/scene.py", "Rank")
+EPISODES["la09"] = ("episodes/la09_rank_factorization/scene.py", "RankFactorization")
+
+EPISODES["la10"] = ("episodes/la10_svd_channels/scene.py", "SVDChannels")
+
+EPISODES["svd01"] = ("episodes/svd01_optimal_forgetting/scene.py", "SVD01")
+EPISODES["svd02"] = ("episodes/svd02_difference_survival/scene.py", "SVD02")
+EPISODES["svd03"] = ("episodes/svd03_sensitivity_map/scene.py", "SVD03")
+EPISODES["svd04"] = ("episodes/svd04_independent_questions/scene.py", "SVD04")
+EPISODES["svd05"] = ("episodes/svd05_ellipse_extrema/scene.py", "SVD05")
+EPISODES["svd06"] = ("episodes/svd06_condition_number/scene.py", "SVD06ConditionNumber")
+EPISODES["svd07"] = ("episodes/svd07_inverse_error/scene.py", "SVD07InverseError")
 
 def main():
     p = argparse.ArgumentParser()

@@ -1,5 +1,21 @@
 # Activation Function Series
 
+## SVD — 네 가지 관점
+
+한국어 화면 자막을 포함한 세로 1080×1920, 30fps 무음 마스터 네 편입니다. 각 MP4와 같은 이름의 SRT가 `exports/`에 있습니다.
+
+| ID | 제목 | 길이 | 대본 | 영상 |
+|---|---|---|---|---|
+| svd01 | 최적의 망각 | 115초 | [대본](episodes/svd01_optimal_forgetting/narration.md) | [MP4](exports/svd01.mp4) |
+| svd02 | 차이의 생존율 | 99초 | [대본](episodes/svd02_difference_survival/narration.md) | [MP4](exports/svd02.mp4) |
+| svd03 | 방향별 감도 지도 | 100초 | [대본](episodes/svd03_sensitivity_map/narration.md) | [MP4](exports/svd03.mp4) |
+| svd04 | 입력에게 던지는 독립적인 질문 | 100초 | [대본](episodes/svd04_independent_questions/narration.md) | [MP4](exports/svd04.mp4) |
+| svd05 | 타원을 훑어 찾는 두 값 | 85초 | [대본](episodes/svd05_ellipse_extrema/narration.md) | [MP4](exports/svd05.mp4) |
+| svd06 | Condition Number: 방향의 불균형 | 60초 | [대본](episodes/svd06_condition_number/narration.md) | [MP4](exports/svd06.mp4) |
+| svd07 | 역행렬이 오차를 키우는 이유 | 60초 | [대본](episodes/svd07_inverse_error/narration.md) | [MP4](exports/svd07.mp4) |
+
+[시리즈 제작 안내와 수학적 기준](episodes/svd_series/README.md). `python scripts/render.py svd01`로 렌더합니다. 나머지도 같은 방식이며 `--preview`를 추가하면 360×640 미리보기를 생성합니다.
+
 GPU 연산 시리즈 1화: **수식 하나가 GPU에서 실행되기까지** (145초, 한국어 내레이션 포함).
 대본·타이밍·실행 안내는 [GPU 01](episodes/gpu01_formula_to_gpu/narration.md)을 참고하세요.
 `python scripts/render.py gpu01 --preview` 또는 `python scripts/render.py gpu01`로 렌더합니다.
@@ -141,3 +157,27 @@ Zeroed Ratio는 정보 손실 자체가 아닌 단순 억제 지표입니다.
 - LA 04 **반복하면 어떤 패턴이 남을까?** — 110초, 1080×1920, 30fps, 무음. 반복 계산의 크기와 비율을 비교하며 고유벡터·고유값을 예고합니다.
 - [4편 대본](episodes/la04_repeated_patterns/narration.md) · [구성 및 수학 확인](episodes/la04_repeated_patterns/brief.md)
 - `python scripts/render.py la04` → `exports/la04.mp4` (`--preview`는 별도 미리보기).
+
+- LA 05 **같은 입력, 다른 패턴별 배율** — 99초, 1080×1920, 30fps, 무음. 섞인 두 고유패턴을 서로 다르게 조절하고 다시 합치는 과정을 보여줍니다.
+- [5편 대본](episodes/la05_pattern_filter/narration.md) · [구성 및 수학 확인](episodes/la05_pattern_filter/brief.md)
+- `python scripts/render.py la05` → `exports/la05.mp4` (`--preview`는 별도 미리보기).
+
+- LA 06 **행렬이 지우는 차이** — 100초, 1080×1920, 30fps, 무음. 두 입력이 같은 출력으로 겹치는 과정에서 영공간을 설명합니다.
+- [6편 대본](episodes/la06_nullspace/narration.md) · [구성 및 수학 확인](episodes/la06_nullspace/brief.md)
+- `python scripts/render.py la06` → `exports/la06.mp4` (`--preview`는 별도 미리보기).
+
+- LA 07 **벡터가 늘면 자유도도 늘까?** — 108초, 1080×1920, 30fps, 무음. 계수의 중복과 상쇄 관계를 통해 자유도·선형독립·표현의 유일성을 설명합니다.
+- [7편 대본](episodes/la07_independence/narration.md) · [구성 및 수학 확인](episodes/la07_independence/brief.md)
+- `python scripts/render.py la07` → `exports/la07.mp4` (`--preview`는 별도 미리보기).
+
+- LA 08 **Rank: 실제로 남는 자유도** — 107초, 1080×1920, 30fps, 무음. 같은 2×2 행렬의 Rank 1·2를 출력 공간으로 비교합니다.
+- [8편 대본](episodes/la08_rank/narration.md) · [구성 및 수학 확인](episodes/la08_rank/brief.md)
+- `python scripts/render.py la08` → `exports/la08.mp4` (`--preview`는 별도 미리보기).
+
+- LA 09 **방향과 조합으로 나누어 기록하기** — 112초, 1080×1920, 30fps, 무음. Rank 분해 A=BC로 독립적인 방향과 열의 조합을 분리합니다.
+- [9편 대본](episodes/la09_rank_factorization/narration.md) · [구성 및 수학 확인](episodes/la09_rank_factorization/brief.md)
+- `python scripts/render.py la09` → `exports/la09.mp4` (`--preview`는 별도 미리보기).
+
+- LA 10 **SVD: 관계를 채널로 나누어 보기** — 109초, 1080×1920, 30fps, 무음. 반투명 채널 레이어로 입력 패턴·전달 강도·출력 패턴을 분리합니다.
+- [10편 대본](episodes/la10_svd_channels/narration.md) · [구성 및 수학 확인](episodes/la10_svd_channels/brief.md)
+- `python scripts/render.py la10` → `exports/la10.mp4`
