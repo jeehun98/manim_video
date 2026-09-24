@@ -50,6 +50,7 @@ EPISODES["eml01"] = ("episodes/eml01_single_operator/scene.py", "EMLSingleOperat
 EPISODES["eml02"] = ("episodes/eml02_log_tree/scene.py", "EMLLogTree")
 EPISODES["eml03"] = ("episodes/eml03_addition_graph/scene.py", "EMLAdditionGraph")
 EPISODES["eml04"] = ("episodes/eml04_primitive_finale/scene.py", "EMLPrimitiveFinale")
+EPISODES["flash01"] = ("episodes/flash01_attention_storage/scene.py", "FlashAttentionStorage")
 
 def main():
     p = argparse.ArgumentParser()

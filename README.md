@@ -1,5 +1,12 @@
 # Activation Function Series
 
+## FlashAttention — 계산보다 데이터를 움직이는 방법
+
+- FlashAttention 01 **Attention은 무엇을 저장하고 있을까?** — 64초, 1080×1920, 30fps, 무음. 표준적인 materialized Attention이 `S = QKᵀ`, `P = softmax(S)`의 `N × N` 중간 결과를 만들고 HBM에 쓰고 읽는 흐름을 보여준 뒤, 같은 출력 `O`를 유지하면서 저장을 피할 수 있는지 묻습니다.
+- [대본](episodes/flash01_attention_storage/narration.md) · [제작 기준](episodes/flash01_attention_storage/brief.md)
+- `python scripts/render.py flash01 --preview` → `exports/flash01_preview.mp4`
+- `python scripts/render.py flash01` → `exports/flash01.mp4`
+
 ## EML — 하나의 primitive로 만드는 계산
 
 - EML 01 **과학용 계산기의 연산자를 하나만 남긴다면?** — 50초, 1080×1920, 30fps, 무음. primitive 축소가 표현 규칙과 연산 graph를 통일하는 이유를 살펴보고, 실제 실행 효율과 구분한 뒤 `EML(x,1)=eˣ`를 첫 tree로 구성합니다.
