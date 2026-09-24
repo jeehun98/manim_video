@@ -1,5 +1,24 @@
 # Activation Function Series
 
+## EML — 하나의 primitive로 만드는 계산
+
+- EML 01 **과학용 계산기의 연산자를 하나만 남긴다면?** — 50초, 1080×1920, 30fps, 무음. primitive 축소가 표현 규칙과 연산 graph를 통일하는 이유를 살펴보고, 실제 실행 효율과 구분한 뒤 `EML(x,1)=eˣ`를 첫 tree로 구성합니다.
+- [대본](episodes/eml01_single_operator/narration.md) · [시리즈 제작 기준](episodes/eml01_single_operator/brief.md)
+- `python scripts/render.py eml01 --preview` → `exports/eml01_preview.mp4`
+- `python scripts/render.py eml01` → `exports/eml01.mp4`
+- EML 02 **같은 연산자를 연결해서 로그 만들기** — 60초. 동일한 EML 노드 세 개를 아래에서 위로 평가해 `ln x`가 남는 과정을 보여줍니다.
+- [2편 대본](episodes/eml02_log_tree/narration.md) · [2편 제작 기준](episodes/eml02_log_tree/brief.md)
+- `python scripts/render.py eml02 --preview` → `exports/eml02_preview.mp4`
+- `python scripts/render.py eml02` → `exports/eml02.mp4`
+- EML 03 **덧셈도 기본 연산자가 아니라면?** — 66초. `1 Add node`와 직접 탐색된 `9 EML nodes · depth 8` graph를 비교해 표현 통일과 실행 최적화를 구분합니다.
+- [3편 대본](episodes/eml03_addition_graph/narration.md) · [3편 제작 기준](episodes/eml03_addition_graph/brief.md)
+- `python scripts/render.py eml03 --preview` → `exports/eml03_preview.mp4`
+- `python scripts/render.py eml03` → `exports/eml03.mp4`
+- EML 04 **하나의 연산자로 계산한다는 것은 무엇일까?** — 72초 완결편. 동일한 EML 블록을 exp·ln·add topology로 재배치하며 primitive의 표현력과 실행 효율을 구분합니다.
+- [완결편 대본](episodes/eml04_primitive_finale/narration.md) · [완결편 제작 기준](episodes/eml04_primitive_finale/brief.md)
+- `python scripts/render.py eml04 --preview` → `exports/eml04_preview.mp4`
+- `python scripts/render.py eml04` → `exports/eml04.mp4`
+
 ## SVD — 네 가지 관점
 
 한국어 화면 자막을 포함한 세로 1080×1920, 30fps 무음 마스터 네 편입니다. 각 MP4와 같은 이름의 SRT가 `exports/`에 있습니다.
@@ -13,6 +32,8 @@
 | svd05 | 타원을 훑어 찾는 두 값 | 85초 | [대본](episodes/svd05_ellipse_extrema/narration.md) | [MP4](exports/svd05.mp4) |
 | svd06 | Condition Number: 방향의 불균형 | 60초 | [대본](episodes/svd06_condition_number/narration.md) | [MP4](exports/svd06.mp4) |
 | svd07 | 역행렬이 오차를 키우는 이유 | 60초 | [대본](episodes/svd07_inverse_error/narration.md) | [MP4](exports/svd07.mp4) |
+| svd08 | 방정식은 거의 같은데, 답은 왜 다를까? | 69초 | [대본](episodes/svd08_near_parallel_lines/narration.md) | [MP4](exports/svd08.mp4) |
+| svd09 | 행렬이 한 방향을 완전히 잃는 순간 | 60초 | [대본](episodes/svd09_singular_matrix/narration.md) | [MP4](exports/svd09.mp4) |
 
 [시리즈 제작 안내와 수학적 기준](episodes/svd_series/README.md). `python scripts/render.py svd01`로 렌더합니다. 나머지도 같은 방식이며 `--preview`를 추가하면 360×640 미리보기를 생성합니다.
 
