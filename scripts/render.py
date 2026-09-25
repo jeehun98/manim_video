@@ -66,6 +66,10 @@ EPISODES["quant08"] = ("episodes/quant08_quantized_matmul/scene.py", "QuantizedM
 EPISODES["quant09"] = ("episodes/quant09_weight_vs_activation/scene.py", "WeightVsActivation")
 EPISODES["quant10"] = ("episodes/quant10_ptq_vs_qat/scene.py", "PTQvsQAT")
 EPISODES["quant11"] = ("episodes/quant11_binary_ternary/scene.py", "BinaryTernaryNetworks")
+EPISODES["prune01"] = ("episodes/prune01_zero_weights/scene.py", "ZeroWeights")
+EPISODES["prune02"] = ("episodes/prune02_why_not_10x/scene.py", "WhyNotTenTimes")
+EPISODES["prune03"] = ("episodes/prune03_why_2_4/scene.py", "WhyTwoOfFour")
+EPISODES["prune04"] = ("episodes/prune04_hardware_aware/scene.py", "HardwareAwareOptimization")
 
 def main():
     p = argparse.ArgumentParser()

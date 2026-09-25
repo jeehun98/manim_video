@@ -1,5 +1,24 @@
 # Activation Function Series
 
+## Pruning & Sparsity — 신경망은 어떻게 더 가볍고 빠르게 계산될까?
+
+- Pruning & Sparsity 01 **Weight를 0으로 만들면 정말 빨라질까?** — 50초, 1080×1920, 30fps, 무음. 작은 Weight를 제거해 Dense 행렬이 Sparse 행렬로 바뀌는 과정을 보여주고, `x × 0 = 0`에서 출발해 `90% PRUNED → 10× FASTER?`라는 질문을 남깁니다.
+- [대본](episodes/prune01_zero_weights/narration.md) · [제작 기준](episodes/prune01_zero_weights/brief.md)
+- `python scripts/render.py prune01 --preview` → `exports/prune01_preview.mp4`
+- `python scripts/render.py prune01` → `exports/prune01.mp4`
+- Pruning & Sparsity 02 **90%를 지웠는데 왜 10배 빨라지지 않을까?** — 82초. Dense GEMM이 0도 처리하는 이유에서 출발해, sparse 실행에 필요한 위치 정보·불규칙한 메모리 접근·작업량 불균형을 보여주며 실제 속도는 0의 개수뿐 아니라 배치 구조에도 달렸음을 설명합니다.
+- [2편 대본](episodes/prune02_why_not_10x/narration.md) · [2편 제작 기준](episodes/prune02_why_not_10x/brief.md)
+- `python scripts/render.py prune02 --preview` → `exports/prune02_preview.mp4`
+- `python scripts/render.py prune02` → `exports/prune02.mp4`
+- Pruning & Sparsity 03 **왜 하필 2:4 Sparsity일까?** — 90초. Unstructured의 선택 자유와 Structured의 규칙성 사이에서, 연속된 4개마다 2개를 유지하되 남길 위치는 선택할 수 있는 `Semi-Structured` 절충안을 소개합니다.
+- [3편 대본](episodes/prune03_why_2_4/narration.md) · [3편 제작 기준](episodes/prune03_why_2_4/brief.md)
+- `python scripts/render.py prune03 --preview` → `exports/prune03_preview.mp4`
+- `python scripts/render.py prune03` → `exports/prune03.mp4`
+- Pruning & Sparsity 04 **신경망 최적화는 왜 하드웨어를 알아야 할까?** — 100초, Pruning 챕터 완결편. 2:4의 지원 경로와 모델 적응을 사례로 `최적화는 수학 × 모델 × 하드웨어의 공동 문제`라는 시리즈 관점을 정리합니다.
+- [4편 대본](episodes/prune04_hardware_aware/narration.md) · [4편 제작 기준](episodes/prune04_hardware_aware/brief.md)
+- `python scripts/render.py prune04 --preview` → `exports/prune04_preview.mp4`
+- `python scripts/render.py prune04` → `exports/prune04.mp4`
+
 ## Quantization — AI의 숫자를 얼마나 단순하게 표현해도 될까?
 
 - Quantization 01 **Quantization은 숫자를 어떻게 줄이는 걸까?** — 52초, 1080×1920, 30fps, 무음. 서로 다른 실수 값들이 제한된 대표값 격자로 이동해 하나로 합쳐지는 장면을 통해, Quantization을 `표현 가능한 값의 종류를 줄이는 과정`으로 설명합니다.
