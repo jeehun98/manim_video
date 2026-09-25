@@ -1,11 +1,74 @@
 # Activation Function Series
 
+## Quantization — AI의 숫자를 얼마나 단순하게 표현해도 될까?
+
+- Quantization 01 **Quantization은 숫자를 어떻게 줄이는 걸까?** — 52초, 1080×1920, 30fps, 무음. 서로 다른 실수 값들이 제한된 대표값 격자로 이동해 하나로 합쳐지는 장면을 통해, Quantization을 `표현 가능한 값의 종류를 줄이는 과정`으로 설명합니다.
+- [대본](episodes/quant01_what_is_quantization/narration.md) · [제작 기준](episodes/quant01_what_is_quantization/brief.md)
+- `python scripts/render.py quant01 --preview` → `exports/quant01_preview.mp4`
+- `python scripts/render.py quant01` → `exports/quant01.mp4`
+- Quantization 02 **8bit와 4bit는 실제로 무엇이 다를까?** — 56초. bit가 하나 늘 때마다 가능한 조합과 격자가 두 배씩 늘어나는 과정을 거쳐, 같은 `0~1` 범위에서 8bit의 256개 위치와 4bit의 16개 위치가 만드는 해상도 차이를 보여줍니다.
+- [2편 대본](episodes/quant02_bits_and_levels/narration.md) · [2편 제작 기준](episodes/quant02_bits_and_levels/brief.md)
+- `python scripts/render.py quant02 --preview` → `exports/quant02_preview.mp4`
+- `python scripts/render.py quant02` → `exports/quant02.mp4`
+- Quantization 03 **정수 1칸은 실제 값으로 얼마를 의미할까?** — 60초. 실수 `0~1`과 정수 `0~255` 두 축을 대응시켜 `scale=1/255≈0.0039`가 정수 한 칸의 실제 크기임을 설명하고, `0.43→q=110→0.431` 매핑으로 확인합니다.
+- [3편 대본](episodes/quant03_scale/narration.md) · [3편 제작 기준](episodes/quant03_scale/brief.md)
+- `python scripts/render.py quant03 --preview` → `exports/quant03_preview.mp4`
+- `python scripts/render.py quant03` → `exports/quant03.mp4`
+- Quantization 04 **실수의 0은 정수 격자의 어디에 놓여야 할까?** — 60초. `−1~3 ↔ 0~255`에서 실수 0이 정수 약 64에 놓이는 이유를 보여주고, 실수 자를 움직여 zero point가 범위에 따라 이동하는 모습을 설명합니다.
+- [4편 대본](episodes/quant04_zero_point/narration.md) · [4편 제작 기준](episodes/quant04_zero_point/brief.md)
+- `python scripts/render.py quant04 --preview` → `exports/quant04_preview.mp4`
+- `python scripts/render.py quant04` → `exports/quant04.mp4`
+- Quantization 05 **Quantization을 하면 원래 숫자에서 무엇이 사라질까?** — 60초. 한 값의 격자 snap에서 error를 정의하고, 여러 실수가 하나의 대표값으로 합쳐지는 many-to-one 정보 손실과 최근접 반올림의 `|e|≤Δ/2` 경계를 보여줍니다.
+- [5편 대본](episodes/quant05_quantization_error/narration.md) · [5편 제작 기준](episodes/quant05_quantization_error/brief.md)
+- `python scripts/render.py quant05 --preview` → `exports/quant05_preview.mp4`
+- `python scripts/render.py quant05` → `exports/quant05.mp4`
+- Quantization 06 **값 하나가 Quantization 전체를 망칠 수 있는 이유** — 60초. 고정된 16개 격자에서 outlier `20`이 range를 `−1~1`에서 `−1~20`으로 넓혀 step을 약 `0.133`에서 `1.4`로 키우고, 중심 값들을 소수의 대표값으로 합치는 과정을 보여줍니다.
+- [6편 대본](episodes/quant06_outlier/narration.md) · [6편 제작 기준](episodes/quant06_outlier/brief.md)
+- `python scripts/render.py quant06 --preview` → `exports/quant06_preview.mp4`
+- `python scripts/render.py quant06` → `exports/quant06.mp4`
+- Quantization 07 **INT8은 컴퓨터에서 무엇을 줄일까?** — 60초. FP32와 INT8의 값당 저장 공간을 비교하고, 동일한 16-byte 전송에 4개와 16개 값을 담는 HBM→Compute 흐름을 통해 작은 datatype이 memory traffic을 줄일 수 있는 이유를 보여줍니다.
+- [7편 대본](episodes/quant07_int8_memory/narration.md) · [7편 제작 기준](episodes/quant07_int8_memory/brief.md)
+- `python scripts/render.py quant07 --preview` → `exports/quant07_preview.mp4`
+- `python scripts/render.py quant07` → `exports/quant07.mp4`
+- Quantization 08 **Quantized 모델은 행렬곱을 어떻게 계산할까?** — 60초. `W≈s_wQ_w`, `X≈s_xQ_x`를 대입해 `WX≈s_ws_x(Q_wQ_x)`로 정리하고, Integer GEMM 뒤에 결합 scale을 적용해 근사 출력을 복원하는 과정을 보여줍니다.
+- [8편 대본](episodes/quant08_quantized_matmul/narration.md) · [8편 제작 기준](episodes/quant08_quantized_matmul/brief.md)
+- `python scripts/render.py quant08 --preview` → `exports/quant08_preview.mp4`
+- `python scripts/render.py quant08` → `exports/quant08.mp4`
+- Quantization 09 **왜 Weight보다 Activation이 더 까다로울까?** — 60초. inference 전에 고정된 weight는 분포와 scale을 미리 준비해 재사용할 수 있지만, activation은 입력마다 범위가 달라져 고정 scale에서 clipping 또는 거친 resolution이 생길 수 있음을 비교합니다.
+- [9편 대본](episodes/quant09_weight_vs_activation/narration.md) · [9편 제작 기준](episodes/quant09_weight_vs_activation/brief.md)
+- `python scripts/render.py quant09 --preview` → `exports/quant09_preview.mp4`
+- `python scripts/render.py quant09` → `exports/quant09.mp4`
+- Quantization 10 **Quantization은 언제 적용해야 할까?** — 60초. 학습 완료 모델을 나중에 줄이는 PTQ와, forward에서 quantization 오차를 경험하며 FP weight를 조정하는 QAT를 `오차를 학습 중 경험했는가`라는 기준으로 비교합니다.
+- [10편 대본](episodes/quant10_ptq_vs_qat/narration.md) · [10편 제작 기준](episodes/quant10_ptq_vs_qat/brief.md)
+- `python scripts/render.py quant10 --preview` → `exports/quant10_preview.mp4`
+- `python scripts/render.py quant10` → `exports/quant10.mp4`
+- Quantization 11 **1비트까지 줄이면 무엇을 잃고, 무엇이 남을까?** — 60초, 1부 완결편. 실수 weight의 magnitude가 direction/selection으로 축약되는 의미를 중심으로, activation과 weight가 모두 binary일 때 dot product가 XNOR와 match count로 바뀌는 구조와 ternary의 add/subtract/ignore 의미를 보여줍니다.
+- [11편 대본](episodes/quant11_binary_ternary/narration.md) · [11편 제작 기준](episodes/quant11_binary_ternary/brief.md)
+- `python scripts/render.py quant11 --preview` → `exports/quant11_preview.mp4`
+- `python scripts/render.py quant11` → `exports/quant11.mp4`
+
 ## FlashAttention — 계산보다 데이터를 움직이는 방법
 
 - FlashAttention 01 **Attention은 무엇을 저장하고 있을까?** — 64초, 1080×1920, 30fps, 무음. 표준적인 materialized Attention이 `S = QKᵀ`, `P = softmax(S)`의 `N × N` 중간 결과를 만들고 HBM에 쓰고 읽는 흐름을 보여준 뒤, 같은 출력 `O`를 유지하면서 저장을 피할 수 있는지 묻습니다.
 - [대본](episodes/flash01_attention_storage/narration.md) · [제작 기준](episodes/flash01_attention_storage/brief.md)
 - `python scripts/render.py flash01 --preview` → `exports/flash01_preview.mp4`
 - `python scripts/render.py flash01` → `exports/flash01.mp4`
+- FlashAttention 02 **계산보다 데이터 이동이 문제라면?** — 72초. 동일한 Attention 수학을 유지한 채 materialized 경로의 HBM 왕복과 tile 기반 on-chip working set을 대비합니다. 마지막에는 전체 score가 필요해 보이는 Softmax 문제를 3편으로 넘깁니다.
+- [2편 대본](episodes/flash02_io_awareness/narration.md) · [2편 제작 기준](episodes/flash02_io_awareness/brief.md)
+- `python scripts/render.py flash02 --preview` → `exports/flash02_preview.mp4`
+- `python scripts/render.py flash02` → `exports/flash02.mp4`
+- FlashAttention 03 **전체를 저장하지 않고 Softmax할 수 있을까?** — 78초. 세 score block을 순서대로 보며 running max `m`과 지수합 `ℓ`을 갱신하고, 최댓값이 바뀔 때 기존 합을 새 기준으로 rescale하는 online softmax의 핵심을 보여줍니다.
+- [3편 대본](episodes/flash03_online_softmax/narration.md) · [3편 제작 기준](episodes/flash03_online_softmax/brief.md)
+- `python scripts/render.py flash03 --preview` → `exports/flash03_preview.mp4`
+- `python scripts/render.py flash03` → `exports/flash03.mp4`
+- FlashAttention 04 **Attention 출력도 바로 누적할 수 있을까?** — 80초. Key/Value tile을 함께 처리하며 online softmax의 `m,ℓ`과 정규화된 output state `O`를 동시에 갱신하고, full Attention과 같은 결과를 얻는 과정을 보여줍니다.
+- [4편 대본](episodes/flash04_output_accumulator/narration.md) · [4편 제작 기준](episodes/flash04_output_accumulator/brief.md)
+- `python scripts/render.py flash04 --preview` → `exports/flash04_preview.mp4`
+- `python scripts/render.py flash04` → `exports/flash04.mp4`
+- FlashAttention 05 **FlashAttention은 무엇을 바꾼 걸까?** — 84초 완결편. Standard의 S/P materialization과 HBM 왕복을 FlashAttention의 tiling, on-chip `m,ℓ,O` state와 나란히 비교하고 두 경로가 같은 exact output에 도달함을 보여줍니다.
+- [완결편 대본](episodes/flash05_finale/narration.md) · [완결편 제작 기준](episodes/flash05_finale/brief.md)
+- `python scripts/render.py flash05 --preview` → `exports/flash05_preview.mp4`
+- `python scripts/render.py flash05` → `exports/flash05.mp4`
 
 ## EML — 하나의 primitive로 만드는 계산
 
