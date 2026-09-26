@@ -70,6 +70,10 @@ EPISODES["prune01"] = ("episodes/prune01_zero_weights/scene.py", "ZeroWeights")
 EPISODES["prune02"] = ("episodes/prune02_why_not_10x/scene.py", "WhyNotTenTimes")
 EPISODES["prune03"] = ("episodes/prune03_why_2_4/scene.py", "WhyTwoOfFour")
 EPISODES["prune04"] = ("episodes/prune04_hardware_aware/scene.py", "HardwareAwareOptimization")
+EPISODES["gpuops01"] = ("episodes/gpuops01_fma/scene.py", "GPUFMAIntroduction")
+EPISODES["gpuops02"] = ("episodes/gpuops02_constant_folding/scene.py", "GPUConstantFolding")
+EPISODES["gpuops03"] = ("episodes/gpuops03_loop_unrolling/scene.py", "GPULoopUnrolling")
+EPISODES["gpuops04"] = ("episodes/gpuops04_warp_scheduling/scene.py", "GPUWarpScheduling")
 
 def main():
     p = argparse.ArgumentParser()

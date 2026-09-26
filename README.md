@@ -1,5 +1,26 @@
 # Activation Function Series
 
+## 현재 체크아웃에서 제작 가능한 GPU 연산과 최적화 시리즈
+
+- GPU 연산과 최적화 01 **곱셈과 덧셈을 적었는데, GPU는 FMA를 실행한다** — 73초, 1080×1920, 30fps, 무음. CUDA source의 `a*b+c`가 조건에 따라 FMA로 contraction될 수 있으며 반올림 결과도 달라질 수 있음을 보여줍니다.
+- 실제 파일: [장면](episodes/gpuops01_fma/scene.py) · [대본](episodes/gpuops01_fma/narration.md) · [제작 기준](episodes/gpuops01_fma/brief.md) · [자막](episodes/gpuops01_fma/captions.srt) · [TTS](episodes/gpuops01_fma/tts_script.txt)
+- 미리보기: `python scripts/render.py gpuops01 --preview` → `exports/gpuops01_preview.mp4`
+- 최종본: `python scripts/render.py gpuops01` → `exports/gpuops01.mp4`
+- GPU 연산과 최적화 02 **GPU가 계산하기도 전에 끝난 계산** — 90초, 1080×1920, 30fps, 무음. `2.0f * 3.0f`가 컴파일 때 `6.0f`로 접히는 흐름과 compile time / runtime의 경계를 보여줍니다.
+- 실제 파일: [장면](episodes/gpuops02_constant_folding/scene.py) · [대본](episodes/gpuops02_constant_folding/narration.md) · [제작 기준](episodes/gpuops02_constant_folding/brief.md) · [자막](episodes/gpuops02_constant_folding/captions.srt) · [TTS](episodes/gpuops02_constant_folding/tts_script.txt)
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py gpuops02 --preview` → `exports/gpuops02_preview.mp4`
+- 최종본: `.\.venv\Scripts\python.exe scripts/render.py gpuops02` → `exports/gpuops02.mp4`
+- GPU 연산과 최적화 03 **반복문을 없애면 왜 빨라질까?** — 84초, 1080×1920, 30fps, 무음. Loop Unrolling으로 네 반복이 드러나면 명령 배치와 FMA contraction의 기회가 생기지만, 코드 크기와 레지스터 사용량의 비용도 고려해야 함을 보여줍니다.
+- 실제 파일: [장면](episodes/gpuops03_loop_unrolling/scene.py) · [대본](episodes/gpuops03_loop_unrolling/narration.md) · [제작 기준](episodes/gpuops03_loop_unrolling/brief.md) · [자막](episodes/gpuops03_loop_unrolling/captions.srt) · [TTS](episodes/gpuops03_loop_unrolling/tts_script.txt)
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py gpuops03 --preview` → `exports/gpuops03_preview.mp4`
+- 최종본: `.\.venv\Scripts\python.exe scripts/render.py gpuops03` → `exports/gpuops03.mp4`
+- GPU 연산과 최적화 04 **GPU는 코드를 어떤 순서로 실행할까?** — 108초, 1080×1920, 30fps, 무음. Thread 32개로 이루어진 Warp, 공통 FMA 명령, 준비된 Warp를 선택해 메모리 지연을 숨기는 실행과 컴파일 시점 명령 배치의 차이를 보여줍니다.
+- 실제 파일: [장면](episodes/gpuops04_warp_scheduling/scene.py) · [대본](episodes/gpuops04_warp_scheduling/narration.md) · [제작 기준](episodes/gpuops04_warp_scheduling/brief.md) · [자막](episodes/gpuops04_warp_scheduling/captions.srt) · [TTS](episodes/gpuops04_warp_scheduling/tts_script.txt)
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py gpuops04 --preview` → `exports/gpuops04_preview.mp4`
+- 최종본: `.\.venv\Scripts\python.exe scripts/render.py gpuops04` → `exports/gpuops04.mp4`
+
+> 아래 목록에는 현재 체크아웃에 소스가 없는 과거 시리즈 기록도 포함되어 있습니다. 렌더 전에 실제 파일을 확인하세요.
+
 ## Pruning & Sparsity — 신경망은 어떻게 더 가볍고 빠르게 계산될까?
 
 - Pruning & Sparsity 01 **Weight를 0으로 만들면 정말 빨라질까?** — 50초, 1080×1920, 30fps, 무음. 작은 Weight를 제거해 Dense 행렬이 Sparse 행렬로 바뀌는 과정을 보여주고, `x × 0 = 0`에서 출발해 `90% PRUNED → 10× FASTER?`라는 질문을 남깁니다.
