@@ -1,5 +1,12 @@
 # Activation Function Series
 
+## 신경망의 수학
+
+- 신경망의 수학 01 **왜 모델은 필요 이상으로 큰 학습 공간에서 움직일까?** — 112초, 1080×1920, 30fps, 무음. 무작위 부분공간에서 `θ = θ₀ + Pφ`로 학습 가능한 자유도만 제한하는 실험을 통해 parameter count와 intrinsic dimension의 차이를 보여주고, 좋은 해의 기하학과 overparameterization에 대한 질문을 엽니다.
+- 실제 파일: [장면](episodes/nnmath01_intrinsic_dimension/scene.py) · [대본](episodes/nnmath01_intrinsic_dimension/narration.md) · [제작 기준](episodes/nnmath01_intrinsic_dimension/brief.md) · [자막](episodes/nnmath01_intrinsic_dimension/captions.srt) · [TTS](episodes/nnmath01_intrinsic_dimension/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath01 --preview` → `exports/nnmath01_preview.mp4`
+- 최종본: `python scripts/render.py nnmath01` → `exports/nnmath01.mp4`
+
 ## 현재 체크아웃에서 제작 가능한 GPU 연산과 최적화 시리즈
 
 - GPU 연산과 최적화 01 **곱셈과 덧셈을 적었는데, GPU는 FMA를 실행한다** — 73초, 1080×1920, 30fps, 무음. CUDA source의 `a*b+c`가 조건에 따라 FMA로 contraction될 수 있으며 반올림 결과도 달라질 수 있음을 보여줍니다.
@@ -18,6 +25,22 @@
 - 실제 파일: [장면](episodes/gpuops04_warp_scheduling/scene.py) · [대본](episodes/gpuops04_warp_scheduling/narration.md) · [제작 기준](episodes/gpuops04_warp_scheduling/brief.md) · [자막](episodes/gpuops04_warp_scheduling/captions.srt) · [TTS](episodes/gpuops04_warp_scheduling/tts_script.txt)
 - 미리보기: `.\.venv\Scripts\python.exe scripts/render.py gpuops04 --preview` → `exports/gpuops04_preview.mp4`
 - 최종본: `.\.venv\Scripts\python.exe scripts/render.py gpuops04` → `exports/gpuops04.mp4`
+- GPU 연산과 최적화 05 **행렬곱 뒤의 연산은 왜 합칠 수 있을까?** — 112초, 1080×1920, 30fps, 무음. Thread/Warp가 accumulator/register 상태로 가지고 있는 출력 일부에 원소별 Bias와 ReLU를 연속 적용하고, 그 결과로 중간 materialization을 피하는 Epilogue Fusion을 화면 내 설명 자막과 함께 보여줍니다.
+- 실제 파일: [장면](episodes/gpuops05_epilogue_fusion/scene.py) · [대본](episodes/gpuops05_epilogue_fusion/narration.md) · [제작 기준](episodes/gpuops05_epilogue_fusion/brief.md) · [자막](episodes/gpuops05_epilogue_fusion/captions.srt) · [TTS](episodes/gpuops05_epilogue_fusion/tts_script.txt)
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py gpuops05 --preview` → `exports/gpuops05_preview.mp4`
+- 최종본: `.\.venv\Scripts\python.exe scripts/render.py gpuops05` → `exports/gpuops05.mp4`
+- GPU 연산과 최적화 06 **여러 값이 필요한 연산도 합칠 수 있을까?** — 90초, 1080×1920, 30fps, 무음. ReLU 결과 Tensor 전체를 materialize하는 대신 생성되는 값을 partial reduction state에 반영하고, 병렬 partial result를 merge하는 Reduction Fusion을 설명합니다.
+- 실제 파일: [장면](episodes/gpuops06_reduction_fusion/scene.py) · [대본](episodes/gpuops06_reduction_fusion/narration.md) · [제작 기준](episodes/gpuops06_reduction_fusion/brief.md) · [자막](episodes/gpuops06_reduction_fusion/captions.srt) · [TTS](episodes/gpuops06_reduction_fusion/tts_script.txt)
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py gpuops06 --preview` → `exports/gpuops06_preview.mp4`
+- 최종본: `.\.venv\Scripts\python.exe scripts/render.py gpuops06` → `exports/gpuops06.mp4`
+- GPU 연산과 최적화 07 **Softmax는 왜 하나의 Kernel이 될 수 있을까?** — 90초, 1080×1920, 30fps, 무음. 안정적인 Softmax를 `MAX → SUB → EXP → SUM → DIV`로 펼치고, reduction 상태 `m`, `ℓ`와 원소별 데이터를 유지하거나 다시 읽으며 여러 단계를 한 Kernel 안에서 연결하는 구조를 설명합니다.
+- 실제 파일: [장면](episodes/gpuops07_softmax_fusion/scene.py) · [대본](episodes/gpuops07_softmax_fusion/narration.md) · [제작 기준](episodes/gpuops07_softmax_fusion/brief.md) · [자막](episodes/gpuops07_softmax_fusion/captions.srt) · [TTS](episodes/gpuops07_softmax_fusion/tts_script.txt)
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py gpuops07 --preview` → `exports/gpuops07_preview.mp4`
+- 최종본: `.\.venv\Scripts\python.exe scripts/render.py gpuops07` → `exports/gpuops07.mp4`
+- GPU 연산과 최적화 08 **왜 모든 연산을 하나로 합치지 않을까?** — 90초, 1080×1920, 30fps, 무음. Fusion이 제거한 materialization 대신 live value를 Register에 유지해야 하며, 겹치는 lifetime이 register pressure와 resident warp 수에 영향을 줄 수 있다는 trade-off를 설명합니다.
+- 실제 파일: [장면](episodes/gpuops08_register_pressure/scene.py) · [대본](episodes/gpuops08_register_pressure/narration.md) · [제작 기준](episodes/gpuops08_register_pressure/brief.md) · [자막](episodes/gpuops08_register_pressure/captions.srt) · [TTS](episodes/gpuops08_register_pressure/tts_script.txt)
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py gpuops08 --preview` → `exports/gpuops08_preview.mp4`
+- 최종본: `.\.venv\Scripts\python.exe scripts/render.py gpuops08` → `exports/gpuops08.mp4`
 
 > 아래 목록에는 현재 체크아웃에 소스가 없는 과거 시리즈 기록도 포함되어 있습니다. 렌더 전에 실제 파일을 확인하세요.
 

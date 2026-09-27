@@ -74,6 +74,11 @@ EPISODES["gpuops01"] = ("episodes/gpuops01_fma/scene.py", "GPUFMAIntroduction")
 EPISODES["gpuops02"] = ("episodes/gpuops02_constant_folding/scene.py", "GPUConstantFolding")
 EPISODES["gpuops03"] = ("episodes/gpuops03_loop_unrolling/scene.py", "GPULoopUnrolling")
 EPISODES["gpuops04"] = ("episodes/gpuops04_warp_scheduling/scene.py", "GPUWarpScheduling")
+EPISODES["gpuops05"] = ("episodes/gpuops05_epilogue_fusion/scene.py", "GPUEpilogueFusion")
+EPISODES["gpuops06"] = ("episodes/gpuops06_reduction_fusion/scene.py", "GPUReductionFusion")
+EPISODES["gpuops07"] = ("episodes/gpuops07_softmax_fusion/scene.py", "GPUSoftmaxFusion")
+EPISODES["gpuops08"] = ("episodes/gpuops08_register_pressure/scene.py", "GPURegisterPressure")
+EPISODES["nnmath01"] = ("episodes/nnmath01_intrinsic_dimension/scene.py", "NeuralMathIntrinsicDimension")
 
 def main():
     p = argparse.ArgumentParser()
