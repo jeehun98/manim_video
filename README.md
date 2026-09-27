@@ -6,6 +6,10 @@
 - 실제 파일: [장면](episodes/nnmath01_intrinsic_dimension/scene.py) · [대본](episodes/nnmath01_intrinsic_dimension/narration.md) · [제작 기준](episodes/nnmath01_intrinsic_dimension/brief.md) · [자막](episodes/nnmath01_intrinsic_dimension/captions.srt) · [TTS](episodes/nnmath01_intrinsic_dimension/tts_script.txt)
 - 미리보기: `python scripts/render.py nnmath01 --preview` → `exports/nnmath01_preview.mp4`
 - 최종본: `python scripts/render.py nnmath01` → `exports/nnmath01.mp4`
+- 신경망의 수학 02 **왜 더 큰 공간에서 답을 찾는 것이 쉬울까?** — 116초, 1080×1920, 30fps, 무음. 고립된 점과 연속적인 해 집합을 대비하고, 독립 제약 수가 유지될 때 여분의 파라미터가 해 집합의 자유도를 늘릴 수 있다는 overparameterization의 기하학적 직관을 설명합니다.
+- 실제 파일: [장면](episodes/nnmath02_overparameterization_geometry/scene.py) · [대본](episodes/nnmath02_overparameterization_geometry/narration.md) · [제작 기준](episodes/nnmath02_overparameterization_geometry/brief.md) · [자막](episodes/nnmath02_overparameterization_geometry/captions.srt) · [TTS](episodes/nnmath02_overparameterization_geometry/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath02 --preview` → `exports/nnmath02_preview.mp4`
+- 최종본: `python scripts/render.py nnmath02` → `exports/nnmath02.mp4`
 
 ## 현재 체크아웃에서 제작 가능한 GPU 연산과 최적화 시리즈
 

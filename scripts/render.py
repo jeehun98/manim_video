@@ -79,6 +79,7 @@ EPISODES["gpuops06"] = ("episodes/gpuops06_reduction_fusion/scene.py", "GPUReduc
 EPISODES["gpuops07"] = ("episodes/gpuops07_softmax_fusion/scene.py", "GPUSoftmaxFusion")
 EPISODES["gpuops08"] = ("episodes/gpuops08_register_pressure/scene.py", "GPURegisterPressure")
 EPISODES["nnmath01"] = ("episodes/nnmath01_intrinsic_dimension/scene.py", "NeuralMathIntrinsicDimension")
+EPISODES["nnmath02"] = ("episodes/nnmath02_overparameterization_geometry/scene.py", "NeuralMathOverparameterization")
 
 def main():
     p = argparse.ArgumentParser()
