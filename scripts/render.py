@@ -80,6 +80,16 @@ EPISODES["gpuops07"] = ("episodes/gpuops07_softmax_fusion/scene.py", "GPUSoftmax
 EPISODES["gpuops08"] = ("episodes/gpuops08_register_pressure/scene.py", "GPURegisterPressure")
 EPISODES["nnmath01"] = ("episodes/nnmath01_intrinsic_dimension/scene.py", "NeuralMathIntrinsicDimension")
 EPISODES["nnmath02"] = ("episodes/nnmath02_overparameterization_geometry/scene.py", "NeuralMathOverparameterization")
+EPISODES["nnmath03"] = ("episodes/nnmath03_parameter_symmetry/scene.py", "NeuralMathParameterSymmetry")
+EPISODES["nnmath04"] = ("episodes/nnmath04_mode_connectivity/scene.py", "NeuralMathModeConnectivity")
+EPISODES["nnmath05"] = ("episodes/nnmath05_hessian_spectrum/scene.py", "NeuralMathHessianSpectrum")
+EPISODES["nnmath06"] = ("episodes/nnmath06_flatness_generalization/scene.py", "NeuralMathFlatnessGeneralization")
+EPISODES["nnmath07"] = ("episodes/nnmath07_double_descent/scene.py", "NeuralMathDoubleDescent")
+EPISODES["nnmath08"] = ("episodes/nnmath08_optimization_implicit_bias/scene.py", "NeuralMathOptimizationImplicitBias")
+EPISODES["nnmath09"] = ("episodes/nnmath09_beyond_loss_value/scene.py", "NeuralMathBeyondLossValue")
+EPISODES["nnmath10"] = ("episodes/nnmath10_overparameterization_compressibility/scene.py", "NeuralMathOverparameterizationCompressibility")
+EPISODES["nnmath11"] = ("episodes/nnmath11_series_finale/scene.py", "NeuralMathSeriesFinale")
+EPISODES["dist01"] = ("episodes/dist01_what_is_distribution/scene.py", "WhatIsDistribution")
 
 def main():
     p = argparse.ArgumentParser()

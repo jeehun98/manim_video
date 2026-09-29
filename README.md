@@ -1,5 +1,12 @@
 # Activation Function Series
 
+## 분포의 수학
+
+- 분포의 수학 01 **분포는 무엇을 나타내는가?** — 72초, 1080×1920, 30fps, 무음. 여섯 관측값을 값 공간에 모아 경험적 확률을 만든 뒤, 분포를 가능한 값에 놓인 확률의 구조로 소개합니다. 마지막에는 분포의 중심을 묻습니다.
+- 실제 파일: [장면](episodes/dist01_what_is_distribution/scene.py) · [대본](episodes/dist01_what_is_distribution/narration.md) · [제작 기준](episodes/dist01_what_is_distribution/brief.md) · [자막](episodes/dist01_what_is_distribution/captions.srt) · [TTS](episodes/dist01_what_is_distribution/tts_script.txt)
+- 미리보기: `python scripts/render.py dist01 --preview` → `exports/dist01_preview.mp4`
+- 최종본: `python scripts/render.py dist01` → `exports/dist01.mp4`
+
 ## 신경망의 수학
 
 - 신경망의 수학 01 **왜 모델은 필요 이상으로 큰 학습 공간에서 움직일까?** — 112초, 1080×1920, 30fps, 무음. 무작위 부분공간에서 `θ = θ₀ + Pφ`로 학습 가능한 자유도만 제한하는 실험을 통해 parameter count와 intrinsic dimension의 차이를 보여주고, 좋은 해의 기하학과 overparameterization에 대한 질문을 엽니다.
@@ -10,6 +17,42 @@
 - 실제 파일: [장면](episodes/nnmath02_overparameterization_geometry/scene.py) · [대본](episodes/nnmath02_overparameterization_geometry/narration.md) · [제작 기준](episodes/nnmath02_overparameterization_geometry/brief.md) · [자막](episodes/nnmath02_overparameterization_geometry/captions.srt) · [TTS](episodes/nnmath02_overparameterization_geometry/tts_script.txt)
 - 미리보기: `python scripts/render.py nnmath02 --preview` → `exports/nnmath02_preview.mp4`
 - 최종본: `python scripts/render.py nnmath02` → `exports/nnmath02.mp4`
+- 신경망의 수학 03 **백만 개의 파라미터가 정말 백만 개의 역할을 할까? — Parameter Symmetry** — 132초, 1080×1920, 30fps, 무음. 두 단계 곱셈 모델의 `w₁w₂=6` 곡선으로 서로 다른 파라미터가 같은 함수를 만들 수 있음을 보여줍니다. 구간 길이는 1분 58초 TTS의 대본 분량에 비례해 조정했습니다.
+- 실제 파일: [장면](episodes/nnmath03_parameter_symmetry/scene.py) · [대본](episodes/nnmath03_parameter_symmetry/narration.md) · [제작 기준](episodes/nnmath03_parameter_symmetry/brief.md) · [자막](episodes/nnmath03_parameter_symmetry/captions.srt) · [TTS](episodes/nnmath03_parameter_symmetry/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath03 --preview` → `exports/nnmath03_preview.mp4`
+- 최종본: `python scripts/render.py nnmath03` → `exports/nnmath03.mp4`
+- 신경망의 수학 04 **서로 다른 두 신경망 사이에도 정답이 있을까? — Mode Connectivity** — 114초, 1080×1920, 30fps, 무음. 두 좋은 해를 직선으로 섞어 Loss 장벽을 확인한 뒤, 우회하는 저손실 경로를 찾는 실험을 보여줍니다. 1분 51초 TTS 길이에 맞춰 구간별 대본 분량으로 전환 시간을 조정했습니다.
+- 실제 파일: [장면](episodes/nnmath04_mode_connectivity/scene.py) · [대본](episodes/nnmath04_mode_connectivity/narration.md) · [제작 기준](episodes/nnmath04_mode_connectivity/brief.md) · [자막](episodes/nnmath04_mode_connectivity/captions.srt) · [TTS](episodes/nnmath04_mode_connectivity/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath04 --preview` → `exports/nnmath04_preview.mp4`
+- 최종본: `python scripts/render.py nnmath04` → `exports/nnmath04.mp4`
+- 신경망의 수학 05 **좋은 해의 주변은 어떤 모양일까? — Hessian Spectrum** — 84초, 1080×1920, 30fps, 무음. 저손실 경로 위 한 해의 방향별 곡률을 비교하고 Hessian 고유값 분포로 읽습니다.
+- 실제 파일: [장면](episodes/nnmath05_hessian_spectrum/scene.py) · [대본](episodes/nnmath05_hessian_spectrum/narration.md) · [제작 기준](episodes/nnmath05_hessian_spectrum/brief.md) · [자막](episodes/nnmath05_hessian_spectrum/captions.srt) · [TTS](episodes/nnmath05_hessian_spectrum/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath05 --preview` → `exports/nnmath05_preview.mp4`
+- 최종본: `python scripts/render.py nnmath05` → `exports/nnmath05.mp4`
+- 신경망의 수학 06 **평평한 해가 정말 더 좋은 모델일까? — Flatness vs Generalization** — 97초, 1080×1920, 30fps, 무음. Flatness의 국소 안정성과 좌표 의존성이 충돌하는 실험을 통해 측정 기준의 선택을 묻습니다. 1분 33초 TTS 길이에 맞춰 장면별 대본 분량으로 전환 시간을 조정했습니다.
+- 실제 파일: [장면](episodes/nnmath06_flatness_generalization/scene.py) · [대본](episodes/nnmath06_flatness_generalization/narration.md) · [제작 기준](episodes/nnmath06_flatness_generalization/brief.md) · [자막](episodes/nnmath06_flatness_generalization/captions.srt) · [TTS](episodes/nnmath06_flatness_generalization/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath06 --preview` → `exports/nnmath06_preview.mp4`
+- 최종본: `python scripts/render.py nnmath06` → `exports/nnmath06.mp4`
+- 신경망의 수학 07 **모델은 클수록 과적합된다? 실제로는 다시 좋아질 수 있습니다 — Double Descent** — 106초, 1080×1920, 30fps, 무음. U자형 과적합 직관을 더 큰 모델 범위로 확장했을 때 나타날 수 있는 두 번째 Test Error 하강을 보여줍니다.
+- 실제 파일: [장면](episodes/nnmath07_double_descent/scene.py) · [대본](episodes/nnmath07_double_descent/narration.md) · [제작 기준](episodes/nnmath07_double_descent/brief.md) · [자막](episodes/nnmath07_double_descent/captions.srt) · [TTS](episodes/nnmath07_double_descent/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath07 --preview` → `exports/nnmath07_preview.mp4`
+- 최종본: `python scripts/render.py nnmath07` → `exports/nnmath07.mp4`
+- 신경망의 수학 08 **좋은 답이 존재해도 학습하지 못할 수 있을까? — Optimization & Implicit Bias** — 96초, 1080×1920, 30fps, 무음. 표현 가능·도달 가능·실제로 선택됨을 구별하고 optimizer의 암묵적 편향을 소개합니다. 1분 34초 TTS 길이에 맞춰 구간별 대본 분량으로 전환 시간을 조정했습니다.
+- 실제 파일: [장면](episodes/nnmath08_optimization_implicit_bias/scene.py) · [대본](episodes/nnmath08_optimization_implicit_bias/narration.md) · [제작 기준](episodes/nnmath08_optimization_implicit_bias/brief.md) · [자막](episodes/nnmath08_optimization_implicit_bias/captions.srt) · [TTS](episodes/nnmath08_optimization_implicit_bias/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath08 --preview` → `exports/nnmath08_preview.mp4`
+- 최종본: `python scripts/render.py nnmath08` → `exports/nnmath08.mp4`
+- 신경망의 수학 09 **Loss가 같다면 어떤 해가 더 좋을까? — Beyond the Loss Value** — 93초, 1080×1920, 30fps, 무음. 동률인 Training Loss에서 주변 안정성을 시험하고 좌표 의존성을 확인한 뒤 실제 함수 변화로 평가 관점을 넓힙니다.
+- 실제 파일: [장면](episodes/nnmath09_beyond_loss_value/scene.py) · [대본](episodes/nnmath09_beyond_loss_value/narration.md) · [제작 기준](episodes/nnmath09_beyond_loss_value/brief.md) · [자막](episodes/nnmath09_beyond_loss_value/captions.srt) · [TTS](episodes/nnmath09_beyond_loss_value/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath09 --preview` → `exports/nnmath09_preview.mp4`
+- 최종본: `python scripts/render.py nnmath09` → `exports/nnmath09.mp4`
+- 신경망의 수학 10 **작게 만들 수 있는데 왜 처음부터 크게 학습할까? — Overparameterization & Compressibility** — 87초, 1080×1920, 30fps, 무음. 큰 모델에서 답을 찾는 과정과 찾은 답을 작게 표현하는 과정을 구별하고, 압축에는 보존할 동작의 선택이 중요함을 보여줍니다.
+- 실제 파일: [장면](episodes/nnmath10_overparameterization_compressibility/scene.py) · [대본](episodes/nnmath10_overparameterization_compressibility/narration.md) · [제작 기준](episodes/nnmath10_overparameterization_compressibility/brief.md) · [자막](episodes/nnmath10_overparameterization_compressibility/captions.srt) · [TTS](episodes/nnmath10_overparameterization_compressibility/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath10 --preview` → `exports/nnmath10_preview.mp4`
+- 최종본: `python scripts/render.py nnmath10` → `exports/nnmath10.mp4`
+- 신경망의 수학 11 **왜 신경망은 문제보다 훨씬 클까? — From Parameter Space to Learned Solution** — 86초, 1080×1920, 30fps, 무음. 앞선 10편의 해의 구조·대칭·학습 경로·압축 가능성을 처음 질문으로 모아 시리즈를 마무리합니다.
+- 실제 파일: [장면](episodes/nnmath11_series_finale/scene.py) · [대본](episodes/nnmath11_series_finale/narration.md) · [제작 기준](episodes/nnmath11_series_finale/brief.md) · [자막](episodes/nnmath11_series_finale/captions.srt) · [TTS](episodes/nnmath11_series_finale/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath11 --preview` → `exports/nnmath11_preview.mp4`
+- 최종본: `python scripts/render.py nnmath11` → `exports/nnmath11.mp4`
 
 ## 현재 체크아웃에서 제작 가능한 GPU 연산과 최적화 시리즈
 
