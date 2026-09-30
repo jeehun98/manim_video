@@ -2,10 +2,94 @@
 
 ## 분포의 수학
 
-- 분포의 수학 01 **분포는 무엇을 나타내는가?** — 72초, 1080×1920, 30fps, 무음. 여섯 관측값을 값 공간에 모아 경험적 확률을 만든 뒤, 분포를 가능한 값에 놓인 확률의 구조로 소개합니다. 마지막에는 분포의 중심을 묻습니다.
+- 분포의 수학 01 **분포는 무엇을 나타내는가?** — 52초, 1080×1920, 30fps, 무음. 여섯 관측값을 값 공간에 모아 경험적 확률을 만든 뒤, 분포를 가능한 값에 놓인 확률의 구조로 소개합니다. 미지의 생성 분포와 경험적 분포를 구별하고 마지막에는 분포의 중심을 묻습니다.
 - 실제 파일: [장면](episodes/dist01_what_is_distribution/scene.py) · [대본](episodes/dist01_what_is_distribution/narration.md) · [제작 기준](episodes/dist01_what_is_distribution/brief.md) · [자막](episodes/dist01_what_is_distribution/captions.srt) · [TTS](episodes/dist01_what_is_distribution/tts_script.txt)
 - 미리보기: `python scripts/render.py dist01 --preview` → `exports/dist01_preview.mp4`
 - 최종본: `python scripts/render.py dist01` → `exports/dist01.mp4`
+- 분포의 수학 02 **분포의 중심은 어디일까?** — 70초, 1080×1920, 30fps, 무음. 최빈값·중앙값·평균을 대칭 분포에서 소개하고, 먼 값과 비대칭 분포로 세 중심의 차이를 보여줍니다. 같은 평균에도 퍼짐이 다를 수 있다는 질문으로 마칩니다.
+- 실제 파일: [장면](episodes/dist02_where_is_center/scene.py) · [대본](episodes/dist02_where_is_center/narration.md) · [제작 기준](episodes/dist02_where_is_center/brief.md) · [자막](episodes/dist02_where_is_center/captions.srt) · [TTS](episodes/dist02_where_is_center/tts_script.txt)
+- 미리보기: `python scripts/render.py dist02 --preview` → `exports/dist02_preview.mp4`
+- 최종본: `python scripts/render.py dist02` → `exports/dist02.mp4`
+- 분포의 수학 03 **분산은 무엇을 측정하는가?** — 49초, 1080×1920, 30fps, 무음. 평균이 같은 두 분포의 거리 차이에서 시작해 편차의 상쇄, 제곱, 확률가중 평균으로 분산을 설명합니다. 같은 평균과 분산에도 다른 모양이 가능하다는 질문으로 마칩니다.
+- 실제 파일: [장면](episodes/dist03_what_is_variance/scene.py) · [대본](episodes/dist03_what_is_variance/narration.md) · [제작 기준](episodes/dist03_what_is_variance/brief.md) · [자막](episodes/dist03_what_is_variance/captions.srt) · [TTS](episodes/dist03_what_is_variance/tts_script.txt)
+- 미리보기: `python scripts/render.py dist03 --preview` → `exports/dist03_preview.mp4`
+- 최종본: `python scripts/render.py dist03` → `exports/dist03.mp4`
+- 분포의 수학 04 **같은 평균과 분산이면 같은 분포일까?** — 43초, 1080×1920, 30fps, 무음. 단봉형과 양봉형 이산 분포가 모두 `μ=0`, `σ²=1`인 예시로 두 숫자가 분포를 압축한 요약일 뿐임을 보여주고, 두 변수 데이터로 다음 질문을 엽니다.
+- 실제 파일: [장면](episodes/dist04_same_mean_variance/scene.py) · [대본](episodes/dist04_same_mean_variance/narration.md) · [제작 기준](episodes/dist04_same_mean_variance/brief.md) · [자막](episodes/dist04_same_mean_variance/captions.srt) · [TTS](episodes/dist04_same_mean_variance/tts_script.txt)
+- 미리보기: `python scripts/render.py dist04 --preview` → `exports/dist04_preview.mp4`
+- 최종본: `python scripts/render.py dist04` → `exports/dist04.mp4`
+- 분포의 수학 05 **두 변수를 동시에 보면 무엇이 달라질까?** — 46초 목표, 1080×1920, 30fps, 무음. 키·몸무게 관측값을 평면의 점으로 놓고, 개별 분포가 똑같아도 짝짓기에 따라 점구름의 방향이 달라짐을 보여줍니다. 공분산 질문으로 마칩니다.
+- 실제 파일: [장면](episodes/dist05_two_variables/scene.py) · [대본](episodes/dist05_two_variables/narration.md) · [제작 기준](episodes/dist05_two_variables/brief.md) · [자막](episodes/dist05_two_variables/captions.srt) · [TTS](episodes/dist05_two_variables/tts_script.txt)
+- 미리보기: `python scripts/render.py dist05 --preview` → `exports/dist05_preview.mp4`
+- 최종본: `python scripts/render.py dist05` → `exports/dist05.mp4`
+- 분포의 수학 06 **두 값이 같이 움직인다는 것은 무슨 뜻일까?** — 49초 목표, 1080×1920, 30fps, 무음. 두 평균에서의 편차 부호를 곱해 공분산의 양수·음수·0을 설명하고, 같은 길쭉한 점구름을 회전해 공분산과 기울기의 관계를 묻습니다.
+- 실제 파일: [장면](episodes/dist06_covariance/scene.py) · [대본](episodes/dist06_covariance/narration.md) · [제작 기준](episodes/dist06_covariance/brief.md) · [자막](episodes/dist06_covariance/captions.srt) · [TTS](episodes/dist06_covariance/tts_script.txt)
+- 미리보기: `python scripts/render.py dist06 --preview` → `exports/dist06_preview.mp4`
+- 최종본: `python scripts/render.py dist06` → `exports/dist06.mp4`
+- 분포의 수학 07 **공분산이 바뀌면 왜 분포가 기울어질까?** — 49초 목표, 1080×1920, 30fps, 무음. 두 변수의 분산을 각각 1로 고정하고 공분산만 바꾸며 점구름의 대각선 방향을 보여준 뒤 공분산 행렬로 묶습니다.
+- 실제 파일: [장면](episodes/dist07_covariance_direction/scene.py) · [대본](episodes/dist07_covariance_direction/narration.md) · [제작 기준](episodes/dist07_covariance_direction/brief.md) · [자막](episodes/dist07_covariance_direction/captions.srt) · [TTS](episodes/dist07_covariance_direction/tts_script.txt)
+- 미리보기: `python scripts/render.py dist07 --preview` → `exports/dist07_preview.mp4`
+- 최종본: `python scripts/render.py dist07` → `exports/dist07.mp4`
+- 분포의 수학 08 **행렬 안에서 분포의 방향을 찾을 수 있을까?** — 실제 TTS 길이에 맞춘 42초, 1080×1920, 30fps, 무음. 단위방향으로 점구름을 투영해 분산의 최대점을 찾은 뒤, 그 방향을 공분산 행렬의 최대 고유값에 대응하는 고유벡터로 연결합니다.
+- 실제 파일: [장면](episodes/dist08_eigen_directions/scene.py) · [대본](episodes/dist08_eigen_directions/narration.md) · [제작 기준](episodes/dist08_eigen_directions/brief.md) · [자막](episodes/dist08_eigen_directions/captions.srt) · [TTS](episodes/dist08_eigen_directions/tts_script.txt)
+- 미리보기: `python scripts/render.py dist08 --preview` → `exports/dist08_preview.mp4`
+- 최종본: `python scripts/render.py dist08` → `exports/dist08.mp4`
+- 분포의 수학 09 **왜 퍼짐은 행렬이 되고, PCA로 이어질까?** — 50초 목표, 1080×1920, 30fps, 무음. 1차원 분산에서 방향별 퍼짐, 공분산 행렬, 고유방향, 좌표축 재선택과 PCA를 연결하는 2부 결론편입니다.
+- 실제 파일: [장면](episodes/dist09_pca_finale/scene.py) · [대본](episodes/dist09_pca_finale/narration.md) · [제작 기준](episodes/dist09_pca_finale/brief.md) · [자막](episodes/dist09_pca_finale/captions.srt) · [TTS](episodes/dist09_pca_finale/tts_script.txt)
+- 미리보기: `python scripts/render.py dist09 --preview` → `exports/dist09_preview.mp4`
+- 최종본: `python scripts/render.py dist09` → `exports/dist09.mp4`
+- 분포의 수학 10 **거리의 단위는 분포가 결정할 수 있다 | Mahalanobis Distance** — 50초 목표, 1080×1920, 30fps, 무음. 같은 직선거리의 A·B를 분포와 함께 보여주고, 방향마다 다른 눈금으로 재면 원형 등거리선이 타원형이 되는 장면에서 마할라노비스 거리를 소개합니다.
+- 실제 파일: [장면](episodes/dist10_mahalanobis_distance/scene.py) · [대본](episodes/dist10_mahalanobis_distance/narration.md) · [제작 기준](episodes/dist10_mahalanobis_distance/brief.md) · [자막](episodes/dist10_mahalanobis_distance/captions.srt) · [TTS](episodes/dist10_mahalanobis_distance/tts_script.txt)
+- 미리보기: `python scripts/render.py dist10 --preview` → `exports/dist10_preview.mp4`
+- 최종본: `python scripts/render.py dist10` → `exports/dist10.mp4`
+- 분포의 수학 11 **Gaussian의 타원은 어디서 오는가?** — 50초 목표, 1080×1920, 30fps, 무음. 마할라노비스 등거리선과 Gaussian 등밀도선이 같은 타원인 이유를 거리 제곱과 지수 감쇠로 설명하고 Whitening 질문으로 연결합니다.
+- 실제 파일: [장면](episodes/dist11_gaussian_ellipse/scene.py) · [대본](episodes/dist11_gaussian_ellipse/narration.md) · [제작 기준](episodes/dist11_gaussian_ellipse/brief.md) · [자막](episodes/dist11_gaussian_ellipse/captions.srt) · [TTS](episodes/dist11_gaussian_ellipse/tts_script.txt)
+- 미리보기: `python scripts/render.py dist11 --preview` → `exports/dist11_preview.mp4`
+- 최종본: `python scripts/render.py dist11` → `exports/dist11.mp4`
+- 분포의 수학 12 **모든 Gaussian은 하나의 원에서 만들 수 있을까?** — 50초 목표, 1080×1920, 30fps, 무음. 표준 원형 Gaussian을 늘리고 회전하고 옮겨 `X=AZ+μ`, `AAᵀ=Σ`로 원하는 Gaussian을 생성합니다. 역방향 Whitening을 짧게 회수하고 더 복잡한 분포 생성의 질문으로 마칩니다.
+- 실제 파일: [장면](episodes/dist12_gaussian_generation/scene.py) · [대본](episodes/dist12_gaussian_generation/narration.md) · [제작 기준](episodes/dist12_gaussian_generation/brief.md) · [자막](episodes/dist12_gaussian_generation/captions.srt) · [TTS](episodes/dist12_gaussian_generation/tts_script.txt)
+- 미리보기: `python scripts/render.py dist12 --preview` → `exports/dist12_preview.mp4`
+- 최종본: `python scripts/render.py dist12` → `exports/dist12.mp4`
+
+- 분포의 수학 13, 4부 **하나의 분포를 넘어**: **하나의 Gaussian으로 부족하다면? | Gaussian Mixture Model** — 실제 TTS 41초에 맞춘 영상 43초, 1080×1920, 30fps, 무음. 두 군집 사이의 빈 공간을 단일 Gaussian이 채우는 문제에서 시작해 가중합으로 복잡한 분포를 만들고, 한 점의 성분 소속 확률을 다음 질문으로 남깁니다.
+- 실제 파일: [장면](episodes/dist13_gaussian_mixture/scene.py) · [대본](episodes/dist13_gaussian_mixture/narration.md) · [제작 기준](episodes/dist13_gaussian_mixture/brief.md) · [자막](episodes/dist13_gaussian_mixture/captions.srt) · [TTS](episodes/dist13_gaussian_mixture/tts_script.txt)
+- 미리보기: `python scripts/render.py dist13 --preview` → `exports/dist13_preview.mp4`
+- 최종본: `python scripts/render.py dist13` → `exports/dist13.mp4`
+
+- 분포의 수학 14, 4부 **하나의 분포를 넘어**: **한 점은 반드시 하나의 집단에만 속해야 할까? | Responsibility** — 45초 목표, 1080×1920, 30fps, 무음. 경계 근처의 작은 이동이 하드 배정을 뒤집는 장면에서 시작해 두 성분의 가중 밀도를 `30%/70%` 소속 확률로 정규화하고 잠재 출처의 질문을 남깁니다.
+- 실제 파일: [장면](episodes/dist14_responsibility/scene.py) · [대본](episodes/dist14_responsibility/narration.md) · [제작 기준](episodes/dist14_responsibility/brief.md) · [자막](episodes/dist14_responsibility/captions.srt) · [TTS](episodes/dist14_responsibility/tts_script.txt)
+- 미리보기: `python scripts/render.py dist14 --preview` → `exports/dist14_preview.mp4`
+- 최종본: `python scripts/render.py dist14` → `exports/dist14.mp4`
+
+- 분포의 수학 15, 4부 **하나의 분포를 넘어**: **관측된 데이터 뒤에는 무엇이 숨어 있을까? | Latent Variable** — 실제 TTS 95초에 맞춘 100초 영상, 1080×1920, 30fps, 무음. 14화의 `30%/70%` 관측점에서 시간을 되감아 `z` 선택과 `x` 생성을 보여준 뒤, 관측값에서 숨은 선택을 거꾸로 추론하는 Responsibility와 잠재변수의 의미를 연결합니다. 연속 잠재 요인으로 확장하고 EM의 순환 문제를 남깁니다.
+- 실제 파일: [장면](episodes/dist15_latent_variable/scene.py) · [대본](episodes/dist15_latent_variable/narration.md) · [제작 기준](episodes/dist15_latent_variable/brief.md) · [자막](episodes/dist15_latent_variable/captions.srt) · [TTS](episodes/dist15_latent_variable/tts_script.txt)
+- 미리보기: `python scripts/render.py dist15 --preview` → `exports/dist15_preview.mp4`
+- 최종본: `python scripts/render.py dist15` → `exports/dist15.mp4`
+
+- 분포의 수학 16, 4부 **하나의 분포를 넘어**: **닭이 먼저냐 달걀이 먼저냐를 수학은 어떻게 풀까? | Expectation-Maximization** — 110초 목표, 1080×1920, 30fps, 무음. 불완전한 초기 GMM에서 부드러운 소속을 추정하고 그 소속으로 분포를 다시 맞추는 반복을 실제 계산으로 보여줍니다. 초기값에 따라 다른 해에 도달할 수 있음을 보여준 뒤, 로그 가능도가 왜 내려가지 않는지 다음 편의 질문으로 남깁니다.
+- 실제 파일: [장면](episodes/dist16_expectation_maximization/scene.py) · [대본](episodes/dist16_expectation_maximization/narration.md) · [제작 기준](episodes/dist16_expectation_maximization/brief.md) · [자막](episodes/dist16_expectation_maximization/captions.srt) · [TTS](episodes/dist16_expectation_maximization/tts_script.txt)
+- 미리보기: `python scripts/render.py dist16 --preview` → `exports/dist16_preview.mp4`
+- 최종본: `python scripts/render.py dist16` → `exports/dist16.mp4`
+
+- 분포의 수학 17, 4부 **하나의 분포를 넘어**: **직접 오르기 어렵다면 발판을 만들면 된다 | ELBO** — 122초 목표, 1080×1920, 30fps, 무음. 실제 잠재 Gaussian 모형의 likelihood와 ELBO를 사용해 E-step의 접점, M-step의 상승, likelihood 비감소의 이유를 보여줍니다. 다음 질문은 KL Divergence의 방향입니다.
+- 실제 파일: [장면](episodes/dist17_elbo/scene.py) · [대본](episodes/dist17_elbo/narration.md) · [제작 기준](episodes/dist17_elbo/brief.md) · [자막](episodes/dist17_elbo/captions.srt) · [TTS](episodes/dist17_elbo/tts_script.txt)
+- 미리보기: `python scripts/render.py dist17 --preview` → `exports/dist17_preview.mp4`
+- 최종본: `python scripts/render.py dist17` → `exports/dist17.mp4`
+
+- 분포의 수학 17 **대안편**: **점점 좋아지는데 왜 정답은 아닐 수 있을까? | Local Optimum** — 114초 목표, 1080×1920, 30fps, 무음. 같은 세 덩어리의 데이터에 Gaussian 두 개를 서로 다른 초기값에서 맞춰 서로 다른 수렴 결과를 보여줍니다. Local Optimum과 여러 초기값의 의미를 설명하고 다음은 Maximum Likelihood Estimation으로 연결합니다. 기존 ELBO 편은 보존합니다.
+- 실제 파일: [장면](episodes/dist17_local_optimum/scene.py) · [대본](episodes/dist17_local_optimum/narration.md) · [제작 기준](episodes/dist17_local_optimum/brief.md) · [자막](episodes/dist17_local_optimum/captions.srt) · [TTS](episodes/dist17_local_optimum/tts_script.txt)
+- 미리보기: `python scripts/render.py dist17_local --preview` → `exports/dist17_local_preview.mp4`
+- 최종본: `python scripts/render.py dist17_local` → `exports/dist17_local.mp4`
+
+- 분포의 수학 17 **GMM Singularity 버전**: **학습 점수를 무한히 올릴 수 있다면 좋은 모델일까? | GMM Singularity** — 대본 길이에 비례한 59.2초 추정, 1080×1920, 30fps, 무음. 한 성분의 분산 붕괴가 전체 학습 로그 가능도를 무한히 높일 수 있음을 실제 혼합밀도 계산으로 보여줍니다. 기존 두 17화는 보존합니다.
+- 실제 파일: [장면](episodes/dist17_gmm_singularity/scene.py) · [타이밍 기준](episodes/dist17_gmm_singularity/content.py) · [대본](episodes/dist17_gmm_singularity/narration.md) · [제작 기준](episodes/dist17_gmm_singularity/brief.md) · [자막](episodes/dist17_gmm_singularity/captions.srt) · [TTS](episodes/dist17_gmm_singularity/tts_script.txt)
+- 미리보기: `python scripts/render.py dist17_singularity --preview` → `exports/dist17_singularity_preview.mp4`
+- 최종본: `python scripts/render.py dist17_singularity` → `exports/dist17_singularity.mp4`
+
+- 분포의 수학 **17-2 보충 해설**: **왜 한 점이 전체 학습 점수를 무한히 올릴까? | GMM Singularity** — 174.2초 추정, 1080×1920, 30fps, 무음. 밀도와 면적, 단일 Gaussian의 손실, 고정 배경 성분이 남긴 양의 밀도를 거쳐 전체 로그 가능도가 발산하는 과정을 설명합니다. 기존 17화들은 보존합니다.
+- 실제 파일: [장면](episodes/dist17_2_singularity_explained/scene.py) · [타이밍](episodes/dist17_2_singularity_explained/content.py) · [대본](episodes/dist17_2_singularity_explained/narration.md) · [제작 기준](episodes/dist17_2_singularity_explained/brief.md) · [자막](episodes/dist17_2_singularity_explained/captions.srt) · [TTS](episodes/dist17_2_singularity_explained/tts_script.txt)
+- 미리보기: `python scripts/render.py dist17_2 --preview` → `exports/dist17_2_preview.mp4`
+- 최종본: `python scripts/render.py dist17_2` → `exports/dist17_2.mp4`
 
 ## 신경망의 수학
 

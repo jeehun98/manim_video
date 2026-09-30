@@ -10,7 +10,7 @@ from episodes.prune_series.visuals import ACCENT, BG, GOOD, INK, MUTED, SPARSE, 
 
 
 class WhatIsDistribution(Scene):
-    DURATION = 72
+    DURATION = 52
     VALUES = (1, 1, 2, 2, 2, 4)
     XS = {1: -2.7, 2: -.9, 3: .9, 4: 2.7}
 
@@ -28,14 +28,14 @@ class WhatIsDistribution(Scene):
         self.progress.move_to([-3.8, -7.36, 0])
         self.add(self.chrome, self.progress)
 
-        # 0–6: individual observations.
+        # 0–4: individual observations.
         self.copy("여섯 개의 숫자", "하나씩 보면 각각의 값입니다")
         row = VGroup(*[txt(str(v), 54, WEIGHT) for v in self.VALUES])
         row.arrange(RIGHT, buff=.55).move_to([0, .2, 0])
         self.show(row, FadeIn(row, shift=UP * .2))
-        self.to(6)
+        self.to(4)
 
-        # 6–14: place every observation at its value.
+        # 4–10: place every observation at its value.
         self.copy("값의 공간에 놓으면", "같은 값은 같은 위치에 쌓입니다")
         axis = self.axis(-1.8)
         dots = self.dot_stacks(-1.8)
@@ -43,9 +43,9 @@ class WhatIsDistribution(Scene):
         self.play(*[ReplacementTransform(row[i], dots[i]) for i in range(6)],
                   run_time=1.5)
         self.stage = VGroup(axis, dots)
-        self.to(14)
+        self.to(10)
 
-        # 14–22: reorder data without touching the dot stack.
+        # 10–16: reorder data without touching the dot stack.
         self.copy("순서는 달라도", "아래의 모양은 그대로입니다")
         original = txt("[1, 1, 2, 2, 2, 4]", 38, INK).move_to([0, 2.55, 0])
         shuffled = txt("[2, 4, 1, 2, 1, 2]", 38, INK).move_to(original)
@@ -53,9 +53,9 @@ class WhatIsDistribution(Scene):
         self.play(Transform(original, shuffled), run_time=.9)
         self.play(Indicate(dots, color=GOOD, scale_factor=1.04), run_time=.9)
         self.stage.add(original)
-        self.to(22)
+        self.to(16)
 
-        # 22–34: counts become empirical probabilities.
+        # 16–24: counts become empirical probabilities.
         self.copy("개수에서 확률로", "관측된 비중 = 개수 / 전체 개수")
         bars = self.bars((2, 3, 0, 1), -1.8, scale=.86)
         counts = VGroup(*[
@@ -79,9 +79,9 @@ class WhatIsDistribution(Scene):
         empirical = txt("관측값으로 만든 경험적 분포", 23, MUTED).move_to([0, -3.45, 0])
         self.play(FadeIn(empirical), run_time=.4)
         self.stage = VGroup(axis, bars, counts, total, empirical)
-        self.to(34)
+        self.to(24)
 
-        # 34–44: one unit of mass split among the possible values.
+        # 24–31: one unit of mass split among the possible values.
         self.copy("전체 확률 = 1", "가능한 값들에 확률을 나누어 놓습니다")
         self.clear_stage()
         whole = RoundedRectangle(width=4.2, height=.75, corner_radius=.16,
@@ -107,9 +107,9 @@ class WhatIsDistribution(Scene):
         equation = txt("Σₓ P(X = x) = 1", 36, ACCENT).move_to([0, -2.35, 0])
         self.play(FadeIn(equation, shift=UP * .12), run_time=.55)
         self.stage = VGroup(pieces, mass_labels, equation)
-        self.to(44)
+        self.to(31)
 
-        # 44–53: distributions can have different shapes.
+        # 31–38: distributions can have different shapes.
         self.copy("이것이 분포", "확률이 어디에, 얼마나 놓여 있는가")
         self.clear_stage()
         label = txt("Distribution", 46, ACCENT).move_to([0, 2.8, 0])
@@ -120,25 +120,26 @@ class WhatIsDistribution(Scene):
             new_bars = self.bars(shape, -2.25, scale=.85)
             self.play(Transform(bars, new_bars), run_time=1.1)
         self.stage = VGroup(label, axis, bars)
-        self.to(53)
+        self.to(38)
 
-        # 53–62: samples from a hypothetical generating distribution.
-        self.copy("분포에서 데이터로", "관측값은 분포에서 얻은 결과로 볼 수 있습니다")
+        # 38–46: distinguish the observed empirical distribution from a
+        # hypothetical, unknown generating distribution.
+        self.copy("원래 분포와 관측 데이터", "관측값은 생성 분포에서 나온 표본일 수 있습니다")
         self.clear_stage()
-        source = txt("Distribution", 41, ACCENT).move_to([0, 2.8, 0])
+        source = txt("미지의 생성 분포  ?", 36, ACCENT).move_to([0, 2.8, 0])
         arrow = Arrow([0, 2.12, 0], [0, .85, 0], color=MUTED, buff=0)
         data = VGroup(*[txt(s, 35, WEIGHT) for s in ("x₁", "x₂", "x₃", "x₄", "…")])
         data.arrange(RIGHT, buff=.45).move_to([0, -.05, 0])
-        caveat = txt("6개 관측값만으로 원래 분포를 확정할 수는 없습니다", 23, MUTED)
+        caveat = txt("앞의 막대 = 경험적 분포\n원래 분포 = 아직 모름", 25, MUTED)
         caveat.move_to([0, -2.25, 0])
         self.play(FadeIn(source), GrowArrow(arrow), run_time=.7)
         self.play(LaggedStart(*[FadeIn(d, shift=DOWN * .55) for d in data],
                               lag_ratio=.22), run_time=1.5)
         self.play(FadeIn(caveat), run_time=.45)
         self.stage = VGroup(source, arrow, data, caveat)
-        self.to(62)
+        self.to(46)
 
-        # 62–72: three different shapes and the next question.
+        # 46–52: three different shapes and the next question.
         self.copy("분포를 숫자 하나로 요약한다면?", "서로 다른 모양의 중심은 어디일까요?")
         self.clear_stage()
         graphs = VGroup(*[
@@ -158,7 +159,7 @@ class WhatIsDistribution(Scene):
         frame = SurroundingRectangle(final, color=ACCENT, buff=.35, corner_radius=.16)
         self.play(FadeIn(final), Create(frame), run_time=.8)
         self.stage = VGroup(graphs, questions, final, frame)
-        self.to(72)
+        self.to(52)
 
     def axis(self, y):
         line = Arrow([-3.65, y, 0], [3.75, y, 0], buff=0, color=MUTED,
