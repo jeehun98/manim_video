@@ -466,3 +466,72 @@ Zeroed Ratio는 정보 손실 자체가 아닌 단순 억제 지표입니다.
 - LA 10 **SVD: 관계를 채널로 나누어 보기** — 109초, 1080×1920, 30fps, 무음. 반투명 채널 레이어로 입력 패턴·전달 강도·출력 패턴을 분리합니다.
 - [10편 대본](episodes/la10_svd_channels/narration.md) · [구성 및 수학 확인](episodes/la10_svd_channels/brief.md)
 - `python scripts/render.py la10` → `exports/la10.mp4`
+
+## 정보 이론 · 엔트로피 시리즈
+
+- info01 **정보는 무엇을 줄이는가?** — 45.5초, 무음 세로 영상.
+- [대본](episodes/info01_eliminating_possibilities/narration.md) · [제작 기준](episodes/info01_eliminating_possibilities/brief.md)
+- `.\.venv\Scripts\python.exe scripts/render.py info01 --preview`
+- `.\.venv\Scripts\python.exe scripts/render.py info01` → `exports/info01.mp4`
+- 후속 구성: 02 같은 결과와 관측 전 확률(구현), 03 자기정보량과 로그(구현), 04 평균 정보량과 엔트로피(구현).
+
+- info02 **같은 결과, 다른 정보량** — 51.93초, 무음 세로 영상. 확률과 믿음을 구분하고 관측 전 예측분포를 비교합니다.
+- [대본](episodes/info02_prior_probability/narration.md) · [제작 기준](episodes/info02_prior_probability/brief.md)
+- `.\.venv\Scripts\python.exe scripts/render.py info02 --preview`
+- `.\.venv\Scripts\python.exe scripts/render.py info02` → `exports/info02.mp4`
+
+- info03 **확률은 곱해지는데, 정보는 왜 더해질까?** — 59.47초, 무음 세로 영상. 로그를 곱셈의 깊이를 세는 좌표계로 보여줍니다.
+- [대본](episodes/info03_multiplication_depth/narration.md) · [제작 기준](episodes/info03_multiplication_depth/brief.md)
+- `.\.venv\Scripts\python.exe scripts/render.py info03 --preview`
+- `.\.venv\Scripts\python.exe scripts/render.py info03` → `exports/info03.mp4`
+
+- info04 **현실 하나를 특정하려면 몇 번을 나눠야 할까?** — 58.50초, 개정판 무음 세로 영상. 질문 트리의 평균 깊이를 통해 엔트로피와 구분 비용의 한계를 보여줍니다.
+- [대본](episodes/info04_expected_information/narration.md) · [제작 기준](episodes/info04_expected_information/brief.md)
+- `.\.venv\Scripts\python.exe scripts/render.py info04 --preview`
+- `.\.venv\Scripts\python.exe scripts/render.py info04` → `exports/info04.mp4`
+
+- info05 **압축은 예상 가능한 것을 짧게 쓰는 것이다** — 57.03초, 무음 세로 영상. 같은 20기호를 40→30 bits로 표현하며 확률에 맞춘 비용 재배분을 보여줍니다.
+- [대본](episodes/info05_predictable_cost/narration.md) · [제작 기준](episodes/info05_predictable_cost/brief.md)
+- `.\.venv\Scripts\python.exe scripts/render.py info05 --preview`
+- `.\.venv\Scripts\python.exe scripts/render.py info05` → `exports/info05.mp4`
+
+- info06 **틀린 확률을 믿으면 왜 더 많은 비트를 쓰게 될까?** — 58.63초, 무음 세로 영상. 현실의 빈도와 모형의 가격표로 Cross Entropy를 보여줍니다. 실제 정수 코드 길이와 이상적 log-cost를 구별합니다.
+- [대본](episodes/info06_wrong_price/narration.md) · [제작 기준](episodes/info06_wrong_price/brief.md)
+- `.\.venv\Scripts\python.exe scripts/render.py info06 --preview`
+- `.\.venv\Scripts\python.exe scripts/render.py info06` → `exports/info06.mp4`
+
+- info07 **같은 데이터, 187비트 차이** — 59.30초, 무음 세로 영상. 같은 1000개 데이터의 산술 부호화 본문 813/1000비트를 비교하고, 실제 차이와 KL의 이상적 평균 차이를 구분합니다.
+- [대본](episodes/info07_extra_bill/narration.md) · [제작 기준](episodes/info07_extra_bill/brief.md)
+- `.\.venv\Scripts\python.exe scripts/render.py info07 --preview`
+- `.\.venv\Scripts\python.exe scripts/render.py info07` → `exports/info07.mp4`
+
+- info08 **이미 아는 것은 다시 보내지 않는다** — 59.83초, 개정판 무음 세로 영상. 같은B의01전송과 이미 아는0+새로 받은1 복원으로 조건부 엔트로피·상호정보량을 소개합니다. X도 새로 보내면1bit+1bit=2bits라는 장면8초와 확률가중 평균의 조건을 강조하고, 이미 아는 정보의 가공으로9편을 연결합니다.
+- [대본](episodes/info08_known_bit/narration.md) · [제작 기준](episodes/info08_known_bit/brief.md)
+- `.\.venv\Scripts\python.exe scripts/render.py info08 --preview`
+- `.\.venv\Scripts\python.exe scripts/render.py info08` → `exports/info08.mp4`
+
+- info09 **계산이 복잡해지면, 단서도 늘까?** — 58.13초, 무음 세로 영상. 같은0으로 합쳐진 A/B를 ×5,+3,제곱,+8로 가공해 같은17이 되는 과정을 보여줍니다. 구분 보존과 추가 합치기를 비교한 뒤 Data Processing Inequality를 소개합니다.
+- [대본](episodes/info09_same_input/narration.md) · [제작 기준](episodes/info09_same_input/brief.md)
+- `.\.venv\Scripts\python.exe scripts/render.py info09 --preview`
+- `.\.venv\Scripts\python.exe scripts/render.py info09` → `exports/info09.mp4`
+
+- info10 **엔트로피가 압축 한계가 되는 이유** — 70.40초, 개정판 무음 세로 영상. 공유목록의01전송과8비트복원,1비트번호충돌,4후보/8후보 비교를 통해 전형후보수→번호길이→기호당엔트로피한계를 설명합니다. 가우시안은제외했습니다.
+- [대본](episodes/info10_typical_worlds/narration.md) · [제작 기준](episodes/info10_typical_worlds/brief.md)
+- `.\.venv\Scripts\python.exe scripts/render.py info10 --preview`
+- `.\.venv\Scripts\python.exe scripts/render.py info10` → `exports/info10.mp4`
+
+- info11 **가장 밀도가 높은 곳에 샘플이 모일까?** — 70.57초, 무음 세로 영상. 실제100차원샘플2000개의거리분포와동일폭고리의공간크기를비교해,최대점밀도와확률질량이모이는영역을구별합니다.
+- [대본](episodes/info11_density_shell/narration.md) · [제작 기준](episodes/info11_density_shell/brief.md)
+- `.\.venv\Scripts\python.exe scripts/render.py info11 --preview`
+- `.\.venv\Scripts\python.exe scripts/render.py info11` → `exports/info11.mp4`
+
+
+## 과학의 한 장면
+
+질문 하나에서 출발해 현상 → 예상 → 관측의 불일치 → 설명으로 이어지는 3분 이내 세로 영상.
+
+- `science01`: **은하 바깥의 별은 왜 이렇게 빠를까?** — 암흑물질 헤일로를 운동에서 추론하는 104초 영상.
+- 실제 소스: `episodes/science01_dark_matter/scene.py`, `brief.md`, `narration.md`, `captions.srt`, `tts_script.txt`.
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py science01 --preview`
+- 최종본: `.\.venv\Scripts\python.exe scripts/render.py science01`
+- 출력: `exports/science01_preview.mp4`, `exports/science01.mp4` (무음; TTS/SRT 별도).

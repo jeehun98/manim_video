@@ -1,0 +1,26 @@
+{
+  "original": "B",
+  "ordinary_payload": "01",
+  "side_already_known": "0",
+  "conditional_payload": "1",
+  "ordinary_bits": 2,
+  "conditional_bits": 1,
+  "both_restore": true,
+  "total_if_side_sent": 2,
+  "partial": [
+    2.0,
+    1.0,
+    1.0
+  ],
+  "independent": [
+    2.0,
+    2.0,
+    0.0
+  ],
+  "perfect": [
+    2.0,
+    0.0,
+    2.0
+  ],
+  "scope": "Codebook and count shared; X is already available at both ends. The two runs compare different initial knowledge states."
+}

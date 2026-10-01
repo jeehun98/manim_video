@@ -1,0 +1,12 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": "30",
+  "frames": 2007,
+  "seconds": 66.9,
+  "planned_seconds": 66.93333333333334,
+  "timing_difference_seconds": -0.03333333333333144,
+  "audio_tracks": 0,
+  "decoded_entire_video": true,
+  "actual_47_bit_round_trip": true
+}

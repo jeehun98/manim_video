@@ -1,0 +1,24 @@
+{
+  "planned_seconds": 70.4,
+  "entropy_bits": 0.4689955935892811,
+  "entropy_per_100": 46.89955935892811,
+  "one_90H_10T_probability": 7.61773480458664e-15,
+  "exact_10T_count": 17310309456440,
+  "exact_10T_mass": 0.13186534682448822,
+  "T_5_to_15_mass": 0.9363983902254396,
+  "T_5_to_15_count": 305847423286921600,
+  "toy_codebook": {
+    "00": "00000000",
+    "01": "00100000",
+    "10": "00001000",
+    "11": "00000010"
+  },
+  "sent_code": "01",
+  "restored": "00100000",
+  "toy_round_trips": true,
+  "toy_shared_model": true,
+  "one_bit_codes": 2,
+  "two_bit_codes": 4,
+  "three_bit_codes": 8,
+  "gaussian_removed": true
+}

@@ -1,0 +1,25 @@
+{
+  "count": 1000,
+  "A": 750,
+  "B": 250,
+  "P": [
+    0.75,
+    0.25
+  ],
+  "Q": [
+    0.5,
+    0.5
+  ],
+  "payload_p": 813,
+  "payload_q": 1000,
+  "extra_payload_bits": 187,
+  "H_P": 0.8112781244591328,
+  "H_P_Q": 1.0,
+  "KL_P_Q": 0.18872187554086717,
+  "KL_Q_P": 0.20751874963942185,
+  "ideal_extra_1000": 188.72187554086716,
+  "roundtrip_p": true,
+  "roundtrip_q": true,
+  "sha256": "f44599fbb161e29168a3d815141e6fe429cc7f3ab44e679d8fe882980119f185",
+  "scope": "Shared model and symbol count. ASCII files represent bits, not packed file size. Headers and padding excluded."
+}

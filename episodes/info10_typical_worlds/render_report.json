@@ -1,0 +1,12 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": "30",
+  "frames": 2112,
+  "seconds": 70.4,
+  "planned_seconds": 70.4,
+  "audio_tracks": 0,
+  "decoded_entire_video": true,
+  "shared_codebook_restore": "00100000",
+  "gaussian_removed": true
+}

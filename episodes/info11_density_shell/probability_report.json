@@ -1,0 +1,27 @@
+{
+  "planned_seconds": 70.56666666666666,
+  "seed": 11,
+  "d": 100,
+  "sample_count": 2000,
+  "mean_sample_radius": 9.96895581568646,
+  "empirical_8_to_12_count": 1987,
+  "empirical_8_to_12_fraction": 0.9935,
+  "theoretical_8_to_12_mass": 0.9954365803337407,
+  "radial_mode": 9.9498743710662,
+  "theoretical_mean_radius": 9.975031639551357,
+  "first_sample_squared_norm": 84.02566443068805,
+  "inner_radius": [
+    0,
+    0.25
+  ],
+  "outer_radius": [
+    1.5,
+    1.75
+  ],
+  "area_ratio": 13.000000000000002,
+  "inner_mass": 0.03076676552365587,
+  "outer_mass": 0.10838730052846243,
+  "region_average_density_ratio": 0.2709899631674011,
+  "histogram_sum": 2000,
+  "integrals_checked": true
+}

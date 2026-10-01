@@ -1,0 +1,79 @@
+{
+  "P": {
+    "A": 0.25,
+    "B": 0.25,
+    "C": 0.25,
+    "D": 0.25
+  },
+  "F": {
+    "A": 0,
+    "B": 0,
+    "C": 1,
+    "D": 1
+  },
+  "operations": [
+    "multiply by 5",
+    "add 3",
+    "square",
+    "add 8"
+  ],
+  "trace_0": [
+    0,
+    0,
+    3,
+    9,
+    17
+  ],
+  "trace_1": [
+    1,
+    5,
+    8,
+    64,
+    72
+  ],
+  "preserved": {
+    "A": 17,
+    "B": 17,
+    "C": 72,
+    "D": 72
+  },
+  "merged": {
+    "A": 17,
+    "B": 17,
+    "C": 17,
+    "D": 17
+  },
+  "preimages_f": {
+    "0": [
+      "A",
+      "B"
+    ],
+    "1": [
+      "C",
+      "D"
+    ]
+  },
+  "preimages_preserved": {
+    "17": [
+      "A",
+      "B"
+    ],
+    "72": [
+      "C",
+      "D"
+    ]
+  },
+  "preimages_merged": {
+    "17": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  "I_X_X": 2.0,
+  "I_X_Y": 1.0,
+  "I_X_Z_preserved": 1.0,
+  "I_X_Z_merged": -0.0,
+  "source": "Finite uniform source; no access to X after f."
+}

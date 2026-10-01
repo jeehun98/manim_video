@@ -111,6 +111,30 @@ EPISODES["dist17_singularity"] = ("episodes/dist17_gmm_singularity/scene.py", "G
 
 EPISODES["dist17_2"] = ("episodes/dist17_2_singularity_explained/scene.py", "SingularityExplained")
 
+EPISODES["info01"] = ("episodes/info01_eliminating_possibilities/scene.py", "InformationEliminates")
+
+EPISODES["info02"] = ("episodes/info02_prior_probability/scene.py", "PriorProbabilityInformation")
+
+EPISODES["info03"] = ("episodes/info03_multiplication_depth/scene.py", "MultiplicationDepth")
+
+EPISODES["info04"] = ("episodes/info04_expected_information/scene.py", "ExpectedInformation")
+
+EPISODES["info05"] = ("episodes/info05_predictable_cost/scene.py", "PredictableBitCosts")
+
+EPISODES["info06"] = ("episodes/info06_wrong_price/scene.py", "WrongProbabilityPrice")
+
+EPISODES["info07"] = ("episodes/info07_extra_bill/scene.py", "ExtraPredictionBill")
+
+EPISODES["info08"] = ("episodes/info08_known_bit/scene.py", "AlreadyKnownBit")
+
+EPISODES["info09"] = ("episodes/info09_same_input/scene.py", "SameInputProcessing")
+
+EPISODES["info10"] = ("episodes/info10_typical_worlds/scene.py", "TypicalWorlds")
+
+EPISODES["info11"] = ("episodes/info11_density_shell/scene.py", "DensityShell")
+
+EPISODES["science01"] = ("episodes/science01_dark_matter/scene.py", "DarkMatterDiscovery")
+
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("episode", choices=EPISODES)

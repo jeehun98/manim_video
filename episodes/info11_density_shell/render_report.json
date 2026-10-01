@@ -1,0 +1,13 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": "30",
+  "frames": 2117,
+  "seconds": 70.56666666666666,
+  "planned_seconds": 70.56666666666666,
+  "audio_tracks": 0,
+  "decoded_entire_video": true,
+  "preview_scenes_checked": 12,
+  "actual_distances": true,
+  "schematic_angles_are_not_2D_projection": true
+}

@@ -1,0 +1,33 @@
+{
+  "entropy_bits": 0.4689955935892811,
+  "all_H_probability": 2.6561398887587544e-05,
+  "one_90H_10T_probability": 7.61773480458664e-15,
+  "exact_10T_count": 17310309456440,
+  "exact_10T_mass": 0.13186534682448822,
+  "T_5_to_15_mass": 0.9363983902254399,
+  "T_5_to_15_count": 305847423286921600,
+  "gaussian_dimensions": 100,
+  "gaussian_radius_8_to_12_mass": 0.9954365803337407,
+  "typical_bounds_checks": [
+    {
+      "n": 100,
+      "epsilon": 0.03,
+      "mass": 0.13186534682448736,
+      "log2_cardinality": 43.9766967495332
+    },
+    {
+      "n": 1000,
+      "epsilon": 0.03,
+      "mass": 0.6835043284178571,
+      "log2_cardinality": 492.45230684395983
+    },
+    {
+      "n": 10000,
+      "epsilon": 0.03,
+      "mass": 0.9983630370164708,
+      "log2_cardinality": 4974.934254095446
+    }
+  ],
+  "duration": 65.83333333333333,
+  "seed": 10
+}

@@ -1,0 +1,31 @@
+{
+  "original": "CCADBABDABADCCBD",
+  "full_payload": "10100011010001110001001110100111",
+  "side_already_known": "1101000100011101",
+  "residual_payload": "0001101101010011",
+  "full_bits": 32,
+  "residual_bits": 16,
+  "total_if_side_sent": 32,
+  "full_roundtrip": true,
+  "side_roundtrip": true,
+  "partial": [
+    2.0,
+    1.0,
+    1.0
+  ],
+  "independent": [
+    2.0,
+    2.0,
+    0.0
+  ],
+  "perfect": [
+    2.0,
+    0.0,
+    2.0
+  ],
+  "weather": [
+    1.0,
+    0.4689955935892812,
+    0.5310044064107188
+  ]
+}
