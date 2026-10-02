@@ -78,6 +78,9 @@ EPISODES["gpuops05"] = ("episodes/gpuops05_epilogue_fusion/scene.py", "GPUEpilog
 EPISODES["gpuops06"] = ("episodes/gpuops06_reduction_fusion/scene.py", "GPUReductionFusion")
 EPISODES["gpuops07"] = ("episodes/gpuops07_softmax_fusion/scene.py", "GPUSoftmaxFusion")
 EPISODES["gpuops08"] = ("episodes/gpuops08_register_pressure/scene.py", "GPURegisterPressure")
+EPISODES["gpuops09"] = ("episodes/gpuops09_relu_memory_fusion/scene.py", "GPUReLUMemoryFusion")
+EPISODES["gpuops10"] = ("episodes/gpuops10_softmax_parallel/scene.py", "GPUSoftmaxParallel")
+EPISODES["gpuops11"] = ("episodes/gpuops11_softmax_cross_entropy/scene.py", "GPUSoftmaxCrossEntropy")
 EPISODES["nnmath01"] = ("episodes/nnmath01_intrinsic_dimension/scene.py", "NeuralMathIntrinsicDimension")
 EPISODES["nnmath02"] = ("episodes/nnmath02_overparameterization_geometry/scene.py", "NeuralMathOverparameterization")
 EPISODES["nnmath03"] = ("episodes/nnmath03_parameter_symmetry/scene.py", "NeuralMathParameterSymmetry")
@@ -134,6 +137,24 @@ EPISODES["info10"] = ("episodes/info10_typical_worlds/scene.py", "TypicalWorlds"
 EPISODES["info11"] = ("episodes/info11_density_shell/scene.py", "DensityShell")
 
 EPISODES["science01"] = ("episodes/science01_dark_matter/scene.py", "DarkMatterDiscovery")
+
+EPISODES["science02"] = ("episodes/science02_gravitational_lensing/scene.py", "GravitationalLensingDiscovery")
+
+EPISODES["science03"] = ("episodes/science03_bullet_cluster/scene.py", "BulletClusterDiscovery")
+
+EPISODES["science04"] = ("episodes/science04_virial_theorem/scene.py", "VirialMassDiscovery")
+
+EPISODES["science05"] = ("episodes/science05_gravitational_collapse/scene.py", "CollapseVirialization")
+
+EPISODES["science06"] = ("episodes/science06_turnaround/scene.py", "TurnaroundDiscovery")
+
+EPISODES["science07"] = ("episodes/science07_half_radius/scene.py", "HalfRadiusDiscovery")
+
+EPISODES["science08"] = ("episodes/science08_density_growth/scene.py", "DensityGrowthDiscovery")
+
+EPISODES["science09"] = ("episodes/science09_flat_galaxies/scene.py", "FlatGalaxyDiscovery")
+
+EPISODES["science10"] = ("episodes/science10_cosmic_void/scene.py", "CosmicVoidDiscovery")
 
 def main():
     p = argparse.ArgumentParser()

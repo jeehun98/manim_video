@@ -1,5 +1,7 @@
 """A question, a rotation curve, and the unseen mass inferred from motion."""
 import os
+import json
+from pathlib import Path
 import numpy as np
 from manim import *
 
@@ -30,14 +32,29 @@ def galaxy(center=ORIGIN, scale=1):
     return g.scale(scale).move_to(center)
 
 class DarkMatterDiscovery(Scene):
-    DURATION = 104
+    TIMING = json.loads(Path(__file__).with_name('timing.json').read_text(encoding='utf-8'))
+    DURATION = TIMING['duration']
+    OLD_BOUNDS = (0, 12, 24, 38, 51, 65, 79, 91, 104)
+
+    def play(self, *animations, **kwargs):
+        # Keep the visual choreography, but pace each scene to its own dialogue length.
+        if 'run_time' in kwargs:
+            frames = max(1, round(kwargs['run_time'] * self.pace * 30))
+            kwargs['run_time'] = frames / 30
+        return super().play(*animations, **kwargs)
 
     def to(self, target):
+        cue = self.TIMING['cues'][self.cue_index]
+        target = cue['start_frame']/30 + (target-self.OLD_BOUNDS[self.cue_index])*self.pace
+        target = round(target*30)/30
         if self.time > target + 1/30: raise RuntimeError(f'Cue overrun: {self.time} > {target}')
         n = round((target-self.time)*30)
         if n > 0: self.wait(n/30)
 
     def cue(self, title, caption):
+        self.cue_index = getattr(self, 'cue_index', -1) + 1
+        cue = self.TIMING['cues'][self.cue_index]
+        self.pace = (cue['end_frame']-cue['start_frame']) / 30 / (self.OLD_BOUNDS[self.cue_index+1]-self.OLD_BOUNDS[self.cue_index])
         new = VGroup(text(title, 5.65, 36), text(caption, -5.8, 27))
         if hasattr(self, 'words'): self.play(FadeOut(self.words), FadeIn(new), run_time=.5)
         else: self.play(FadeIn(new), run_time=.5)

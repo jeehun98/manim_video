@@ -172,6 +172,18 @@
 - 실제 파일: [장면](episodes/gpuops08_register_pressure/scene.py) · [대본](episodes/gpuops08_register_pressure/narration.md) · [제작 기준](episodes/gpuops08_register_pressure/brief.md) · [자막](episodes/gpuops08_register_pressure/captions.srt) · [TTS](episodes/gpuops08_register_pressure/tts_script.txt)
 - 미리보기: `.\.venv\Scripts\python.exe scripts/render.py gpuops08 --preview` → `exports/gpuops08_preview.mp4`
 - 최종본: `.\.venv\Scripts\python.exe scripts/render.py gpuops08` → `exports/gpuops08.mp4`
+- GPU 연산과 최적화 09 **ReLU는 GPU에서 어떻게 계산될까?** — 87초, 1080×1920, 30fps, 무음. 원소별 ReLU의 작은 계산과 `Read → ReLU → Write`의 데이터 이동을 대비하고, MatMul 뒤 Fusion으로 중간 `Write Y → Read Y`를 피할 수 있는 조건을 보여줍니다.
+- 실제 파일: [장면](episodes/gpuops09_relu_memory_fusion/scene.py) · [대본](episodes/gpuops09_relu_memory_fusion/narration.md) · [제작 기준](episodes/gpuops09_relu_memory_fusion/brief.md) · [자막](episodes/gpuops09_relu_memory_fusion/captions.srt) · [TTS](episodes/gpuops09_relu_memory_fusion/tts_script.txt)
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py gpuops09 --preview` → `exports/gpuops09_preview.mp4`
+- 최종본: `.\.venv\Scripts\python.exe scripts/render.py gpuops09` → `exports/gpuops09.mp4`
+- GPU 연산과 최적화 10 **Softmax는 GPU에서 왜 까다로울까?** — 108초, 1080×1920, 30fps, 무음. ReLU의 원소별 독립성과 달리 안정적인 Softmax는 MAX와 SUM 두 Reduction 및 Thread 간 결과 공유가 필요함을 보여줍니다.
+- 실제 파일: [장면](episodes/gpuops10_softmax_parallel/scene.py) · [대본](episodes/gpuops10_softmax_parallel/narration.md) · [제작 기준](episodes/gpuops10_softmax_parallel/brief.md) · [자막](episodes/gpuops10_softmax_parallel/captions.srt) · [TTS](episodes/gpuops10_softmax_parallel/tts_script.txt)
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py gpuops10 --preview` → `exports/gpuops10_preview.mp4`
+- 최종본: `.\.venv\Scripts\python.exe scripts/render.py gpuops10` → `exports/gpuops10.mp4`
+- GPU 연산과 최적화 11 **Softmax와 Cross Entropy는 한 번의 GPU Kernel로 계산된다** — 100초, 1080×1920, 30fps, 무음. 한 샘플의 정답 클래스 loss만 필요할 때 전체 확률 Tensor의 중간 저장을 피하고 안정적인 log-sum-exp로 직접 계산할 수 있음을 보여줍니다. 실제 단일 Kernel 여부는 구현과 입력 크기에 따릅니다.
+- 실제 파일: [장면](episodes/gpuops11_softmax_cross_entropy/scene.py) · [대본](episodes/gpuops11_softmax_cross_entropy/narration.md) · [제작 기준](episodes/gpuops11_softmax_cross_entropy/brief.md) · [자막](episodes/gpuops11_softmax_cross_entropy/captions.srt) · [TTS](episodes/gpuops11_softmax_cross_entropy/tts_script.txt)
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py gpuops11 --preview` → `exports/gpuops11_preview.mp4`
+- 최종본: `.\.venv\Scripts\python.exe scripts/render.py gpuops11` → `exports/gpuops11.mp4`
 
 > 아래 목록에는 현재 체크아웃에 소스가 없는 과거 시리즈 기록도 포함되어 있습니다. 렌더 전에 실제 파일을 확인하세요.
 
@@ -530,8 +542,106 @@ Zeroed Ratio는 정보 손실 자체가 아닌 단순 억제 지표입니다.
 
 질문 하나에서 출발해 현상 → 예상 → 관측의 불일치 → 설명으로 이어지는 3분 이내 세로 영상.
 
-- `science01`: **은하 바깥의 별은 왜 이렇게 빠를까?** — 암흑물질 헤일로를 운동에서 추론하는 104초 영상.
+- `science01`: **은하 바깥의 별은 왜 이렇게 빠를까?** — 암흑물질 헤일로를 운동에서 추론하는 58초 영상.
 - 실제 소스: `episodes/science01_dark_matter/scene.py`, `brief.md`, `narration.md`, `captions.srt`, `tts_script.txt`.
 - 미리보기: `.\.venv\Scripts\python.exe scripts/render.py science01 --preview`
 - 최종본: `.\.venv\Scripts\python.exe scripts/render.py science01`
 - 출력: `exports/science01_preview.mp4`, `exports/science01.mp4` (무음; TTS/SRT 별도).
+
+science01 화면 길이는 대사 글자 수에 비례해 배분합니다. `python scripts/retime_science01.py --duration 58`로 대본·SRT·timing.json을 다시 생성한 뒤 렌더합니다.
+
+
+### 과학의 한 장면 02 — 보이지 않는 질량은 어떻게 찾을까?
+
+- `science02`: 빛의 왜곡 → 총질량 지도 → 별·가스와 비교 → 암흑물질. 61초 무음 세로 영상.
+- 실제 소스: `episodes/science02_gravitational_lensing/`의 scene.py, brief.md, narration.md, captions.srt, tts_script.txt, timing.json.
+- 타이밍 재배분: `.\.venv\Scripts\python.exe scripts/retime_science02.py --duration 61`
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py science02 --preview`
+- 최종: `.\.venv\Scripts\python.exe scripts/render.py science02`
+- 출력: `exports/science02_preview.mp4`, `exports/science02.mp4`.
+
+
+### 과학의 한 장면 03 — 가스와 질량은 왜 서로 다른 곳에 있을까?
+
+- `science03`: Bullet Cluster 충돌 → 가스와 은하의 다른 운동 → X선 가스 지도와 렌즈 질량 지도의 어긋남. 76초 무음 세로 영상.
+- 실제 파일: `episodes/science03_bullet_cluster/`의 scene.py, brief.md, narration.md, tts_script.txt, captions.srt, timing.json.
+- 타이밍: `.\.venv\Scripts\python.exe scripts/retime_science03.py --duration 76`
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py science03 --preview`
+- 최종: `.\.venv\Scripts\python.exe scripts/render.py science03`
+- 출력: `exports/science03_preview.mp4`, `exports/science03.mp4`.
+- 화면은 02편의 공통 색상·문자·대사 길이 기반 구간 도구를 가져와 사용한다.
+
+
+### 과학의 한 장면 04 — 멀리 있는 천체의 질량을 재는 법
+
+- `science04`: 비리얼 정리. 같은 크기에서 빠를수록, 같은 속도에서 클수록 더 무겁다는 관계를 설명하는 83초 무음 영상.
+- 실제 파일: `episodes/science04_virial_theorem/`의 scene.py, brief.md, narration.md, tts_script.txt, captions.srt, timing.json.
+- 타이밍 재배분: `.\.venv\Scripts\python.exe scripts/retime_science04.py --duration 83`
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py science04 --preview`
+- 최종: `.\.venv\Scripts\python.exe scripts/render.py science04`
+- 출력: `exports/science04_preview.mp4`, `exports/science04.mp4`.
+- 적용 조건은 안정된 중력계이며, 충돌 은하단에는 평형 가정부터 확인해야 합니다.
+
+
+### 과학의 한 장면 05 — 중력으로 붕괴하면 왜 한 점이 되지 않을까?
+
+- `science05`: 수축 → 가속 → 중심 통과 → 궤도 혼합 → 움직이는 안정. 91초 무음 세로 영상.
+- 실제 소스: `episodes/science05_gravitational_collapse/`의 scene.py, brief.md, narration.md, captions.srt, tts_script.txt, timing.json, prepare.py, collapse_data.npz.
+- 입자 자료 재생성: `.\.venv\Scripts\python.exe episodes/science05_gravitational_collapse/prepare.py`
+- 타이밍: `.\.venv\Scripts\python.exe scripts/retime_science05.py --duration 91`
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py science05 --preview`
+- 최종: `.\.venv\Scripts\python.exe scripts/render.py science05`
+- 출력: `exports/science05_preview.mp4`, `exports/science05.mp4`.
+
+
+### 과학의 한 장면 06 — 우주는 팽창하는데 왜 어떤 곳은 다시 무너질까?
+
+- `science06`: 평균 배경 팽창과 국소 과밀 영역의 최대 팽창 및 수축을 같은 시간축으로 비교하는 90초 무음 영상.
+- 실제 파일: `episodes/science06_turnaround/`의 scene.py, brief.md, narration.md, tts_script.txt, captions.srt, timing.json.
+- 타이밍 재배분: `.\.venv\Scripts\python.exe scripts/retime_science06.py --duration 90`
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py science06 --preview`
+- 최종: `.\.venv\Scripts\python.exe scripts/render.py science06`
+- 출력: `exports/science06_preview.mp4`, `exports/science06.mp4`.
+
+
+### 과학의 한 장면 07 — 안정된 크기는 왜 최대 팽창의 절반쯤일까?
+
+- `science07`: 최대 팽창과 비리얼 상태의 에너지를 비교해 반지름 1/2을 유도하는 93초 무음 영상.
+- 실제 파일: `episodes/science07_half_radius/`의 scene.py, brief.md, narration.md, tts_script.txt, captions.srt, timing.json.
+- 타이밍 재배분: `.\.venv\Scripts\python.exe scripts/retime_science07.py --duration 93`
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py science07 --preview`
+- 최종: `.\.venv\Scripts\python.exe scripts/render.py science07`
+- 출력: `exports/science07_preview.mp4`, `exports/science07.mp4`.
+- 질량과 에너지가 보존되고, 두 상태의 구조 계수가 같은 단순 구형 모형의 결과다. 실제 모든 halo의 반지름이 반드시 절반이라는 주장이 아니다.
+
+
+### 과학의 한 장면 08 — 작은 밀도 차이는 어떻게 은하가 될까?
+
+- `science08`: 상대적인 밀도 차이의 중력 성장 → 비선형 붕괴 → 헤일로 → 가스 냉각·원반·별 → 은하. 102초 무음 세로 영상.
+- 실제 파일: `episodes/science08_density_growth/`의 scene.py, brief.md, narration.md, tts_script.txt, captions.srt, timing.json.
+- 타이밍 재배분: `.\.venv\Scripts\python.exe scripts/retime_science08.py --duration 102`
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py science08 --preview`
+- 최종: `.\.venv\Scripts\python.exe scripts/render.py science08`
+- 출력: `exports/science08_preview.mp4`, `exports/science08.mp4`.
+- 1.686은 실제 밀도 배수가 아니라 물질 우세 구형 모형에서 선형 이론으로 연장한 붕괴 기준이다. 마지막은 원반 은하가 만들어지는 한 사례를 개념도로 보여준다.
+
+
+### 과학의 한 장면 09 — 은하는 왜 납작할까?
+
+- `science09`: 중력 수축 → 각운동량과 빠른 회전 → 두꺼운 구름 → 가스 충돌·방사 냉각 → 얇은 원반. 78초 무음 세로 영상.
+- 실제 파일: `episodes/science09_flat_galaxies/`의 scene.py, brief.md, narration.md, tts_script.txt, captions.srt, timing.json.
+- 타이밍: `.\.venv\Scripts\python.exe scripts/retime_science09.py --duration 78`
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py science09 --preview`
+- 최종: `.\.venv\Scripts\python.exe scripts/render.py science09`
+- 출력: `exports/science09_preview.mp4`, `exports/science09.mp4`.
+- 마지막에는 동일한 3D 별 원반과 두꺼운 중심부를 정면에서 옆면으로 90도 시점 회전하여 비교한다.
+
+### 과학의 한 장면 10 — 우주에는 왜 거대한 빈 공간이 생길까?
+
+- `science10`: 작은 저밀도 → 주변으로 물질 이동 → 더 성긴 영역 → 벽·필라멘트와 Cosmic Void. 70초 무음 세로 영상.
+- 실제 파일: `episodes/science10_cosmic_void/`의 scene.py, brief.md, narration.md, tts_script.txt, captions.srt, timing.json.
+- 대사 길이 기준 재배분: `.\.venv\Scripts\python.exe scripts/retime_science10.py --duration 70`
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py science10 --preview`
+- 최종: `.\.venv\Scripts\python.exe scripts/render.py science10`
+- 출력: `exports/science10_preview.mp4`, `exports/science10.mp4`.
+- Void가 물질을 밀어내는 힘은 없다. 평균보다 약한 중력 감속과 주변 과밀 구조로의 이동을 구별하며, 완전히 비어 있지 않음을 표시한다. 입자 흐름과 우주 거미줄은 개념도다.
