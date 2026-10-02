@@ -1,0 +1,33 @@
+"""Illustrative molecule classes, selective-door decisions and narrated cues."""
+import numpy as np
+RULES=[('left','fast','right',True),('left','slow','left',False),('right','slow','left',True),('right','fast','right',False)]
+FAST_SPEED=1.2
+SLOW_SPEED=.45
+INITIAL_MEAN_V2=(FAST_SPEED**2+SLOW_SPEED**2)/2
+DISPLAY=[
+ '같은 온도의 기체가 두 칸에 있습니다. 빠른 분자와 느린 분자가 양쪽에 섞여 있습니다.',
+ '가운데 문을 지키는 도깨비가 있습니다. 분자의 속도를 보고 문을 열지 결정합니다.',
+ '왼쪽의 빠른 분자는 오른쪽으로 보냅니다. 반대로 오른쪽의 느린 분자는 왼쪽으로 보냅니다.',
+ '이렇게 고르면 왼쪽은 차가워지고, 오른쪽은 뜨거워집니다. 처음에 없던 온도 차이입니다.',
+ '이 차이를 이용해 열기관을 돌릴 수 있습니다. 기체의 열에서 일을 꺼내는 것입니다.',
+ '문만 골라 열었는데 기체가 정돈됐습니다. 정보만 있으면 제2법칙을 깰 수 있을까요?',
+ '기체 밖까지 보죠. 도깨비는 빠름과 느림을 구별하고, 기록에 맞춰 문을 제어합니다.',
+ '계속 분류하면 메모리가 찹니다. 같은 메모리로 반복하려면, 다시 쓸 수 있게 초기화해야 합니다.',
+ '기록을 비가역적으로 지우면 환경으로 열이 나갑니다. 여기서 앞 편의 란다우어 원리가 등장합니다.',
+ '기체만 보던 경계를 넓혀야 합니다. 메모리와 환경, 장치를 재사용하는 전체 순환까지 함께 셉니다.',
+ '그러면 전체의 평균 엔트로피는 줄지 않습니다. 측정만 하면 반드시 같은 열이 난다는 뜻도 아닙니다.',
+ '그렇다고 정보가 쓸모없는 것은 아닙니다. 속도 정보가 문 제어로 이어져, 실제 분자 분포를 바꿉니다.',
+ '정보는 기체의 열을 일로 꺼내 쓰도록 돕는 제어 자원입니다. 제2법칙을 깨지 않고도, 물리적인 일을 가능하게 합니다.',
+]
+READINGS=[('제2법칙','제이법칙')]
+SPOKEN=[]
+for value in DISPLAY:
+    for a,b in READINGS:value=value.replace(a,b)
+    SPOKEN.append(value)
+CUES=[];frames=0
+for i,(display,spoken) in enumerate(zip(DISPLAY,SPOKEN)):
+    duration=max(3.5,len(''.join(spoken.split()))/7+.18*(spoken.count('.')+spoken.count('?')))
+    if i==len(DISPLAY)-1:duration+=.5
+    count=round(duration*30)
+    CUES.append((frames/30,(frames+count)/30,display,spoken));frames+=count
+DURATION=frames/30

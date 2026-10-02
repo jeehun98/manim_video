@@ -81,6 +81,8 @@ EPISODES["gpuops08"] = ("episodes/gpuops08_register_pressure/scene.py", "GPURegi
 EPISODES["gpuops09"] = ("episodes/gpuops09_relu_memory_fusion/scene.py", "GPUReLUMemoryFusion")
 EPISODES["gpuops10"] = ("episodes/gpuops10_softmax_parallel/scene.py", "GPUSoftmaxParallel")
 EPISODES["gpuops11"] = ("episodes/gpuops11_softmax_cross_entropy/scene.py", "GPUSoftmaxCrossEntropy")
+EPISODES["gpuops12"] = ("episodes/gpuops12_dropout_rng/scene.py", "GPUDropoutRNG")
+EPISODES["gpuops13"] = ("episodes/gpuops13_layernorm/scene.py", "GPULayerNorm")
 EPISODES["nnmath01"] = ("episodes/nnmath01_intrinsic_dimension/scene.py", "NeuralMathIntrinsicDimension")
 EPISODES["nnmath02"] = ("episodes/nnmath02_overparameterization_geometry/scene.py", "NeuralMathOverparameterization")
 EPISODES["nnmath03"] = ("episodes/nnmath03_parameter_symmetry/scene.py", "NeuralMathParameterSymmetry")
@@ -135,6 +137,11 @@ EPISODES["info09"] = ("episodes/info09_same_input/scene.py", "SameInputProcessin
 EPISODES["info10"] = ("episodes/info10_typical_worlds/scene.py", "TypicalWorlds")
 
 EPISODES["info11"] = ("episodes/info11_density_shell/scene.py", "DensityShell")
+EPISODES["info12"] = ("episodes/info12_landauer/scene.py", "LandauerErasure")
+EPISODES["info13"] = ("episodes/info13_uncompute/scene.py", "ReversibleUncompute")
+EPISODES["info14"] = ("episodes/info14_maxwell_demon/scene.py", "MaxwellDemon")
+EPISODES["info15"] = ("episodes/info15_szilard_engine/scene.py", "SzilardEngine")
+EPISODES["info16"] = ("episodes/info16_no_free_lunch/scene.py", "NoFreeLunch")
 
 EPISODES["science01"] = ("episodes/science01_dark_matter/scene.py", "DarkMatterDiscovery")
 

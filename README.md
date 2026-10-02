@@ -180,10 +180,14 @@
 - 실제 파일: [장면](episodes/gpuops10_softmax_parallel/scene.py) · [대본](episodes/gpuops10_softmax_parallel/narration.md) · [제작 기준](episodes/gpuops10_softmax_parallel/brief.md) · [자막](episodes/gpuops10_softmax_parallel/captions.srt) · [TTS](episodes/gpuops10_softmax_parallel/tts_script.txt)
 - 미리보기: `.\.venv\Scripts\python.exe scripts/render.py gpuops10 --preview` → `exports/gpuops10_preview.mp4`
 - 최종본: `.\.venv\Scripts\python.exe scripts/render.py gpuops10` → `exports/gpuops10.mp4`
-- GPU 연산과 최적화 11 **Softmax와 Cross Entropy는 한 번의 GPU Kernel로 계산된다** — 100초, 1080×1920, 30fps, 무음. 한 샘플의 정답 클래스 loss만 필요할 때 전체 확률 Tensor의 중간 저장을 피하고 안정적인 log-sum-exp로 직접 계산할 수 있음을 보여줍니다. 실제 단일 Kernel 여부는 구현과 입력 크기에 따릅니다.
+- GPU 연산과 최적화 11 **Softmax + Cross Entropy — 중간 확률 없이 Loss까지** — 100초, 1080×1920, 30fps, 무음. 같은 네 입력이 위·아래 두 경로로 분기해 같은 Loss에 도착합니다. 위쪽은 확률 네 개를 만들고 메모리에 저장·읽기, 아래쪽은 정답 값과 공통 정보로 직접 Loss를 계산합니다. 비교 뒤 MAX·SUM tree와 수치 안정성을 설명하고 마지막에는 두 경로가 함께 이동합니다. 실제 Kernel 수는 구현과 입력 크기에 따릅니다.
 - 실제 파일: [장면](episodes/gpuops11_softmax_cross_entropy/scene.py) · [대본](episodes/gpuops11_softmax_cross_entropy/narration.md) · [제작 기준](episodes/gpuops11_softmax_cross_entropy/brief.md) · [자막](episodes/gpuops11_softmax_cross_entropy/captions.srt) · [TTS](episodes/gpuops11_softmax_cross_entropy/tts_script.txt)
 - 미리보기: `.\.venv\Scripts\python.exe scripts/render.py gpuops11 --preview` → `exports/gpuops11_preview.mp4`
 - 최종본: `.\.venv\Scripts\python.exe scripts/render.py gpuops11` → `exports/gpuops11.mp4`
+- GPU 연산과 최적화 12 **Dropout — GPU가 기억해야 하는 선택표, Mask** — 147초 (2:27), 1080×1920, 30fps, 무음. Mask를 입력과 별개의 남김·지움 선택표로 먼저 소개합니다. 같은 표를 통과하는 Forward 값과 Backward gradient를 보여준 뒤, 저장·읽기와 재생성을 비교합니다. GPU 병렬 난수 생성은 후반에 Mask를 만드는 수단으로 설명합니다.
+- 실제 파일: [장면](episodes/gpuops12_dropout_rng/scene.py) · [대본](episodes/gpuops12_dropout_rng/narration.md) · [제작 기준](episodes/gpuops12_dropout_rng/brief.md) · [자막](episodes/gpuops12_dropout_rng/captions.srt) · [TTS](episodes/gpuops12_dropout_rng/tts_script.txt)
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py gpuops12 --preview` → `exports/gpuops12_preview.mp4`
+- 최종본: `.\.venv\Scripts\python.exe scripts/render.py gpuops12` → `exports/gpuops12.mp4`
 
 > 아래 목록에는 현재 체크아웃에 소스가 없는 과거 시리즈 기록도 포함되어 있습니다. 렌더 전에 실제 파일을 확인하세요.
 
@@ -645,3 +649,67 @@ science01 화면 길이는 대사 글자 수에 비례해 배분합니다. `pyth
 - 최종: `.\.venv\Scripts\python.exe scripts/render.py science10`
 - 출력: `exports/science10_preview.mp4`, `exports/science10.mp4`.
 - Void가 물질을 밀어내는 힘은 없다. 평균보다 약한 중력 감속과 주변 과밀 구조로의 이동을 구별하며, 완전히 비어 있지 않음을 표시한다. 입자 흐름과 우주 거미줄은 개념도다.
+
+
+## GPU 연산과 최적화 13 — LayerNorm (148초 · 2:28)
+
+- 실제 파일: [장면](episodes/gpuops13_layernorm/scene.py) · [대본](episodes/gpuops13_layernorm/narration.md) · [제작 기준](episodes/gpuops13_layernorm/brief.md) · [자막](episodes/gpuops13_layernorm/captions.srt) · [TTS](episodes/gpuops13_layernorm/tts_script.txt)
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py gpuops13 --preview` → `exports/gpuops13_preview.mp4`
+- 최종본: `.\.venv\Scripts\python.exe scripts/render.py gpuops13` → `exports/gpuops13.mp4`
+- 평균·분산의 병렬 집계, Welford 상태 병합, 결합 실행과 입력 재사용을 데이터 이동으로 설명합니다.
+
+### 정보이론 12 — 정보 1비트를 지우는 데 필요한 최소 비용
+
+`episodes/info12_landauer/`의 `scene.py`, `content.py`, `brief.md`, `narration.md`, `tts_script.txt`, `captions.srt`를 사용합니다. 두 칸 상자의 공을 왼쪽에 모으는 물리적 초기화를 중심으로 설명합니다. 약 79.5초이며, 평균 환경 열의 하한 수식은 후반에 한 번만 등장합니다. 실제 컴퓨터 소비와 삭제의 최소 비용을 구분합니다.
+
+```powershell
+.\.venv\Scripts\python.exe scripts/render.py info12 --preview
+.\.venv\Scripts\python.exe scripts/render.py info12
+```
+
+결과: `exports/info12_preview.mp4`, `exports/info12.mp4` (무음, 음성 합성 대본과 자막 별도).
+
+### 정보이론 13 — 삭제하지 말고 되감아라
+
+`episodes/info13_uncompute/`의 `scene.py`, `content.py`, `brief.md`, `narration.md`, `tts_script.txt`, `captions.srt`를 사용합니다. 약 74초의 compute–copy–uncompute 예제로 입력 보존, 결과 보존, 작업 칸 복원을 보여준 뒤 동일한 양자 회로로 연결합니다.
+
+```powershell
+.\.venv\Scripts\python.exe scripts/render.py info13 --preview
+.\.venv\Scripts\python.exe scripts/render.py info13
+```
+
+결과: `exports/info13_preview.mp4`, `exports/info13.mp4` (무음, TTS 대본과 자막 별도).
+
+### 정보이론 14 — 정보만 있으면 제2법칙을 깰 수 있을까?
+
+`episodes/info14_maxwell_demon/`의 `scene.py`, `content.py`, `brief.md`, `narration.md`, `tts_script.txt`, `captions.srt`를 사용합니다. 약 79초, 맥스웰의 도깨비의 분자 선별·온도 차이·열기관·메모리 재사용을 시각화하고 정보가 물리적 제어 자원이라는 결론으로 끝납니다. 기존 13편은 유지합니다.
+
+```powershell
+.\.venv\Scripts\python.exe scripts/render.py info14 --preview
+.\.venv\Scripts\python.exe scripts/render.py info14
+```
+
+결과: `exports/info14_preview.mp4`, `exports/info14.mp4` (무음, TTS 대본과 자막 별도).
+
+### 정보이론 15 — 1비트의 정보는 얼마의 일을 만들 수 있을까?
+
+`episodes/info15_szilard_engine/`의 `scene.py`, `content.py`, `brief.md`, `narration.md`, `tts_script.txt`, `captions.srt`를 사용합니다. 약 78초, 같은 열환경과 팽창을 좌우 비교합니다. 위치 미확인 상태의 칸막이 제거와 위치 측정 후 피스톤 연결을 비교해, 1비트가 일을 꺼낼 방향을 선택하는 역할을 보여줍니다. 최대 평균 일 수식은 비교 뒤에 제시합니다.
+
+```powershell
+.\.venv\Scripts\python.exe scripts/render.py info15 --preview
+.\.venv\Scripts\python.exe scripts/render.py info15
+```
+
+결과: `exports/info15_preview.mp4`, `exports/info15.mp4` (무음, TTS 대본과 자막 별도).
+
+
+## 정보이론 16 — 학습이 가능하려면 세상이 특별해야 합니다 — No Free Lunch
+
+`episodes/info16_no_free_lunch/`의 영상·제작 기준·대본·TTS·SRT를 사용합니다. 약 79초. 제목·중간 설명·마무리에서 No Free Lunch 정리의 이름과 의미를 연결합니다. 같은 학습 데이터에 맞는 16개 세계와 8/8 분할로 No Free Lunch의 균등 평균 조건을 보여주고, 현실의 구조와 귀납 편향이 맞을 때 일반화가 가능하다는 결론으로 마무리합니다. 기존 15편은 유지합니다.
+
+```powershell
+.\.venv\Scripts\python.exe scripts/render.py info16 --preview
+.\.venv\Scripts\python.exe scripts/render.py info16
+```
+
+결과: `exports/info16_preview.mp4`, `exports/info16.mp4` (무음 / TTS·자막 별도).

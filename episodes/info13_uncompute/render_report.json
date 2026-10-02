@@ -1,0 +1,14 @@
+{
+  "file": "C:\\Users\\owner\\Desktop\\manim_video\\exports\\info13.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "audio_tracks": 0,
+  "planned_duration_seconds": 74.03333333333333,
+  "decoded_frames": 2221,
+  "decoded_duration_seconds": 74.03333333333333,
+  "full_decode_passed": true,
+  "preview_all_14_cues_visually_checked": true,
+  "uncompute_answer_retention_visually_checked": true,
+  "gate_bijection_and_quantum_ancilla_verified": true
+}

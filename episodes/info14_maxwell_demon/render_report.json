@@ -1,0 +1,16 @@
+{
+  "file": "C:\\Users\\owner\\Desktop\\manim_video\\exports\\info14.mp4",
+  "width": 1080,
+  "height": 1920,
+  "nominal_fps": 30.0,
+  "container_average_fps": 30.000618612312365,
+  "audio_tracks": 0,
+  "planned_duration_seconds": 78.93333333333334,
+  "decoded_frames": 2368,
+  "decoded_duration_seconds": 78.93170572916667,
+  "full_decode_passed": true,
+  "preview_all_13_cues_visually_checked": true,
+  "door_pass_and_reject_sequence_checked": true,
+  "memory_record_and_reset_visually_checked": true,
+  "schematic_not_quantitative_thermodynamics": true
+}

@@ -1,0 +1,18 @@
+{
+  "file": "C:\\Users\\owner\\Desktop\\manim_video\\exports\\info15.mp4",
+  "width": 1080,
+  "height": 1920,
+  "nominal_fps": 30.0,
+  "container_average_fps": 30.0,
+  "audio_tracks": 0,
+  "planned_duration_seconds": 78.33333333333333,
+  "decoded_frames": 2350,
+  "decoded_duration_seconds": 78.33333333333333,
+  "full_decode_passed": true,
+  "preview_all_13_cues_visually_checked": true,
+  "side_by_side_comparison_motion_checked": true,
+  "left_right_feedback_directions_checked": true,
+  "heat_input_to_occupied_side_checked": true,
+  "pressure_integral_information_and_rope_geometry_verified": true,
+  "schematic_not_molecular_dynamics_simulation": true
+}

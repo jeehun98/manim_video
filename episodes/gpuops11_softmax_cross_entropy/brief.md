@@ -1,47 +1,71 @@
-# GPU 연산과 최적화 11 제작 기준
+# GPU 연산과 최적화 11 제작 기준 — 두 경로 비교 개정
 
 ## 제목과 형식
 
-**Softmax와 Cross Entropy는 한 번의 GPU Kernel로 계산된다**
+**Softmax + Cross Entropy — 중간 확률 없이 Loss까지**
 
-- 제목은 시선을 끄는 문장으로 사용한다. 본문과 화면에는 **구현·입력 크기·필요한 출력에 따라 하나의 fused kernel 또는 결합된 연산으로 처리할 수 있다**고 명시한다.
-- 100초, 세로 1080×1920, 30fps, 무음. TTS 원고와 SRT는 별도 제공.
-- 09화의 데이터 이동, 10화의 두 Reduction을 회수한다.
+- 100초, 세로 1080×1920, 30fps, 무음. 별도 TTS 원고와 SRT 제공.
+- 핵심: loss만 필요하다면 전체 확률 Tensor를 만들고 저장한 뒤 다시 읽는 과정을 생략할 수 있다.
+- 하나의 fused computation/kernel로 결합할 수 있다고 설명한다. 실제 Kernel 수는 구현과 입력 크기에 따라 다르다.
 
-## 학습 목표
+## 시각적 학습 목표
 
-정답 클래스 하나에 대한 Cross Entropy loss가 필요할 때 전체 Softmax 확률 Tensor를 중간 출력으로 만들지 않고 logits에서 직접 loss를 계산할 수 있음을 이해한다. 중간 결과 materialization 제거와 안정적인 log-sum-exp 계산을 구분한다.
+동일한 입력 네 개가 위·아래 두 경로로 갈라졌다가 동일한 loss에 도착한다. 7~65초에는 비교 그림을 유지하며 설명 중인 경로만 움직인다. 88~100초에는 두 경로를 실제로 동시에 움직여 차이를 회수한다.
 
-## 수학 및 정확성 경계
+위쪽에는 확률 네 개가 모두 생성되고 하나의 Softmax output Tensor가 된다. Tensor 전체가 GPU Memory 영역으로 이동해 저장되고, 복사본이 다시 읽혀 나온다. 저장본은 메모리에 남는다. 정답 확률만 loss로 이동하고 나머지 세 값은 흐려진다.
 
-1. 단일 정답 클래스 `y`, 유한하고 비어 있지 않은 logits 벡터 `z`의 한 샘플에 대해 `L = −log p_y = −z_y + log Σⱼ exp(zⱼ)`이다. `m = maxⱼ zⱼ`를 쓰면 `L = −(z_y−m) + log Σⱼ exp(zⱼ−m)`이다.
-2. 예시 logits `[2.1, 0.7, −1.2, 3.0]`의 확률은 약 `[0.267, 0.066, 0.010, 0.657]`이며 마지막 클래스의 loss는 약 `0.420`이다. 확률은 반올림값이다.
-3. `exp(1000)`은 일반적인 float에서 overflow 위험이 있다. 최대값을 뺀 log-sum-exp는 이 예에서 큰 양의 지수 인수를 피한다. 모든 입력·dtype에 대해 무오류를 보장한다는 주장은 하지 않는다.
-4. 전체 확률 벡터가 다른 소비자에게도 필요하면 생략할 수 없다. Label smoothing, soft targets, class weights, backward 저장 상태, 배치 reduction 등은 추가 계산이나 저장을 요구할 수 있다.
-5. 수학적 결합은 단일 물리적 GPU kernel launch를 보장하지 않는다. 실제 실행은 구현과 크기, 하드웨어 자원에 따라 단일 kernel 또는 다단계 결합 연산일 수 있다.
-6. 10화의 MAX와 SUM Reduction은 여전히 필요하다. 없애는 것은 최종 loss에 불필요한 전체 normalized probability Tensor의 materialization이다.
+아래쪽에는 전체 normalized probability Tensor가 등장하지 않는다. 정답 값과 전체에서 모은 공통 정보가 합류해 같은 loss를 만든다. 생략한 Tensor는 점선 박스와 ‘생성하지 않음’ 문구로 위쪽 메모리 영역과 대비한다.
+
+정답은 항상 마지막 클래스이며 노란색이다. 다른 입력은 파란색, 공통 합과 최댓값은 보라색이다. Reduction에 참여하는 작고 반투명한 복사 원은 원본 값의 기여를 표현한다. 실제 복사 명령이나 성능 측정이 아닌 계산·데이터 흐름 개념도다. 경로 길이와 도착 시각은 속도 배율을 뜻하지 않는다.
+
+## 수학과 숫자 예시
+
+1. 초반 입력 `[1,2,3,4]`는 지수 계산이 끝난 값이다. logits가 아니다. 합은 10, 마지막 정답 클래스의 확률은 0.4, loss는 `−ln(0.4) ≈ 0.916`이다.
+2. 아래 경로는 정답 지수값 4와 합 10으로 `ln(10)−ln(4)`를 계산할 수 있다. 확률 벡터는 만들지 않는다. 작은 양수 예시는 두 경로 비교용이다.
+3. 수치 안정성은 비교 후 별도의 logits `[1000,999,998]`로 설명한다. 마지막 정답 998은 최댓값과 다르다. `m=1000`, 차이는 `[0,−1,−2]`다.
+4. 지수값은 약 `[1,0.368,0.135]`, 합 `s≈1.503`, `ln(s)≈0.408`, loss는 `2+0.408≈2.408`이다. 표시는 반올림이며 결과는 반올림 전 값으로 계산한다.
+5. 수식 `L=−(zᵧ−m)+log s`는 85초 이후 숫자들의 이동을 본 뒤 보조적으로 등장한다. log는 자연로그다.
+6. 범위는 단일 정답 클래스, 유한하고 비어 있지 않은 logits, 한 샘플의 가중치 없는 forward loss다.
+
+## 정확성 경계
+
+- 모든 클래스의 입력은 여전히 필요하다. 생략 가능한 것은 최종 loss에 필요 없는 전체 normalized probability Tensor의 materialization이다.
+- 확률 전체가 다른 소비자에게 필요하면 생성·보존해야 한다. Label smoothing, soft targets, class weights, backward 상태, 배치 reduction 등은 추가 계산이나 저장을 요구할 수 있다.
+- 수학적 결합이 물리적인 GPU kernel launch 하나를 보장하지 않는다.
+- 안정적인 logits 경로에는 MAX 및 SUM Reduction이 여전히 필요하다. Tree는 여러 Thread 값의 결합을 나타내며 실제 구현의 정확한 Thread 배치를 규정하지 않는다.
+- 최댓값을 빼는 방식은 지수 overflow 위험을 줄인다. 모든 dtype과 입력에서 무오류를 보장한다고 표현하지 않는다.
 
 ## 장면별 타임라인
 
-| 종료 | 화면 목표 |
+| 구간 | 화면 목표 |
 |---|---|
-| 10초 | Logits → Softmax → Cross Entropy, 실제 수치 |
-| 19초 | 교과서의 두 식과 계산 그래프 |
-| 28초 | 전체 p 중 정답 클래스 하나만 사용 |
-| 40초 | 대수적 결합과 안정적인 log-sum-exp |
-| 50초 | 별도 kernel의 Write p / Read p |
-| 60초 | 조건부 fused loss 실행 |
-| 69초 | 전편 Softmax 흐름에서 normalize 전체 단계 제거 |
-| 78초 | 큰 logits와 안정성 |
-| 88초 | 수식 경계와 실행 경계 비교 |
-| 100초 | 최종 요약, 단일 kernel 비보장 조건 |
+| 0–7초 | 짧은 분류 구조, 마지막 클래스 정답, loss 하나가 목적 |
+| 7–14초 | 같은 입력·같은 도착점, 위·아래 비교 그림 먼저 제시 |
+| 14–23초 | 위쪽에서 확률 0.1, 0.2, 0.3, 0.4 모두 생성 |
+| 23–33초 | 전체 Tensor WRITE → GPU MEMORY → READ |
+| 33–41초 | 나머지 확률 흐리게, 정답 0.4 → −log → 0.916 |
+| 41–50초 | 아래쪽 정답 값 4 유지, 네 입력의 기여를 모아 합 10 |
+| 50–58초 | 확률 벡터 없이 같은 loss 0.916, 점선 Tensor 영역 강조 |
+| 58–65초 | 입력 전체는 필요하지만 확률 전체의 저장은 생략 가능 |
+| 65–76초 | 그 뒤 내부 설명: 새 logits → MAX tree → 최댓값 빼기 |
+| 76–88초 | EXP → SUM tree → LOG + 정답 차이 → loss, 수식 보조 |
+| 88–100초 | 두 경로 동시 이동, 중간 Tensor 차이와 결합 조건 회수 |
 
-## 싱크 기준
+## 싱크 및 검토
 
-내레이션 길이에 따라 9~12초 구간을 배정했다. 장면 전환 애니메이션은 각 구간 초반 약 1초이며, 이후 화면을 발화 종료 시점까지 유지한다. 실제 TTS 음원의 속도에 맞춰 최종 싱크를 미세 조정할 수 있다.
+각 구간의 종료 시각은 `Scene.time`으로 고정하고 이동 cue를 대사 순서에 배정한다. TTS와 SRT는 동일한 11개 구간에 대응한다. 실제 TTS 음원이 제공되면 음원 길이로 cue를 조정한다. 기본 영상은 무음이며 글자 수로 실제 TTS 발화 종료를 보장하지 않는다.
+
+서로 다른 타임라인의 Manim 캐시가 섞이지 않도록 animation cache 재사용을 비활성화했다. 360×640 미리보기에서 두 경로의 동시 가독성, 메모리 이동, 원과 설명의 겹침을 확인한 뒤 최종본을 렌더한다.
+
+### 2026-10-02 개정본 검토 결과
+
+- 미리보기와 최종본 모두 렌더 완료. 최종본 1080×1920, 3,000프레임, nominal 30fps, 약 100초, 오디오 스트림 없음.
+- 메모리 저장·읽기, 두 경로의 공통 Loss, MAX/SUM tree, 마지막 동시 이동을 미리보기와 최종 프레임에서 확인했다. 연결선이 원 내부 숫자를 가리지 않도록 레이어를 수정했다.
+- 대본·SRT·TTS를 11구간으로 맞췄다. TTS 원고의 구간별 한글 음절 수는 초당 약 5.0~5.8이며, 실제 음원 싱크 검증은 음원 제공 후 가능하다.
+- 마지막 자막 종료 시각 100초와 영상 컨테이너 길이의 차이는 1프레임 이내다.
 
 ## 참고 자료
 
 - PyTorch `CrossEntropyLoss`: https://docs.pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html
-- PyTorch `log_softmax` 수치 안정성: https://docs.pytorch.org/docs/stable/generated/torch.nn.functional.log_softmax.html
+- PyTorch `log_softmax`: https://docs.pytorch.org/docs/stable/generated/torch.nn.functional.log_softmax.html
 - NVIDIA cuDNN Softmax 그래프: https://docs.nvidia.com/deeplearning/cudnn/archives/cudnn-895/pdf/cuDNN-Developer-Guide.pdf

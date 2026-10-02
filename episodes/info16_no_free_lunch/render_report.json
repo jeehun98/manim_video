@@ -1,0 +1,17 @@
+{
+  "file": "C:\\Users\\owner\\Desktop\\manim_video\\exports\\info16.mp4",
+  "width": 1080,
+  "height": 1920,
+  "nominal_fps": 30.0,
+  "container_average_fps": 30.0,
+  "audio_tracks": 0,
+  "planned_duration_seconds": 79.26666666666667,
+  "decoded_frames": 2378,
+  "decoded_duration_seconds": 79.26666666666667,
+  "full_decode_passed": true,
+  "preview_all_13_cues_checked": true,
+  "both_prediction_highlights_and_card_contrast_checked": true,
+  "cnn_shared_filter_motion_checked": true,
+  "uniform_binary_world_count_verified": true,
+  "nfl_title_definition_and_closing_visually_checked": true
+}

@@ -1,0 +1,18 @@
+{
+  "duration_seconds": 78.33333333333333,
+  "temperature_K": 300,
+  "volume_ratio": 2.0,
+  "information_bits": 1.0,
+  "normalized_pressure_integral": 0.6931471805599454,
+  "maximum_mean_work_J": 2.870978885078724e-21,
+  "same_temperature_standard_erasure_mean_heat_lower_bound_J": 2.870978885078724e-21,
+  "schematic_rope_length_initial": 8.4,
+  "schematic_rope_length_final": 8.4,
+  "pressure_integral_and_rope_geometry_verified": true,
+  "feedback_directions": {
+    "L": "right",
+    "R": "left"
+  },
+  "comparison_rope_length_initial": 4.82,
+  "comparison_rope_length_final": 4.82
+}

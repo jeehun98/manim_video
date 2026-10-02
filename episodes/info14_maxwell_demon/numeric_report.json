@@ -1,0 +1,35 @@
+{
+  "duration_seconds": 78.93333333333334,
+  "schematic_not_thermodynamic_simulation": true,
+  "initial_particle_count": 16,
+  "sorted_particle_count": 16,
+  "illustrative_total_v_squared_initial": 13.14,
+  "illustrative_total_v_squared_sorted": 13.14,
+  "door_rules": [
+    [
+      "left",
+      "fast",
+      "right",
+      true
+    ],
+    [
+      "left",
+      "slow",
+      "left",
+      false
+    ],
+    [
+      "right",
+      "slow",
+      "left",
+      true
+    ],
+    [
+      "right",
+      "fast",
+      "right",
+      false
+    ]
+  ],
+  "rule_and_rearrangement_conservation_verified": true
+}

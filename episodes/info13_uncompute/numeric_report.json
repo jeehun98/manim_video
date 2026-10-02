@@ -1,0 +1,42 @@
+{
+  "duration_seconds": 74.03333333333333,
+  "register_order": [
+    "a",
+    "b",
+    "t",
+    "r"
+  ],
+  "trace": [
+    [
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      1
+    ]
+  ],
+  "all_16_states_bijective": true,
+  "unitarity_verified": true,
+  "quantum_final_nonzero_basis_indices": [
+    0,
+    13
+  ],
+  "ancilla_t_separable_zero": true
+}

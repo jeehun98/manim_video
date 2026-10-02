@@ -1,0 +1,11 @@
+{
+  "duration_seconds": 79.26666666666667,
+  "consistent_worlds": 16,
+  "x4_label_counts": {
+    "0": 8,
+    "1": 8
+  },
+  "prediction_0_mean_accuracy": 0.5,
+  "prediction_1_mean_accuracy": 0.5,
+  "uniform_prior_off_training_set_binary_example_verified": true
+}
