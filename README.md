@@ -1,3 +1,9 @@
+# Manim 교육 영상 프로젝트
+
+## 롱폼 제작
+
+롱폼은 짧은 완성 씬을 독립적으로 제작한 뒤 결합하는 방식으로 관리합니다. 새 롱폼을 시작하거나 다른 환경에서 이어서 작업할 때는 [롱폼 제작 규격](longforms/README.md)과 [`longforms/_template`](longforms/_template/)를 먼저 확인하세요.
+
 # Activation Function Series
 
 ## 분포의 수학
@@ -137,6 +143,32 @@
 - 실제 파일: [장면](episodes/nnmath11_series_finale/scene.py) · [대본](episodes/nnmath11_series_finale/narration.md) · [제작 기준](episodes/nnmath11_series_finale/brief.md) · [자막](episodes/nnmath11_series_finale/captions.srt) · [TTS](episodes/nnmath11_series_finale/tts_script.txt)
 - 미리보기: `python scripts/render.py nnmath11 --preview` → `exports/nnmath11_preview.mp4`
 - 최종본: `python scripts/render.py nnmath11` → `exports/nnmath11.mp4`
+
+## 신경망의 수학 2부 — 학습된 내부 구조
+
+- 신경망의 수학 2부 01 **분류만 하면 되는데 왜 클래스는 정삼각형을 만들까? — Neural Collapse** — 110초, 1080×1920, 30fps, 무음. 이미 완벽히 분류 가능한 representation이 학습 후반에 클래스 내부 붕괴, simplex ETF 형태의 대칭적 평균, classifier 정렬, nearest-class-center 결정으로 향할 수 있다는 현상을 보여줍니다.
+- 실제 파일: [장면](episodes/nnmath2p01_neural_collapse/scene.py) · [대본](episodes/nnmath2p01_neural_collapse/narration.md) · [제작 기준](episodes/nnmath2p01_neural_collapse/brief.md) · [자막](episodes/nnmath2p01_neural_collapse/captions.srt) · [TTS](episodes/nnmath2p01_neural_collapse/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath2p01 --preview` → `exports/nnmath2p01_preview.mp4`
+- 최종본: `python scripts/render.py nnmath2p01` → `exports/nnmath2p01.mp4`
+- 신경망의 수학 2부 02 **2차원 공간에 5개의 특징을 저장할 수 있을까? — Superposition** — 102초, 1080×1920, 30fps, 무음. 두 좌표축에 다섯 개의 비직교 feature direction을 배치하면 capacity를 늘리는 대신 interference가 생기며, sparse activation이 그 기대 비용을 낮출 수 있다는 표현 기하학을 보여줍니다.
+- 실제 파일: [장면](episodes/nnmath2p02_superposition/scene.py) · [대본](episodes/nnmath2p02_superposition/narration.md) · [제작 기준](episodes/nnmath2p02_superposition/brief.md) · [자막](episodes/nnmath2p02_superposition/captions.srt) · [TTS](episodes/nnmath2p02_superposition/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath2p02 --preview` → `exports/nnmath2p02_preview.mp4`
+- 최종본: `python scripts/render.py nnmath2p02` → `exports/nnmath2p02.mp4`
+- 신경망의 수학 2부 03 **뉴런 하나는 하나의 의미를 담당할까? — Polysemanticity** — 108초, 1080×1920, 30fps, 무음. 한 뉴런의 여러 반응을 출발점으로 뉴런을 의미의 상자가 아닌 representation 공간의 좌표축으로, feature를 여러 뉴런에 걸친 방향으로 다시 해석하고 Sparse Autoencoder의 분해 문제로 연결합니다.
+- 실제 파일: [장면](episodes/nnmath2p03_polysemanticity/scene.py) · [대본](episodes/nnmath2p03_polysemanticity/narration.md) · [제작 기준](episodes/nnmath2p03_polysemanticity/brief.md) · [자막](episodes/nnmath2p03_polysemanticity/captions.srt) · [TTS](episodes/nnmath2p03_polysemanticity/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath2p03 --preview` → `exports/nnmath2p03_preview.mp4`
+- 최종본: `python scripts/render.py nnmath2p03` → `exports/nnmath2p03.mp4`
+- 신경망의 수학 2부 04 **모델의 진짜 Feature를 찾았다는 걸 어떻게 알까? — Identifiability** — 112초, 1080×1920, 30fps, 무음. 서로 다른 feature decomposition이 같은 activation을 복원할 수 있다는 문제에서 출발해 좋은 설명, 유일한 설명, 실제 메커니즘을 구분하고 sparsity와 intervention이 어떤 추가 증거를 제공하는지 보여줍니다.
+- 실제 파일: [장면](episodes/nnmath2p04_identifiability/scene.py) · [대본](episodes/nnmath2p04_identifiability/narration.md) · [제작 기준](episodes/nnmath2p04_identifiability/brief.md) · [자막](episodes/nnmath2p04_identifiability/captions.srt) · [TTS](episodes/nnmath2p04_identifiability/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath2p04 --preview` → `exports/nnmath2p04_preview.mp4`
+- 최종본: `python scripts/render.py nnmath2p04` → `exports/nnmath2p04.mp4`
+- 썸네일: `exports/nnmath2p04_thumbnail.png`
+
+- 신경망의 수학 2부 05 **Feature가 진짜인지 직접 지워보면 알 수 있을까? — Causal Intervention** — 112초, 1080×1920, 30fps, 무음. 관찰적 상관관계를 넘어 feature 방향을 제거·추가하는 개입을 필요성과 충분성의 관점에서 비교하고, redundancy, off-distribution intervention, superposition이 인과적 결론을 어떻게 어렵게 만드는지 보여준 뒤 circuits로 연결합니다.
+- 실제 파일: [장면](episodes/nnmath2p05_causal_intervention/scene.py) · [대본](episodes/nnmath2p05_causal_intervention/narration.md) · [제작 기준](episodes/nnmath2p05_causal_intervention/brief.md) · [자막](episodes/nnmath2p05_causal_intervention/captions.srt) · [TTS](episodes/nnmath2p05_causal_intervention/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath2p05 --preview` → `exports/nnmath2p05_preview.mp4`
+- 최종본: `python scripts/render.py nnmath2p05` → `exports/nnmath2p05.mp4`
+- 썸네일: `exports/nnmath2p05_thumbnail.png`
 
 ## 현재 체크아웃에서 제작 가능한 GPU 연산과 최적화 시리즈
 

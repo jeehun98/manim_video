@@ -2,6 +2,10 @@
 
 이 저장소는 주어진 콘티를 Manim으로 구현해 세로형 교육 영상을 만드는 프로젝트다. 작업을 시작할 때 README의 전체 목록을 현재 존재하는 에피소드로 간주하지 말고 실제 파일을 먼저 확인한다.
 
+## 롱폼 작업
+
+롱폼은 `longforms/README.md`를 기준으로 작업한다. 핵심 단위는 **씬 하나 = 주장 하나 = 독립적으로 교체 가능한 완성 영상**이며, 순서는 `전체 대본 → 씬 분할 → 씬별 TTS와 길이 확정 → 화면 제작 → 씬별 mux → 최종 concat`이다. 새 프로젝트는 `longforms/_template/`를 복사해 시작하고, 화면을 만들기 전에 각 씬의 `spec.md`와 TTS 길이를 먼저 확정한다.
+
 ## 현재 실제 구조
 
 - `episodes/prune01_zero_weights/`부터 `prune04_hardware_aware/`까지: 현재 구현된 Pruning & Sparsity 4편. 각 폴더에 `scene.py`(영상), `narration.md`(구간별 대본), `brief.md`(제작·내용 기준), `captions.srt`(자막), `tts_script.txt`(음성 합성용 발음 표기)가 있다.

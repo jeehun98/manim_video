@@ -1,0 +1,14 @@
+id: "<ID>"
+title: "<TITLE>"
+video:
+  width: 1920
+  height: 1080
+  fps: 30
+
+scenes:
+  - id: "01"
+    slug: "example"
+    directory: "scenes/01_example"
+    class: "Scene01Example"
+    duration_seconds: null
+    transition: "cut"
