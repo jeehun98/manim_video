@@ -1,0 +1,46 @@
+id: xai01
+title: "고양이를 알아본다는 것은 무슨 뜻일까? - Explainable AI"
+video:
+  width: 1920
+  height: 1080
+  fps: 30
+scenes:
+  - id: "01"
+    slug: hook
+    directory: scenes/01_hook
+    class: Act01Hook
+    duration_seconds: 111
+    transition: cut
+    status: silent_visual_prototype
+
+  - id: "02"
+    slug: input_changes
+    directory: scenes/02_input_changes
+    class: Act02InputChanges
+    duration_seconds: 146
+    transition: cut
+    status: silent_visual_prototype
+
+  - id: "03"
+    slug: internal_clues
+    directory: scenes/03_internal_clues
+    class: Act03InternalClues
+    duration_seconds: 154
+    transition: cut
+    status: silent_visual_prototype
+
+  - id: "04"
+    slug: intervention
+    directory: scenes/04_intervention
+    class: Act04Intervention
+    duration_seconds: 193
+    transition: cut
+    status: silent_visual_prototype
+
+  - id: "05"
+    slug: meaning_and_paths
+    directory: scenes/05_meaning_and_paths
+    class: Act05MeaningAndPaths
+    duration_seconds: 226
+    transition: cut
+    status: silent_visual_prototype
