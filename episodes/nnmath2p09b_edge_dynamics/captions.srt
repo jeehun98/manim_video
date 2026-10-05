@@ -1,0 +1,58 @@
+1
+00:00:00,000 --> 00:00:11,000
+고정 quadratic의 안정 영역
+0 < eta lambda < 2
+
+2
+00:00:11,000 --> 00:00:24,000
+parameter가 이동하면 local curvature와
+Hessian의 최대 eigenvalue lambda max가 달라집니다.
+
+3
+00:00:24,000 --> 00:00:34,000
+eta = 0.01 고정
+lambda max: 20 → 100 → 190
+eta lambda max: 0.2 → 1.0 → 1.9
+
+4
+00:00:34,000 --> 00:00:44,000
+Learning Rate를 키운 것이 아닙니다.
+모델이 경험하는 curvature가 변했습니다.
+
+5
+00:00:44,000 --> 00:00:53,000
+lambda max가 증가해 classical boundary인
+2/eta 부근에 도달할 수 있습니다.
+
+6
+00:00:53,000 --> 00:01:04,000
+경계 부근에서도 신경망 학습이
+바로 끝나지 않을 수 있습니다.
+
+7
+00:01:04,000 --> 00:01:13,000
+Loss가 진동해도 더 긴 시간의 학습은 진행될 수 있습니다.
+
+8
+00:01:13,000 --> 00:01:21,000
+classical stability boundary 부근의 지속 학습
+Edge of Stability
+
+9
+00:01:21,000 --> 00:01:31,000
+parameters move → local curvature changes
+→ stability changes
+
+10
+00:01:31,000 --> 00:01:42,000
+Edge는 무제한의 불안정성이 아닙니다.
+
+11
+00:01:42,000 --> 00:01:50,000
+lambda max는 가장 높은 curvature 방향이며
+안정성 문제가 먼저 나타날 수 있는 방향입니다.
+
+12
+00:01:50,000 --> 00:02:02,000
+안정성과 불안정성의 경계에서 이어지는 학습 dynamics
+Edge of Stability

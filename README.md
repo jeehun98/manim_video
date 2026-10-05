@@ -170,6 +170,60 @@
 - 최종본: `python scripts/render.py nnmath2p05` → `exports/nnmath2p05.mp4`
 - 썸네일: `exports/nnmath2p05_thumbnail.png`
 
+- 신경망의 수학 2부 06 **훈련 정확도 100% 이후에도 모델은 무엇을 배울까? — Grokking** — 126초, 1080×1920, 30fps, 무음. Train Accuracy가 일찍 100%에 도달한 뒤 Test Accuracy가 오래 정체되다가 뒤늦게 상승하는 delayed generalization을 출발점으로, 정확도 포화와 optimization 종료를 구분하고 memorizing solution과 generalizing solution 사이의 장기 dynamics를 설명합니다.
+- 실제 파일: [장면](episodes/nnmath2p06_grokking/scene.py) · [대본](episodes/nnmath2p06_grokking/narration.md) · [제작 기준](episodes/nnmath2p06_grokking/brief.md) · [자막](episodes/nnmath2p06_grokking/captions.srt) · [TTS](episodes/nnmath2p06_grokking/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath2p06 --preview` → `exports/nnmath2p06_preview.mp4`
+- 최종본: `python scripts/render.py nnmath2p06` → `exports/nnmath2p06.mp4`
+- 썸네일: `exports/nnmath2p06_thumbnail.png`
+
+- 신경망의 수학 2부 07 **신경망은 학습하며 정말 새로운 Feature를 만들까? — Feature Learning vs Lazy Learning** — 139초, 1080×1920, 30fps, 무음. 같은 초기 point cloud에서 출발해 Feature 축 자체가 바꾰는 학습과 초기 tangent feature를 거의 고정한 채 조합 계수를 바꾰는 학습을 좌우로 비교합니다.
+- 실제 파일: [장면](episodes/nnmath2p07_feature_vs_lazy/scene.py) · [대본](episodes/nnmath2p07_feature_vs_lazy/narration.md) · [제작 기준](episodes/nnmath2p07_feature_vs_lazy/brief.md) · [자막](episodes/nnmath2p07_feature_vs_lazy/captions.srt) · [TTS](episodes/nnmath2p07_feature_vs_lazy/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath2p07 --preview` → `exports/nnmath2p07_preview.mp4`
+- 최종본: `python scripts/render.py nnmath2p07` → `exports/nnmath2p07.mp4`
+- 썸네일: `exports/nnmath2p07_thumbnail.png`
+
+- 신경망의 수학 2부 08 **Spectral Bias — 신경망은 왜 낮은 주파수부터 학습할까?** — 143초, 1080×1920, 30fps, 무음. `sin x + 0.3 sin(10x)` target의 성분별 학습 속도를 비교하고, kernel learning dynamics의 고유방향과 고유값이 mode별 error decay를 다르게 만들 수 있음으로 연결해 `Representable ≠ Equally Learnable`로 결론짓습니다.
+- 실제 파일: [장면](episodes/nnmath2p08_spectral_bias/scene.py) · [대본](episodes/nnmath2p08_spectral_bias/narration.md) · [제작 기준](episodes/nnmath2p08_spectral_bias/brief.md) · [자막](episodes/nnmath2p08_spectral_bias/captions.srt) · [TTS](episodes/nnmath2p08_spectral_bias/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath2p08 --preview` → `exports/nnmath2p08_preview.mp4`
+- 최종본: `python scripts/render.py nnmath2p08` → `exports/nnmath2p08.mp4`
+- 썸네일: `exports/nnmath2p08_thumbnail.png`
+
+- 신경망의 수학 2부 09 **Edge of Stability — 신경망은 왜 불안정해지기 직전까지 학습할까?** — 256초, 1080×1920, 30fps, 무음. 넓은/좁은 골짜기로 curvature를 설명하고, quadratic update에서 `ηλ=2` 경계를 직접 유도한 뒤 `η=0.01` 고정 숫자 예시로 local curvature 변화와 Edge of Stability를 연결합니다.
+- 실제 파일: [장면](episodes/nnmath2p09_edge_of_stability/scene.py) · [대본](episodes/nnmath2p09_edge_of_stability/narration.md) · [제작 기준](episodes/nnmath2p09_edge_of_stability/brief.md) · [자막](episodes/nnmath2p09_edge_of_stability/captions.srt) · [TTS](episodes/nnmath2p09_edge_of_stability/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath2p09 --preview` → `exports/nnmath2p09_preview.mp4`
+- 최종본: `python scripts/render.py nnmath2p09` → `exports/nnmath2p09.mp4`
+- 썸네일: `exports/nnmath2p09_thumbnail.png`
+
+- 신경망의 수학 2부 09A **왜 ηλ=2가 안정성의 경계일까?** — 104초, 1080×1920, 30fps, 무음. 넓은/좁은 골짜기로 curvature를 소개하고 quadratic update를 직접 정리해 `ηλ=0.5`, `1.5`, `2`의 궤적을 비교합니다.
+- 실제 파일: [장면](episodes/nnmath2p09a_stability_boundary/scene.py) · [대본](episodes/nnmath2p09a_stability_boundary/narration.md) · [제작 기준](episodes/nnmath2p09a_stability_boundary/brief.md) · [자막](episodes/nnmath2p09a_stability_boundary/captions.srt) · [TTS](episodes/nnmath2p09a_stability_boundary/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath2p09a --preview` → `exports/nnmath2p09a_preview.mp4`
+- 최종본: `python scripts/render.py nnmath2p09a` → `exports/nnmath2p09a.mp4`
+
+- 신경망의 수학 2부 09B **Edge of Stability — 고정된 Learning Rate, 발산해야 할 것 같은데 왜 학습은 계속될까?** — 122초, 1080×1920, 30fps, 무음. `η=0.01`을 고정한 숫자 예시에서 `λ_max` 증가가 `ηλ_max`를 경계 2로 이동시키는 과정을 보여주고 Edge of Stability로 연결합니다.
+- 실제 파일: [장면](episodes/nnmath2p09b_edge_dynamics/scene.py) · [대본](episodes/nnmath2p09b_edge_dynamics/narration.md) · [제작 기준](episodes/nnmath2p09b_edge_dynamics/brief.md) · [자막](episodes/nnmath2p09b_edge_dynamics/captions.srt) · [TTS](episodes/nnmath2p09b_edge_dynamics/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath2p09b --preview` → `exports/nnmath2p09b_preview.mp4`
+- 최종본: `python scripts/render.py nnmath2p09b` → `exports/nnmath2p09b.mp4`
+
+- 신경망의 수학 2부 10 **Catapult Mechanism — Loss가 폭발했는데 왜 다시 학습될까?** — 175초, 1080×1920, 30fps, 무음. large-LR 구간의 Loss spike와 recovery를 NTK 최대 고유값 감소, critical Learning Rate 상승, 변화한 network dynamics로 연결합니다.
+- 실제 파일: [장면](episodes/nnmath2p10_catapult/scene.py) · [대본](episodes/nnmath2p10_catapult/narration.md) · [제작 기준](episodes/nnmath2p10_catapult/brief.md) · [자막](episodes/nnmath2p10_catapult/captions.srt) · [TTS](episodes/nnmath2p10_catapult/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath2p10 --preview` → `exports/nnmath2p10_preview.mp4`
+- 최종본: `python scripts/render.py nnmath2p10` → `exports/nnmath2p10.mp4`
+- 썸네일: `exports/nnmath2p10_thumbnail.png`
+
+### 신경망의 수학 2부 11 — Benign Overfitting
+
+- 실제 파일: [장면](episodes/nnmath2p11_benign_overfitting/scene.py) · [대본](episodes/nnmath2p11_benign_overfitting/narration.md) · [제작 기준](episodes/nnmath2p11_benign_overfitting/brief.md) · [자막](episodes/nnmath2p11_benign_overfitting/captions.srt) · [TTS](episodes/nnmath2p11_benign_overfitting/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath2p11 --preview` → `exports/nnmath2p11_preview.mp4`
+- 최종본: `python scripts/render.py nnmath2p11` → `exports/nnmath2p11.mp4`
+- 썸네일: `exports/nnmath2p11_thumbnail.png`
+
+### 신경망의 수학 2부 12 — Mode Connectivity
+
+- 실제 파일: [장면](episodes/nnmath2p12_mode_connectivity/scene.py) · [대본](episodes/nnmath2p12_mode_connectivity/narration.md) · [제작 기준](episodes/nnmath2p12_mode_connectivity/brief.md) · [자막](episodes/nnmath2p12_mode_connectivity/captions.srt) · [TTS](episodes/nnmath2p12_mode_connectivity/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath2p12 --preview` → `exports/nnmath2p12_preview.mp4`
+- 최종본: `python scripts/render.py nnmath2p12` → `exports/nnmath2p12.mp4`
+- 썸네일: `exports/nnmath2p12_thumbnail.png`
+
 ## 현재 체크아웃에서 제작 가능한 GPU 연산과 최적화 시리즈
 
 - GPU 연산과 최적화 01 **곱셈과 덧셈을 적었는데, GPU는 FMA를 실행한다** — 73초, 1080×1920, 30fps, 무음. CUDA source의 `a*b+c`가 조건에 따라 FMA로 contraction될 수 있으며 반올림 결과도 달라질 수 있음을 보여줍니다.
