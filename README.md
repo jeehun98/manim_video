@@ -745,6 +745,24 @@ science01 화면 길이는 대사 글자 수에 비례해 배분합니다. `pyth
 - 미리보기: `.\.venv\Scripts\python.exe scripts/render.py science10 --preview`
 - 최종: `.\.venv\Scripts\python.exe scripts/render.py science10`
 - 출력: `exports/science10_preview.mp4`, `exports/science10.mp4`.
+
+## 과학의 한 장면 11 — 보이지 않는 입자를 어떻게 관측할까?
+
+- `science11`: 뉴트리노의 희귀한 상호작용 → 2차 하전입자 → 체렌코프 빛 → 센서 시간차 → 우주 방향 재구성. 2026년 노벨 물리학상과 연결되는 61초 무음 세로 영상.
+- 실제 파일: `episodes/science11_icecube_neutrino/`의 scene.py, brief.md, narration.md, tts_script.txt, captions.srt, timing.json.
+- 확인된 TTS 구간 적용: `.\.venv\Scripts\python.exe scripts/retime_science11.py` 또는 `python scripts/retime_science11.py`.
+- 미리보기: `python scripts/render.py science11 --preview`
+- 최종: `python scripts/render.py science11`
+- 출력: `exports/science11_preview.mp4`, `exports/science11.mp4`.
+
+## 과학의 한 장면 12 — 검출기를 만든 것이 왜 노벨상일까?
+
+- `science12`: 빛의 흡수와 하전 우주선의 굴절 → 방향을 보존하는 고에너지 뉴트리노 → 거대 검출기의 필요 → 2002년 우주 뉴트리노와 2013년 IceCube의 차이 → 새로운 관측 창. 2026년 노벨 물리학상 2편, 60초 무음 세로 영상.
+- 실제 파일: `episodes/science12_neutrino_telescope/`의 scene.py, brief.md, narration.md, tts_script.txt, captions.srt, timing.json.
+- 초안 타이밍 재배분: `python scripts/retime_science12.py --duration 60`
+- 미리보기: `python scripts/render.py science12 --preview`
+- 최종: `python scripts/render.py science12`
+- 출력: `exports/science12_preview.mp4`, `exports/science12.mp4`.
 - Void가 물질을 밀어내는 힘은 없다. 평균보다 약한 중력 감속과 주변 과밀 구조로의 이동을 구별하며, 완전히 비어 있지 않음을 표시한다. 입자 흐름과 우주 거미줄은 개념도다.
 
 

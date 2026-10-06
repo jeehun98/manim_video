@@ -1,0 +1,55 @@
+{
+  "duration": 61.0,
+  "fps": 30,
+  "method": "measured TTS cue boundaries supplied by the user",
+  "cues": [
+    {
+      "start_frame": 0,
+      "end_frame": 210,
+      "characters": 50,
+      "text": "우주에서 온 입자들은 지구에서 흔적을 남깁니다. 빛은 흡수되고, 전하를 띤 입자는 휘어집니다. 그런데 뉴트리노는 다릅니다."
+    },
+    {
+      "start_frame": 210,
+      "end_frame": 450,
+      "characters": 48,
+      "text": "뉴트리노는 전하가 없고 물질과 거의 반응하지 않습니다. 대부분은 지구 전체를 지나가도 아무 흔적을 남기지 않습니다."
+    },
+    {
+      "start_frame": 450,
+      "end_frame": 720,
+      "characters": 60,
+      "text": "그렇다면 검출기를 아주 크게 만들면 어떨까요? 남극 얼음 약 1세제곱킬로미터에 5,160개의 광센서를 묻습니다. 이것이 IceCube입니다."
+    },
+    {
+      "start_frame": 720,
+      "end_frame": 930,
+      "characters": 46,
+      "text": "아주 드물게 뉴트리노 하나가 얼음 속 원자핵과 충돌합니다. 이때 빠르게 움직이는 2차 하전입자가 만들어집니다."
+    },
+    {
+      "start_frame": 930,
+      "end_frame": 1140,
+      "characters": 43,
+      "text": "이 입자가 얼음 속 빛보다 빠르면, 푸른 체렌코프 빛이 원뿔처럼 퍼집니다. 진공의 광속을 넘는 것은 아닙니다."
+    },
+    {
+      "start_frame": 1140,
+      "end_frame": 1320,
+      "characters": 40,
+      "text": "빛은 가까운 센서부터 서로 다른 시각에 도착합니다. 각 센서는 빛의 세기와 도착 시간을 기록합니다."
+    },
+    {
+      "start_frame": 1320,
+      "end_frame": 1560,
+      "characters": 53,
+      "text": "컴퓨터가 이 시간차를 거꾸로 맞추면 입자의 경로가 나타납니다. 그 선을 하늘로 연장하면, 뉴트리노가 온 방향을 추적할 수 있습니다."
+    },
+    {
+      "start_frame": 1560,
+      "end_frame": 1830,
+      "characters": 68,
+      "text": "빛으로 볼 수 없는 우주를 뉴트리노의 경로로 보는 것. 이 아이디어를 현실로 만든 Francis Halzen의 업적이 2026년 노벨 물리학상으로 이어졌습니다."
+    }
+  ]
+}

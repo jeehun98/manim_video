@@ -1,0 +1,55 @@
+{
+  "duration": 60.0,
+  "fps": 30,
+  "method": "alphanumeric characters; excludes spaces and punctuation",
+  "cues": [
+    {
+      "start_frame": 0,
+      "end_frame": 145,
+      "characters": 35,
+      "text": "뉴트리노는 이미 알던 입자입니다. 그런데 거대한 검출기를 만든 것이 왜 노벨상일까요?"
+    },
+    {
+      "start_frame": 145,
+      "end_frame": 387,
+      "characters": 58,
+      "text": "공식 수상 사유에는 두 가지가 함께 있습니다. IceCube에 대한 결정적 기여, 그리고 천체물리학적 기원의 고에너지 뉴트리노 발견입니다."
+    },
+    {
+      "start_frame": 387,
+      "end_frame": 582,
+      "characters": 47,
+      "text": "먼 우주를 보는 빛은 가려진 환경에서 흡수될 수 있습니다. 전하를 띤 우주선은 자기장에 휘어져 출발 방향을 잃습니다."
+    },
+    {
+      "start_frame": 582,
+      "end_frame": 786,
+      "characters": 49,
+      "text": "반면 뉴트리노는 전하가 없고 거의 반응하지 않습니다. 아주 먼 곳에서 와도 방향과 고에너지 정보를 비교적 잘 보존합니다."
+    },
+    {
+      "start_frame": 786,
+      "end_frame": 1006,
+      "characters": 53,
+      "text": "하지만 우주를 쉽게 통과한다는 장점은 검출기도 쉽게 통과한다는 뜻입니다. 그래서 남극 얼음 1세제곱킬로미터가 필요했습니다."
+    },
+    {
+      "start_frame": 1006,
+      "end_frame": 1326,
+      "characters": 77,
+      "text": "우주 뉴트리노는 처음이 아니었습니다. 태양과 초신성 뉴트리노는 이미 2002년 노벨상으로 이어졌습니다. IceCube는 2013년 훨씬 높은 에너지의 우주 신호를 드러냈습니다."
+    },
+    {
+      "start_frame": 1326,
+      "end_frame": 1546,
+      "characters": 53,
+      "text": "이 구조는 LIGO와 닮았습니다. 검출기를 현실로 만들고 실제 신호를 관측하면서, 이전에는 없던 새로운 천문학이 시작됐습니다."
+    },
+    {
+      "start_frame": 1546,
+      "end_frame": 1800,
+      "characters": 61,
+      "text": "검출기의 발명이 목적이 아니었습니다. 빛만으로 볼 수 없던 극한의 우주를 뉴트리노라는 새로운 창으로 보게 만든 것. 그것이 이번 노벨상의 핵심입니다."
+    }
+  ]
+}
