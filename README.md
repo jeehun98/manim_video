@@ -97,6 +97,13 @@
 - 미리보기: `python scripts/render.py dist17_2 --preview` → `exports/dist17_2_preview.mp4`
 - 최종본: `python scripts/render.py dist17_2` → `exports/dist17_2.mp4`
 
+## 활성화 함수의 기하학
+
+- 활성화 함수의 기하학 01 **ReLU는 좌표를 어떻게 압축할까?** — 94초, 1080×1920, 30fps, 무음. 고정된 `x₁,x₂` 좌표계 위에서 `w` 방향의 새 좌표 `u=wᵀx+b`를 만들고, `(u,v)→(max(0,u),v)`가 음수 쪽 격자를 `u=0` 경계로 붕괴시키는 과정을 보여줍니다. 여러 `uᵢ`의 부호 패턴과 piecewise affine 규칙으로 확장합니다.
+- 실제 파일: [장면](episodes/act01_relu_geometry/scene.py) · [대본](episodes/act01_relu_geometry/narration.md) · [제작 기준](episodes/act01_relu_geometry/brief.md) · [자막](episodes/act01_relu_geometry/captions.srt) · [TTS](episodes/act01_relu_geometry/tts_script.txt)
+- 미리보기: `python scripts/render.py act01 --preview` → `exports/act01_preview.mp4`
+- 최종본: `python scripts/render.py act01` → `exports/act01.mp4`
+
 ## 신경망의 수학
 
 - 신경망의 수학 01 **왜 모델은 필요 이상으로 큰 학습 공간에서 움직일까?** — 112초, 1080×1920, 30fps, 무음. 무작위 부분공간에서 `θ = θ₀ + Pφ`로 학습 가능한 자유도만 제한하는 실험을 통해 parameter count와 intrinsic dimension의 차이를 보여주고, 좋은 해의 기하학과 overparameterization에 대한 질문을 엽니다.
@@ -143,6 +150,10 @@
 - 실제 파일: [장면](episodes/nnmath11_series_finale/scene.py) · [대본](episodes/nnmath11_series_finale/narration.md) · [제작 기준](episodes/nnmath11_series_finale/brief.md) · [자막](episodes/nnmath11_series_finale/captions.srt) · [TTS](episodes/nnmath11_series_finale/tts_script.txt)
 - 미리보기: `python scripts/render.py nnmath11 --preview` → `exports/nnmath11_preview.mp4`
 - 최종본: `python scripts/render.py nnmath11` → `exports/nnmath11.mp4`
+- 신경망의 수학 12 **서로 다른 파라미터가 어떻게 같은 신경망이 될까? — Permutation Symmetry & Quotient Space** — 122초, 1080×1920, 30fps, 무음. 은닉 뉴런의 전체 연결을 함께 순열해 함수가 보존되는 모습을 출발점으로, 동일 함수·동일 출력·동일 loss·대칭 minimum을 연결하고, permutation equivalence class를 한 점으로 보는 quotient space를 도출합니다.
+- 실제 파일: [장면](episodes/nnmath12_parameter_symmetry_quotient/scene.py) · [대본](episodes/nnmath12_parameter_symmetry_quotient/narration.md) · [제작 기준](episodes/nnmath12_parameter_symmetry_quotient/brief.md) · [자막](episodes/nnmath12_parameter_symmetry_quotient/captions.srt) · [TTS](episodes/nnmath12_parameter_symmetry_quotient/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath12 --preview` → `exports/nnmath12_preview.mp4`
+- 최종본: `python scripts/render.py nnmath12` → `exports/nnmath12.mp4`
 
 ## 신경망의 수학 2부 — 학습된 내부 구조
 
@@ -799,3 +810,16 @@ science01 화면 길이는 대사 글자 수에 비례해 배분합니다. `pyth
 ```
 
 결과: `exports/info16_preview.mp4`, `exports/info16.mp4` (무음 / TTS·자막 별도).
+# 신경망의 수학 13 — 신경망 학습을 동역학계로 보면 보이는 것
+
+- 147초 목표, 1080×1920, 30fps, 무음. 한 점의 gradient를 Parameter Space 전체의 vector field로 확장하고, initial condition에서 시작한 trajectory가 basin, saddle, stable/unstable direction, attractor로 이어지는 구조를 보여줍니다. Gradient Flow와 실제 Gradient Descent를 구별하고 learning rate와 SGD noise를 짧게 보충합니다.
+- 실제 파일: [장면](episodes/nnmath13_gradient_dynamics/scene.py) · [대본](episodes/nnmath13_gradient_dynamics/narration.md) · [제작 기준](episodes/nnmath13_gradient_dynamics/brief.md) · [자막](episodes/nnmath13_gradient_dynamics/captions.srt) · [TTS](episodes/nnmath13_gradient_dynamics/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath13 --preview` → `exports/nnmath13_preview.mp4`
+- 최종본: `python scripts/render.py nnmath13` → `exports/nnmath13.mp4`
+
+## 신경망의 수학 14 — 왜 Hessian에는 0에 가까운 고유값이 많을까?
+
+- 141초 목표, 1080×1920, 30fps, 무음. 둥근 bowl과 방향별 곡률에서 출발해 Hessian 고유방향과 near-zero spectrum을 소개하고, overparameterization, ReLU scaling symmetry, data-null direction, inactive unit이 flat direction을 만드는 과정을 보여줍니다. exact symmetry와 approximately flat direction을 구별한 뒤 `few stiff directions + many flat directions`인 고차원 valley로 정리합니다.
+- 실제 파일: [장면](episodes/nnmath14_hessian_flat_directions/scene.py) · [대본](episodes/nnmath14_hessian_flat_directions/narration.md) · [제작 기준](episodes/nnmath14_hessian_flat_directions/brief.md) · [자막](episodes/nnmath14_hessian_flat_directions/captions.srt) · [TTS](episodes/nnmath14_hessian_flat_directions/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath14 --preview` → `exports/nnmath14_preview.mp4`
+- 최종본: `python scripts/render.py nnmath14` → `exports/nnmath14.mp4`

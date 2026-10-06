@@ -177,6 +177,11 @@ EPISODES["science09"] = ("episodes/science09_flat_galaxies/scene.py", "FlatGalax
 
 EPISODES["science10"] = ("episodes/science10_cosmic_void/scene.py", "CosmicVoidDiscovery")
 
+EPISODES["act01"] = ("episodes/act01_relu_geometry/scene.py", "ReLUGeometry")
+EPISODES["nnmath12"] = ("episodes/nnmath12_parameter_symmetry_quotient/scene.py", "NeuralMathPermutationQuotient")
+EPISODES["nnmath13"] = ("episodes/nnmath13_gradient_dynamics/scene.py", "NeuralMathGradientDynamics")
+EPISODES["nnmath14"] = ("episodes/nnmath14_hessian_flat_directions/scene.py", "NeuralMathHessianFlatDirections")
+
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("episode", choices=EPISODES)
