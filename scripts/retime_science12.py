@@ -1,5 +1,4 @@
-"""Allocate science12's draft duration by spoken character count, without audio."""
-import argparse
+"""Apply the measured science12 TTS cue boundaries and rebuild text timing files."""
 import json
 import re
 import textwrap
@@ -7,6 +6,7 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 EPISODE=ROOT/'episodes/science12_neutrino_telescope'
+EDGES_SECONDS=(0,5,14,22,29,37,48,57,67)
 
 def weight(text): return sum(c.isalnum() for c in text)
 
@@ -15,17 +15,13 @@ def stamp(frame):
     return f'{ms//3600000:02d}:{ms//60000%60:02d}:{ms//1000%60:02d},{ms%1000:03d}'
 
 def main():
-    parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--duration',type=float,default=60)
-    args=parser.parse_args()
-    if args.duration<=0 or args.duration>=180: parser.error('Duration must be between 0 and 180 seconds.')
     source=(EPISODE/'narration.md').read_text(encoding='utf-8');title=source.split('\n',1)[0]
     dialogue=[s.strip() for s in re.findall(r'## [^\n]+\n\s*([^#]+)',source)]
     if len(dialogue)!=8: raise ValueError('Expected exactly eight scene dialogues.')
-    weights=[weight(s) for s in dialogue];total_frames=round(args.duration*30)
-    edges=[round(total_frames*sum(weights[:i])/sum(weights)) for i in range(9)]
+    weights=[weight(s) for s in dialogue]
+    edges=[round(second*30) for second in EDGES_SECONDS]
     cues=[dict(start_frame=a,end_frame=b,characters=w,text=t) for a,b,w,t in zip(edges,edges[1:],weights,dialogue)]
-    data=dict(duration=total_frames/30,fps=30,method='alphanumeric characters; excludes spaces and punctuation',cues=cues)
+    data=dict(duration=edges[-1]/30,fps=30,method='measured TTS cue boundaries supplied by the user',cues=cues)
     (EPISODE/'timing.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     (EPISODE/'narration.md').write_text(title+'\n\n'+'\n\n'.join(
         f'## {a/30:.2f}–{b/30:.2f}초\n\n{t}' for a,b,t in zip(edges,edges[1:],dialogue))+'\n',encoding='utf-8')
