@@ -181,6 +181,9 @@ EPISODES["science11"] = ("episodes/science11_icecube_neutrino/scene.py", "IceCub
 
 EPISODES["science12"] = ("episodes/science12_neutrino_telescope/scene.py", "NeutrinoTelescopeDiscovery")
 
+EPISODES["science13"] = ("episodes/science13_ligo_interferometer/scene.py", "LIGOInterferometerDiscovery")
+EPISODES["science14"] = ("episodes/science14_attosecond_pulses/scene.py", "AttosecondPulseDiscovery")
+
 EPISODES["act01"] = ("episodes/act01_relu_geometry/scene.py", "ReLUGeometry")
 EPISODES["nnmath12"] = ("episodes/nnmath12_parameter_symmetry_quotient/scene.py", "NeuralMathPermutationQuotient")
 EPISODES["nnmath13"] = ("episodes/nnmath13_gradient_dynamics/scene.py", "NeuralMathGradientDynamics")

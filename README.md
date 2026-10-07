@@ -745,6 +745,7 @@ science01 화면 길이는 대사 글자 수에 비례해 배분합니다. `pyth
 - 미리보기: `.\.venv\Scripts\python.exe scripts/render.py science10 --preview`
 - 최종: `.\.venv\Scripts\python.exe scripts/render.py science10`
 - 출력: `exports/science10_preview.mp4`, `exports/science10.mp4`.
+- Void가 물질을 밀어내는 힘은 없다. 평균보다 약한 중력 감속과 주변 과밀 구조로의 이동을 구별하며, 완전히 비어 있지 않음을 표시한다. 입자 흐름과 우주 거미줄은 개념도다.
 
 ## 과학의 한 장면 11 — 보이지 않는 입자를 어떻게 관측할까?
 
@@ -763,7 +764,24 @@ science01 화면 길이는 대사 글자 수에 비례해 배분합니다. `pyth
 - 미리보기: `python scripts/render.py science12 --preview`
 - 최종: `python scripts/render.py science12`
 - 출력: `exports/science12_preview.mp4`, `exports/science12.mp4`.
-- Void가 물질을 밀어내는 힘은 없다. 평균보다 약한 중력 감속과 주변 과밀 구조로의 이동을 구별하며, 완전히 비어 있지 않음을 표시한다. 입자 흐름과 우주 거미줄은 개념도다.
+
+## 과학의 한 장면 13 — LIGO는 시공간의 흔들림을 어떻게 측정했을까?
+
+- `science13`: 블랙홀 합병과 중력파 → L자 간섭계 → stretch/squeeze → 팔 길이 차이 → 위상 차이 → 검출광 → chirp → 중력파 천문학. Nobel 03, 확인된 TTS 구간을 적용한 106초 무음 세로 영상.
+- 실제 파일: `episodes/science13_ligo_interferometer/`의 scene.py, brief.md, narration.md, tts_script.txt, captions.srt, timing.json.
+- 확인된 TTS 구간 적용: `python scripts/retime_science13.py`
+- 미리보기: `python scripts/render.py science13 --preview`
+- 최종: `python scripts/render.py science13`
+- 출력: `exports/science13_preview.mp4`, `exports/science13.mp4`.
+
+## 과학의 한 장면 14 — 전자의 변화를 어떻게 볼 수 있을까?
+
+- `science14`: 초고속 셔터 비유 → 아토초 시간척도 → 터널 이온화 → 전자 재충돌 → 고차 고조파 → 위상 정렬 → 250 as 펄스 열과 650 as 단일 펄스 → 시간 분해 전자 동역학. Nobel 04, 120초 초안 무음 세로 영상.
+- 실제 파일: `episodes/science14_attosecond_pulses/`의 scene.py, brief.md, narration.md, tts_script.txt, captions.srt, timing.json.
+- 초안 타이밍 재배분: `python scripts/retime_science14.py --duration 120`
+- 미리보기: `python scripts/render.py science14 --preview`
+- 최종: `python scripts/render.py science14`
+- 출력: `exports/science14_preview.mp4`, `exports/science14.mp4`.
 
 
 ## GPU 연산과 최적화 13 — LayerNorm (148초 · 2:28)
