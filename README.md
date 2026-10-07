@@ -6,6 +6,21 @@
 
 # Activation Function Series
 
+## Dynamic Inference — 입력마다 필요한 계산은 같을까?
+
+- 01 **모든 입력이 신경망의 끝까지 갈 필요가 있을까? — Early Exit** — 82초, 1080×1920, 30fps, 무음. 생성형 이미지로 만든 난이도별 입력이 같은 12개 레이어를 지나는 장면에서 시작해, 쉬운 입력은 L4에서 종료하고 어려운 입력은 L12까지 진행하는 입력별 실행 깊이를 설명합니다. confidence threshold의 정확도·계산량 trade-off를 보여주고 Token Pruning 질문으로 이어집니다.
+- 실제 파일: [장면](episodes/exit01_early_exit/scene.py) · [대본](episodes/exit01_early_exit/narration.md) · [제작 기준](episodes/exit01_early_exit/brief.md) · [자막](episodes/exit01_early_exit/captions.srt) · [TTS](episodes/exit01_early_exit/tts_script.txt)
+- 미리보기: `python scripts/render.py exit01 --preview` → `exports/exit01_preview.mp4`
+- 최종본: `python scripts/render.py exit01` → `exports/exit01.mp4`
+- 02 **모든 Token을 끝까지 계산해야 할까? — Token Pruning** — 93초, 1080×1920, 30fps, 무음. 생성형 고양이·자동차 이미지를 4×4 patch Token으로 바꾸고, 중간 중요도 평가와 Top-k 제거로 이후 sequence가 짧아지는 과정을 설명합니다. Attention score 행렬이 16×16에서 8×8로 줄어드는 관계 감소와 입력별 동적 선택, 과도한 제거의 정보 손실을 보여줍니다.
+- 실제 파일: [장면](episodes/exit02_token_pruning/scene.py) · [대본](episodes/exit02_token_pruning/narration.md) · [제작 기준](episodes/exit02_token_pruning/brief.md) · [자막](episodes/exit02_token_pruning/captions.srt) · [TTS](episodes/exit02_token_pruning/tts_script.txt)
+- 미리보기: `python scripts/render.py exit02 --preview` → `exports/exit02_preview.mp4`
+- 최종본: `python scripts/render.py exit02` → `exports/exit02.mp4`
+- 03 **모델은 커졌는데 계산량은 그만큼 커지지 않을 수 있다 — Mixture of Experts** — 음성 누적 시점에 맞춘 96초, 1080×1920, 30fps, 무음. Transformer FFN을 여러 Expert로 나누고 Token별 Top-2 routing으로 전체 Parameter와 활성 Parameter를 분리합니다. Expert 수가 증가해도 한 Token의 선택 수는 유지될 수 있음을 보여주고, Token별 경로와 load imbalance 비용까지 다룹니다.
+- 실제 파일: [장면](episodes/exit03_moe_active_parameters/scene.py) · [대본](episodes/exit03_moe_active_parameters/narration.md) · [제작 기준](episodes/exit03_moe_active_parameters/brief.md) · [자막](episodes/exit03_moe_active_parameters/captions.srt) · [TTS](episodes/exit03_moe_active_parameters/tts_script.txt)
+- 미리보기: `python scripts/render.py exit03 --preview` → `exports/exit03_preview.mp4`
+- 최종본: `python scripts/render.py exit03` → `exports/exit03.mp4`
+
 ## 분포의 수학
 
 - 분포의 수학 01 **분포는 무엇을 나타내는가?** — 52초, 1080×1920, 30fps, 무음. 여섯 관측값을 값 공간에 모아 경험적 확률을 만든 뒤, 분포를 가능한 값에 놓인 확률의 구조로 소개합니다. 미지의 생성 분포와 경험적 분포를 구별하고 마지막에는 분포의 중심을 묻습니다.
@@ -776,12 +791,37 @@ science01 화면 길이는 대사 글자 수에 비례해 배분합니다. `pyth
 
 ## 과학의 한 장면 14 — 전자의 변화를 어떻게 볼 수 있을까?
 
-- `science14`: 초고속 셔터 비유 → 아토초 시간척도 → 터널 이온화 → 전자 재충돌 → 고차 고조파 → 위상 정렬 → 250 as 펄스 열과 650 as 단일 펄스 → 시간 분해 전자 동역학. Nobel 04, 120초 초안 무음 세로 영상.
+- `science14`: 초고속 셔터 비유 → 아토초 시간척도 → 터널 이온화 → 전자 재충돌 → 고차 고조파 → 위상 정렬 → 250 as 펄스 열과 650 as 단일 펄스 → 시간 분해 전자 동역학. Nobel 04, 확인된 TTS 구간을 적용한 135초 무음 세로 영상.
 - 실제 파일: `episodes/science14_attosecond_pulses/`의 scene.py, brief.md, narration.md, tts_script.txt, captions.srt, timing.json.
-- 초안 타이밍 재배분: `python scripts/retime_science14.py --duration 120`
+- 확인된 TTS 구간 적용: `python scripts/retime_science14.py`
 - 미리보기: `python scripts/render.py science14 --preview`
 - 최종: `python scripts/render.py science14`
 - 출력: `exports/science14_preview.mp4`, `exports/science14.mp4`.
+
+## 과학의 한 장면 15 — 기억을 저장하는 신경망은 왜 에너지를 최소화할까?
+
+- `science15`: 손상된 픽셀 패턴 → 이진 노드와 스핀 → 연결 가중치 → 기억의 에너지 골짜기 → 단일 노드 업데이트와 에너지 감소 → attraction basin → 기억 복원. 2024 노벨 물리학상 Hopfield 편, 확인된 TTS 구간을 적용한 151초 무음 세로 영상.
+- 실제 파일: `episodes/science15_hopfield_memory/`의 scene.py, brief.md, narration.md, tts_script.txt, captions.srt, timing.json.
+- 확인된 TTS 구간 적용: `python scripts/retime_science15.py`
+- 미리보기: `python scripts/render.py science15 --preview`
+- 최종: `python scripts/render.py science15`
+- 출력: `exports/science15_preview.mp4`, `exports/science15.mp4`.
+
+## 과학의 한 장면 16 — 분자의 좌우 비대칭은 어떻게 스스로 증폭될까?
+
+- `science16`: 손성과 키랄 분자 → 50:50 → Kagan의 비선형 효과 → Soai의 비대칭 자기촉매 → 0.00005% ee의 세 주기 증폭 → 대칭 깨짐. 2026 노벨 화학상, 실제 TTS 구간을 적용한 161초 무음 세로 영상.
+- 실제 파일: `episodes/science16_chiral_amplification/`의 scene.py, brief.md, narration.md, tts_script.txt, captions.srt, timing.json.
+- 실제 TTS 타이밍은 `timing.json`에 반영되어 있으며, 변경 시 `python scripts/retime_science16.py --end-times "..."`를 사용한다.
+- 렌더: `python scripts/render.py science16 --preview` / `python scripts/render.py science16`
+- 출력: `exports/science16_preview.mp4`, `exports/science16.mp4`.
+
+## 과학의 한 장면 17 — 왜 분자의 비대칭이 노벨 화학상을 받았을까?
+
+- `science17`: 생명의 homochirality라는 오래된 문제 → 기존 비대칭 합성이 남긴 질문 → Kagan의 비선형 증폭 → Soai의 화학적 피드백 → 대칭 깨짐으로의 질문 전환 → 생명의 기원과 합성화학에서의 의미. 실제 TTS 구간을 적용한 146초짜리 2026 노벨 화학상 2편.
+- 실제 파일: `episodes/science17_why_chiral_nobel/`의 scene.py, brief.md, narration.md, tts_script.txt, captions.srt, timing.json.
+- 실제 TTS 타이밍은 `timing.json`에 반영되어 있으며, 변경 시 `python scripts/retime_science17.py --end-times "..."`를 사용한다.
+- 렌더: `python scripts/render.py science17 --preview` / `python scripts/render.py science17`
+- 출력: `exports/science17_preview.mp4`, `exports/science17.mp4`.
 
 
 ## GPU 연산과 최적화 13 — LayerNorm (148초 · 2:28)

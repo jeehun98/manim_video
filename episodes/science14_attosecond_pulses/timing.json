@@ -1,95 +1,95 @@
 {
-  "duration": 120.0,
+  "duration": 135.0,
   "fps": 30,
-  "method": "alphanumeric characters; excludes spaces and punctuation",
+  "method": "measured TTS cue boundaries supplied by the user",
   "cues": [
     {
       "start_frame": 0,
-      "end_frame": 222,
+      "end_frame": 240,
       "characters": 56,
       "text": "빠르게 움직이는 물체를 찍으려면 셔터를 빠르게 열고 닫아야 합니다. 너무 오래 노출하면 움직임은 하나의 흐릿한 모습으로 섞여버립니다."
     },
     {
-      "start_frame": 222,
-      "end_frame": 431,
+      "start_frame": 240,
+      "end_frame": 450,
       "characters": 53,
       "text": "그런데 원자 안에서는 이 문제가 극단적으로 어려워집니다. 전자의 이동과 에너지 변화는 상상하기 힘들 정도로 빠르게 일어납니다."
     },
     {
-      "start_frame": 431,
-      "end_frame": 625,
+      "start_frame": 450,
+      "end_frame": 690,
       "characters": 49,
       "text": "전자 세계의 변화를 따라가려면 펨토초보다 더 짧은 시간까지 내려가야 합니다. 10의 마이너스 18승 초. 아토초입니다."
     },
     {
-      "start_frame": 625,
-      "end_frame": 882,
+      "start_frame": 690,
+      "end_frame": 990,
       "characters": 65,
       "text": "그래서 필요한 것은 전자를 더 크게 확대하는 현미경이 아니었습니다. 전자 변화보다 짧은 순간에만 물질과 상호작용하는 빛, 일종의 초고속 셔터가 필요했습니다."
     },
     {
-      "start_frame": 882,
-      "end_frame": 1096,
+      "start_frame": 990,
+      "end_frame": 1230,
       "characters": 54,
       "text": "문제는 그렇게 짧은 빛을 만드는 것이었습니다. 하나의 단순한 빛 파동만으로는 원하는 순간에 에너지를 극도로 압축하기 어렵습니다."
     },
     {
-      "start_frame": 1096,
-      "end_frame": 1321,
+      "start_frame": 1230,
+      "end_frame": 1470,
       "characters": 57,
       "text": "해결의 단서는 강한 적외선 레이저를 기체 원자에 쏘면서 나타났습니다. 레이저의 강한 전기장은 원자에 묶여 있던 전자를 밖으로 끌어냅니다."
     },
     {
-      "start_frame": 1321,
-      "end_frame": 1515,
+      "start_frame": 1470,
+      "end_frame": 1710,
       "characters": 49,
       "text": "하지만 레이저의 전기장은 계속 방향을 바꿉니다. 장이 반대로 바뀌면 밖으로 나갔던 전자는 다시 원자 쪽으로 가속됩니다."
     },
     {
-      "start_frame": 1515,
-      "end_frame": 1772,
+      "start_frame": 1710,
+      "end_frame": 2010,
       "characters": 65,
       "text": "전자가 다시 원자와 만날 때 얻었던 에너지를 빛으로 방출합니다. 그 결과 원래 레이저보다 훨씬 높은 주파수의 빛들이 만들어집니다. 이를 고차 고조파라고 합니다."
     },
     {
-      "start_frame": 1772,
-      "end_frame": 2061,
+      "start_frame": 2010,
+      "end_frame": 2340,
       "characters": 73,
       "text": "서로 다른 고조파들을 적절한 위상으로 겹치면 대부분의 시간에는 서로 상쇄되고, 아주 짧은 순간에만 강하게 합쳐집니다. 긴 파동 여러 개로 극도로 짧은 빛의 펄스를 만드는 것입니다."
     },
     {
-      "start_frame": 2061,
-      "end_frame": 2255,
+      "start_frame": 2340,
+      "end_frame": 2580,
       "characters": 49,
       "text": "2001년 피에르 아고스티니 연구팀은 이런 방식으로 약 250 아토초 길이의 연속된 펄스들을 만들어 측정했습니다."
     },
     {
-      "start_frame": 2255,
-      "end_frame": 2453,
+      "start_frame": 2580,
+      "end_frame": 2820,
       "characters": 50,
       "text": "같은 시기 페렌츠 크라우스 연구팀은 펄스 열에서 하나의 펄스를 분리해냈습니다. 650 아토초짜리 단일 빛 펄스였습니다."
     },
     {
-      "start_frame": 2453,
-      "end_frame": 2753,
+      "start_frame": 2820,
+      "end_frame": 3120,
       "characters": 76,
       "text": "이렇게 짧은 빛이 생기자 이전에는 하나의 결과로만 보이던 전자 과정의 시간 순서를 측정할 수 있게 됐습니다. 전자가 빠져나가고 전자 분포가 변하는 과정도 시간에 따라 추적할 수 있습니다."
     },
     {
-      "start_frame": 2753,
-      "end_frame": 3015,
+      "start_frame": 3120,
+      "end_frame": 3420,
       "characters": 66,
       "text": "이것은 전자가 원자핵 주위를 도는 모습을 사진처럼 찍었다는 뜻은 아닙니다. 너무 빨라 시간적으로 구분할 수 없었던 전자의 변화를 측정할 수 있게 됐다는 뜻입니다."
     },
     {
-      "start_frame": 3015,
-      "end_frame": 3311,
+      "start_frame": 3420,
+      "end_frame": 3720,
       "characters": 75,
       "text": "IceCube는 거의 반응하지 않는 입자를 잡았고, LIGO는 거의 느껴지지 않는 공간의 변화를 측정했습니다. 이번에는 너무 빨라 구분할 수 없었던 전자의 시간 세계를 열었습니다."
     },
     {
-      "start_frame": 3311,
-      "end_frame": 3600,
+      "start_frame": 3720,
+      "end_frame": 4050,
       "characters": 73,
       "text": "새로운 입자나 힘을 발견한 것이 아닙니다. 너무 빨라 볼 수 없었던 현상을 관측 가능한 시간 영역으로 가져온 것. 아토초 과학을 연 연구는 2023년 노벨 물리학상으로 이어졌습니다."
     }
