@@ -1,0 +1,3 @@
+Tool: built-in image_gen
+Use: illustrative opening water photograph, not a simulation.
+Prompt: Use case: photorealistic-natural. Asset type: opening image for an educational Navier–Stokes film. Create a wide 16:9 overhead close-up of clear water flowing into a gentle curved swirl, illuminated in blue and subtle green against dark navy. Realistic ripples, reflections and liquid texture, elegant restrained documentary photography. Entire image is only water, no container rim, no drain, no vortex funnel, no labels, no text, no logos. This is an illustrative image, not a scientific simulation.

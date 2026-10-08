@@ -1,0 +1,58 @@
+[
+  {
+    "id": "01",
+    "slug": "rules",
+    "directory": "scenes/01_rules",
+    "class": "Scene01",
+    "duration_seconds": 18,
+    "storyboard_seconds": 27
+  },
+  {
+    "id": "02",
+    "slug": "reverse",
+    "directory": "scenes/02_reverse",
+    "class": "Scene02",
+    "duration_seconds": 19,
+    "storyboard_seconds": 28
+  },
+  {
+    "id": "03",
+    "slug": "force",
+    "directory": "scenes/03_force",
+    "class": "Scene03",
+    "duration_seconds": 21,
+    "storyboard_seconds": 29
+  },
+  {
+    "id": "04",
+    "slug": "research",
+    "directory": "scenes/04_research",
+    "class": "Scene04",
+    "duration_seconds": 27,
+    "storyboard_seconds": 37
+  },
+  {
+    "id": "05",
+    "slug": "balance",
+    "directory": "scenes/05_balance",
+    "class": "Scene05",
+    "duration_seconds": 22,
+    "storyboard_seconds": 32
+  },
+  {
+    "id": "06",
+    "slug": "repair",
+    "directory": "scenes/06_repair",
+    "class": "Scene06",
+    "duration_seconds": 20,
+    "storyboard_seconds": 32
+  },
+  {
+    "id": "07",
+    "slug": "meaning",
+    "directory": "scenes/07_meaning",
+    "class": "Scene07",
+    "duration_seconds": 34,
+    "storyboard_seconds": 33
+  }
+]

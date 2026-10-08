@@ -1,5 +1,13 @@
 # Manim 교육 영상 프로젝트
 
+## 과학의 한 장면 18 — 빛으로 뇌에 스위치를 달다
+
+- `science18`: 광유전학과 2026 노벨 생리의학상. 뇌의 전구와 리모컨 → 녹조류의 빛으로 여는 문 → WHEN × WHO → 관찰에서 개입 → 인과적 역할 검증. 피드백을 반영해 비유 중심으로 재구성.
+- 실제 파일: `episodes/science18_optogenetics/`의 scene.py, brief.md, narration.md, timing.json, tts_script.txt, captions.srt.
+- 17장면, 사용자 제공 실제 TTS 경계 기준 141초. 재타이밍: `python scripts/retime_science18.py --end-times "4,13,19,26,33,41,48,57,65,74,82,90,100,109,118,128,141"`.
+- 렌더: `python scripts/render.py science18 --preview` / `python scripts/render.py science18`.
+- 출력: `exports/science18_preview.mp4`, `exports/science18.mp4`.
+
 ## 롱폼 제작
 
 롱폼은 짧은 완성 씬을 독립적으로 제작한 뒤 결합하는 방식으로 관리합니다. 새 롱폼을 시작하거나 다른 환경에서 이어서 작업할 때는 [롱폼 제작 규격](longforms/README.md)과 [`longforms/_template`](longforms/_template/)를 먼저 확인하세요.
@@ -20,6 +28,10 @@
 - 실제 파일: [장면](episodes/exit03_moe_active_parameters/scene.py) · [대본](episodes/exit03_moe_active_parameters/narration.md) · [제작 기준](episodes/exit03_moe_active_parameters/brief.md) · [자막](episodes/exit03_moe_active_parameters/captions.srt) · [TTS](episodes/exit03_moe_active_parameters/tts_script.txt)
 - 미리보기: `python scripts/render.py exit03 --preview` → `exports/exit03_preview.mp4`
 - 최종본: `python scripts/render.py exit03` → `exports/exit03.mp4`
+- 04 **Attention은 어떻게 이전 토큰의 계산을 재사용할까? — KV Cache** — 100초, 1080×1920, 30fps, 무음. 반복 K,V 생성의 삼각형을 대각선 + Cache로 바꾸는 장면에서 출발합니다. causal attention의 시간 방향, 새 Query의 조명, Value 가중합, 커지는 Cache와 읽기 비용으로 계산·메모리 교환을 보여줍니다. 구간 시간은 발화 추정치입니다.
+- 실제 파일: [장면](episodes/exit04_kv_cache/scene.py) · [대본](episodes/exit04_kv_cache/narration.md) · [자막](episodes/exit04_kv_cache/captions.srt) · [TTS](episodes/exit04_kv_cache/tts_script.txt) · [제작 기준](episodes/exit04_kv_cache/brief.md)
+- 미리보기: `python scripts/render.py exit04 --preview` → `exports/exit04_preview.mp4`
+- 최종본: `python scripts/render.py exit04` → `exports/exit04.mp4`
 
 ## 분포의 수학
 
@@ -899,3 +911,48 @@ science01 화면 길이는 대사 글자 수에 비례해 배분합니다. `pyth
 - 실제 파일: [장면](episodes/nnmath14_hessian_flat_directions/scene.py) · [대본](episodes/nnmath14_hessian_flat_directions/narration.md) · [제작 기준](episodes/nnmath14_hessian_flat_directions/brief.md) · [자막](episodes/nnmath14_hessian_flat_directions/captions.srt) · [TTS](episodes/nnmath14_hessian_flat_directions/tts_script.txt)
 - 미리보기: `python scripts/render.py nnmath14 --preview` → `exports/nnmath14_preview.mp4`
 - 최종본: `python scripts/render.py nnmath14` → `exports/nnmath14.mp4`
+
+## 과학의 한 장면 19 — 모든 방향을 담으면 몇 차원일까? — 2026 필즈상
+
+23장면, 사용자 제공 TTS 경계에 맞춘 175초, 3분 이내 세로형 무음 영상. 직관형 개정: ‘선과 Kakeya 모두 면적 0인데, 정말 같은가?’를 먼저 묻고 해상도에 따른 칸 수 변화로 차원을 소개합니다. 튜브를 쓰는 이유와 뭉침/퍼짐의 증명 직관을 분리해 보여줍니다. Wang–Zahl의 2025년 공동 증명과 Hong Wang의 2026년 필즈상을 구별합니다. 유한 다발과 다중 규모 분석은 개념도입니다.
+
+- 소스·대본·제작 기준·TTS·자막·타이밍: `episodes/science19_kakeya_dimension/`
+- 초안 재배분: `python scripts/retime_science19.py --duration 175` (현재 실측 구간을 문자 비례 초안으로 덮어쓰므로 주의)
+- 실측 구간 반영: `python scripts/retime_science19.py --end-times "각 장면의 누적 종료 시각 23개"`
+- 현재 실측: `5,11,18,25,34,42,49,56,64,70,79,85,92,101,110,117,125,132,141,149,156,165,175`
+- 미리보기: `python scripts/render.py science19 --preview` → `exports/science19_preview.mp4`
+- 최종본: `python scripts/render.py science19` → `exports/science19.mp4`
+
+## Navier–Stokes × 신경망 롱폼
+
+1막 콘티 구현: [longforms/ns01_flow_patterns](longforms/ns01_flow_patterns/README.md). 7개 독립 씬, 155초, 가로형 1080p·30fps 무음 영상. 사용자 제공 40개 문장의 음성 종료 시각에 화면·자막을 맞췄다. TTS 대본은 화면 cue별로 문단을 구분한다.
+
+실행: python longforms/ns01_flow_patterns/build.py --preview 또는 python longforms/ns01_flow_patterns/build.py.
+
+2막 소용돌이 늘어남: [longforms/ns02_vortex_stretching](longforms/ns02_vortex_stretching/README.md). 2D와 3D, 와도, 부피 보존 관의 늘어남, 조건부 증폭과 점성 확산을 7개 독립 씬으로 구현한다. 176초, 가로형 1080p·30fps 무음 영상이며 사용자 제공 42개 문장의 종료 시각에 맞췄다.
+
+실행: python longforms/ns02_vortex_stretching/build.py --preview 또는 python longforms/ns02_vortex_stretching/build.py.
+
+
+3막 전체 에너지와 국소 집중: [longforms/ns03_energy_concentration](longforms/ns03_energy_concentration/README.md). 7개 독립 씬, 임시 234초, 가로형 1080p·30fps 무음 영상. 집중 모형과 발표된 구성을 구별하고 신경망 이상치로 연결한다.
+
+실행: python longforms/ns03_energy_concentration/build.py --preview 또는 python longforms/ns03_energy_concentration/build.py.
+
+### 3·4막 분리 개정 — 직관 중심
+
+기존 통합 3막을 분리한 현재 개정은 [3막 에너지 집중](longforms/ns03_energy_intuition/README.md)과 [4막 실제 흐름의 구성](longforms/ns04_smooth_forcing/README.md)이다. 각각 5씬·97초(사용자 음성 실측), 7씬·161초(사용자 음성 실측)이며 가로형 1080p·30fps 무음 영상이다. 수식 분해 대신 영역 축소, 속도 화살표, 역방향 설계, 반대 효과의 상쇄를 보여준다. TTS는 화면 cue별로 문단을 나눈다. 3막은 사용자 제공 20개, 4막은 30개 음성 구간에 맞췄다.
+
+렌더: `python longforms/ns03_energy_intuition/build.py` 및 `python longforms/ns04_smooth_forcing/build.py`. 미리보기는 `--preview`를 추가한다.
+
+### 5막 — 활성값 이상치와 표현 정밀도
+
+[longforms/ns05_activation_outliers](longforms/ns05_activation_outliers/README.md). 첫 58초는 유체의 변형·점성·전체 에너지와 국소 집중을 되짚고, 유한 행렬과의 차이를 명시한다. 이어 활성값 이상치, 같은 눈금의 양자화, LLM.int8(), SmoothQuant, 방향별 증폭으로 연결한다. 10개 독립 씬, 사용자 음성 실측 249초, 가로형 1080p·30fps 무음 영상.
+
+렌더: python longforms/ns05_activation_outliers/build.py. 미리보기는 --preview를 추가한다.
+
+
+### 6막 — 방향별 증폭과 Jacobian
+
+[longforms/ns06_directional_amplification](longforms/ns06_directional_amplification/README.md). 소용돌이 변형, 속도의 Jacobian, 변형률과 회전축 정렬, 신경망의 국소 선형화, 원과 타원, 층별 방향 연결을 7개 독립 씬으로 구현한다. TTS 실측 전 임시 260초, 37개 화면 cue, 가로형 1080p·30fps 무음 영상이다. 유체의 시간 변화율과 신경망의 입력·출력 확대 비율을 구별한다.
+
+렌더: `python longforms/ns06_directional_amplification/build.py`. 미리보기는 `--preview`를 추가한다.

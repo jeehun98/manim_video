@@ -1,0 +1,15 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": "30",
+  "frames": 7800,
+  "duration_seconds": 260.0,
+  "audio_streams": 0,
+  "codec": "h264",
+  "timing_basis": "provisional storyboard timing; TTS measurement pending",
+  "scenes": 7,
+  "tts_cues": 37,
+  "full_ffmpeg_decode": "passed",
+  "visual_review": "preview and final contact sheets; final transition inspected",
+  "math_checks": "volume preservation, strain alignment, singular values, layer products passed"
+}

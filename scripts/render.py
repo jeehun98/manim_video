@@ -73,6 +73,7 @@ EPISODES["prune04"] = ("episodes/prune04_hardware_aware/scene.py", "HardwareAwar
 EPISODES["exit01"] = ("episodes/exit01_early_exit/scene.py", "EarlyExit")
 EPISODES["exit02"] = ("episodes/exit02_token_pruning/scene.py", "TokenPruning")
 EPISODES["exit03"] = ("episodes/exit03_moe_active_parameters/scene.py", "MixtureOfExperts")
+EPISODES["exit04"] = ("episodes/exit04_kv_cache/scene.py", "KVCache")
 EPISODES["gpuops01"] = ("episodes/gpuops01_fma/scene.py", "GPUFMAIntroduction")
 EPISODES["gpuops02"] = ("episodes/gpuops02_constant_folding/scene.py", "GPUConstantFolding")
 EPISODES["gpuops03"] = ("episodes/gpuops03_loop_unrolling/scene.py", "GPULoopUnrolling")
@@ -189,6 +190,8 @@ EPISODES["science14"] = ("episodes/science14_attosecond_pulses/scene.py", "Attos
 EPISODES["science15"] = ("episodes/science15_hopfield_memory/scene.py", "HopfieldMemoryDiscovery")
 EPISODES["science16"] = ("episodes/science16_chiral_amplification/scene.py", "ChiralAmplificationDiscovery")
 EPISODES["science17"] = ("episodes/science17_why_chiral_nobel/scene.py", "WhyChiralNobel")
+EPISODES["science18"] = ("episodes/science18_optogenetics/scene.py", "OptogeneticsDiscovery")
+EPISODES["science19"] = ("episodes/science19_kakeya_dimension/scene.py", "KakeyaDimensionDiscovery")
 
 EPISODES["act01"] = ("episodes/act01_relu_geometry/scene.py", "ReLUGeometry")
 EPISODES["nnmath12"] = ("episodes/nnmath12_parameter_symmetry_quotient/scene.py", "NeuralMathPermutationQuotient")

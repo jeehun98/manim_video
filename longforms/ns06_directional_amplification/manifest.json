@@ -1,0 +1,58 @@
+[
+  {
+    "id": "01",
+    "slug": "vortex",
+    "directory": "scenes/01_vortex",
+    "class": "Scene01",
+    "duration_seconds": null,
+    "storyboard_seconds": 34
+  },
+  {
+    "id": "02",
+    "slug": "derivative",
+    "directory": "scenes/02_derivative",
+    "class": "Scene02",
+    "duration_seconds": null,
+    "storyboard_seconds": 36
+  },
+  {
+    "id": "03",
+    "slug": "alignment",
+    "directory": "scenes/03_alignment",
+    "class": "Scene03",
+    "duration_seconds": null,
+    "storyboard_seconds": 34
+  },
+  {
+    "id": "04",
+    "slug": "shared",
+    "directory": "scenes/04_shared",
+    "class": "Scene04",
+    "duration_seconds": null,
+    "storyboard_seconds": 40
+  },
+  {
+    "id": "05",
+    "slug": "ellipse",
+    "directory": "scenes/05_ellipse",
+    "class": "Scene05",
+    "duration_seconds": null,
+    "storyboard_seconds": 38
+  },
+  {
+    "id": "06",
+    "slug": "layers",
+    "directory": "scenes/06_layers",
+    "class": "Scene06",
+    "duration_seconds": null,
+    "storyboard_seconds": 36
+  },
+  {
+    "id": "07",
+    "slug": "next",
+    "directory": "scenes/07_next",
+    "class": "Scene07",
+    "duration_seconds": null,
+    "storyboard_seconds": 42
+  }
+]

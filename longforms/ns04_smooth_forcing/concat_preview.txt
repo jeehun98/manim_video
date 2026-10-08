@@ -1,0 +1,7 @@
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns04_smooth_forcing/scenes/01_rules/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns04_smooth_forcing/scenes/02_reverse/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns04_smooth_forcing/scenes/03_force/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns04_smooth_forcing/scenes/04_research/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns04_smooth_forcing/scenes/05_balance/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns04_smooth_forcing/scenes/06_repair/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns04_smooth_forcing/scenes/07_meaning/visual_preview.mp4'
