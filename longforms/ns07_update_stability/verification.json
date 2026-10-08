@@ -1,0 +1,15 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": "30",
+  "frames": 10290,
+  "duration_seconds": 343.0,
+  "audio_streams": 0,
+  "codec": "h264",
+  "timing_basis": "user measured cumulative sentence end times",
+  "scenes": 10,
+  "tts_cues": 71,
+  "subtitle_end_times": "all 71 match supplied cumulative end times",
+  "full_ffmpeg_decode": "passed",
+  "visual_review": "retimed preview contact sheet reviewed"
+}

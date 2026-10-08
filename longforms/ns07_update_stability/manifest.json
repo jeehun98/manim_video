@@ -1,0 +1,82 @@
+[
+  {
+    "id": "01",
+    "slug": "grid",
+    "directory": "scenes/01_grid",
+    "class": "Scene01",
+    "duration_seconds": 31,
+    "storyboard_seconds": 32
+  },
+  {
+    "id": "02",
+    "slug": "refine",
+    "directory": "scenes/02_refine",
+    "class": "Scene02",
+    "duration_seconds": 32,
+    "storyboard_seconds": 38
+  },
+  {
+    "id": "03",
+    "slug": "diffusion",
+    "directory": "scenes/03_diffusion",
+    "class": "Scene03",
+    "duration_seconds": 31,
+    "storyboard_seconds": 36
+  },
+  {
+    "id": "04",
+    "slug": "global",
+    "directory": "scenes/04_global",
+    "class": "Scene04",
+    "duration_seconds": 35,
+    "storyboard_seconds": 38
+  },
+  {
+    "id": "05",
+    "slug": "learning",
+    "directory": "scenes/05_learning",
+    "class": "Scene05",
+    "duration_seconds": 28,
+    "storyboard_seconds": 32
+  },
+  {
+    "id": "06",
+    "slug": "hessian",
+    "directory": "scenes/06_hessian",
+    "class": "Scene06",
+    "duration_seconds": 30,
+    "storyboard_seconds": 36
+  },
+  {
+    "id": "07",
+    "slug": "steep",
+    "directory": "scenes/07_steep",
+    "class": "Scene07",
+    "duration_seconds": 36,
+    "storyboard_seconds": 40
+  },
+  {
+    "id": "08",
+    "slug": "compare",
+    "directory": "scenes/08_compare",
+    "class": "Scene08",
+    "duration_seconds": 37,
+    "storyboard_seconds": 36
+  },
+  {
+    "id": "09",
+    "slug": "modes",
+    "directory": "scenes/09_modes",
+    "class": "Scene09",
+    "duration_seconds": 34,
+    "storyboard_seconds": 40
+  },
+  {
+    "id": "10",
+    "slug": "reachable",
+    "directory": "scenes/10_reachable",
+    "class": "Scene10",
+    "duration_seconds": 49,
+    "storyboard_seconds": 38
+  }
+]

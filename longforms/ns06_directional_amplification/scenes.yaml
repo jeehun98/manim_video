@@ -4,47 +4,47 @@ video:
   width: 1920
   height: 1080
   fps: 30
-timing_basis: visual_storyboard_without_tts
+timing_basis: user_sentence_end_times
 scenes:
   - id: "01"
     slug: "vortex"
     directory: "scenes/01_vortex"
     class: "Scene01"
-    duration_seconds: null
+    duration_seconds: 24
     storyboard_seconds: 34
   - id: "02"
     slug: "derivative"
     directory: "scenes/02_derivative"
     class: "Scene02"
-    duration_seconds: null
+    duration_seconds: 26
     storyboard_seconds: 36
   - id: "03"
     slug: "alignment"
     directory: "scenes/03_alignment"
     class: "Scene03"
-    duration_seconds: null
+    duration_seconds: 26
     storyboard_seconds: 34
   - id: "04"
     slug: "shared"
     directory: "scenes/04_shared"
     class: "Scene04"
-    duration_seconds: null
+    duration_seconds: 35
     storyboard_seconds: 40
   - id: "05"
     slug: "ellipse"
     directory: "scenes/05_ellipse"
     class: "Scene05"
-    duration_seconds: null
+    duration_seconds: 27
     storyboard_seconds: 38
   - id: "06"
     slug: "layers"
     directory: "scenes/06_layers"
     class: "Scene06"
-    duration_seconds: null
+    duration_seconds: 29
     storyboard_seconds: 36
   - id: "07"
     slug: "next"
     directory: "scenes/07_next"
     class: "Scene07"
-    duration_seconds: null
+    duration_seconds: 39
     storyboard_seconds: 42

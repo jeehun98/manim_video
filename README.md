@@ -953,6 +953,39 @@ science01 화면 길이는 대사 글자 수에 비례해 배분합니다. `pyth
 
 ### 6막 — 방향별 증폭과 Jacobian
 
-[longforms/ns06_directional_amplification](longforms/ns06_directional_amplification/README.md). 소용돌이 변형, 속도의 Jacobian, 변형률과 회전축 정렬, 신경망의 국소 선형화, 원과 타원, 층별 방향 연결을 7개 독립 씬으로 구현한다. TTS 실측 전 임시 260초, 37개 화면 cue, 가로형 1080p·30fps 무음 영상이다. 유체의 시간 변화율과 신경망의 입력·출력 확대 비율을 구별한다.
+[longforms/ns06_directional_amplification](longforms/ns06_directional_amplification/README.md). 소용돌이 변형, 속도의 Jacobian, 변형률과 회전축 정렬, 신경망의 국소 선형화, 원과 타원, 층별 방향 연결을 7개 독립 씬으로 구현한다. 사용자 음성 실측 206초, 37개 화면 cue, 가로형 1080p·30fps 무음 영상이다. 유체의 시간 변화율과 신경망의 입력·출력 확대 비율을 구별한다.
 
 렌더: `python longforms/ns06_directional_amplification/build.py`. 미리보기는 `--preview`를 추가한다.
+
+
+### 7막 — 가장 제한적인 모드와 업데이트
+
+[longforms/ns07_update_stability](longforms/ns07_update_stability/README.md). 10개 독립 씬, 사용자 음성 실측 343초, 가로 1080p·30fps 무음 영상. 공간 격자와 시간 간격, 실제 FTCS 반복, 손실 곡률과 학습률, 모드별 반복 배율을 통해 명시적 확산과 이차 손실 경사하강법의 안정성 구조를 연결한다. 화면별 TTS 71개 문단.
+
+렌더: `python longforms/ns07_update_stability/build.py`. 미리보기는 `--preview`를 추가한다.
+
+
+### 8막 — 좋은 해와 실제 학습 경로
+
+[longforms/ns08_representable_reachable](longforms/ns08_representable_reachable/README.md). 8개 독립 씬, 사용자 음성 실측 251초, 가로형 1080p·30fps 무음 영상. 유체 후보의 조건 검증과 학습의 해 선택을 구별하고, 실제 GD 경로와 부족결정 선형 모델의 두 좋은 해를 통해 초기값·학습 규칙의 중요성을 보여준다. TTS는 화면별 55개 문단으로 분리한다.
+
+렌더: `python longforms/ns08_representable_reachable/build.py`. 미리보기는 `--preview`를 추가한다.
+
+
+### 9막 — 증폭과 제어가 개입하는 위치
+
+[longforms/ns09_amplification_control](longforms/ns09_amplification_control/README.md). 8개 독립 씬, 사용자 음성 실측 246초, 가로 1080p·30fps 무음 영상. 소용돌이의 늘어남과 확산, transpose 역전파, global norm clipping, 표현 표준화와 잔차 합을 비교하고 일시적 증폭으로 연결한다. TTS는 화면별 55개 문단.
+
+렌더: `python longforms/ns09_amplification_control/build.py`. 미리보기는 `--preview`.
+
+### 10막 — 장기 안정성과 일시적 증폭
+
+[longforms/ns10_non_normal_dynamics](longforms/ns10_non_normal_dynamics/README.md). 11개 독립 씬, 사용자 음성 실측 358초, 가로 1080p·30fps 무음 영상. 안정한 고유값을 가진 2×2 행렬의 정확한 궤적, 성분 전달, 단위원과 시간 발전 타원, 전단 리프트업과 연속시간 RNN을 통해 비정규 동역학을 설명한다. 최대 특잇값과 선택한 초기 벡터의 증폭을 구별한다. 화면별 TTS 77개 문단이며 사용자 실측 누적 종료 시각에 맞춰 재동기화했다.
+
+렌더: `python longforms/ns10_non_normal_dynamics/build.py`. 미리보기는 `--preview`.
+
+### 11막 — 안정성이라는 질문으로 마무리
+
+[longforms/ns11_stability_finale](longforms/ns11_stability_finale/README.md). 9개 독립 씬, 사용자 음성 실측 323초, 가로 1080p·30fps 무음 영상. 기존의 속도장, 활성값 행렬, 방향별 변형, 제한적인 모드, 학습 경로, 과도 증폭을 다시 연결한다. 다섯 관점을 동일한 안정성 정의로 묶지 않고 무엇을 측정하는지 구분하는 질문으로 시리즈를 끝낸다. 화면별 TTS 70개 문단.
+
+렌더: `python longforms/ns11_stability_finale/build.py`. 미리보기는 `--preview`.

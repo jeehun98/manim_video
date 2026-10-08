@@ -1,14 +1,14 @@
 # 6막 — 소용돌이와 신경망의 방향별 작용
 
-7개 독립 씬, 임시 260초(4분20초), 가로형 1920×1080 30fps 무음 영상. 실제 TTS 길이는 미확정. 수식 원소 분해보다 3D 관, 회전축의 방향, 입력 원과 출력 타원, 층 사이의 방향 연결을 중심으로 구성한다.
+7개 독립 씬, 사용자 음성 실측 206초(3분26초), 가로형 1920×1080 30fps 무음 영상. 37개 문장의 누적 종료 시각에 맞췄다. 수식 원소 분해보다 3D 관, 회전축의 방향, 입력 원과 출력 타원, 층 사이의 방향 연결을 중심으로 구성한다.
 
 - 준비: python longforms/ns06_directional_amplification/prepare.py
-- 미리보기: python longforms/ns06_directional_amplification/build.py --preview
-- 최종본: python longforms/ns06_directional_amplification/build.py
+- 미리보기: python longforms/ns06_directional_amplification/build.py --preview --tag timed
+- 최종본: python longforms/ns06_directional_amplification/build.py --tag timed
 - 씬 교체: build.py --scene N 후 build.py --concat-only
 - 음성 실측: voice_timing.json의 basis, ends에 문장별 누적 종료 시각을 넣고 prepare.py 실행
 - TTS: tts_script.txt (화면 cue마다 빈 줄)
-- 산출물: exports/ns06_act06_260s_1080p30.mp4와 SRT
+- 산출물: exports/ns06_act06_206s_timed_1080p30.mp4와 SRT
 
 ## 정확성 조건
 
