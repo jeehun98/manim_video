@@ -1,0 +1,93 @@
+id: "aimath_a01"
+title: "행렬곱의 계산량은 왜 n³보다 작아질 수 있을까?"
+status: "draft"
+video:
+  width: 1920
+  height: 1080
+  fps: 30
+scenes:
+  - id: "01"
+    slug: "hook"
+    directory: "scenes/01_hook"
+    class: null
+    duration_seconds: null
+    transition: "cut"
+  - id: "02"
+    slug: "composition"
+    directory: "scenes/02_composition"
+    class: null
+    duration_seconds: null
+    transition: "cut"
+  - id: "03"
+    slug: "one_entry"
+    directory: "scenes/03_one_entry"
+    class: null
+    duration_seconds: null
+    transition: "cut"
+  - id: "04"
+    slug: "cubic"
+    directory: "scenes/04_cubic"
+    class: null
+    duration_seconds: null
+    transition: "cut"
+  - id: "05"
+    slug: "shared"
+    directory: "scenes/05_shared"
+    class: null
+    duration_seconds: null
+    transition: "cut"
+  - id: "06"
+    slug: "three_products"
+    directory: "scenes/06_three_products"
+    class: null
+    duration_seconds: null
+    transition: "cut"
+  - id: "07"
+    slug: "strassen"
+    directory: "scenes/07_strassen"
+    class: null
+    duration_seconds: null
+    transition: "cut"
+  - id: "08"
+    slug: "cancellation"
+    directory: "scenes/08_cancellation"
+    class: null
+    duration_seconds: null
+    transition: "cut"
+  - id: "09"
+    slug: "blocks"
+    directory: "scenes/09_blocks"
+    class: null
+    duration_seconds: null
+    transition: "cut"
+  - id: "10"
+    slug: "recursion"
+    directory: "scenes/10_recursion"
+    class: null
+    duration_seconds: null
+    transition: "cut"
+  - id: "11"
+    slug: "omega"
+    directory: "scenes/11_omega"
+    class: null
+    duration_seconds: null
+    transition: "cut"
+  - id: "12"
+    slug: "new_result"
+    directory: "scenes/12_new_result"
+    class: null
+    duration_seconds: null
+    transition: "cut"
+  - id: "13"
+    slug: "scope"
+    directory: "scenes/13_scope"
+    class: null
+    duration_seconds: null
+    transition: "cut"
+  - id: "14"
+    slug: "gpu_bridge"
+    directory: "scenes/14_gpu_bridge"
+    class: null
+    duration_seconds: null
+    transition: "cut"
+
