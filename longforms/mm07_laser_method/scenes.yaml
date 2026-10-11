@@ -1,0 +1,23 @@
+resolution: 1920x1080
+fps: 30
+audio: absent
+timing: provisional
+scenes:
+  - id: '01'
+    directory: scenes/01_purpose
+    storyboard_seconds: 22
+  - id: '02'
+    directory: scenes/02_shared
+    storyboard_seconds: 28
+  - id: '03'
+    directory: scenes/03_zero
+    storyboard_seconds: 30
+  - id: '04'
+    directory: scenes/04_selection
+    storyboard_seconds: 30
+  - id: '05'
+    directory: scenes/05_bound
+    storyboard_seconds: 32
+  - id: '06'
+    directory: scenes/06_conclusion
+    storyboard_seconds: 28

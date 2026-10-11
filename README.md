@@ -1012,8 +1012,17 @@ science01 화면 길이는 대사 글자 수에 비례해 배분합니다. `pyth
 
 ## 행렬곱 4막 — 정확히 같지 않아도 계산량을 줄일 수 있을까?
 
-[제작 자료](longforms/mm04_border_rank/README.md). 낮은 랭크 텐서의 집합과 폐포, 정확한 표현과 극한 접근의 차이를 7개 독립 씬으로 구현한다. 190초 폐포 보강 무음 콘티이며 TTS 실측 전이다.
+[제작 자료](longforms/mm04_border_rank/README.md). 낮은 랭크 텐서의 집합과 폐포, 정확한 표현과 극한 접근의 차이를 7개 독립 씬으로 구현한다. 사용자 제공 발화 시각 기준 166초 무음 영상이며, 1080×1920 세로형도 제공한다.
 
 `python longforms/mm04_border_rank/build.py --preview`
 
 `python longforms/mm04_border_rank/build.py`
+
+### 행렬곱 5막 — 직합과 점근적 합 부등식
+
+[제작 자료](longforms/mm05_direct_sum/README.md). 6개 독립 씬, 사용자 발화 시각 적용 151초 무음 영상. `python longforms/mm05_direct_sum/build.py --preview`, 최종본은 `--preview` 생략.
+
+[6막 — 텐서 거듭제곱](longforms/mm06_tensor_power/README.md): 8개 독립 씬, 사용자 발화 시각 적용 151초 무음 영상. 실행: python longforms/mm06_tensor_power/build.py --preview
+
+
+7막 레이저 방법: longforms/mm07_laser_method/ (임시 170초, 무음). 실행: python longforms/mm07_laser_method/build.py --preview 또는 python longforms/mm07_laser_method/build.py

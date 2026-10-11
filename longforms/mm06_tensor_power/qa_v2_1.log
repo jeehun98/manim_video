@@ -1,0 +1,40 @@
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(VGroup of 2 submobjects):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                                    
+
+Animation 1: FadeIn(VGroup of 9 submobjects):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                                    
+
+Animation 2: FadeIn(Text('���� ���� �� �ݺ��ص� ���� ����')):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                                                   
+
+Animation 4: FadeIn(VGroup of 2 submobjects):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                                    
+
+Animation 5: FadeIn(VGroup of 3 submobjects):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                                    
+
+Animation 6: FadeIn(Text('�Ϲ����� �κ��� �� ������ �̺���')):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                                                    
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/latex.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/dvisvgm.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+
+Animation 7: Write(MathTex('T=P+Q+S')):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                              
+
+Animation 8: FadeIn(Text('ó������ ���������� ������ �ʾҴٸ�?')):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                                                         
+
+Animation 10: FadeOut(VGroup of 2 submobjects), etc.:   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 10: FadeOut(VGroup of 2 submobjects), etc.:  53%|#####3    | 8/15 [00:00<00:00, 76.07it/s]
+                                                                                                    
+
+Animation 12: Transform(Text('ó������ ���������� ������ �ʾҴٸ�?')):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                                                             
+
+Animation 13: FadeIn(Text('��ģ ������ ���� ���� ���ɼ��� ���䵵 �� ��� �Ϲ� �ټ��� �����Ѵٴ� ���� �ƴ�')):   0%|          | 0/8 [00:00<?, ?it/s]
+                                                                                                                                                  

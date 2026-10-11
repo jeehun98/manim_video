@@ -1,0 +1,6 @@
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm07_laser_method/scenes/01_purpose/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm07_laser_method/scenes/02_shared/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm07_laser_method/scenes/03_zero/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm07_laser_method/scenes/04_selection/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm07_laser_method/scenes/05_bound/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm07_laser_method/scenes/06_conclusion/visual_1080p30.mp4'

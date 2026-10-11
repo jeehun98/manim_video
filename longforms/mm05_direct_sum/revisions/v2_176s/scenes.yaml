@@ -1,0 +1,28 @@
+id: mm05_direct_sum
+timing_basis: provisional_silent_storyboard
+video: {width: 1920, height: 1080, fps: 30}
+scenes:
+  - id: '01'
+    directory: scenes/01_independent
+    duration_seconds: null
+    storyboard_seconds: 22
+  - id: '02'
+    directory: scenes/02_blocks
+    duration_seconds: null
+    storyboard_seconds: 25
+  - id: '03'
+    directory: scenes/03_cost
+    duration_seconds: null
+    storyboard_seconds: 40
+  - id: '04'
+    directory: scenes/04_border
+    duration_seconds: null
+    storyboard_seconds: 27
+  - id: '05'
+    directory: scenes/05_growth
+    duration_seconds: null
+    storyboard_seconds: 40
+  - id: '06'
+    directory: scenes/06_next
+    duration_seconds: null
+    storyboard_seconds: 22

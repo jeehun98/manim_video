@@ -1,0 +1,28 @@
+id: mm06_tensor_power
+timing_basis: user_supplied_tts_endpoints
+video: {width: 1920, height: 1080, fps: 30}
+scenes:
+  - id: '01'
+    directory: scenes/01_zoom
+    duration_seconds: 19
+  - id: '02'
+    directory: scenes/02_indices
+    duration_seconds: 17
+  - id: '03'
+    directory: scenes/03_pairs
+    duration_seconds: 17
+  - id: '04'
+    directory: scenes/04_paths
+    duration_seconds: 18
+  - id: '05'
+    directory: scenes/05_power
+    duration_seconds: 14
+  - id: '06'
+    directory: scenes/06_mixed
+    duration_seconds: 24
+  - id: '07'
+    directory: scenes/07_shared
+    duration_seconds: 21
+  - id: '08'
+    directory: scenes/08_laser
+    duration_seconds: 21

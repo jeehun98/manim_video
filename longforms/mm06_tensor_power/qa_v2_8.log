@@ -1,0 +1,26 @@
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(VGroup of 2 submobjects):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                                    
+
+Animation 2: FadeIn(VGroup of 2 submobjects):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                                    
+
+Animation 3: Create(Arrow):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                  
+
+Animation 4: FadeIn(Text('��� ������ �ٲٸ�, Ȯ���ؾ� �� ���� �޶�����')):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                                                                  
+
+Animation 6: FadeIn(VGroup of 2 submobjects), etc.:   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                                          
+
+Animation 7: FadeIn(Text('�ʿ� ���� ������ ������ �������� ��İ��� ���� �� ������?')):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                                                                              
+
+Animation 9: FadeIn(Text('����: Laser Method')):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                                       
+
+Animation 10: FadeIn(Text('�ø����� ���� ���� �� ���� �ټ����� ���ϴ� ��ŭ ���� �����ϴٴ� ������ ����')):   0%|          | 0/8 [00:00<?, ?it/s]
+                                                                                                                                               

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "01",
+    "title": "세 계산을 하나의 직합으로",
+    "directory": "scenes/01_independent",
+    "class": "Scene01",
+    "duration_seconds": null,
+    "storyboard_seconds": 22
+  },
+  {
+    "id": "02",
+    "title": "따로 계산하면 7 + 7 + 7",
+    "directory": "scenes/02_blocks",
+    "class": "Scene02",
+    "duration_seconds": null,
+    "storyboard_seconds": 25
+  },
+  {
+    "id": "03",
+    "title": "3개의 2×2 → 27개의 8×8",
+    "directory": "scenes/03_cost",
+    "class": "Scene03",
+    "duration_seconds": null,
+    "storyboard_seconds": 40
+  },
+  {
+    "id": "04",
+    "title": "계산 규모와 분해 상한을 나란히",
+    "directory": "scenes/04_border",
+    "class": "Scene04",
+    "duration_seconds": null,
+    "storyboard_seconds": 27
+  },
+  {
+    "id": "05",
+    "title": "21항을 넣으면 무엇을 얻을까?",
+    "directory": "scenes/05_growth",
+    "class": "Scene05",
+    "duration_seconds": null,
+    "storyboard_seconds": 40
+  },
+  {
+    "id": "06",
+    "title": "묶음이 아니라 좋은 구조를 찾는다",
+    "directory": "scenes/06_next",
+    "class": "Scene06",
+    "duration_seconds": null,
+    "storyboard_seconds": 22
+  }
+]
