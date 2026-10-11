@@ -1,0 +1,6 @@
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm03_tensor_rank/scenes/01_connections/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm03_tensor_rank/scenes/02_reuse/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm03_tensor_rank/scenes/03_vectors/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm03_tensor_rank/scenes/04_decomposition/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm03_tensor_rank/scenes/05_rank/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm03_tensor_rank/scenes/06_limit/visual_preview.mp4'

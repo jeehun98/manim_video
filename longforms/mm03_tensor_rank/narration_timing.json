@@ -1,0 +1,158 @@
+[
+  {
+    "start": 0,
+    "end": 5,
+    "text": "앞에서는 행렬곱의 성장률을 살펴봤습니다. 이번에는 계산 관계 자체를 표현하겠습니다.",
+    "timing_basis": "duration from user timestamps"
+  },
+  {
+    "start": 5,
+    "end": 9,
+    "text": "왼쪽에는 일, 이, 삼, 사. 오른쪽에는 오, 육, 칠, 팔입니다.",
+    "timing_basis": "duration from user timestamps"
+  },
+  {
+    "start": 9,
+    "end": 17,
+    "text": "일 곱하기 오와 이 곱하기 칠을 더하면 첫 출력 십구가 됩니다. 다른 출력도 같은 방식으로 구합니다. 모두 여덟 개의 곱셈 연결입니다.",
+    "timing_basis": "duration from user timestamps"
+  },
+  {
+    "start": 17,
+    "end": 22,
+    "text": "숫자가 바뀌어도, 어떤 입력 쌍이 어느 출력에 기여하는지는 같습니다.",
+    "timing_basis": "duration from user timestamps"
+  },
+  {
+    "start": 22,
+    "end": 27,
+    "text": "스트라센의 첫 중간 곱입니다. 일과 사, 오와 팔을 각각 더해 곱하면 육십오입니다.",
+    "timing_basis": "duration from user timestamps"
+  },
+  {
+    "start": 27,
+    "end": 33,
+    "text": "이 결과는 첫 출력과 마지막 출력에 더해집니다. 한 번의 곱셈을 여러 출력에 나누어 쓰는 것입니다.",
+    "timing_basis": "duration from user timestamps"
+  },
+  {
+    "start": 33,
+    "end": 41,
+    "text": "나머지 여섯 중간 곱까지 합쳐야 십구, 이십이, 사십삼, 오십이 됩니다. 육십오는 최종 답이 아니라 하나의 기여분입니다.",
+    "timing_basis": "duration from user timestamps"
+  },
+  {
+    "start": 41,
+    "end": 44,
+    "text": "이 계산을 세 계수 벡터로 기록하겠습니다.",
+    "timing_basis": "duration from user timestamps"
+  },
+  {
+    "start": 44,
+    "end": 50,
+    "text": "왼쪽 계수 일, 영, 영, 일은 첫째와 넷째 입력을 더하라는 뜻입니다. 일 더하기 사, 오입니다.",
+    "timing_basis": "duration from user timestamps"
+  },
+  {
+    "start": 50,
+    "end": 57,
+    "text": "오른쪽도 같은 계수로 오 더하기 팔, 십삼을 만듭니다. 이 두 선형 조합을 곱하면 육십오입니다.",
+    "timing_basis": "duration from user timestamps"
+  },
+  {
+    "start": 57,
+    "end": 65,
+    "text": "출력 계수 일, 영, 영, 일은 그 곱을 첫째와 넷째 출력에 더하라는 규칙입니다. 기여분은 육십오, 영, 영, 육십오가 됩니다.",
+    "timing_basis": "duration from user timestamps"
+  },
+  {
+    "start": 65,
+    "end": 69,
+    "text": "세 번째 벡터는 새로운 입력이 아니라 고정된 분배 규칙입니다.",
+    "timing_basis": "duration from user timestamps"
+  },
+  {
+    "start": 69,
+    "end": 73,
+    "text": "이제 모든 입력에 적용되는 계수 관계를 저장해 보겠습니다.",
+    "timing_basis": "duration from user timestamps"
+  },
+  {
+    "start": 73,
+    "end": 82,
+    "text": "출력마다 표를 놓고, 행에는 왼쪽 입력, 열에는 오른쪽 입력의 위치를 적습니다. 어떤 입력 쌍의 곱이 그 출력에 들어가면 해당 칸에 계수를 기록합니다.",
+    "timing_basis": "duration from user timestamps"
+  },
+  {
+    "start": 82,
+    "end": 94,
+    "text": "여기에 출력 위치를 세 번째 축으로 추가합니다. 왼쪽 입력 위치, 오른쪽 입력 위치, 그리고 출력 위치입니다. 네 장의 표를 묶은 이 삼차 텐서가 계산 관계를 나타냅니다. 출력 축은 세 번째 입력이 아닙니다.",
+    "timing_basis": "provisional extension of user timestamps"
+  },
+  {
+    "start": 94,
+    "end": 101,
+    "text": "표준 방법의 여덟 항을 더하면 이 텐서가 됩니다. 스트라센의 일곱 항도 불필요한 기여를 서로 소거해, 정확히 같은 텐서를 만듭니다.",
+    "timing_basis": "duration from user timestamps"
+  },
+  {
+    "start": 101,
+    "end": 107,
+    "text": "이 세 계수 벡터로 만든 구조 하나를 단순항이라고 부르겠습니다. 실제 계산으로 되돌려 보겠습니다.",
+    "timing_basis": "provisional extension of user timestamps"
+  },
+  {
+    "start": 107,
+    "end": 117,
+    "text": "왼쪽과 오른쪽 입력을 각각 조합하고, 두 값을 한 번 곱합니다. 그 결과를 정해진 계수대로 출력에 나눕니다.",
+    "timing_basis": "duration from user timestamps"
+  },
+  {
+    "start": 117,
+    "end": 123,
+    "text": "따라서 같은 텐서를 더 적은 단순항으로 만들면, 이런 곱셈도 더 적게 필요합니다. 덧셈과 뺄셈은 별도입니다.",
+    "timing_basis": "duration from user timestamps"
+  },
+  {
+    "start": 123,
+    "end": 127,
+    "text": "일곱 항이면 충분했습니다. 그렇다면 여섯 항으로도 가능할까요?",
+    "timing_basis": "duration from user timestamps"
+  },
+  {
+    "start": 127,
+    "end": 132,
+    "text": "같은 텐서를 정확히 만드는 단순항의 최소 개수. 이 문제에 붙인 이름이 텐서 랭크입니다.",
+    "timing_basis": "duration from user timestamps"
+  },
+  {
+    "start": 132,
+    "end": 140,
+    "text": "스트라센의 공식은 일곱 이하라는 상한을 증명합니다. 여섯 이하로는 불가능하다는 것은 별도의 하한 정리입니다.",
+    "timing_basis": "duration from user timestamps"
+  },
+  {
+    "start": 140,
+    "end": 144,
+    "text": "둘을 합치면, 복소수 위 이 대 이 행렬곱의 텐서 랭크는 정확히 일곱입니다.",
+    "timing_basis": "duration from user timestamps"
+  },
+  {
+    "start": 144,
+    "end": 149,
+    "text": "지금까지는 항들을 모두 합쳤을 때 원래 텐서와 정확히 같아야 했습니다.",
+    "timing_basis": "duration from user timestamps"
+  },
+  {
+    "start": 149,
+    "end": 158,
+    "text": "그런데 정확히 같지는 않더라도, 어떤 분해가 목표 텐서에 한없이 가까워진다면 어떨까요? 극한에서 같아지는 구조도 계산량을 줄이는 데 활용할 수 있을까요?",
+    "timing_basis": "provisional extension of user timestamps"
+  },
+  {
+    "start": 158,
+    "end": 164,
+    "text": "다음 막에서는 이 질문을 보더 랭크로 이어갑니다. 이 대 이 행렬곱을 일곱보다 적게 계산했다는 뜻은 아닙니다.",
+    "timing_basis": "duration from user timestamps"
+  }
+]

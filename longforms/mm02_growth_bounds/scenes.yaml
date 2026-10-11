@@ -1,0 +1,28 @@
+id: mm02_growth_bounds
+title: "2막 — 행렬곱의 계산량은 어디까지 줄어들 수 있을까?"
+video:
+  width: 1920
+  height: 1080
+  fps: 30
+timing_basis: user_sentence_end_times
+scenes:
+  - id: "01"
+    directory: "scenes/01_growth"
+    class: "Scene01"
+    duration_seconds: 37
+    storyboard_seconds: 46
+  - id: "02"
+    directory: "scenes/02_upper"
+    class: "Scene02"
+    duration_seconds: 23
+    storyboard_seconds: 31
+  - id: "03"
+    directory: "scenes/03_lower"
+    class: "Scene03"
+    duration_seconds: 26
+    storyboard_seconds: 32
+  - id: "04"
+    directory: "scenes/04_omega"
+    class: "Scene04"
+    duration_seconds: 51
+    storyboard_seconds: 57

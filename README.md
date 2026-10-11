@@ -989,3 +989,31 @@ science01 화면 길이는 대사 글자 수에 비례해 배분합니다. `pyth
 [longforms/ns11_stability_finale](longforms/ns11_stability_finale/README.md). 9개 독립 씬, 사용자 음성 실측 323초, 가로 1080p·30fps 무음 영상. 기존의 속도장, 활성값 행렬, 방향별 변형, 제한적인 모드, 학습 경로, 과도 증폭을 다시 연결한다. 다섯 관점을 동일한 안정성 정의로 묶지 않고 무엇을 측정하는지 구분하는 질문으로 시리즈를 끝낸다. 화면별 TTS 70개 문단.
 
 렌더: `python longforms/ns11_stability_finale/build.py`. 미리보기는 `--preview`.
+
+## 행렬곱 시리즈 — 처음부터 다시 설계
+
+[새 구성](longforms/matrix_multiplication_foundations/series_plan.md). 사용자 제공 문서의 9개 대문단 순서로 표준 계산, Strassen, 최적 지수, 작은 공식 탐색, 텐서, 보더 랭크, 독립 직합, 텐서 거듭제곱, 기존 접근의 한계를 이해한다. 기존 AI 수학 행렬곱 시리즈와 생성 영상은 삭제했다. 1장은 별도 제작 폴더에서 무음 콘티로 구현했다. 이후 장은 구성 단계다.
+
+### 새 행렬곱 1막 — 세제곱은 반드시 필요한가?
+
+[제작 자료](longforms/mm01_cubic_question/README.md). 7개 독립 씬의 무음 콘티. 8곱, 실제 7곱, 출력 복원, 항등식 소거와 블록 재귀를 구현한다. 사용자 제공 문장별 시각을 적용한 142초 본편과 세로형 쇼츠. 오디오 파일은 미제공으로 무음이다.
+
+### 새 행렬곱 2막 — 성장률과 두 경계
+
+[제작 자료](longforms/mm02_growth_bounds/README.md). 네 씬에서 말단 곱셈 수, 알고리즘의 상한, 명시적 출력 크기의 하한, 최적 지수와 ε를 설명한다. 사용자 문장별 시각을 적용한 137초 본편과 쇼츠이며 음성 파일 미제공으로 무음이다.
+
+### 개정 전 행렬곱 3막 — 작은 공식과 성장률
+
+[제작 자료](longforms/mm03_small_formulas/README.md). 7개 씬·195초 무음 콘티. Laderman 23곱의 존재와 재귀 지수, Strassen과의 비교, 실제 항등식의 필요성을 다룬다. TTS 실측 전 임시 길이다.
+
+### 현재 행렬곱 3막 — 계산 그래프에서 텐서 랭크로
+
+[제작 자료](longforms/mm03_tensor_rank/README.md). 새 초안의 6개 씬으로 교체했다. 입력 조합·출력 분배를 세 계수 벡터로 나타내고, 4×4×4 계수표에서 표준 8항과 Strassen 7항의 합을 비교한다. 164초 보강 무음 콘티이며 TTS 실측 전이다.
+
+## 행렬곱 4막 — 정확히 같지 않아도 계산량을 줄일 수 있을까?
+
+[제작 자료](longforms/mm04_border_rank/README.md). 낮은 랭크 텐서의 집합과 폐포, 정확한 표현과 극한 접근의 차이를 7개 독립 씬으로 구현한다. 190초 폐포 보강 무음 콘티이며 TTS 실측 전이다.
+
+`python longforms/mm04_border_rank/build.py --preview`
+
+`python longforms/mm04_border_rank/build.py`

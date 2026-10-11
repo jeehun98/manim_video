@@ -1,0 +1,58 @@
+[
+  {
+    "id": "01",
+    "title": "등호의 조건을 바꾼다면?",
+    "directory": "scenes/01_exact",
+    "class": "Scene01",
+    "duration_seconds": null,
+    "storyboard_seconds": 14
+  },
+  {
+    "id": "02",
+    "title": "극한으로 원하는 항을 남긴다",
+    "directory": "scenes/02_limit",
+    "class": "Scene02",
+    "duration_seconds": null,
+    "storyboard_seconds": 28
+  },
+  {
+    "id": "03",
+    "title": "정확히 세 항이 필요한 다른 텐서",
+    "directory": "scenes/03_w_tensor",
+    "class": "Scene03",
+    "duration_seconds": null,
+    "storyboard_seconds": 23
+  },
+  {
+    "id": "04",
+    "title": "두 단순항의 극한이 세 항을 만든다",
+    "directory": "scenes/04_degeneration",
+    "class": "Scene04",
+    "duration_seconds": null,
+    "storyboard_seconds": 35
+  },
+  {
+    "id": "05",
+    "title": "이 최소 개수가 보더 랭크",
+    "directory": "scenes/05_border",
+    "class": "Scene05",
+    "duration_seconds": null,
+    "storyboard_seconds": 16
+  },
+  {
+    "id": "06",
+    "title": "극한에서 정확한 계산으로",
+    "directory": "scenes/06_interpolation",
+    "class": "Scene06",
+    "duration_seconds": null,
+    "storyboard_seconds": 34
+  },
+  {
+    "id": "07",
+    "title": "추가 비용을 성장률과 함께 본다",
+    "directory": "scenes/07_growth",
+    "class": "Scene07",
+    "duration_seconds": null,
+    "storyboard_seconds": 26
+  }
+]

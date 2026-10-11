@@ -1,0 +1,151 @@
+Manim Community v0.21.0
+
+
+Animation 1: Write(Text('M�� + M�� \u2212 M\u2085 + M\u2087')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                    
+
+Animation 2: Write(Text('(a+d)(e+h) + d(g\u2212e) \u2212 (a+b)h + (b\u2212d)(g+h)')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 2: Write(Text('(a+d)(e+h) + d(g\u2212e) \u2212 (a+b)h + (b\u2212d)(g+h)')):  37%|###6      | 11/30 [00:00<00:00, 106.41it/s]
+Animation 2: Write(Text('(a+d)(e+h) + d(g\u2212e) \u2212 (a+b)h + (b\u2212d)(g+h)')):  73%|#######3  | 22/30 [00:00<00:00, 103.51it/s]
+                                                                                                                       
+
+Animation 4: LaggedStart(Group):   0%|          | 0/70 [00:00<?, ?it/s]
+Animation 4: LaggedStart(Group):  17%|#7        | 12/70 [00:00<00:00, 108.98it/s]
+Animation 4: LaggedStart(Group):  33%|###2      | 23/70 [00:00<00:00, 101.54it/s]
+Animation 4: LaggedStart(Group):  49%|####8     | 34/70 [00:00<00:00, 93.61it/s] 
+Animation 4: LaggedStart(Group):  63%|######2   | 44/70 [00:00<00:00, 90.14it/s]
+Animation 4: LaggedStart(Group):  77%|#######7  | 54/70 [00:00<00:00, 81.27it/s]
+Animation 4: LaggedStart(Group):  90%|######### | 63/70 [00:00<00:00, 80.72it/s]
+                                                                                
+
+Animation 5: _MethodAnimation(VGroup of 2 submobjects), etc.:   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 5: _MethodAnimation(VGroup of 2 submobjects), etc.:  91%|######### | 10/11 [00:00<00:00, 98.41it/s]
+                                                                                                             
+
+Animation 6: FadeOut(VGroup of 2 submobjects), etc.:   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 6: FadeOut(VGroup of 2 submobjects), etc.:  91%|######### | 10/11 [00:00<00:00, 95.33it/s]
+                                                                                                    
+
+Animation 7: _MethodAnimation(VGroup of 2 submobjects), etc.:   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 7: _MethodAnimation(VGroup of 2 submobjects), etc.: 100%|##########| 11/11 [00:00<00:00, 103.69it/s]
+                                                                                                              
+
+Animation 8: FadeOut(VGroup of 2 submobjects), etc.:   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 8: FadeOut(VGroup of 2 submobjects), etc.: 100%|##########| 11/11 [00:00<00:00, 101.62it/s]
+                                                                                                     
+
+Animation 9: _MethodAnimation(VGroup of 2 submobjects), etc.:   0%|          | 0/11 [00:00<?, ?it/s]
+                                                                                                    
+
+Animation 10: FadeOut(VGroup of 2 submobjects), etc.:   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 10: FadeOut(VGroup of 2 submobjects), etc.: 100%|##########| 11/11 [00:00<00:00, 99.58it/s]
+                                                                                                     
+
+Animation 11: _MethodAnimation(VGroup of 2 submobjects), etc.:   0%|          | 0/11 [00:00<?, ?it/s]
+                                                                                                     
+
+Animation 12: FadeOut(VGroup of 2 submobjects), etc.:   0%|          | 0/11 [00:00<?, ?it/s]
+                                                                                            
+
+Animation 13: _MethodAnimation(VGroup of 2 submobjects), etc.:   0%|          | 0/11 [00:00<?, ?it/s]
+                                                                                                     
+
+Animation 14: FadeOut(VGroup of 2 submobjects), etc.:   0%|          | 0/11 [00:00<?, ?it/s]
+                                                                                            
+
+Animation 16: _MethodAnimation(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 16: _MethodAnimation(VGroup of 2 submobjects), etc.:  50%|#####     | 15/30 [00:00<00:00, 143.66it/s]
+Animation 16: _MethodAnimation(VGroup of 2 submobjects), etc.: 100%|##########| 30/30 [00:00<00:00, 136.96it/s]
+                                                                                                               
+
+Animation 17: FadeIn(Text('c���� = ae + bg')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 17: FadeIn(Text('c���� = ae + bg')):  50%|#####     | 15/30 [00:00<00:00, 147.60it/s]
+Animation 17: FadeIn(Text('c���� = ae + bg')): 100%|##########| 30/30 [00:00<00:00, 133.54it/s]
+                                                                                             
+
+Animation 18: FadeIn(Text('c���� = af + bh     c���� = ce + dg     c���� = cf + dh')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 18: FadeIn(Text('c���� = af + bh     c���� = ce + dg     c���� = cf + dh')):  33%|###3      | 10/30 [00:00<00:00, 94.65it/s]
+Animation 18: FadeIn(Text('c���� = af + bh     c���� = ce + dg     c���� = cf + dh')):  67%|######6   | 20/30 [00:00<00:00, 92.35it/s]
+                                                                                                                                
+Manim Community v0.21.0
+
+
+Animation 1: FadeIn(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 1: FadeIn(VGroup of 2 submobjects), etc.:  33%|###3      | 10/30 [00:00<00:00, 94.28it/s]
+Animation 1: FadeIn(VGroup of 2 submobjects), etc.:  67%|######6   | 20/30 [00:00<00:00, 94.51it/s]
+Animation 1: FadeIn(VGroup of 2 submobjects), etc.: 100%|##########| 30/30 [00:00<00:00, 94.49it/s]
+                                                                                                   
+
+Animation 2: FadeIn(Text('���� �ڸ��� ��� ���� �� ���� ������ ����')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 2: FadeIn(Text('���� �ڸ��� ��� ���� �� ���� ������ ����')):  47%|####6     | 14/30 [00:00<00:00, 133.01it/s]
+Animation 2: FadeIn(Text('���� �ڸ��� ��� ���� �� ���� ������ ����')):  93%|#########3| 28/30 [00:00<00:00, 124.78it/s]
+                                                                                                                       
+
+Animation 4: FadeIn(VGroup of 2 submobjects):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 4: FadeIn(VGroup of 2 submobjects):  40%|####      | 12/30 [00:00<00:00, 118.74it/s]
+Animation 4: FadeIn(VGroup of 2 submobjects):  80%|########  | 24/30 [00:00<00:00, 118.78it/s]
+                                                                                              
+
+Animation 5: Create(VGroup of 30 submobjects):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 5: Create(VGroup of 30 submobjects):  50%|#####     | 15/30 [00:00<00:00, 144.70it/s]
+Animation 5: Create(VGroup of 30 submobjects): 100%|##########| 30/30 [00:00<00:00, 134.11it/s]
+                                                                                               
+
+Animation 7: FadeOut(VGroup of 30 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 7: FadeOut(VGroup of 30 submobjects), etc.:  20%|##        | 6/30 [00:00<00:00, 55.97it/s]
+Animation 7: FadeOut(VGroup of 30 submobjects), etc.:  40%|####      | 12/30 [00:00<00:00, 54.83it/s]
+Animation 7: FadeOut(VGroup of 30 submobjects), etc.:  60%|######    | 18/30 [00:00<00:00, 54.63it/s]
+Animation 7: FadeOut(VGroup of 30 submobjects), etc.:  80%|########  | 24/30 [00:00<00:00, 54.86it/s]
+Animation 7: FadeOut(VGroup of 30 submobjects), etc.: 100%|##########| 30/30 [00:00<00:00, 54.74it/s]
+                                                                                                     
+
+Animation 8: LaggedStart(Group):   0%|          | 0/66 [00:00<?, ?it/s]
+Animation 8: LaggedStart(Group):  18%|#8        | 12/66 [00:00<00:00, 114.01it/s]
+Animation 8: LaggedStart(Group):  36%|###6      | 24/66 [00:00<00:00, 113.87it/s]
+Animation 8: LaggedStart(Group):  55%|#####4    | 36/66 [00:00<00:00, 110.69it/s]
+Animation 8: LaggedStart(Group):  73%|#######2  | 48/66 [00:00<00:00, 107.46it/s]
+Animation 8: LaggedStart(Group):  89%|########9 | 59/66 [00:00<00:00, 95.52it/s] 
+                                                                                
+
+Animation 9: Write(Text('T(n) = 7T(n/2) + O(n��)')):   0%|          | 0/60 [00:00<?, ?it/s]
+Animation 9: Write(Text('T(n) = 7T(n/2) + O(n��)')):  23%|##3       | 14/60 [00:00<00:00, 139.28it/s]
+Animation 9: Write(Text('T(n) = 7T(n/2) + O(n��)')):  47%|####6     | 28/60 [00:00<00:00, 131.80it/s]
+Animation 9: Write(Text('T(n) = 7T(n/2) + O(n��)')):  70%|#######   | 42/60 [00:00<00:00, 129.97it/s]
+Animation 9: Write(Text('T(n) = 7T(n/2) + O(n��)')):  93%|#########3| 56/60 [00:00<00:00, 131.67it/s]
+                                                                                                    
+
+Animation 10: Write(Text('T(n) = O(n^(log��7))   ��   log��7 \u2248 2.8074')):   0%|          | 0/60 [00:00<?, ?it/s]
+Animation 10: Write(Text('T(n) = O(n^(log��7))   ��   log��7 \u2248 2.8074')):  20%|##        | 12/60 [00:00<00:00, 118.72it/s]
+Animation 10: Write(Text('T(n) = O(n^(log��7))   ��   log��7 \u2248 2.8074')):  40%|####      | 24/60 [00:00<00:00, 111.79it/s]
+Animation 10: Write(Text('T(n) = O(n^(log��7))   ��   log��7 \u2248 2.8074')):  60%|######    | 36/60 [00:00<00:00, 106.53it/s]
+Animation 10: Write(Text('T(n) = O(n^(log��7))   ��   log��7 \u2248 2.8074')):  78%|#######8  | 47/60 [00:00<00:00, 102.45it/s]
+Animation 10: Write(Text('T(n) = O(n^(log��7))   ��   log��7 \u2248 2.8074')):  97%|#########6| 58/60 [00:00<00:00, 85.49it/s] 
+                                                                                                                      
+
+Animation 11: FadeIn(Text('ǥ�� ���� ���� �� �� ���� ����� �����ص� �� ���� ���� ����')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 11: FadeIn(Text('ǥ�� ���� ���� �� �� ���� ����� �����ص� �� ���� ���� ����')):  30%|###       | 9/30 [00:00<00:00, 89.04it/s]
+Animation 11: FadeIn(Text('ǥ�� ���� ���� �� �� ���� ����� �����ص� �� ���� ���� ����')):  63%|######3   | 19/30 [00:00<00:00, 94.90it/s]
+Animation 11: FadeIn(Text('ǥ�� ���� ���� �� �� ���� ����� �����ص� �� ���� ���� ����')):  97%|#########6| 29/30 [00:00<00:00, 92.27it/s]
+                                                                                                                                         
+Manim Community v0.21.0
+
+
+Animation 0: Create(Axes of 2 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                 
+
+Animation 1: Create(ParametricFunction), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                    
+
+Animation 2: FadeIn(Text('ǥ�� n��')), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                 
+
+Animation 3: FadeIn(Text('2�� �ŵ����� ũ�⿡�� ���� ���� �� �� �� ����ð� �׷����� �ƴմϴ�')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                                                        
+
+Animation 5: FadeOut(Axes of 2 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                        
+
+Animation 6: Write(Text('��İ��� ��귮��\n������ ���� �� ������?')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                              
+OK: C:\Users\as042\OneDrive\Desktop\manim_video\exports\mm01_cubic_question_142s_1080p30.mp4; 4260 frames; 30 fps; 142 seconds
+OK: C:\Users\as042\OneDrive\Desktop\manim_video\exports\mm01_cubic_question_142s_short_1080x1920.mp4

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "01",
+    "title": "계산 관계 전체를 점 하나로",
+    "directory": "scenes/01_exact",
+    "class": "Scene01",
+    "duration_seconds": null,
+    "storyboard_seconds": 20
+  },
+  {
+    "id": "02",
+    "title": "두 항 이하로 정확히 만드는 집합",
+    "directory": "scenes/02_limit",
+    "class": "Scene02",
+    "duration_seconds": null,
+    "storyboard_seconds": 24
+  },
+  {
+    "id": "03",
+    "title": "집합 밖의 점에 한없이 가까워진다",
+    "directory": "scenes/03_w_tensor",
+    "class": "Scene03",
+    "duration_seconds": null,
+    "storyboard_seconds": 30
+  },
+  {
+    "id": "04",
+    "title": "각 항은 커져도 합은 가까워질 수 있다",
+    "directory": "scenes/04_degeneration",
+    "class": "Scene04",
+    "duration_seconds": null,
+    "storyboard_seconds": 24
+  },
+  {
+    "id": "05",
+    "title": "정확한 최소값과 극한의 최소값",
+    "directory": "scenes/05_border",
+    "class": "Scene05",
+    "duration_seconds": null,
+    "storyboard_seconds": 22
+  },
+  {
+    "id": "06",
+    "title": "다시 정확한 행렬곱 계산의 문제로",
+    "directory": "scenes/06_interpolation",
+    "class": "Scene06",
+    "duration_seconds": null,
+    "storyboard_seconds": 28
+  },
+  {
+    "id": "07",
+    "title": "정확한 분해에서 경계까지 탐색한다",
+    "directory": "scenes/07_growth",
+    "class": "Scene07",
+    "duration_seconds": null,
+    "storyboard_seconds": 18
+  }
+]

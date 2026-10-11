@@ -1,0 +1,43 @@
+id: mm04_border_rank
+title: "4막 — 집합에 없는 점도, 폐포에는 들어갈 수 있을까?"
+video:
+  width: 1920
+  height: 1080
+  fps: 30
+timing_basis: provisional_silent_storyboard
+scenes:
+  - id: "01"
+    directory: "scenes/01_exact"
+    class: "Scene01"
+    duration_seconds: null
+    storyboard_seconds: 20
+  - id: "02"
+    directory: "scenes/02_limit"
+    class: "Scene02"
+    duration_seconds: null
+    storyboard_seconds: 24
+  - id: "03"
+    directory: "scenes/03_w_tensor"
+    class: "Scene03"
+    duration_seconds: null
+    storyboard_seconds: 48
+  - id: "04"
+    directory: "scenes/04_degeneration"
+    class: "Scene04"
+    duration_seconds: null
+    storyboard_seconds: 24
+  - id: "05"
+    directory: "scenes/05_border"
+    class: "Scene05"
+    duration_seconds: null
+    storyboard_seconds: 28
+  - id: "06"
+    directory: "scenes/06_interpolation"
+    class: "Scene06"
+    duration_seconds: null
+    storyboard_seconds: 28
+  - id: "07"
+    directory: "scenes/07_growth"
+    class: "Scene07"
+    duration_seconds: null
+    storyboard_seconds: 18

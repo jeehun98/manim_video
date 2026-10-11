@@ -1,0 +1,38 @@
+id: mm03_tensor_rank
+title: "3막 — 행렬곱을 하나의 수학적 구조로 바꾼다면?"
+video:
+  width: 1920
+  height: 1080
+  fps: 30
+timing_basis: user_timestamps_with_provisional_extensions
+scenes:
+  - id: "01"
+    directory: "scenes/01_connections"
+    class: "Scene01"
+    duration_seconds: 22
+    storyboard_seconds: 22
+  - id: "02"
+    directory: "scenes/02_reuse"
+    class: "Scene02"
+    duration_seconds: 19
+    storyboard_seconds: 19
+  - id: "03"
+    directory: "scenes/03_vectors"
+    class: "Scene03"
+    duration_seconds: 28
+    storyboard_seconds: 28
+  - id: "04"
+    directory: "scenes/04_decomposition"
+    class: "Scene04"
+    duration_seconds: null
+    storyboard_seconds: 32
+  - id: "05"
+    directory: "scenes/05_rank"
+    class: "Scene05"
+    duration_seconds: null
+    storyboard_seconds: 43
+  - id: "06"
+    directory: "scenes/06_limit"
+    class: "Scene06"
+    duration_seconds: null
+    storyboard_seconds: 20

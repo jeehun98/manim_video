@@ -198,6 +198,7 @@ EPISODES["nnmath12"] = ("episodes/nnmath12_parameter_symmetry_quotient/scene.py"
 EPISODES["nnmath13"] = ("episodes/nnmath13_gradient_dynamics/scene.py", "NeuralMathGradientDynamics")
 EPISODES["nnmath14"] = ("episodes/nnmath14_hessian_flat_directions/scene.py", "NeuralMathHessianFlatDirections")
 
+
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("episode", choices=EPISODES)
