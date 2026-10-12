@@ -1,0 +1,63 @@
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(VGroup of 2 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                         
+
+Animation 1: Write(Text('c���� = a����b���� + a����b���� + a����b����')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                 
+
+Animation 2: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                           
+
+Animation 3: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                           
+
+Animation 4: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                           
+
+Animation 5: Transform(Text('���� 0��')), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 5: Transform(Text('���� 0��')), etc.:  33%|###3      | 6/18 [00:00<00:00, 58.48it/s]
+Animation 5: Transform(Text('���� 0��')), etc.:  67%|######6   | 12/18 [00:00<00:00, 58.54it/s]
+Animation 5: Transform(Text('���� 0��')), etc.: 100%|##########| 18/18 [00:00<00:00, 57.86it/s]
+                                                                                               
+
+Animation 6: Transform(Text('���� 0��')), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 6: Transform(Text('���� 0��')), etc.:  33%|###3      | 6/18 [00:00<00:00, 58.36it/s]
+Animation 6: Transform(Text('���� 0��')), etc.:  72%|#######2  | 13/18 [00:00<00:00, 59.40it/s]
+                                                                                               
+
+Animation 7: Transform(Text('���� 0��')), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 7: Transform(Text('���� 0��')), etc.:  39%|###8      | 7/18 [00:00<00:00, 64.07it/s]
+Animation 7: Transform(Text('���� 0��')), etc.:  78%|#######7  | 14/18 [00:00<00:00, 64.93it/s]
+                                                                                               
+
+Animation 8: Transform(Text('���� 0��')), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 8: Transform(Text('���� 0��')), etc.:  50%|#####     | 9/18 [00:00<00:00, 84.82it/s]
+                                                                                              
+
+Animation 9: Transform(Text('���� 0��')), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 9: Transform(Text('���� 0��')), etc.:  56%|#####5    | 10/18 [00:00<00:00, 99.46it/s]
+                                                                                               
+
+Animation 10: Transform(Text('���� 0��')), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 10: Transform(Text('���� 0��')), etc.:  56%|#####5    | 10/18 [00:00<00:00, 96.43it/s]
+                                                                                                
+
+Animation 11: Transform(Text('���� 0��')), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 11: Transform(Text('���� 0��')), etc.:  56%|#####5    | 10/18 [00:00<00:00, 98.81it/s]
+                                                                                                
+
+Animation 12: Transform(Text('���� 0��')), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 12: Transform(Text('���� 0��')), etc.:  67%|######6   | 12/18 [00:00<00:00, 111.44it/s]
+                                                                                                 
+
+Animation 13: Transform(Text('���� 0��')), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 13: Transform(Text('���� 0��')), etc.:  61%|######1   | 11/18 [00:00<00:00, 101.82it/s]
+                                                                                                 
+
+Animation 14: FadeIn(Text('27���� ǥ�� ����� ����Դϴ� �� �ּ� Ƚ����� ���� �ƴմϴ�')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 14: FadeIn(Text('27���� ǥ�� ����� ����Դϴ� �� �ּ� Ƚ����� ���� �ƴմϴ�')):  30%|###       | 9/30 [00:00<00:00, 89.94it/s]
+Animation 14: FadeIn(Text('27���� ǥ�� ����� ����Դϴ� �� �ּ� Ƚ����� ���� �ƴմϴ�')):  63%|######3   | 19/30 [00:00<00:00, 92.22it/s]
+Animation 14: FadeIn(Text('27���� ǥ�� ����� ����Դϴ� �� �ּ� Ƚ����� ���� �ƴմϴ�')):  97%|#########6| 29/30 [00:00<00:00, 84.66it/s]
+                                                                                                                                          

@@ -1,10 +1,37 @@
 # Manim 교육 영상 프로젝트
 
+## 과학의 한 장면 18 — 빛으로 뇌에 스위치를 달다
+
+- `science18`: 광유전학과 2026 노벨 생리의학상. 뇌의 전구와 리모컨 → 녹조류의 빛으로 여는 문 → WHEN × WHO → 관찰에서 개입 → 인과적 역할 검증. 피드백을 반영해 비유 중심으로 재구성.
+- 실제 파일: `episodes/science18_optogenetics/`의 scene.py, brief.md, narration.md, timing.json, tts_script.txt, captions.srt.
+- 17장면, 사용자 제공 실제 TTS 경계 기준 141초. 재타이밍: `python scripts/retime_science18.py --end-times "4,13,19,26,33,41,48,57,65,74,82,90,100,109,118,128,141"`.
+- 렌더: `python scripts/render.py science18 --preview` / `python scripts/render.py science18`.
+- 출력: `exports/science18_preview.mp4`, `exports/science18.mp4`.
+
 ## 롱폼 제작
 
 롱폼은 짧은 완성 씬을 독립적으로 제작한 뒤 결합하는 방식으로 관리합니다. 새 롱폼을 시작하거나 다른 환경에서 이어서 작업할 때는 [롱폼 제작 규격](longforms/README.md)과 [`longforms/_template`](longforms/_template/)를 먼저 확인하세요.
 
 # Activation Function Series
+
+## Dynamic Inference — 입력마다 필요한 계산은 같을까?
+
+- 01 **모든 입력이 신경망의 끝까지 갈 필요가 있을까? — Early Exit** — 82초, 1080×1920, 30fps, 무음. 생성형 이미지로 만든 난이도별 입력이 같은 12개 레이어를 지나는 장면에서 시작해, 쉬운 입력은 L4에서 종료하고 어려운 입력은 L12까지 진행하는 입력별 실행 깊이를 설명합니다. confidence threshold의 정확도·계산량 trade-off를 보여주고 Token Pruning 질문으로 이어집니다.
+- 실제 파일: [장면](episodes/exit01_early_exit/scene.py) · [대본](episodes/exit01_early_exit/narration.md) · [제작 기준](episodes/exit01_early_exit/brief.md) · [자막](episodes/exit01_early_exit/captions.srt) · [TTS](episodes/exit01_early_exit/tts_script.txt)
+- 미리보기: `python scripts/render.py exit01 --preview` → `exports/exit01_preview.mp4`
+- 최종본: `python scripts/render.py exit01` → `exports/exit01.mp4`
+- 02 **모든 Token을 끝까지 계산해야 할까? — Token Pruning** — 93초, 1080×1920, 30fps, 무음. 생성형 고양이·자동차 이미지를 4×4 patch Token으로 바꾸고, 중간 중요도 평가와 Top-k 제거로 이후 sequence가 짧아지는 과정을 설명합니다. Attention score 행렬이 16×16에서 8×8로 줄어드는 관계 감소와 입력별 동적 선택, 과도한 제거의 정보 손실을 보여줍니다.
+- 실제 파일: [장면](episodes/exit02_token_pruning/scene.py) · [대본](episodes/exit02_token_pruning/narration.md) · [제작 기준](episodes/exit02_token_pruning/brief.md) · [자막](episodes/exit02_token_pruning/captions.srt) · [TTS](episodes/exit02_token_pruning/tts_script.txt)
+- 미리보기: `python scripts/render.py exit02 --preview` → `exports/exit02_preview.mp4`
+- 최종본: `python scripts/render.py exit02` → `exports/exit02.mp4`
+- 03 **모델은 커졌는데 계산량은 그만큼 커지지 않을 수 있다 — Mixture of Experts** — 음성 누적 시점에 맞춘 96초, 1080×1920, 30fps, 무음. Transformer FFN을 여러 Expert로 나누고 Token별 Top-2 routing으로 전체 Parameter와 활성 Parameter를 분리합니다. Expert 수가 증가해도 한 Token의 선택 수는 유지될 수 있음을 보여주고, Token별 경로와 load imbalance 비용까지 다룹니다.
+- 실제 파일: [장면](episodes/exit03_moe_active_parameters/scene.py) · [대본](episodes/exit03_moe_active_parameters/narration.md) · [제작 기준](episodes/exit03_moe_active_parameters/brief.md) · [자막](episodes/exit03_moe_active_parameters/captions.srt) · [TTS](episodes/exit03_moe_active_parameters/tts_script.txt)
+- 미리보기: `python scripts/render.py exit03 --preview` → `exports/exit03_preview.mp4`
+- 최종본: `python scripts/render.py exit03` → `exports/exit03.mp4`
+- 04 **Attention은 어떻게 이전 토큰의 계산을 재사용할까? — KV Cache** — 100초, 1080×1920, 30fps, 무음. 반복 K,V 생성의 삼각형을 대각선 + Cache로 바꾸는 장면에서 출발합니다. causal attention의 시간 방향, 새 Query의 조명, Value 가중합, 커지는 Cache와 읽기 비용으로 계산·메모리 교환을 보여줍니다. 구간 시간은 발화 추정치입니다.
+- 실제 파일: [장면](episodes/exit04_kv_cache/scene.py) · [대본](episodes/exit04_kv_cache/narration.md) · [자막](episodes/exit04_kv_cache/captions.srt) · [TTS](episodes/exit04_kv_cache/tts_script.txt) · [제작 기준](episodes/exit04_kv_cache/brief.md)
+- 미리보기: `python scripts/render.py exit04 --preview` → `exports/exit04_preview.mp4`
+- 최종본: `python scripts/render.py exit04` → `exports/exit04.mp4`
 
 ## 분포의 수학
 
@@ -97,6 +124,13 @@
 - 미리보기: `python scripts/render.py dist17_2 --preview` → `exports/dist17_2_preview.mp4`
 - 최종본: `python scripts/render.py dist17_2` → `exports/dist17_2.mp4`
 
+## 활성화 함수의 기하학
+
+- 활성화 함수의 기하학 01 **ReLU는 좌표를 어떻게 압축할까?** — 94초, 1080×1920, 30fps, 무음. 고정된 `x₁,x₂` 좌표계 위에서 `w` 방향의 새 좌표 `u=wᵀx+b`를 만들고, `(u,v)→(max(0,u),v)`가 음수 쪽 격자를 `u=0` 경계로 붕괴시키는 과정을 보여줍니다. 여러 `uᵢ`의 부호 패턴과 piecewise affine 규칙으로 확장합니다.
+- 실제 파일: [장면](episodes/act01_relu_geometry/scene.py) · [대본](episodes/act01_relu_geometry/narration.md) · [제작 기준](episodes/act01_relu_geometry/brief.md) · [자막](episodes/act01_relu_geometry/captions.srt) · [TTS](episodes/act01_relu_geometry/tts_script.txt)
+- 미리보기: `python scripts/render.py act01 --preview` → `exports/act01_preview.mp4`
+- 최종본: `python scripts/render.py act01` → `exports/act01.mp4`
+
 ## 신경망의 수학
 
 - 신경망의 수학 01 **왜 모델은 필요 이상으로 큰 학습 공간에서 움직일까?** — 112초, 1080×1920, 30fps, 무음. 무작위 부분공간에서 `θ = θ₀ + Pφ`로 학습 가능한 자유도만 제한하는 실험을 통해 parameter count와 intrinsic dimension의 차이를 보여주고, 좋은 해의 기하학과 overparameterization에 대한 질문을 엽니다.
@@ -143,6 +177,10 @@
 - 실제 파일: [장면](episodes/nnmath11_series_finale/scene.py) · [대본](episodes/nnmath11_series_finale/narration.md) · [제작 기준](episodes/nnmath11_series_finale/brief.md) · [자막](episodes/nnmath11_series_finale/captions.srt) · [TTS](episodes/nnmath11_series_finale/tts_script.txt)
 - 미리보기: `python scripts/render.py nnmath11 --preview` → `exports/nnmath11_preview.mp4`
 - 최종본: `python scripts/render.py nnmath11` → `exports/nnmath11.mp4`
+- 신경망의 수학 12 **서로 다른 파라미터가 어떻게 같은 신경망이 될까? — Permutation Symmetry & Quotient Space** — 122초, 1080×1920, 30fps, 무음. 은닉 뉴런의 전체 연결을 함께 순열해 함수가 보존되는 모습을 출발점으로, 동일 함수·동일 출력·동일 loss·대칭 minimum을 연결하고, permutation equivalence class를 한 점으로 보는 quotient space를 도출합니다.
+- 실제 파일: [장면](episodes/nnmath12_parameter_symmetry_quotient/scene.py) · [대본](episodes/nnmath12_parameter_symmetry_quotient/narration.md) · [제작 기준](episodes/nnmath12_parameter_symmetry_quotient/brief.md) · [자막](episodes/nnmath12_parameter_symmetry_quotient/captions.srt) · [TTS](episodes/nnmath12_parameter_symmetry_quotient/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath12 --preview` → `exports/nnmath12_preview.mp4`
+- 최종본: `python scripts/render.py nnmath12` → `exports/nnmath12.mp4`
 
 ## 신경망의 수학 2부 — 학습된 내부 구조
 
@@ -169,6 +207,60 @@
 - 미리보기: `python scripts/render.py nnmath2p05 --preview` → `exports/nnmath2p05_preview.mp4`
 - 최종본: `python scripts/render.py nnmath2p05` → `exports/nnmath2p05.mp4`
 - 썸네일: `exports/nnmath2p05_thumbnail.png`
+
+- 신경망의 수학 2부 06 **훈련 정확도 100% 이후에도 모델은 무엇을 배울까? — Grokking** — 126초, 1080×1920, 30fps, 무음. Train Accuracy가 일찍 100%에 도달한 뒤 Test Accuracy가 오래 정체되다가 뒤늦게 상승하는 delayed generalization을 출발점으로, 정확도 포화와 optimization 종료를 구분하고 memorizing solution과 generalizing solution 사이의 장기 dynamics를 설명합니다.
+- 실제 파일: [장면](episodes/nnmath2p06_grokking/scene.py) · [대본](episodes/nnmath2p06_grokking/narration.md) · [제작 기준](episodes/nnmath2p06_grokking/brief.md) · [자막](episodes/nnmath2p06_grokking/captions.srt) · [TTS](episodes/nnmath2p06_grokking/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath2p06 --preview` → `exports/nnmath2p06_preview.mp4`
+- 최종본: `python scripts/render.py nnmath2p06` → `exports/nnmath2p06.mp4`
+- 썸네일: `exports/nnmath2p06_thumbnail.png`
+
+- 신경망의 수학 2부 07 **신경망은 학습하며 정말 새로운 Feature를 만들까? — Feature Learning vs Lazy Learning** — 139초, 1080×1920, 30fps, 무음. 같은 초기 point cloud에서 출발해 Feature 축 자체가 바꾰는 학습과 초기 tangent feature를 거의 고정한 채 조합 계수를 바꾰는 학습을 좌우로 비교합니다.
+- 실제 파일: [장면](episodes/nnmath2p07_feature_vs_lazy/scene.py) · [대본](episodes/nnmath2p07_feature_vs_lazy/narration.md) · [제작 기준](episodes/nnmath2p07_feature_vs_lazy/brief.md) · [자막](episodes/nnmath2p07_feature_vs_lazy/captions.srt) · [TTS](episodes/nnmath2p07_feature_vs_lazy/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath2p07 --preview` → `exports/nnmath2p07_preview.mp4`
+- 최종본: `python scripts/render.py nnmath2p07` → `exports/nnmath2p07.mp4`
+- 썸네일: `exports/nnmath2p07_thumbnail.png`
+
+- 신경망의 수학 2부 08 **Spectral Bias — 신경망은 왜 낮은 주파수부터 학습할까?** — 143초, 1080×1920, 30fps, 무음. `sin x + 0.3 sin(10x)` target의 성분별 학습 속도를 비교하고, kernel learning dynamics의 고유방향과 고유값이 mode별 error decay를 다르게 만들 수 있음으로 연결해 `Representable ≠ Equally Learnable`로 결론짓습니다.
+- 실제 파일: [장면](episodes/nnmath2p08_spectral_bias/scene.py) · [대본](episodes/nnmath2p08_spectral_bias/narration.md) · [제작 기준](episodes/nnmath2p08_spectral_bias/brief.md) · [자막](episodes/nnmath2p08_spectral_bias/captions.srt) · [TTS](episodes/nnmath2p08_spectral_bias/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath2p08 --preview` → `exports/nnmath2p08_preview.mp4`
+- 최종본: `python scripts/render.py nnmath2p08` → `exports/nnmath2p08.mp4`
+- 썸네일: `exports/nnmath2p08_thumbnail.png`
+
+- 신경망의 수학 2부 09 **Edge of Stability — 신경망은 왜 불안정해지기 직전까지 학습할까?** — 256초, 1080×1920, 30fps, 무음. 넓은/좁은 골짜기로 curvature를 설명하고, quadratic update에서 `ηλ=2` 경계를 직접 유도한 뒤 `η=0.01` 고정 숫자 예시로 local curvature 변화와 Edge of Stability를 연결합니다.
+- 실제 파일: [장면](episodes/nnmath2p09_edge_of_stability/scene.py) · [대본](episodes/nnmath2p09_edge_of_stability/narration.md) · [제작 기준](episodes/nnmath2p09_edge_of_stability/brief.md) · [자막](episodes/nnmath2p09_edge_of_stability/captions.srt) · [TTS](episodes/nnmath2p09_edge_of_stability/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath2p09 --preview` → `exports/nnmath2p09_preview.mp4`
+- 최종본: `python scripts/render.py nnmath2p09` → `exports/nnmath2p09.mp4`
+- 썸네일: `exports/nnmath2p09_thumbnail.png`
+
+- 신경망의 수학 2부 09A **왜 ηλ=2가 안정성의 경계일까?** — 104초, 1080×1920, 30fps, 무음. 넓은/좁은 골짜기로 curvature를 소개하고 quadratic update를 직접 정리해 `ηλ=0.5`, `1.5`, `2`의 궤적을 비교합니다.
+- 실제 파일: [장면](episodes/nnmath2p09a_stability_boundary/scene.py) · [대본](episodes/nnmath2p09a_stability_boundary/narration.md) · [제작 기준](episodes/nnmath2p09a_stability_boundary/brief.md) · [자막](episodes/nnmath2p09a_stability_boundary/captions.srt) · [TTS](episodes/nnmath2p09a_stability_boundary/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath2p09a --preview` → `exports/nnmath2p09a_preview.mp4`
+- 최종본: `python scripts/render.py nnmath2p09a` → `exports/nnmath2p09a.mp4`
+
+- 신경망의 수학 2부 09B **Edge of Stability — 고정된 Learning Rate, 발산해야 할 것 같은데 왜 학습은 계속될까?** — 122초, 1080×1920, 30fps, 무음. `η=0.01`을 고정한 숫자 예시에서 `λ_max` 증가가 `ηλ_max`를 경계 2로 이동시키는 과정을 보여주고 Edge of Stability로 연결합니다.
+- 실제 파일: [장면](episodes/nnmath2p09b_edge_dynamics/scene.py) · [대본](episodes/nnmath2p09b_edge_dynamics/narration.md) · [제작 기준](episodes/nnmath2p09b_edge_dynamics/brief.md) · [자막](episodes/nnmath2p09b_edge_dynamics/captions.srt) · [TTS](episodes/nnmath2p09b_edge_dynamics/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath2p09b --preview` → `exports/nnmath2p09b_preview.mp4`
+- 최종본: `python scripts/render.py nnmath2p09b` → `exports/nnmath2p09b.mp4`
+
+- 신경망의 수학 2부 10 **Catapult Mechanism — Loss가 폭발했는데 왜 다시 학습될까?** — 175초, 1080×1920, 30fps, 무음. large-LR 구간의 Loss spike와 recovery를 NTK 최대 고유값 감소, critical Learning Rate 상승, 변화한 network dynamics로 연결합니다.
+- 실제 파일: [장면](episodes/nnmath2p10_catapult/scene.py) · [대본](episodes/nnmath2p10_catapult/narration.md) · [제작 기준](episodes/nnmath2p10_catapult/brief.md) · [자막](episodes/nnmath2p10_catapult/captions.srt) · [TTS](episodes/nnmath2p10_catapult/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath2p10 --preview` → `exports/nnmath2p10_preview.mp4`
+- 최종본: `python scripts/render.py nnmath2p10` → `exports/nnmath2p10.mp4`
+- 썸네일: `exports/nnmath2p10_thumbnail.png`
+
+### 신경망의 수학 2부 11 — Benign Overfitting
+
+- 실제 파일: [장면](episodes/nnmath2p11_benign_overfitting/scene.py) · [대본](episodes/nnmath2p11_benign_overfitting/narration.md) · [제작 기준](episodes/nnmath2p11_benign_overfitting/brief.md) · [자막](episodes/nnmath2p11_benign_overfitting/captions.srt) · [TTS](episodes/nnmath2p11_benign_overfitting/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath2p11 --preview` → `exports/nnmath2p11_preview.mp4`
+- 최종본: `python scripts/render.py nnmath2p11` → `exports/nnmath2p11.mp4`
+- 썸네일: `exports/nnmath2p11_thumbnail.png`
+
+### 신경망의 수학 2부 12 — Mode Connectivity
+
+- 실제 파일: [장면](episodes/nnmath2p12_mode_connectivity/scene.py) · [대본](episodes/nnmath2p12_mode_connectivity/narration.md) · [제작 기준](episodes/nnmath2p12_mode_connectivity/brief.md) · [자막](episodes/nnmath2p12_mode_connectivity/captions.srt) · [TTS](episodes/nnmath2p12_mode_connectivity/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath2p12 --preview` → `exports/nnmath2p12_preview.mp4`
+- 최종본: `python scripts/render.py nnmath2p12` → `exports/nnmath2p12.mp4`
+- 썸네일: `exports/nnmath2p12_thumbnail.png`
 
 ## 현재 체크아웃에서 제작 가능한 GPU 연산과 최적화 시리즈
 
@@ -682,6 +774,67 @@ science01 화면 길이는 대사 글자 수에 비례해 배분합니다. `pyth
 - 출력: `exports/science10_preview.mp4`, `exports/science10.mp4`.
 - Void가 물질을 밀어내는 힘은 없다. 평균보다 약한 중력 감속과 주변 과밀 구조로의 이동을 구별하며, 완전히 비어 있지 않음을 표시한다. 입자 흐름과 우주 거미줄은 개념도다.
 
+## 과학의 한 장면 11 — 보이지 않는 입자를 어떻게 관측할까?
+
+- `science11`: 뉴트리노의 희귀한 상호작용 → 2차 하전입자 → 체렌코프 빛 → 센서 시간차 → 우주 방향 재구성. 2026년 노벨 물리학상과 연결되는 61초 무음 세로 영상.
+- 실제 파일: `episodes/science11_icecube_neutrino/`의 scene.py, brief.md, narration.md, tts_script.txt, captions.srt, timing.json.
+- 확인된 TTS 구간 적용: `.\.venv\Scripts\python.exe scripts/retime_science11.py` 또는 `python scripts/retime_science11.py`.
+- 미리보기: `python scripts/render.py science11 --preview`
+- 최종: `python scripts/render.py science11`
+- 출력: `exports/science11_preview.mp4`, `exports/science11.mp4`.
+
+## 과학의 한 장면 12 — 검출기를 만든 것이 왜 노벨상일까?
+
+- `science12`: 빛의 흡수와 하전 우주선의 굴절 → 방향을 보존하는 고에너지 뉴트리노 → 거대 검출기의 필요 → 2002년 우주 뉴트리노와 2013년 IceCube의 차이 → 새로운 관측 창. 2026년 노벨 물리학상 2편, 67초 무음 세로 영상.
+- 실제 파일: `episodes/science12_neutrino_telescope/`의 scene.py, brief.md, narration.md, tts_script.txt, captions.srt, timing.json.
+- 확인된 TTS 구간 적용: `python scripts/retime_science12.py`
+- 미리보기: `python scripts/render.py science12 --preview`
+- 최종: `python scripts/render.py science12`
+- 출력: `exports/science12_preview.mp4`, `exports/science12.mp4`.
+
+## 과학의 한 장면 13 — LIGO는 시공간의 흔들림을 어떻게 측정했을까?
+
+- `science13`: 블랙홀 합병과 중력파 → L자 간섭계 → stretch/squeeze → 팔 길이 차이 → 위상 차이 → 검출광 → chirp → 중력파 천문학. Nobel 03, 확인된 TTS 구간을 적용한 106초 무음 세로 영상.
+- 실제 파일: `episodes/science13_ligo_interferometer/`의 scene.py, brief.md, narration.md, tts_script.txt, captions.srt, timing.json.
+- 확인된 TTS 구간 적용: `python scripts/retime_science13.py`
+- 미리보기: `python scripts/render.py science13 --preview`
+- 최종: `python scripts/render.py science13`
+- 출력: `exports/science13_preview.mp4`, `exports/science13.mp4`.
+
+## 과학의 한 장면 14 — 전자의 변화를 어떻게 볼 수 있을까?
+
+- `science14`: 초고속 셔터 비유 → 아토초 시간척도 → 터널 이온화 → 전자 재충돌 → 고차 고조파 → 위상 정렬 → 250 as 펄스 열과 650 as 단일 펄스 → 시간 분해 전자 동역학. Nobel 04, 확인된 TTS 구간을 적용한 135초 무음 세로 영상.
+- 실제 파일: `episodes/science14_attosecond_pulses/`의 scene.py, brief.md, narration.md, tts_script.txt, captions.srt, timing.json.
+- 확인된 TTS 구간 적용: `python scripts/retime_science14.py`
+- 미리보기: `python scripts/render.py science14 --preview`
+- 최종: `python scripts/render.py science14`
+- 출력: `exports/science14_preview.mp4`, `exports/science14.mp4`.
+
+## 과학의 한 장면 15 — 기억을 저장하는 신경망은 왜 에너지를 최소화할까?
+
+- `science15`: 손상된 픽셀 패턴 → 이진 노드와 스핀 → 연결 가중치 → 기억의 에너지 골짜기 → 단일 노드 업데이트와 에너지 감소 → attraction basin → 기억 복원. 2024 노벨 물리학상 Hopfield 편, 확인된 TTS 구간을 적용한 151초 무음 세로 영상.
+- 실제 파일: `episodes/science15_hopfield_memory/`의 scene.py, brief.md, narration.md, tts_script.txt, captions.srt, timing.json.
+- 확인된 TTS 구간 적용: `python scripts/retime_science15.py`
+- 미리보기: `python scripts/render.py science15 --preview`
+- 최종: `python scripts/render.py science15`
+- 출력: `exports/science15_preview.mp4`, `exports/science15.mp4`.
+
+## 과학의 한 장면 16 — 분자의 좌우 비대칭은 어떻게 스스로 증폭될까?
+
+- `science16`: 손성과 키랄 분자 → 50:50 → Kagan의 비선형 효과 → Soai의 비대칭 자기촉매 → 0.00005% ee의 세 주기 증폭 → 대칭 깨짐. 2026 노벨 화학상, 실제 TTS 구간을 적용한 161초 무음 세로 영상.
+- 실제 파일: `episodes/science16_chiral_amplification/`의 scene.py, brief.md, narration.md, tts_script.txt, captions.srt, timing.json.
+- 실제 TTS 타이밍은 `timing.json`에 반영되어 있으며, 변경 시 `python scripts/retime_science16.py --end-times "..."`를 사용한다.
+- 렌더: `python scripts/render.py science16 --preview` / `python scripts/render.py science16`
+- 출력: `exports/science16_preview.mp4`, `exports/science16.mp4`.
+
+## 과학의 한 장면 17 — 왜 분자의 비대칭이 노벨 화학상을 받았을까?
+
+- `science17`: 생명의 homochirality라는 오래된 문제 → 기존 비대칭 합성이 남긴 질문 → Kagan의 비선형 증폭 → Soai의 화학적 피드백 → 대칭 깨짐으로의 질문 전환 → 생명의 기원과 합성화학에서의 의미. 실제 TTS 구간을 적용한 146초짜리 2026 노벨 화학상 2편.
+- 실제 파일: `episodes/science17_why_chiral_nobel/`의 scene.py, brief.md, narration.md, tts_script.txt, captions.srt, timing.json.
+- 실제 TTS 타이밍은 `timing.json`에 반영되어 있으며, 변경 시 `python scripts/retime_science17.py --end-times "..."`를 사용한다.
+- 렌더: `python scripts/render.py science17 --preview` / `python scripts/render.py science17`
+- 출력: `exports/science17_preview.mp4`, `exports/science17.mp4`.
+
 
 ## GPU 연산과 최적화 13 — LayerNorm (148초 · 2:28)
 
@@ -745,3 +898,131 @@ science01 화면 길이는 대사 글자 수에 비례해 배분합니다. `pyth
 ```
 
 결과: `exports/info16_preview.mp4`, `exports/info16.mp4` (무음 / TTS·자막 별도).
+# 신경망의 수학 13 — 신경망 학습을 동역학계로 보면 보이는 것
+
+- 147초 목표, 1080×1920, 30fps, 무음. 한 점의 gradient를 Parameter Space 전체의 vector field로 확장하고, initial condition에서 시작한 trajectory가 basin, saddle, stable/unstable direction, attractor로 이어지는 구조를 보여줍니다. Gradient Flow와 실제 Gradient Descent를 구별하고 learning rate와 SGD noise를 짧게 보충합니다.
+- 실제 파일: [장면](episodes/nnmath13_gradient_dynamics/scene.py) · [대본](episodes/nnmath13_gradient_dynamics/narration.md) · [제작 기준](episodes/nnmath13_gradient_dynamics/brief.md) · [자막](episodes/nnmath13_gradient_dynamics/captions.srt) · [TTS](episodes/nnmath13_gradient_dynamics/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath13 --preview` → `exports/nnmath13_preview.mp4`
+- 최종본: `python scripts/render.py nnmath13` → `exports/nnmath13.mp4`
+
+## 신경망의 수학 14 — 왜 Hessian에는 0에 가까운 고유값이 많을까?
+
+- 141초 목표, 1080×1920, 30fps, 무음. 둥근 bowl과 방향별 곡률에서 출발해 Hessian 고유방향과 near-zero spectrum을 소개하고, overparameterization, ReLU scaling symmetry, data-null direction, inactive unit이 flat direction을 만드는 과정을 보여줍니다. exact symmetry와 approximately flat direction을 구별한 뒤 `few stiff directions + many flat directions`인 고차원 valley로 정리합니다.
+- 실제 파일: [장면](episodes/nnmath14_hessian_flat_directions/scene.py) · [대본](episodes/nnmath14_hessian_flat_directions/narration.md) · [제작 기준](episodes/nnmath14_hessian_flat_directions/brief.md) · [자막](episodes/nnmath14_hessian_flat_directions/captions.srt) · [TTS](episodes/nnmath14_hessian_flat_directions/tts_script.txt)
+- 미리보기: `python scripts/render.py nnmath14 --preview` → `exports/nnmath14_preview.mp4`
+- 최종본: `python scripts/render.py nnmath14` → `exports/nnmath14.mp4`
+
+## 과학의 한 장면 19 — 모든 방향을 담으면 몇 차원일까? — 2026 필즈상
+
+23장면, 사용자 제공 TTS 경계에 맞춘 175초, 3분 이내 세로형 무음 영상. 직관형 개정: ‘선과 Kakeya 모두 면적 0인데, 정말 같은가?’를 먼저 묻고 해상도에 따른 칸 수 변화로 차원을 소개합니다. 튜브를 쓰는 이유와 뭉침/퍼짐의 증명 직관을 분리해 보여줍니다. Wang–Zahl의 2025년 공동 증명과 Hong Wang의 2026년 필즈상을 구별합니다. 유한 다발과 다중 규모 분석은 개념도입니다.
+
+- 소스·대본·제작 기준·TTS·자막·타이밍: `episodes/science19_kakeya_dimension/`
+- 초안 재배분: `python scripts/retime_science19.py --duration 175` (현재 실측 구간을 문자 비례 초안으로 덮어쓰므로 주의)
+- 실측 구간 반영: `python scripts/retime_science19.py --end-times "각 장면의 누적 종료 시각 23개"`
+- 현재 실측: `5,11,18,25,34,42,49,56,64,70,79,85,92,101,110,117,125,132,141,149,156,165,175`
+- 미리보기: `python scripts/render.py science19 --preview` → `exports/science19_preview.mp4`
+- 최종본: `python scripts/render.py science19` → `exports/science19.mp4`
+
+## Navier–Stokes × 신경망 롱폼
+
+1막 콘티 구현: [longforms/ns01_flow_patterns](longforms/ns01_flow_patterns/README.md). 7개 독립 씬, 155초, 가로형 1080p·30fps 무음 영상. 사용자 제공 40개 문장의 음성 종료 시각에 화면·자막을 맞췄다. TTS 대본은 화면 cue별로 문단을 구분한다.
+
+실행: python longforms/ns01_flow_patterns/build.py --preview 또는 python longforms/ns01_flow_patterns/build.py.
+
+2막 소용돌이 늘어남: [longforms/ns02_vortex_stretching](longforms/ns02_vortex_stretching/README.md). 2D와 3D, 와도, 부피 보존 관의 늘어남, 조건부 증폭과 점성 확산을 7개 독립 씬으로 구현한다. 176초, 가로형 1080p·30fps 무음 영상이며 사용자 제공 42개 문장의 종료 시각에 맞췄다.
+
+실행: python longforms/ns02_vortex_stretching/build.py --preview 또는 python longforms/ns02_vortex_stretching/build.py.
+
+
+3막 전체 에너지와 국소 집중: [longforms/ns03_energy_concentration](longforms/ns03_energy_concentration/README.md). 7개 독립 씬, 임시 234초, 가로형 1080p·30fps 무음 영상. 집중 모형과 발표된 구성을 구별하고 신경망 이상치로 연결한다.
+
+실행: python longforms/ns03_energy_concentration/build.py --preview 또는 python longforms/ns03_energy_concentration/build.py.
+
+### 3·4막 분리 개정 — 직관 중심
+
+기존 통합 3막을 분리한 현재 개정은 [3막 에너지 집중](longforms/ns03_energy_intuition/README.md)과 [4막 실제 흐름의 구성](longforms/ns04_smooth_forcing/README.md)이다. 각각 5씬·97초(사용자 음성 실측), 7씬·161초(사용자 음성 실측)이며 가로형 1080p·30fps 무음 영상이다. 수식 분해 대신 영역 축소, 속도 화살표, 역방향 설계, 반대 효과의 상쇄를 보여준다. TTS는 화면 cue별로 문단을 나눈다. 3막은 사용자 제공 20개, 4막은 30개 음성 구간에 맞췄다.
+
+렌더: `python longforms/ns03_energy_intuition/build.py` 및 `python longforms/ns04_smooth_forcing/build.py`. 미리보기는 `--preview`를 추가한다.
+
+### 5막 — 활성값 이상치와 표현 정밀도
+
+[longforms/ns05_activation_outliers](longforms/ns05_activation_outliers/README.md). 첫 58초는 유체의 변형·점성·전체 에너지와 국소 집중을 되짚고, 유한 행렬과의 차이를 명시한다. 이어 활성값 이상치, 같은 눈금의 양자화, LLM.int8(), SmoothQuant, 방향별 증폭으로 연결한다. 10개 독립 씬, 사용자 음성 실측 249초, 가로형 1080p·30fps 무음 영상.
+
+렌더: python longforms/ns05_activation_outliers/build.py. 미리보기는 --preview를 추가한다.
+
+
+### 6막 — 방향별 증폭과 Jacobian
+
+[longforms/ns06_directional_amplification](longforms/ns06_directional_amplification/README.md). 소용돌이 변형, 속도의 Jacobian, 변형률과 회전축 정렬, 신경망의 국소 선형화, 원과 타원, 층별 방향 연결을 7개 독립 씬으로 구현한다. 사용자 음성 실측 206초, 37개 화면 cue, 가로형 1080p·30fps 무음 영상이다. 유체의 시간 변화율과 신경망의 입력·출력 확대 비율을 구별한다.
+
+렌더: `python longforms/ns06_directional_amplification/build.py`. 미리보기는 `--preview`를 추가한다.
+
+
+### 7막 — 가장 제한적인 모드와 업데이트
+
+[longforms/ns07_update_stability](longforms/ns07_update_stability/README.md). 10개 독립 씬, 사용자 음성 실측 343초, 가로 1080p·30fps 무음 영상. 공간 격자와 시간 간격, 실제 FTCS 반복, 손실 곡률과 학습률, 모드별 반복 배율을 통해 명시적 확산과 이차 손실 경사하강법의 안정성 구조를 연결한다. 화면별 TTS 71개 문단.
+
+렌더: `python longforms/ns07_update_stability/build.py`. 미리보기는 `--preview`를 추가한다.
+
+
+### 8막 — 좋은 해와 실제 학습 경로
+
+[longforms/ns08_representable_reachable](longforms/ns08_representable_reachable/README.md). 8개 독립 씬, 사용자 음성 실측 251초, 가로형 1080p·30fps 무음 영상. 유체 후보의 조건 검증과 학습의 해 선택을 구별하고, 실제 GD 경로와 부족결정 선형 모델의 두 좋은 해를 통해 초기값·학습 규칙의 중요성을 보여준다. TTS는 화면별 55개 문단으로 분리한다.
+
+렌더: `python longforms/ns08_representable_reachable/build.py`. 미리보기는 `--preview`를 추가한다.
+
+
+### 9막 — 증폭과 제어가 개입하는 위치
+
+[longforms/ns09_amplification_control](longforms/ns09_amplification_control/README.md). 8개 독립 씬, 사용자 음성 실측 246초, 가로 1080p·30fps 무음 영상. 소용돌이의 늘어남과 확산, transpose 역전파, global norm clipping, 표현 표준화와 잔차 합을 비교하고 일시적 증폭으로 연결한다. TTS는 화면별 55개 문단.
+
+렌더: `python longforms/ns09_amplification_control/build.py`. 미리보기는 `--preview`.
+
+### 10막 — 장기 안정성과 일시적 증폭
+
+[longforms/ns10_non_normal_dynamics](longforms/ns10_non_normal_dynamics/README.md). 11개 독립 씬, 사용자 음성 실측 358초, 가로 1080p·30fps 무음 영상. 안정한 고유값을 가진 2×2 행렬의 정확한 궤적, 성분 전달, 단위원과 시간 발전 타원, 전단 리프트업과 연속시간 RNN을 통해 비정규 동역학을 설명한다. 최대 특잇값과 선택한 초기 벡터의 증폭을 구별한다. 화면별 TTS 77개 문단이며 사용자 실측 누적 종료 시각에 맞춰 재동기화했다.
+
+렌더: `python longforms/ns10_non_normal_dynamics/build.py`. 미리보기는 `--preview`.
+
+### 11막 — 안정성이라는 질문으로 마무리
+
+[longforms/ns11_stability_finale](longforms/ns11_stability_finale/README.md). 9개 독립 씬, 사용자 음성 실측 323초, 가로 1080p·30fps 무음 영상. 기존의 속도장, 활성값 행렬, 방향별 변형, 제한적인 모드, 학습 경로, 과도 증폭을 다시 연결한다. 다섯 관점을 동일한 안정성 정의로 묶지 않고 무엇을 측정하는지 구분하는 질문으로 시리즈를 끝낸다. 화면별 TTS 70개 문단.
+
+렌더: `python longforms/ns11_stability_finale/build.py`. 미리보기는 `--preview`.
+
+## 행렬곱 시리즈 — 처음부터 다시 설계
+
+[새 구성](longforms/matrix_multiplication_foundations/series_plan.md). 사용자 제공 문서의 9개 대문단 순서로 표준 계산, Strassen, 최적 지수, 작은 공식 탐색, 텐서, 보더 랭크, 독립 직합, 텐서 거듭제곱, 기존 접근의 한계를 이해한다. 기존 AI 수학 행렬곱 시리즈와 생성 영상은 삭제했다. 1장은 별도 제작 폴더에서 무음 콘티로 구현했다. 이후 장은 구성 단계다.
+
+### 새 행렬곱 1막 — 세제곱은 반드시 필요한가?
+
+[제작 자료](longforms/mm01_cubic_question/README.md). 7개 독립 씬의 무음 콘티. 8곱, 실제 7곱, 출력 복원, 항등식 소거와 블록 재귀를 구현한다. 사용자 제공 문장별 시각을 적용한 142초 본편과 세로형 쇼츠. 오디오 파일은 미제공으로 무음이다.
+
+### 새 행렬곱 2막 — 성장률과 두 경계
+
+[제작 자료](longforms/mm02_growth_bounds/README.md). 네 씬에서 말단 곱셈 수, 알고리즘의 상한, 명시적 출력 크기의 하한, 최적 지수와 ε를 설명한다. 사용자 문장별 시각을 적용한 137초 본편과 쇼츠이며 음성 파일 미제공으로 무음이다.
+
+### 개정 전 행렬곱 3막 — 작은 공식과 성장률
+
+[제작 자료](longforms/mm03_small_formulas/README.md). 7개 씬·195초 무음 콘티. Laderman 23곱의 존재와 재귀 지수, Strassen과의 비교, 실제 항등식의 필요성을 다룬다. TTS 실측 전 임시 길이다.
+
+### 현재 행렬곱 3막 — 계산 그래프에서 텐서 랭크로
+
+[제작 자료](longforms/mm03_tensor_rank/README.md). 새 초안의 6개 씬으로 교체했다. 입력 조합·출력 분배를 세 계수 벡터로 나타내고, 4×4×4 계수표에서 표준 8항과 Strassen 7항의 합을 비교한다. 164초 보강 무음 콘티이며 TTS 실측 전이다.
+
+## 행렬곱 4막 — 정확히 같지 않아도 계산량을 줄일 수 있을까?
+
+[제작 자료](longforms/mm04_border_rank/README.md). 낮은 랭크 텐서의 집합과 폐포, 정확한 표현과 극한 접근의 차이를 7개 독립 씬으로 구현한다. 사용자 제공 발화 시각 기준 166초 무음 영상이며, 1080×1920 세로형도 제공한다.
+
+`python longforms/mm04_border_rank/build.py --preview`
+
+`python longforms/mm04_border_rank/build.py`
+
+### 행렬곱 5막 — 직합과 점근적 합 부등식
+
+[제작 자료](longforms/mm05_direct_sum/README.md). 6개 독립 씬, 사용자 발화 시각 적용 151초 무음 영상. `python longforms/mm05_direct_sum/build.py --preview`, 최종본은 `--preview` 생략.
+
+[6막 — 텐서 거듭제곱](longforms/mm06_tensor_power/README.md): 8개 독립 씬, 사용자 발화 시각 적용 151초 무음 영상. 실행: python longforms/mm06_tensor_power/build.py --preview
+
+
+7막 레이저 방법: longforms/mm07_laser_method/ (임시 170초, 무음). 실행: python longforms/mm07_laser_method/build.py --preview 또는 python longforms/mm07_laser_method/build.py

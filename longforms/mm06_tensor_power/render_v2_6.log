@@ -1,0 +1,58 @@
+Manim Community v0.21.0
+
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/latex.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/dvisvgm.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+
+Animation 0: FadeIn(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 0: FadeIn(VGroup of 2 submobjects), etc.:  37%|###6      | 11/30 [00:00<00:00, 107.14it/s]
+Animation 0: FadeIn(VGroup of 2 submobjects), etc.:  73%|#######3  | 22/30 [00:00<00:00, 99.83it/s] 
+                                                                                                   
+
+Animation 2: FadeIn(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 2: FadeIn(VGroup of 2 submobjects), etc.:  37%|###6      | 11/30 [00:00<00:00, 105.86it/s]
+Animation 2: FadeIn(VGroup of 2 submobjects), etc.:  73%|#######3  | 22/30 [00:00<00:00, 103.41it/s]
+                                                                                                    
+
+Animation 4: FadeOut(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 4: FadeOut(VGroup of 2 submobjects), etc.:  27%|##6       | 8/30 [00:00<00:00, 78.32it/s]
+Animation 4: FadeOut(VGroup of 2 submobjects), etc.:  53%|#####3    | 16/30 [00:00<00:00, 76.74it/s]
+Animation 4: FadeOut(VGroup of 2 submobjects), etc.:  80%|########  | 24/30 [00:00<00:00, 75.50it/s]
+                                                                                                    
+
+Animation 5: TransformFromCopy(VGroup of 2 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+                                                                                               
+
+Animation 6: TransformFromCopy(VGroup of 2 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+                                                                                               
+
+Animation 7: TransformFromCopy(VGroup of 2 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+                                                                                               
+
+Animation 8: TransformFromCopy(VGroup of 2 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+                                                                                               
+
+Animation 9: TransformFromCopy(VGroup of 2 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+                                                                                               
+
+Animation 10: TransformFromCopy(VGroup of 2 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+                                                                                                
+
+Animation 11: TransformFromCopy(VGroup of 2 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+                                                                                                
+
+Animation 12: TransformFromCopy(VGroup of 2 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+                                                                                                
+
+Animation 13: TransformFromCopy(VGroup of 2 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+                                                                                                
+
+Animation 15: FadeIn(Text('3 �� 3 = 9�� ���� �� �����̶�� ������ ����')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 15: FadeIn(Text('3 �� 3 = 9�� ���� �� �����̶�� ������ ����')):  43%|####3     | 13/30 [00:00<00:00, 122.04it/s]
+Animation 15: FadeIn(Text('3 �� 3 = 9�� ���� �� �����̶�� ������ ����')):  87%|########6 | 26/30 [00:00<00:00, 121.98it/s]
+                                                                                                                         
+
+Animation 17: FadeIn(Text('���� ���� ���� �� �� �κ��� ��İ�����, ���� ���������� ���� Ȯ��')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 17: FadeIn(Text('���� ���� ���� �� �� �κ��� ��İ�����, ���� ���������� ���� Ȯ��')):  73%|#######3  | 11/15 [00:00<00:00, 108.43it/s]
+                                                                                                                                                

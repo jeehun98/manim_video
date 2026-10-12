@@ -1,0 +1,11 @@
+{
+  "matrix_example": {
+    "values": 64,
+    "typical": 0.5,
+    "outlier": 8,
+    "mean_absolute": 0.6171875
+  },
+  "non_normal_example": "exact P derivative = A P, negative eigenvalues, transient norm",
+  "gradient_paths": "GD on L=(x^2-1)^2+y^2, step .04; two initial points converge to different minima with decreasing loss",
+  "directional": "S=diag(.7,-.7) acts in vorticity evolution; J=diag(1.8,.5) maps input differences; roles explicitly distinguished"
+}

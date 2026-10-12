@@ -1,0 +1,7 @@
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm04_border_rank/scenes/01_exact/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm04_border_rank/scenes/02_limit/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm04_border_rank/scenes/03_w_tensor/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm04_border_rank/scenes/04_degeneration/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm04_border_rank/scenes/05_border/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm04_border_rank/scenes/06_interpolation/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm04_border_rank/scenes/07_growth/visual_1080p30.mp4'

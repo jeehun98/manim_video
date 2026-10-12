@@ -1,0 +1,49 @@
+Manim Community v0.21.0
+
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/latex.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/dvisvgm.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+
+Animation 0: FadeIn(VGroup of 2 submobjects), etc.:   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                                          
+
+Animation 2: FadeIn(VGroup of 2 submobjects), etc.:   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                                          
+
+Animation 4: FadeOut(VGroup of 2 submobjects), etc.:   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 4: FadeOut(VGroup of 2 submobjects), etc.:  93%|#########3| 14/15 [00:00<00:00, 134.95it/s]
+                                                                                                     
+
+Animation 5: TransformFromCopy(VGroup of 2 submobjects):   0%|          | 0/6 [00:00<?, ?it/s]
+                                                                                              
+
+Animation 6: TransformFromCopy(VGroup of 2 submobjects):   0%|          | 0/6 [00:00<?, ?it/s]
+                                                                                              
+
+Animation 7: TransformFromCopy(VGroup of 2 submobjects):   0%|          | 0/6 [00:00<?, ?it/s]
+                                                                                              
+
+Animation 8: TransformFromCopy(VGroup of 2 submobjects):   0%|          | 0/6 [00:00<?, ?it/s]
+                                                                                              
+
+Animation 9: TransformFromCopy(VGroup of 2 submobjects):   0%|          | 0/6 [00:00<?, ?it/s]
+                                                                                              
+
+Animation 10: TransformFromCopy(VGroup of 2 submobjects):   0%|          | 0/6 [00:00<?, ?it/s]
+                                                                                               
+
+Animation 11: TransformFromCopy(VGroup of 2 submobjects):   0%|          | 0/6 [00:00<?, ?it/s]
+                                                                                               
+
+Animation 12: TransformFromCopy(VGroup of 2 submobjects):   0%|          | 0/6 [00:00<?, ?it/s]
+                                                                                               
+
+Animation 13: TransformFromCopy(VGroup of 2 submobjects):   0%|          | 0/6 [00:00<?, ?it/s]
+                                                                                               
+
+Animation 15: FadeIn(Text('3 �� 3 = 9�� ���� �� �����̶�� ������ ����')):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                                                               
+
+Animation 17: FadeIn(Text('���� ���� ���� �� �� �κ��� ��İ�����, ���� ���������� ���� Ȯ��')):   0%|          | 0/8 [00:00<?, ?it/s]
+                                                                                                                                     

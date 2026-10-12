@@ -1,0 +1,8 @@
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns09_amplification_control/scenes/01_return/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns09_amplification_control/scenes/02_competition/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns09_amplification_control/scenes/03_backprop/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns09_amplification_control/scenes/04_clipping/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns09_amplification_control/scenes/05_where/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns09_amplification_control/scenes/06_design/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns09_amplification_control/scenes/07_compare/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns09_amplification_control/scenes/08_transient/visual_1080p30.mp4'

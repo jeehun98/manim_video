@@ -1,0 +1,42 @@
+[
+  {
+    "id": "01",
+    "slug": "total",
+    "directory": "scenes/01_total",
+    "class": "Scene01",
+    "duration_seconds": 18,
+    "storyboard_seconds": 28
+  },
+  {
+    "id": "02",
+    "slug": "volume",
+    "directory": "scenes/02_volume",
+    "class": "Scene02",
+    "duration_seconds": 16,
+    "storyboard_seconds": 28
+  },
+  {
+    "id": "03",
+    "slug": "concentration",
+    "directory": "scenes/03_concentration",
+    "class": "Scene03",
+    "duration_seconds": 22,
+    "storyboard_seconds": 30
+  },
+  {
+    "id": "04",
+    "slug": "two_views",
+    "directory": "scenes/04_two_views",
+    "class": "Scene04",
+    "duration_seconds": 19,
+    "storyboard_seconds": 28
+  },
+  {
+    "id": "05",
+    "slug": "question",
+    "directory": "scenes/05_question",
+    "class": "Scene05",
+    "duration_seconds": 22,
+    "storyboard_seconds": 26
+  }
+]

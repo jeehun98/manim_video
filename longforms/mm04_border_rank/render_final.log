@@ -1,0 +1,242 @@
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(Text('��İ��� ��귮�� ������ ���� �� ������?')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                              
+
+Animation 1: FadeIn(VGroup of 3 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                   
+
+Animation 3: Write(MathTex('T=\\sum_i u_i\\otimes v_i\\otimes w_i')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                           
+
+Animation 5: FadeOut(VGroup of 3 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                          
+
+Animation 6: FadeIn(Text('�� �� = ��� �Է¿� ����Ǵ� ��� ���� ��ü')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                               
+
+Animation 7: FadeIn(Text('Ư�� ���� �Է��� ���� ǥ���� ���� �ƴϴ�')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                            
+
+Animation 8: FadeIn(Text('���� ������ ���䵵 �� ���� �ټ� ������ ���������󡤰Ÿ��� ��Ÿ���� ����')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                                                        
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(VGroup of 5 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                   
+
+Animation 1: FadeIn(Text('�� �� ���� �� �� �� ����')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                           
+
+Animation 3: FadeIn(Dot):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                               
+
+Animation 4: Create(Arrow):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                 
+
+Animation 5: FadeIn(VGroup of 2 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                   
+
+Animation 7: FadeIn(Text('���� ��: �ִ� �� ������ ��Ȯ�� ���� ǥ��')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                            
+
+Animation 9: FadeIn(Text('�� �� ���Ϸδ� �� ����� ��ǥ���� �����ұ�?')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                               
+
+Animation 10: FadeIn(Text('���� ������ ���䵵 �� ���� �ټ� ������ ���������󡤰Ÿ��� ��Ÿ���� ����')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                                                         
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(VGroup of 3 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                         
+
+Animation 1: FadeIn(Text('���� ����: ���θ� ����\n�ѷ��� �� p�� ������')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                                
+
+Animation 2: FadeIn(Dot):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                               
+
+Animation 4: Create(VMobject), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                          
+
+Animation 5: Create(Circle):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                  
+
+Animation 6: Transform(Circle), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                           
+
+Animation 8: Transform(Circle), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                           
+
+Animation 10: Transform(Circle), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                            
+
+Animation 12: Transform(Text('���� ����: ���θ� ����\n�ѷ��� �� p�� ������')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                                    
+
+Animation 14: FadeOut(Circle), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                          
+
+Animation 15: Transform(MathTex('\\mathcal R_2')), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                              
+
+Animation 16: FadeIn(Text('���� = ���� ������ �����ϴ� ���� ���� ���� ����')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                                    
+
+Animation 18: FadeOut(Circle), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                          
+
+Animation 19: Transform(Text('���� ����: ���θ� ����\n�ѷ��� �� p�� ������')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                                    
+
+Animation 20: Write(MathTex('T\\notin\\mathcal R_2')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                            
+
+Animation 21: FadeIn(Dot):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                
+
+Animation 23: Create(VMobject), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                           
+
+Animation 24: FadeIn(Text('�� �� ���Ϸ� ��Ȯ�� �� ����, �Ѿ��� ������� �� �ִ�')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                                             
+
+Animation 26: Create(Circle), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                         
+
+Animation 27: Transform(MathTex('T\\notin\\mathcal R_2')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                
+
+Animation 28: FadeIn(Text('��ǥ T: ���� ��ũ �� 2')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                          
+
+Animation 29: FadeIn(Text('���� ������ ���䵵 �� ���� �ټ� ������ ���������󡤰Ÿ��� ��Ÿ���� ����')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                                                         
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(Text('�� �ܼ����� �⿩�� �Ϻ� ���п� ����')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                       
+
+Animation 1: Create(Arrow), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                       
+
+Animation 3: Transform(Arrow), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                          
+
+Animation 5: Transform(Arrow), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                          
+
+Animation 7: Transform(Arrow), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                          
+
+Animation 9: Indicate(Arrow), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                         
+
+Animation 11: FadeIn(Text('�� ���� Ŀ���� �Ͱ� ���� �߻��ϴ� ���� �ٸ���')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                                  
+
+Animation 13: FadeIn(Text('���� �Ұ��� ���䵵 �� �� ��� �׸����� ��ü �ټ��� ��ũ�� �������� ����')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                                                           
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(VGroup of 2 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                   
+
+Animation 2: FadeIn(Text('���� ��ũ: T�� R\u1d63�� ������ ���� �ϴ� �ּ� r')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 2: FadeIn(Text('���� ��ũ: T�� R\u1d63�� ������ ���� �ϴ� �ּ� r')):  40%|####      | 12/30 [00:00<00:00, 117.56it/s]
+Animation 2: FadeIn(Text('���� ��ũ: T�� R\u1d63�� ������ ���� �ϴ� �ּ� r')):  80%|########  | 24/30 [00:00<00:00, 109.97it/s]
+                                                                                                                              
+
+Animation 4: FadeOut(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 4: FadeOut(VGroup of 2 submobjects), etc.:  30%|###       | 9/30 [00:00<00:00, 89.16it/s]
+Animation 4: FadeOut(VGroup of 2 submobjects), etc.:  63%|######3   | 19/30 [00:00<00:00, 90.99it/s]
+Animation 4: FadeOut(VGroup of 2 submobjects), etc.:  97%|#########6| 29/30 [00:00<00:00, 91.03it/s]
+                                                                                                    
+
+Animation 5: Create(RoundedRectangle), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 5: Create(RoundedRectangle), etc.:  37%|###6      | 11/30 [00:00<00:00, 105.24it/s]
+Animation 5: Create(RoundedRectangle), etc.:  73%|#######3  | 22/30 [00:00<00:00, 95.87it/s] 
+                                                                                            
+
+Animation 6: Write(MathTex('\\overline{\\mathcal M_2}=\\mathcal M_2')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 6: Write(MathTex('\\overline{\\mathcal M_2}=\\mathcal M_2')):  57%|#####6    | 17/30 [00:00<00:00, 158.40it/s]
+                                                                                                                        
+
+Animation 8: Create(RoundedRectangle):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 8: Create(RoundedRectangle):  77%|#######6  | 23/30 [00:00<00:00, 217.99it/s]
+                                                                                       
+
+Animation 9: FadeIn(Dot), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 9: FadeIn(Dot), etc.:  53%|#####3    | 16/30 [00:00<00:00, 151.57it/s]
+                                                                                
+
+Animation 10: FadeIn(Text('������ ���ص� ��ȭ ����')), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 10: FadeIn(Text('������ ���ص� ��ȭ ����')), etc.:  43%|####3     | 13/30 [00:00<00:00, 127.14it/s]
+Animation 10: FadeIn(Text('������ ���ص� ��ȭ ����')), etc.:  87%|########6 | 26/30 [00:00<00:00, 125.25it/s]
+                                                                                                             
+
+Animation 12: FadeIn(Text('���� ��ü�� �ּҰ��� ������ �������� �� �ּҰ��� �޶��� �� �ִ�')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 12: FadeIn(Text('���� ��ü�� �ּҰ��� ������ �������� �� �ּҰ��� �޶��� �� �ִ�')):  37%|###6      | 11/30 [00:00<00:00, 107.84it/s]
+Animation 12: FadeIn(Text('���� ��ü�� �ּҰ��� ������ �������� �� �ּҰ��� �޶��� �� �ִ�')):  73%|#######3  | 22/30 [00:00<00:00, 106.68it/s]
+                                                                                                                                               
+
+Animation 13: FadeIn(Text('M��={M:rank(M)��2} �� �������� Ư�� �ټ� ������ ��� �� ������ ���� ���� ���䵵')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 13: FadeIn(Text('M��={M:rank(M)��2} �� �������� Ư�� �ټ� ������ ��� �� ������ ���� ���� ���䵵')):  67%|######6   | 10/15 [00:00<00:00, 91.32it/s]
+                                                                                                                                                          
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(Text('���׽� ���¸� Ȯ���Ѵٸ� �� ��Ȯ�� ������� ���� ����')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                                        
+
+Animation 1: FadeIn(VGroup of 2 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                         
+
+Animation 3: Write(MathTex('\\text{Example:}\\quad P(t)=T+tQ+t^2R')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                           
+
+Animation 5: FadeIn(VGroup of 3 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                   
+
+Animation 7: TransformFromCopy(VGroup of 3 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                    
+
+Animation 9: FadeIn(Text('���׽� ���°� Ȯ���� ������ �� �� ���� ���� ������� ���� �м�')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                                                   
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(VGroup of 3 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                         
+
+Animation 1: FadeIn(Text('��Ȯ�� ���ظ� Ž��')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                      
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/latex.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/dvisvgm.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+
+Animation 3: Create(Circle), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 3: Create(Circle), etc.:  40%|####      | 12/30 [00:00<00:00, 118.23it/s]
+Animation 3: Create(Circle), etc.:  80%|########  | 24/30 [00:00<00:00, 116.68it/s]
+                                                                                   
+
+Animation 4: FadeIn(MathTex('\\mathcal R_2\\ \\longrightarrow\\ \\overline{\\mathcal R_2}')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 4: FadeIn(MathTex('\\mathcal R_2\\ \\longrightarrow\\ \\overline{\\mathcal R_2}')):  40%|####      | 12/30 [00:00<00:00, 119.94it/s]
+Animation 4: FadeIn(MathTex('\\mathcal R_2\\ \\longrightarrow\\ \\overline{\\mathcal R_2}')):  80%|########  | 24/30 [00:00<00:00, 111.95it/s]
+                                                                                                                                              
+
+Animation 6: FadeIn(Text('����: ���� �������� ��İ��� �ϳ��� �ټ��� ������?')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 6: FadeIn(Text('����: ���� �������� ��İ��� �ϳ��� �ټ��� ������?')):  40%|####      | 12/30 [00:00<00:00, 110.80it/s]
+Animation 6: FadeIn(Text('����: ���� �������� ��İ��� �ϳ��� �ټ��� ������?')):  80%|########  | 24/30 [00:00<00:00, 94.27it/s] 
+                                                                                                                                
+
+Animation 7: FadeIn(Text('���� ������ ���䵵 �� ���� �ټ� ������ ���������󡤰Ÿ��� ��Ÿ���� ����')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 7: FadeIn(Text('���� ������ ���䵵 �� ���� �ټ� ������ ���������󡤰Ÿ��� ��Ÿ���� ����')):  60%|######    | 9/15 [00:00<00:00, 88.72it/s]
+                                                                                                                                                 
+OK: C:\Users\as042\OneDrive\Desktop\manim_video\exports\mm04_border_rank_166s_1080p30.mp4; 4980 frames; 30 fps; 166 seconds

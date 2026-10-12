@@ -1,0 +1,357 @@
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(VGroup of 2 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                         
+
+Animation 2: Write(Text('c���� = a����b���� + a����b���� + a����b����')):   0%|          | 0/60 [00:00<?, ?it/s]
+Animation 2: Write(Text('c���� = a����b���� + a����b���� + a����b����')):  22%|##1       | 13/60 [00:00<00:00, 127.04it/s]
+Animation 2: Write(Text('c���� = a����b���� + a����b���� + a����b����')):  43%|####3     | 26/60 [00:00<00:00, 119.05it/s]
+Animation 2: Write(Text('c���� = a����b���� + a����b���� + a����b����')):  63%|######3   | 38/60 [00:00<00:00, 115.37it/s]
+Animation 2: Write(Text('c���� = a����b���� + a����b���� + a����b����')):  83%|########3 | 50/60 [00:00<00:00, 114.78it/s]
+                                                                                                            
+
+Animation 3: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/21 [00:00<?, ?it/s]
+Animation 3: Indicate(VGroup of 2 submobjects), etc.:  33%|###3      | 7/21 [00:00<00:00, 66.81it/s]
+Animation 3: Indicate(VGroup of 2 submobjects), etc.:  67%|######6   | 14/21 [00:00<00:00, 66.42it/s]
+Animation 3: Indicate(VGroup of 2 submobjects), etc.: 100%|##########| 21/21 [00:00<00:00, 67.03it/s]
+                                                                                                     
+
+Animation 4: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/21 [00:00<?, ?it/s]
+Animation 4: Indicate(VGroup of 2 submobjects), etc.:  33%|###3      | 7/21 [00:00<00:00, 65.06it/s]
+Animation 4: Indicate(VGroup of 2 submobjects), etc.:  67%|######6   | 14/21 [00:00<00:00, 65.19it/s]
+Animation 4: Indicate(VGroup of 2 submobjects), etc.: 100%|##########| 21/21 [00:00<00:00, 65.95it/s]
+                                                                                                     
+
+Animation 5: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/21 [00:00<?, ?it/s]
+Animation 5: Indicate(VGroup of 2 submobjects), etc.:  33%|###3      | 7/21 [00:00<00:00, 69.41it/s]
+Animation 5: Indicate(VGroup of 2 submobjects), etc.:  67%|######6   | 14/21 [00:00<00:00, 68.94it/s]
+Animation 5: Indicate(VGroup of 2 submobjects), etc.: 100%|##########| 21/21 [00:00<00:00, 69.39it/s]
+                                                                                                     
+
+Animation 6: Transform(Text('���� 0��')), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 6: Transform(Text('���� 0��')), etc.:  92%|#########1| 11/12 [00:00<00:00, 103.96it/s]
+                                                                                                
+
+Animation 7: Transform(Text('���� 0��')), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 7: Transform(Text('���� 0��')), etc.:  92%|#########1| 11/12 [00:00<00:00, 103.76it/s]
+                                                                                                
+
+Animation 8: Transform(Text('���� 0��')), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 8: Transform(Text('���� 0��')), etc.:  92%|#########1| 11/12 [00:00<00:00, 102.86it/s]
+                                                                                                
+
+Animation 9: Transform(Text('���� 0��')), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 9: Transform(Text('���� 0��')), etc.:  92%|#########1| 11/12 [00:00<00:00, 104.30it/s]
+                                                                                                
+
+Animation 10: Transform(Text('���� 0��')), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 10: Transform(Text('���� 0��')), etc.:  92%|#########1| 11/12 [00:00<00:00, 109.83it/s]
+                                                                                                 
+
+Animation 11: Transform(Text('���� 0��')), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 11: Transform(Text('���� 0��')), etc.:  83%|########3 | 10/12 [00:00<00:00, 96.87it/s]
+                                                                                                
+
+Animation 12: Transform(Text('���� 0��')), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 12: Transform(Text('���� 0��')), etc.: 100%|##########| 12/12 [00:00<00:00, 110.45it/s]
+                                                                                                 
+
+Animation 13: Transform(Text('���� 0��')), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 13: Transform(Text('���� 0��')), etc.:  92%|#########1| 11/12 [00:00<00:00, 105.49it/s]
+                                                                                                 
+
+Animation 14: Transform(Text('���� 0��')), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 14: Transform(Text('���� 0��')), etc.: 100%|##########| 12/12 [00:00<00:00, 112.21it/s]
+                                                                                                 
+
+Animation 16: FadeIn(Text('27���� ǥ�� ����� ����Դϴ� �� �ּ� Ƚ����� ���� �ƴմϴ�')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 16: FadeIn(Text('27���� ǥ�� ����� ����Դϴ� �� �ּ� Ƚ����� ���� �ƴմϴ�')):  37%|###6      | 11/30 [00:00<00:00, 108.61it/s]
+Animation 16: FadeIn(Text('27���� ǥ�� ����� ����Դϴ� �� �ּ� Ƚ����� ���� �ƴմϴ�')):  73%|#######3  | 22/30 [00:00<00:00, 108.40it/s]
+                                                                                                                                           
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(VGroup of 2 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                         
+
+Animation 1: FadeIn(VGroup of 2 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                   
+
+Animation 3: Write(Text('1 �� 5 + 2 �� 7 = 19')), etc.:   0%|          | 0/33 [00:00<?, ?it/s]
+Animation 3: Write(Text('1 �� 5 + 2 �� 7 = 19')), etc.:  33%|###3      | 11/33 [00:00<00:00, 105.54it/s]
+Animation 3: Write(Text('1 �� 5 + 2 �� 7 = 19')), etc.:  67%|######6   | 22/33 [00:00<00:00, 104.43it/s]
+Animation 3: Write(Text('1 �� 5 + 2 �� 7 = 19')), etc.: 100%|##########| 33/33 [00:00<00:00, 103.32it/s]
+                                                                                                      
+
+Animation 4: Transform(Text('?')):   0%|          | 0/12 [00:00<?, ?it/s]
+                                                                         
+
+Animation 6: Write(Text('1 �� 6 + 2 �� 8 = 22')), etc.:   0%|          | 0/33 [00:00<?, ?it/s]
+Animation 6: Write(Text('1 �� 6 + 2 �� 8 = 22')), etc.:  30%|###       | 10/33 [00:00<00:00, 93.57it/s]
+Animation 6: Write(Text('1 �� 6 + 2 �� 8 = 22')), etc.:  61%|######    | 20/33 [00:00<00:00, 92.27it/s]
+Animation 6: Write(Text('1 �� 6 + 2 �� 8 = 22')), etc.:  91%|######### | 30/33 [00:00<00:00, 88.80it/s]
+                                                                                                     
+
+Animation 7: Transform(Text('?')):   0%|          | 0/12 [00:00<?, ?it/s]
+                                                                         
+
+Animation 8: Write(Text('3 �� 5 + 4 �� 7 = 43')), etc.:   0%|          | 0/33 [00:00<?, ?it/s]
+Animation 8: Write(Text('3 �� 5 + 4 �� 7 = 43')), etc.:  27%|##7       | 9/33 [00:00<00:00, 89.98it/s]
+Animation 8: Write(Text('3 �� 5 + 4 �� 7 = 43')), etc.:  55%|#####4    | 18/33 [00:00<00:00, 88.34it/s]
+Animation 8: Write(Text('3 �� 5 + 4 �� 7 = 43')), etc.:  82%|########1 | 27/33 [00:00<00:00, 87.91it/s]
+                                                                                                     
+
+Animation 9: Transform(Text('?')):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 9: Transform(Text('?')): 100%|##########| 12/12 [00:00<00:00, 112.71it/s]
+                                                                                   
+
+Animation 10: Write(Text('3 �� 6 + 4 �� 8 = 50')), etc.:   0%|          | 0/33 [00:00<?, ?it/s]
+Animation 10: Write(Text('3 �� 6 + 4 �� 8 = 50')), etc.:  27%|##7       | 9/33 [00:00<00:00, 87.50it/s]
+Animation 10: Write(Text('3 �� 6 + 4 �� 8 = 50')), etc.:  55%|#####4    | 18/33 [00:00<00:00, 84.93it/s]
+Animation 10: Write(Text('3 �� 6 + 4 �� 8 = 50')), etc.:  82%|########1 | 27/33 [00:00<00:00, 84.60it/s]
+                                                                                                      
+
+Animation 11: Transform(Text('?')):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 11: Transform(Text('?')):  92%|#########1| 11/12 [00:00<00:00, 109.64it/s]
+                                                                                    
+
+Animation 13: LaggedStart(Group):   0%|          | 0/56 [00:00<?, ?it/s]
+Animation 13: LaggedStart(Group):  27%|##6       | 15/56 [00:00<00:00, 144.47it/s]
+Animation 13: LaggedStart(Group):  54%|#####3    | 30/56 [00:00<00:00, 129.48it/s]
+Animation 13: LaggedStart(Group):  79%|#######8  | 44/56 [00:00<00:00, 123.29it/s]
+                                                                                  
+
+Animation 14: FadeIn(Text('4ĭ �� 2�� = 8�� �� �� ���� ���� �� ���� ����ؾ� �ұ��?')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 14: FadeIn(Text('4ĭ �� 2�� = 8�� �� �� ���� ���� �� ���� ����ؾ� �ұ��?')):  40%|####      | 12/30 [00:00<00:00, 114.56it/s]
+Animation 14: FadeIn(Text('4ĭ �� 2�� = 8�� �� �� ���� ���� �� ���� ����ؾ� �ұ��?')):  80%|########  | 24/30 [00:00<00:00, 111.41it/s]
+                                                                                                                                       
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(VGroup of 2 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                         
+
+Animation 2: Create(VGroup of 4 submobjects):   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                                   
+
+Animation 3: TransformFromCopy(VGroup of 4 submobjects):   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                                              
+
+Animation 4: FadeOut(VGroup of 4 submobjects):   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                                    
+
+Animation 5: FadeIn(Text('= 65')), etc.:   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                              
+
+Animation 7: Create(VGroup of 3 submobjects):   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                                   
+
+Animation 8: TransformFromCopy(VGroup of 3 submobjects):   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                                              
+
+Animation 9: FadeOut(VGroup of 3 submobjects):   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                                    
+
+Animation 10: FadeIn(Text('= 35')), etc.:   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                               
+
+Animation 12: Create(VGroup of 3 submobjects):   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                                    
+
+Animation 13: TransformFromCopy(VGroup of 3 submobjects):   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                                               
+
+Animation 14: FadeOut(VGroup of 3 submobjects):   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                                     
+
+Animation 15: FadeIn(Text('= -2')), etc.:   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                               
+
+Animation 17: Create(VGroup of 3 submobjects):   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                                    
+
+Animation 18: TransformFromCopy(VGroup of 3 submobjects):   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                                               
+
+Animation 19: FadeOut(VGroup of 3 submobjects):   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                                     
+
+Animation 20: FadeIn(Text('= 8')), etc.:   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                              
+
+Animation 22: Create(VGroup of 3 submobjects):   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                                    
+
+Animation 23: TransformFromCopy(VGroup of 3 submobjects):   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                                               
+
+Animation 24: FadeOut(VGroup of 3 submobjects):   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                                     
+
+Animation 25: FadeIn(Text('= 24')), etc.:   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                               
+
+Animation 27: Create(VGroup of 4 submobjects):   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                                    
+
+Animation 28: TransformFromCopy(VGroup of 4 submobjects):   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                                               
+
+Animation 29: FadeOut(VGroup of 4 submobjects):   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                                     
+
+Animation 30: FadeIn(Text('= 22')), etc.:   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                               
+
+Animation 32: Create(VGroup of 4 submobjects):   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                                    
+
+Animation 33: TransformFromCopy(VGroup of 4 submobjects):   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                                               
+
+Animation 34: FadeOut(VGroup of 4 submobjects):   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                                     
+
+Animation 35: FadeIn(Text('= -30')), etc.:   0%|          | 0/3 [00:00<?, ?it/s]
+                                                                                
+
+Animation 37: FadeIn(Text('�� ���� ������ �� �� �� �غ� �ܰ��� ������ ������ �����Դϴ�')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 37: FadeIn(Text('�� ���� ������ �� �� �� �غ� �ܰ��� ������ ������ �����Դϴ�')):  40%|####      | 12/30 [00:00<00:00, 112.04it/s]
+Animation 37: FadeIn(Text('�� ���� ������ �� �� �� �غ� �ܰ��� ������ ������ �����Դϴ�')):  80%|########  | 24/30 [00:00<00:00, 112.54it/s]
+                                                                                                                                           
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(VGroup of 7 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                   
+
+Animation 1: FadeIn(VGroup of 2 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                   
+
+Animation 2: Create(VGroup of 4 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                         
+
+Animation 3: Transform(Text('?')):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 3: Transform(Text('?')): 100%|##########| 12/12 [00:00<00:00, 110.49it/s]
+                                                                                   
+
+Animation 5: FadeOut(VGroup of 4 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                    
+
+Animation 6: Create(VGroup of 2 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                         
+
+Animation 7: Transform(Text('?')):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 7: Transform(Text('?')): 100%|##########| 12/12 [00:00<00:00, 111.10it/s]
+                                                                                   
+
+Animation 9: FadeOut(VGroup of 2 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                    
+
+Animation 10: Create(VGroup of 2 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                          
+
+Animation 11: Transform(Text('?')):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 11: Transform(Text('?')):  83%|########3 | 10/12 [00:00<00:00, 92.24it/s]
+                                                                                   
+
+Animation 13: FadeOut(VGroup of 2 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                     
+
+Animation 14: Create(VGroup of 4 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                          
+
+Animation 15: Transform(Text('?')):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 15: Transform(Text('?')):  83%|########3 | 10/12 [00:00<00:00, 92.45it/s]
+                                                                                   
+
+Animation 17: FadeOut(VGroup of 4 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                     
+
+Animation 18: FadeIn(Text('ǥ�� ����� ��ġ: [19, 22; 43, 50] �� ���� �˻� �Ϸ�')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                                        
+Manim Community v0.21.0
+
+
+Animation 1: Write(Text('M�� + M�� \u2212 M\u2085 + M\u2087')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 1: Write(Text('M�� + M�� \u2212 M\u2085 + M\u2087')):  50%|#####     | 15/30 [00:00<00:00, 145.74it/s]
+Animation 1: Write(Text('M�� + M�� \u2212 M\u2085 + M\u2087')): 100%|##########| 30/30 [00:00<00:00, 132.78it/s]
+                                                                                               
+
+Animation 2: Write(Text('(a+d)(e+h) + d(g\u2212e) \u2212 (a+b)h + (b\u2212d)(g+h)')):   0%|          | 0/60 [00:00<?, ?it/s]
+Animation 2: Write(Text('(a+d)(e+h) + d(g\u2212e) \u2212 (a+b)h + (b\u2212d)(g+h)')):  20%|##        | 12/60 [00:00<00:00, 111.80it/s]
+Animation 2: Write(Text('(a+d)(e+h) + d(g\u2212e) \u2212 (a+b)h + (b\u2212d)(g+h)')):  40%|####      | 24/60 [00:00<00:00, 101.53it/s]
+Animation 2: Write(Text('(a+d)(e+h) + d(g\u2212e) \u2212 (a+b)h + (b\u2212d)(g+h)')):  58%|#####8    | 35/60 [00:00<00:00, 101.38it/s]
+Animation 2: Write(Text('(a+d)(e+h) + d(g\u2212e) \u2212 (a+b)h + (b\u2212d)(g+h)')):  77%|#######6  | 46/60 [00:00<00:00, 102.96it/s]
+Animation 2: Write(Text('(a+d)(e+h) + d(g\u2212e) \u2212 (a+b)h + (b\u2212d)(g+h)')):  95%|#########5| 57/60 [00:00<00:00, 94.37it/s] 
+                                                                                                                      
++--------------------- Traceback (most recent call last) ---------------------+
+| C:\Users\as042\AppData\Local\Programs\Python\Python312\Lib\site-packages\ma |
+| nim\cli\render\commands.py:125 in render                                    |
+|                                                                             |
+|   122             try:                                                      |
+|   123                 with tempconfig({}):                                  |
+|   124                     scene = SceneClass()                              |
+| > 125                     scene.render()                                    |
+|   126             except Exception:                                         |
+|   127                 error_console.print_exception()                       |
+|   128                 sys.exit(1)                                           |
+|                                                                             |
+| C:\Users\as042\AppData\Local\Programs\Python\Python312\Lib\site-packages\ma |
+| nim\scene\scene.py:259 in render                                            |
+|                                                                             |
+|    256         """                                                          |
+|    257         self.setup()                                                 |
+|    258         try:                                                         |
+| >  259             self.construct()                                         |
+|    260         except EndSceneEarlyException:                               |
+|    261             pass                                                     |
+|    262         except RerunSceneException:                                  |
+|                                                                             |
+| C:\Users\as042\OneDrive\Desktop\manim_video\longforms\mm01_cubic_question\v |
+| isuals.py:31 in construct                                                   |
+|                                                                             |
+|    28         self.record=json.loads((ROOT/'manifest.json').read_text(encod |
+|    29         self.add(text('��İ��� ��귮 �� 1��',17,MUTED).move_to([-4.9 |
+|    30         self.add(text(self.record['title'],32).move_to([0,3.05,0]))   |
+| >  31         getattr(self,'scene'+str(self.index))()                       |
+|    32         remaining=self.record['duration_seconds']-self.time           |
+|    33         if remaining<0:raise ValueError((self.index,self.time))       |
+|    34         self.wait(remaining)                                          |
+|                                                                             |
+| C:\Users\as042\OneDrive\Desktop\manim_video\longforms\mm01_cubic_question\v |
+| isuals.py:105 in scene5                                                     |
+|                                                                             |
+|   102         expanded=text('(a+d)(e+h) + d(g\u2212e) \u2212 (a+b)h + (b\u2212d)(g+h)',27) |
+|   103         terms=['ae','+ah','+de','+dh','+dg','\u2212de','\u2212ah','\u2212bh','+bg',' |
+|   104         tiles=VGroup(*[card(term,[-4.5+(i%6)*1.8,.1-(i//6)*1.1,0],w=1 |
+| > 105         self.to(5)                                                    |
+|   106         self.play(LaggedStart(*[FadeIn(t) for t in tiles],lag_ratio=. |
+|   107         for i,j in [(1,6),(2,5),(3,11),(4,10),(7,9)]:                 |
+|   108             arrow=DoubleArrow(tiles[i].get_center(),tiles[j].get_cent |
+|                                                                             |
+| C:\Users\as042\OneDrive\Desktop\manim_video\longforms\mm01_cubic_question\v |
+| isuals.py:36 in to                                                          |
+|                                                                             |
+|    33         if remaining<0:raise ValueError((self.index,self.time))       |
+|    34         self.wait(remaining)                                          |
+|    35     def to(self,target):                                              |
+| >  36         if self.time>target+.05:raise ValueError((self.index,self.tim |
+|    37         if target>self.time:self.wait(target-self.time)               |
+|    38     def note(self,s):                                                 |
+|    39         obj=text(s,22,GOLD).move_to([0,-3.35,0]);self.play(FadeIn(obj |
++-----------------------------------------------------------------------------+
+ValueError: (5, 5.999999999999989, 5)
+Traceback (most recent call last):
+  File "C:\Users\as042\OneDrive\Desktop\manim_video\longforms\mm01_cubic_question\build.py", line 74, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\as042\OneDrive\Desktop\manim_video\longforms\mm01_cubic_question\build.py", line 24, in main
+    run([sys.executable,'-m','manim','--resolution',resolution,'--fps',str(fps),'--verbosity','ERROR','--media_dir',str(media),str(ROOT/s['directory']/'scene.py'),s['class']])
+  File "C:\Users\as042\OneDrive\Desktop\manim_video\longforms\mm01_cubic_question\build.py", line 8, in run
+    def run(args): subprocess.run(args,check=True,cwd=WORKSPACE)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\as042\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\as042\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', '-m', 'manim', '--resolution', '1920,1080', '--fps', '30', '--verbosity', 'ERROR', '--media_dir', 'C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\mm01_1080p30\\05', 'C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\longforms\\mm01_cubic_question\\scenes\\05_identity\\scene.py', 'Scene05']' returned non-zero exit status 1.

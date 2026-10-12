@@ -1,0 +1,50 @@
+id: ns02
+title: "2막 — 소용돌이 늘어남"
+video:
+  width: 1920
+  height: 1080
+  fps: 30
+timing_basis: user_sentence_end_times
+scenes:
+  - id: "01"
+    slug: "plane"
+    directory: "scenes/01_plane"
+    class: "Scene01"
+    duration_seconds: 16
+    storyboard_seconds: 25
+  - id: "02"
+    slug: "vorticity"
+    directory: "scenes/02_vorticity"
+    class: "Scene02"
+    duration_seconds: 26
+    storyboard_seconds: 28
+  - id: "03"
+    slug: "tube"
+    directory: "scenes/03_tube"
+    class: "Scene03"
+    duration_seconds: 20
+    storyboard_seconds: 27
+  - id: "04"
+    slug: "stretch"
+    directory: "scenes/04_stretch"
+    class: "Scene04"
+    duration_seconds: 25
+    storyboard_seconds: 32
+  - id: "05"
+    slug: "equation"
+    directory: "scenes/05_equation"
+    class: "Scene05"
+    duration_seconds: 32
+    storyboard_seconds: 31
+  - id: "06"
+    slug: "competition"
+    directory: "scenes/06_competition"
+    class: "Scene06"
+    duration_seconds: 24
+    storyboard_seconds: 30
+  - id: "07"
+    slug: "contrast"
+    directory: "scenes/07_contrast"
+    class: "Scene07"
+    duration_seconds: 33
+    storyboard_seconds: 37

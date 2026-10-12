@@ -1,0 +1,66 @@
+[
+  {
+    "id": "01",
+    "slug": "conditions",
+    "directory": "scenes/01_conditions",
+    "class": "Scene01",
+    "duration_seconds": 29,
+    "storyboard_seconds": 34
+  },
+  {
+    "id": "02",
+    "slug": "exists",
+    "directory": "scenes/02_exists",
+    "class": "Scene02",
+    "duration_seconds": 25,
+    "storyboard_seconds": 36
+  },
+  {
+    "id": "03",
+    "slug": "local_rule",
+    "directory": "scenes/03_local_rule",
+    "class": "Scene03",
+    "duration_seconds": 26,
+    "storyboard_seconds": 34
+  },
+  {
+    "id": "04",
+    "slug": "basins",
+    "directory": "scenes/04_basins",
+    "class": "Scene04",
+    "duration_seconds": 29,
+    "storyboard_seconds": 36
+  },
+  {
+    "id": "05",
+    "slug": "two_answers",
+    "directory": "scenes/05_two_answers",
+    "class": "Scene05",
+    "duration_seconds": 28,
+    "storyboard_seconds": 42
+  },
+  {
+    "id": "06",
+    "slug": "bias",
+    "directory": "scenes/06_bias",
+    "class": "Scene06",
+    "duration_seconds": 28,
+    "storyboard_seconds": 34
+  },
+  {
+    "id": "07",
+    "slug": "compare",
+    "directory": "scenes/07_compare",
+    "class": "Scene07",
+    "duration_seconds": 43,
+    "storyboard_seconds": 46
+  },
+  {
+    "id": "08",
+    "slug": "paths",
+    "directory": "scenes/08_paths",
+    "class": "Scene08",
+    "duration_seconds": 43,
+    "storyboard_seconds": 44
+  }
+]

@@ -1,0 +1,36 @@
+id: mm06_tensor_power
+timing_basis: provisional_silent_storyboard
+video: {width: 1920, height: 1080, fps: 30}
+scenes:
+  - id: '01'
+    directory: scenes/01_zoom
+    duration_seconds: null
+    storyboard_seconds: 18
+  - id: '02'
+    directory: scenes/02_indices
+    duration_seconds: null
+    storyboard_seconds: 21
+  - id: '03'
+    directory: scenes/03_pairs
+    duration_seconds: null
+    storyboard_seconds: 25
+  - id: '04'
+    directory: scenes/04_paths
+    duration_seconds: null
+    storyboard_seconds: 23
+  - id: '05'
+    directory: scenes/05_power
+    duration_seconds: null
+    storyboard_seconds: 17
+  - id: '06'
+    directory: scenes/06_mixed
+    duration_seconds: null
+    storyboard_seconds: 23
+  - id: '07'
+    directory: scenes/07_shared
+    duration_seconds: null
+    storyboard_seconds: 23
+  - id: '08'
+    directory: scenes/08_laser
+    duration_seconds: null
+    storyboard_seconds: 18

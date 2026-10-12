@@ -1,0 +1,44 @@
+Manim Community v0.21.0
+
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/latex.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/dvisvgm.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/latex.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/dvisvgm.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/latex.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/dvisvgm.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+
+Animation 1: Write(MathTex('r')):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                        
+
+Animation 2: Write(MathTex('r^2')):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                          
+
+Animation 3: Write(MathTex('r^3')):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                          
+
+Animation 5: Write(MathTex('k')):   0%|          | 0/8 [00:00<?, ?it/s]
+                                                                       
+
+Animation 6: Write(MathTex('3^k')):   0%|          | 0/8 [00:00<?, ?it/s]
+                                                                         
+
+Animation 7: Write(MathTex('2^k\\times2^k')):   0%|          | 0/8 [00:00<?, ?it/s]
+                                                                                   
+
+Animation 8: Write(MathTex('r^k')):   0%|          | 0/8 [00:00<?, ?it/s]
+                                                                         
+
+Animation 10: Create(Rectangle), etc.:   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                             
+
+Animation 11: FadeIn(Text('��� �Ը��� ����  ��  ���� ������ ����')):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                                                           
+
+Animation 12: FadeIn(Text('r�� ù ������ ���� ��ũ �������� Ȯ���� �� �� r\u1d4f�� �����̸� ���� �ð��� �ƴ�')):   0%|          | 0/8 [00:00<?, ?it/s]
+                                                                                                                                                

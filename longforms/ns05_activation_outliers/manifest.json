@@ -1,0 +1,82 @@
+[
+  {
+    "id": "01",
+    "slug": "fluid",
+    "directory": "scenes/01_fluid",
+    "class": "Scene01",
+    "duration_seconds": 24,
+    "storyboard_seconds": 30
+  },
+  {
+    "id": "02",
+    "slug": "bridge",
+    "directory": "scenes/02_bridge",
+    "class": "Scene02",
+    "duration_seconds": 34,
+    "storyboard_seconds": 34
+  },
+  {
+    "id": "03",
+    "slug": "matrix",
+    "directory": "scenes/03_matrix",
+    "class": "Scene03",
+    "duration_seconds": 18,
+    "storyboard_seconds": 30
+  },
+  {
+    "id": "04",
+    "slug": "outliers",
+    "directory": "scenes/04_outliers",
+    "class": "Scene04",
+    "duration_seconds": 25,
+    "storyboard_seconds": 28
+  },
+  {
+    "id": "05",
+    "slug": "statistics",
+    "directory": "scenes/05_statistics",
+    "class": "Scene05",
+    "duration_seconds": 27,
+    "storyboard_seconds": 30
+  },
+  {
+    "id": "06",
+    "slug": "quantization",
+    "directory": "scenes/06_quantization",
+    "class": "Scene06",
+    "duration_seconds": 22,
+    "storyboard_seconds": 28
+  },
+  {
+    "id": "07",
+    "slug": "precision",
+    "directory": "scenes/07_precision",
+    "class": "Scene07",
+    "duration_seconds": 25,
+    "storyboard_seconds": 38
+  },
+  {
+    "id": "08",
+    "slug": "mixed",
+    "directory": "scenes/08_mixed",
+    "class": "Scene08",
+    "duration_seconds": 22,
+    "storyboard_seconds": 30
+  },
+  {
+    "id": "09",
+    "slug": "smooth",
+    "directory": "scenes/09_smooth",
+    "class": "Scene09",
+    "duration_seconds": 25,
+    "storyboard_seconds": 34
+  },
+  {
+    "id": "10",
+    "slug": "direction",
+    "directory": "scenes/10_direction",
+    "class": "Scene10",
+    "duration_seconds": 27,
+    "storyboard_seconds": 30
+  }
+]

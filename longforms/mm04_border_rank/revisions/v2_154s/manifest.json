@@ -1,0 +1,58 @@
+[
+  {
+    "id": "01",
+    "title": "정확히 만들기와 가까이 접근하기",
+    "directory": "scenes/01_exact",
+    "class": "Scene01",
+    "duration_seconds": null,
+    "storyboard_seconds": 17
+  },
+  {
+    "id": "02",
+    "title": "비교할 목표: 세 항이 필요한 W",
+    "directory": "scenes/02_limit",
+    "class": "Scene02",
+    "duration_seconds": null,
+    "storyboard_seconds": 22
+  },
+  {
+    "id": "03",
+    "title": "두 항의 차이에서 남는 새로운 방향",
+    "directory": "scenes/03_w_tensor",
+    "class": "Scene03",
+    "duration_seconds": null,
+    "storyboard_seconds": 27
+  },
+  {
+    "id": "04",
+    "title": "한 자리만 바뀌는 경우는 세 가지",
+    "directory": "scenes/04_degeneration",
+    "class": "Scene04",
+    "duration_seconds": null,
+    "storyboard_seconds": 30
+  },
+  {
+    "id": "05",
+    "title": "서로 다른 두 최소 개수",
+    "directory": "scenes/05_border",
+    "class": "Scene05",
+    "duration_seconds": null,
+    "storyboard_seconds": 18
+  },
+  {
+    "id": "06",
+    "title": "오차가 다항식이면 정확히 제거할 수 있다",
+    "directory": "scenes/06_interpolation",
+    "class": "Scene06",
+    "duration_seconds": null,
+    "storyboard_seconds": 25
+  },
+  {
+    "id": "07",
+    "title": "탐색할 수 있는 구조가 넓어진다",
+    "directory": "scenes/07_growth",
+    "class": "Scene07",
+    "duration_seconds": null,
+    "storyboard_seconds": 15
+  }
+]

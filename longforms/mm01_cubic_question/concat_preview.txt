@@ -1,0 +1,7 @@
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm01_cubic_question/scenes/01_standard/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm01_cubic_question/scenes/02_eight/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm01_cubic_question/scenes/03_seven/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm01_cubic_question/scenes/04_restore/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm01_cubic_question/scenes/05_identity/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm01_cubic_question/scenes/06_recursion/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm01_cubic_question/scenes/07_question/visual_preview.mp4'

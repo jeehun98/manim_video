@@ -1,0 +1,5 @@
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns03_energy_intuition/scenes/01_total/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns03_energy_intuition/scenes/02_volume/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns03_energy_intuition/scenes/03_concentration/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns03_energy_intuition/scenes/04_two_views/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns03_energy_intuition/scenes/05_question/visual_1080p30.mp4'

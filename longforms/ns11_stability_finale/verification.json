@@ -1,0 +1,34 @@
+{
+  "status": "verified",
+  "timing_basis": "user measured cumulative sentence end times",
+  "scenes": 9,
+  "tts_paragraphs": 70,
+  "metadata": {
+    "width": 1920,
+    "height": 1080,
+    "fps": "30",
+    "frames": 9690,
+    "duration_seconds": 323.0,
+    "audio_streams": 0,
+    "codec": "h264"
+  },
+  "full_ffmpeg_decode": "passed with no errors",
+  "visual_review": "retimed preview and final contact sheets reviewed; no cue overruns; final text and progress fade verified",
+  "final_frame_max_channel": 34,
+  "math_checks": "math_verification.json; 64-value activation mean, exact non-normal evolution, two double-well GD paths",
+  "limitations": [
+    "silent video; voice audio not supplied",
+    "recap visuals are conceptual comparisons, not full fluid or trained network simulations"
+  ],
+  "scene_durations_seconds": [
+    29,
+    39,
+    37,
+    30,
+    40,
+    35,
+    34,
+    34,
+    45
+  ]
+}

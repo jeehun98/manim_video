@@ -1,0 +1,262 @@
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(VGroup of 2 submobjects):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 0: FadeIn(VGroup of 2 submobjects):  47%|####6     | 14/30 [00:00<00:00, 129.71it/s]
+Animation 0: FadeIn(VGroup of 2 submobjects):  90%|######### | 27/30 [00:00<00:00, 107.76it/s]
+                                                                                              
+
+Animation 1: Create(VGroup of 30 submobjects):   0%|          | 0/45 [00:00<?, ?it/s]
+Animation 1: Create(VGroup of 30 submobjects):  33%|###3      | 15/45 [00:00<00:00, 138.57it/s]
+Animation 1: Create(VGroup of 30 submobjects):  64%|######4   | 29/45 [00:00<00:00, 116.55it/s]
+Animation 1: Create(VGroup of 30 submobjects):  91%|#########1| 41/45 [00:00<00:00, 104.86it/s]
+                                                                                               
+
+Animation 2: FadeIn(Text('2 �� 2 :  8 ��')), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 2: FadeIn(Text('2 �� 2 :  8 ��')), etc.:  47%|####6     | 14/30 [00:00<00:00, 135.37it/s]
+Animation 2: FadeIn(Text('2 �� 2 :  8 ��')), etc.:  93%|#########3| 28/30 [00:00<00:00, 114.97it/s]
+                                                                                                  
+
+Animation 4: FadeOut(VGroup of 30 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 4: FadeOut(VGroup of 30 submobjects), etc.:  27%|##6       | 8/30 [00:00<00:00, 78.75it/s]
+Animation 4: FadeOut(VGroup of 30 submobjects), etc.:  53%|#####3    | 16/30 [00:00<00:00, 76.68it/s]
+Animation 4: FadeOut(VGroup of 30 submobjects), etc.:  83%|########3 | 25/30 [00:00<00:00, 78.87it/s]
+                                                                                                     
+
+Animation 5: FadeIn(VGroup of 3 submobjects):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 5: FadeIn(VGroup of 3 submobjects):  47%|####6     | 14/30 [00:00<00:00, 131.96it/s]
+Animation 5: FadeIn(VGroup of 3 submobjects):  93%|#########3| 28/30 [00:00<00:00, 122.23it/s]
+                                                                                              
+
+Animation 6: FadeIn(VGroup of 3 submobjects):   0%|          | 0/21 [00:00<?, ?it/s]
+Animation 6: FadeIn(VGroup of 3 submobjects):  76%|#######6  | 16/21 [00:00<00:00, 159.67it/s]
+                                                                                              
+
+Animation 8: FadeIn(VGroup of 3 submobjects):   0%|          | 0/21 [00:00<?, ?it/s]
+Animation 8: FadeIn(VGroup of 3 submobjects):  76%|#######6  | 16/21 [00:00<00:00, 151.44it/s]
+                                                                                              
+
+Animation 9: Indicate(Text('64')), etc.:   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                               
+
+Animation 11: FadeIn(VGroup of 3 submobjects):   0%|          | 0/21 [00:00<?, ?it/s]
+Animation 11: FadeIn(VGroup of 3 submobjects):  43%|####2     | 9/21 [00:00<00:00, 84.56it/s]
+Animation 11: FadeIn(VGroup of 3 submobjects):  86%|########5 | 18/21 [00:00<00:00, 70.43it/s]
+                                                                                              
+
+Animation 12: Indicate(Text('512')), etc.:   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 12: Indicate(Text('512')), etc.:  93%|#########3| 14/15 [00:00<00:00, 133.29it/s]
+                                                                                           
+
+Animation 14: FadeIn(VGroup of 3 submobjects):   0%|          | 0/21 [00:00<?, ?it/s]
+Animation 14: FadeIn(VGroup of 3 submobjects):  57%|#####7    | 12/21 [00:00<00:00, 115.18it/s]
+                                                                                               
+
+Animation 15: Indicate(Text('4,096')), etc.:   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 15: Indicate(Text('4,096')), etc.:  93%|#########3| 14/15 [00:00<00:00, 133.17it/s]
+                                                                                             
+
+Animation 18: FadeIn(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 18: FadeIn(VGroup of 2 submobjects), etc.:  40%|####      | 12/30 [00:00<00:00, 112.61it/s]
+Animation 18: FadeIn(VGroup of 2 submobjects), etc.:  80%|########  | 24/30 [00:00<00:00, 115.45it/s]
+                                                                                                     
+
+Animation 19: FadeIn(Text('ǥ�� ����: ��� ������ ��Į�� ���� Ƚ�� �� ����/���� ����')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 19: FadeIn(Text('ǥ�� ����: ��� ������ ��Į�� ���� Ƚ�� �� ����/���� ����')):  73%|#######3  | 11/15 [00:00<00:00, 105.61it/s]
+                                                                                                                                        
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/latex.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/dvisvgm.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/latex.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/dvisvgm.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+
+Animation 21: Write(VGroup of 2 submobjects):   0%|          | 0/60 [00:00<?, ?it/s]
+Animation 21: Write(VGroup of 2 submobjects):  23%|##3       | 14/60 [00:00<00:00, 139.04it/s]
+Animation 21: Write(VGroup of 2 submobjects):  47%|####6     | 28/60 [00:00<00:00, 123.29it/s]
+Animation 21: Write(VGroup of 2 submobjects):  68%|######8   | 41/60 [00:00<00:00, 123.76it/s]
+Animation 21: Write(VGroup of 2 submobjects):  92%|#########1| 55/60 [00:00<00:00, 128.37it/s]
+                                                                                              
+
+Animation 23: Transform(Text('ǥ�� ����: ��� ������ ��Į�� ���� Ƚ�� �� ����/���� ����')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 23: Transform(Text('ǥ�� ����: ��� ������ ��Į�� ���� Ƚ�� �� ����/���� ����')):  30%|###       | 9/30 [00:00<00:00, 89.93it/s]
+Animation 23: Transform(Text('ǥ�� ����: ��� ������ ��Į�� ���� Ƚ�� �� ����/���� ����')):  60%|######    | 18/30 [00:00<00:00, 88.76it/s]
+Animation 23: Transform(Text('ǥ�� ����: ��� ������ ��Į�� ���� Ƚ�� �� ����/���� ����')):  90%|######### | 27/30 [00:00<00:00, 87.91it/s]
+                                                                                                                                          
+Manim Community v0.21.0
+
+
+Animation 0: Create(NumberLine):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 0: Create(NumberLine):  70%|#######   | 21/30 [00:00<00:00, 206.72it/s]
+                                                                                 
+
+Animation 1: Create(Line), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 1: Create(Line), etc.:  40%|####      | 12/30 [00:00<00:00, 116.90it/s]
+Animation 1: Create(Line), etc.:  80%|########  | 24/30 [00:00<00:00, 113.22it/s]
+                                                                                 
+
+Animation 2: FadeIn(Dot):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 2: FadeIn(Dot):  70%|#######   | 21/30 [00:00<00:00, 208.82it/s]
+                                                                          
+
+Animation 4: Create(Line):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 4: Create(Line):  80%|########  | 24/30 [00:00<00:00, 232.52it/s]
+                                                                           
+
+Animation 5: FadeIn(Text('�������� �̺��� ���� ���� �ִ�')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 5: FadeIn(Text('�������� �̺��� ���� ���� �ִ�')):  50%|#####     | 15/30 [00:00<00:00, 140.04it/s]
+Animation 5: FadeIn(Text('�������� �̺��� ���� ���� �ִ�')): 100%|##########| 30/30 [00:00<00:00, 129.48it/s]
+                                                                                                             
+
+Animation 7: FadeIn(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 7: FadeIn(VGroup of 2 submobjects), etc.:  47%|####6     | 14/30 [00:00<00:00, 137.04it/s]
+Animation 7: FadeIn(VGroup of 2 submobjects), etc.:  93%|#########3| 28/30 [00:00<00:00, 129.72it/s]
+                                                                                                    
+
+Animation 9: FadeIn(Text('�� ���� ��踦 ����ȭ�� ���ο� �˰�������?')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 9: FadeIn(Text('�� ���� ��踦 ����ȭ�� ���ο� �˰�������?')):  43%|####3     | 13/30 [00:00<00:00, 122.07it/s]
+Animation 9: FadeIn(Text('�� ���� ��踦 ����ȭ�� ���ο� �˰�������?')):  87%|########6 | 26/30 [00:00<00:00, 117.75it/s]
+                                                                                                                         
+
+Animation 10: FadeIn(Text('����: �� ������� ����ϴ� ����� ���� �� �ּҼ��� ������ ����')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 10: FadeIn(Text('����: �� ������� ����ϴ� ����� ���� �� �ּҼ��� ������ ����')):  73%|#######3  | 11/15 [00:00<00:00, 101.97it/s]
+                                                                                                                                             
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(VGroup of 4 submobjects):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 0: FadeIn(VGroup of 4 submobjects):  57%|#####6    | 17/30 [00:00<00:00, 163.14it/s]
+                                                                                              
+
+Animation 1: FadeIn(Text('2 �� 2 = 4ĭ')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 1: FadeIn(Text('2 �� 2 = 4ĭ')):  63%|######3   | 19/30 [00:00<00:00, 187.82it/s]
+                                                                                          
+
+Animation 3: TransformFromCopy(VGroup of 16 submobjects):   0%|          | 0/60 [00:00<?, ?it/s]
+Animation 3: TransformFromCopy(VGroup of 16 submobjects):  18%|#8        | 11/60 [00:00<00:00, 107.76it/s]
+Animation 3: TransformFromCopy(VGroup of 16 submobjects):  40%|####      | 24/60 [00:00<00:00, 116.88it/s]
+Animation 3: TransformFromCopy(VGroup of 16 submobjects):  62%|######1   | 37/60 [00:00<00:00, 120.69it/s]
+Animation 3: TransformFromCopy(VGroup of 16 submobjects):  90%|######### | 54/60 [00:00<00:00, 135.15it/s]
+                                                                                                          
+
+Animation 4: FadeIn(Text('4 �� 4 = 16ĭ')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 4: FadeIn(Text('4 �� 4 = 16ĭ')):  53%|#####3    | 16/30 [00:00<00:00, 154.67it/s]
+                                                                                           
+
+Animation 5: Create(Arrow), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 5: Create(Arrow), etc.:  47%|####6     | 14/30 [00:00<00:00, 137.99it/s]
+Animation 5: Create(Arrow), etc.:  93%|#########3| 28/30 [00:00<00:00, 130.62it/s]
+                                                                                  
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/latex.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/dvisvgm.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+
+Animation 7: FadeIn(MathTex('n^2\\ \\longrightarrow\\ (2n)^2=4n^2')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 7: FadeIn(MathTex('n^2\\ \\longrightarrow\\ (2n)^2=4n^2')):  47%|####6     | 14/30 [00:00<00:00, 132.64it/s]
+Animation 7: FadeIn(MathTex('n^2\\ \\longrightarrow\\ (2n)^2=4n^2')):  93%|#########3| 28/30 [00:00<00:00, 128.01it/s]
+                                                                                                                      
+
+Animation 9: FadeIn(Text('��ü ����� ���������� ����� ���� �⺻ ���� �� �������� ������ �ƴ�')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 9: FadeIn(Text('��ü ����� ���������� ����� ���� �⺻ ���� �� �������� ������ �ƴ�')):  67%|######6   | 10/15 [00:00<00:00, 99.54it/s]
+                                                                                                                                                   
+
+Animation 10: FadeIn(Text('��ü �۾����� ��� ��� ũ�⿡ ���')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 10: FadeIn(Text('��ü �۾����� ��� ��� ũ�⿡ ���')):  47%|####6     | 14/30 [00:00<00:00, 133.73it/s]
+Animation 10: FadeIn(Text('��ü �۾����� ��� ��� ũ�⿡ ���')):  93%|#########3| 28/30 [00:00<00:00, 124.78it/s]
+                                                                                                                     
+Manim Community v0.21.0
+
+
+Animation 0: Create(NumberLine):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 0: Create(NumberLine):  73%|#######3  | 22/30 [00:00<00:00, 219.77it/s]
+                                                                                 
+
+Animation 1: Create(Line), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 1: Create(Line), etc.:  83%|########3 | 25/30 [00:00<00:00, 242.58it/s]
+                                                                                 
+
+Animation 2: FadeIn(VGroup of 2 submobjects):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 2: FadeIn(VGroup of 2 submobjects):  43%|####3     | 13/30 [00:00<00:00, 127.04it/s]
+Animation 2: FadeIn(VGroup of 2 submobjects):  87%|########6 | 26/30 [00:00<00:00, 126.78it/s]
+                                                                                              
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/latex.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/dvisvgm.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+
+Animation 3: FadeIn(MathTex('\\omega')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 3: FadeIn(MathTex('\\omega')):  77%|#######6  | 23/30 [00:00<00:00, 228.58it/s]
+                                                                                         
+
+Animation 5: FadeIn(Text('������ ���� �������� ���Ѱ� (infimum) �� ���ü \u2102 ����')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 5: FadeIn(Text('������ ���� �������� ���Ѱ� (infimum) �� ���ü \u2102 ����')):  37%|###6      | 11/30 [00:00<00:00, 108.66it/s]
+Animation 5: FadeIn(Text('������ ���� �������� ���Ѱ� (infimum) �� ���ü \u2102 ����')):  73%|#######3  | 22/30 [00:00<00:00, 105.81it/s]
+                                                                                                                                    
+
+Animation 7: Create(DashedLine), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 7: Create(DashedLine), etc.:  47%|####6     | 14/30 [00:00<00:00, 130.19it/s]
+Animation 7: Create(DashedLine), etc.:  93%|#########3| 28/30 [00:00<00:00, 121.51it/s]
+                                                                                       
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/latex.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/dvisvgm.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+
+Animation 9: Write(MathTex('\\omega=2\\ ?')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 9: Write(MathTex('\\omega=2\\ ?')):  60%|######    | 18/30 [00:00<00:00, 174.53it/s]
+                                                                                              
+
+Animation 11: FadeOut(NumberLine), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 11: FadeOut(NumberLine), etc.:  23%|##3       | 7/30 [00:00<00:00, 60.86it/s]
+Animation 11: FadeOut(NumberLine), etc.:  47%|####6     | 14/30 [00:00<00:00, 59.50it/s]
+Animation 11: FadeOut(NumberLine), etc.:  67%|######6   | 20/30 [00:00<00:00, 58.33it/s]
+Animation 11: FadeOut(NumberLine), etc.:  87%|########6 | 26/30 [00:00<00:00, 57.09it/s]
+                                                                                        
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/latex.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/dvisvgm.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+
+Animation 12: Write(MathTex('\\omega=2\\quad\\not\\Rightarrow\\quad M(n)=O(n^2)')):   0%|          | 0/60 [00:00<?, ?it/s]
+Animation 12: Write(MathTex('\\omega=2\\quad\\not\\Rightarrow\\quad M(n)=O(n^2)')):  23%|##3       | 14/60 [00:00<00:00, 135.95it/s]
+Animation 12: Write(MathTex('\\omega=2\\quad\\not\\Rightarrow\\quad M(n)=O(n^2)')):  47%|####6     | 28/60 [00:00<00:00, 127.20it/s]
+Animation 12: Write(MathTex('\\omega=2\\quad\\not\\Rightarrow\\quad M(n)=O(n^2)')):  68%|######8   | 41/60 [00:00<00:00, 123.48it/s]
+Animation 12: Write(MathTex('\\omega=2\\quad\\not\\Rightarrow\\quad M(n)=O(n^2)')):  92%|#########1| 55/60 [00:00<00:00, 127.89it/s]
+                                                                                                                                    
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/latex.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/dvisvgm.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+
+Animation 13: Write(MathTex('\\forall\\varepsilon>0:\\quad M(n)=O_{\\varepsilon}(n^{2+\\varepsilon})')):   0%|          | 0/60 [00:00<?, ?it/s]
+Animation 13: Write(MathTex('\\forall\\varepsilon>0:\\quad M(n)=O_{\\varepsilon}(n^{2+\\varepsilon})')):  23%|##3       | 14/60 [00:00<00:00, 132.07it/s]
+Animation 13: Write(MathTex('\\forall\\varepsilon>0:\\quad M(n)=O_{\\varepsilon}(n^{2+\\varepsilon})')):  47%|####6     | 28/60 [00:00<00:00, 124.48it/s]
+Animation 13: Write(MathTex('\\forall\\varepsilon>0:\\quad M(n)=O_{\\varepsilon}(n^{2+\\varepsilon})')):  68%|######8   | 41/60 [00:00<00:00, 118.44it/s]
+Animation 13: Write(MathTex('\\forall\\varepsilon>0:\\quad M(n)=O_{\\varepsilon}(n^{2+\\varepsilon})')):  92%|#########1| 55/60 [00:00<00:00, 124.01it/s]
+                                                                                                                                                         
+
+Animation 14: Create(NumberLine):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 14: Create(NumberLine):  73%|#######3  | 22/30 [00:00<00:00, 214.00it/s]
+                                                                                  
+
+Animation 15: _MethodAnimation(Dot), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 15: _MethodAnimation(Dot), etc.:  67%|######6   | 20/30 [00:00<00:00, 193.25it/s]
+                                                                                           
+
+Animation 16: _MethodAnimation(Dot), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 16: _MethodAnimation(Dot), etc.:  57%|#####6    | 17/30 [00:00<00:00, 166.89it/s]
+                                                                                           
+
+Animation 17: FadeIn(Text('��� ���ϴ� ��ŭ �۰� �� ����� �˰������� �忡 ���� �޶��� �� ����')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 17: FadeIn(Text('��� ���ϴ� ��ŭ �۰� �� ����� �˰������� �忡 ���� �޶��� �� ����')):  40%|####      | 12/30 [00:00<00:00, 113.11it/s]
+Animation 17: FadeIn(Text('��� ���ϴ� ��ŭ �۰� �� ����� �˰������� �忡 ���� �޶��� �� ����')):  80%|########  | 24/30 [00:00<00:00, 109.34it/s]
+                                                                                                                                                
+
+Animation 19: FadeIn(Text('���� ���Ŀ��� ������ ���̸�\n������� �׻� �� ��������?')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 19: FadeIn(Text('���� ���Ŀ��� ������ ���̸�\n������� �׻� �� ��������?')):  40%|####      | 12/30 [00:00<00:00, 112.36it/s]
+Animation 19: FadeIn(Text('���� ���Ŀ��� ������ ���̸�\n������� �׻� �� ��������?')):  80%|########  | 24/30 [00:00<00:00, 110.08it/s]
+                                                                                                                                       
+OK: C:\Users\as042\OneDrive\Desktop\manim_video\exports\mm02_growth_bounds_166s_1080p30.mp4; 4980 frames; 30 fps; 166 seconds

@@ -1,0 +1,72 @@
+version: 1
+objects:
+  - id: text
+    renderer: manim
+    import: visual_library.manim.text
+    kind: typography
+    tags: [korean, label, title, caption, auto-fit]
+    status: stable
+
+  - id: pill
+    renderer: manim
+    import: visual_library.manim.Pill
+    kind: container
+    tags: [badge, chip, label, status]
+    status: stable
+
+  - id: weight-matrix
+    renderer: manim
+    import: visual_library.manim.WeightMatrix
+    kind: data
+    tags: [matrix, pruning, sparsity, zero, weights]
+    status: stable
+
+  - id: weight-connection
+    renderer: manim
+    import: visual_library.manim.weight_connection
+    kind: connector
+    tags: [edge, neural-network, pruning, weight]
+    status: stable
+
+  - id: gpu-data-cell
+    renderer: manim
+    import: visual_library.manim.gpu.DataCell
+    kind: data
+    tags: [gpu, array, value, cell]
+    status: adapter
+
+  - id: gpu-thread-group
+    renderer: manim
+    import: visual_library.manim.gpu.ThreadGroup
+    kind: system
+    tags: [gpu, thread, warp, parallel]
+    status: adapter
+
+  - id: gpu-memory-box
+    renderer: manim
+    import: visual_library.manim.gpu.MemoryBox
+    kind: system
+    tags: [gpu, memory, shared-memory, hierarchy]
+    status: adapter
+
+  - id: gpu-block
+    renderer: manim
+    import: visual_library.manim.gpu.GPUBlock
+    kind: system
+    tags: [gpu, block, threads, shared-memory]
+    status: adapter
+
+  - id: gpu-grid
+    renderer: manim
+    import: visual_library.manim.gpu.GPUGrid
+    kind: system
+    tags: [gpu, grid, kernel, blocks]
+    status: adapter
+
+  - id: data-arrow
+    renderer: manim
+    import: visual_library.manim.gpu.DataArrow
+    kind: connector
+    tags: [flow, transfer, arrow, gpu]
+    status: adapter
+

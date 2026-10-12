@@ -1,0 +1,44 @@
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(VGroup of 9 submobjects):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 0: FadeIn(VGroup of 9 submobjects):  30%|###       | 9/30 [00:00<00:00, 84.73it/s]
+Animation 0: FadeIn(VGroup of 9 submobjects):  60%|######    | 18/30 [00:00<00:00, 83.54it/s]
+Animation 0: FadeIn(VGroup of 9 submobjects):  90%|######### | 27/30 [00:00<00:00, 83.31it/s]
+                                                                                             
+
+Animation 1: FadeIn(Text('5���� �и��� �� ������ 9�� ������ �̺���')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 1: FadeIn(Text('5���� �и��� �� ������ 9�� ������ �̺���')):  40%|####      | 12/30 [00:00<00:00, 117.39it/s]
+Animation 1: FadeIn(Text('5���� �и��� �� ������ 9�� ������ �̺���')):  80%|########  | 24/30 [00:00<00:00, 112.74it/s]
+                                                                                                                      
+
+Animation 3: FadeOut(VGroup of 9 submobjects):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 3: FadeOut(VGroup of 9 submobjects):  27%|##6       | 8/30 [00:00<00:00, 75.68it/s]
+Animation 3: FadeOut(VGroup of 9 submobjects):  53%|#####3    | 16/30 [00:00<00:00, 74.13it/s]
+Animation 3: FadeOut(VGroup of 9 submobjects):  80%|########  | 24/30 [00:00<00:00, 74.00it/s]
+                                                                                              
+
+Animation 4: FadeIn(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 4: FadeIn(VGroup of 2 submobjects), etc.:  40%|####      | 12/30 [00:00<00:00, 110.44it/s]
+Animation 4: FadeIn(VGroup of 2 submobjects), etc.:  80%|########  | 24/30 [00:00<00:00, 112.02it/s]
+                                                                                                    
+
+Animation 6: Transform(VGroup of 2 submobjects), etc.:   0%|          | 0/45 [00:00<?, ?it/s]
+Animation 6: Transform(VGroup of 2 submobjects), etc.:  27%|##6       | 12/45 [00:00<00:00, 113.55it/s]
+Animation 6: Transform(VGroup of 2 submobjects), etc.:  53%|#####3    | 24/45 [00:00<00:00, 113.39it/s]
+Animation 6: Transform(VGroup of 2 submobjects), etc.:  80%|########  | 36/45 [00:00<00:00, 115.25it/s]
+                                                                                                       
+
+Animation 7: FadeIn(Text('ó������ ���� �Է��� ����Ѵ�')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 7: FadeIn(Text('ó������ ���� �Է��� ����Ѵ�')):  43%|####3     | 13/30 [00:00<00:00, 129.59it/s]
+Animation 7: FadeIn(Text('ó������ ���� �Է��� ����Ѵ�')):  87%|########6 | 26/30 [00:00<00:00, 129.16it/s]
+                                                                                                            
+
+Animation 9: Write(MathTex('a b_1 z_1+a b_2 z_2')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 9: Write(MathTex('a b_1 z_1+a b_2 z_2')):  47%|####6     | 14/30 [00:00<00:00, 138.10it/s]
+Animation 9: Write(MathTex('a b_1 z_1+a b_2 z_2')):  93%|#########3| 28/30 [00:00<00:00, 137.97it/s]
+                                                                                                    
+
+Animation 10: FadeIn(Text('���� ������ ���� ���� �� z�� ��� ��ġ ǥ�� �� �Ϲ� 9�� ���� ��ü�� ������ ������ �ƴ�')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 10: FadeIn(Text('���� ������ ���� ���� �� z�� ��� ��ġ ǥ�� �� �Ϲ� 9�� ���� ��ü�� ������ ������ �ƴ�')):  73%|#######3  | 11/15 [00:00<00:00, 103.25it/s]
+                                                                                                                                                                    

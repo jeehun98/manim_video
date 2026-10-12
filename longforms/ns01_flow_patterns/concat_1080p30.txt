@@ -1,0 +1,7 @@
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns01_flow_patterns/scenes/01_freeze/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns01_flow_patterns/scenes/02_field/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns01_flow_patterns/scenes/03_roles/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns01_flow_patterns/scenes/04_advection/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns01_flow_patterns/scenes/05_viscosity/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns01_flow_patterns/scenes/06_compare/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns01_flow_patterns/scenes/07_question/visual_1080p30.mp4'

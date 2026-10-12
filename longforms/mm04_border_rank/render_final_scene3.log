@@ -1,0 +1,97 @@
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(VGroup of 3 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                         
+
+Animation 1: FadeIn(Text('���� ����: ���θ� ����\n�ѷ��� �� p�� ������')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                                
+
+Animation 2: FadeIn(Dot):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                               
+
+Animation 4: Create(VMobject), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                          
+
+Animation 5: Create(Circle):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                   
+
+Animation 6: Transform(Circle), etc.:   0%|          | 0/21 [00:00<?, ?it/s]
+Animation 6: Transform(Circle), etc.:  95%|#########5| 20/21 [00:00<00:00, 198.94it/s]
+                                                                                      
+
+Animation 8: Transform(Circle), etc.:   0%|          | 0/21 [00:00<?, ?it/s]
+                                                                            
+
+Animation 10: Transform(Circle), etc.:   0%|          | 0/21 [00:00<?, ?it/s]
+                                                                             
+
+Animation 12: Transform(Text('���� ����: ���θ� ����\n�ѷ��� �� p�� ������')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 12: Transform(Text('���� ����: ���θ� ����\n�ѷ��� �� p�� ������')):  40%|####      | 12/30 [00:00<00:00, 115.91it/s]
+Animation 12: Transform(Text('���� ����: ���θ� ����\n�ѷ��� �� p�� ������')):  80%|########  | 24/30 [00:00<00:00, 115.27it/s]
+                                                                                                                               
+
+Animation 14: FadeOut(Circle), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 14: FadeOut(Circle), etc.:  37%|###6      | 11/30 [00:00<00:00, 107.75it/s]
+Animation 14: FadeOut(Circle), etc.:  73%|#######3  | 22/30 [00:00<00:00, 103.99it/s]
+                                                                                     
+
+Animation 15: Transform(MathTex('\\mathcal R_2')), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 15: Transform(MathTex('\\mathcal R_2')), etc.:  33%|###3      | 10/30 [00:00<00:00, 99.35it/s]
+Animation 15: Transform(MathTex('\\mathcal R_2')), etc.:  67%|######6   | 20/30 [00:00<00:00, 98.28it/s]
+Animation 15: Transform(MathTex('\\mathcal R_2')), etc.: 100%|##########| 30/30 [00:00<00:00, 96.72it/s]
+                                                                                                        
+
+Animation 16: FadeIn(Text('���� = ���� ������ �����ϴ� ���� ���� ���� ����')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 16: FadeIn(Text('���� = ���� ������ �����ϴ� ���� ���� ���� ����')):  33%|###3      | 10/30 [00:00<00:00, 97.70it/s]
+Animation 16: FadeIn(Text('���� = ���� ������ �����ϴ� ���� ���� ���� ����')):  73%|#######3  | 22/30 [00:00<00:00, 106.64it/s]
+                                                                                                                               
+
+Animation 18: FadeOut(Circle), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 18: FadeOut(Circle), etc.:  23%|##3       | 7/30 [00:00<00:00, 62.76it/s]
+Animation 18: FadeOut(Circle), etc.:  47%|####6     | 14/30 [00:00<00:00, 59.87it/s]
+Animation 18: FadeOut(Circle), etc.:  67%|######6   | 20/30 [00:00<00:00, 58.57it/s]
+Animation 18: FadeOut(Circle), etc.:  87%|########6 | 26/30 [00:00<00:00, 58.13it/s]
+                                                                                    
+
+Animation 19: Transform(Text('���� ����: ���θ� ����\n�ѷ��� �� p�� ������')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                                    
+
+Animation 20: Write(MathTex('T\\notin\\mathcal R_2')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                            
+
+Animation 21: FadeIn(Dot):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                
+
+Animation 23: Create(VMobject), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                           
+
+Animation 24: FadeIn(Text('�� �� ���Ϸ� ��Ȯ�� �� ����, �Ѿ��� ������� �� �ִ�')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 24: FadeIn(Text('�� �� ���Ϸ� ��Ȯ�� �� ����, �Ѿ��� ������� �� �ִ�')):  40%|####      | 12/30 [00:00<00:00, 111.60it/s]
+Animation 24: FadeIn(Text('�� �� ���Ϸ� ��Ȯ�� �� ����, �Ѿ��� ������� �� �ִ�')):  80%|########  | 24/30 [00:00<00:00, 111.68it/s]
+                                                                                                                                        
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/latex.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/dvisvgm.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+
+Animation 26: Create(Circle), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 26: Create(Circle), etc.:  30%|###       | 9/30 [00:00<00:00, 80.69it/s]
+Animation 26: Create(Circle), etc.:  60%|######    | 18/30 [00:00<00:00, 71.46it/s]
+Animation 26: Create(Circle), etc.:  87%|########6 | 26/30 [00:00<00:00, 66.02it/s]
+                                                                                   
+
+Animation 27: Transform(MathTex('T\\notin\\mathcal R_2')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 27: Transform(MathTex('T\\notin\\mathcal R_2')):  33%|###3      | 10/30 [00:00<00:00, 95.65it/s]
+Animation 27: Transform(MathTex('T\\notin\\mathcal R_2')):  67%|######6   | 20/30 [00:00<00:00, 90.95it/s]
+Animation 27: Transform(MathTex('T\\notin\\mathcal R_2')): 100%|##########| 30/30 [00:00<00:00, 86.09it/s]
+                                                                                                          
+
+Animation 28: FadeIn(Text('��ǥ T: ���� ��ũ �� 2')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 28: FadeIn(Text('��ǥ T: ���� ��ũ �� 2')):  50%|#####     | 15/30 [00:00<00:00, 149.21it/s]
+Animation 28: FadeIn(Text('��ǥ T: ���� ��ũ �� 2')): 100%|##########| 30/30 [00:00<00:00, 140.19it/s]
+                                                                                                     
+
+Animation 29: FadeIn(Text('���� ������ ���䵵 �� ���� �ټ� ������ ���������󡤰Ÿ��� ��Ÿ���� ����')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 29: FadeIn(Text('���� ������ ���䵵 �� ���� �ټ� ������ ���������󡤰Ÿ��� ��Ÿ���� ����')):  73%|#######3  | 11/15 [00:00<00:00, 104.70it/s]
+                                                                                                                                                    

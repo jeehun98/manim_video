@@ -1,0 +1,25 @@
+{
+  "basis": "user measured cumulative sentence end times",
+  "ends": [
+    4,
+    7,
+    14,
+    18,
+    20,
+    25,
+    29,
+    34,
+    39,
+    43,
+    49,
+    56,
+    58,
+    64,
+    68,
+    75,
+    78,
+    84,
+    90,
+    97
+  ]
+}

@@ -70,6 +70,10 @@ EPISODES["prune01"] = ("episodes/prune01_zero_weights/scene.py", "ZeroWeights")
 EPISODES["prune02"] = ("episodes/prune02_why_not_10x/scene.py", "WhyNotTenTimes")
 EPISODES["prune03"] = ("episodes/prune03_why_2_4/scene.py", "WhyTwoOfFour")
 EPISODES["prune04"] = ("episodes/prune04_hardware_aware/scene.py", "HardwareAwareOptimization")
+EPISODES["exit01"] = ("episodes/exit01_early_exit/scene.py", "EarlyExit")
+EPISODES["exit02"] = ("episodes/exit02_token_pruning/scene.py", "TokenPruning")
+EPISODES["exit03"] = ("episodes/exit03_moe_active_parameters/scene.py", "MixtureOfExperts")
+EPISODES["exit04"] = ("episodes/exit04_kv_cache/scene.py", "KVCache")
 EPISODES["gpuops01"] = ("episodes/gpuops01_fma/scene.py", "GPUFMAIntroduction")
 EPISODES["gpuops02"] = ("episodes/gpuops02_constant_folding/scene.py", "GPUConstantFolding")
 EPISODES["gpuops03"] = ("episodes/gpuops03_loop_unrolling/scene.py", "GPULoopUnrolling")
@@ -99,6 +103,15 @@ EPISODES["nnmath2p02"] = ("episodes/nnmath2p02_superposition/scene.py", "NeuralM
 EPISODES["nnmath2p03"] = ("episodes/nnmath2p03_polysemanticity/scene.py", "NeuralMathPart2Polysemanticity")
 EPISODES["nnmath2p04"] = ("episodes/nnmath2p04_identifiability/scene.py", "NeuralMathPart2Identifiability")
 EPISODES["nnmath2p05"] = ("episodes/nnmath2p05_causal_intervention/scene.py", "NeuralMathPart2CausalIntervention")
+EPISODES["nnmath2p06"] = ("episodes/nnmath2p06_grokking/scene.py", "NeuralMathPart2Grokking")
+EPISODES["nnmath2p07"] = ("episodes/nnmath2p07_feature_vs_lazy/scene.py", "NeuralMathPart2FeatureLazy")
+EPISODES["nnmath2p08"] = ("episodes/nnmath2p08_spectral_bias/scene.py", "NeuralMathPart2SpectralBias")
+EPISODES["nnmath2p09"] = ("episodes/nnmath2p09_edge_of_stability/scene.py", "NeuralMathPart2EdgeOfStability")
+EPISODES["nnmath2p09a"] = ("episodes/nnmath2p09a_stability_boundary/scene.py", "NeuralMathPart2StabilityBoundary")
+EPISODES["nnmath2p09b"] = ("episodes/nnmath2p09b_edge_dynamics/scene.py", "NeuralMathPart2EdgeDynamics")
+EPISODES["nnmath2p10"] = ("episodes/nnmath2p10_catapult/scene.py", "NeuralMathPart2Catapult")
+EPISODES["nnmath2p11"] = ("episodes/nnmath2p11_benign_overfitting/scene.py", "NeuralMathPart2BenignOverfitting")
+EPISODES["nnmath2p12"] = ("episodes/nnmath2p12_mode_connectivity/scene.py", "NeuralMathPart2ModeConnectivity")
 EPISODES["dist01"] = ("episodes/dist01_what_is_distribution/scene.py", "WhatIsDistribution")
 EPISODES["dist02"] = ("episodes/dist02_where_is_center/scene.py", "WhereIsCenter")
 EPISODES["dist03"] = ("episodes/dist03_what_is_variance/scene.py", "WhatIsVariance")
@@ -167,6 +180,24 @@ EPISODES["science08"] = ("episodes/science08_density_growth/scene.py", "DensityG
 EPISODES["science09"] = ("episodes/science09_flat_galaxies/scene.py", "FlatGalaxyDiscovery")
 
 EPISODES["science10"] = ("episodes/science10_cosmic_void/scene.py", "CosmicVoidDiscovery")
+
+EPISODES["science11"] = ("episodes/science11_icecube_neutrino/scene.py", "IceCubeNeutrinoDiscovery")
+
+EPISODES["science12"] = ("episodes/science12_neutrino_telescope/scene.py", "NeutrinoTelescopeDiscovery")
+
+EPISODES["science13"] = ("episodes/science13_ligo_interferometer/scene.py", "LIGOInterferometerDiscovery")
+EPISODES["science14"] = ("episodes/science14_attosecond_pulses/scene.py", "AttosecondPulseDiscovery")
+EPISODES["science15"] = ("episodes/science15_hopfield_memory/scene.py", "HopfieldMemoryDiscovery")
+EPISODES["science16"] = ("episodes/science16_chiral_amplification/scene.py", "ChiralAmplificationDiscovery")
+EPISODES["science17"] = ("episodes/science17_why_chiral_nobel/scene.py", "WhyChiralNobel")
+EPISODES["science18"] = ("episodes/science18_optogenetics/scene.py", "OptogeneticsDiscovery")
+EPISODES["science19"] = ("episodes/science19_kakeya_dimension/scene.py", "KakeyaDimensionDiscovery")
+
+EPISODES["act01"] = ("episodes/act01_relu_geometry/scene.py", "ReLUGeometry")
+EPISODES["nnmath12"] = ("episodes/nnmath12_parameter_symmetry_quotient/scene.py", "NeuralMathPermutationQuotient")
+EPISODES["nnmath13"] = ("episodes/nnmath13_gradient_dynamics/scene.py", "NeuralMathGradientDynamics")
+EPISODES["nnmath14"] = ("episodes/nnmath14_hessian_flat_directions/scene.py", "NeuralMathHessianFlatDirections")
+
 
 def main():
     p = argparse.ArgumentParser()

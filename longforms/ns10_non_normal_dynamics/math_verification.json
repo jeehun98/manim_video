@@ -1,0 +1,17 @@
+{
+  "A_eigenvalues": [
+    -1.0,
+    -1.0
+  ],
+  "state_at_1": [
+    3.6787944117144233,
+    0.36787944117144233
+  ],
+  "selected_norm_at_1": 3.697142627340455,
+  "maximum_gain_at_1": 3.715221655040006,
+  "gain_at_3": 1.4952697801023729,
+  "peak_time": 0.9797958971132712,
+  "peak_gain": 3.715955228030023,
+  "non_normal_commutator_norm": 141.4213562373095,
+  "checks": "exact solution derivative; negative eigenvalues; non-normal counterexample contraction"
+}

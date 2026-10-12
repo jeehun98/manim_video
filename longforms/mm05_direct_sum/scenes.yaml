@@ -1,0 +1,22 @@
+id: mm05_direct_sum
+timing_basis: user_supplied_tts_endpoints
+video: {width: 1920, height: 1080, fps: 30}
+scenes:
+  - id: '01'
+    directory: scenes/01_independent
+    duration_seconds: 17
+  - id: '02'
+    directory: scenes/02_blocks
+    duration_seconds: 22
+  - id: '03'
+    directory: scenes/03_cost
+    duration_seconds: 32
+  - id: '04'
+    directory: scenes/04_border
+    duration_seconds: 23
+  - id: '05'
+    directory: scenes/05_growth
+    duration_seconds: 36
+  - id: '06'
+    directory: scenes/06_next
+    duration_seconds: 21

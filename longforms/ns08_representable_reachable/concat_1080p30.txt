@@ -1,0 +1,8 @@
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns08_representable_reachable/scenes/01_conditions/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns08_representable_reachable/scenes/02_exists/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns08_representable_reachable/scenes/03_local_rule/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns08_representable_reachable/scenes/04_basins/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns08_representable_reachable/scenes/05_two_answers/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns08_representable_reachable/scenes/06_bias/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns08_representable_reachable/scenes/07_compare/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns08_representable_reachable/scenes/08_paths/visual_1080p30.mp4'

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "01",
+    "title": "독립성이 출발 조건이 아니라면?",
+    "directory": "scenes/01_zoom",
+    "class": "Scene01",
+    "duration_seconds": 19,
+    "storyboard_seconds": 19,
+    "start_seconds": 0,
+    "timing_basis": "user supplied TTS"
+  },
+  {
+    "id": "02",
+    "title": "한 출력으로 들어오는 두 경로",
+    "directory": "scenes/02_indices",
+    "class": "Scene02",
+    "duration_seconds": 17,
+    "storyboard_seconds": 17,
+    "start_seconds": 19,
+    "timing_basis": "user supplied TTS"
+  },
+  {
+    "id": "03",
+    "title": "두 가지 번호를 두 번 고르면",
+    "directory": "scenes/03_pairs",
+    "class": "Scene03",
+    "duration_seconds": 17,
+    "storyboard_seconds": 17,
+    "start_seconds": 36,
+    "timing_basis": "user supplied TTS"
+  },
+  {
+    "id": "04",
+    "title": "네 번호를 따라 곱하고 더한다",
+    "directory": "scenes/04_paths",
+    "class": "Scene04",
+    "duration_seconds": 18,
+    "storyboard_seconds": 18,
+    "start_seconds": 53,
+    "timing_basis": "user supplied TTS"
+  },
+  {
+    "id": "05",
+    "title": "계산 관계 자체의 거듭제곱",
+    "directory": "scenes/05_power",
+    "class": "Scene05",
+    "duration_seconds": 14,
+    "storyboard_seconds": 14,
+    "start_seconds": 71,
+    "timing_basis": "user supplied TTS"
+  },
+  {
+    "id": "06",
+    "title": "직합에서 일반적인 부분합으로",
+    "directory": "scenes/06_mixed",
+    "class": "Scene06",
+    "duration_seconds": 24,
+    "storyboard_seconds": 24,
+    "start_seconds": 85,
+    "timing_basis": "user supplied TTS"
+  },
+  {
+    "id": "07",
+    "title": "앞에서는 분리됐지만, 지금은?",
+    "directory": "scenes/07_shared",
+    "class": "Scene07",
+    "duration_seconds": 21,
+    "storyboard_seconds": 21,
+    "start_seconds": 109,
+    "timing_basis": "user supplied TTS"
+  },
+  {
+    "id": "08",
+    "title": "독립성을 먼저 가정할까, 찾아낼까?",
+    "directory": "scenes/08_laser",
+    "class": "Scene08",
+    "duration_seconds": 21,
+    "storyboard_seconds": 21,
+    "start_seconds": 130,
+    "timing_basis": "user supplied TTS"
+  }
+]

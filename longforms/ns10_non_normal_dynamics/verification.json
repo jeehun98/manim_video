@@ -1,0 +1,35 @@
+{
+  "status": "verified",
+  "timing_basis": "user measured cumulative sentence end times",
+  "scenes": 11,
+  "tts_paragraphs": 77,
+  "metadata": {
+    "width": 1920,
+    "height": 1080,
+    "fps": "30",
+    "frames": 10740,
+    "duration_seconds": 358.0,
+    "audio_streams": 0,
+    "codec": "h264"
+  },
+  "full_ffmpeg_decode": "passed with no errors",
+  "visual_review": "358-second preview and final contact sheets reviewed; no cue overruns; captions and animation endpoints retimed",
+  "mathematical_checks": "math_verification.json: exact evolution, negative eigenvalues, SVD gain, contractive non-normal counterexample",
+  "limitations": [
+    "silent video; voice audio not supplied",
+    "lift-up and continuous RNN are conceptual linearized comparisons, not full system simulations"
+  ],
+  "scene_durations_seconds": [
+    28,
+    26,
+    24,
+    29,
+    34,
+    34,
+    33,
+    38,
+    35,
+    40,
+    37
+  ]
+}

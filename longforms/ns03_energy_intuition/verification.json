@@ -1,0 +1,16 @@
+{
+  "duration_seconds": 97,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "frames": 2910,
+  "tts_cues": 20,
+  "audio_streams": 0,
+  "timing_basis": "user measured 20 cumulative sentence ends",
+  "validation": [
+    "all scenes visually reviewed",
+    "FFmpeg full decode without errors",
+    "exact 2910 frames and 97 seconds",
+    "20 cue boundaries match user timing exactly"
+  ]
+}

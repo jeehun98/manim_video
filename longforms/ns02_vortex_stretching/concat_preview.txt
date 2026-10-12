@@ -1,0 +1,7 @@
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns02_vortex_stretching/scenes/01_plane/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns02_vortex_stretching/scenes/02_vorticity/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns02_vortex_stretching/scenes/03_tube/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns02_vortex_stretching/scenes/04_stretch/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns02_vortex_stretching/scenes/05_equation/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns02_vortex_stretching/scenes/06_competition/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/ns02_vortex_stretching/scenes/07_contrast/visual_preview.mp4'

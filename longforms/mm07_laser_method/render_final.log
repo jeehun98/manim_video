@@ -1,0 +1,268 @@
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(VGroup of 2 submobjects):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 0: FadeIn(VGroup of 2 submobjects):  53%|#####3    | 16/30 [00:00<00:00, 153.98it/s]
+                                                                                              
+
+Animation 2: FadeIn(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 2: FadeIn(VGroup of 2 submobjects), etc.:  50%|#####     | 15/30 [00:00<00:00, 140.09it/s]
+Animation 2: FadeIn(VGroup of 2 submobjects), etc.: 100%|##########| 30/30 [00:00<00:00, 135.69it/s]
+                                                                                                    
+
+Animation 4: FadeIn(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 4: FadeIn(VGroup of 2 submobjects), etc.:  50%|#####     | 15/30 [00:00<00:00, 139.98it/s]
+Animation 4: FadeIn(VGroup of 2 submobjects), etc.:  97%|#########6| 29/30 [00:00<00:00, 134.96it/s]
+                                                                                                    
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/latex.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/dvisvgm.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+
+Animation 6: Write(MathTex('T^{\\otimes k}\\ \\longrightarrow\\ \\bigoplus_i M_{n_i}')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 6: Write(MathTex('T^{\\otimes k}\\ \\longrightarrow\\ \\bigoplus_i M_{n_i}')):  50%|#####     | 15/30 [00:00<00:00, 142.56it/s]
+Animation 6: Write(MathTex('T^{\\otimes k}\\ \\longrightarrow\\ \\bigoplus_i M_{n_i}')): 100%|##########| 30/30 [00:00<00:00, 131.11it/s]
+                                                                                                                                         
+
+Animation 8: FadeIn(Text('� ������ ���� ���ΰ�?')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 8: FadeIn(Text('� ������ ���� ���ΰ�?')):  50%|#####     | 15/30 [00:00<00:00, 142.15it/s]
+Animation 8: FadeIn(Text('� ������ ���� ���ΰ�?')): 100%|##########| 30/30 [00:00<00:00, 132.92it/s]
+                                                                                                       
+
+Animation 9: FadeIn(Text('������ ���Ұ� ���� ������ �ʿ� �� ������ �ټ����� ������ �������� ����')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 9: FadeIn(Text('������ ���Ұ� ���� ������ �ʿ� �� ������ �ټ����� ������ �������� ����')):  73%|#######3  | 11/15 [00:00<00:00, 104.56it/s]
+                                                                                                                                                    
+Manim Community v0.21.0
+
+
+Animation 0: Create(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 0: Create(VGroup of 2 submobjects), etc.:  33%|###3      | 10/30 [00:00<00:00, 99.40it/s]
+Animation 0: Create(VGroup of 2 submobjects), etc.:  70%|#######   | 21/30 [00:00<00:00, 100.74it/s]
+                                                                                                    
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/latex.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/dvisvgm.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+
+Animation 1: Write(MathTex('T=x_1y_1z_1+x_1y_2z_2+x_2y_3z_3')):   0%|          | 0/60 [00:00<?, ?it/s]
+Animation 1: Write(MathTex('T=x_1y_1z_1+x_1y_2z_2+x_2y_3z_3')):  22%|##1       | 13/60 [00:00<00:00, 119.55it/s]
+Animation 1: Write(MathTex('T=x_1y_1z_1+x_1y_2z_2+x_2y_3z_3')):  42%|####1     | 25/60 [00:00<00:00, 119.05it/s]
+Animation 1: Write(MathTex('T=x_1y_1z_1+x_1y_2z_2+x_2y_3z_3')):  62%|######1   | 37/60 [00:00<00:00, 117.04it/s]
+Animation 1: Write(MathTex('T=x_1y_1z_1+x_1y_2z_2+x_2y_3z_3')):  83%|########3 | 50/60 [00:00<00:00, 118.06it/s]
+                                                                                                                
+
+Animation 3: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 3: Indicate(VGroup of 2 submobjects), etc.:  33%|###3      | 10/30 [00:00<00:00, 93.40it/s]
+Animation 3: Indicate(VGroup of 2 submobjects), etc.:  67%|######6   | 20/30 [00:00<00:00, 93.53it/s]
+Animation 3: Indicate(VGroup of 2 submobjects), etc.: 100%|##########| 30/30 [00:00<00:00, 93.84it/s]
+                                                                                                     
+
+Animation 4: FadeIn(Text('ù° �� ��°: X�� ����')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 4: FadeIn(Text('ù° �� ��°: X�� ����')):  50%|#####     | 15/30 [00:00<00:00, 138.67it/s]
+Animation 4: FadeIn(Text('ù° �� ��°: X�� ����')):  97%|#########6| 29/30 [00:00<00:00, 109.79it/s]
+                                                                                                    
+
+Animation 6: _MethodAnimation(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 6: _MethodAnimation(VGroup of 2 submobjects), etc.:  30%|###       | 9/30 [00:00<00:00, 85.82it/s]
+Animation 6: _MethodAnimation(VGroup of 2 submobjects), etc.:  60%|######    | 18/30 [00:00<00:00, 85.92it/s]
+Animation 6: _MethodAnimation(VGroup of 2 submobjects), etc.:  90%|######### | 27/30 [00:00<00:00, 87.20it/s]
+                                                                                                             
+
+Animation 8: FadeIn(Text('ù° �� ��°: X / Y / Z ��� �и�')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 8: FadeIn(Text('ù° �� ��°: X / Y / Z ��� �и�')):  50%|#####     | 15/30 [00:00<00:00, 140.28it/s]
+Animation 8: FadeIn(Text('ù° �� ��°: X / Y / Z ��� �и�')): 100%|##########| 30/30 [00:00<00:00, 131.88it/s]
+                                                                                                               
+
+Animation 9: FadeIn(Text('������ ���� �� ��İ� ��ü�� �ƴ� �� Z�� ��� ��ǥ�� ǥ��')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 9: FadeIn(Text('������ ���� �� ��İ� ��ü�� �ƴ� �� Z�� ��� ��ǥ�� ǥ��')):  80%|########  | 12/15 [00:00<00:00, 112.98it/s]
+                                                                                                                                      
+Manim Community v0.21.0
+
+
+Animation 0: Create(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 0: Create(VGroup of 2 submobjects), etc.:  33%|###3      | 10/30 [00:00<00:00, 94.18it/s]
+Animation 0: Create(VGroup of 2 submobjects), etc.:  70%|#######   | 21/30 [00:00<00:00, 101.43it/s]
+                                                                                                    
+
+Animation 1: FadeIn(Text('���� x�� = 0 ?')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 1: FadeIn(Text('���� x�� = 0 ?')):  57%|#####6    | 17/30 [00:00<00:00, 160.95it/s]
+                                                                                            
+
+Animation 3: _MethodAnimation(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 3: _MethodAnimation(VGroup of 2 submobjects), etc.:  37%|###6      | 11/30 [00:00<00:00, 106.62it/s]
+Animation 3: _MethodAnimation(VGroup of 2 submobjects), etc.:  73%|#######3  | 22/30 [00:00<00:00, 104.26it/s]
+                                                                                                              
+
+Animation 4: FadeIn(Text('ù° �׵� �Բ� �������')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 4: FadeIn(Text('ù° �׵� �Բ� �������')):  43%|####3     | 13/30 [00:00<00:00, 126.38it/s]
+Animation 4: FadeIn(Text('ù° �׵� �Բ� �������')):  87%|########6 | 26/30 [00:00<00:00, 122.74it/s]
+                                                                                                      
+
+Animation 6: Restore(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 6: Restore(VGroup of 2 submobjects), etc.:  30%|###       | 9/30 [00:00<00:00, 83.17it/s]
+Animation 6: Restore(VGroup of 2 submobjects), etc.:  60%|######    | 18/30 [00:00<00:00, 86.34it/s]
+Animation 6: Restore(VGroup of 2 submobjects), etc.:  90%|######### | 27/30 [00:00<00:00, 86.96it/s]
+                                                                                                    
+
+Animation 8: _MethodAnimation(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 8: _MethodAnimation(VGroup of 2 submobjects), etc.:  30%|###       | 9/30 [00:00<00:00, 87.97it/s]
+Animation 8: _MethodAnimation(VGroup of 2 submobjects), etc.:  67%|######6   | 20/30 [00:00<00:00, 97.16it/s]
+Animation 8: _MethodAnimation(VGroup of 2 submobjects), etc.: 100%|##########| 30/30 [00:00<00:00, 97.32it/s]
+                                                                                                             
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/latex.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/dvisvgm.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+
+Animation 10: Write(MathTex("T'=x_1y_1z_1+x_2y_3z_3")):   0%|          | 0/60 [00:00<?, ?it/s]
+Animation 10: Write(MathTex("T'=x_1y_1z_1+x_2y_3z_3")):  25%|##5       | 15/60 [00:00<00:00, 143.51it/s]
+Animation 10: Write(MathTex("T'=x_1y_1z_1+x_2y_3z_3")):  50%|#####     | 30/60 [00:00<00:00, 128.95it/s]
+Animation 10: Write(MathTex("T'=x_1y_1z_1+x_2y_3z_3")):  72%|#######1  | 43/60 [00:00<00:00, 126.66it/s]
+Animation 10: Write(MathTex("T'=x_1y_1z_1+x_2y_3z_3")):  95%|#########5| 57/60 [00:00<00:00, 127.96it/s]
+                                                                                                        
+
+Animation 11: FadeIn(Text('���� ���� �� �� ������ ������ ��� ���� �����')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 11: FadeIn(Text('���� ���� �� �� ������ ������ ��� ���� �����')):  87%|########6 | 13/15 [00:00<00:00, 123.69it/s]
+                                                                                                                             
+Manim Community v0.21.0
+
+
+Animation 0: Create(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 0: Create(VGroup of 2 submobjects), etc.:  40%|####      | 12/30 [00:00<00:00, 114.32it/s]
+Animation 0: Create(VGroup of 2 submobjects), etc.:  80%|########  | 24/30 [00:00<00:00, 111.80it/s]
+                                                                                                    
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/latex.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/dvisvgm.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+
+Animation 1: Write(MathTex('A=x_1y_1z_1,\\ B=x_1y_2z_2,\\ C=x_2y_3z_2')):   0%|          | 0/60 [00:00<?, ?it/s]
+Animation 1: Write(MathTex('A=x_1y_1z_1,\\ B=x_1y_2z_2,\\ C=x_2y_3z_2')):  22%|##1       | 13/60 [00:00<00:00, 125.48it/s]
+Animation 1: Write(MathTex('A=x_1y_1z_1,\\ B=x_1y_2z_2,\\ C=x_2y_3z_2')):  43%|####3     | 26/60 [00:00<00:00, 118.38it/s]
+Animation 1: Write(MathTex('A=x_1y_1z_1,\\ B=x_1y_2z_2,\\ C=x_2y_3z_2')):  63%|######3   | 38/60 [00:00<00:00, 114.29it/s]
+Animation 1: Write(MathTex('A=x_1y_1z_1,\\ B=x_1y_2z_2,\\ C=x_2y_3z_2')):  83%|########3 | 50/60 [00:00<00:00, 112.33it/s]
+                                                                                                                          
+
+Animation 3: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 3: Indicate(VGroup of 2 submobjects), etc.:  30%|###       | 9/30 [00:00<00:00, 89.12it/s]
+Animation 3: Indicate(VGroup of 2 submobjects), etc.:  63%|######3   | 19/30 [00:00<00:00, 94.93it/s]
+Animation 3: Indicate(VGroup of 2 submobjects), etc.:  97%|#########6| 29/30 [00:00<00:00, 96.41it/s]
+                                                                                                     
+
+Animation 5: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 5: Indicate(VGroup of 2 submobjects), etc.:  33%|###3      | 10/30 [00:00<00:00, 94.95it/s]
+Animation 5: Indicate(VGroup of 2 submobjects), etc.:  67%|######6   | 20/30 [00:00<00:00, 97.31it/s]
+Animation 5: Indicate(VGroup of 2 submobjects), etc.: 100%|##########| 30/30 [00:00<00:00, 98.05it/s]
+                                                                                                     
+
+Animation 7: _MethodAnimation(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 7: _MethodAnimation(VGroup of 2 submobjects), etc.:  33%|###3      | 10/30 [00:00<00:00, 93.74it/s]
+Animation 7: _MethodAnimation(VGroup of 2 submobjects), etc.:  67%|######6   | 20/30 [00:00<00:00, 94.75it/s]
+Animation 7: _MethodAnimation(VGroup of 2 submobjects), etc.: 100%|##########| 30/30 [00:00<00:00, 94.01it/s]
+                                                                                                             
+
+Animation 8: FadeIn(Text('y�� = 0 �� A�� C�� ���´�')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 8: FadeIn(Text('y�� = 0 �� A�� C�� ���´�')):  50%|#####     | 15/30 [00:00<00:00, 145.64it/s]
+Animation 8: FadeIn(Text('y�� = 0 �� A�� C�� ���´�')): 100%|##########| 30/30 [00:00<00:00, 136.09it/s]
+                                                                                                      
+
+Animation 10: FadeIn(Text('���� ���� ������ ��� �׵� Ȯ��!')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 10: FadeIn(Text('���� ���� ������ ��� �׵� Ȯ��!')):  43%|####3     | 13/30 [00:00<00:00, 127.45it/s]
+Animation 10: FadeIn(Text('���� ���� ������ ��� �׵� Ȯ��!')):  87%|########6 | 26/30 [00:00<00:00, 113.42it/s]
+                                                                                                                
+
+Animation 11: FadeIn(Text('���� ������ ���: �ŵ������� ���� �ε����� ���� ������ �м�')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 11: FadeIn(Text('���� ������ ���: �ŵ������� ���� �ε����� ���� ������ �м�')):  73%|#######3  | 11/15 [00:00<00:00, 103.25it/s]
+                                                                                                                                           
+Manim Community v0.21.0
+
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/latex.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/dvisvgm.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+
+Animation 0: FadeIn(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 0: FadeIn(VGroup of 2 submobjects), etc.:  47%|####6     | 14/30 [00:00<00:00, 135.37it/s]
+Animation 0: FadeIn(VGroup of 2 submobjects), etc.:  93%|#########3| 28/30 [00:00<00:00, 132.23it/s]
+                                                                                                    
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/latex.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/dvisvgm.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+
+Animation 2: FadeIn(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 2: FadeIn(VGroup of 2 submobjects), etc.:  43%|####3     | 13/30 [00:00<00:00, 128.46it/s]
+Animation 2: FadeIn(VGroup of 2 submobjects), etc.:  87%|########6 | 26/30 [00:00<00:00, 118.61it/s]
+                                                                                                    
+
+Animation 4: FadeIn(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 4: FadeIn(VGroup of 2 submobjects), etc.:  53%|#####3    | 16/30 [00:00<00:00, 157.11it/s]
+                                                                                                    
+
+Animation 5: FadeIn(Text('������ �������� ����')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 5: FadeIn(Text('������ �������� ����')):  50%|#####     | 15/30 [00:00<00:00, 147.15it/s]
+Animation 5: FadeIn(Text('������ �������� ����')): 100%|##########| 30/30 [00:00<00:00, 135.45it/s]
+                                                                                                   
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/latex.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/dvisvgm.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+
+Animation 7: Write(MathTex('D=M_n\\oplus\\cdots\\oplus M_n\\quad(q\\text{ copies})')):   0%|          | 0/60 [00:00<?, ?it/s]
+Animation 7: Write(MathTex('D=M_n\\oplus\\cdots\\oplus M_n\\quad(q\\text{ copies})')):  22%|##1       | 13/60 [00:00<00:00, 127.84it/s]
+Animation 7: Write(MathTex('D=M_n\\oplus\\cdots\\oplus M_n\\quad(q\\text{ copies})')):  43%|####3     | 26/60 [00:00<00:00, 124.19it/s]
+Animation 7: Write(MathTex('D=M_n\\oplus\\cdots\\oplus M_n\\quad(q\\text{ copies})')):  65%|######5   | 39/60 [00:00<00:00, 121.54it/s]
+Animation 7: Write(MathTex('D=M_n\\oplus\\cdots\\oplus M_n\\quad(q\\text{ copies})')):  87%|########6 | 52/60 [00:00<00:00, 119.49it/s]
+                                                                                                                                       
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/latex.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/dvisvgm.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+
+Animation 9: Write(MathTex('\\underline R(D)\\le \\underline R(T^{\\otimes k})\\le r^k')):   0%|          | 0/60 [00:00<?, ?it/s]
+Animation 9: Write(MathTex('\\underline R(D)\\le \\underline R(T^{\\otimes k})\\le r^k')):  25%|##5       | 15/60 [00:00<00:00, 145.60it/s]
+Animation 9: Write(MathTex('\\underline R(D)\\le \\underline R(T^{\\otimes k})\\le r^k')):  50%|#####     | 30/60 [00:00<00:00, 132.33it/s]
+Animation 9: Write(MathTex('\\underline R(D)\\le \\underline R(T^{\\otimes k})\\le r^k')):  73%|#######3  | 44/60 [00:00<00:00, 128.34it/s]
+Animation 9: Write(MathTex('\\underline R(D)\\le \\underline R(T^{\\otimes k})\\le r^k')):  98%|#########8| 59/60 [00:00<00:00, 133.83it/s]
+                                                                                                                                           
+
+Animation 10: FadeIn(Text('����: �ܿ� �ټ��� ��Ȯ�� �������� ��İ� �����̾�� ��')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 10: FadeIn(Text('����: �ܿ� �ټ��� ��Ȯ�� �������� ��İ� �����̾�� ��')):  80%|########  | 12/15 [00:00<00:00, 114.31it/s]
+                                                                                                                                      
+Manim Community v0.21.0
+
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/latex.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+log4cxx: setFile(C:\Users\as042\AppData\Local\MiKTeX\miktex\log/dvisvgm.log,true) call failed.
+log4cxx: IO Exception : status code = 720005(Unrecognized Win32 error code 5)
+
+Animation 0: Write(MathTex('q\\,n^\\omega\\le r^k')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 0: Write(MathTex('q\\,n^\\omega\\le r^k')):  53%|#####3    | 16/30 [00:00<00:00, 152.59it/s]
+                                                                                                      
+
+Animation 1: FadeIn(VGroup of 2 submobjects):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 1: FadeIn(VGroup of 2 submobjects):  53%|#####3    | 16/30 [00:00<00:00, 151.68it/s]
+                                                                                              
+
+Animation 2: FadeIn(VGroup of 2 submobjects):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 2: FadeIn(VGroup of 2 submobjects):  53%|#####3    | 16/30 [00:00<00:00, 155.34it/s]
+                                                                                              
+
+Animation 3: FadeIn(VGroup of 2 submobjects):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 3: FadeIn(VGroup of 2 submobjects):  53%|#####3    | 16/30 [00:00<00:00, 150.46it/s]
+                                                                                              
+
+Animation 5: FadeIn(Text('���� ��� �ȿ��� ������ �Ը� Ȯ���Ѵ�')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 5: FadeIn(Text('���� ��� �ȿ��� ������ �Ը� Ȯ���Ѵ�')):  43%|####3     | 13/30 [00:00<00:00, 125.56it/s]
+Animation 5: FadeIn(Text('���� ��� �ȿ��� ������ �Ը� Ȯ���Ѵ�')):  87%|########6 | 26/30 [00:00<00:00, 123.16it/s]
+                                                                                                                      
+
+Animation 7: FadeIn(Text('�ŵ����� �� ���� ���� �� ���� ���� �� ���� ����')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 7: FadeIn(Text('�ŵ����� �� ���� ���� �� ���� ���� �� ���� ����')):  40%|####      | 12/30 [00:00<00:00, 114.85it/s]
+Animation 7: FadeIn(Text('�ŵ����� �� ���� ���� �� ���� ���� �� ���� ����')):  80%|########  | 24/30 [00:00<00:00, 108.44it/s]
+                                                                                                                           
+
+Animation 8: FadeIn(Text('���ϰ��� ������ �� �ε�� �� n �� 2 �� Ȯ���� ���ѿ� ����')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 8: FadeIn(Text('���ϰ��� ������ �� �ε�� �� n �� 2 �� Ȯ���� ���ѿ� ����')):  73%|#######3  | 11/15 [00:00<00:00, 106.80it/s]
+                                                                                                                                     
+OK: C:\Users\as042\OneDrive\Desktop\manim_video\exports\mm07_laser_method_170s_1080p30.mp4; 5100 frames; 30 fps; 170 seconds

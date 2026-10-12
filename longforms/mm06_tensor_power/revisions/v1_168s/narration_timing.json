@@ -1,0 +1,164 @@
+[
+  {
+    "start": 0,
+    "end": 6.911,
+    "text": "앞에서는 여러 행렬곱을 하나의 텐서에 담고, 그 구조를 반복해서 결합했습니다.",
+    "timing_basis": "provisional storyboard allocation"
+  },
+  {
+    "start": 6.911,
+    "end": 12.696,
+    "text": "그런데 텐서를 자기 자신과 결합한다는 것은 정확히 무슨 뜻일까요?",
+    "timing_basis": "provisional storyboard allocation"
+  },
+  {
+    "start": 12.696,
+    "end": 18.0,
+    "text": "이번에는 그 안의 이 대 이 행렬곱 하나부터 살펴보겠습니다.",
+    "timing_basis": "provisional storyboard allocation"
+  },
+  {
+    "start": 18,
+    "end": 21.596,
+    "text": "행 번호와 열 번호는 각각 일 또는 이입니다.",
+    "timing_basis": "provisional storyboard allocation"
+  },
+  {
+    "start": 21.596,
+    "end": 30.514,
+    "text": "첫 출력에서는 왼쪽의 첫 행과 오른쪽의 첫 열을 고정합니다. 가운데 번호가 일일 때와 이일 때의 곱을 더합니다.",
+    "timing_basis": "provisional storyboard allocation"
+  },
+  {
+    "start": 30.514,
+    "end": 39.0,
+    "text": "일 곱하기 오에 이 곱하기 칠을 더하면 십구입니다. 텐서는 이런 연결 규칙을 모든 입력에 대해 기록합니다.",
+    "timing_basis": "provisional storyboard allocation"
+  },
+  {
+    "start": 39,
+    "end": 43.012,
+    "text": "이제 같은 계산 관계를 하나 더 준비하겠습니다.",
+    "timing_basis": "provisional storyboard allocation"
+  },
+  {
+    "start": 43.012,
+    "end": 47.796,
+    "text": "두 관계를 텐서곱으로 결합하면 각 번호가 쌍을 이룹니다.",
+    "timing_basis": "provisional storyboard allocation"
+  },
+  {
+    "start": 47.796,
+    "end": 56.593,
+    "text": "첫 번호도 두 가지, 둘째 번호도 두 가지입니다. 일일, 일이, 이일, 이이. 네 가지 쌍이 생깁니다.",
+    "timing_basis": "provisional storyboard allocation"
+  },
+  {
+    "start": 56.593,
+    "end": 64.0,
+    "text": "이 네 쌍을 새로운 행 번호로 사용합니다. 열 번호도 같은 방식으로 네 가지가 됩니다.",
+    "timing_basis": "provisional storyboard allocation"
+  },
+  {
+    "start": 64,
+    "end": 70.732,
+    "text": "격자가 커졌다는 사실만으로는 충분하지 않습니다. 곱하고 더하는 관계도 확인해야 합니다.",
+    "timing_basis": "provisional storyboard allocation"
+  },
+  {
+    "start": 70.732,
+    "end": 78.445,
+    "text": "한 출력을 고정하면 가운데 번호도 네 가지 쌍을 따라 움직입니다. 네 곱의 합이 그 출력이 됩니다.",
+    "timing_basis": "provisional storyboard allocation"
+  },
+  {
+    "start": 78.445,
+    "end": 87.0,
+    "text": "숫자를 넣어보면 일, 사, 구, 십육을 더해 삼십입니다. 정확히 사 대 사 행렬곱의 한 칸을 계산한 것입니다.",
+    "timing_basis": "provisional storyboard allocation"
+  },
+  {
+    "start": 87,
+    "end": 95.932,
+    "text": "따라서 이 대 이 행렬곱 텐서를 두 번 결합하면 사 대 사, 세 번 결합하면 팔 대 팔 행렬곱의 관계가 됩니다.",
+    "timing_basis": "provisional storyboard allocation"
+  },
+  {
+    "start": 95.932,
+    "end": 104.0,
+    "text": "계산 관계를 케이 개 결합한 것이 텐서의 케이제곱입니다. 행렬의 한 변은 이의 케이제곱으로 커집니다.",
+    "timing_basis": "provisional storyboard allocation"
+  },
+  {
+    "start": 104,
+    "end": 107.753,
+    "text": "하지만 모든 텐서가 하나의 행렬곱 구조인 것은 아닙니다.",
+    "timing_basis": "provisional storyboard allocation"
+  },
+  {
+    "start": 107.753,
+    "end": 114.653,
+    "text": "세 부분의 합으로 표현한 텐서를 생각해 보겠습니다. 여기서는 부분들을 피, 큐, 에스라고 부르겠습니다.",
+    "timing_basis": "provisional storyboard allocation"
+  },
+  {
+    "start": 114.653,
+    "end": 123.732,
+    "text": "자기 자신과 결합하면 첫 부분과 첫 부분, 첫 부분과 둘째 부분처럼 모든 조합이 생깁니다. 세 가지와 세 가지, 모두 아홉 조합입니다.",
+    "timing_basis": "provisional storyboard allocation"
+  },
+  {
+    "start": 123.732,
+    "end": 127.0,
+    "text": "이 부분들이 독립적인 행렬곱이라는 뜻은 아닙니다.",
+    "timing_basis": "provisional storyboard allocation"
+  },
+  {
+    "start": 127,
+    "end": 131.485,
+    "text": "조합이 아홉 개라고 해서 독립적인 행렬곱 아홉 개가 생기지는 않습니다.",
+    "timing_basis": "provisional storyboard allocation"
+  },
+  {
+    "start": 131.485,
+    "end": 135.625,
+    "text": "서로 다른 부분이 같은 입력이나 출력 변수를 공유할 수 있습니다.",
+    "timing_basis": "provisional storyboard allocation"
+  },
+  {
+    "start": 135.625,
+    "end": 142.295,
+    "text": "예를 들어 두 부분이 같은 첫 입력을 사용한다면, 서로 다른 입력을 자유롭게 넣는 두 문제와는 다릅니다.",
+    "timing_basis": "provisional storyboard allocation"
+  },
+  {
+    "start": 142.295,
+    "end": 150.0,
+    "text": "어떤 부분은 원하는 행렬곱 구조가 아닐 수도 있습니다. 필요한 것은 많은 조합이 아니라, 서로 분리된 유용한 계산입니다.",
+    "timing_basis": "provisional storyboard allocation"
+  },
+  {
+    "start": 150,
+    "end": 153.83,
+    "text": "작은 텐서를 반복하면 거대한 계산 관계가 만들어집니다.",
+    "timing_basis": "provisional storyboard allocation"
+  },
+  {
+    "start": 153.83,
+    "end": 159.319,
+    "text": "그 안에서 유용한 행렬곱을 얼마나 많이 확보할 수 있는지는 별개의 문제입니다.",
+    "timing_basis": "provisional storyboard allocation"
+  },
+  {
+    "start": 159.319,
+    "end": 165.319,
+    "text": "허용된 변수 선택으로 필요 없는 부분을 없애고, 독립적인 행렬곱을 남길 수 있을까요?",
+    "timing_basis": "provisional storyboard allocation"
+  },
+  {
+    "start": 165.319,
+    "end": 168.0,
+    "text": "다음에는 레이저 방법을 살펴보겠습니다.",
+    "timing_basis": "provisional storyboard allocation"
+  }
+]

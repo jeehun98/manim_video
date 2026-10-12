@@ -1,0 +1,84 @@
+1
+00:00:00,000 --> 00:00:06,000
+Gradient Descent는 흔히 공이
+Loss 지형을 내려가는 모습으로 설명됩니다.
+
+2
+00:00:06,000 --> 00:00:16,000
+현재 위치의 gradient는 가장 빠른 증가 방향,
+Gradient Descent는 그 반대로 움직입니다.
+
+3
+00:00:16,000 --> 00:00:26,000
+모든 위치에 -∇L을 그리면
+공간 전체에 vector field가 생깁니다.
+
+4
+00:00:26,000 --> 00:00:32,000
+각 점은 현재 위치의 방향만 따라 움직이고,
+그 반복이 trajectory를 만듭니다.
+
+5
+00:00:32,000 --> 00:00:44,000
+step을 매우 작게 본 연속시간 극한이
+Gradient Flow, θ̇=-∇L(θ)입니다.
+
+6
+00:00:44,000 --> 00:00:50,000
+Initial Condition + Vector Field
+→ Trajectory
+
+7
+00:00:50,000 --> 00:00:57,000
+같은 attractor로 흘러가는 초기조건의 영역이
+Basin of Attraction입니다.
+
+8
+00:00:57,000 --> 00:01:05,000
+두 basin의 경계에는
+saddle point가 놓일 수 있습니다.
+
+9
+00:01:05,000 --> 00:01:15,000
+L(x,y)=x²-y²에서는 x축으로 원점에 접근하고
+y축 방향으로 원점에서 멀어집니다.
+
+10
+00:01:15,000 --> 00:01:23,000
+Stable Direction / Unstable Direction
+특별한 초기조건은 Stable Manifold를 만듭니다.
+
+11
+00:01:23,000 --> 00:01:32,000
+안정적인 local minimum은 Gradient Flow의
+attractor처럼 동작할 수 있습니다.
+
+12
+00:01:32,000 --> 00:01:40,000
+Gradient Descent는 minimum까지의
+shortest path를 찾지 않습니다.
+
+13
+00:01:40,000 --> 00:01:48,000
+learning rate가 너무 크면 oscillation이나
+divergence가 나타날 수 있습니다.
+
+14
+00:01:48,000 --> 00:01:59,000
+실제 신경망의 Parameter Space는
+수백만, 수십억 차원일 수 있습니다.
+
+15
+00:01:59,000 --> 00:02:06,000
+SGD의 mini-batch noise는
+trajectory에 작은 흔들림을 더합니다.
+
+16
+00:02:06,000 --> 00:02:17,000
+Initial Condition · Trajectory · Basin · Saddle · Attractor
+모두 공간 위의 흐름을 설명합니다.
+
+17
+00:02:17,000 --> 00:02:27,000
+Training = Dynamics in Parameter Space
+학습은 파라미터 공간 위의 흐름입니다.

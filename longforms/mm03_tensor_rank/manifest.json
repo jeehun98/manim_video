@@ -1,0 +1,62 @@
+[
+  {
+    "id": "01",
+    "title": "계산 결과보다 연결 관계",
+    "directory": "scenes/01_connections",
+    "class": "Scene01",
+    "duration_seconds": 22,
+    "storyboard_seconds": 22,
+    "timing_source": "user timestamps",
+    "global_start_seconds": 0
+  },
+  {
+    "id": "02",
+    "title": "같은 출력을 만드는 다른 연결",
+    "directory": "scenes/02_reuse",
+    "class": "Scene02",
+    "duration_seconds": 19,
+    "storyboard_seconds": 19,
+    "timing_source": "user timestamps",
+    "global_start_seconds": 22
+  },
+  {
+    "id": "03",
+    "title": "하나의 곱셈을 세 벡터로",
+    "directory": "scenes/03_vectors",
+    "class": "Scene03",
+    "duration_seconds": 28,
+    "storyboard_seconds": 28,
+    "timing_source": "user timestamps",
+    "global_start_seconds": 41
+  },
+  {
+    "id": "04",
+    "title": "같은 텐서의 8항과 7항",
+    "directory": "scenes/04_decomposition",
+    "class": "Scene04",
+    "duration_seconds": null,
+    "storyboard_seconds": 32,
+    "timing_source": "provisional extended narration; remeasure TTS",
+    "global_start_seconds": 69
+  },
+  {
+    "id": "05",
+    "title": "곱셈 한 번에서 최소 항 개수로",
+    "directory": "scenes/05_rank",
+    "class": "Scene05",
+    "duration_seconds": null,
+    "storyboard_seconds": 43,
+    "timing_source": "provisional extended narration; remeasure TTS",
+    "global_start_seconds": 101
+  },
+  {
+    "id": "06",
+    "title": "정확한 분해만 허용해야 할까?",
+    "directory": "scenes/06_limit",
+    "class": "Scene06",
+    "duration_seconds": null,
+    "storyboard_seconds": 20,
+    "timing_source": "provisional extended narration; remeasure TTS",
+    "global_start_seconds": 144
+  }
+]

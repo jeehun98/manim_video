@@ -1,0 +1,58 @@
+[
+  {
+    "id": "01",
+    "slug": "freeze",
+    "directory": "scenes/01_freeze",
+    "class": "Scene01",
+    "duration_seconds": 15,
+    "storyboard_seconds": 28
+  },
+  {
+    "id": "02",
+    "slug": "field",
+    "directory": "scenes/02_field",
+    "class": "Scene02",
+    "duration_seconds": 21,
+    "storyboard_seconds": 29
+  },
+  {
+    "id": "03",
+    "slug": "roles",
+    "directory": "scenes/03_roles",
+    "class": "Scene03",
+    "duration_seconds": 22,
+    "storyboard_seconds": 35
+  },
+  {
+    "id": "04",
+    "slug": "advection",
+    "directory": "scenes/04_advection",
+    "class": "Scene04",
+    "duration_seconds": 25,
+    "storyboard_seconds": 32
+  },
+  {
+    "id": "05",
+    "slug": "viscosity",
+    "directory": "scenes/05_viscosity",
+    "class": "Scene05",
+    "duration_seconds": 18,
+    "storyboard_seconds": 31
+  },
+  {
+    "id": "06",
+    "slug": "compare",
+    "directory": "scenes/06_compare",
+    "class": "Scene06",
+    "duration_seconds": 26,
+    "storyboard_seconds": 38
+  },
+  {
+    "id": "07",
+    "slug": "question",
+    "directory": "scenes/07_question",
+    "class": "Scene07",
+    "duration_seconds": 28,
+    "storyboard_seconds": 29
+  }
+]

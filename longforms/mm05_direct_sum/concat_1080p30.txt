@@ -1,0 +1,6 @@
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm05_direct_sum/scenes/01_independent/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm05_direct_sum/scenes/02_blocks/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm05_direct_sum/scenes/03_cost/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm05_direct_sum/scenes/04_border/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm05_direct_sum/scenes/05_growth/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm05_direct_sum/scenes/06_next/visual_1080p30.mp4'

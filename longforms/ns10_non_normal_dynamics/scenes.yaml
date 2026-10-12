@@ -1,0 +1,74 @@
+id: ns10
+title: "10막 — 비정규 동역학"
+video:
+  width: 1920
+  height: 1080
+  fps: 30
+timing_basis: user_sentence_end_times
+scenes:
+  - id: "01"
+    slug: "meaning"
+    directory: "scenes/01_meaning"
+    class: "Scene01"
+    duration_seconds: 28
+    storyboard_seconds: 31
+  - id: "02"
+    slug: "eigenvalues"
+    directory: "scenes/02_eigenvalues"
+    class: "Scene02"
+    duration_seconds: 26
+    storyboard_seconds: 34
+  - id: "03"
+    slug: "trajectory"
+    directory: "scenes/03_trajectory"
+    class: "Scene03"
+    duration_seconds: 24
+    storyboard_seconds: 38
+  - id: "04"
+    slug: "coupling"
+    directory: "scenes/04_coupling"
+    class: "Scene04"
+    duration_seconds: 29
+    storyboard_seconds: 32
+  - id: "05"
+    slug: "normality"
+    directory: "scenes/05_normality"
+    class: "Scene05"
+    duration_seconds: 34
+    storyboard_seconds: 36
+  - id: "06"
+    slug: "singular"
+    directory: "scenes/06_singular"
+    class: "Scene06"
+    duration_seconds: 34
+    storyboard_seconds: 40
+  - id: "07"
+    slug: "liftup"
+    directory: "scenes/07_liftup"
+    class: "Scene07"
+    duration_seconds: 33
+    storyboard_seconds: 40
+  - id: "08"
+    slug: "rnn"
+    directory: "scenes/08_rnn"
+    class: "Scene08"
+    duration_seconds: 38
+    storyboard_seconds: 36
+  - id: "09"
+    slug: "information"
+    directory: "scenes/09_information"
+    class: "Scene09"
+    duration_seconds: 35
+    storyboard_seconds: 36
+  - id: "10"
+    slug: "metrics"
+    directory: "scenes/10_metrics"
+    class: "Scene10"
+    duration_seconds: 40
+    storyboard_seconds: 44
+  - id: "11"
+    slug: "next"
+    directory: "scenes/11_next"
+    class: "Scene11"
+    duration_seconds: 37
+    storyboard_seconds: 38

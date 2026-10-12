@@ -1,0 +1,188 @@
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(VGroup of 3 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                   
+
+Animation 2: FadeIn(VGroup of 3 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                   
+
+Animation 4: FadeOut(VGroup of 3 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                          
+
+Animation 5: FadeIn(VGroup of 6 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                   
+
+Animation 6: FadeIn(Text('���� ����� ������ ���� ����')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                
+
+Animation 7: Write(MathTex('D=T_1\\oplus T_2\\oplus T_3')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                 
+
+Animation 8: FadeIn(Text('�� ���� �׷��� ��� �и��� �ټ��� ���䵵 �� �Ϲ����� 6��6 ��İ� ��ü�� �ƴ�')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                                                              
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(VGroup of 7 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                   
+
+Animation 1: FadeIn(VGroup of 7 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                   
+
+Animation 2: FadeIn(VGroup of 7 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                   
+
+Animation 3: Write(MathTex('7+7+7=21')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                              
+
+Animation 5: Create(RoundedRectangle):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                            
+
+Animation 6: FadeIn(Text('���� ���� ��� 21��')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                         
+
+Animation 8: Write(MathTex('\\underline R(D)\\le r')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                            
+
+Animation 10: FadeIn(Text('r = 21: �̹� Ȯ���� ���� ����')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                  
+
+Animation 11: FadeIn(Text('21�� �� Strassen ���ط� ���� ���� �� �ּҰ��̶�� �������� ���� �� r<21�� ������')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                                                                   
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(VGroup of 3 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                         
+
+Animation 2: TransformFromCopy(VGroup of 2 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                    
+
+Animation 3: TransformFromCopy(VGroup of 2 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                    
+
+Animation 4: TransformFromCopy(VGroup of 2 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                    
+
+Animation 5: FadeOut(VGroup of 3 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                          
+
+Animation 7: FadeIn(VGroup of 3 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                   
+
+Animation 8: Indicate(VGroup of 9 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                     
+
+Animation 10: FadeOut(VGroup of 3 submobjects):   0%|          | 0/6 [00:00<?, ?it/s]
+                                                                                     
+
+Animation 11: TransformFromCopy(VGroup of 3 submobjects), etc.:   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                                     
+
+Animation 12: TransformFromCopy(VGroup of 3 submobjects), etc.:   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                                     
+
+Animation 13: TransformFromCopy(VGroup of 3 submobjects), etc.:   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                                     
+
+Animation 14: FadeOut(VGroup of 9 submobjects), etc.:   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 14: FadeOut(VGroup of 9 submobjects), etc.:  78%|#######7  | 7/9 [00:00<00:00, 64.09it/s]
+                                                                                                   
+
+Animation 16: FadeIn(Text('���� �� ��3     |     �� �� �� ��2')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                     
+
+Animation 18: FadeIn(Text('3���� 2��2  ��  9���� 4��4  ��  27���� 8��8')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                           
+
+Animation 19: FadeIn(Text('��� ������ �ټ��� �� ��� ��ĳ��� �ٽ� ���ϴ� ������ �ƴ�')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                                               
+Manim Community v0.21.0
+
+
+Animation 1: Write(MathTex('r')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                       
+
+Animation 2: Write(MathTex('r^2')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                         
+
+Animation 3: Write(MathTex('r^3')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                         
+
+Animation 5: Write(MathTex('k')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                       
+
+Animation 6: Write(MathTex('3^k')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                         
+
+Animation 7: Write(MathTex('2^k\\times2^k')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                   
+
+Animation 8: Write(MathTex('r^k')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                         
+
+Animation 10: Create(Rectangle), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                            
+
+Animation 11: FadeIn(Text('��� �Ը��� ����  ��  ���� ������ ����')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                          
+
+Animation 12: FadeIn(Text('r�� ù ������ ���� ��ũ �������� Ȯ���� �� �� r\u1d4f�� �����̸� ���� �ð��� �ƴ�')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                                                                
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(VGroup of 2 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                   
+
+Animation 2: Write(MathTex('\\underline R(D)\\le r\\quad\\Longrightarrow\\quad 3\\cdot2^\\omega\\le r')):   0%|          | 0/30 [00:00<?, ?it/s]
+                                                                                                                                                
+
+Animation 3: FadeIn(Text('��: ��İ��� ���� ���� ����')):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                                               
+
+Animation 5: FadeIn(Text('���� ���: ���� Strassen �� r = 21')):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                                                      
+
+Animation 7: Write(MathTex('3\\cdot2^\\omega\\le21')):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                                             
+
+Animation 9: Transform(MathTex('3\\cdot2^\\omega\\le21')):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                                                 
+
+Animation 11: Transform(MathTex('3\\cdot2^\\omega\\le21')):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                                                  
+
+Animation 13: FadeIn(Text('Strassen�� ���� �״�� �� ���ο� ������ ����')):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                                                                 
+
+Animation 15: FadeIn(Text('���Ҽ� �� �������� 2��2 ��İ� 3�� �� r>3 �� r<21 ���ظ� �߰��ߴٴ� ������ �ƴ�')):   0%|          | 0/8 [00:00<?, ?it/s]
+                                                                                                                                                
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(VGroup of 9 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                   
+
+Animation 1: FadeIn(VGroup of 3 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                   
+
+Animation 3: FadeIn(Text('���� ��ü����, �Ը� ȿ�������� ��� ����')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                              
+
+Animation 5: FadeOut(VGroup of 9 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                          
+
+Animation 6: Write(MathTex('T\\otimes T\\otimes T\\otimes\\cdots')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                          
+
+Animation 7: FadeIn(Text('�� �ȿ��� ���� �������� ��İ��� ã�� �� ������?')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                                    
+
+Animation 9: FadeIn(Text('����: �ټ� �ŵ�����')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                       
+
+Animation 10: FadeIn(Text('���� ��ũ�� ���� ���� �ð��� �ٸ� �� ��Ȯ�� ������� ��ȯ�ϴ� ����� ���� �м�')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                                                                  
+OK: C:\Users\as042\OneDrive\Desktop\manim_video\exports\mm05_direct_sum_151s_preview.mp4; 2265 frames; 15 fps; 151 seconds

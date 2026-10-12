@@ -1,0 +1,62 @@
+id: ns11
+title: "11막 — 안정성의 질문"
+video:
+  width: 1920
+  height: 1080
+  fps: 30
+timing_basis: user_sentence_end_times
+scenes:
+  - id: "01"
+    slug: "return"
+    directory: "scenes/01_return"
+    class: "Scene01"
+    duration_seconds: 29
+    storyboard_seconds: 34
+  - id: "02"
+    slug: "global_local"
+    directory: "scenes/02_global_local"
+    class: "Scene02"
+    duration_seconds: 39
+    storyboard_seconds: 46
+  - id: "03"
+    slug: "direction"
+    directory: "scenes/03_direction"
+    class: "Scene03"
+    duration_seconds: 37
+    storyboard_seconds: 44
+  - id: "04"
+    slug: "restrictive"
+    directory: "scenes/04_restrictive"
+    class: "Scene04"
+    duration_seconds: 30
+    storyboard_seconds: 32
+  - id: "05"
+    slug: "realized"
+    directory: "scenes/05_realized"
+    class: "Scene05"
+    duration_seconds: 40
+    storyboard_seconds: 38
+  - id: "06"
+    slug: "transient"
+    directory: "scenes/06_transient"
+    class: "Scene06"
+    duration_seconds: 35
+    storyboard_seconds: 34
+  - id: "07"
+    slug: "questions"
+    directory: "scenes/07_questions"
+    class: "Scene07"
+    duration_seconds: 34
+    storyboard_seconds: 42
+  - id: "08"
+    slug: "bridges"
+    directory: "scenes/08_bridges"
+    class: "Scene08"
+    duration_seconds: 34
+    storyboard_seconds: 42
+  - id: "09"
+    slug: "finale"
+    directory: "scenes/09_finale"
+    class: "Scene09"
+    duration_seconds: 45
+    storyboard_seconds: 48

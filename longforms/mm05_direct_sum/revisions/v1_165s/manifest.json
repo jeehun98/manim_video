@@ -1,0 +1,50 @@
+[
+  {
+    "id": "01",
+    "title": "서로 다른 세 계산",
+    "directory": "scenes/01_independent",
+    "class": "Scene01",
+    "duration_seconds": null,
+    "storyboard_seconds": 18
+  },
+  {
+    "id": "02",
+    "title": "여러 계산을 하나의 텐서에",
+    "directory": "scenes/02_blocks",
+    "class": "Scene02",
+    "duration_seconds": null,
+    "storyboard_seconds": 24
+  },
+  {
+    "id": "03",
+    "title": "묶었다고 자동으로 절약되지는 않는다",
+    "directory": "scenes/03_cost",
+    "class": "Scene03",
+    "duration_seconds": null,
+    "storyboard_seconds": 25
+  },
+  {
+    "id": "04",
+    "title": "묶음 전체의 보더 랭크",
+    "directory": "scenes/04_border",
+    "class": "Scene04",
+    "duration_seconds": null,
+    "storyboard_seconds": 24
+  },
+  {
+    "id": "05",
+    "title": "반복되는 구조가 성장률을 제한한다",
+    "directory": "scenes/05_growth",
+    "class": "Scene05",
+    "duration_seconds": null,
+    "storyboard_seconds": 43
+  },
+  {
+    "id": "06",
+    "title": "계산 하나에서 계산들의 구조로",
+    "directory": "scenes/06_next",
+    "class": "Scene06",
+    "duration_seconds": null,
+    "storyboard_seconds": 31
+  }
+]

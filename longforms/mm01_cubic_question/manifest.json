@@ -1,0 +1,72 @@
+[
+  {
+    "id": "01",
+    "title": "표준 방법의 27곱",
+    "directory": "scenes/01_standard",
+    "class": "Scene01",
+    "duration_seconds": 19,
+    "storyboard_seconds": 30,
+    "narration_start": 0,
+    "narration_end": 19
+  },
+  {
+    "id": "02",
+    "title": "같은 출력을 만드는 8곱",
+    "directory": "scenes/02_eight",
+    "class": "Scene02",
+    "duration_seconds": 22,
+    "storyboard_seconds": 37,
+    "narration_start": 19,
+    "narration_end": 41
+  },
+  {
+    "id": "03",
+    "title": "입력을 재조합한 7개의 곱",
+    "directory": "scenes/03_seven",
+    "class": "Scene03",
+    "duration_seconds": 16,
+    "storyboard_seconds": 52,
+    "narration_start": 41,
+    "narration_end": 57
+  },
+  {
+    "id": "04",
+    "title": "일곱 결과로 네 칸 복원",
+    "directory": "scenes/04_restore",
+    "class": "Scene04",
+    "duration_seconds": 19,
+    "storyboard_seconds": 40,
+    "narration_start": 57,
+    "narration_end": 76
+  },
+  {
+    "id": "05",
+    "title": "우연이 아닌 항등식",
+    "directory": "scenes/05_identity",
+    "class": "Scene05",
+    "duration_seconds": 21,
+    "storyboard_seconds": 44,
+    "narration_start": 76,
+    "narration_end": 97
+  },
+  {
+    "id": "06",
+    "title": "블록 재귀가 바꾸는 성장률",
+    "directory": "scenes/06_recursion",
+    "class": "Scene06",
+    "duration_seconds": 23,
+    "storyboard_seconds": 43,
+    "narration_start": 97,
+    "narration_end": 120
+  },
+  {
+    "id": "07",
+    "title": "세제곱은 최선일까?",
+    "directory": "scenes/07_question",
+    "class": "Scene07",
+    "duration_seconds": 22,
+    "storyboard_seconds": 25,
+    "narration_start": 120,
+    "narration_end": 142
+  }
+]

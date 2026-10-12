@@ -1,0 +1,8 @@
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm06_tensor_power/scenes/01_zoom/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm06_tensor_power/scenes/02_indices/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm06_tensor_power/scenes/03_pairs/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm06_tensor_power/scenes/04_paths/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm06_tensor_power/scenes/05_power/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm06_tensor_power/scenes/06_mixed/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm06_tensor_power/scenes/07_shared/visual_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm06_tensor_power/scenes/08_laser/visual_preview.mp4'

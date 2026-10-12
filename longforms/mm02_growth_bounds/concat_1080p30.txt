@@ -1,0 +1,4 @@
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm02_growth_bounds/scenes/01_growth/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm02_growth_bounds/scenes/02_upper/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm02_growth_bounds/scenes/03_lower/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/mm02_growth_bounds/scenes/04_omega/visual_1080p30.mp4'
