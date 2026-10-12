@@ -1,0 +1,72 @@
+[
+  {
+    "id": "01",
+    "title": "계산을 버렸는데, 무엇을 남겨야 할까?",
+    "directory": "scenes/01_choices",
+    "class": "Scene01",
+    "duration_seconds": null,
+    "storyboard_seconds": 23,
+    "start_seconds": 0,
+    "timing_basis": "provisional storyboard; TTS unmeasured"
+  },
+  {
+    "id": "02",
+    "title": "같은 재료, 다른 추출 구조",
+    "directory": "scenes/02_tradeoff",
+    "class": "Scene02",
+    "duration_seconds": null,
+    "storyboard_seconds": 22,
+    "start_seconds": 23,
+    "timing_basis": "provisional storyboard; TTS unmeasured"
+  },
+  {
+    "id": "03",
+    "title": "수학적 증명이 최적화 문제가 되다",
+    "directory": "scenes/03_constraints",
+    "class": "Scene03",
+    "duration_seconds": null,
+    "storyboard_seconds": 23,
+    "start_seconds": 45,
+    "timing_basis": "provisional storyboard; TTS unmeasured"
+  },
+  {
+    "id": "04",
+    "title": "더 정교한 분석, 더 어려운 탐색",
+    "directory": "scenes/04_landscape",
+    "class": "Scene04",
+    "duration_seconds": null,
+    "storyboard_seconds": 23,
+    "start_seconds": 68,
+    "timing_basis": "provisional storyboard; TTS unmeasured"
+  },
+  {
+    "id": "05",
+    "title": "AI는 최적화 과정의 어디를 바꿨을까?",
+    "directory": "scenes/05_optimizer",
+    "class": "Scene05",
+    "duration_seconds": null,
+    "storyboard_seconds": 28,
+    "start_seconds": 91,
+    "timing_basis": "provisional storyboard; TTS unmeasured"
+  },
+  {
+    "id": "06",
+    "title": "소수점 아래의 변화가 뜻하는 것",
+    "directory": "scenes/06_bound",
+    "class": "Scene06",
+    "duration_seconds": null,
+    "storyboard_seconds": 23,
+    "start_seconds": 119,
+    "timing_basis": "provisional storyboard; TTS unmeasured"
+  },
+  {
+    "id": "07",
+    "title": "기존 수학 안에서 더 좋은 상한을 찾다",
+    "directory": "scenes/07_conclusion",
+    "class": "Scene07",
+    "duration_seconds": null,
+    "storyboard_seconds": 27,
+    "start_seconds": 142,
+    "timing_basis": "provisional storyboard; TTS unmeasured"
+  }
+]

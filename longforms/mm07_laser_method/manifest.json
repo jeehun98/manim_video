@@ -1,62 +1,62 @@
 [
   {
     "id": "01",
-    "title": "얽힌 계산에서 독립적인 계산으로",
+    "title": "낮은 비용의 구조에서 무엇을 꺼낼까?",
     "directory": "scenes/01_purpose",
     "class": "Scene01",
-    "duration_seconds": null,
+    "duration_seconds": 23,
     "storyboard_seconds": 22,
     "start_seconds": 0,
-    "timing_basis": "provisional storyboard; no audio supplied"
+    "timing_basis": "user supplied TTS segment endpoints"
   },
   {
     "id": "02",
-    "title": "같은 변수를 공유한다면",
+    "title": "많은 조합이 곧 독립적인 계산은 아니다",
     "directory": "scenes/02_shared",
     "class": "Scene02",
-    "duration_seconds": null,
+    "duration_seconds": 16,
     "storyboard_seconds": 28,
-    "start_seconds": 22,
-    "timing_basis": "provisional storyboard; no audio supplied"
+    "start_seconds": 23,
+    "timing_basis": "user supplied TTS segment endpoints"
   },
   {
     "id": "03",
-    "title": "항 대신 변수를 제거한다",
+    "title": "일부를 버려 독립성을 얻는다",
     "directory": "scenes/03_zero",
     "class": "Scene03",
-    "duration_seconds": null,
+    "duration_seconds": 23,
     "storyboard_seconds": 30,
-    "start_seconds": 50,
-    "timing_basis": "provisional storyboard; no audio supplied"
+    "start_seconds": 39,
+    "timing_basis": "user supplied TTS segment endpoints"
   },
   {
     "id": "04",
-    "title": "무엇을 남길지 선택한다",
+    "title": "왜 계산을 버리는가?",
     "directory": "scenes/04_selection",
     "class": "Scene04",
-    "duration_seconds": null,
+    "duration_seconds": 20,
     "storyboard_seconds": 30,
-    "start_seconds": 80,
-    "timing_basis": "provisional storyboard; no audio supplied"
+    "start_seconds": 62,
+    "timing_basis": "user supplied TTS segment endpoints"
   },
   {
     "id": "05",
-    "title": "추출한 구조에 비용 상한을 넘긴다",
+    "title": "확보한 비용 상한은 그대로 넘겨받는다",
     "directory": "scenes/05_bound",
     "class": "Scene05",
-    "duration_seconds": null,
+    "duration_seconds": 20,
     "storyboard_seconds": 32,
-    "start_seconds": 110,
-    "timing_basis": "provisional storyboard; no audio supplied"
+    "start_seconds": 82,
+    "timing_basis": "user supplied TTS segment endpoints"
   },
   {
     "id": "06",
-    "title": "개수 · 크기 · 비용을 함께 비교한다",
+    "title": "추출한 구조로 더 좋은 상한을 증명한다",
     "directory": "scenes/06_conclusion",
     "class": "Scene06",
-    "duration_seconds": null,
+    "duration_seconds": 45,
     "storyboard_seconds": 28,
-    "start_seconds": 142,
-    "timing_basis": "provisional storyboard; no audio supplied"
+    "start_seconds": 102,
+    "timing_basis": "user supplied TTS segment endpoints"
   }
 ]

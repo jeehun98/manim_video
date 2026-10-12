@@ -15,4 +15,7 @@
 [6막 — 텐서 거듭제곱](../mm06_tensor_power/README.md): 8개 독립 씬, 사용자 발화 시각 적용 151초 무음 영상. 실행: python longforms/mm06_tensor_power/build.py --preview
 
 
-7막 레이저 방법: longforms/mm07_laser_method/ (임시 170초, 무음). 실행: python longforms/mm07_laser_method/build.py --preview 또는 python longforms/mm07_laser_method/build.py
+7막 레이저 방법: longforms/mm07_laser_method/ (사용자 발화 시각 적용 147초, 무음). 실행: python longforms/mm07_laser_method/build.py --preview 또는 python longforms/mm07_laser_method/build.py
+
+
+[8막 — AI와 행렬곱 지수 상한](../mm08_alphaevolve_bound/README.md): 현재 본편. 7막 레이저 방법에서 연결. TTS 미확정, 화면 검토용 임시169초. 기존 AlphaTensor 편은 이전안으로 보존.

@@ -1,0 +1,182 @@
+[
+  {
+    "start": 0,
+    "end": 4,
+    "text": "지난 영상에서는 작은 텐서를 반복해 거대한 계산 구조를 만들었습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 4,
+    "end": 9,
+    "text": "하지만 그 안에 많은 조합이 있다고 해서, 독립적인 행렬곱이 많은 것은 아니었습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 9,
+    "end": 14,
+    "text": "그렇다면 이 거대한 구조에서 우리가 원하는 계산만 골라낼 수 있을까요?",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 14,
+    "end": 16,
+    "text": "여기서 레이저 방법이 등장합니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 16,
+    "end": 23,
+    "text": "핵심은 모든 계산을 보존하는 것이 아닙니다. 일부를 버리더라도, 서로 독립적인 행렬곱들을 남기는 것입니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 23,
+    "end": 25,
+    "text": "먼저 세 항으로 된 작은 텐서를 보겠습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 25,
+    "end": 28,
+    "text": "첫째 항과 둘째 항은 x₁을 공유합니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 28,
+    "end": 34,
+    "text": "두 항은 같은 변수를 사용하기 때문에, 이 상태 그대로는 서로 독립적인 계산으로 분리되지 않습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 34,
+    "end": 39,
+    "text": "반면 첫째 항과 셋째 항은 X, Y, Z의 어떤 변수도 공유하지 않습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 39,
+    "end": 42,
+    "text": "그렇다면 둘째 항만 없앨 수 있을까요?",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 42,
+    "end": 45,
+    "text": "공유된 x₁을 영으로 만들면 첫째 항까지 사라집니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 45,
+    "end": 49,
+    "text": "하지만 y₂를 영으로 만들면 둘째 항만 사라집니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 49,
+    "end": 54,
+    "text": "남은 두 항은 서로 다른 변수를 사용합니다. 하나의 텐서에서 독립적인 두 계산을 얻은 것입니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 54,
+    "end": 62,
+    "text": "이 예제는 행렬곱이 아니라 변수 제거의 원리를 보여주는 작은 모형입니다. Z는 세 번째 입력이 아니라 출력 좌표를 표시합니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 62,
+    "end": 67,
+    "text": "실제 텐서 거듭제곱에서는 수많은 계산 블록이 서로 얽혀 있습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 67,
+    "end": 73,
+    "text": "어떤 변수를 제거하면 원하지 않는 블록뿐 아니라 유용한 블록까지 함께 사라질 수 있습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 73,
+    "end": 77,
+    "text": "따라서 중요한 것은 얼마나 많이 제거했는지가 아니라, 무엇을 남겼는지입니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 77,
+    "end": 82,
+    "text": "그런데 왜 굳이 계산을 버리면서까지 독립적인 행렬곱을 얻으려는 걸까요?",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 82,
+    "end": 86,
+    "text": "이유는 이미 원래 텐서의 분해 비용에 대한 상한을 알고 있기 때문입니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 86,
+    "end": 88,
+    "text": "작은 텐서의 보더 랭크가 r 이하라면,",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 88,
+    "end": 93,
+    "text": "k번 결합한 거대한 구조의 보더 랭크는 rᵏ 이하입니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 93,
+    "end": 96,
+    "text": "여기서 변수를 제거해도 그 상한은 증가하지 않습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 96,
+    "end": 102,
+    "text": "즉, 원래 확보한 분해 비용의 상한을 유지하면서, 그 안에 독립적인 행렬곱들을 남길 수 있는 것입니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 102,
+    "end": 107,
+    "text": "이제 5막에서 살펴본 점근적 합 부등식이 다시 등장합니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 107,
+    "end": 115,
+    "text": "독립적인 행렬곱을 얼마나 많이 남겼는지, 각 행렬곱이 얼마나 큰지, 그리고 전체 분해 비용의 상한이 얼마인지를 비교할 수 있습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 115,
+    "end": 122,
+    "text": "이 비교를 통해 행렬곱의 계산량이 크기에 따라 얼마나 느리게 증가하도록 계산할 수 있는지, 그 성장 지수 ω의 상한을 얻습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 122,
+    "end": 129,
+    "text": "같은 비용 상한에서 더 크고 많은 독립적인 행렬곱을 확보할수록, 더 좋은 상한을 얻을 가능성이 생깁니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 129,
+    "end": 134,
+    "text": "결국 레이저 방법의 목적은 단순히 텐서를 독립적인 항으로 나누는 것이 아닙니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 134,
+    "end": 141,
+    "text": "이미 효율적으로 표현할 수 있는 계산 구조에서, 유용한 행렬곱들을 가능한 좋은 규모로 추출하는 것입니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 141,
+    "end": 147,
+    "text": "그렇게 얻은 구조를 이용해, 거대한 행렬곱의 계산 복잡도에 더 좋은 상한을 증명하려는 것입니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  }
+]

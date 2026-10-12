@@ -9,3 +9,6 @@ longforms/**/visual.mp4
 longforms/**/visual_*.mp4
 longforms/**/final.mp4
 longforms/**/longform_final.mp4
+
+# Local rendering toolchain
+.tools/

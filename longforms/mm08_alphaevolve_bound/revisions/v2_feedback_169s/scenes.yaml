@@ -1,0 +1,34 @@
+id: mm08_alphaevolve_bound
+resolution: 1920x1080
+fps: 30
+audio: absent
+timing: provisional_TTS_unmeasured
+scenes:
+  - id: '01'
+    directory: scenes/01_choices
+    duration_seconds: null
+    storyboard_seconds: 23
+  - id: '02'
+    directory: scenes/02_tradeoff
+    duration_seconds: null
+    storyboard_seconds: 22
+  - id: '03'
+    directory: scenes/03_constraints
+    duration_seconds: null
+    storyboard_seconds: 23
+  - id: '04'
+    directory: scenes/04_landscape
+    duration_seconds: null
+    storyboard_seconds: 23
+  - id: '05'
+    directory: scenes/05_optimizer
+    duration_seconds: null
+    storyboard_seconds: 28
+  - id: '06'
+    directory: scenes/06_bound
+    duration_seconds: null
+    storyboard_seconds: 23
+  - id: '07'
+    directory: scenes/07_conclusion
+    duration_seconds: null
+    storyboard_seconds: 27

@@ -1,0 +1,200 @@
+[
+  {
+    "start": 0,
+    "end": 5,
+    "text": "지난 영상에서는 거대한 텐서에서 일부 계산을 제거해 독립적인 행렬곱들을 남겼습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 5,
+    "end": 8,
+    "text": "그런데 여기에는 아직 해결하지 못한 문제가 있습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 8,
+    "end": 12,
+    "text": "어떤 계산을 남겨야 가장 좋은 결과를 얻을 수 있을까요?",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 12,
+    "end": 18,
+    "text": "가능한 선택은 하나가 아닙니다. 그리고 더 많은 계산을 남기는 선택이 언제나 더 좋은 것도 아닙니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 18,
+    "end": 26,
+    "text": "같은 텐서에서 출발하더라도, 어떤 구조를 얼마나 활용할지, 그리고 그 구조를 어떻게 분석할지에 따라 얻을 수 있는 상한이 달라집니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 26,
+    "end": 28,
+    "text": "어떤 선택은 작은 행렬곱을 많이 남깁니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 28,
+    "end": 33,
+    "text": "다른 선택은 개수는 적어도 더 큰 행렬곱을 남길 수 있습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 33,
+    "end": 38,
+    "text": "중요한 것은 어느 쪽이 더 좋은 계산 복잡도 상한을 증명할 수 있느냐입니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 38,
+    "end": 42,
+    "text": "수학자들은 이런 선택을 분석하는 방법을 계속 발전시켰습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 42,
+    "end": 47,
+    "text": "레이저 방법을 정교하게 확장한 조합 손실 분석, Combination Loss Analysis입니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 47,
+    "end": 54,
+    "text": "이 방법에서는 여러 수학적 조건을 만족하는 변수들을 선택하고, 그 결과로 행렬곱 지수의 상한을 계산할 수 있습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 54,
+    "end": 60,
+    "text": "결국 새로운 질문이 생깁니다. 수많은 선택 중에서, 가장 좋은 상한을 주는 조합은 어디에 있을까요?",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 60,
+    "end": 65,
+    "text": "분석을 더 정교하게 만들면 이전에는 고려하지 못했던 선택까지 비교할 수 있습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 65,
+    "end": 69,
+    "text": "하지만 그만큼 조절해야 할 변수도 급격하게 늘어납니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 69,
+    "end": 72,
+    "text": "하나의 선택을 바꾸면 다른 조건들도 함께 영향을 받습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 72,
+    "end": 76,
+    "text": "따라서 각각의 값을 따로 최적화하는 것만으로는 충분하지 않습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 76,
+    "end": 83,
+    "text": "게다가 조금씩 값을 바꾸어 개선하다 보면, 더 좋은 선택이 다른 곳에 있어도 현재 위치 주변에 머무를 수 있습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 83,
+    "end": 88,
+    "text": "수학적 조건은 알고 있어도, 그 안에서 가장 좋은 조합을 찾기는 어려운 것입니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 88,
+    "end": 92,
+    "text": "2026년, 연구진은 바로 이 최적화 문제를 다시 다뤘습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 92,
+    "end": 95,
+    "text": "먼저 문제를 더 큰 규모에서도 풀 수 있도록 재구성했습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 95,
+    "end": 100,
+    "text": "그리고 현대적인 최적화 기법을 활용해 좋은 변수 조합을 탐색했습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 100,
+    "end": 105,
+    "text": "여기에 AlphaEvolve를 적용해 최적화 알고리즘 자체를 추가로 개선했습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 105,
+    "end": 113,
+    "text": "AI가 행렬곱의 규칙을 바꾼 것이 아닙니다. 이미 알려진 수학적 조건 안에서 더 좋은 상한을 찾아내는 계산 과정을 개선한 것입니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 113,
+    "end": 119,
+    "text": "그 결과, 행렬곱 지수 ω의 기존 상한은 2.371339에서,",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 119,
+    "end": 121,
+    "text": "2.371177로 낮아졌습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 121,
+    "end": 126,
+    "text": "연구진은 이렇게 찾은 후보가 실제로 유효한 상한을 주는지도 확인했습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 126,
+    "end": 134,
+    "text": "숫자로 보면 아주 작은 차이입니다. 하지만 거대한 행렬곱의 계산량이 증가하는 속도에 대해, 이전보다 더 낮은 상한을 증명했다는 의미입니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 134,
+    "end": 138,
+    "text": "실제 행렬곱을 그만큼 빠르게 실행했다는 뜻은 아닙니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 138,
+    "end": 143,
+    "text": "수십 년 동안 수학자들은 행렬곱의 계산 복잡도를 낮추기 위한 방법을 발전시켜 왔습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 143,
+    "end": 149,
+    "text": "이번에는 그 수학적 방법 안에서 더 좋은 선택을 찾는 과정에 AI가 참여했습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 149,
+    "end": 152,
+    "text": "행렬곱 지수의 정확한 값을 알아낸 것은 아닙니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 152,
+    "end": 155,
+    "text": "하지만 이전보다 더 낮은 상한을 증명했습니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  },
+  {
+    "start": 155,
+    "end": 161,
+    "text": "수학적 구조를 이해하는 일과, 그 구조 안에서 더 좋은 선택을 탐색하는 일이 만난 결과입니다.",
+    "timing_basis": "user supplied TTS segment endpoints"
+  }
+]

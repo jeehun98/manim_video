@@ -1,0 +1,7 @@
+file 'C:/Users/owner/Desktop/manim_video/longforms/mm08_alphaevolve_bound/scenes/01_choices/visual_preview.mp4'
+file 'C:/Users/owner/Desktop/manim_video/longforms/mm08_alphaevolve_bound/scenes/02_tradeoff/visual_preview.mp4'
+file 'C:/Users/owner/Desktop/manim_video/longforms/mm08_alphaevolve_bound/scenes/03_constraints/visual_preview.mp4'
+file 'C:/Users/owner/Desktop/manim_video/longforms/mm08_alphaevolve_bound/scenes/04_landscape/visual_preview.mp4'
+file 'C:/Users/owner/Desktop/manim_video/longforms/mm08_alphaevolve_bound/scenes/05_optimizer/visual_preview.mp4'
+file 'C:/Users/owner/Desktop/manim_video/longforms/mm08_alphaevolve_bound/scenes/06_bound/visual_preview.mp4'
+file 'C:/Users/owner/Desktop/manim_video/longforms/mm08_alphaevolve_bound/scenes/07_conclusion/visual_preview.mp4'

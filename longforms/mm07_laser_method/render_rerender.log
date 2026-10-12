@@ -1,0 +1,397 @@
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(VGroup of 2 submobjects):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 0: FadeIn(VGroup of 2 submobjects):  20%|##        | 6/30 [00:00<00:00, 54.82it/s]
+Animation 0: FadeIn(VGroup of 2 submobjects):  40%|####      | 12/30 [00:00<00:00, 46.31it/s]
+Animation 0: FadeIn(VGroup of 2 submobjects):  57%|#####6    | 17/30 [00:00<00:00, 43.26it/s]
+Animation 0: FadeIn(VGroup of 2 submobjects):  73%|#######3  | 22/30 [00:00<00:00, 40.50it/s]
+Animation 0: FadeIn(VGroup of 2 submobjects):  90%|######### | 27/30 [00:00<00:00, 38.53it/s]
+                                                                                             
+
+Animation 2: FadeIn(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 2: FadeIn(VGroup of 2 submobjects), etc.:  20%|##        | 6/30 [00:00<00:00, 55.60it/s]
+Animation 2: FadeIn(VGroup of 2 submobjects), etc.:  40%|####      | 12/30 [00:00<00:00, 53.29it/s]
+Animation 2: FadeIn(VGroup of 2 submobjects), etc.:  60%|######    | 18/30 [00:00<00:00, 43.14it/s]
+Animation 2: FadeIn(VGroup of 2 submobjects), etc.:  77%|#######6  | 23/30 [00:00<00:00, 40.44it/s]
+Animation 2: FadeIn(VGroup of 2 submobjects), etc.:  93%|#########3| 28/30 [00:00<00:00, 38.84it/s]
+                                                                                                   
+
+Animation 4: FadeIn(Text('�� �ȿ��� ���ϴ� ����� ��� �� ������?')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 4: FadeIn(Text('�� �ȿ��� ���ϴ� ����� ��� �� ������?')):  20%|##        | 6/30 [00:00<00:00, 45.72it/s]
+Animation 4: FadeIn(Text('�� �ȿ��� ���ϴ� ����� ��� �� ������?')):  37%|###6      | 11/30 [00:00<00:00, 46.41it/s]
+Animation 4: FadeIn(Text('�� �ȿ��� ���ϴ� ����� ��� �� ������?')):  53%|#####3    | 16/30 [00:00<00:00, 47.05it/s]
+Animation 4: FadeIn(Text('�� �ȿ��� ���ϴ� ����� ��� �� ������?')):  70%|#######   | 21/30 [00:00<00:00, 46.76it/s]
+Animation 4: FadeIn(Text('�� �ȿ��� ���ϴ� ����� ��� �� ������?')):  87%|########6 | 26/30 [00:00<00:00, 46.09it/s]
+                                                                                                                       
+
+Animation 6: FadeIn(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 6: FadeIn(VGroup of 2 submobjects), etc.:  23%|##3       | 7/30 [00:00<00:00, 68.53it/s]
+Animation 6: FadeIn(VGroup of 2 submobjects), etc.:  47%|####6     | 14/30 [00:00<00:00, 57.27it/s]
+Animation 6: FadeIn(VGroup of 2 submobjects), etc.:  67%|######6   | 20/30 [00:00<00:00, 57.52it/s]
+Animation 6: FadeIn(VGroup of 2 submobjects), etc.:  87%|########6 | 26/30 [00:00<00:00, 55.91it/s]
+                                                                                                   
+
+Animation 8: FadeIn(Text('�Ϻθ� ������, ������ ��İ��� �����')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 8: FadeIn(Text('�Ϻθ� ������, ������ ��İ��� �����')):  17%|#6        | 5/30 [00:00<00:00, 48.42it/s]
+Animation 8: FadeIn(Text('�Ϻθ� ������, ������ ��İ��� �����')):  33%|###3      | 10/30 [00:00<00:00, 46.78it/s]
+Animation 8: FadeIn(Text('�Ϻθ� ������, ������ ��İ��� �����')):  50%|#####     | 15/30 [00:00<00:00, 47.31it/s]
+Animation 8: FadeIn(Text('�Ϻθ� ������, ������ ��İ��� �����')):  67%|######6   | 20/30 [00:00<00:00, 46.43it/s]
+Animation 8: FadeIn(Text('�Ϻθ� ������, ������ ��İ��� �����')):  83%|########3 | 25/30 [00:00<00:00, 44.18it/s]
+Animation 8: FadeIn(Text('�Ϻθ� ������, ������ ��İ��� �����')): 100%|##########| 30/30 [00:00<00:00, 35.62it/s]
+                                                                                                                   
+
+Animation 9: FadeIn(Text('����: ������ ������ �� ���� ��� ���⵵ ������ ����')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 9: FadeIn(Text('����: ������ ������ �� ���� ��� ���⵵ ������ ����')):  33%|###3      | 5/15 [00:00<00:00, 39.56it/s]
+Animation 9: FadeIn(Text('����: ������ ������ �� ���� ��� ���⵵ ������ ����')):  60%|######    | 9/15 [00:00<00:00, 36.81it/s]
+Animation 9: FadeIn(Text('����: ������ ������ �� ���� ��� ���⵵ ������ ����')):  87%|########6 | 13/15 [00:00<00:00, 36.25it/s]
+                                                                                                                                 
+You are using manim version v0.21.0, but version v0.22.0 is available.
+You should consider upgrading via pip install -U manim
+Manim Community v0.21.0
+
+
+Animation 0: Create(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 0: Create(VGroup of 2 submobjects), etc.:  17%|#6        | 5/30 [00:00<00:00, 40.20it/s]
+Animation 0: Create(VGroup of 2 submobjects), etc.:  33%|###3      | 10/30 [00:00<00:00, 37.31it/s]
+Animation 0: Create(VGroup of 2 submobjects), etc.:  47%|####6     | 14/30 [00:00<00:00, 36.80it/s]
+Animation 0: Create(VGroup of 2 submobjects), etc.:  60%|######    | 18/30 [00:00<00:00, 36.27it/s]
+Animation 0: Create(VGroup of 2 submobjects), etc.:  73%|#######3  | 22/30 [00:00<00:00, 35.01it/s]
+Animation 0: Create(VGroup of 2 submobjects), etc.:  87%|########6 | 26/30 [00:00<00:00, 34.34it/s]
+Animation 0: Create(VGroup of 2 submobjects), etc.: 100%|##########| 30/30 [00:00<00:00, 34.04it/s]
+                                                                                                   
+
+Animation 1: Write(MathTex('T=x_1y_1z_1+x_1y_2z_2+x_2y_3z_3')):   0%|          | 0/60 [00:00<?, ?it/s]
+Animation 1: Write(MathTex('T=x_1y_1z_1+x_1y_2z_2+x_2y_3z_3')):  10%|#         | 6/60 [00:00<00:01, 51.30it/s]
+Animation 1: Write(MathTex('T=x_1y_1z_1+x_1y_2z_2+x_2y_3z_3')):  20%|##        | 12/60 [00:00<00:01, 42.13it/s]
+Animation 1: Write(MathTex('T=x_1y_1z_1+x_1y_2z_2+x_2y_3z_3')):  28%|##8       | 17/60 [00:00<00:01, 38.54it/s]
+Animation 1: Write(MathTex('T=x_1y_1z_1+x_1y_2z_2+x_2y_3z_3')):  35%|###5      | 21/60 [00:00<00:01, 34.30it/s]
+Animation 1: Write(MathTex('T=x_1y_1z_1+x_1y_2z_2+x_2y_3z_3')):  42%|####1     | 25/60 [00:00<00:01, 34.07it/s]
+Animation 1: Write(MathTex('T=x_1y_1z_1+x_1y_2z_2+x_2y_3z_3')):  48%|####8     | 29/60 [00:00<00:00, 34.34it/s]
+Animation 1: Write(MathTex('T=x_1y_1z_1+x_1y_2z_2+x_2y_3z_3')):  55%|#####5    | 33/60 [00:00<00:00, 35.59it/s]
+Animation 1: Write(MathTex('T=x_1y_1z_1+x_1y_2z_2+x_2y_3z_3')):  62%|######1   | 37/60 [00:01<00:00, 36.41it/s]
+Animation 1: Write(MathTex('T=x_1y_1z_1+x_1y_2z_2+x_2y_3z_3')):  68%|######8   | 41/60 [00:01<00:00, 35.36it/s]
+Animation 1: Write(MathTex('T=x_1y_1z_1+x_1y_2z_2+x_2y_3z_3')):  75%|#######5  | 45/60 [00:01<00:00, 28.65it/s]
+Animation 1: Write(MathTex('T=x_1y_1z_1+x_1y_2z_2+x_2y_3z_3')):  82%|########1 | 49/60 [00:01<00:00, 27.53it/s]
+Animation 1: Write(MathTex('T=x_1y_1z_1+x_1y_2z_2+x_2y_3z_3')):  87%|########6 | 52/60 [00:01<00:00, 27.24it/s]
+Animation 1: Write(MathTex('T=x_1y_1z_1+x_1y_2z_2+x_2y_3z_3')):  93%|#########3| 56/60 [00:01<00:00, 29.36it/s]
+Animation 1: Write(MathTex('T=x_1y_1z_1+x_1y_2z_2+x_2y_3z_3')): 100%|##########| 60/60 [00:01<00:00, 29.97it/s]
+                                                                                                               
+
+Animation 3: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 3: Indicate(VGroup of 2 submobjects), etc.:  13%|#3        | 4/30 [00:00<00:00, 30.62it/s]
+Animation 3: Indicate(VGroup of 2 submobjects), etc.:  27%|##6       | 8/30 [00:00<00:00, 32.87it/s]
+Animation 3: Indicate(VGroup of 2 submobjects), etc.:  40%|####      | 12/30 [00:00<00:00, 33.97it/s]
+Animation 3: Indicate(VGroup of 2 submobjects), etc.:  53%|#####3    | 16/30 [00:00<00:00, 34.38it/s]
+Animation 3: Indicate(VGroup of 2 submobjects), etc.:  67%|######6   | 20/30 [00:00<00:00, 35.01it/s]
+Animation 3: Indicate(VGroup of 2 submobjects), etc.:  80%|########  | 24/30 [00:00<00:00, 33.90it/s]
+Animation 3: Indicate(VGroup of 2 submobjects), etc.:  93%|#########3| 28/30 [00:00<00:00, 32.39it/s]
+                                                                                                     
+
+Animation 4: FadeIn(Text('ù° �� ��°: X�� ����')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 4: FadeIn(Text('ù° �� ��°: X�� ����')):  20%|##        | 6/30 [00:00<00:00, 53.81it/s]
+Animation 4: FadeIn(Text('ù° �� ��°: X�� ����')):  43%|####3     | 13/30 [00:00<00:00, 57.25it/s]
+Animation 4: FadeIn(Text('ù° �� ��°: X�� ����')):  63%|######3   | 19/30 [00:00<00:00, 53.51it/s]
+Animation 4: FadeIn(Text('ù° �� ��°: X�� ����')):  83%|########3 | 25/30 [00:00<00:00, 52.20it/s]
+                                                                                                   
+
+Animation 6: _MethodAnimation(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 6: _MethodAnimation(VGroup of 2 submobjects), etc.:  10%|#         | 3/30 [00:00<00:00, 29.87it/s]
+Animation 6: _MethodAnimation(VGroup of 2 submobjects), etc.:  23%|##3       | 7/30 [00:00<00:00, 29.97it/s]
+Animation 6: _MethodAnimation(VGroup of 2 submobjects), etc.:  37%|###6      | 11/30 [00:00<00:00, 30.58it/s]
+Animation 6: _MethodAnimation(VGroup of 2 submobjects), etc.:  50%|#####     | 15/30 [00:00<00:00, 30.66it/s]
+Animation 6: _MethodAnimation(VGroup of 2 submobjects), etc.:  63%|######3   | 19/30 [00:00<00:00, 30.41it/s]
+Animation 6: _MethodAnimation(VGroup of 2 submobjects), etc.:  77%|#######6  | 23/30 [00:00<00:00, 30.18it/s]
+Animation 6: _MethodAnimation(VGroup of 2 submobjects), etc.:  90%|######### | 27/30 [00:00<00:00, 30.27it/s]
+                                                                                                             
+
+Animation 8: FadeIn(Text('ù° �� ��°: X / Y / Z ��� �и�')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 8: FadeIn(Text('ù° �� ��°: X / Y / Z ��� �и�')):  20%|##        | 6/30 [00:00<00:00, 56.63it/s]
+Animation 8: FadeIn(Text('ù° �� ��°: X / Y / Z ��� �и�')):  40%|####      | 12/30 [00:00<00:00, 50.50it/s]
+Animation 8: FadeIn(Text('ù° �� ��°: X / Y / Z ��� �и�')):  60%|######    | 18/30 [00:00<00:00, 51.13it/s]
+Animation 8: FadeIn(Text('ù° �� ��°: X / Y / Z ��� �и�')):  80%|########  | 24/30 [00:00<00:00, 51.24it/s]
+Animation 8: FadeIn(Text('ù° �� ��°: X / Y / Z ��� �и�')): 100%|##########| 30/30 [00:00<00:00, 50.75it/s]
+                                                                                                              
+
+Animation 9: FadeIn(Text('������ ���� �� ��İ� ��ü�� �ƴ� �� Z�� ��� ��ǥ�� ǥ��')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 9: FadeIn(Text('������ ���� �� ��İ� ��ü�� �ƴ� �� Z�� ��� ��ǥ�� ǥ��')):  33%|###3      | 5/15 [00:00<00:00, 40.83it/s]
+Animation 9: FadeIn(Text('������ ���� �� ��İ� ��ü�� �ƴ� �� Z�� ��� ��ǥ�� ǥ��')):  67%|######6   | 10/15 [00:00<00:00, 40.48it/s]
+Animation 9: FadeIn(Text('������ ���� �� ��İ� ��ü�� �ƴ� �� Z�� ��� ��ǥ�� ǥ��')): 100%|##########| 15/15 [00:00<00:00, 40.41it/s]
+                                                                                                                                     
+You are using manim version v0.21.0, but version v0.22.0 is available.
+You should consider upgrading via pip install -U manim
+Manim Community v0.21.0
+
+
+Animation 0: Create(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 0: Create(VGroup of 2 submobjects), etc.:  13%|#3        | 4/30 [00:00<00:00, 38.41it/s]
+Animation 0: Create(VGroup of 2 submobjects), etc.:  27%|##6       | 8/30 [00:00<00:00, 35.44it/s]
+Animation 0: Create(VGroup of 2 submobjects), etc.:  40%|####      | 12/30 [00:00<00:00, 34.62it/s]
+Animation 0: Create(VGroup of 2 submobjects), etc.:  53%|#####3    | 16/30 [00:00<00:00, 34.50it/s]
+Animation 0: Create(VGroup of 2 submobjects), etc.:  67%|######6   | 20/30 [00:00<00:00, 34.95it/s]
+Animation 0: Create(VGroup of 2 submobjects), etc.:  80%|########  | 24/30 [00:00<00:00, 33.81it/s]
+Animation 0: Create(VGroup of 2 submobjects), etc.:  93%|#########3| 28/30 [00:00<00:00, 32.81it/s]
+                                                                                                   
+
+Animation 1: FadeIn(Text('���� x�� = 0 ?')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 1: FadeIn(Text('���� x�� = 0 ?')):  23%|##3       | 7/30 [00:00<00:00, 68.26it/s]
+Animation 1: FadeIn(Text('���� x�� = 0 ?')):  47%|####6     | 14/30 [00:00<00:00, 62.20it/s]
+Animation 1: FadeIn(Text('���� x�� = 0 ?')):  70%|#######   | 21/30 [00:00<00:00, 60.97it/s]
+Animation 1: FadeIn(Text('���� x�� = 0 ?')):  93%|#########3| 28/30 [00:00<00:00, 59.67it/s]
+                                                                                           
+
+Animation 3: _MethodAnimation(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 3: _MethodAnimation(VGroup of 2 submobjects), etc.:  13%|#3        | 4/30 [00:00<00:00, 38.01it/s]
+Animation 3: _MethodAnimation(VGroup of 2 submobjects), etc.:  30%|###       | 9/30 [00:00<00:00, 40.19it/s]
+Animation 3: _MethodAnimation(VGroup of 2 submobjects), etc.:  47%|####6     | 14/30 [00:00<00:00, 40.06it/s]
+Animation 3: _MethodAnimation(VGroup of 2 submobjects), etc.:  63%|######3   | 19/30 [00:00<00:00, 39.41it/s]
+Animation 3: _MethodAnimation(VGroup of 2 submobjects), etc.:  77%|#######6  | 23/30 [00:00<00:00, 38.73it/s]
+Animation 3: _MethodAnimation(VGroup of 2 submobjects), etc.:  93%|#########3| 28/30 [00:00<00:00, 39.22it/s]
+                                                                                                             
+
+Animation 4: FadeIn(Text('ù° �׵� �Բ� �������')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 4: FadeIn(Text('ù° �׵� �Բ� �������')):  23%|##3       | 7/30 [00:00<00:00, 58.88it/s]
+Animation 4: FadeIn(Text('ù° �׵� �Բ� �������')):  43%|####3     | 13/30 [00:00<00:00, 52.52it/s]
+Animation 4: FadeIn(Text('ù° �׵� �Բ� �������')):  63%|######3   | 19/30 [00:00<00:00, 52.14it/s]
+Animation 4: FadeIn(Text('ù° �׵� �Բ� �������')):  83%|########3 | 25/30 [00:00<00:00, 52.77it/s]
+                                                                                                     
+
+Animation 6: Restore(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 6: Restore(VGroup of 2 submobjects), etc.:  13%|#3        | 4/30 [00:00<00:00, 30.95it/s]
+Animation 6: Restore(VGroup of 2 submobjects), etc.:  27%|##6       | 8/30 [00:00<00:00, 30.42it/s]
+Animation 6: Restore(VGroup of 2 submobjects), etc.:  40%|####      | 12/30 [00:00<00:00, 30.53it/s]
+Animation 6: Restore(VGroup of 2 submobjects), etc.:  53%|#####3    | 16/30 [00:00<00:00, 30.28it/s]
+Animation 6: Restore(VGroup of 2 submobjects), etc.:  67%|######6   | 20/30 [00:00<00:00, 30.14it/s]
+Animation 6: Restore(VGroup of 2 submobjects), etc.:  80%|########  | 24/30 [00:00<00:00, 30.29it/s]
+Animation 6: Restore(VGroup of 2 submobjects), etc.:  93%|#########3| 28/30 [00:00<00:00, 30.48it/s]
+                                                                                                    
+
+Animation 8: _MethodAnimation(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 8: _MethodAnimation(VGroup of 2 submobjects), etc.:  13%|#3        | 4/30 [00:00<00:00, 36.18it/s]
+Animation 8: _MethodAnimation(VGroup of 2 submobjects), etc.:  27%|##6       | 8/30 [00:00<00:00, 35.93it/s]
+Animation 8: _MethodAnimation(VGroup of 2 submobjects), etc.:  40%|####      | 12/30 [00:00<00:00, 36.40it/s]
+Animation 8: _MethodAnimation(VGroup of 2 submobjects), etc.:  53%|#####3    | 16/30 [00:00<00:00, 32.17it/s]
+Animation 8: _MethodAnimation(VGroup of 2 submobjects), etc.:  67%|######6   | 20/30 [00:00<00:00, 28.44it/s]
+Animation 8: _MethodAnimation(VGroup of 2 submobjects), etc.:  77%|#######6  | 23/30 [00:00<00:00, 27.03it/s]
+Animation 8: _MethodAnimation(VGroup of 2 submobjects), etc.:  87%|########6 | 26/30 [00:00<00:00, 25.74it/s]
+Animation 8: _MethodAnimation(VGroup of 2 submobjects), etc.:  97%|#########6| 29/30 [00:01<00:00, 25.25it/s]
+                                                                                                             
+
+Animation 10: Write(MathTex("T'=x_1y_1z_1+x_2y_3z_3")):   0%|          | 0/60 [00:00<?, ?it/s]
+Animation 10: Write(MathTex("T'=x_1y_1z_1+x_2y_3z_3")):  10%|#         | 6/60 [00:00<00:00, 55.03it/s]
+Animation 10: Write(MathTex("T'=x_1y_1z_1+x_2y_3z_3")):  20%|##        | 12/60 [00:00<00:00, 49.91it/s]
+Animation 10: Write(MathTex("T'=x_1y_1z_1+x_2y_3z_3")):  30%|###       | 18/60 [00:00<00:00, 47.37it/s]
+Animation 10: Write(MathTex("T'=x_1y_1z_1+x_2y_3z_3")):  38%|###8      | 23/60 [00:00<00:00, 44.18it/s]
+Animation 10: Write(MathTex("T'=x_1y_1z_1+x_2y_3z_3")):  47%|####6     | 28/60 [00:00<00:00, 42.03it/s]
+Animation 10: Write(MathTex("T'=x_1y_1z_1+x_2y_3z_3")):  55%|#####5    | 33/60 [00:00<00:00, 37.43it/s]
+Animation 10: Write(MathTex("T'=x_1y_1z_1+x_2y_3z_3")):  62%|######1   | 37/60 [00:00<00:00, 37.29it/s]
+Animation 10: Write(MathTex("T'=x_1y_1z_1+x_2y_3z_3")):  68%|######8   | 41/60 [00:01<00:00, 33.19it/s]
+Animation 10: Write(MathTex("T'=x_1y_1z_1+x_2y_3z_3")):  75%|#######5  | 45/60 [00:01<00:00, 30.03it/s]
+Animation 10: Write(MathTex("T'=x_1y_1z_1+x_2y_3z_3")):  82%|########1 | 49/60 [00:01<00:00, 29.53it/s]
+Animation 10: Write(MathTex("T'=x_1y_1z_1+x_2y_3z_3")):  88%|########8 | 53/60 [00:01<00:00, 29.74it/s]
+Animation 10: Write(MathTex("T'=x_1y_1z_1+x_2y_3z_3")):  95%|#########5| 57/60 [00:01<00:00, 30.21it/s]
+                                                                                                       
+
+Animation 11: FadeIn(Text('���� ���� �� �� ������ ������ ��� ���� �����')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 11: FadeIn(Text('���� ���� �� �� ������ ������ ��� ���� �����')):  33%|###3      | 5/15 [00:00<00:00, 45.39it/s]
+Animation 11: FadeIn(Text('���� ���� �� �� ������ ������ ��� ���� �����')):  67%|######6   | 10/15 [00:00<00:00, 46.91it/s]
+Animation 11: FadeIn(Text('���� ���� �� �� ������ ������ ��� ���� �����')): 100%|##########| 15/15 [00:00<00:00, 46.95it/s]
+                                                                                                                            
+You are using manim version v0.21.0, but version v0.22.0 is available.
+You should consider upgrading via pip install -U manim
+Manim Community v0.21.0
+
+
+Animation 0: Create(VGroup of 9 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 0: Create(VGroup of 9 submobjects), etc.:  13%|#3        | 4/30 [00:00<00:00, 37.83it/s]
+Animation 0: Create(VGroup of 9 submobjects), etc.:  27%|##6       | 8/30 [00:00<00:00, 36.56it/s]
+Animation 0: Create(VGroup of 9 submobjects), etc.:  40%|####      | 12/30 [00:00<00:00, 34.36it/s]
+Animation 0: Create(VGroup of 9 submobjects), etc.:  53%|#####3    | 16/30 [00:00<00:00, 34.10it/s]
+Animation 0: Create(VGroup of 9 submobjects), etc.:  67%|######6   | 20/30 [00:00<00:00, 33.22it/s]
+Animation 0: Create(VGroup of 9 submobjects), etc.:  80%|########  | 24/30 [00:00<00:00, 32.69it/s]
+Animation 0: Create(VGroup of 9 submobjects), etc.:  93%|#########3| 28/30 [00:00<00:00, 32.42it/s]
+                                                                                                   
+
+Animation 2: FadeIn(Text('������ �����ϸ� ������ ���ϵ� ����� �� �ִ�')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 2: FadeIn(Text('������ �����ϸ� ������ ���ϵ� ����� �� �ִ�')):  17%|#6        | 5/30 [00:00<00:00, 48.26it/s]
+Animation 2: FadeIn(Text('������ �����ϸ� ������ ���ϵ� ����� �� �ִ�')):  33%|###3      | 10/30 [00:00<00:00, 45.53it/s]
+Animation 2: FadeIn(Text('������ �����ϸ� ������ ���ϵ� ����� �� �ִ�')):  50%|#####     | 15/30 [00:00<00:00, 45.71it/s]
+Animation 2: FadeIn(Text('������ �����ϸ� ������ ���ϵ� ����� �� �ִ�')):  67%|######6   | 20/30 [00:00<00:00, 45.48it/s]
+Animation 2: FadeIn(Text('������ �����ϸ� ������ ���ϵ� ����� �� �ִ�')):  83%|########3 | 25/30 [00:00<00:00, 43.91it/s]
+Animation 2: FadeIn(Text('������ �����ϸ� ������ ���ϵ� ����� �� �ִ�')): 100%|##########| 30/30 [00:00<00:00, 45.00it/s]
+                                                                                                                          
+
+Animation 4: _MethodAnimation(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 4: _MethodAnimation(VGroup of 2 submobjects), etc.:  10%|#         | 3/30 [00:00<00:00, 28.14it/s]
+Animation 4: _MethodAnimation(VGroup of 2 submobjects), etc.:  20%|##        | 6/30 [00:00<00:00, 26.86it/s]
+Animation 4: _MethodAnimation(VGroup of 2 submobjects), etc.:  30%|###       | 9/30 [00:00<00:00, 24.70it/s]
+Animation 4: _MethodAnimation(VGroup of 2 submobjects), etc.:  40%|####      | 12/30 [00:00<00:00, 20.89it/s]
+Animation 4: _MethodAnimation(VGroup of 2 submobjects), etc.:  50%|#####     | 15/30 [00:00<00:00, 19.37it/s]
+Animation 4: _MethodAnimation(VGroup of 2 submobjects), etc.:  60%|######    | 18/30 [00:00<00:00, 19.10it/s]
+Animation 4: _MethodAnimation(VGroup of 2 submobjects), etc.:  70%|#######   | 21/30 [00:01<00:00, 19.71it/s]
+Animation 4: _MethodAnimation(VGroup of 2 submobjects), etc.:  80%|########  | 24/30 [00:01<00:00, 19.55it/s]
+Animation 4: _MethodAnimation(VGroup of 2 submobjects), etc.:  90%|######### | 27/30 [00:01<00:00, 19.74it/s]
+Animation 4: _MethodAnimation(VGroup of 2 submobjects), etc.:  97%|#########6| 29/30 [00:01<00:00, 19.65it/s]
+                                                                                                             
+
+Animation 6: FadeIn(Text('�󸶳� ������ �� ������ ���峪')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 6: FadeIn(Text('�󸶳� ������ �� ������ ���峪')):  17%|#6        | 5/30 [00:00<00:00, 45.29it/s]
+Animation 6: FadeIn(Text('�󸶳� ������ �� ������ ���峪')):  33%|###3      | 10/30 [00:00<00:00, 45.17it/s]
+Animation 6: FadeIn(Text('�󸶳� ������ �� ������ ���峪')):  50%|#####     | 15/30 [00:00<00:00, 44.88it/s]
+Animation 6: FadeIn(Text('�󸶳� ������ �� ������ ���峪')):  67%|######6   | 20/30 [00:00<00:00, 44.31it/s]
+Animation 6: FadeIn(Text('�󸶳� ������ �� ������ ���峪')):  83%|########3 | 25/30 [00:00<00:00, 43.86it/s]
+Animation 6: FadeIn(Text('�󸶳� ������ �� ������ ���峪')): 100%|##########| 30/30 [00:00<00:00, 41.88it/s]
+                                                                                                           
+
+Animation 8: FadeOut(VGroup of 6 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 8: FadeOut(VGroup of 6 submobjects), etc.:  10%|#         | 3/30 [00:00<00:01, 23.79it/s]
+Animation 8: FadeOut(VGroup of 6 submobjects), etc.:  20%|##        | 6/30 [00:00<00:01, 23.62it/s]
+Animation 8: FadeOut(VGroup of 6 submobjects), etc.:  30%|###       | 9/30 [00:00<00:00, 23.72it/s]
+Animation 8: FadeOut(VGroup of 6 submobjects), etc.:  40%|####      | 12/30 [00:00<00:00, 23.46it/s]
+Animation 8: FadeOut(VGroup of 6 submobjects), etc.:  50%|#####     | 15/30 [00:00<00:00, 22.76it/s]
+Animation 8: FadeOut(VGroup of 6 submobjects), etc.:  60%|######    | 18/30 [00:00<00:00, 22.67it/s]
+Animation 8: FadeOut(VGroup of 6 submobjects), etc.:  70%|#######   | 21/30 [00:00<00:00, 22.48it/s]
+Animation 8: FadeOut(VGroup of 6 submobjects), etc.:  80%|########  | 24/30 [00:01<00:00, 22.54it/s]
+Animation 8: FadeOut(VGroup of 6 submobjects), etc.:  90%|######### | 27/30 [00:01<00:00, 22.88it/s]
+Animation 8: FadeOut(VGroup of 6 submobjects), etc.: 100%|##########| 30/30 [00:01<00:00, 23.46it/s]
+                                                                                                    
+
+Animation 9: FadeIn(Text('���� ������ ���䵵 �� Ư�� ���� ������ ����� ����� ������ �ƴ�')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 9: FadeIn(Text('���� ������ ���䵵 �� Ư�� ���� ������ ����� ����� ������ �ƴ�')):  33%|###3      | 5/15 [00:00<00:00, 40.44it/s]
+Animation 9: FadeIn(Text('���� ������ ���䵵 �� Ư�� ���� ������ ����� ����� ������ �ƴ�')):  67%|######6   | 10/15 [00:00<00:00, 41.69it/s]
+Animation 9: FadeIn(Text('���� ������ ���䵵 �� Ư�� ���� ������ ����� ����� ������ �ƴ�')): 100%|##########| 15/15 [00:00<00:00, 41.69it/s]
+                                                                                                                                             
+You are using manim version v0.21.0, but version v0.22.0 is available.
+You should consider upgrading via pip install -U manim
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 0: FadeIn(VGroup of 2 submobjects), etc.:  23%|##3       | 7/30 [00:00<00:00, 66.22it/s]
+Animation 0: FadeIn(VGroup of 2 submobjects), etc.:  47%|####6     | 14/30 [00:00<00:00, 51.34it/s]
+Animation 0: FadeIn(VGroup of 2 submobjects), etc.:  67%|######6   | 20/30 [00:00<00:00, 51.76it/s]
+Animation 0: FadeIn(VGroup of 2 submobjects), etc.:  87%|########6 | 26/30 [00:00<00:00, 52.45it/s]
+                                                                                                   
+
+Animation 2: FadeIn(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 2: FadeIn(VGroup of 2 submobjects), etc.:  17%|#6        | 5/30 [00:00<00:00, 41.94it/s]
+Animation 2: FadeIn(VGroup of 2 submobjects), etc.:  33%|###3      | 10/30 [00:00<00:00, 45.46it/s]
+Animation 2: FadeIn(VGroup of 2 submobjects), etc.:  50%|#####     | 15/30 [00:00<00:00, 47.11it/s]
+Animation 2: FadeIn(VGroup of 2 submobjects), etc.:  67%|######6   | 20/30 [00:00<00:00, 47.23it/s]
+Animation 2: FadeIn(VGroup of 2 submobjects), etc.:  83%|########3 | 25/30 [00:00<00:00, 47.46it/s]
+Animation 2: FadeIn(VGroup of 2 submobjects), etc.: 100%|##########| 30/30 [00:00<00:00, 48.20it/s]
+                                                                                                   
+
+Animation 4: FadeIn(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 4: FadeIn(VGroup of 2 submobjects), etc.:  23%|##3       | 7/30 [00:00<00:00, 68.47it/s]
+Animation 4: FadeIn(VGroup of 2 submobjects), etc.:  47%|####6     | 14/30 [00:00<00:00, 63.95it/s]
+Animation 4: FadeIn(VGroup of 2 submobjects), etc.:  70%|#######   | 21/30 [00:00<00:00, 64.17it/s]
+Animation 4: FadeIn(VGroup of 2 submobjects), etc.:  93%|#########3| 28/30 [00:00<00:00, 63.32it/s]
+                                                                                                   
+
+Animation 5: FadeIn(Text('������ �������� ����')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 5: FadeIn(Text('������ �������� ����')):  23%|##3       | 7/30 [00:00<00:00, 66.74it/s]
+Animation 5: FadeIn(Text('������ �������� ����')):  47%|####6     | 14/30 [00:00<00:00, 56.33it/s]
+Animation 5: FadeIn(Text('������ �������� ����')):  67%|######6   | 20/30 [00:00<00:00, 56.94it/s]
+Animation 5: FadeIn(Text('������ �������� ����')):  87%|########6 | 26/30 [00:00<00:00, 57.34it/s]
+                                                                                                  
+
+Animation 7: Write(MathTex('D=M_n\\oplus\\cdots\\oplus M_n\\quad(q\\text{ copies})')):   0%|          | 0/60 [00:00<?, ?it/s]
+Animation 7: Write(MathTex('D=M_n\\oplus\\cdots\\oplus M_n\\quad(q\\text{ copies})')):  10%|#         | 6/60 [00:00<00:00, 59.93it/s]
+Animation 7: Write(MathTex('D=M_n\\oplus\\cdots\\oplus M_n\\quad(q\\text{ copies})')):  20%|##        | 12/60 [00:00<00:00, 51.76it/s]
+Animation 7: Write(MathTex('D=M_n\\oplus\\cdots\\oplus M_n\\quad(q\\text{ copies})')):  30%|###       | 18/60 [00:00<00:00, 47.75it/s]
+Animation 7: Write(MathTex('D=M_n\\oplus\\cdots\\oplus M_n\\quad(q\\text{ copies})')):  38%|###8      | 23/60 [00:00<00:00, 46.01it/s]
+Animation 7: Write(MathTex('D=M_n\\oplus\\cdots\\oplus M_n\\quad(q\\text{ copies})')):  47%|####6     | 28/60 [00:00<00:00, 46.61it/s]
+Animation 7: Write(MathTex('D=M_n\\oplus\\cdots\\oplus M_n\\quad(q\\text{ copies})')):  55%|#####5    | 33/60 [00:00<00:00, 47.41it/s]
+Animation 7: Write(MathTex('D=M_n\\oplus\\cdots\\oplus M_n\\quad(q\\text{ copies})')):  63%|######3   | 38/60 [00:00<00:00, 47.58it/s]
+Animation 7: Write(MathTex('D=M_n\\oplus\\cdots\\oplus M_n\\quad(q\\text{ copies})')):  72%|#######1  | 43/60 [00:00<00:00, 47.10it/s]
+Animation 7: Write(MathTex('D=M_n\\oplus\\cdots\\oplus M_n\\quad(q\\text{ copies})')):  80%|########  | 48/60 [00:01<00:00, 39.21it/s]
+Animation 7: Write(MathTex('D=M_n\\oplus\\cdots\\oplus M_n\\quad(q\\text{ copies})')):  88%|########8 | 53/60 [00:01<00:00, 37.65it/s]
+Animation 7: Write(MathTex('D=M_n\\oplus\\cdots\\oplus M_n\\quad(q\\text{ copies})')):  95%|#########5| 57/60 [00:01<00:00, 38.12it/s]
+                                                                                                                                      
+
+Animation 9: Write(MathTex('\\underline R(D)\\le \\underline R(T^{\\otimes k})\\le r^k')):   0%|          | 0/60 [00:00<?, ?it/s]
+Animation 9: Write(MathTex('\\underline R(D)\\le \\underline R(T^{\\otimes k})\\le r^k')):  10%|#         | 6/60 [00:00<00:00, 58.49it/s]
+Animation 9: Write(MathTex('\\underline R(D)\\le \\underline R(T^{\\otimes k})\\le r^k')):  20%|##        | 12/60 [00:00<00:00, 54.78it/s]
+Animation 9: Write(MathTex('\\underline R(D)\\le \\underline R(T^{\\otimes k})\\le r^k')):  30%|###       | 18/60 [00:00<00:00, 50.55it/s]
+Animation 9: Write(MathTex('\\underline R(D)\\le \\underline R(T^{\\otimes k})\\le r^k')):  40%|####      | 24/60 [00:00<00:00, 50.40it/s]
+Animation 9: Write(MathTex('\\underline R(D)\\le \\underline R(T^{\\otimes k})\\le r^k')):  50%|#####     | 30/60 [00:00<00:00, 48.13it/s]
+Animation 9: Write(MathTex('\\underline R(D)\\le \\underline R(T^{\\otimes k})\\le r^k')):  58%|#####8    | 35/60 [00:00<00:00, 46.65it/s]
+Animation 9: Write(MathTex('\\underline R(D)\\le \\underline R(T^{\\otimes k})\\le r^k')):  67%|######6   | 40/60 [00:00<00:00, 47.18it/s]
+Animation 9: Write(MathTex('\\underline R(D)\\le \\underline R(T^{\\otimes k})\\le r^k')):  75%|#######5  | 45/60 [00:00<00:00, 41.99it/s]
+Animation 9: Write(MathTex('\\underline R(D)\\le \\underline R(T^{\\otimes k})\\le r^k')):  83%|########3 | 50/60 [00:01<00:00, 42.01it/s]
+Animation 9: Write(MathTex('\\underline R(D)\\le \\underline R(T^{\\otimes k})\\le r^k')):  92%|#########1| 55/60 [00:01<00:00, 37.70it/s]
+Animation 9: Write(MathTex('\\underline R(D)\\le \\underline R(T^{\\otimes k})\\le r^k')):  98%|#########8| 59/60 [00:01<00:00, 37.80it/s]
+                                                                                                                                          
+
+Animation 10: FadeIn(Text('����: �ܿ� �ټ��� ��Ȯ�� �������� ��İ� �����̾�� ��')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 10: FadeIn(Text('����: �ܿ� �ټ��� ��Ȯ�� �������� ��İ� �����̾�� ��')):  27%|##6       | 4/15 [00:00<00:00, 38.98it/s]
+Animation 10: FadeIn(Text('����: �ܿ� �ټ��� ��Ȯ�� �������� ��İ� �����̾�� ��')):  53%|#####3    | 8/15 [00:00<00:00, 38.27it/s]
+Animation 10: FadeIn(Text('����: �ܿ� �ټ��� ��Ȯ�� �������� ��İ� �����̾�� ��')):  80%|########  | 12/15 [00:00<00:00, 37.50it/s]
+                                                                                                                                     
+You are using manim version v0.21.0, but version v0.22.0 is available.
+You should consider upgrading via pip install -U manim
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(Text('5���� ������ �� �ε��: ������ ������ ��������')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 0: FadeIn(Text('5���� ������ �� �ε��: ������ ������ ��������')):  20%|##        | 6/30 [00:00<00:00, 51.77it/s]
+Animation 0: FadeIn(Text('5���� ������ �� �ε��: ������ ������ ��������')):  40%|####      | 12/30 [00:00<00:00, 49.55it/s]
+Animation 0: FadeIn(Text('5���� ������ �� �ε��: ������ ������ ��������')):  57%|#####6    | 17/30 [00:00<00:00, 48.77it/s]
+Animation 0: FadeIn(Text('5���� ������ �� �ε��: ������ ������ ��������')):  73%|#######3  | 22/30 [00:00<00:00, 47.36it/s]
+Animation 0: FadeIn(Text('5���� ������ �� �ε��: ������ ������ ��������')):  90%|######### | 27/30 [00:00<00:00, 47.93it/s]
+                                                                                                                            
+
+Animation 1: FadeIn(VGroup of 2 submobjects):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 1: FadeIn(VGroup of 2 submobjects):  23%|##3       | 7/30 [00:00<00:00, 65.41it/s]
+Animation 1: FadeIn(VGroup of 2 submobjects):  47%|####6     | 14/30 [00:00<00:00, 65.13it/s]
+Animation 1: FadeIn(VGroup of 2 submobjects):  70%|#######   | 21/30 [00:00<00:00, 60.62it/s]
+Animation 1: FadeIn(VGroup of 2 submobjects):  93%|#########3| 28/30 [00:00<00:00, 60.09it/s]
+                                                                                             
+
+Animation 2: FadeIn(VGroup of 2 submobjects):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 2: FadeIn(VGroup of 2 submobjects):  23%|##3       | 7/30 [00:00<00:00, 58.67it/s]
+Animation 2: FadeIn(VGroup of 2 submobjects):  43%|####3     | 13/30 [00:00<00:00, 47.50it/s]
+Animation 2: FadeIn(VGroup of 2 submobjects):  63%|######3   | 19/30 [00:00<00:00, 49.16it/s]
+Animation 2: FadeIn(VGroup of 2 submobjects):  83%|########3 | 25/30 [00:00<00:00, 51.18it/s]
+                                                                                             
+
+Animation 3: FadeIn(VGroup of 2 submobjects):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 3: FadeIn(VGroup of 2 submobjects):  23%|##3       | 7/30 [00:00<00:00, 64.79it/s]
+Animation 3: FadeIn(VGroup of 2 submobjects):  47%|####6     | 14/30 [00:00<00:00, 62.51it/s]
+Animation 3: FadeIn(VGroup of 2 submobjects):  70%|#######   | 21/30 [00:00<00:00, 62.93it/s]
+Animation 3: FadeIn(VGroup of 2 submobjects):  93%|#########3| 28/30 [00:00<00:00, 59.16it/s]
+                                                                                             
+
+Animation 5: Write(MathTex('q\\,n^\\omega\\le r^k')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 5: Write(MathTex('q\\,n^\\omega\\le r^k')):  27%|##6       | 8/30 [00:00<00:00, 70.02it/s]
+Animation 5: Write(MathTex('q\\,n^\\omega\\le r^k')):  53%|#####3    | 16/30 [00:00<00:00, 62.10it/s]
+Animation 5: Write(MathTex('q\\,n^\\omega\\le r^k')):  77%|#######6  | 23/30 [00:00<00:00, 59.92it/s]
+Animation 5: Write(MathTex('q\\,n^\\omega\\le r^k')): 100%|##########| 30/30 [00:00<00:00, 59.72it/s]
+                                                                                                     
+
+Animation 7: FadeOut(MathTex('q\\,n^\\omega\\le r^k')), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 7: FadeOut(MathTex('q\\,n^\\omega\\le r^k')), etc.:  17%|#6        | 5/30 [00:00<00:00, 42.87it/s]
+Animation 7: FadeOut(MathTex('q\\,n^\\omega\\le r^k')), etc.:  33%|###3      | 10/30 [00:00<00:00, 43.53it/s]
+Animation 7: FadeOut(MathTex('q\\,n^\\omega\\le r^k')), etc.:  50%|#####     | 15/30 [00:00<00:00, 43.12it/s]
+Animation 7: FadeOut(MathTex('q\\,n^\\omega\\le r^k')), etc.:  67%|######6   | 20/30 [00:00<00:00, 42.61it/s]
+Animation 7: FadeOut(MathTex('q\\,n^\\omega\\le r^k')), etc.:  83%|########3 | 25/30 [00:00<00:00, 43.17it/s]
+Animation 7: FadeOut(MathTex('q\\,n^\\omega\\le r^k')), etc.: 100%|##########| 30/30 [00:00<00:00, 43.64it/s]
+                                                                                                             
+
+Animation 9: FadeIn(Text('������ ���� �� �� ���� �� ������ ����')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 9: FadeIn(Text('������ ���� �� �� ���� �� ������ ����')):  17%|#6        | 5/30 [00:00<00:00, 49.28it/s]
+Animation 9: FadeIn(Text('������ ���� �� �� ���� �� ������ ����')):  37%|###6      | 11/30 [00:00<00:00, 49.85it/s]
+Animation 9: FadeIn(Text('������ ���� �� �� ���� �� ������ ����')):  57%|#####6    | 17/30 [00:00<00:00, 52.43it/s]
+Animation 9: FadeIn(Text('������ ���� �� �� ���� �� ������ ����')):  77%|#######6  | 23/30 [00:00<00:00, 51.86it/s]
+Animation 9: FadeIn(Text('������ ���� �� �� ���� �� ������ ����')):  97%|#########6| 29/30 [00:00<00:00, 52.46it/s]
+                                                                                                                 
+
+Animation 10: FadeIn(Text('���� ��ü�� ���� ������ �ƴ� �� Ȯ���� �Ը�� ����� �� �� n �� 2')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 10: FadeIn(Text('���� ��ü�� ���� ������ �ƴ� �� Ȯ���� �Ը�� ����� �� �� n �� 2')):  33%|###3      | 5/15 [00:00<00:00, 41.50it/s]
+Animation 10: FadeIn(Text('���� ��ü�� ���� ������ �ƴ� �� Ȯ���� �Ը�� ����� �� �� n �� 2')):  67%|######6   | 10/15 [00:00<00:00, 41.85it/s]
+Animation 10: FadeIn(Text('���� ��ü�� ���� ������ �ƴ� �� Ȯ���� �Ը�� ����� �� �� n �� 2')): 100%|##########| 15/15 [00:00<00:00, 40.20it/s]
+                                                                                                                                               
+You are using manim version v0.21.0, but version v0.22.0 is available.
+You should consider upgrading via pip install -U manim
+OK: C:\Users\owner\Desktop\manim_video\exports\mm07_laser_method_170s_1080p30.mp4; 5100 frames; 30 fps; 170 seconds

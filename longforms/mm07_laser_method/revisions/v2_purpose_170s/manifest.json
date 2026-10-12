@@ -1,0 +1,62 @@
+[
+  {
+    "id": "01",
+    "title": "낮은 비용의 구조에서 무엇을 꺼낼까?",
+    "directory": "scenes/01_purpose",
+    "class": "Scene01",
+    "duration_seconds": null,
+    "storyboard_seconds": 22,
+    "start_seconds": 0,
+    "timing_basis": "revised purpose-first script; TTS unmeasured; storyboard timing retained only for layout"
+  },
+  {
+    "id": "02",
+    "title": "많은 조합이 곧 독립적인 계산은 아니다",
+    "directory": "scenes/02_shared",
+    "class": "Scene02",
+    "duration_seconds": null,
+    "storyboard_seconds": 28,
+    "start_seconds": 22,
+    "timing_basis": "revised purpose-first script; TTS unmeasured; storyboard timing retained only for layout"
+  },
+  {
+    "id": "03",
+    "title": "일부를 버려 독립성을 얻는다",
+    "directory": "scenes/03_zero",
+    "class": "Scene03",
+    "duration_seconds": null,
+    "storyboard_seconds": 30,
+    "start_seconds": 50,
+    "timing_basis": "revised purpose-first script; TTS unmeasured; storyboard timing retained only for layout"
+  },
+  {
+    "id": "04",
+    "title": "왜 계산을 버리는가?",
+    "directory": "scenes/04_selection",
+    "class": "Scene04",
+    "duration_seconds": null,
+    "storyboard_seconds": 30,
+    "start_seconds": 80,
+    "timing_basis": "revised purpose-first script; TTS unmeasured; storyboard timing retained only for layout"
+  },
+  {
+    "id": "05",
+    "title": "확보한 비용 상한은 그대로 넘겨받는다",
+    "directory": "scenes/05_bound",
+    "class": "Scene05",
+    "duration_seconds": null,
+    "storyboard_seconds": 32,
+    "start_seconds": 110,
+    "timing_basis": "revised purpose-first script; TTS unmeasured; storyboard timing retained only for layout"
+  },
+  {
+    "id": "06",
+    "title": "추출한 구조로 더 좋은 상한을 증명한다",
+    "directory": "scenes/06_conclusion",
+    "class": "Scene06",
+    "duration_seconds": null,
+    "storyboard_seconds": 28,
+    "start_seconds": 142,
+    "timing_basis": "revised purpose-first script; TTS unmeasured; storyboard timing retained only for layout"
+  }
+]
