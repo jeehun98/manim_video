@@ -1,0 +1,11 @@
+{
+  "audio_seconds": [
+    111.70083333333334,
+    142.70102083333333,
+    154.70108333333334,
+    193.50145833333335,
+    226.50175
+  ],
+  "total_seconds": 829.1061458333334,
+  "method": "Original voice speed; proportional video timestamp scaling; no video recompression; continuous AAC for full audio"
+}

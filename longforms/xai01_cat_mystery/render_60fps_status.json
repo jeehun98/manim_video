@@ -1,0 +1,32 @@
+[
+  {
+    "act": "01_hook",
+    "frames": 6660,
+    "seconds": 111.0,
+    "file": "C:\\Users\\owner\\Desktop\\manim_video\\exports\\xai01_act01_1080p60.mp4"
+  },
+  {
+    "act": "02_input_changes",
+    "frames": 8760,
+    "seconds": 146.0,
+    "file": "C:\\Users\\owner\\Desktop\\manim_video\\exports\\xai01_act02_1080p60.mp4"
+  },
+  {
+    "act": "03_internal_clues",
+    "frames": 9240,
+    "seconds": 154.0,
+    "file": "C:\\Users\\owner\\Desktop\\manim_video\\exports\\xai01_act03_1080p60.mp4"
+  },
+  {
+    "act": "04_intervention",
+    "frames": 11580,
+    "seconds": 193.0,
+    "file": "C:\\Users\\owner\\Desktop\\manim_video\\exports\\xai01_act04_1080p60.mp4"
+  },
+  {
+    "act": "05_meaning_and_paths",
+    "frames": 13560,
+    "seconds": 226.0,
+    "file": "C:\\Users\\owner\\Desktop\\manim_video\\exports\\xai01_act05_1080p60.mp4"
+  }
+]

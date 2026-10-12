@@ -32,11 +32,11 @@ class Act04Intervention(ThreeDScene):
     def construct(self):
         ends=json.loads(Path(__file__).with_name('timing.json').read_text(encoding='utf-8'))['ends']
         fixed=[]
-        def play(*a,rt=.7):self.play(*a,run_time=round(rt*30)/30)
+        def play(*a,rt=.7):self.play(*a,run_time=round(rt*config.frame_rate)/config.frame_rate)
         def until(n):
-            frames=round(ends[n-1]*30)-round(self.time*30)
+            frames=round(ends[n-1]*config.frame_rate)-round(self.time*config.frame_rate)
             if frames<0:raise ValueError(f'Cue {n} overrun: {self.time} > {ends[n-1]}')
-            if frames:self.wait(frames/30)
+            if frames:self.wait(frames/config.frame_rate)
         def start(n):self.next_section(f'cue_{n:02}')
         def clear():
             if self.mobjects:play(*[FadeOut(m) for m in list(self.mobjects)],rt=.3)

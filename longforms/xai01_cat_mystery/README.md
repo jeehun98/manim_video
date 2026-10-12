@@ -95,3 +95,25 @@ A/B 개입 비교 뒤에 내부 방향에 대한 반응 곡선, gradient의 접�
 전체 결과: `exports/xai01_full_silent_1080p30.mp4`, 전체 SRT는 같은 이름의 `.srt`와 프로젝트 captions.srt. 총 830초, 1080p·30fps, 무음이다. 코덱·해상도와 프레임 수를 확인하고 영상 패킷을 재인코딩 없이 연결한다.
 
 문장별 시간은 대본 길이로 추정했고 실제 음원과의 정밀 동기화는 미확인이다. CSV는 생성하지 않는다.
+
+## 각 막 1080p 60fps 렌더
+
+`scenes/*/scene.py`의 시간 계산은 `config.frame_rate`를 사용한다. 기존 30fps와 60fps에서 동일한 구간 목표 시각을 유지한다.
+
+```powershell
+.\.venv\Scripts\python.exe longforms/xai01_cat_mystery/render_60fps.py
+```
+
+출력: `exports/xai01_act01_1080p60.mp4`부터 `exports/xai01_act05_1080p60.mp4`까지. 각 파일은 무음이며 같은 이름의 SRT가 함께 저장된다. 검증 결과는 `render_60fps_status.json`, 렌더 로그는 `media/xai60_XX/render.log`에 기록된다.
+
+## 음성 합성 및 전체본
+
+`exports/xai_1.mp3`부터 `xai_5.mp3`까지 원본 음성의 속도를 유지한다. 각 막의 영상 타임스탬프와 SRT 시간을 실제 음성 길이에 비례해 조정한다. 영상 재압축 없이 60fps 소스의 모든 프레임을 보존하므로 실제 막별 fps는 약 59.62~61.39이다. 전체 음성은 연속 AAC 트랙으로 인코딩한다.
+
+```powershell
+.\.venv\Scripts\python.exe longforms/xai01_cat_mystery/mux_voice.py
+```
+
+각 막: `exports/xai01_actXX_voiced_1080p60.mp4` 및 같은 이름의 SRT.
+전체: `exports/xai01_full_voiced_1080p60.mp4`, `.srt`.
+전체 길이 약 829.106초. 문장별 실제 발화 정렬은 아직 수행하지 않았으며 기존 대본 추정 시간을 비례 조정했다.

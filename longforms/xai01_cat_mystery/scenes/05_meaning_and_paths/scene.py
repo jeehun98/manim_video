@@ -37,11 +37,11 @@ def input_photo(filename,x=0,width=3,height=3.4):
 class Act05MeaningAndPaths(Scene):
     def construct(self):
         ends=json.loads(Path(__file__).with_name('timing.json').read_text(encoding='utf-8'))['ends']
-        def play(*a,rt=.7):self.play(*a,run_time=round(rt*30)/30)
+        def play(*a,rt=.7):self.play(*a,run_time=round(rt*config.frame_rate)/config.frame_rate)
         def until(n):
-            frames=round(ends[n-1]*30)-round(self.time*30)
+            frames=round(ends[n-1]*config.frame_rate)-round(self.time*config.frame_rate)
             if frames<0:raise ValueError(f'Cue {n} overrun: {self.time} > {ends[n-1]}')
-            if frames:self.wait(frames/30)
+            if frames:self.wait(frames/config.frame_rate)
         def start(n):self.next_section(f'cue_{n:02}')
         def clear():
             if self.mobjects:play(*[FadeOut(m) for m in list(self.mobjects)],rt=.3)
@@ -278,7 +278,7 @@ class Act05MeaningAndPaths(Scene):
         title=text('고양이를 알아본다는 것은\n무슨 뜻일까?',43,width=11)
         subtitle=text('EXPLAINABLE AI',20,BLUE).move_to([0,-1.9,0])
         play(Write(title),FadeIn(subtitle),rt=1.2)
-        frames=round((ends[-1]-.7)*30)-round(self.time*30)
-        if frames>0:self.wait(frames/30)
+        frames=round((ends[-1]-.7)*config.frame_rate)-round(self.time*config.frame_rate)
+        if frames>0:self.wait(frames/config.frame_rate)
         play(FadeOut(title),FadeOut(subtitle),rt=.7)
         until(24)

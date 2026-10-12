@@ -33,9 +33,9 @@ class Act01Hook(Scene):
         timing=json.loads(Path(__file__).with_name('timing.json').read_text(encoding='utf-8'))
         ends=[row[1] for row in timing['map'][1:]]
         def until(n):
-            frames=round(ends[n-1]*30)-round(self.time*30)
-            if frames>0:self.wait(frames/30)
-        def play(*a,rt=.75):self.play(*a,run_time=round(rt*30)/30)
+            frames=round(ends[n-1]*config.frame_rate)-round(self.time*config.frame_rate)
+            if frames>0:self.wait(frames/config.frame_rate)
+        def play(*a,rt=.75):self.play(*a,run_time=round(rt*config.frame_rate)/config.frame_rate)
         def heading(s):return text(s,30).move_to([0,3.3,0])
         def footer(s):return text(s,25,width=12).move_to([0,-3.25,0])
         def clear():
@@ -153,7 +153,7 @@ class Act01Hook(Scene):
         play(FadeIn(h),FadeIn(inp),FadeIn(cover),FadeIn(left),FadeIn(right),FadeIn(lh),FadeIn(rh))
         play(Indicate(rh,color=PINK))
         halfway=(ends[13]+ends[12])/2
-        if self.time<halfway:self.wait(round((halfway-self.time)*30)/30)
+        if self.time<halfway:self.wait(round((halfway-self.time)*config.frame_rate)/config.frame_rate)
         grid=VGroup(*[Square(side_length=.33,stroke_width=0,fill_opacity=1,
                   fill_color=[BLUE,GOLD,'#426570','#8B6980'][(r*7+c*3)%4]).move_to([(c-3)*.33,(r-3)*.33,0])
                   for r in range(7) for c in range(7)])
