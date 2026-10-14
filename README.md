@@ -1,5 +1,14 @@
 # Manim 교육 영상 프로젝트
 
+## 제작 예정 — 계산의 두 얼굴
+
+**같은 수식, 다른 실행 비용 — 수학에서 GPU와 AI 컴파일러까지.** Transpose에서 시작해 데이터 이동, 병렬화, 수치적 의미, 신경망 실행 그래프와 컴파일러의 선택으로 확장하는 4부·10편 시리즈입니다.
+
+- [시리즈 제작 계획](plans/two_faces_of_computation_series.md): 편별 주장과 범위, 공통 화면 문법, 기술 검증 기준, 숏폼·롱폼 제작 순서.
+- 01 **Transpose는 왜 계산하지 않아도 느릴까?** — 콘티 기준 74초, 1080×1920·30fps, 무음. 행렬의 전치 → 행 우선 저장 → Warp 주소와 메모리 구간 → 단순 전치의 연속 읽기·간격 쓰기 → 결과 관계와 실행 비용을 비교합니다.
+- 실제 파일: [장면](episodes/calc01_transpose/scene.py) · [제작 기준](episodes/calc01_transpose/brief.md) · [대본](episodes/calc01_transpose/narration.md) · [TTS](episodes/calc01_transpose/tts_script.txt) · [자막](episodes/calc01_transpose/captions.srt) · [시간 기준](episodes/calc01_transpose/timing.json).
+- 렌더: `python scripts/render.py calc01 --preview` / `python scripts/render.py calc01`. 출력: `exports/calc01_preview.mp4`, `exports/calc01.mp4`. 실제 TTS 음원 싱크는 미검증입니다.
+
 ## 과학의 한 장면 18 — 빛으로 뇌에 스위치를 달다
 
 - `science18`: 광유전학과 2026 노벨 생리의학상. 뇌의 전구와 리모컨 → 녹조류의 빛으로 여는 문 → WHEN × WHO → 관찰에서 개입 → 인과적 역할 검증. 피드백을 반영해 비유 중심으로 재구성.
@@ -1026,3 +1035,79 @@ science01 화면 길이는 대사 글자 수에 비례해 배분합니다. `pyth
 
 
 7막 레이저 방법: longforms/mm07_laser_method/ (임시 170초, 무음). 실행: python longforms/mm07_laser_method/build.py --preview 또는 python longforms/mm07_laser_method/build.py
+
+## 정답을 찾는 것과 이해하는 것 — discover01
+
+- 소수는 불규칙한데, 왜 개수는 예측할 수 있을까?
+- 소스: `episodes/discover01_prime_count/scene.py`
+- 제작 기준·대본·발음 대본: 같은 폴더의 `brief.md`, `narration.md`, `tts_script.txt`
+- 실제 소수 계단, `x/ln x`, 로그 눈금의 실제 비율 표본을 비교하는 9:16 무음 영상.
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py discover01 --preview`
+- 최종본: `.\.venv\Scripts\python.exe scripts/render.py discover01`
+- 출력: `exports/discover01_preview.mp4`, `exports/discover01.mp4`
+
+## 수학적 발견 02 — discover02
+
+- 제목: 소수를 세는 문제에 왜 복소수가 등장할까?
+- 소스: `episodes/discover02_euler_product/scene.py`
+- 제작 기준·내레이션·발음 대본·화면 자막: 같은 폴더의 `brief.md`, `narration.md`, `tts_script.txt`, `captions.srt`
+- 소수별 선택과 자연수의 일대일 대응, 오일러 곱, 복소평면과 실제 영점을 시각화한다. 9:16 무음 마스터.
+- 수식 조판은 PATH의 LaTeX/dvisvgm 또는 `.tools/TinyTeX/TinyTeX/bin/windows`를 사용한다.
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py discover02 --preview`
+- 최종본: `.\.venv\Scripts\python.exe scripts/render.py discover02`
+- 출력: `exports/discover02_preview.mp4`, `exports/discover02.mp4`
+
+## 수학적 발견 03 — discover03
+
+- 제목: 소수의 불규칙성을 설명하는 보이지 않는 파동
+- 소스: `episodes/discover03_prime_waves/scene.py`, 수치 계산: 같은 폴더의 `data.py`
+- 제작 기준·화면 전환별 대본·발음 대본: `brief.md`, `narration.md`, `tts_script.txt`
+- 실제 소수 거듭제곱의 가중 계단과 Odlyzko 영점표의 첫 30개 영점쌍을 비교한다. 95초, 9:16 무음 마스터.
+- `captions.srt`는 TTS 문단별 자막이며, 화면 요약 자막은 `screen_captions.srt`, 화면 구간 시각은 `screen_timing.json`에 저장한다.
+- 수식 조판: PATH의 LaTeX/dvisvgm 또는 `.tools/TinyTeX/TinyTeX/bin/windows`.
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py discover03 --preview`
+- 최종본: `.\.venv\Scripts\python.exe scripts/render.py discover03`
+- 출력: `exports/discover03_preview.mp4`, `exports/discover03.mp4`
+
+## 수학적 발견 04 — discover04
+
+- 제목: 불규칙한 점들 사이에 같은 질서가 숨어 있다면?
+- 소스: `episodes/discover04_spacing_patterns/scene.py`
+- 실제 영점 원문: `zeros3.txt`, 수치 재계산: `prepare.py`, 계산 결과·메타데이터: `spacing_data.json`
+- 제작 기준·화면 전환별 대본·TTS 대본: `brief.md`, `narration.md`, `tts_script.txt`
+- 높은 위치의 영점 1만 개와 GUE 표본·사인 커널 이론의 최근접 간격을 비교한다. 99초, 9:16 무음 마스터.
+- 데이터 재계산: `.\.venv\Scripts\python.exe episodes/discover04_spacing_patterns/prepare.py` (NumPy·SciPy 필요)
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py discover04 --preview`
+- 최종본: `.\.venv\Scripts\python.exe scripts/render.py discover04`
+- 출력: `exports/discover04_preview.mp4`, `exports/discover04.mp4`
+
+## 수학적 발견 05 — discover05
+
+- 제목: 리만 가설을 양자역학으로 증명할 수 있을까? — 힐베르트–푈리야
+- 소스: `episodes/discover05_hilbert_polya/scene.py`
+- 제작 기준·화면 전환별 대본·발음 대본: 같은 폴더의 `brief.md`, `narration.md`, `tts_script.txt`
+- 개별 검사와 구조적 설명을 대비하고, 설명용 실수값을 회전·이동하여 임계선과 연결한다. 영점 전체와의 정확한 대응은 미해결로 구분한다.
+- 102초, 9:16 무음 마스터. `captions.srt`는 화면 요약 자막이며 `screen_timing.json`에 구간 시각을 기록한다.
+- 미리보기: `.\.venv\Scripts\python.exe scripts/render.py discover05 --preview`
+- 최종본: `.\.venv\Scripts\python.exe scripts/render.py discover05`
+- 출력: `exports/discover05_preview.mp4`, `exports/discover05.mp4`
+
+
+### 수학적 발견 02 보충편 — 해석적 연속
+
+02와 03 사이에서 보는 독립 보충편. 실제 부분합과 짝수 항을 두 번 빼는 과정을 통해 같은 함수의 새 표현을 발견한다.
+
+- 소스: `episodes/discover02_extra_analytic_continuation/scene.py`
+- 대본·기준: 같은 폴더의 `narration.md`, `tts_script.txt`, `brief.md`, `captions.srt`
+- 미리보기: `.venv\Scripts\python.exe scripts/render.py discover02_extra --preview`
+- 최종: `.venv\Scripts\python.exe scripts/render.py discover02_extra`
+- 88초 · 1080×1920 · 30fps · 기본 무음
+
+
+### 수학적 발견 06 — AI가 답을 찾아주는 시대, 우리는 왜 수학을 할까?
+
+- 실제 소스: `episodes/discover06_why_mathematics/scene.py`
+- 대본과 제작 기준: 같은 폴더의 `narration.md`, `tts_script.txt`, `brief.md`, `captions.srt`
+- 미리보기: `.venv\Scripts\python.exe scripts/render.py discover06 --preview`
+- 최종: `.venv\Scripts\python.exe scripts/render.py discover06`
+- 89초 · 1080×1920 · 30fps · 기본 무음

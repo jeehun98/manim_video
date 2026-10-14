@@ -199,6 +199,18 @@ EPISODES["nnmath13"] = ("episodes/nnmath13_gradient_dynamics/scene.py", "NeuralM
 EPISODES["nnmath14"] = ("episodes/nnmath14_hessian_flat_directions/scene.py", "NeuralMathHessianFlatDirections")
 
 
+EPISODES["discover01"] = ("episodes/discover01_prime_count/scene.py", "PrimeCountDiscovery")
+EPISODES["discover02"] = ("episodes/discover02_euler_product/scene.py", "EulerProductDiscovery")
+EPISODES["discover03"] = ("episodes/discover03_prime_waves/scene.py", "PrimeWavesDiscovery")
+EPISODES["discover04"] = ("episodes/discover04_spacing_patterns/scene.py", "SpacingPatternsDiscovery")
+EPISODES["discover05"] = ("episodes/discover05_hilbert_polya/scene.py", "HilbertPolyaDiscovery")
+
+EPISODES["discover02_extra"] = ("episodes/discover02_extra_analytic_continuation/scene.py", "AnalyticContinuationDiscovery")
+
+EPISODES["discover06"] = ("episodes/discover06_why_mathematics/scene.py", "WhyMathematicsDiscovery")
+
+EPISODES["calc01"] = ("episodes/calc01_transpose/scene.py", "TransposeCost")
+
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("episode", choices=EPISODES)
