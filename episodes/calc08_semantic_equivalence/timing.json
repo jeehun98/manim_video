@@ -1,0 +1,181 @@
+{
+  "duration_seconds": 140,
+  "basis": "user-provided cumulative sentence end times; audio file not supplied",
+  "segment_end_seconds": [
+    9,
+    31,
+    53,
+    70,
+    86,
+    100,
+    115,
+    131,
+    140
+  ],
+  "sentence_end_seconds": [
+    4,
+    9,
+    14,
+    19,
+    25,
+    31,
+    36,
+    41,
+    48,
+    53,
+    58,
+    65,
+    70,
+    73,
+    79,
+    86,
+    91,
+    97,
+    100,
+    104,
+    110,
+    115,
+    120,
+    126,
+    131,
+    135,
+    140
+  ],
+  "cues": [
+    {
+      "start_seconds": 0,
+      "end_seconds": 4,
+      "text": "컴파일러가 행렬곱과 바이어스 덧셈을\n하나의 커널로 합치려 합니다."
+    },
+    {
+      "start_seconds": 4,
+      "end_seconds": 9,
+      "text": "하지만 두 질문은 다릅니다.\n바꿔도 되는가, 그리고 바꾸는 편이 유리한가?"
+    },
+    {
+      "start_seconds": 9,
+      "end_seconds": 14,
+      "text": "실수에서 같은 식이라고 해서,\n컴퓨터 프로그램에서도 자유롭게 바꿀 수는 없습니다."
+    },
+    {
+      "start_seconds": 14,
+      "end_seconds": 19,
+      "text": "엑스에 영을 더하는 항등식도 생각해 보죠.\n부동소수점에는 플러스 영과 마이너스 영이 있습니다."
+    },
+    {
+      "start_seconds": 19,
+      "end_seconds": 25,
+      "text": "마이너스 영에 플러스 영을 더한 값은 플러스 영이지만,\n엑스만 남기면 마이너스 영입니다."
+    },
+    {
+      "start_seconds": 25,
+      "end_seconds": 31,
+      "text": "부호 비트까지 보존해야 한다면 같은 변환이 아닙니다.\n어떤 수치 의미를 요구하는지부터 확인해야 합니다."
+    },
+    {
+      "start_seconds": 31,
+      "end_seconds": 36,
+      "text": "함수에 덧셈을 넣는 것과,\n각각 함수에 넣은 결과를 더하는 것은 같을까요?"
+    },
+    {
+      "start_seconds": 36,
+      "end_seconds": 41,
+      "text": "제곱 함수에서는 같지 않습니다.\n하지만 실수에서 선형인 함수라면 분배 성질을 이용할 수 있습니다."
+    },
+    {
+      "start_seconds": 41,
+      "end_seconds": 48,
+      "text": "이름이 MatMul인지 CustomOp인지보다,\n증명되거나 선언된 연산의 성질이 변환 후보의 근거가 됩니다."
+    },
+    {
+      "start_seconds": 48,
+      "end_seconds": 53,
+      "text": "선형성도 부동소수점 결과의 비트 동일성까지\n자동으로 보장하는 것은 아닙니다."
+    },
+    {
+      "start_seconds": 53,
+      "end_seconds": 58,
+      "text": "선형성, 결합성, 순수성, 원소별 구조는\n서로 다른 변환의 단서입니다."
+    },
+    {
+      "start_seconds": 58,
+      "end_seconds": 65,
+      "text": "실제 적용에는 Shape와 Dtype, 정밀도,\n난수 상태와 메모리 변경 같은 조건도 확인해야 합니다."
+    },
+    {
+      "start_seconds": 65,
+      "end_seconds": 70,
+      "text": "컴파일러는 규칙뿐 아니라,\n그 규칙을 적용할 수 있는 조건도 관리합니다."
+    },
+    {
+      "start_seconds": 70,
+      "end_seconds": 73,
+      "text": "먼저 프로그램이 요구하는 의미를\n보존하는 변환인지 확인합니다."
+    },
+    {
+      "start_seconds": 73,
+      "end_seconds": 79,
+      "text": "허용되지 않으면 후보에서 제외합니다.\n허용된다면 그다음에 적용할 가치가 있는지 따집니다."
+    },
+    {
+      "start_seconds": 79,
+      "end_seconds": 86,
+      "text": "MLIR의 target legality는 허용되는 IR 연산을\n뜻하기도 합니다. 의미 보존의 자동 증명과는 다릅니다."
+    },
+    {
+      "start_seconds": 86,
+      "end_seconds": 91,
+      "text": "두 연산을 합치는 변환이 허용된다고 해도,\n반드시 실행이 빨라지는 것은 아닙니다."
+    },
+    {
+      "start_seconds": 91,
+      "end_seconds": 97,
+      "text": "줄어든 데이터 이동보다 자원 제약의 비용이 커지면,\n전체 실행 시간이 늘어날 수도 있습니다."
+    },
+    {
+      "start_seconds": 97,
+      "end_seconds": 100,
+      "text": "허용되는가와 유리한가는,\n서로 다른 질문입니다."
+    },
+    {
+      "start_seconds": 100,
+      "end_seconds": 104,
+      "text": "Fusion과 Layout, Tile 선택을 조합하면\n후보 실행 경로가 늘어납니다."
+    },
+    {
+      "start_seconds": 104,
+      "end_seconds": 110,
+      "text": "모든 후보를 실제 GPU에서 실행해 비교한다면,\n탐색 자체의 시간도 커질 수 있습니다."
+    },
+    {
+      "start_seconds": 110,
+      "end_seconds": 115,
+      "text": "그래서 규칙과 휴리스틱, 비용 모델, 오토튜닝으로\n탐색 범위를 줄이기도 합니다."
+    },
+    {
+      "start_seconds": 115,
+      "end_seconds": 120,
+      "text": "비용 모델은 실행 비용을 예상하고,\n지원되는 후보는 실제 측정으로 비교할 수도 있습니다."
+    },
+    {
+      "start_seconds": 120,
+      "end_seconds": 126,
+      "text": "예상과 측정의 순위가 달라질 수 있습니다.\n측정한 후보 중 좋은 경로를 찾았다고 전역 최적해는 아닙니다."
+    },
+    {
+      "start_seconds": 126,
+      "end_seconds": 131,
+      "text": "컴파일러는 제한된 시간 안에서,\n허용된 경로 중 더 나은 실행 방법을 찾아갑니다."
+    },
+    {
+      "start_seconds": 131,
+      "end_seconds": 135,
+      "text": "컴파일러는 단순히 계산을\n빠르게 바꾸는 도구가 아닙니다."
+    },
+    {
+      "start_seconds": 135,
+      "end_seconds": 140,
+      "text": "무엇을 바꿔도 되는지 판단하고,\n그 안에서 더 나은 실행 방법을 찾아가는 시스템입니다."
+    }
+  ]
+}

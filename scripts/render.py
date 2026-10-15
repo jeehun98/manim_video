@@ -214,6 +214,11 @@ EPISODES["calc02"] = ("episodes/calc02_shared_memory/scene.py", "SharedMemoryTra
 EPISODES["calc03"] = ("episodes/calc03_swizzled_layout/scene.py", "SwizzledLayout")
 EPISODES["calc04"] = ("episodes/calc04_arithmetic_intensity/scene.py", "ArithmeticIntensity")
 EPISODES["calc05"] = ("episodes/calc05_register_pressure/scene.py", "RegisterPressure")
+EPISODES["calc06"] = ("episodes/calc06_parallel_reduction/scene.py", "ParallelReduction")
+EPISODES["calc07"] = ("episodes/calc07_execution_graph/scene.py", "ExecutionGraph")
+EPISODES["calc08"] = ("episodes/calc08_semantic_equivalence/scene.py", "SemanticEquivalence")
+
+EPISODES["aic01"] = ("episodes/aic01_neurons_regex/scene.py", "NeuronsRegex")
 
 def main():
     p = argparse.ArgumentParser()

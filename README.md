@@ -1,6 +1,6 @@
 # Manim 교육 영상 프로젝트
 
-## 제작 예정 — 계산의 두 얼굴
+## 계산의 두 얼굴
 
 **같은 수식, 다른 실행 비용 — 수학에서 GPU와 AI 컴파일러까지.** Transpose에서 시작해 데이터 이동, 병렬화, 수치적 의미, 신경망 실행 그래프와 컴파일러의 선택으로 확장하는 4부·10편 시리즈입니다.
 
@@ -17,9 +17,18 @@
 - 04 **같은 행렬곱인데 왜 GPU의 병목이 달라질까? — Arithmetic Intensity와 Roofline Model** — 사용자 제공 문장 종료 시각 기준 132초, 1080×1920·30fps, 무음. 같은 W·다른 입력 행 수의 질문 → 1/4/14회 계산 참여 → 재사용과 AI → DRAM Roofline → Prefill·Decode의 조건부 병목을 발견하는 흐름입니다. 복습·후속 예고 없음.
 - 실제 파일: [장면](episodes/calc04_arithmetic_intensity/scene.py) · [제작 기준](episodes/calc04_arithmetic_intensity/brief.md) · [대본](episodes/calc04_arithmetic_intensity/narration.md) · [TTS](episodes/calc04_arithmetic_intensity/tts_script.txt) · [자막](episodes/calc04_arithmetic_intensity/captions.srt) · [시간 기준](episodes/calc04_arithmetic_intensity/timing.json).
 - 렌더: `python scripts/render.py calc04 --preview` / `python scripts/render.py calc04`. 출력: `exports/calc04_preview.mp4`, `exports/calc04.mp4`. 실제 TTS 발화 경계는 미검증입니다.
-- 05 **GPU의 병렬성을 높였는데 왜 느려질까? — Register Spilling** — 초기 편집 예산 145초, 1080×1920·30fps, 무음. 레지스터 예산 → Latency Hiding → Occupancy와 활용률 → Spill Store/Reload → GEMM Tile의 자원 경쟁으로 전체 실행 시간의 균형을 설명합니다. 복습·후속 예고 없음.
+- 05 **GPU의 병렬성을 높였는데 왜 느려질까? — Register Spilling과 Occupancy** — 사용자 제공 문장 종료 시각 기준 130초, 1080×1920·30fps, 무음. 레지스터 예산 → Latency Hiding → Occupancy와 활용률 → Spill Store/Reload → GEMM Tile의 자원 경쟁으로 전체 실행 시간의 균형을 설명합니다. 복습·후속 예고 없음.
 - 실제 파일: [장면](episodes/calc05_register_pressure/scene.py) · [제작 기준](episodes/calc05_register_pressure/brief.md) · [대본](episodes/calc05_register_pressure/narration.md) · [TTS](episodes/calc05_register_pressure/tts_script.txt) · [자막](episodes/calc05_register_pressure/captions.srt) · [시간 기준](episodes/calc05_register_pressure/timing.json).
 - 렌더: `python scripts/render.py calc05 --preview` / `python scripts/render.py calc05`. 출력: `exports/calc05_preview.mp4`, `exports/calc05.mp4`. 실제 TTS 발화 경계는 미검증입니다.
+- 06 **같은 숫자를 더했는데 왜 결과가 달라질까? — GPU 병렬화와 부동소수점** — 사용자 제공 문장 종료 시각 기준 135초, 1080×1920·30fps, 무음. FP32 반올림 → 순차/Tree Reduction → 반복 결정성과 Atomic 누적 순서 → 수학적 동치·허용 오차·비트 동일성으로 결과 보장을 설명합니다. 복습·후속 예고 없음.
+- 실제 파일: [장면](episodes/calc06_parallel_reduction/scene.py) · [제작 기준](episodes/calc06_parallel_reduction/brief.md) · [대본](episodes/calc06_parallel_reduction/narration.md) · [TTS](episodes/calc06_parallel_reduction/tts_script.txt) · [자막](episodes/calc06_parallel_reduction/captions.srt) · [시간 기준](episodes/calc06_parallel_reduction/timing.json).
+- 렌더: `python scripts/render.py calc06 --preview` / `python scripts/render.py calc06`. 출력: `exports/calc06_preview.mp4`, `exports/calc06.mp4`. 실제 TTS 발화 경계는 미검증입니다.
+- 07 **같은 신경망인데 실행 그래프는 왜 다를까? — AI Framework와 GPU Execution** — 사용자 제공 문장 종료 시각 기준 122초, 1080×1920·30fps, 무음. 연산 그래프 → 분리/결합 커널과 실행 계획 → 독립 분기·의존성 → 선택된 작업의 CUDA Graph → 입력 조건별 계획 선택을 구분합니다. 복습·후속 예고 없음.
+- 실제 파일: [장면](episodes/calc07_execution_graph/scene.py) · [제작 기준](episodes/calc07_execution_graph/brief.md) · [대본](episodes/calc07_execution_graph/narration.md) · [TTS](episodes/calc07_execution_graph/tts_script.txt) · [자막](episodes/calc07_execution_graph/captions.srt) · [시간 기준](episodes/calc07_execution_graph/timing.json).
+- 렌더: `python scripts/render.py calc07 --preview` / `python scripts/render.py calc07`. 출력: `exports/calc07_preview.mp4`, `exports/calc07.mp4`. 실제 TTS 발화 경계는 미검증입니다.
+- 08 **AI 컴파일러는 어떻게 같은 계산을 알아볼까? — 의미 보존 변환과 실행 비용** — 시리즈 마지막 편, 사용자 제공 문장 종료 시각 기준 140초, 1080×1920·30fps, 무음. 항등식의 조건 → 연산 성질 → Legality/Profitability 구분 → 변환 탐색과 비용 모델로 수학적 의미와 하드웨어 비용 사이의 컴파일러 역할을 설명합니다. 복습·후속 예고 없음.
+- 실제 파일: [장면](episodes/calc08_semantic_equivalence/scene.py) · [제작 기준](episodes/calc08_semantic_equivalence/brief.md) · [대본](episodes/calc08_semantic_equivalence/narration.md) · [TTS](episodes/calc08_semantic_equivalence/tts_script.txt) · [자막](episodes/calc08_semantic_equivalence/captions.srt) · [시간 기준](episodes/calc08_semantic_equivalence/timing.json).
+- 렌더: `python scripts/render.py calc08 --preview` / `python scripts/render.py calc08`. 출력: `exports/calc08_preview.mp4`, `exports/calc08.mp4`. 실제 TTS 발화 경계는 미검증입니다.
 
 ## 과학의 한 장면 18 — 빛으로 뇌에 스위치를 달다
 
@@ -1123,3 +1132,11 @@ science01 화면 길이는 대사 글자 수에 비례해 배분합니다. `pyth
 - 미리보기: `.venv\Scripts\python.exe scripts/render.py discover06 --preview`
 - 최종: `.venv\Scripts\python.exe scripts/render.py discover06`
 - 89초 · 1080×1920 · 30fps · 기본 무음
+
+## AI 컴파일러 — 계산을 표현하고, 의미를 지키며, 실행을 바꾸는 방법
+
+- 01 **유한한 뉴런으로 무한히 많은 패턴을 인식할 수 있을까? — 신경망에서 정규 표현식까지**
+- 실제 소스: `episodes/aic01_neurons_regex/` (scene.py, brief.md, narration.md, captions.srt, timing.json, tts_script.txt).
+- 미리보기: `.venv/Scripts/python.exe scripts/render.py aic01 --preview`
+- 최종: `.venv/Scripts/python.exe scripts/render.py aic01`
+- 192초 편집 예산, 1080×1920·30fps 무음. TTS 음원 길이와 싱크는 미확정.

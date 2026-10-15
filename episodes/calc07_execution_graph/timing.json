@@ -1,0 +1,156 @@
+{
+  "duration_seconds": 122,
+  "basis": "user-provided cumulative sentence end times; audio file not supplied",
+  "segment_end_seconds": [
+    10,
+    24,
+    38,
+    53,
+    67,
+    84,
+    109,
+    122
+  ],
+  "sentence_end_seconds": [
+    6,
+    10,
+    14,
+    18,
+    24,
+    29,
+    34,
+    38,
+    43,
+    48,
+    53,
+    57,
+    61,
+    67,
+    73,
+    79,
+    84,
+    87,
+    93,
+    97,
+    109,
+    115,
+    122
+  ],
+  "cues": [
+    {
+      "start_seconds": 0,
+      "end_seconds": 6,
+      "text": "같은 신경망을 같은 GPU에서 실행합니다.\n수식도, 가중치도, 입력도 같습니다."
+    },
+    {
+      "start_seconds": 6,
+      "end_seconds": 10,
+      "text": "그렇다면 실행되는 커널의 구성과 순서도\n항상 같을까요?"
+    },
+    {
+      "start_seconds": 10,
+      "end_seconds": 14,
+      "text": "프레임워크는 연산들의 연결 관계를\n그래프로 표현할 수 있습니다."
+    },
+    {
+      "start_seconds": 14,
+      "end_seconds": 18,
+      "text": "행렬곱의 결과가 바이어스 덧셈으로,\n이어서 ReLU로 전달됩니다."
+    },
+    {
+      "start_seconds": 18,
+      "end_seconds": 24,
+      "text": "어떤 값이 어떤 계산에 필요한지는 알지만,\n각 노드가 별도 GPU 커널인지는 아직 정하지 않았습니다."
+    },
+    {
+      "start_seconds": 24,
+      "end_seconds": 29,
+      "text": "각 연산을 따로 실행하거나,\n여러 연산을 하나의 커널에 포함할 수 있습니다."
+    },
+    {
+      "start_seconds": 29,
+      "end_seconds": 34,
+      "text": "같은 연산 그래프가 세 커널이 될 수도,\n하나의 Fused GEMM 커널이 될 수도 있습니다."
+    },
+    {
+      "start_seconds": 34,
+      "end_seconds": 38,
+      "text": "이것은 연산 노드와 하드웨어 커널의\n대응 관계를 선택하는 문제입니다."
+    },
+    {
+      "start_seconds": 38,
+      "end_seconds": 43,
+      "text": "중간값을 어느 메모리에 둘지,\n어떤 배치와 순서로 전달할지도 선택해야 합니다."
+    },
+    {
+      "start_seconds": 43,
+      "end_seconds": 48,
+      "text": "하나의 행렬곱 노드도 타일과 메모리 배치가 다른\n여러 커널 구현으로 이어질 수 있습니다."
+    },
+    {
+      "start_seconds": 48,
+      "end_seconds": 53,
+      "text": "이 선택들이 모여, 실제 GPU에서\n어떻게 실행할지에 대한 계획이 됩니다."
+    },
+    {
+      "start_seconds": 53,
+      "end_seconds": 57,
+      "text": "연산들이 서로 독립적이라면,\n항상 같은 순서로 실행할 필요는 없습니다."
+    },
+    {
+      "start_seconds": 57,
+      "end_seconds": 61,
+      "text": "의존성이 없는 작업은 서로 다른 Stream에서\n겹쳐 실행할 수도 있습니다."
+    },
+    {
+      "start_seconds": 61,
+      "end_seconds": 67,
+      "text": "하지만 Add는 두 결과를 모두 기다립니다.\n다른 Stream이 실제 동시 실행을 보장하지는 않습니다."
+    },
+    {
+      "start_seconds": 67,
+      "end_seconds": 73,
+      "text": "선택한 커널과 실행 의존성을\n런타임 그래프로 구성할 수도 있습니다."
+    },
+    {
+      "start_seconds": 73,
+      "end_seconds": 79,
+      "text": "CUDA Graph는 작업을 미리 정의하고 재사용해,\n반복 실행의 호스트 요청 비용을 줄일 수 있습니다."
+    },
+    {
+      "start_seconds": 79,
+      "end_seconds": 84,
+      "text": "CUDA Graph 자체가 신경망을 해석해\n최적 커널을 고르는 컴파일러는 아닙니다."
+    },
+    {
+      "start_seconds": 84,
+      "end_seconds": 87,
+      "text": "커널 수가 적은 경로가\n항상 빠른 것은 아닙니다."
+    },
+    {
+      "start_seconds": 87,
+      "end_seconds": 93,
+      "text": "데이터 이동, 레지스터 사용, 의존성과 입력 크기가\n전체 실행 비용을 바꿉니다."
+    },
+    {
+      "start_seconds": 93,
+      "end_seconds": 97,
+      "text": "프레임워크는 비용 모델이나 실제 측정으로\n후보를 평가할 수 있습니다."
+    },
+    {
+      "start_seconds": 97,
+      "end_seconds": 109,
+      "text": "입력 크기나 조건이 바뀌면, 다른 계획을 선택하거나\n새로 컴파일할 수도 있습니다."
+    },
+    {
+      "start_seconds": 109,
+      "end_seconds": 115,
+      "text": "연산 그래프는 무엇을 계산할지 나타냅니다.\n실행 계획은 그것을 어떻게 구현할지 결정합니다."
+    },
+    {
+      "start_seconds": 115,
+      "end_seconds": 122,
+      "text": "성능은 커널, 메모리 배치와 실행 순서에 달려 있습니다.\n같은 신경망의 실행 구조는 하나로 정해져 있지 않습니다."
+    }
+  ]
+}
