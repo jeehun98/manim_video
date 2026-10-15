@@ -5,9 +5,21 @@
 **같은 수식, 다른 실행 비용 — 수학에서 GPU와 AI 컴파일러까지.** Transpose에서 시작해 데이터 이동, 병렬화, 수치적 의미, 신경망 실행 그래프와 컴파일러의 선택으로 확장하는 4부·10편 시리즈입니다.
 
 - [시리즈 제작 계획](plans/two_faces_of_computation_series.md): 편별 주장과 범위, 공통 화면 문법, 기술 검증 기준, 숏폼·롱폼 제작 순서.
-- 01 **Transpose는 왜 계산하지 않아도 느릴까?** — 콘티 기준 74초, 1080×1920·30fps, 무음. 행렬의 전치 → 행 우선 저장 → Warp 주소와 메모리 구간 → 단순 전치의 연속 읽기·간격 쓰기 → 결과 관계와 실행 비용을 비교합니다.
+- 01 **Transpose는 정말 행렬을 뒤집을까? — 수학과 GPU의 다른 계산법** — 사용자 제공 문장 종료 시각 기준 107초, 1080×1920·30fps, 무음. 행렬의 전치 → 행 우선 저장 → Warp 주소와 메모리 구간 → 단순 전치의 연속 읽기·간격 쓰기 → View의 shape·stride 변경 → 후속 접근 패턴 → MatMul의 세 실행 경로와 반복 사용의 전체 비용을 비교합니다. 이전 편 복습과 다음 편 예고 없이 완결합니다.
 - 실제 파일: [장면](episodes/calc01_transpose/scene.py) · [제작 기준](episodes/calc01_transpose/brief.md) · [대본](episodes/calc01_transpose/narration.md) · [TTS](episodes/calc01_transpose/tts_script.txt) · [자막](episodes/calc01_transpose/captions.srt) · [시간 기준](episodes/calc01_transpose/timing.json).
 - 렌더: `python scripts/render.py calc01 --preview` / `python scripts/render.py calc01`. 출력: `exports/calc01_preview.mp4`, `exports/calc01.mp4`. 실제 TTS 음원 싱크는 미검증입니다.
+- 02 **메모리를 더 사용하는데 왜 빨라질까? — Shared Memory와 GPU 최적화** — 사용자 제공 문장 종료 시각 기준 89초, 1080×1920·30fps, 무음. 직접 전치 → Shared Memory 타일과 동기화 → Bank Conflict → 32×33 Padding의 bank 분산을 보여줍니다. 이전 편 복습·다음 편 예고 없이 완결합니다.
+- 실제 파일: [장면](episodes/calc02_shared_memory/scene.py) · [제작 기준](episodes/calc02_shared_memory/brief.md) · [대본](episodes/calc02_shared_memory/narration.md) · [TTS](episodes/calc02_shared_memory/tts_script.txt) · [자막](episodes/calc02_shared_memory/captions.srt) · [시간 기준](episodes/calc02_shared_memory/timing.json).
+- 렌더: `python scripts/render.py calc02 --preview` / `python scripts/render.py calc02`. 출력: `exports/calc02_preview.mp4`, `exports/calc02.mp4`. 실제 TTS 발화 경계는 미검증입니다.
+- 03 **GPU는 왜 데이터를 일부러 뒤섞을까? — Swizzled Layout과 Tensor Core** — 사용자 제공 문장 종료 시각 기준 92초, 1080×1920·30fps, 무음. 교육용 8-bank XOR 매핑 → 같은 값과 다른 주소 → Tensor Core 공급 방식 → Producer·Conversion·Consumer의 전체 비용을 설명합니다. 복습·후속 예고 없이 완결합니다.
+- 실제 파일: [장면](episodes/calc03_swizzled_layout/scene.py) · [제작 기준](episodes/calc03_swizzled_layout/brief.md) · [대본](episodes/calc03_swizzled_layout/narration.md) · [TTS](episodes/calc03_swizzled_layout/tts_script.txt) · [자막](episodes/calc03_swizzled_layout/captions.srt) · [시간 기준](episodes/calc03_swizzled_layout/timing.json).
+- 렌더: `python scripts/render.py calc03 --preview` / `python scripts/render.py calc03`. 출력: `exports/calc03_preview.mp4`, `exports/calc03.mp4`. 실제 TTS 발화 경계는 미검증입니다.
+- 04 **같은 행렬곱인데 왜 GPU의 병목이 달라질까? — Arithmetic Intensity와 Roofline Model** — 사용자 제공 문장 종료 시각 기준 132초, 1080×1920·30fps, 무음. 같은 W·다른 입력 행 수의 질문 → 1/4/14회 계산 참여 → 재사용과 AI → DRAM Roofline → Prefill·Decode의 조건부 병목을 발견하는 흐름입니다. 복습·후속 예고 없음.
+- 실제 파일: [장면](episodes/calc04_arithmetic_intensity/scene.py) · [제작 기준](episodes/calc04_arithmetic_intensity/brief.md) · [대본](episodes/calc04_arithmetic_intensity/narration.md) · [TTS](episodes/calc04_arithmetic_intensity/tts_script.txt) · [자막](episodes/calc04_arithmetic_intensity/captions.srt) · [시간 기준](episodes/calc04_arithmetic_intensity/timing.json).
+- 렌더: `python scripts/render.py calc04 --preview` / `python scripts/render.py calc04`. 출력: `exports/calc04_preview.mp4`, `exports/calc04.mp4`. 실제 TTS 발화 경계는 미검증입니다.
+- 05 **GPU의 병렬성을 높였는데 왜 느려질까? — Register Spilling** — 초기 편집 예산 145초, 1080×1920·30fps, 무음. 레지스터 예산 → Latency Hiding → Occupancy와 활용률 → Spill Store/Reload → GEMM Tile의 자원 경쟁으로 전체 실행 시간의 균형을 설명합니다. 복습·후속 예고 없음.
+- 실제 파일: [장면](episodes/calc05_register_pressure/scene.py) · [제작 기준](episodes/calc05_register_pressure/brief.md) · [대본](episodes/calc05_register_pressure/narration.md) · [TTS](episodes/calc05_register_pressure/tts_script.txt) · [자막](episodes/calc05_register_pressure/captions.srt) · [시간 기준](episodes/calc05_register_pressure/timing.json).
+- 렌더: `python scripts/render.py calc05 --preview` / `python scripts/render.py calc05`. 출력: `exports/calc05_preview.mp4`, `exports/calc05.mp4`. 실제 TTS 발화 경계는 미검증입니다.
 
 ## 과학의 한 장면 18 — 빛으로 뇌에 스위치를 달다
 

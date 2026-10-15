@@ -1,0 +1,132 @@
+{
+  "duration_seconds": 92,
+  "basis": "user-provided cumulative sentence end times; audio file not supplied",
+  "segment_end_seconds": [
+    9,
+    20,
+    36,
+    45,
+    59,
+    69,
+    80,
+    92
+  ],
+  "sentence_end_seconds": [
+    4,
+    9,
+    12,
+    17,
+    20,
+    24,
+    31,
+    36,
+    41,
+    45,
+    50,
+    55,
+    59,
+    65,
+    69,
+    74,
+    80,
+    85,
+    92
+  ],
+  "cues": [
+    {
+      "start_seconds": 0,
+      "end_seconds": 4,
+      "text": "GPU에서 행렬을 빠르게 계산하려면\n데이터를 가지런히 정렬해야 할까요?"
+    },
+    {
+      "start_seconds": 4,
+      "end_seconds": 9,
+      "text": "꼭 그렇지는 않습니다.\n오히려 데이터를 일부러 뒤섞어 저장하는 방법도 있습니다."
+    },
+    {
+      "start_seconds": 9,
+      "end_seconds": 12,
+      "text": "GPU의 Shared Memory는 여러 bank로 나뉩니다."
+    },
+    {
+      "start_seconds": 12,
+      "end_seconds": 17,
+      "text": "스레드들이 동시에 접근한 주소가 같은 bank에 몰리면\n요청이 충돌할 수 있습니다."
+    },
+    {
+      "start_seconds": 17,
+      "end_seconds": 20,
+      "text": "문제는 원소의 값이 아니라 주소의 배치입니다."
+    },
+    {
+      "start_seconds": 20,
+      "end_seconds": 24,
+      "text": "그렇다면 행마다 원소를 저장할 위치를 다르게 정하면 어떨까요?"
+    },
+    {
+      "start_seconds": 24,
+      "end_seconds": 31,
+      "text": "예를 들어 행 번호와 열 번호를 XOR 연산으로 결합해,\n실제 저장 주소를 바꿀 수 있습니다."
+    },
+    {
+      "start_seconds": 31,
+      "end_seconds": 36,
+      "text": "이렇게 하면 원래는 같은 bank에 몰리던 접근을\n서로 다른 bank로 분산시킬 수 있습니다."
+    },
+    {
+      "start_seconds": 36,
+      "end_seconds": 41,
+      "text": "중요한 것은 행렬의 값이나 수학적 의미는\n변하지 않는다는 점입니다."
+    },
+    {
+      "start_seconds": 41,
+      "end_seconds": 45,
+      "text": "달라진 것은 논리적 좌표를\n실제 메모리 주소에 연결하는 방법입니다."
+    },
+    {
+      "start_seconds": 45,
+      "end_seconds": 50,
+      "text": "이런 데이터 배치는 단순히\n메모리 충돌을 줄이는 데서 끝나지 않습니다."
+    },
+    {
+      "start_seconds": 50,
+      "end_seconds": 55,
+      "text": "GPU의 Tensor Core는 행렬의 작은 조각들을\n정해진 방식으로 받아 계산합니다."
+    },
+    {
+      "start_seconds": 55,
+      "end_seconds": 59,
+      "text": "따라서 어떤 배치로 저장하고,\n어떻게 읽어 전달할지도 중요해집니다."
+    },
+    {
+      "start_seconds": 59,
+      "end_seconds": 65,
+      "text": "그런데 앞선 연산이 데이터를 쓰기 편한 배치와,\n다음 연산이 읽기 편한 배치는 다를 수 있습니다."
+    },
+    {
+      "start_seconds": 65,
+      "end_seconds": 69,
+      "text": "그러면 중간에 데이터를 다시 배치하는\n비용이 필요할 수도 있습니다."
+    },
+    {
+      "start_seconds": 69,
+      "end_seconds": 74,
+      "text": "하나의 연산에 가장 효율적인 배치가,\n전체 계산에서도 가장 효율적이라는 보장은 없습니다."
+    },
+    {
+      "start_seconds": 74,
+      "end_seconds": 80,
+      "text": "앞선 연산의 저장 비용, 다음 연산의 읽기 비용,\n그리고 그 사이의 변환 비용까지 함께 고려해야 합니다."
+    },
+    {
+      "start_seconds": 80,
+      "end_seconds": 85,
+      "text": "같은 행렬도 메모리에 어떻게 배치하느냐에 따라\nGPU가 처리하는 방식은 달라집니다."
+    },
+    {
+      "start_seconds": 85,
+      "end_seconds": 92,
+      "text": "결국 최적화는 데이터를 단순히 정렬하는 것이 아니라,\n계산 전체에 맞는 배치를 선택하는 문제입니다."
+    }
+  ]
+}

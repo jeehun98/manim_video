@@ -1,12 +1,163 @@
 {
-  "duration_seconds": 74,
-  "basis": "user storyboard; not measured TTS",
-  "segment_end_seconds": [
-    10,
+  "duration_seconds": 107,
+  "basis": "user-provided cumulative sentence end times; audio file not supplied",
+  "sentence_end_seconds": [
+    2,
+    6,
+    11,
+    15,
+    18,
     22,
-    37,
-    53,
-    68,
-    74
+    26,
+    29,
+    31,
+    35,
+    38,
+    42,
+    47,
+    50,
+    60,
+    66,
+    71,
+    77,
+    81,
+    85,
+    90,
+    96,
+    102,
+    107
+  ],
+  "segment_end_seconds": [
+    6,
+    15,
+    26,
+    35,
+    50,
+    66,
+    81,
+    96,
+    107
+  ],
+  "cues": [
+    {
+      "start_seconds": 0,
+      "end_seconds": 2,
+      "text": "행렬의 행과 열을 바꾸는 Transpose."
+    },
+    {
+      "start_seconds": 2,
+      "end_seconds": 6,
+      "text": "숫자를 더하거나 곱하지 않습니다.\n원소의 위치 관계만 바뀌는 연산입니다."
+    },
+    {
+      "start_seconds": 6,
+      "end_seconds": 11,
+      "text": "하지만 컴퓨터의 메모리는\n우리가 보는 행렬 모양으로 저장되지 않습니다."
+    },
+    {
+      "start_seconds": 11,
+      "end_seconds": 15,
+      "text": "일반적인 행 우선 배열에서는\n숫자들이 한 줄로 이어져 저장됩니다."
+    },
+    {
+      "start_seconds": 15,
+      "end_seconds": 18,
+      "text": "GPU의 여러 스레드는 메모리에 동시에 접근합니다."
+    },
+    {
+      "start_seconds": 18,
+      "end_seconds": 22,
+      "text": "가까운 주소에 접근하면 요청을 효율적으로 묶을 수 있지만,"
+    },
+    {
+      "start_seconds": 22,
+      "end_seconds": 26,
+      "text": "멀리 떨어진 주소에 접근하면\n더 많은 메모리 트랜잭션이 필요할 수 있습니다."
+    },
+    {
+      "start_seconds": 26,
+      "end_seconds": 29,
+      "text": "별도의 전치 행렬을 만든다고 생각해 보겠습니다."
+    },
+    {
+      "start_seconds": 29,
+      "end_seconds": 31,
+      "text": "원본 행을 연속으로 읽더라도,"
+    },
+    {
+      "start_seconds": 31,
+      "end_seconds": 35,
+      "text": "전치된 행렬에 기록할 때는\n주소가 멀리 떨어질 수 있습니다."
+    },
+    {
+      "start_seconds": 35,
+      "end_seconds": 38,
+      "text": "그런데 반드시 숫자들을 옮겨야 할까요?"
+    },
+    {
+      "start_seconds": 38,
+      "end_seconds": 42,
+      "text": "행렬의 원소는 그대로 두고,\n행과 열을 해석하는 방법만 바꿀 수도 있습니다."
+    },
+    {
+      "start_seconds": 42,
+      "end_seconds": 47,
+      "text": "실제로 일부 텐서 연산에서는\nTranspose가 데이터를 복사하지 않습니다."
+    },
+    {
+      "start_seconds": 47,
+      "end_seconds": 50,
+      "text": "행렬의 크기와 메모리 간격을 나타내는\n정보만 바꾸는 것입니다."
+    },
+    {
+      "start_seconds": 50,
+      "end_seconds": 60,
+      "text": "하지만 여기에도 차이가 있습니다. 데이터를 실제로 재배열한 경우와,\n기존 배열을 다른 방식으로 읽는 경우는 이후의 메모리 접근 패턴이 달라질 수 있습니다."
+    },
+    {
+      "start_seconds": 60,
+      "end_seconds": 66,
+      "text": "전치할 때 데이터를 미리 정리할지,\n나중에 사용할 때 다른 주소 순서로 읽을지의 차이입니다."
+    },
+    {
+      "start_seconds": 66,
+      "end_seconds": 71,
+      "text": "예를 들어 Y = XWᵀ.\n같은 결과를 만드는 경로는 여러 가지입니다."
+    },
+    {
+      "start_seconds": 71,
+      "end_seconds": 77,
+      "text": "전치 배열을 만들거나, View만 만들거나,\n행렬곱이 전치 배치를 직접 처리할 수 있습니다."
+    },
+    {
+      "start_seconds": 77,
+      "end_seconds": 81,
+      "text": "View와 직접 처리는 실제 구현에서\n같은 접근이 될 수도 있습니다."
+    },
+    {
+      "start_seconds": 81,
+      "end_seconds": 85,
+      "text": "전치 결과를 한 번만 쓴다면,\n재배열을 생략하는 편이 유리할 수 있습니다."
+    },
+    {
+      "start_seconds": 85,
+      "end_seconds": 90,
+      "text": "반복해서 쓴다면 한 번 재배열하고,\n이후의 접근 비용을 줄이는 편이 유리할 수도 있습니다."
+    },
+    {
+      "start_seconds": 90,
+      "end_seconds": 96,
+      "text": "이 비교는 단순화한 모형입니다.\n캐시와 데이터 크기, 커널의 레이아웃 지원도 영향을 줍니다."
+    },
+    {
+      "start_seconds": 96,
+      "end_seconds": 102,
+      "text": "중요한 것은 Transpose 하나의 비용이 아닙니다.\n그 결과를 어떻게 사용할지가 선택을 바꿉니다."
+    },
+    {
+      "start_seconds": 102,
+      "end_seconds": 107,
+      "text": "수학적으로 같은 여러 경로 중,\n이후의 계산까지 고려해 전체 비용을 낮추는 경로를 고릅니다."
+    }
   ]
 }

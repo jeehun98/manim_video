@@ -210,6 +210,10 @@ EPISODES["discover02_extra"] = ("episodes/discover02_extra_analytic_continuation
 EPISODES["discover06"] = ("episodes/discover06_why_mathematics/scene.py", "WhyMathematicsDiscovery")
 
 EPISODES["calc01"] = ("episodes/calc01_transpose/scene.py", "TransposeCost")
+EPISODES["calc02"] = ("episodes/calc02_shared_memory/scene.py", "SharedMemoryTranspose")
+EPISODES["calc03"] = ("episodes/calc03_swizzled_layout/scene.py", "SwizzledLayout")
+EPISODES["calc04"] = ("episodes/calc04_arithmetic_intensity/scene.py", "ArithmeticIntensity")
+EPISODES["calc05"] = ("episodes/calc05_register_pressure/scene.py", "RegisterPressure")
 
 def main():
     p = argparse.ArgumentParser()

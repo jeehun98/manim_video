@@ -1,0 +1,150 @@
+{
+  "duration_seconds": 89,
+  "basis": "user-provided cumulative sentence end times; audio file not supplied",
+  "segment_end_seconds": [
+    9,
+    24,
+    36,
+    47,
+    59,
+    69,
+    78,
+    89
+  ],
+  "sentence_end_seconds": [
+    2,
+    7,
+    9,
+    13,
+    17,
+    24,
+    26,
+    30,
+    36,
+    40,
+    42,
+    47,
+    52,
+    54,
+    59,
+    60,
+    64,
+    69,
+    70,
+    78,
+    83,
+    89
+  ],
+  "cues": [
+    {
+      "start_seconds": 0,
+      "end_seconds": 2,
+      "text": "같은 행렬을 전치하는 두 가지 방법이 있습니다."
+    },
+    {
+      "start_seconds": 2,
+      "end_seconds": 7,
+      "text": "하나는 데이터를 바로 옮기고,\n다른 하나는 중간 저장 공간을 한 번 더 거칩니다."
+    },
+    {
+      "start_seconds": 7,
+      "end_seconds": 9,
+      "text": "어느 쪽이 더 빠를까요?"
+    },
+    {
+      "start_seconds": 9,
+      "end_seconds": 13,
+      "text": "GPU에서는 여러 스레드가 함께 메모리에 접근합니다."
+    },
+    {
+      "start_seconds": 13,
+      "end_seconds": 17,
+      "text": "가까운 주소들을 읽고 쓰면\n요청을 효율적으로 묶을 수 있습니다."
+    },
+    {
+      "start_seconds": 17,
+      "end_seconds": 24,
+      "text": "하지만 접근할 주소가 흩어져 있으면, 같은 양의 데이터를 옮기더라도\n더 많은 메모리 트랜잭션이 필요할 수 있습니다."
+    },
+    {
+      "start_seconds": 24,
+      "end_seconds": 26,
+      "text": "전치 행렬을 직접 만든다고 생각해 보겠습니다."
+    },
+    {
+      "start_seconds": 26,
+      "end_seconds": 30,
+      "text": "원본 행을 연속으로 읽으면 읽기는 효율적입니다."
+    },
+    {
+      "start_seconds": 30,
+      "end_seconds": 36,
+      "text": "하지만 전치된 출력 배열에서는 같은 값들이 열 방향으로 놓이기 때문에,\n쓰기 주소가 멀리 떨어질 수 있습니다."
+    },
+    {
+      "start_seconds": 36,
+      "end_seconds": 40,
+      "text": "그렇다면 작은 블록을 중간 저장 공간에 먼저 모으면 어떨까요?"
+    },
+    {
+      "start_seconds": 40,
+      "end_seconds": 42,
+      "text": "원본에서는 연속으로 읽고,"
+    },
+    {
+      "start_seconds": 42,
+      "end_seconds": 47,
+      "text": "Shared Memory 안에서 접근 방향을 바꾼 뒤,\n출력에도 연속으로 기록하는 것입니다."
+    },
+    {
+      "start_seconds": 47,
+      "end_seconds": 52,
+      "text": "하지만 Shared Memory도\n아무 주소나 동시에 접근할 수 있는 것은 아닙니다."
+    },
+    {
+      "start_seconds": 52,
+      "end_seconds": 54,
+      "text": "내부에는 여러 메모리 bank가 있고,"
+    },
+    {
+      "start_seconds": 54,
+      "end_seconds": 59,
+      "text": "서로 다른 주소가 같은 bank에 몰리면\n접근이 나뉘어 처리될 수 있습니다."
+    },
+    {
+      "start_seconds": 59,
+      "end_seconds": 60,
+      "text": "해결 법은 의외로 단순합니다."
+    },
+    {
+      "start_seconds": 60,
+      "end_seconds": 64,
+      "text": "32칸짜리 행에 사용하지 않는 공간 하나를 추가하는 것입니다."
+    },
+    {
+      "start_seconds": 64,
+      "end_seconds": 69,
+      "text": "행의 길이가 33칸이 되면,\n다음 행의 시작 주소가 다른 bank로 밀립니다."
+    },
+    {
+      "start_seconds": 69,
+      "end_seconds": 70,
+      "text": "전치된 결과는 똑같습니다."
+    },
+    {
+      "start_seconds": 70,
+      "end_seconds": 78,
+      "text": "하지만 직접 기록하는 대신 중간 저장 공간을 거치고,\n사용하지 않는 공간까지 추가하자 메모리 접근이 더 효율적으로 바뀐 것입니다."
+    },
+    {
+      "start_seconds": 78,
+      "end_seconds": 83,
+      "text": "GPU에서 중요한 것은 단순히\n데이터를 얼마나 적게 옮겼느냐가 아닙니다."
+    },
+    {
+      "start_seconds": 83,
+      "end_seconds": 89,
+      "text": "같은 결과를 만들더라도, 하드웨어가 그 이동을 어떻게 처리할 수 있는지가\n실제 비용을 결정합니다."
+    }
+  ]
+}

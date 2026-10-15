@@ -31,3 +31,7 @@ README와 `scripts/render.py`에는 ReLU, GPU, LA, SVD, EML, FlashAttention, Qua
 Windows에서 프로젝트 루트를 작업 위치로 열고, 사용할 Python에 Manim을 설치한다. 예: `py -m venv .venv`, `.\.venv\Scripts\python.exe -m pip install -r requirements.txt`, `.\.venv\Scripts\python.exe scripts/render.py prune01 --preview`. 렌더 전 `python -m manim --version`, FFmpeg 사용 가능 여부, `Malgun Gothic` 한글 폰트를 확인한다. 렌더가 실패하면 설치한 Python과 실행에 사용한 Python이 같은지 확인한다.
 
 2026-09-26 확인 시 이 환경의 기본 `python`은 `C:\msys64\mingw64\bin\python.exe`(3.11.9)이며 Manim이 설치되지 않았고, `ffmpeg` 명령도 PATH에서 찾을 수 없었다. 따라서 이 체크아웃에서 렌더 성공 여부는 아직 검증되지 않았다. 이는 저장소 구조에 대한 설명이며 다른 컴퓨터의 설치 상태를 뜻하지 않는다.
+
+## 영상 서사 기준 (2026-10-14 사용자 피드백)
+
+앞으로 제작·수정하는 영상에는 이전 영상 내용의 복습·요약과 이후 영상 예고를 넣지 않는다. 각 영상은 해당 질문과 결론으로 독립적으로 완결한다. 시리즈 기획의 주제 연결은 제작 내부 참고이며 영상 내 예고로 사용하지 않는다.
