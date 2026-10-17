@@ -192,6 +192,7 @@ EPISODES["science16"] = ("episodes/science16_chiral_amplification/scene.py", "Ch
 EPISODES["science17"] = ("episodes/science17_why_chiral_nobel/scene.py", "WhyChiralNobel")
 EPISODES["science18"] = ("episodes/science18_optogenetics/scene.py", "OptogeneticsDiscovery")
 EPISODES["science19"] = ("episodes/science19_kakeya_dimension/scene.py", "KakeyaDimensionDiscovery")
+EPISODES["science20"] = ("episodes/science20_superluminal_expansion/scene.py", "SuperluminalExpansionDiscovery")
 
 EPISODES["act01"] = ("episodes/act01_relu_geometry/scene.py", "ReLUGeometry")
 EPISODES["nnmath12"] = ("episodes/nnmath12_parameter_symmetry_quotient/scene.py", "NeuralMathPermutationQuotient")
@@ -219,6 +220,20 @@ EPISODES["calc07"] = ("episodes/calc07_execution_graph/scene.py", "ExecutionGrap
 EPISODES["calc08"] = ("episodes/calc08_semantic_equivalence/scene.py", "SemanticEquivalence")
 
 EPISODES["aic01"] = ("episodes/aic01_neurons_regex/scene.py", "NeuronsRegex")
+
+EPISODES["aic02"] = ("episodes/aic02_finite_memory/scene.py", "FiniteMemory")
+
+EPISODES["aic03"] = ("episodes/aic03_composable_regex/scene.py", "ComposableRegex")
+
+EPISODES["aic04"] = ("episodes/aic04_equivalent_representations/scene.py", "EquivalentRepresentations")
+
+EPISODES["aic05"] = ("episodes/aic05_thompson_construction/scene.py", "ThompsonConstruction")
+
+EPISODES["aic06"] = ("episodes/aic06_regex_execution/scene.py", "RegexExecution")
+
+EPISODES["aic07"] = ("episodes/aic07_lexing_parsing/scene.py", "LexingParsing")
+
+EPISODES["aic08"] = ("episodes/aic08_ast_to_ir/scene.py", "AstToIR")
 
 def main():
     p = argparse.ArgumentParser()

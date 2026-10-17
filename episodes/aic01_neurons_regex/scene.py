@@ -32,7 +32,7 @@ def automaton(y=1.1):
     return VGroup(edges,nodes,text('시작',-2.5,y-.95,21,MUTED),text('수용 후보',0,y-.95,21,GOOD),text('거부',2.5,y-.95,21,PRUNE))
 
 class NeuronsRegex(Scene):
-    DURATION=192
+    DURATION=149
     def show(self,mob,d=.35):
         self.play(FadeIn(mob),run_time=d);self.stage.add(mob);return mob
     def to(self,t):
@@ -64,7 +64,7 @@ class NeuronsRegex(Scene):
             self.play(Transform(incoming,text(s+'  →  입력 종료: 거부',y=3.9,size=27,color=PRUNE)),run_time=.65)
         self.cue(3)
         self.show(VGroup(text('A × 100  + B',y=-2.8,color=WEIGHT),text('A × 1000 + B',y=-3.65,color=WEIGHT),text('…',y=-4.4,color=WEIGHT)))
-        self.cue(4);self.play(Circumscribe(net,color=ACCENT),run_time=.8);self.to(29.7)
+        self.cue(4);self.play(Circumscribe(net,color=ACCENT),run_time=.8);self.to(19.7)
 
         self.section('02  뉴런을 논리로 표현하다');self.cue(5)
         self.show(VGroup(text('1943',y=4,size=44,color=ACCENT),text('Warren McCulloch · Walter Pitts',y=3.1,size=24),text('발화 / 비발화의 형식적 모형',y=2.4,size=22,color=MUTED)))
@@ -79,7 +79,7 @@ class NeuronsRegex(Scene):
             self.play(net[1][2][0].animate.set_fill(GOOD if a*b else BG,opacity=1),run_time=.35)
         self.cue(8)
         self.show(VGroup(CurvedArrow(p(2.3,.1),p(-2,.8),angle=PI/2,color=SPARSE),text('이전 시각 → 다음 시각',y=-1.25,size=23,color=SPARSE)))
-        self.cue(9);self.show(text('역사적 형식 신경망 · 현대 딥러닝과 구분',y=-4.85,size=20,color=MUTED));self.to(62.7)
+        self.cue(9);self.show(text('역사적 형식 신경망 · 현대 딥러닝과 구분',y=-4.85,size=20,color=MUTED));self.to(48.7)
 
         self.section('03  과거를 모두 저장하지 않는다');self.cue(10)
         machine=self.show(automaton(1.4));self.show(text('입력 알파벳 {A, B} · 전체 문자열 판정',y=4.25,size=22,color=MUTED))
@@ -88,12 +88,12 @@ class NeuronsRegex(Scene):
         letters=self.show(VGroup(*[text(c,(k-2.5)*.75,-2,36,WEIGHT if c=='A' else GOOD) for k,c in enumerate('AAAAAB')]))
         token=self.show(Dot(p(-2.5,1.4),radius=.12,color=ACCENT))
         for k in range(5):
-            self.play(Indicate(letters[k],color=ACCENT),Indicate(machine[1][0],color=WEIGHT),run_time=.6)
+            self.play(Indicate(letters[k],color=ACCENT),Indicate(machine[1][0],color=WEIGHT),run_time=.4)
         self.cue(13);self.play(Indicate(letters[5]),token.animate.move_to(p(0,1.4)),run_time=.7)
         self.show(text('B 도착: 아직 입력 종료 전',y=-3.15,size=24,color=MUTED))
         self.cue(14);verdict=self.show(text('AAAAAB 종료 → 수용',y=-4.1,size=29,color=GOOD))
         self.cue(15);self.play(token.animate.move_to(p(2.5,1.4)),Transform(verdict,text('AAAAABA 종료 → 거부',y=-4.1,size=29,color=PRUNE)),run_time=.6)
-        self.show(text('추가 A 또는 B → 거부 상태에 머무름',y=-4.95,size=21,color=PRUNE));self.to(98.7)
+        self.show(text('추가 A 또는 B → 거부 상태에 머무름',y=-4.95,size=21,color=PRUNE));self.to(71.7)
 
         self.section('04  무한한 목록을 유한한 식으로');self.cue(16)
         rows=self.show(VGroup(*[text('A'*k+'B',y=3.9-k*1.05,size=34,color=WEIGHT) for k in range(5)]),.6)
@@ -103,7 +103,7 @@ class NeuronsRegex(Scene):
         self.play(ReplacementTransform(rows,regex),run_time=1.2);self.stage.remove(rows);self.stage.add(regex)
         self.show(text('{ AⁿB | n = 0, 1, 2, … }',y=3.7,size=31,color=WEIGHT))
         self.cue(19);self.show(VGroup(text('*  =  0회 이상 반복',y=-.3,size=34,color=GOOD),text('n = 0일 때는 B',y=-2.8,color=MUTED)))
-        self.cue(20);self.show(text('전체 문자열이 A*B에 속하는가?',y=-4.15,size=27,color=ACCENT));self.to(128.7)
+        self.cue(20);self.show(text('전체 문자열이 A*B에 속하는가?',y=-4.15,size=27,color=ACCENT));self.to(96.7)
 
         self.section('05  클레이니가 연결한 두 표현');self.cue(21)
         self.show(VGroup(text('Stephen C. Kleene',y=4.25,size=31,color=ACCENT),text('1951 보고서 → 1956 출판',y=3.45,size=23,color=MUTED)))
@@ -115,7 +115,7 @@ class NeuronsRegex(Scene):
         for s,ok in [('AAB',True),('AAAAAB',True),('BA',False),('ABB',False)]:
             self.play(Transform(sample,text(s+('  →  양쪽 수용' if ok else '  →  양쪽 거부'),y=-2,size=29,color=GOOD if ok else PRUNE)),run_time=.65)
         self.cue(24);self.show(text('L(A*B) = L(대응 오토마타)',y=-3.3,size=30,color=ACCENT))
-        self.cue(25);self.show(VGroup(text('모든 정규식 ↔ 대응하는 유한 오토마타',y=-4.2,size=25,color=GOOD),text('표현은 달라도 같은 문자열 집합',y=-4.95,size=23,color=MUTED)));self.to(161.7)
+        self.cue(25);self.show(VGroup(text('모든 정규식 ↔ 대응하는 유한 오토마타',y=-4.2,size=25,color=GOOD),text('표현은 달라도 같은 문자열 집합',y=-4.95,size=23,color=MUTED)));self.to(123.7)
 
         self.section('06  유한한 상태로 무한한 경우를');self.cue(26)
         self.show(VGroup(RoundedRectangle(width=7.2,height=3.9,color=MUTED).move_to(p(0,2)),
@@ -129,5 +129,5 @@ class NeuronsRegex(Scene):
         self.show(VGroup(network(3).scale(.7).move_to(p(0,3.6)),text('형식적 신경망',y=2.1,size=23,color=WEIGHT),
             automaton(0).scale(.7).move_to(p(0,.45)),text('유한 상태',y=-1.1,size=23,color=GOOD),
             text('A*B',y=-2.3,size=54,color=ACCENT),text('무한한 입력 집합\n유한한 상태 · 유한한 규칙',y=-4.25,size=31,color=ACCENT)))
-        self.to(192)
+        self.to(149)
 

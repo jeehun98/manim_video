@@ -1,11 +1,11 @@
 Manim Community v0.21.0
 
-[10/15/26 18:44:59] INFO     Caching disabled.             cairo_renderer.py:81
+[10/15/26 19:29:19] INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 0: FadeIn(VGroup of 2 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 0: FadeIn(VGroup of 2 submobjects):  73%|#######2  | 8/11 [00:00<00:00, 74.75it/s]
+Animation 0: FadeIn(VGroup of 2 submobjects):  55%|#####4    | 6/11 [00:00<00:00, 57.18it/s]
                                                                                             
-[10/15/26 18:45:00] INFO     Animation 0 : Partial     scene_file_writer.py:192
+                    INFO     Animation 0 : Partial     scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -16,9 +16,9 @@ Animation 0: FadeIn(VGroup of 2 submobjects):  73%|#######2  | 8/11 [00:00<00:00
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 1: FadeIn(Text('3�� ���� �� �ν� ��ġ�� ���䵵')):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 1: FadeIn(Text('3�� ���� �� �ν� ��ġ�� ���䵵')):  73%|#######2  | 8/11 [00:00<00:00, 75.62it/s]
+Animation 1: FadeIn(Text('3�� ���� �� �ν� ��ġ�� ���䵵')):  64%|######3   | 7/11 [00:00<00:00, 65.87it/s]
                                                                                                           
-                    INFO     Animation 1 : Partial     scene_file_writer.py:192
+[10/15/26 19:29:20] INFO     Animation 1 : Partial     scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -27,7 +27,7 @@ Animation 1: FadeIn(Text('3�� ���� �� �ν� ��ġ�� �
                              nsRegex\uncached_00001.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:45:02] INFO     Animation 2 : Partial     scene_file_writer.py:192
+[10/15/26 19:29:22] INFO     Animation 2 : Partial     scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -38,9 +38,9 @@ Animation 1: FadeIn(Text('3�� ���� �� �ν� ��ġ�� �
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 3: ReplacementTransform(Text('���� �� ��������, ������ ���� �Է� ������ �ν���\n�� �������?')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 3: ReplacementTransform(Text('���� �� ��������, ������ ���� �Է� ������ �ν���\n�� �������?')):  83%|########3 | 5/6 [00:00<00:00, 47.74it/s]
+Animation 3: ReplacementTransform(Text('���� �� ��������, ������ ���� �Է� ������ �ν���\n�� �������?')):  67%|######6   | 4/6 [00:00<00:00, 29.44it/s]
                                                                                                                                                         
-[10/15/26 18:45:03] INFO     Animation 3 : Partial     scene_file_writer.py:192
+[10/15/26 19:29:23] INFO     Animation 3 : Partial     scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -51,8 +51,8 @@ Animation 3: ReplacementTransform(Text('���� �� �������
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 4: FadeIn(Text('B  ��  �Է� ����')):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 4: FadeIn(Text('B  ��  �Է� ����')):  91%|######### | 10/11 [00:00<00:00, 99.07it/s]
-                                                                                             
+Animation 4: FadeIn(Text('B  ��  �Է� ����')):  64%|######3   | 7/11 [00:00<00:00, 61.93it/s]
+                                                                                            
                     INFO     Animation 4 : Partial     scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
@@ -64,10 +64,12 @@ Animation 4: FadeIn(Text('B  ��  �Է� ����')):  91%|######### | 
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 5: Transform(Text('B  ��  �Է� ����')), etc.:   0%|          | 0/20 [00:00<?, ?it/s]
-Animation 5: Transform(Text('B  ��  �Է� ����')), etc.:  40%|####      | 8/20 [00:00<00:00, 74.87it/s]
-Animation 5: Transform(Text('B  ��  �Է� ����')), etc.:  80%|########  | 16/20 [00:00<00:00, 73.49it/s]
+Animation 5: Transform(Text('B  ��  �Է� ����')), etc.:  25%|##5       | 5/20 [00:00<00:00, 45.22it/s]
+Animation 5: Transform(Text('B  ��  �Է� ����')), etc.:  50%|#####     | 10/20 [00:00<00:00, 45.30it/s]
+Animation 5: Transform(Text('B  ��  �Է� ����')), etc.:  75%|#######5  | 15/20 [00:00<00:00, 45.05it/s]
+Animation 5: Transform(Text('B  ��  �Է� ����')), etc.: 100%|##########| 20/20 [00:00<00:00, 44.76it/s]
                                                                                                       
-[10/15/26 18:45:04] INFO     Animation 5 : Partial     scene_file_writer.py:192
+[10/15/26 19:29:24] INFO     Animation 5 : Partial     scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -78,10 +80,12 @@ Animation 5: Transform(Text('B  ��  �Է� ����')), etc.:  80%|###
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 6: Transform(Text('B  ��  �Է� ����')), etc.:   0%|          | 0/20 [00:00<?, ?it/s]
-Animation 6: Transform(Text('B  ��  �Է� ����')), etc.:  35%|###5      | 7/20 [00:00<00:00, 66.58it/s]
-Animation 6: Transform(Text('B  ��  �Է� ����')), etc.:  75%|#######5  | 15/20 [00:00<00:00, 70.36it/s]
+Animation 6: Transform(Text('B  ��  �Է� ����')), etc.:  25%|##5       | 5/20 [00:00<00:00, 45.95it/s]
+Animation 6: Transform(Text('B  ��  �Է� ����')), etc.:  50%|#####     | 10/20 [00:00<00:00, 47.04it/s]
+Animation 6: Transform(Text('B  ��  �Է� ����')), etc.:  75%|#######5  | 15/20 [00:00<00:00, 47.00it/s]
+Animation 6: Transform(Text('B  ��  �Է� ����')), etc.: 100%|##########| 20/20 [00:00<00:00, 46.95it/s]
                                                                                                       
-                    INFO     Animation 6 : Partial     scene_file_writer.py:192
+[10/15/26 19:29:25] INFO     Animation 6 : Partial     scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -92,10 +96,12 @@ Animation 6: Transform(Text('B  ��  �Է� ����')), etc.:  75%|###
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 7: Transform(Text('B  ��  �Է� ����')), etc.:   0%|          | 0/20 [00:00<?, ?it/s]
-Animation 7: Transform(Text('B  ��  �Է� ����')), etc.:  40%|####      | 8/20 [00:00<00:00, 70.22it/s]
-Animation 7: Transform(Text('B  ��  �Է� ����')), etc.:  80%|########  | 16/20 [00:00<00:00, 66.97it/s]
+Animation 7: Transform(Text('B  ��  �Է� ����')), etc.:  25%|##5       | 5/20 [00:00<00:00, 46.34it/s]
+Animation 7: Transform(Text('B  ��  �Է� ����')), etc.:  50%|#####     | 10/20 [00:00<00:00, 45.69it/s]
+Animation 7: Transform(Text('B  ��  �Է� ����')), etc.:  75%|#######5  | 15/20 [00:00<00:00, 44.56it/s]
+Animation 7: Transform(Text('B  ��  �Է� ����')), etc.: 100%|##########| 20/20 [00:00<00:00, 44.61it/s]
                                                                                                       
-[10/15/26 18:45:05] INFO     Animation 7 : Partial     scene_file_writer.py:192
+[10/15/26 19:29:26] INFO     Animation 7 : Partial     scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -106,9 +112,10 @@ Animation 7: Transform(Text('B  ��  �Է� ����')), etc.:  80%|###
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 8: Transform(Text('B  ��  �Է� ����')), etc.:   0%|          | 0/20 [00:00<?, ?it/s]
-Animation 8: Transform(Text('B  ��  �Է� ����')), etc.:  35%|###5      | 7/20 [00:00<00:00, 61.25it/s]
-Animation 8: Transform(Text('B  ��  �Է� ����')), etc.:  70%|#######   | 14/20 [00:00<00:00, 55.95it/s]
-Animation 8: Transform(Text('B  ��  �Է� ����')), etc.: 100%|##########| 20/20 [00:00<00:00, 55.92it/s]
+Animation 8: Transform(Text('B  ��  �Է� ����')), etc.:  25%|##5       | 5/20 [00:00<00:00, 44.53it/s]
+Animation 8: Transform(Text('B  ��  �Է� ����')), etc.:  50%|#####     | 10/20 [00:00<00:00, 45.22it/s]
+Animation 8: Transform(Text('B  ��  �Է� ����')), etc.:  75%|#######5  | 15/20 [00:00<00:00, 43.84it/s]
+Animation 8: Transform(Text('B  ��  �Է� ����')), etc.: 100%|##########| 20/20 [00:00<00:00, 44.47it/s]
                                                                                                       
                     INFO     Animation 8 : Partial     scene_file_writer.py:192
                              movie file written in                             
@@ -119,7 +126,7 @@ Animation 8: Transform(Text('B  ��  �Է� ����')), etc.: 100%|###
                              nsRegex\uncached_00008.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:45:07] INFO     Animation 9 : Partial     scene_file_writer.py:192
+[10/15/26 19:29:28] INFO     Animation 9 : Partial     scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -130,9 +137,10 @@ Animation 8: Transform(Text('B  ��  �Է� ����')), etc.: 100%|###
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 10: ReplacementTransform(Text('���� ��� B, AB, AAB, AAAB��� ���ڿ���\n�ֽ��ϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 10: ReplacementTransform(Text('���� ��� B, AB, AAB, AAAB��� ���ڿ���\n�ֽ��ϴ�.')):  83%|########3 | 5/6 [00:00<00:00, 42.24it/s]
+Animation 10: ReplacementTransform(Text('���� ��� B, AB, AAB, AAAB��� ���ڿ���\n�ֽ��ϴ�.')):  50%|#####     | 3/6 [00:00<00:00, 25.64it/s]
+Animation 10: ReplacementTransform(Text('���� ��� B, AB, AAB, AAAB��� ���ڿ���\n�ֽ��ϴ�.')): 100%|##########| 6/6 [00:00<00:00, 25.36it/s]
                                                                                                                                              
-                    INFO     Animation 10 : Partial    scene_file_writer.py:192
+[10/15/26 19:29:29] INFO     Animation 10 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -143,9 +151,9 @@ Animation 10: ReplacementTransform(Text('���� ��� B, AB, AAB, AAAB
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 11: FadeIn(Text('A�� �ݺ��� �� B �� ���� �� ����')):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 11: FadeIn(Text('A�� �ݺ��� �� B �� ���� �� ����')):  73%|#######2  | 8/11 [00:00<00:00, 74.38it/s]
+Animation 11: FadeIn(Text('A�� �ݺ��� �� B �� ���� �� ����')):  55%|#####4    | 6/11 [00:00<00:00, 54.05it/s]
                                                                                                             
-[10/15/26 18:45:08] INFO     Animation 11 : Partial    scene_file_writer.py:192
+                    INFO     Animation 11 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -153,11 +161,13 @@ Animation 11: FadeIn(Text('A�� �ݺ��� �� B �� ���� �
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00011.mp                         
                              4'                                                
-                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/15/26 19:29:30] INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 12: Transform(Text('B  ��  �Է� ����')):   0%|          | 0/20 [00:00<?, ?it/s]
-Animation 12: Transform(Text('B  ��  �Է� ����')):  40%|####      | 8/20 [00:00<00:00, 73.97it/s]
-Animation 12: Transform(Text('B  ��  �Է� ����')):  80%|########  | 16/20 [00:00<00:00, 71.67it/s]
+Animation 12: Transform(Text('B  ��  �Է� ����')):  25%|##5       | 5/20 [00:00<00:00, 43.05it/s]
+Animation 12: Transform(Text('B  ��  �Է� ����')):  50%|#####     | 10/20 [00:00<00:00, 45.94it/s]
+Animation 12: Transform(Text('B  ��  �Է� ����')):  75%|#######5  | 15/20 [00:00<00:00, 46.68it/s]
+Animation 12: Transform(Text('B  ��  �Է� ����')): 100%|##########| 20/20 [00:00<00:00, 46.95it/s]
                                                                                                  
                     INFO     Animation 12 : Partial    scene_file_writer.py:192
                              movie file written in                             
@@ -170,11 +180,12 @@ Animation 12: Transform(Text('B  ��  �Է� ����')):  80%|########
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 13: Transform(Text('B  ��  �Է� ����')):   0%|          | 0/20 [00:00<?, ?it/s]
-Animation 13: Transform(Text('B  ��  �Է� ����')):  30%|###       | 6/20 [00:00<00:00, 58.47it/s]
-Animation 13: Transform(Text('B  ��  �Է� ����')):  65%|######5   | 13/20 [00:00<00:00, 64.84it/s]
-Animation 13: Transform(Text('B  ��  �Է� ����')): 100%|##########| 20/20 [00:00<00:00, 64.10it/s]
+Animation 13: Transform(Text('B  ��  �Է� ����')):  25%|##5       | 5/20 [00:00<00:00, 44.78it/s]
+Animation 13: Transform(Text('B  ��  �Է� ����')):  50%|#####     | 10/20 [00:00<00:00, 46.69it/s]
+Animation 13: Transform(Text('B  ��  �Է� ����')):  75%|#######5  | 15/20 [00:00<00:00, 45.85it/s]
+Animation 13: Transform(Text('B  ��  �Է� ����')): 100%|##########| 20/20 [00:00<00:00, 46.72it/s]
                                                                                                  
-[10/15/26 18:45:09] INFO     Animation 13 : Partial    scene_file_writer.py:192
+[10/15/26 19:29:31] INFO     Animation 13 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -183,7 +194,7 @@ Animation 13: Transform(Text('B  ��  �Է� ����')): 100%|########
                              nsRegex\uncached_00013.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:45:12] INFO     Animation 14 : Partial    scene_file_writer.py:192
+[10/15/26 19:29:34] INFO     Animation 14 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -194,9 +205,10 @@ Animation 13: Transform(Text('B  ��  �Է� ����')): 100%|########
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 15: ReplacementTransform(Text('A�� �� �� �ݺ��ǵ�, �������� B�� �����ϰ� �Է���\n������ �����ϴ� ��ġ�� ������ ���ڽ��ϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 15: ReplacementTransform(Text('A�� �� �� �ݺ��ǵ�, �������� B�� �����ϰ� �Է���\n������ �����ϴ� ��ġ�� ������ ���ڽ��ϴ�.')):  83%|########3 | 5/6 [00:00<00:00, 41.65it/s]
+Animation 15: ReplacementTransform(Text('A�� �� �� �ݺ��ǵ�, �������� B�� �����ϰ� �Է���\n������ �����ϴ� ��ġ�� ������ ���ڽ��ϴ�.')):  50%|#####     | 3/6 [00:00<00:00, 22.12it/s]
+Animation 15: ReplacementTransform(Text('A�� �� �� �ݺ��ǵ�, �������� B�� �����ϰ� �Է���\n������ �����ϴ� ��ġ�� ������ ���ڽ��ϴ�.')): 100%|##########| 6/6 [00:00<00:00, 22.80it/s]
                                                                                                                                                                                       
-                    INFO     Animation 15 : Partial    scene_file_writer.py:192
+[10/15/26 19:29:35] INFO     Animation 15 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -207,9 +219,9 @@ Animation 15: ReplacementTransform(Text('A�� �� �� �ݺ��ǵ�,
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 16: FadeIn(VGroup of 3 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 16: FadeIn(VGroup of 3 submobjects):  91%|######### | 10/11 [00:00<00:00, 90.65it/s]
-                                                                                              
-[10/15/26 18:45:13] INFO     Animation 16 : Partial    scene_file_writer.py:192
+Animation 16: FadeIn(VGroup of 3 submobjects):  55%|#####4    | 6/11 [00:00<00:00, 53.33it/s]
+                                                                                             
+                    INFO     Animation 16 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -218,7 +230,7 @@ Animation 16: FadeIn(VGroup of 3 submobjects):  91%|######### | 10/11 [00:00<00:
                              nsRegex\uncached_00016.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:45:15] INFO     Animation 17 : Partial    scene_file_writer.py:192
+[10/15/26 19:29:37] INFO     Animation 17 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -229,9 +241,10 @@ Animation 16: FadeIn(VGroup of 3 submobjects):  91%|######### | 10/11 [00:00<00:
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 18: ReplacementTransform(Text('A�� �� ��, õ �� �ݺ��Ǿ ���������Դϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 18: ReplacementTransform(Text('A�� �� ��, õ �� �ݺ��Ǿ ���������Դϴ�.')):  83%|########3 | 5/6 [00:00<00:00, 38.52it/s]
+Animation 18: ReplacementTransform(Text('A�� �� ��, õ �� �ݺ��Ǿ ���������Դϴ�.')):  50%|#####     | 3/6 [00:00<00:00, 23.23it/s]
+Animation 18: ReplacementTransform(Text('A�� �� ��, õ �� �ݺ��Ǿ ���������Դϴ�.')): 100%|##########| 6/6 [00:00<00:00, 23.36it/s]
                                                                                                                                       
-                    INFO     Animation 18 : Partial    scene_file_writer.py:192
+[10/15/26 19:29:38] INFO     Animation 18 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -242,9 +255,10 @@ Animation 18: ReplacementTransform(Text('A�� �� ��, õ �� �ݺ�
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 19: Circumscribe(Group):   0%|          | 0/24 [00:00<?, ?it/s]
-Animation 19: Circumscribe(Group):  58%|#####8    | 14/24 [00:00<00:00, 138.40it/s]
-                                                                                   
-[10/15/26 18:45:16] INFO     Animation 19 : Partial    scene_file_writer.py:192
+Animation 19: Circumscribe(Group):  46%|####5     | 11/24 [00:00<00:00, 101.53it/s]
+Animation 19: Circumscribe(Group):  92%|#########1| 22/24 [00:00<00:00, 97.16it/s] 
+                                                                                  
+[10/15/26 19:29:39] INFO     Animation 19 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -253,7 +267,7 @@ Animation 19: Circumscribe(Group):  58%|#####8    | 14/24 [00:00<00:00, 138.40it
                              nsRegex\uncached_00019.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:45:17] INFO     Animation 20 : Partial    scene_file_writer.py:192
+[10/15/26 19:29:40] INFO     Animation 20 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -264,10 +278,11 @@ Animation 19: Circumscribe(Group):  58%|#####8    | 14/24 [00:00<00:00, 138.40it
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 21: FadeOut(VGroup of 5 submobjects), etc.:   0%|          | 0/9 [00:00<?, ?it/s]
-Animation 21: FadeOut(VGroup of 5 submobjects), etc.:  44%|####4     | 4/9 [00:00<00:00, 36.42it/s]
-Animation 21: FadeOut(VGroup of 5 submobjects), etc.:  89%|########8 | 8/9 [00:00<00:00, 35.92it/s]
+Animation 21: FadeOut(VGroup of 5 submobjects), etc.:  33%|###3      | 3/9 [00:00<00:00, 20.24it/s]
+Animation 21: FadeOut(VGroup of 5 submobjects), etc.:  67%|######6   | 6/9 [00:00<00:00, 20.57it/s]
+Animation 21: FadeOut(VGroup of 5 submobjects), etc.: 100%|##########| 9/9 [00:00<00:00, 20.00it/s]
                                                                                                    
-[10/15/26 18:45:18] INFO     Animation 21 : Partial    scene_file_writer.py:192
+[10/15/26 19:29:41] INFO     Animation 21 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -275,7 +290,7 @@ Animation 21: FadeOut(VGroup of 5 submobjects), etc.:  89%|########8 | 8/9 [00:0
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00021.mp                         
                              4'                                                
-[10/15/26 18:45:19] WARNING  The original duration of             scene.py:1131
+                    WARNING  The original duration of             scene.py:1131
                              NeuronsRegex.wait(), 0.0333333                    
                              seconds, is too short for the                     
                              current frame rate of 30 FPS.                     
@@ -291,12 +306,12 @@ Animation 21: FadeOut(VGroup of 5 submobjects), etc.:  89%|########8 | 8/9 [00:0
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00022.mp                         
                              4'                                                
-                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/15/26 19:29:42] INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 23: ReplacementTransform(Text('�׷��ٸ� �� ��ġ�� ��� ���ڿ��� ����ϰ� �־��\n�ұ��?')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 23: ReplacementTransform(Text('�׷��ٸ� �� ��ġ�� ��� ���ڿ��� ����ϰ� �־��\n�ұ��?')):  83%|########3 | 5/6 [00:00<00:00, 40.35it/s]
+Animation 23: ReplacementTransform(Text('�׷��ٸ� �� ��ġ�� ��� ���ڿ��� ����ϰ� �־��\n�ұ��?')):  67%|######6   | 4/6 [00:00<00:00, 31.33it/s]
                                                                                                                                                     
-[10/15/26 18:45:20] INFO     Animation 23 : Partial    scene_file_writer.py:192
+                    INFO     Animation 23 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -304,12 +319,13 @@ Animation 23: ReplacementTransform(Text('�׷��ٸ� �� ��ġ�� 
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00023.mp                         
                              4'                                                
-                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/15/26 19:29:43] INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 24: FadeIn(VGroup of 3 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 24: FadeIn(VGroup of 3 submobjects):  55%|#####4    | 6/11 [00:00<00:00, 52.36it/s]
+Animation 24: FadeIn(VGroup of 3 submobjects):  36%|###6      | 4/11 [00:00<00:00, 32.28it/s]
+Animation 24: FadeIn(VGroup of 3 submobjects):  73%|#######2  | 8/11 [00:00<00:00, 30.59it/s]
                                                                                              
-                    INFO     Animation 24 : Partial    scene_file_writer.py:192
+[10/15/26 19:29:44] INFO     Animation 24 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -317,10 +333,10 @@ Animation 24: FadeIn(VGroup of 3 submobjects):  55%|#####4    | 6/11 [00:00<00:0
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00024.mp                         
                              4'                                                
-[10/15/26 18:45:21] INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 25: FadeIn(VGroup of 2 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 25: FadeIn(VGroup of 2 submobjects):  82%|########1 | 9/11 [00:00<00:00, 82.23it/s]
+Animation 25: FadeIn(VGroup of 2 submobjects):  64%|######3   | 7/11 [00:00<00:00, 60.21it/s]
                                                                                              
                     INFO     Animation 25 : Partial    scene_file_writer.py:192
                              movie file written in                             
@@ -331,7 +347,7 @@ Animation 25: FadeIn(VGroup of 2 submobjects):  82%|########1 | 9/11 [00:00<00:0
                              nsRegex\uncached_00025.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:45:24] INFO     Animation 26 : Partial    scene_file_writer.py:192
+[10/15/26 19:29:49] INFO     Animation 26 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -342,9 +358,10 @@ Animation 25: FadeIn(VGroup of 2 submobjects):  82%|########1 | 9/11 [00:00<00:0
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 27: ReplacementTransform(Text('1943��, ���� ���÷��� ���� ������ �Ű� Ȱ����\n���������� ǥ���ϴ� ���� ��ǥ�߽��ϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 27: ReplacementTransform(Text('1943��, ���� ���÷��� ���� ������ �Ű� Ȱ����\n���������� ǥ���ϴ� ���� ��ǥ�߽��ϴ�.')):  67%|######6   | 4/6 [00:00<00:00, 39.91it/s]
+Animation 27: ReplacementTransform(Text('1943��, ���� ���÷��� ���� ������ �Ű� Ȱ����\n���������� ǥ���ϴ� ���� ��ǥ�߽��ϴ�.')):  50%|#####     | 3/6 [00:00<00:00, 21.65it/s]
+Animation 27: ReplacementTransform(Text('1943��, ���� ���÷��� ���� ������ �Ű� Ȱ����\n���������� ǥ���ϴ� ���� ��ǥ�߽��ϴ�.')): 100%|##########| 6/6 [00:00<00:00, 21.23it/s]
                                                                                                                                                                                   
-                    INFO     Animation 27 : Partial    scene_file_writer.py:192
+[10/15/26 19:29:50] INFO     Animation 27 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -355,9 +372,9 @@ Animation 27: ReplacementTransform(Text('1943��, ���� ���÷�
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 28: FadeIn(Text('���� ���� �� 1     �� �� �� 0')):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 28: FadeIn(Text('���� ���� �� 1     �� �� �� 0')):  91%|######### | 10/11 [00:00<00:00, 92.88it/s]
-                                                                                                          
-[10/15/26 18:45:25] INFO     Animation 28 : Partial    scene_file_writer.py:192
+Animation 28: FadeIn(Text('���� ���� �� 1     �� �� �� 0')):  64%|######3   | 7/11 [00:00<00:00, 65.09it/s]
+                                                                                                         
+                    INFO     Animation 28 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -366,7 +383,7 @@ Animation 28: FadeIn(Text('���� ���� �� 1     �� �� 
                              nsRegex\uncached_00028.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:45:27] INFO     Animation 29 : Partial    scene_file_writer.py:192
+[10/15/26 19:29:53] INFO     Animation 29 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -377,9 +394,10 @@ Animation 28: FadeIn(Text('���� ���� �� 1     �� �� 
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 30: ReplacementTransform(Text('�� �𵨿��� ������ Ư�� ������ �����Ǹ� ��ȭ�ϰ�,\n�׷��� ������ ��ȭ���� �ʽ��ϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 30: ReplacementTransform(Text('�� �𵨿��� ������ Ư�� ������ �����Ǹ� ��ȭ�ϰ�,\n�׷��� ������ ��ȭ���� �ʽ��ϴ�.')):  67%|######6   | 4/6 [00:00<00:00, 39.35it/s]
+Animation 30: ReplacementTransform(Text('�� �𵨿��� ������ Ư�� ������ �����Ǹ� ��ȭ�ϰ�,\n�׷��� ������ ��ȭ���� �ʽ��ϴ�.')):  50%|#####     | 3/6 [00:00<00:00, 22.38it/s]
+Animation 30: ReplacementTransform(Text('�� �𵨿��� ������ Ư�� ������ �����Ǹ� ��ȭ�ϰ�,\n�׷��� ������ ��ȭ���� �ʽ��ϴ�.')): 100%|##########| 6/6 [00:00<00:00, 20.18it/s]
                                                                                                                                                                               
-[10/15/26 18:45:28] INFO     Animation 30 : Partial    scene_file_writer.py:192
+[10/15/26 19:29:54] INFO     Animation 30 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -390,9 +408,9 @@ Animation 30: ReplacementTransform(Text('�� �𵨿��� �����
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 31: FadeIn(Text('C(t + 1) = A(t) �� B(t)')):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 31: FadeIn(Text('C(t + 1) = A(t) �� B(t)')):  73%|#######2  | 8/11 [00:00<00:00, 78.83it/s]
+Animation 31: FadeIn(Text('C(t + 1) = A(t) �� B(t)')):  64%|######3   | 7/11 [00:00<00:00, 65.08it/s]
                                                                                                     
-                    INFO     Animation 31 : Partial    scene_file_writer.py:192
+[10/15/26 19:29:55] INFO     Animation 31 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -403,8 +421,8 @@ Animation 31: FadeIn(Text('C(t + 1) = A(t) �� B(t)')):  73%|#######2  | 8/11
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 32: FadeIn(Text('A = 1, B = 0  ��  C = 0')):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 32: FadeIn(Text('A = 1, B = 0  ��  C = 0')):  91%|######### | 10/11 [00:00<00:00, 96.90it/s]
-                                                                                                     
+Animation 32: FadeIn(Text('A = 1, B = 0  ��  C = 0')):  64%|######3   | 7/11 [00:00<00:00, 68.79it/s]
+                                                                                                    
                     INFO     Animation 32 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
@@ -413,14 +431,15 @@ Animation 32: FadeIn(Text('A = 1, B = 0  ��  C = 0')):  91%|######### | 10/1
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00032.mp                         
                              4'                                                
-[10/15/26 18:45:29] INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 33: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.:   0%|          | 0/21 [00:00<?, ?it/s]
-Animation 33: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.:  33%|###3      | 7/21 [00:00<00:00, 61.94it/s]
-Animation 33: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.:  67%|######6   | 14/21 [00:00<00:00, 62.02it/s]
-Animation 33: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.: 100%|##########| 21/21 [00:00<00:00, 61.77it/s]
+Animation 33: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.:  19%|#9        | 4/21 [00:00<00:00, 38.82it/s]
+Animation 33: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.:  38%|###8      | 8/21 [00:00<00:00, 37.90it/s]
+Animation 33: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.:  57%|#####7    | 12/21 [00:00<00:00, 36.83it/s]
+Animation 33: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.:  81%|########  | 17/21 [00:00<00:00, 37.96it/s]
                                                                                                               
-                    INFO     Animation 33 : Partial    scene_file_writer.py:192
+[10/15/26 19:29:56] INFO     Animation 33 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -431,8 +450,9 @@ Animation 33: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.: 100%|#######
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 34: _MethodAnimation(Circle):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 34: _MethodAnimation(Circle):  64%|######3   | 7/11 [00:00<00:00, 60.11it/s]
-                                                                                      
+Animation 34: _MethodAnimation(Circle):  45%|####5     | 5/11 [00:00<00:00, 43.93it/s]
+Animation 34: _MethodAnimation(Circle):  91%|######### | 10/11 [00:00<00:00, 42.77it/s]
+                                                                                       
                     INFO     Animation 34 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
@@ -441,14 +461,16 @@ Animation 34: _MethodAnimation(Circle):  64%|######3   | 7/11 [00:00<00:00, 60.1
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00034.mp                         
                              4'                                                
-                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/15/26 19:29:57] INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 35: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.:   0%|          | 0/21 [00:00<?, ?it/s]
-Animation 35: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.:  33%|###3      | 7/21 [00:00<00:00, 63.08it/s]
-Animation 35: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.:  67%|######6   | 14/21 [00:00<00:00, 64.01it/s]
-Animation 35: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.: 100%|##########| 21/21 [00:00<00:00, 63.53it/s]
+Animation 35: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.:  19%|#9        | 4/21 [00:00<00:00, 39.46it/s]
+Animation 35: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.:  38%|###8      | 8/21 [00:00<00:00, 39.31it/s]
+Animation 35: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.:  57%|#####7    | 12/21 [00:00<00:00, 38.12it/s]
+Animation 35: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.:  76%|#######6  | 16/21 [00:00<00:00, 37.27it/s]
+Animation 35: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.:  95%|#########5| 20/21 [00:00<00:00, 37.69it/s]
                                                                                                               
-[10/15/26 18:45:30] INFO     Animation 35 : Partial    scene_file_writer.py:192
+                    INFO     Animation 35 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -456,11 +478,12 @@ Animation 35: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.: 100%|#######
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00035.mp                         
                              4'                                                
-                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/15/26 19:29:58] INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 36: _MethodAnimation(Circle):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 36: _MethodAnimation(Circle):  64%|######3   | 7/11 [00:00<00:00, 64.32it/s]
-                                                                                      
+Animation 36: _MethodAnimation(Circle):  45%|####5     | 5/11 [00:00<00:00, 42.52it/s]
+Animation 36: _MethodAnimation(Circle):  91%|######### | 10/11 [00:00<00:00, 43.39it/s]
+                                                                                       
                     INFO     Animation 36 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
@@ -472,11 +495,13 @@ Animation 36: _MethodAnimation(Circle):  64%|######3   | 7/11 [00:00<00:00, 64.3
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 37: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.:   0%|          | 0/21 [00:00<?, ?it/s]
-Animation 37: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.:  33%|###3      | 7/21 [00:00<00:00, 68.33it/s]
-Animation 37: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.:  67%|######6   | 14/21 [00:00<00:00, 63.18it/s]
-Animation 37: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.: 100%|##########| 21/21 [00:00<00:00, 61.41it/s]
+Animation 37: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.:  19%|#9        | 4/21 [00:00<00:00, 37.81it/s]
+Animation 37: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.:  38%|###8      | 8/21 [00:00<00:00, 37.48it/s]
+Animation 37: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.:  57%|#####7    | 12/21 [00:00<00:00, 37.23it/s]
+Animation 37: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.:  76%|#######6  | 16/21 [00:00<00:00, 37.16it/s]
+Animation 37: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.: 100%|##########| 21/21 [00:00<00:00, 40.57it/s]
                                                                                                               
-[10/15/26 18:45:31] INFO     Animation 37 : Partial    scene_file_writer.py:192
+[10/15/26 19:29:59] INFO     Animation 37 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -487,7 +512,7 @@ Animation 37: Transform(Text('A = 1, B = 0  ��  C = 0')), etc.: 100%|#######
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 38: _MethodAnimation(Circle):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 38: _MethodAnimation(Circle):  64%|######3   | 7/11 [00:00<00:00, 69.45it/s]
+Animation 38: _MethodAnimation(Circle):  64%|######3   | 7/11 [00:00<00:00, 62.30it/s]
                                                                                       
                     INFO     Animation 38 : Partial    scene_file_writer.py:192
                              movie file written in                             
@@ -498,7 +523,7 @@ Animation 38: _MethodAnimation(Circle):  64%|######3   | 7/11 [00:00<00:00, 69.4
                              nsRegex\uncached_00038.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:45:32] INFO     Animation 39 : Partial    scene_file_writer.py:192
+[10/15/26 19:30:00] INFO     Animation 39 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -509,9 +534,9 @@ Animation 38: _MethodAnimation(Circle):  64%|######3   | 7/11 [00:00<00:00, 69.4
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 40: ReplacementTransform(Text('�� �Է��� ��� Ȱ��ȭ�Ǿ�� ��ȭ�ϴ� ������ ����\nȸ���� AND ����ó�� �۵��մϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 40: ReplacementTransform(Text('�� �Է��� ��� Ȱ��ȭ�Ǿ�� ��ȭ�ϴ� ������ ����\nȸ���� AND ����ó�� �۵��մϴ�.')):  67%|######6   | 4/6 [00:00<00:00, 35.91it/s]
+Animation 40: ReplacementTransform(Text('�� �Է��� ��� Ȱ��ȭ�Ǿ�� ��ȭ�ϴ� ������ ����\nȸ���� AND ����ó�� �۵��մϴ�.')):  67%|######6   | 4/6 [00:00<00:00, 35.60it/s]
                                                                                                                                                                             
-[10/15/26 18:45:33] INFO     Animation 40 : Partial    scene_file_writer.py:192
+[10/15/26 19:30:01] INFO     Animation 40 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -522,7 +547,7 @@ Animation 40: ReplacementTransform(Text('�� �Է��� ��� Ȱ��
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 41: FadeIn(VGroup of 2 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 41: FadeIn(VGroup of 2 submobjects):  91%|######### | 10/11 [00:00<00:00, 97.48it/s]
+Animation 41: FadeIn(VGroup of 2 submobjects):  91%|######### | 10/11 [00:00<00:00, 98.40it/s]
                                                                                               
                     INFO     Animation 41 : Partial    scene_file_writer.py:192
                              movie file written in                             
@@ -533,7 +558,7 @@ Animation 41: FadeIn(VGroup of 2 submobjects):  91%|######### | 10/11 [00:00<00:
                              nsRegex\uncached_00041.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:45:36] INFO     Animation 42 : Partial    scene_file_writer.py:192
+[10/15/26 19:30:04] INFO     Animation 42 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -541,12 +566,14 @@ Animation 41: FadeIn(VGroup of 2 submobjects):  91%|######### | 10/11 [00:00<00:
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00042.mp                         
                              4'                                                
-[10/15/26 18:45:37] INFO     Caching disabled.             cairo_renderer.py:81
+[10/15/26 19:30:05] INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 43: ReplacementTransform(Text('������ ���� ������ ��ȭ�� ���� ������ ������ �ֵ���\n�����ϸ�, �ð��� ���� ������ ǥ���� �� �ֽ��ϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 43: ReplacementTransform(Text('������ ���� ������ ��ȭ�� ���� ������ ������ �ֵ���\n�����ϸ�, �ð��� ���� ������ ǥ���� �� �ֽ��ϴ�.')):  67%|######6   | 4/6 [00:00<00:00, 34.65it/s]
+Animation 43: ReplacementTransform(Text('������ ���� ������ ��ȭ�� ���� ������ ������ �ֵ���\n�����ϸ�, �ð��� ���� ������ ǥ���� �� �ֽ��ϴ�.')):  33%|###3      | 2/6 [00:00<00:00, 16.15it/s]
+Animation 43: ReplacementTransform(Text('������ ���� ������ ��ȭ�� ���� ������ ������ �ֵ���\n�����ϸ�, �ð��� ���� ������ ǥ���� �� �ֽ��ϴ�.')):  67%|######6   | 4/6 [00:00<00:00, 15.32it/s]
+Animation 43: ReplacementTransform(Text('������ ���� ������ ��ȭ�� ���� ������ ������ �ֵ���\n�����ϸ�, �ð��� ���� ������ ǥ���� �� �ֽ��ϴ�.')): 100%|##########| 6/6 [00:00<00:00, 15.83it/s]
                                                                                                                                                                                                 
-                    INFO     Animation 43 : Partial    scene_file_writer.py:192
+[10/15/26 19:30:06] INFO     Animation 43 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -557,8 +584,9 @@ Animation 43: ReplacementTransform(Text('������ ���� ���
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 44: FadeIn(Text('������ ���� �Ű�� �� ���� �����װ� ����')):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 44: FadeIn(Text('������ ���� �Ű�� �� ���� �����װ� ����')):  73%|#######2  | 8/11 [00:00<00:00, 75.73it/s]
-                                                                                                                     
+Animation 44: FadeIn(Text('������ ���� �Ű�� �� ���� �����װ� ����')):  45%|####5     | 5/11 [00:00<00:00, 49.79it/s]
+Animation 44: FadeIn(Text('������ ���� �Ű�� �� ���� �����װ� ����')): 100%|##########| 11/11 [00:00<00:00, 50.88it/s]
+                                                                                                                      
                     INFO     Animation 44 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
@@ -567,8 +595,8 @@ Animation 44: FadeIn(Text('������ ���� �Ű�� �� �
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00044.mp                         
                              4'                                                
-[10/15/26 18:45:38] INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:45:39] INFO     Animation 45 : Partial    scene_file_writer.py:192
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/15/26 19:30:09] INFO     Animation 45 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -579,10 +607,12 @@ Animation 44: FadeIn(Text('������ ���� �Ű�� �� �
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 46: FadeOut(VGroup of 7 submobjects), etc.:   0%|          | 0/9 [00:00<?, ?it/s]
-Animation 46: FadeOut(VGroup of 7 submobjects), etc.:  44%|####4     | 4/9 [00:00<00:00, 30.93it/s]
-Animation 46: FadeOut(VGroup of 7 submobjects), etc.:  89%|########8 | 8/9 [00:00<00:00, 30.83it/s]
+Animation 46: FadeOut(VGroup of 7 submobjects), etc.:  22%|##2       | 2/9 [00:00<00:00, 15.62it/s]
+Animation 46: FadeOut(VGroup of 7 submobjects), etc.:  44%|####4     | 4/9 [00:00<00:00, 16.32it/s]
+Animation 46: FadeOut(VGroup of 7 submobjects), etc.:  67%|######6   | 6/9 [00:00<00:00, 16.51it/s]
+Animation 46: FadeOut(VGroup of 7 submobjects), etc.:  89%|########8 | 8/9 [00:00<00:00, 16.49it/s]
                                                                                                    
-[10/15/26 18:45:40] INFO     Animation 46 : Partial    scene_file_writer.py:192
+[10/15/26 19:30:11] INFO     Animation 46 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -593,9 +623,9 @@ Animation 46: FadeOut(VGroup of 7 submobjects), etc.:  89%|########8 | 8/9 [00:0
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 47: ReplacementTransform(Text('���⼭�� �Ű���� ���ó��� �����װ� ���еǴ� ������\n�����Դϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 47: ReplacementTransform(Text('���⼭�� �Ű���� ���ó��� �����װ� ���еǴ� ������\n�����Դϴ�.')):  83%|########3 | 5/6 [00:00<00:00, 44.90it/s]
+Animation 47: ReplacementTransform(Text('���⼭�� �Ű���� ���ó��� �����װ� ���еǴ� ������\n�����Դϴ�.')):  67%|######6   | 4/6 [00:00<00:00, 33.28it/s]
                                                                                                                                                            
-[10/15/26 18:45:41] INFO     Animation 47 : Partial    scene_file_writer.py:192
+                    INFO     Animation 47 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -603,12 +633,13 @@ Animation 47: ReplacementTransform(Text('���⼭�� �Ű���� �
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00047.mp                         
                              4'                                                
-                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/15/26 19:30:12] INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 48: FadeIn(VGroup of 5 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 48: FadeIn(VGroup of 5 submobjects):  64%|######3   | 7/11 [00:00<00:00, 61.27it/s]
+Animation 48: FadeIn(VGroup of 5 submobjects):  36%|###6      | 4/11 [00:00<00:00, 33.91it/s]
+Animation 48: FadeIn(VGroup of 5 submobjects):  73%|#######2  | 8/11 [00:00<00:00, 33.34it/s]
                                                                                              
-[10/15/26 18:45:42] INFO     Animation 48 : Partial    scene_file_writer.py:192
+                    INFO     Animation 48 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -616,11 +647,12 @@ Animation 48: FadeIn(VGroup of 5 submobjects):  64%|######3   | 7/11 [00:00<00:0
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00048.mp                         
                              4'                                                
-                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/15/26 19:30:13] INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 49: FadeIn(Text('�Է� ���ĺ� {A, B} �� ��ü ���ڿ� ����')):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 49: FadeIn(Text('�Է� ���ĺ� {A, B} �� ��ü ���ڿ� ����')):  73%|#######2  | 8/11 [00:00<00:00, 74.41it/s]
-                                                                                                                   
+Animation 49: FadeIn(Text('�Է� ���ĺ� {A, B} �� ��ü ���ڿ� ����')):  45%|####5     | 5/11 [00:00<00:00, 49.19it/s]
+Animation 49: FadeIn(Text('�Է� ���ĺ� {A, B} �� ��ü ���ڿ� ����')): 100%|##########| 11/11 [00:00<00:00, 50.54it/s]
+                                                                                                                    
                     INFO     Animation 49 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
@@ -630,7 +662,7 @@ Animation 49: FadeIn(Text('�Է� ���ĺ� {A, B} �� ��ü ��
                              nsRegex\uncached_00049.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:45:44] INFO     Animation 50 : Partial    scene_file_writer.py:192
+[10/15/26 19:30:15] INFO     Animation 50 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -641,7 +673,8 @@ Animation 49: FadeIn(Text('�Է� ���ĺ� {A, B} �� ��ü ��
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 51: ReplacementTransform(Text('�ٽ� A�� B�� �Է����� ���ư� ���ڽ��ϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 51: ReplacementTransform(Text('�ٽ� A�� B�� �Է����� ���ư� ���ڽ��ϴ�.')):  67%|######6   | 4/6 [00:00<00:00, 34.42it/s]
+Animation 51: ReplacementTransform(Text('�ٽ� A�� B�� �Է����� ���ư� ���ڽ��ϴ�.')):  50%|#####     | 3/6 [00:00<00:00, 24.36it/s]
+Animation 51: ReplacementTransform(Text('�ٽ� A�� B�� �Է����� ���ư� ���ڽ��ϴ�.')): 100%|##########| 6/6 [00:00<00:00, 23.82it/s]
                                                                                                                                    
                     INFO     Animation 51 : Partial    scene_file_writer.py:192
                              movie file written in                             
@@ -651,12 +684,12 @@ Animation 51: ReplacementTransform(Text('�ٽ� A�� B�� �Է���
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00051.mp                         
                              4'                                                
-                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/15/26 19:30:16] INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 52: FadeIn(Text('A�� ���� ��� ���� ����')):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 52: FadeIn(Text('A�� ���� ��� ���� ����')):  91%|######### | 10/11 [00:00<00:00, 98.81it/s]
-                                                                                                      
-[10/15/26 18:45:45] INFO     Animation 52 : Partial    scene_file_writer.py:192
+Animation 52: FadeIn(Text('A�� ���� ��� ���� ����')):  55%|#####4    | 6/11 [00:00<00:00, 59.00it/s]
+                                                                                                     
+                    INFO     Animation 52 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -665,7 +698,7 @@ Animation 52: FadeIn(Text('A�� ���� ��� ���� ���
                              nsRegex\uncached_00052.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:45:47] INFO     Animation 53 : Partial    scene_file_writer.py:192
+[10/15/26 19:30:18] INFO     Animation 53 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -676,7 +709,8 @@ Animation 52: FadeIn(Text('A�� ���� ��� ���� ���
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 54: ReplacementTransform(Text('�� ��ġ�� A�� �� �� �����ߴ��� �� �ʿ䰡\n�����ϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 54: ReplacementTransform(Text('�� ��ġ�� A�� �� �� �����ߴ��� �� �ʿ䰡\n�����ϴ�.')):  83%|########3 | 5/6 [00:00<00:00, 42.01it/s]
+Animation 54: ReplacementTransform(Text('�� ��ġ�� A�� �� �� �����ߴ��� �� �ʿ䰡\n�����ϴ�.')):  50%|#####     | 3/6 [00:00<00:00, 22.65it/s]
+Animation 54: ReplacementTransform(Text('�� ��ġ�� A�� �� �� �����ߴ��� �� �ʿ䰡\n�����ϴ�.')): 100%|##########| 6/6 [00:00<00:00, 22.52it/s]
                                                                                                                                               
                     INFO     Animation 54 : Partial    scene_file_writer.py:192
                              movie file written in                             
@@ -686,11 +720,12 @@ Animation 54: ReplacementTransform(Text('�� ��ġ�� A�� �� �
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00054.mp                         
                              4'                                                
-                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/15/26 19:30:19] INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 55: FadeIn(VGroup of 6 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
-                                                                                     
-[10/15/26 18:45:48] INFO     Animation 55 : Partial    scene_file_writer.py:192
+Animation 55: FadeIn(VGroup of 6 submobjects):  73%|#######2  | 8/11 [00:00<00:00, 71.93it/s]
+                                                                                             
+                    INFO     Animation 55 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -701,7 +736,8 @@ Animation 55: FadeIn(VGroup of 6 submobjects):   0%|          | 0/11 [00:00<?, ?
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 56: FadeIn(Dot):   0%|          | 0/11 [00:00<?, ?it/s]
-                                                                 
+Animation 56: FadeIn(Dot):  91%|######### | 10/11 [00:00<00:00, 99.46it/s]
+                                                                          
                     INFO     Animation 56 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
@@ -712,12 +748,12 @@ Animation 56: FadeIn(Dot):   0%|          | 0/11 [00:00<?, ?it/s]
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
 
-Animation 57: Indicate(Text('A')), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
-Animation 57: Indicate(Text('A')), etc.:  33%|###3      | 6/18 [00:00<00:00, 58.62it/s]
-Animation 57: Indicate(Text('A')), etc.:  67%|######6   | 12/18 [00:00<00:00, 57.09it/s]
-Animation 57: Indicate(Text('A')), etc.: 100%|##########| 18/18 [00:00<00:00, 55.20it/s]
+Animation 57: Indicate(Text('A')), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 57: Indicate(Text('A')), etc.:  33%|###3      | 4/12 [00:00<00:00, 34.64it/s]
+Animation 57: Indicate(Text('A')), etc.:  67%|######6   | 8/12 [00:00<00:00, 32.98it/s]
+Animation 57: Indicate(Text('A')), etc.: 100%|##########| 12/12 [00:00<00:00, 32.76it/s]
                                                                                         
-                    INFO     Animation 57 : Partial    scene_file_writer.py:192
+[10/15/26 19:30:20] INFO     Animation 57 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -727,12 +763,12 @@ Animation 57: Indicate(Text('A')), etc.: 100%|##########| 18/18 [00:00<00:00, 55
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
 
-Animation 58: Indicate(Text('A')), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
-Animation 58: Indicate(Text('A')), etc.:  33%|###3      | 6/18 [00:00<00:00, 56.18it/s]
-Animation 58: Indicate(Text('A')), etc.:  67%|######6   | 12/18 [00:00<00:00, 57.48it/s]
-Animation 58: Indicate(Text('A')), etc.: 100%|##########| 18/18 [00:00<00:00, 57.15it/s]
+Animation 58: Indicate(Text('A')), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 58: Indicate(Text('A')), etc.:  33%|###3      | 4/12 [00:00<00:00, 33.32it/s]
+Animation 58: Indicate(Text('A')), etc.:  67%|######6   | 8/12 [00:00<00:00, 32.05it/s]
+Animation 58: Indicate(Text('A')), etc.: 100%|##########| 12/12 [00:00<00:00, 32.26it/s]
                                                                                         
-[10/15/26 18:45:49] INFO     Animation 58 : Partial    scene_file_writer.py:192
+                    INFO     Animation 58 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -742,12 +778,12 @@ Animation 58: Indicate(Text('A')), etc.: 100%|##########| 18/18 [00:00<00:00, 57
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
 
-Animation 59: Indicate(Text('A')), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
-Animation 59: Indicate(Text('A')), etc.:  33%|###3      | 6/18 [00:00<00:00, 53.58it/s]
-Animation 59: Indicate(Text('A')), etc.:  67%|######6   | 12/18 [00:00<00:00, 56.07it/s]
-Animation 59: Indicate(Text('A')), etc.: 100%|##########| 18/18 [00:00<00:00, 48.80it/s]
+Animation 59: Indicate(Text('A')), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 59: Indicate(Text('A')), etc.:  33%|###3      | 4/12 [00:00<00:00, 34.43it/s]
+Animation 59: Indicate(Text('A')), etc.:  67%|######6   | 8/12 [00:00<00:00, 33.16it/s]
+Animation 59: Indicate(Text('A')), etc.: 100%|##########| 12/12 [00:00<00:00, 32.94it/s]
                                                                                         
-                    INFO     Animation 59 : Partial    scene_file_writer.py:192
+[10/15/26 19:30:21] INFO     Animation 59 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -757,12 +793,12 @@ Animation 59: Indicate(Text('A')), etc.: 100%|##########| 18/18 [00:00<00:00, 48
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
 
-Animation 60: Indicate(Text('A')), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
-Animation 60: Indicate(Text('A')), etc.:  33%|###3      | 6/18 [00:00<00:00, 54.99it/s]
-Animation 60: Indicate(Text('A')), etc.:  67%|######6   | 12/18 [00:00<00:00, 57.23it/s]
-Animation 60: Indicate(Text('A')), etc.: 100%|##########| 18/18 [00:00<00:00, 56.89it/s]
+Animation 60: Indicate(Text('A')), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 60: Indicate(Text('A')), etc.:  33%|###3      | 4/12 [00:00<00:00, 31.92it/s]
+Animation 60: Indicate(Text('A')), etc.:  67%|######6   | 8/12 [00:00<00:00, 32.09it/s]
+Animation 60: Indicate(Text('A')), etc.: 100%|##########| 12/12 [00:00<00:00, 32.91it/s]
                                                                                         
-[10/15/26 18:45:50] INFO     Animation 60 : Partial    scene_file_writer.py:192
+[10/15/26 19:30:22] INFO     Animation 60 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -772,10 +808,10 @@ Animation 60: Indicate(Text('A')), etc.: 100%|##########| 18/18 [00:00<00:00, 56
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
 
-Animation 61: Indicate(Text('A')), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
-Animation 61: Indicate(Text('A')), etc.:  33%|###3      | 6/18 [00:00<00:00, 56.43it/s]
-Animation 61: Indicate(Text('A')), etc.:  67%|######6   | 12/18 [00:00<00:00, 57.12it/s]
-Animation 61: Indicate(Text('A')), etc.: 100%|##########| 18/18 [00:00<00:00, 56.09it/s]
+Animation 61: Indicate(Text('A')), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 61: Indicate(Text('A')), etc.:  33%|###3      | 4/12 [00:00<00:00, 34.36it/s]
+Animation 61: Indicate(Text('A')), etc.:  67%|######6   | 8/12 [00:00<00:00, 31.98it/s]
+Animation 61: Indicate(Text('A')), etc.: 100%|##########| 12/12 [00:00<00:00, 32.33it/s]
                                                                                         
                     INFO     Animation 61 : Partial    scene_file_writer.py:192
                              movie file written in                             
@@ -786,7 +822,7 @@ Animation 61: Indicate(Text('A')), etc.: 100%|##########| 18/18 [00:00<00:00, 56
                              nsRegex\uncached_00061.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:45:51] INFO     Animation 62 : Partial    scene_file_writer.py:192
+                    INFO     Animation 62 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -797,9 +833,10 @@ Animation 61: Indicate(Text('A')), etc.: 100%|##########| 18/18 [00:00<00:00, 56
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 63: ReplacementTransform(Text('���� ���¿��� A�� ������ �״�� �ӹ����ϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 63: ReplacementTransform(Text('���� ���¿��� A�� ������ �״�� �ӹ����ϴ�.')):  67%|######6   | 4/6 [00:00<00:00, 32.79it/s]
+Animation 63: ReplacementTransform(Text('���� ���¿��� A�� ������ �״�� �ӹ����ϴ�.')):  50%|#####     | 3/6 [00:00<00:00, 20.29it/s]
+Animation 63: ReplacementTransform(Text('���� ���¿��� A�� ������ �״�� �ӹ����ϴ�.')): 100%|##########| 6/6 [00:00<00:00, 20.92it/s]
                                                                                                                                         
-                    INFO     Animation 63 : Partial    scene_file_writer.py:192
+[10/15/26 19:30:23] INFO     Animation 63 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -810,9 +847,10 @@ Animation 63: ReplacementTransform(Text('���� ���¿��� A��
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 64: Indicate(Text('B')), etc.:   0%|          | 0/21 [00:00<?, ?it/s]
-Animation 64: Indicate(Text('B')), etc.:  62%|######1   | 13/21 [00:00<00:00, 128.77it/s]
-                                                                                         
-[10/15/26 18:45:52] INFO     Animation 64 : Partial    scene_file_writer.py:192
+Animation 64: Indicate(Text('B')), etc.:  48%|####7     | 10/21 [00:00<00:00, 88.03it/s]
+Animation 64: Indicate(Text('B')), etc.:  90%|######### | 19/21 [00:00<00:00, 84.82it/s]
+                                                                                        
+[10/15/26 19:30:24] INFO     Animation 64 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -823,7 +861,7 @@ Animation 64: Indicate(Text('B')), etc.:  62%|######1   | 13/21 [00:00<00:00, 12
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 65: FadeIn(Text('B ����: ���� �Է� ���� ��')):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 65: FadeIn(Text('B ����: ���� �Է� ���� ��')):  82%|########1 | 9/11 [00:00<00:00, 85.85it/s]
+Animation 65: FadeIn(Text('B ����: ���� �Է� ���� ��')):  55%|#####4    | 6/11 [00:00<00:00, 56.04it/s]
                                                                                                        
                     INFO     Animation 65 : Partial    scene_file_writer.py:192
                              movie file written in                             
@@ -834,7 +872,7 @@ Animation 65: FadeIn(Text('B ����: ���� �Է� ���� �
                              nsRegex\uncached_00065.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:45:54] INFO     Animation 66 : Partial    scene_file_writer.py:192
+[10/15/26 19:30:26] INFO     Animation 66 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -845,9 +883,11 @@ Animation 65: FadeIn(Text('B ����: ���� �Է� ���� �
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 67: ReplacementTransform(Text('B�� ������ �ν� ���·� �̵��մϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 67: ReplacementTransform(Text('B�� ������ �ν� ���·� �̵��մϴ�.')):  67%|######6   | 4/6 [00:00<00:00, 35.09it/s]
+Animation 67: ReplacementTransform(Text('B�� ������ �ν� ���·� �̵��մϴ�.')):  33%|###3      | 2/6 [00:00<00:00, 19.04it/s]
+Animation 67: ReplacementTransform(Text('B�� ������ �ν� ���·� �̵��մϴ�.')):  67%|######6   | 4/6 [00:00<00:00, 17.20it/s]
+Animation 67: ReplacementTransform(Text('B�� ������ �ν� ���·� �̵��մϴ�.')): 100%|##########| 6/6 [00:00<00:00, 17.18it/s]
                                                                                                                                
-                    INFO     Animation 67 : Partial    scene_file_writer.py:192
+[10/15/26 19:30:27] INFO     Animation 67 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -855,10 +895,10 @@ Animation 67: ReplacementTransform(Text('B�� ������ �ν� �
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00067.mp                         
                              4'                                                
-[10/15/26 18:45:55] INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 68: FadeIn(Text('AAAAAB ���� �� ����')):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 68: FadeIn(Text('AAAAAB ���� �� ����')):  82%|########1 | 9/11 [00:00<00:00, 83.64it/s]
+Animation 68: FadeIn(Text('AAAAAB ���� �� ����')):  64%|######3   | 7/11 [00:00<00:00, 59.63it/s]
                                                                                                 
                     INFO     Animation 68 : Partial    scene_file_writer.py:192
                              movie file written in                             
@@ -869,7 +909,7 @@ Animation 68: FadeIn(Text('AAAAAB ���� �� ����')):  82%|####
                              nsRegex\uncached_00068.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:45:58] INFO     Animation 69 : Partial    scene_file_writer.py:192
+[10/15/26 19:30:30] INFO     Animation 69 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -877,12 +917,14 @@ Animation 68: FadeIn(Text('AAAAAB ���� �� ����')):  82%|####
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00069.mp                         
                              4'                                                
-                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/15/26 19:30:31] INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 70: ReplacementTransform(Text('�Է��� ���⼭ ������ �����մϴ�. �߿��� ���� ���ڿ�\n��ü�� �ƴ϶� ���� �����Դϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 70: ReplacementTransform(Text('�Է��� ���⼭ ������ �����մϴ�. �߿��� ���� ���ڿ�\n��ü�� �ƴ϶� ���� �����Դϴ�.')):  67%|######6   | 4/6 [00:00<00:00, 35.09it/s]
+Animation 70: ReplacementTransform(Text('�Է��� ���⼭ ������ �����մϴ�. �߿��� ���� ���ڿ�\n��ü�� �ƴ϶� ���� �����Դϴ�.')):  33%|###3      | 2/6 [00:00<00:00, 17.85it/s]
+Animation 70: ReplacementTransform(Text('�Է��� ���⼭ ������ �����մϴ�. �߿��� ���� ���ڿ�\n��ü�� �ƴ϶� ���� �����Դϴ�.')):  67%|######6   | 4/6 [00:00<00:00, 17.09it/s]
+Animation 70: ReplacementTransform(Text('�Է��� ���⼭ ������ �����մϴ�. �߿��� ���� ���ڿ�\n��ü�� �ƴ϶� ���� �����Դϴ�.')): 100%|##########| 6/6 [00:00<00:00, 16.82it/s]
                                                                                                                                                                               
-                    INFO     Animation 70 : Partial    scene_file_writer.py:192
+[10/15/26 19:30:32] INFO     Animation 70 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -890,11 +932,12 @@ Animation 70: ReplacementTransform(Text('�Է��� ���⼭ ����
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00070.mp                         
                              4'                                                
-[10/15/26 18:45:59] INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 71: _MethodAnimation(Dot), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
-Animation 71: _MethodAnimation(Dot), etc.:  39%|###8      | 7/18 [00:00<00:00, 69.17it/s]
-Animation 71: _MethodAnimation(Dot), etc.:  83%|########3 | 15/18 [00:00<00:00, 70.21it/s]
+Animation 71: _MethodAnimation(Dot), etc.:  28%|##7       | 5/18 [00:00<00:00, 43.58it/s]
+Animation 71: _MethodAnimation(Dot), etc.:  56%|#####5    | 10/18 [00:00<00:00, 42.91it/s]
+Animation 71: _MethodAnimation(Dot), etc.:  83%|########3 | 15/18 [00:00<00:00, 44.29it/s]
                                                                                           
                     INFO     Animation 71 : Partial    scene_file_writer.py:192
                              movie file written in                             
@@ -904,10 +947,10 @@ Animation 71: _MethodAnimation(Dot), etc.:  83%|########3 | 15/18 [00:00<00:00, 
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00071.mp                         
                              4'                                                
-                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/15/26 19:30:33] INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 72: FadeIn(Text('�߰� A �Ǵ� B �� �ź� ���¿� �ӹ���')):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 72: FadeIn(Text('�߰� A �Ǵ� B �� �ź� ���¿� �ӹ���')):  73%|#######2  | 8/11 [00:00<00:00, 67.69it/s]
+Animation 72: FadeIn(Text('�߰� A �Ǵ� B �� �ź� ���¿� �ӹ���')):  55%|#####4    | 6/11 [00:00<00:00, 51.54it/s]
                                                                                                                 
                     INFO     Animation 72 : Partial    scene_file_writer.py:192
                              movie file written in                             
@@ -917,8 +960,8 @@ Animation 72: FadeIn(Text('�߰� A �Ǵ� B �� �ź� ���¿� 
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00072.mp                         
                              4'                                                
-[10/15/26 18:46:00] INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:46:03] INFO     Animation 73 : Partial    scene_file_writer.py:192
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/15/26 19:30:36] INFO     Animation 73 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -929,10 +972,12 @@ Animation 72: FadeIn(Text('�߰� A �Ǵ� B �� �ź� ���¿� 
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 74: FadeOut(VGroup of 8 submobjects), etc.:   0%|          | 0/9 [00:00<?, ?it/s]
-Animation 74: FadeOut(VGroup of 8 submobjects), etc.:  44%|####4     | 4/9 [00:00<00:00, 32.96it/s]
-Animation 74: FadeOut(VGroup of 8 submobjects), etc.:  89%|########8 | 8/9 [00:00<00:00, 32.77it/s]
+Animation 74: FadeOut(VGroup of 8 submobjects), etc.:  22%|##2       | 2/9 [00:00<00:00, 17.16it/s]
+Animation 74: FadeOut(VGroup of 8 submobjects), etc.:  44%|####4     | 4/9 [00:00<00:00, 15.84it/s]
+Animation 74: FadeOut(VGroup of 8 submobjects), etc.:  67%|######6   | 6/9 [00:00<00:00, 16.16it/s]
+Animation 74: FadeOut(VGroup of 8 submobjects), etc.:  89%|########8 | 8/9 [00:00<00:00, 16.42it/s]
                                                                                                    
-                    INFO     Animation 74 : Partial    scene_file_writer.py:192
+[10/15/26 19:30:37] INFO     Animation 74 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -940,10 +985,10 @@ Animation 74: FadeOut(VGroup of 8 submobjects), etc.:  89%|########8 | 8/9 [00:0
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00074.mp                         
                              4'                                                
-[10/15/26 18:46:04] INFO     Caching disabled.             cairo_renderer.py:81
+[10/15/26 19:30:38] INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 75: ReplacementTransform(Text('A�� B�� �� ������ �ź� ���·� �̵��մϴ�.\n�̷��� ������ ���·� �Է� ������ �ν��մϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 75: ReplacementTransform(Text('A�� B�� �� ������ �ź� ���·� �̵��մϴ�.\n�̷��� ������ ���·� �Է� ������ �ν��մϴ�.')):  83%|########3 | 5/6 [00:00<00:00, 43.51it/s]
+Animation 75: ReplacementTransform(Text('A�� B�� �� ������ �ź� ���·� �̵��մϴ�.\n�̷��� ������ ���·� �Է� ������ �ν��մϴ�.')):  67%|######6   | 4/6 [00:00<00:00, 31.07it/s]
                                                                                                                                                                                     
                     INFO     Animation 75 : Partial    scene_file_writer.py:192
                              movie file written in                             
@@ -953,12 +998,14 @@ Animation 75: ReplacementTransform(Text('A�� B�� �� ������
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00075.mp                         
                              4'                                                
-                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/15/26 19:30:39] INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 76: FadeIn(VGroup of 5 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
-Animation 76: FadeIn(VGroup of 5 submobjects):  56%|#####5    | 10/18 [00:00<00:00, 95.02it/s]
+Animation 76: FadeIn(VGroup of 5 submobjects):  33%|###3      | 6/18 [00:00<00:00, 52.39it/s]
+Animation 76: FadeIn(VGroup of 5 submobjects):  67%|######6   | 12/18 [00:00<00:00, 53.88it/s]
+Animation 76: FadeIn(VGroup of 5 submobjects): 100%|##########| 18/18 [00:00<00:00, 55.12it/s]
                                                                                               
-[10/15/26 18:46:05] INFO     Animation 76 : Partial    scene_file_writer.py:192
+                    INFO     Animation 76 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -967,7 +1014,7 @@ Animation 76: FadeIn(VGroup of 5 submobjects):  56%|#####5    | 10/18 [00:00<00:
                              nsRegex\uncached_00076.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:46:07] INFO     Animation 77 : Partial    scene_file_writer.py:192
+[10/15/26 19:30:43] INFO     Animation 77 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -978,7 +1025,8 @@ Animation 76: FadeIn(VGroup of 5 submobjects):  56%|#####5    | 10/18 [00:00<00:
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 78: ReplacementTransform(Text('�� ��ġ�� �ν��ϴ� ���ڿ��� B, AB, AAB,\nAAABó�� �̾����ϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 78: ReplacementTransform(Text('�� ��ġ�� �ν��ϴ� ���ڿ��� B, AB, AAB,\nAAABó�� �̾����ϴ�.')): 100%|##########| 6/6 [00:00<00:00, 55.96it/s]
+Animation 78: ReplacementTransform(Text('�� ��ġ�� �ν��ϴ� ���ڿ��� B, AB, AAB,\nAAABó�� �̾����ϴ�.')):  50%|#####     | 3/6 [00:00<00:00, 29.27it/s]
+Animation 78: ReplacementTransform(Text('�� ��ġ�� �ν��ϴ� ���ڿ��� B, AB, AAB,\nAAABó�� �̾����ϴ�.')): 100%|##########| 6/6 [00:00<00:00, 28.36it/s]
                                                                                                                                                         
                     INFO     Animation 78 : Partial    scene_file_writer.py:192
                              movie file written in                             
@@ -991,9 +1039,9 @@ Animation 78: ReplacementTransform(Text('�� ��ġ�� �ν��ϴ� 
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 79: FadeIn(Text('��  �ݺ� Ƚ���� ������ ����')):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 79: FadeIn(Text('��  �ݺ� Ƚ���� ������ ����')):  91%|######### | 10/11 [00:00<00:00, 90.67it/s]
-                                                                                                         
-[10/15/26 18:46:08] INFO     Animation 79 : Partial    scene_file_writer.py:192
+Animation 79: FadeIn(Text('��  �ݺ� Ƚ���� ������ ����')):  55%|#####4    | 6/11 [00:00<00:00, 54.88it/s]
+                                                                                                        
+[10/15/26 19:30:44] INFO     Animation 79 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1002,7 +1050,7 @@ Animation 79: FadeIn(Text('��  �ݺ� Ƚ���� ������ �
                              nsRegex\uncached_00079.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:46:10] INFO     Animation 80 : Partial    scene_file_writer.py:192
+[10/15/26 19:30:46] INFO     Animation 80 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1013,9 +1061,10 @@ Animation 79: FadeIn(Text('��  �ݺ� Ƚ���� ������ �
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 81: ReplacementTransform(Text('A�� �ݺ� Ƚ������ ������ �����Ƿ�, ������ ���ڿ���\n������ �����ϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 81: ReplacementTransform(Text('A�� �ݺ� Ƚ������ ������ �����Ƿ�, ������ ���ڿ���\n������ �����ϴ�.')):  83%|########3 | 5/6 [00:00<00:00, 42.14it/s]
+Animation 81: ReplacementTransform(Text('A�� �ݺ� Ƚ������ ������ �����Ƿ�, ������ ���ڿ���\n������ �����ϴ�.')):  50%|#####     | 3/6 [00:00<00:00, 26.87it/s]
+Animation 81: ReplacementTransform(Text('A�� �ݺ� Ƚ������ ������ �����Ƿ�, ������ ���ڿ���\n������ �����ϴ�.')): 100%|##########| 6/6 [00:00<00:00, 26.17it/s]
                                                                                                                                                                
-                    INFO     Animation 81 : Partial    scene_file_writer.py:192
+[10/15/26 19:30:47] INFO     Animation 81 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1026,13 +1075,16 @@ Animation 81: ReplacementTransform(Text('A�� �ݺ� Ƚ������ �
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 82: ReplacementTransform(VGroup of 5 submobjects):   0%|          | 0/36 [00:00<?, ?it/s]
-Animation 82: ReplacementTransform(VGroup of 5 submobjects):  19%|#9        | 7/36 [00:00<00:00, 64.50it/s]
-Animation 82: ReplacementTransform(VGroup of 5 submobjects):  39%|###8      | 14/36 [00:00<00:00, 67.37it/s]
-Animation 82: ReplacementTransform(VGroup of 5 submobjects):  58%|#####8    | 21/36 [00:00<00:00, 66.97it/s]
-Animation 82: ReplacementTransform(VGroup of 5 submobjects):  78%|#######7  | 28/36 [00:00<00:00, 63.88it/s]
-Animation 82: ReplacementTransform(VGroup of 5 submobjects):  97%|#########7| 35/36 [00:00<00:00, 63.49it/s]
+Animation 82: ReplacementTransform(VGroup of 5 submobjects):  14%|#3        | 5/36 [00:00<00:00, 40.41it/s]
+Animation 82: ReplacementTransform(VGroup of 5 submobjects):  28%|##7       | 10/36 [00:00<00:00, 39.21it/s]
+Animation 82: ReplacementTransform(VGroup of 5 submobjects):  39%|###8      | 14/36 [00:00<00:00, 38.34it/s]
+Animation 82: ReplacementTransform(VGroup of 5 submobjects):  50%|#####     | 18/36 [00:00<00:00, 38.28it/s]
+Animation 82: ReplacementTransform(VGroup of 5 submobjects):  61%|######1   | 22/36 [00:00<00:00, 38.63it/s]
+Animation 82: ReplacementTransform(VGroup of 5 submobjects):  75%|#######5  | 27/36 [00:00<00:00, 38.72it/s]
+Animation 82: ReplacementTransform(VGroup of 5 submobjects):  86%|########6 | 31/36 [00:00<00:00, 38.03it/s]
+Animation 82: ReplacementTransform(VGroup of 5 submobjects):  97%|#########7| 35/36 [00:00<00:00, 38.25it/s]
                                                                                                             
-[10/15/26 18:46:11] INFO     Animation 82 : Partial    scene_file_writer.py:192
+[10/15/26 19:30:49] INFO     Animation 82 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1043,9 +1095,9 @@ Animation 82: ReplacementTransform(VGroup of 5 submobjects):  97%|#########7| 35
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 83: FadeIn(Text('{ A��B | n = 0, 1, 2, �� }')):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 83: FadeIn(Text('{ A��B | n = 0, 1, 2, �� }')): 100%|##########| 11/11 [00:00<00:00, 98.09it/s]
-                                                                                                       
-[10/15/26 18:46:12] INFO     Animation 83 : Partial    scene_file_writer.py:192
+Animation 83: FadeIn(Text('{ A��B | n = 0, 1, 2, �� }')):  55%|#####4    | 6/11 [00:00<00:00, 56.07it/s]
+                                                                                                      
+                    INFO     Animation 83 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1054,7 +1106,7 @@ Animation 83: FadeIn(Text('{ A��B | n = 0, 1, 2, �� }')): 100%|#########
                              nsRegex\uncached_00083.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:46:14] INFO     Animation 84 : Partial    scene_file_writer.py:192
+[10/15/26 19:30:51] INFO     Animation 84 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1062,10 +1114,11 @@ Animation 83: FadeIn(Text('{ A��B | n = 0, 1, 2, �� }')): 100%|#########
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00084.mp                         
                              4'                                                
-                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/15/26 19:30:52] INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 85: ReplacementTransform(Text('������ ��� ���ڿ��� ������ �ʿ�� �����ϴ�. �ݺ�\n��Ģ�� ������ �˴ϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 85: ReplacementTransform(Text('������ ��� ���ڿ��� ������ �ʿ�� �����ϴ�. �ݺ�\n��Ģ�� ������ �˴ϴ�.')):  83%|########3 | 5/6 [00:00<00:00, 40.59it/s]
+Animation 85: ReplacementTransform(Text('������ ��� ���ڿ��� ������ �ʿ�� �����ϴ�. �ݺ�\n��Ģ�� ������ �˴ϴ�.')):  50%|#####     | 3/6 [00:00<00:00, 25.92it/s]
+Animation 85: ReplacementTransform(Text('������ ��� ���ڿ��� ������ �ʿ�� �����ϴ�. �ݺ�\n��Ģ�� ������ �˴ϴ�.')): 100%|##########| 6/6 [00:00<00:00, 24.96it/s]
                                                                                                                                                                    
                     INFO     Animation 85 : Partial    scene_file_writer.py:192
                              movie file written in                             
@@ -1078,9 +1131,9 @@ Animation 85: ReplacementTransform(Text('������ ��� ����
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 86: FadeIn(VGroup of 2 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 86: FadeIn(VGroup of 2 submobjects):  82%|########1 | 9/11 [00:00<00:00, 84.25it/s]
+Animation 86: FadeIn(VGroup of 2 submobjects):  55%|#####4    | 6/11 [00:00<00:00, 57.34it/s]
                                                                                              
-[10/15/26 18:46:15] INFO     Animation 86 : Partial    scene_file_writer.py:192
+[10/15/26 19:30:53] INFO     Animation 86 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1089,7 +1142,7 @@ Animation 86: FadeIn(VGroup of 2 submobjects):  82%|########1 | 9/11 [00:00<00:0
                              nsRegex\uncached_00086.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:46:17] INFO     Animation 87 : Partial    scene_file_writer.py:192
+[10/15/26 19:30:56] INFO     Animation 87 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1100,9 +1153,10 @@ Animation 86: FadeIn(VGroup of 2 submobjects):  82%|########1 | 9/11 [00:00<00:0
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 88: ReplacementTransform(Text('A�� �� �� �̻� �ݺ��ǰ� �������� B�� �����մϴ�.\n�� ���̸� B�� �����ϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 88: ReplacementTransform(Text('A�� �� �� �̻� �ݺ��ǰ� �������� B�� �����մϴ�.\n�� ���̸� B�� �����ϴ�.')):  83%|########3 | 5/6 [00:00<00:00, 42.62it/s]
+Animation 88: ReplacementTransform(Text('A�� �� �� �̻� �ݺ��ǰ� �������� B�� �����մϴ�.\n�� ���̸� B�� �����ϴ�.')):  50%|#####     | 3/6 [00:00<00:00, 24.61it/s]
+Animation 88: ReplacementTransform(Text('A�� �� �� �̻� �ݺ��ǰ� �������� B�� �����մϴ�.\n�� ���̸� B�� �����ϴ�.')): 100%|##########| 6/6 [00:00<00:00, 24.34it/s]
                                                                                                                                                                     
-[10/15/26 18:46:18] INFO     Animation 88 : Partial    scene_file_writer.py:192
+[10/15/26 19:30:57] INFO     Animation 88 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1113,7 +1167,7 @@ Animation 88: ReplacementTransform(Text('A�� �� �� �̻� �ݺ�
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 89: FadeIn(Text('��ü ���ڿ��� A*B�� ���ϴ°�?')):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 89: FadeIn(Text('��ü ���ڿ��� A*B�� ���ϴ°�?')):  73%|#######2  | 8/11 [00:00<00:00, 74.87it/s]
+Animation 89: FadeIn(Text('��ü ���ڿ��� A*B�� ���ϴ°�?')):  55%|#####4    | 6/11 [00:00<00:00, 52.72it/s]
                                                                                                            
                     INFO     Animation 89 : Partial    scene_file_writer.py:192
                              movie file written in                             
@@ -1124,7 +1178,7 @@ Animation 89: FadeIn(Text('��ü ���ڿ��� A*B�� ���ϴ°
                              nsRegex\uncached_00089.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:46:21] INFO     Animation 90 : Partial    scene_file_writer.py:192
+[10/15/26 19:31:00] INFO     Animation 90 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1135,9 +1189,11 @@ Animation 89: FadeIn(Text('��ü ���ڿ��� A*B�� ���ϴ°
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 91: FadeOut(VGroup of 5 submobjects), etc.:   0%|          | 0/9 [00:00<?, ?it/s]
-Animation 91: FadeOut(VGroup of 5 submobjects), etc.:  56%|#####5    | 5/9 [00:00<00:00, 39.77it/s]
+Animation 91: FadeOut(VGroup of 5 submobjects), etc.:  33%|###3      | 3/9 [00:00<00:00, 25.20it/s]
+Animation 91: FadeOut(VGroup of 5 submobjects), etc.:  67%|######6   | 6/9 [00:00<00:00, 26.46it/s]
+Animation 91: FadeOut(VGroup of 5 submobjects), etc.: 100%|##########| 9/9 [00:00<00:00, 25.51it/s]
                                                                                                    
-                    INFO     Animation 91 : Partial    scene_file_writer.py:192
+[10/15/26 19:31:01] INFO     Animation 91 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1148,9 +1204,9 @@ Animation 91: FadeOut(VGroup of 5 submobjects), etc.:  56%|#####5    | 5/9 [00:0
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 92: ReplacementTransform(Text('�̰��� �ϳ��� ������ ��Ÿ���� A ��ǥ B�Դϴ�.\n���⼭�� ���ڿ� ��ü�� �����մϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 92: ReplacementTransform(Text('�̰��� �ϳ��� ������ ��Ÿ���� A ��ǥ B�Դϴ�.\n���⼭�� ���ڿ� ��ü�� �����մϴ�.')): 100%|##########| 6/6 [00:00<00:00, 54.35it/s]
+Animation 92: ReplacementTransform(Text('�̰��� �ϳ��� ������ ��Ÿ���� A ��ǥ B�Դϴ�.\n���⼭�� ���ڿ� ��ü�� �����մϴ�.')):  50%|#####     | 3/6 [00:00<00:00, 27.15it/s]
                                                                                                                                                                             
-[10/15/26 18:46:22] INFO     Animation 92 : Partial    scene_file_writer.py:192
+[10/15/26 19:31:02] INFO     Animation 92 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1161,9 +1217,10 @@ Animation 92: ReplacementTransform(Text('�̰��� �ϳ��� ���
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 93: FadeIn(VGroup of 2 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 93: FadeIn(VGroup of 2 submobjects):  73%|#######2  | 8/11 [00:00<00:00, 71.50it/s]
-                                                                                             
-                    INFO     Animation 93 : Partial    scene_file_writer.py:192
+Animation 93: FadeIn(VGroup of 2 submobjects):  45%|####5     | 5/11 [00:00<00:00, 43.85it/s]
+Animation 93: FadeIn(VGroup of 2 submobjects):  91%|######### | 10/11 [00:00<00:00, 42.54it/s]
+                                                                                              
+[10/15/26 19:31:03] INFO     Animation 93 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1172,7 +1229,7 @@ Animation 93: FadeIn(VGroup of 2 submobjects):  73%|#######2  | 8/11 [00:00<00:0
                              nsRegex\uncached_00093.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:46:25] INFO     Animation 94 : Partial    scene_file_writer.py:192
+[10/15/26 19:31:06] INFO     Animation 94 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1183,9 +1240,10 @@ Animation 93: FadeIn(VGroup of 2 submobjects):  73%|#######2  | 8/11 [00:00<00:0
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 95: ReplacementTransform(Text('������ ��Ƽ�� Ŭ���̴ϴ� �̷��� �Ű���� �Է°�\n������ ���������� �����߽��ϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 95: ReplacementTransform(Text('������ ��Ƽ�� Ŭ���̴ϴ� �̷��� �Ű���� �Է°�\n������ ���������� �����߽��ϴ�.')): 100%|##########| 6/6 [00:00<00:00, 50.04it/s]
+Animation 95: ReplacementTransform(Text('������ ��Ƽ�� Ŭ���̴ϴ� �̷��� �Ű���� �Է°�\n������ ���������� �����߽��ϴ�.')):  50%|#####     | 3/6 [00:00<00:00, 26.61it/s]
+Animation 95: ReplacementTransform(Text('������ ��Ƽ�� Ŭ���̴ϴ� �̷��� �Ű���� �Է°�\n������ ���������� �����߽��ϴ�.')): 100%|##########| 6/6 [00:00<00:00, 24.26it/s]
                                                                                                                                                                            
-                    INFO     Animation 95 : Partial    scene_file_writer.py:192
+[10/15/26 19:31:07] INFO     Animation 95 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1193,11 +1251,11 @@ Animation 95: ReplacementTransform(Text('������ ��Ƽ�� Ŭ�
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00095.mp                         
                              4'                                                
-[10/15/26 18:46:26] INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 96: FadeIn(Text('����  |     ����  AB     �ݺ�  *')):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 96: FadeIn(Text('����  |     ����  AB     �ݺ�  *')): 100%|##########| 11/11 [00:00<00:00, 97.00it/s]
-                                                                                                               
+Animation 96: FadeIn(Text('����  |     ����  AB     �ݺ�  *')):  64%|######3   | 7/11 [00:00<00:00, 69.66it/s]
+                                                                                                              
                     INFO     Animation 96 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
@@ -1207,7 +1265,7 @@ Animation 96: FadeIn(Text('����  |     ����  AB     �ݺ�  *'
                              nsRegex\uncached_00096.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:46:28] INFO     Animation 97 : Partial    scene_file_writer.py:192
+[10/15/26 19:31:10] INFO     Animation 97 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1218,9 +1276,9 @@ Animation 96: FadeIn(Text('����  |     ����  AB     �ݺ�  *'
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 98: ReplacementTransform(Text('�״� ���ð� ����, �ݺ����� ǥ���Ǵ� ���ڿ� ������\n�ٷ���ϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 98: ReplacementTransform(Text('�״� ���ð� ����, �ݺ����� ǥ���Ǵ� ���ڿ� ������\n�ٷ���ϴ�.')):  83%|########3 | 5/6 [00:00<00:00, 48.22it/s]
+Animation 98: ReplacementTransform(Text('�״� ���ð� ����, �ݺ����� ǥ���Ǵ� ���ڿ� ������\n�ٷ���ϴ�.')):  67%|######6   | 4/6 [00:00<00:00, 28.63it/s]
                                                                                                                                                          
-                    INFO     Animation 98 : Partial    scene_file_writer.py:192
+[10/15/26 19:31:11] INFO     Animation 98 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1231,9 +1289,9 @@ Animation 98: ReplacementTransform(Text('�״� ���ð� ����, �
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 99: FadeIn(VGroup of 3 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 99: FadeIn(VGroup of 3 submobjects):  91%|######### | 10/11 [00:00<00:00, 94.30it/s]
-                                                                                              
-[10/15/26 18:46:29] INFO     Animation 99 : Partial    scene_file_writer.py:192
+Animation 99: FadeIn(VGroup of 3 submobjects):  55%|#####4    | 6/11 [00:00<00:00, 53.53it/s]
+                                                                                             
+                    INFO     Animation 99 : Partial    scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1241,11 +1299,12 @@ Animation 99: FadeIn(VGroup of 3 submobjects):  91%|######### | 10/11 [00:00<00:
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00099.mp                         
                              4'                                                
-                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/15/26 19:31:12] INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 100: FadeIn(VGroup of 5 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 100: FadeIn(VGroup of 5 submobjects):  45%|####5     | 5/11 [00:00<00:00, 45.38it/s]
-                                                                                              
+Animation 100: FadeIn(VGroup of 5 submobjects):  45%|####5     | 5/11 [00:00<00:00, 40.06it/s]
+Animation 100: FadeIn(VGroup of 5 submobjects):  91%|######### | 10/11 [00:00<00:00, 40.06it/s]
+                                                                                               
                     INFO     Animation 100 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
@@ -1257,9 +1316,9 @@ Animation 100: FadeIn(VGroup of 5 submobjects):  45%|####5     | 5/11 [00:00<00:
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 101: FadeIn(Text('B  ��  ���� ����')):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 101: FadeIn(Text('B  ��  ���� ����')):  91%|######### | 10/11 [00:00<00:00, 88.46it/s]
-                                                                                               
-[10/15/26 18:46:30] INFO     Animation 101 : Partial   scene_file_writer.py:192
+Animation 101: FadeIn(Text('B  ��  ���� ����')):  64%|######3   | 7/11 [00:00<00:00, 68.00it/s]
+                                                                                              
+[10/15/26 19:31:13] INFO     Animation 101 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1270,10 +1329,11 @@ Animation 101: FadeIn(Text('B  ��  ���� ����')):  91%|######
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 102: Transform(Text('B  ��  ���� ����')):   0%|          | 0/20 [00:00<?, ?it/s]
-Animation 102: Transform(Text('B  ��  ���� ����')):  50%|#####     | 10/20 [00:00<00:00, 92.20it/s]
-Animation 102: Transform(Text('B  ��  ���� ����')): 100%|##########| 20/20 [00:00<00:00, 74.48it/s]
+Animation 102: Transform(Text('B  ��  ���� ����')):  30%|###       | 6/20 [00:00<00:00, 59.47it/s]
+Animation 102: Transform(Text('B  ��  ���� ����')):  60%|######    | 12/20 [00:00<00:00, 55.04it/s]
+Animation 102: Transform(Text('B  ��  ���� ����')):  90%|######### | 18/20 [00:00<00:00, 56.54it/s]
                                                                                                   
-                    INFO     Animation 102 : Partial   scene_file_writer.py:192
+[10/15/26 19:31:14] INFO     Animation 102 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1284,10 +1344,11 @@ Animation 102: Transform(Text('B  ��  ���� ����')): 100%|###
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 103: Transform(Text('B  ��  ���� ����')):   0%|          | 0/20 [00:00<?, ?it/s]
-Animation 103: Transform(Text('B  ��  ���� ����')):  40%|####      | 8/20 [00:00<00:00, 77.58it/s]
-Animation 103: Transform(Text('B  ��  ���� ����')):  80%|########  | 16/20 [00:00<00:00, 71.30it/s]
+Animation 103: Transform(Text('B  ��  ���� ����')):  35%|###5      | 7/20 [00:00<00:00, 63.67it/s]
+Animation 103: Transform(Text('B  ��  ���� ����')):  70%|#######   | 14/20 [00:00<00:00, 58.06it/s]
+Animation 103: Transform(Text('B  ��  ���� ����')): 100%|##########| 20/20 [00:00<00:00, 57.12it/s]
                                                                                                   
-[10/15/26 18:46:31] INFO     Animation 103 : Partial   scene_file_writer.py:192
+[10/15/26 19:31:15] INFO     Animation 103 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1298,8 +1359,9 @@ Animation 103: Transform(Text('B  ��  ���� ����')):  80%|###
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 104: Transform(Text('B  ��  ���� ����')):   0%|          | 0/20 [00:00<?, ?it/s]
-Animation 104: Transform(Text('B  ��  ���� ����')):  45%|####5     | 9/20 [00:00<00:00, 78.19it/s]
-Animation 104: Transform(Text('B  ��  ���� ����')):  85%|########5 | 17/20 [00:00<00:00, 78.00it/s]
+Animation 104: Transform(Text('B  ��  ���� ����')):  30%|###       | 6/20 [00:00<00:00, 56.63it/s]
+Animation 104: Transform(Text('B  ��  ���� ����')):  60%|######    | 12/20 [00:00<00:00, 55.70it/s]
+Animation 104: Transform(Text('B  ��  ���� ����')):  90%|######### | 18/20 [00:00<00:00, 55.72it/s]
                                                                                                   
                     INFO     Animation 104 : Partial   scene_file_writer.py:192
                              movie file written in                             
@@ -1309,13 +1371,14 @@ Animation 104: Transform(Text('B  ��  ���� ����')):  85%|###
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00104.mp                         
                              4'                                                
-[10/15/26 18:46:32] INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 105: Transform(Text('B  ��  ���� ����')):   0%|          | 0/20 [00:00<?, ?it/s]
-Animation 105: Transform(Text('B  ��  ���� ����')):  45%|####5     | 9/20 [00:00<00:00, 85.61it/s]
-Animation 105: Transform(Text('B  ��  ���� ����')):  90%|######### | 18/20 [00:00<00:00, 75.45it/s]
+Animation 105: Transform(Text('B  ��  ���� ����')):  35%|###5      | 7/20 [00:00<00:00, 58.61it/s]
+Animation 105: Transform(Text('B  ��  ���� ����')):  65%|######5   | 13/20 [00:00<00:00, 56.34it/s]
+Animation 105: Transform(Text('B  ��  ���� ����')):  95%|#########5| 19/20 [00:00<00:00, 57.40it/s]
                                                                                                   
-                    INFO     Animation 105 : Partial   scene_file_writer.py:192
+[10/15/26 19:31:16] INFO     Animation 105 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1324,7 +1387,7 @@ Animation 105: Transform(Text('B  ��  ���� ����')):  90%|###
                              nsRegex\uncached_00105.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:46:33] INFO     Animation 106 : Partial   scene_file_writer.py:192
+[10/15/26 19:31:17] INFO     Animation 106 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1335,9 +1398,11 @@ Animation 105: Transform(Text('B  ��  ���� ����')):  90%|###
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 107: ReplacementTransform(Text('�׸��� �̷��� ǥ���� ������ ���¸� ���� �ν� ��ġ\n������ ���踦 �������ϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 107: ReplacementTransform(Text('�׸��� �̷��� ǥ���� ������ ���¸� ���� �ν� ��ġ\n������ ���踦 �������ϴ�.')):  67%|######6   | 4/6 [00:00<00:00, 37.65it/s]
+Animation 107: ReplacementTransform(Text('�׸��� �̷��� ǥ���� ������ ���¸� ���� �ν� ��ġ\n������ ���踦 �������ϴ�.')):  33%|###3      | 2/6 [00:00<00:00, 18.28it/s]
+Animation 107: ReplacementTransform(Text('�׸��� �̷��� ǥ���� ������ ���¸� ���� �ν� ��ġ\n������ ���踦 �������ϴ�.')):  67%|######6   | 4/6 [00:00<00:00, 17.72it/s]
+Animation 107: ReplacementTransform(Text('�׸��� �̷��� ǥ���� ������ ���¸� ���� �ν� ��ġ\n������ ���踦 �������ϴ�.')): 100%|##########| 6/6 [00:00<00:00, 17.82it/s]
                                                                                                                                                                         
-[10/15/26 18:46:34] INFO     Animation 107 : Partial   scene_file_writer.py:192
+[10/15/26 19:31:18] INFO     Animation 107 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1348,9 +1413,9 @@ Animation 107: ReplacementTransform(Text('�׸��� �̷��� ǥ��
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 108: FadeIn(Text('L(A*B) = L(���� ���丶Ÿ)')):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 108: FadeIn(Text('L(A*B) = L(���� ���丶Ÿ)')):  82%|########1 | 9/11 [00:00<00:00, 84.70it/s]
+Animation 108: FadeIn(Text('L(A*B) = L(���� ���丶Ÿ)')):  55%|#####4    | 6/11 [00:00<00:00, 52.66it/s]
                                                                                                         
-                    INFO     Animation 108 : Partial   scene_file_writer.py:192
+[10/15/26 19:31:19] INFO     Animation 108 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1359,7 +1424,7 @@ Animation 108: FadeIn(Text('L(A*B) = L(���� ���丶Ÿ)')):  82%|###
                              nsRegex\uncached_00108.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:46:36] INFO     Animation 109 : Partial   scene_file_writer.py:192
+[10/15/26 19:31:21] INFO     Animation 109 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1367,13 +1432,14 @@ Animation 108: FadeIn(Text('L(A*B) = L(���� ���丶Ÿ)')):  82%|###
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00109.mp                         
                              4'                                                
-[10/15/26 18:46:37] INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 110: ReplacementTransform(Text('ǥ���� �ٸ�����, �����ϴ� �� ǥ���� �ν��ϴ�\n���ڿ��� ������ �����ϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 110: ReplacementTransform(Text('ǥ���� �ٸ�����, �����ϴ� �� ǥ���� �ν��ϴ�\n���ڿ��� ������ �����ϴ�.')):  50%|#####     | 3/6 [00:00<00:00, 29.99it/s]
-Animation 110: ReplacementTransform(Text('ǥ���� �ٸ�����, �����ϴ� �� ǥ���� �ν��ϴ�\n���ڿ��� ������ �����ϴ�.')): 100%|##########| 6/6 [00:00<00:00, 29.99it/s]
+Animation 110: ReplacementTransform(Text('ǥ���� �ٸ�����, �����ϴ� �� ǥ���� �ν��ϴ�\n���ڿ��� ������ �����ϴ�.')):  33%|###3      | 2/6 [00:00<00:00, 14.79it/s]
+Animation 110: ReplacementTransform(Text('ǥ���� �ٸ�����, �����ϴ� �� ǥ���� �ν��ϴ�\n���ڿ��� ������ �����ϴ�.')):  67%|######6   | 4/6 [00:00<00:00, 14.64it/s]
+Animation 110: ReplacementTransform(Text('ǥ���� �ٸ�����, �����ϴ� �� ǥ���� �ν��ϴ�\n���ڿ��� ������ �����ϴ�.')): 100%|##########| 6/6 [00:00<00:00, 14.52it/s]
                                                                                                                                                                    
-                    INFO     Animation 110 : Partial   scene_file_writer.py:192
+[10/15/26 19:31:22] INFO     Animation 110 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1381,12 +1447,13 @@ Animation 110: ReplacementTransform(Text('ǥ���� �ٸ�����, �
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00110.mp                         
                              4'                                                
-                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/15/26 19:31:23] INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 111: FadeIn(VGroup of 2 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 111: FadeIn(VGroup of 2 submobjects):  64%|######3   | 7/11 [00:00<00:00, 60.92it/s]
-                                                                                              
-[10/15/26 18:46:38] INFO     Animation 111 : Partial   scene_file_writer.py:192
+Animation 111: FadeIn(VGroup of 2 submobjects):  45%|####5     | 5/11 [00:00<00:00, 42.57it/s]
+Animation 111: FadeIn(VGroup of 2 submobjects):  91%|######### | 10/11 [00:00<00:00, 40.32it/s]
+                                                                                               
+                    INFO     Animation 111 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1395,7 +1462,7 @@ Animation 111: FadeIn(VGroup of 2 submobjects):  64%|######3   | 7/11 [00:00<00:
                              nsRegex\uncached_00111.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:46:42] INFO     Animation 112 : Partial   scene_file_writer.py:192
+[10/15/26 19:31:28] INFO     Animation 112 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1406,10 +1473,12 @@ Animation 111: FadeIn(VGroup of 2 submobjects):  64%|######3   | 7/11 [00:00<00:
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 113: FadeOut(VGroup of 7 submobjects), etc.:   0%|          | 0/9 [00:00<?, ?it/s]
-Animation 113: FadeOut(VGroup of 7 submobjects), etc.:  44%|####4     | 4/9 [00:00<00:00, 28.89it/s]
-Animation 113: FadeOut(VGroup of 7 submobjects), etc.:  78%|#######7  | 7/9 [00:00<00:00, 27.42it/s]
+Animation 113: FadeOut(VGroup of 7 submobjects), etc.:  22%|##2       | 2/9 [00:00<00:00, 14.61it/s]
+Animation 113: FadeOut(VGroup of 7 submobjects), etc.:  44%|####4     | 4/9 [00:00<00:00, 14.22it/s]
+Animation 113: FadeOut(VGroup of 7 submobjects), etc.:  67%|######6   | 6/9 [00:00<00:00, 14.18it/s]
+Animation 113: FadeOut(VGroup of 7 submobjects), etc.:  89%|########8 | 8/9 [00:00<00:00, 14.34it/s]
                                                                                                     
-[10/15/26 18:46:43] INFO     Animation 113 : Partial   scene_file_writer.py:192
+[10/15/26 19:31:30] INFO     Animation 113 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1420,9 +1489,10 @@ Animation 113: FadeOut(VGroup of 7 submobjects), etc.:  78%|#######7  | 7/9 [00:
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 114: ReplacementTransform(Text('��� ���� ǥ���Ŀ� �����ϴ� ���� ���丶Ÿ�� �ְ�,\n�ݴ� ���⵵ �����մϴ�. ���� ǥ���� �̷��� �߿���\n������Դϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 114: ReplacementTransform(Text('��� ���� ǥ���Ŀ� �����ϴ� ���� ���丶Ÿ�� �ְ�,\n�ݴ� ���⵵ �����մϴ�. ���� ǥ���� �̷��� �߿���\n������Դϴ�.')):  83%|########3 | 5/6 [00:00<00:00, 49.46it/s]
+Animation 114: ReplacementTransform(Text('��� ���� ǥ���Ŀ� �����ϴ� ���� ���丶Ÿ�� �ְ�,\n�ݴ� ���⵵ �����մϴ�. ���� ǥ���� �̷��� �߿���\n������Դϴ�.')):  50%|#####     | 3/6 [00:00<00:00, 26.72it/s]
+Animation 114: ReplacementTransform(Text('��� ���� ǥ���Ŀ� �����ϴ� ���� ���丶Ÿ�� �ְ�,\n�ݴ� ���⵵ �����մϴ�. ���� ǥ���� �̷��� �߿���\n������Դϴ�.')): 100%|##########| 6/6 [00:00<00:00, 26.29it/s]
                                                                                                                                                                                                                
-                    INFO     Animation 114 : Partial   scene_file_writer.py:192
+[10/15/26 19:31:31] INFO     Animation 114 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1430,12 +1500,13 @@ Animation 114: ReplacementTransform(Text('��� ���� ǥ���Ŀ�
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00114.mp                         
                              4'                                                
-[10/15/26 18:46:44] INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 115: FadeIn(VGroup of 5 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 115: FadeIn(VGroup of 5 submobjects):  64%|######3   | 7/11 [00:00<00:00, 66.08it/s]
-                                                                                              
-                    INFO     Animation 115 : Partial   scene_file_writer.py:192
+Animation 115: FadeIn(VGroup of 5 submobjects):  45%|####5     | 5/11 [00:00<00:00, 39.95it/s]
+Animation 115: FadeIn(VGroup of 5 submobjects):  91%|######### | 10/11 [00:00<00:00, 39.91it/s]
+                                                                                               
+[10/15/26 19:31:32] INFO     Animation 115 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1444,7 +1515,7 @@ Animation 115: FadeIn(VGroup of 5 submobjects):  64%|######3   | 7/11 [00:00<00:
                              nsRegex\uncached_00115.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:46:46] INFO     Animation 116 : Partial   scene_file_writer.py:192
+[10/15/26 19:31:34] INFO     Animation 116 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1455,9 +1526,10 @@ Animation 115: FadeIn(VGroup of 5 submobjects):  64%|######3   | 7/11 [00:00<00:
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 117: ReplacementTransform(Text('���ó� ���� ǥ������ ���ڿ� �˻��� �ڵ� �м��� �θ�\n���˴ϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 117: ReplacementTransform(Text('���ó� ���� ǥ������ ���ڿ� �˻��� �ڵ� �м��� �θ�\n���˴ϴ�.')):  83%|########3 | 5/6 [00:00<00:00, 44.09it/s]
+Animation 117: ReplacementTransform(Text('���ó� ���� ǥ������ ���ڿ� �˻��� �ڵ� �м��� �θ�\n���˴ϴ�.')):  50%|#####     | 3/6 [00:00<00:00, 24.16it/s]
+Animation 117: ReplacementTransform(Text('���ó� ���� ǥ������ ���ڿ� �˻��� �ڵ� �м��� �θ�\n���˴ϴ�.')): 100%|##########| 6/6 [00:00<00:00, 22.45it/s]
                                                                                                                                                             
-                    INFO     Animation 117 : Partial   scene_file_writer.py:192
+[10/15/26 19:31:35] INFO     Animation 117 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1465,12 +1537,12 @@ Animation 117: ReplacementTransform(Text('���ó� ���� ǥ���
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00117.mp                         
                              4'                                                
-[10/15/26 18:46:47] INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 118: FadeIn(Text('�Ű� Ȱ���� ������ ������� ǥ��')):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 118: FadeIn(Text('�Ű� Ȱ���� ������ ������� ǥ��')):  82%|########1 | 9/11 [00:00<00:00, 85.99it/s]
+Animation 118: FadeIn(Text('�Ű� Ȱ���� ������ ������� ǥ��')):  55%|#####4    | 6/11 [00:00<00:00, 54.42it/s]
                                                                                                                
-                    INFO     Animation 118 : Partial   scene_file_writer.py:192
+[10/15/26 19:31:36] INFO     Animation 118 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1479,7 +1551,7 @@ Animation 118: FadeIn(Text('�Ű� Ȱ���� ������ ���
                              nsRegex\uncached_00118.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:46:50] INFO     Animation 119 : Partial   scene_file_writer.py:192
+[10/15/26 19:31:40] INFO     Animation 119 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1490,9 +1562,10 @@ Animation 118: FadeIn(Text('�Ű� Ȱ���� ������ ���
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 120: ReplacementTransform(Text('�� ������ �Ѹ����� �Ű� Ȱ���� ���������� ǥ���ϰ�,\n� �Է��� �ν��� �� �ִ��� Ž���ߴ� ������\n�ֽ��ϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 120: ReplacementTransform(Text('�� ������ �Ѹ����� �Ű� Ȱ���� ���������� ǥ���ϰ�,\n� �Է��� �ν��� �� �ִ��� Ž���ߴ� ������\n�ֽ��ϴ�.')):  67%|######6   | 4/6 [00:00<00:00, 32.24it/s]
+Animation 120: ReplacementTransform(Text('�� ������ �Ѹ����� �Ű� Ȱ���� ���������� ǥ���ϰ�,\n� �Է��� �ν��� �� �ִ��� Ž���ߴ� ������\n�ֽ��ϴ�.')):  50%|#####     | 3/6 [00:00<00:00, 21.56it/s]
+Animation 120: ReplacementTransform(Text('�� ������ �Ѹ����� �Ű� Ȱ���� ���������� ǥ���ϰ�,\n� �Է��� �ν��� �� �ִ��� Ž���ߴ� ������\n�ֽ��ϴ�.')): 100%|##########| 6/6 [00:00<00:00, 20.69it/s]
                                                                                                                                                                                                         
-[10/15/26 18:46:51] INFO     Animation 120 : Partial   scene_file_writer.py:192
+[10/15/26 19:31:41] INFO     Animation 120 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1503,9 +1576,9 @@ Animation 120: ReplacementTransform(Text('�� ������ �Ѹ���
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 121: FadeIn(Text('���ϸ��� ���� ������ �ø��� ���')):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 121: FadeIn(Text('���ϸ��� ���� ������ �ø��� ���')):  82%|########1 | 9/11 [00:00<00:00, 86.86it/s]
+Animation 121: FadeIn(Text('���ϸ��� ���� ������ �ø��� ���')):  55%|#####4    | 6/11 [00:00<00:00, 49.00it/s]
                                                                                                                
-                    INFO     Animation 121 : Partial   scene_file_writer.py:192
+[10/15/26 19:31:42] INFO     Animation 121 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1514,7 +1587,7 @@ Animation 121: FadeIn(Text('���ϸ��� ���� ������
                              nsRegex\uncached_00121.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:46:54] INFO     Animation 122 : Partial   scene_file_writer.py:192
+[10/15/26 19:31:45] INFO     Animation 122 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1525,9 +1598,10 @@ Animation 121: FadeIn(Text('���ϸ��� ���� ������
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 123: ReplacementTransform(Text('������ ��ġ�� ������ ���� ���ڿ��� �ν��ϴ� ����.\n��� ���ڿ��� ����ϱ� ������ �ƴմϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 123: ReplacementTransform(Text('������ ��ġ�� ������ ���� ���ڿ��� �ν��ϴ� ����.\n��� ���ڿ��� ����ϱ� ������ �ƴմϴ�.')):  67%|######6   | 4/6 [00:00<00:00, 29.08it/s]
+Animation 123: ReplacementTransform(Text('������ ��ġ�� ������ ���� ���ڿ��� �ν��ϴ� ����.\n��� ���ڿ��� ����ϱ� ������ �ƴմϴ�.')):  50%|#####     | 3/6 [00:00<00:00, 20.81it/s]
+Animation 123: ReplacementTransform(Text('������ ��ġ�� ������ ���� ���ڿ��� �ν��ϴ� ����.\n��� ���ڿ��� ����ϱ� ������ �ƴմϴ�.')): 100%|##########| 6/6 [00:00<00:00, 19.79it/s]
                                                                                                                                                                                       
-                    INFO     Animation 123 : Partial   scene_file_writer.py:192
+[10/15/26 19:31:46] INFO     Animation 123 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1538,9 +1612,9 @@ Animation 123: ReplacementTransform(Text('������ ��ġ�� ��
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 124: FadeIn(Text('���� ���¿� �ʿ��� ������ ����')):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 124: FadeIn(Text('���� ���¿� �ʿ��� ������ ����')):  82%|########1 | 9/11 [00:00<00:00, 83.72it/s]
+Animation 124: FadeIn(Text('���� ���¿� �ʿ��� ������ ����')):  55%|#####4    | 6/11 [00:00<00:00, 53.18it/s]
                                                                                                              
-[10/15/26 18:46:55] INFO     Animation 124 : Partial   scene_file_writer.py:192
+[10/15/26 19:31:47] INFO     Animation 124 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1549,7 +1623,7 @@ Animation 124: FadeIn(Text('���� ���¿� �ʿ��� ���
                              nsRegex\uncached_00124.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:46:57] INFO     Animation 125 : Partial   scene_file_writer.py:192
+[10/15/26 19:31:49] INFO     Animation 125 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1560,9 +1634,10 @@ Animation 124: FadeIn(Text('���� ���¿� �ʿ��� ���
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 126: ReplacementTransform(Text('�������� ������ �ʿ��� ������ ���� ���·� �����ϱ�\n�����Դϴ�.')):   0%|          | 0/6 [00:00<?, ?it/s]
-Animation 126: ReplacementTransform(Text('�������� ������ �ʿ��� ������ ���� ���·� �����ϱ�\n�����Դϴ�.')):  67%|######6   | 4/6 [00:00<00:00, 32.61it/s]
+Animation 126: ReplacementTransform(Text('�������� ������ �ʿ��� ������ ���� ���·� �����ϱ�\n�����Դϴ�.')):  50%|#####     | 3/6 [00:00<00:00, 20.63it/s]
+Animation 126: ReplacementTransform(Text('�������� ������ �ʿ��� ������ ���� ���·� �����ϱ�\n�����Դϴ�.')): 100%|##########| 6/6 [00:00<00:00, 20.28it/s]
                                                                                                                                                            
-                    INFO     Animation 126 : Partial   scene_file_writer.py:192
+[10/15/26 19:31:50] INFO     Animation 126 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1573,10 +1648,12 @@ Animation 126: ReplacementTransform(Text('�������� �����
                     INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 127: FadeOut(VGroup of 4 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
-Animation 127: FadeOut(VGroup of 4 submobjects):  42%|####1     | 5/12 [00:00<00:00, 40.40it/s]
-Animation 127: FadeOut(VGroup of 4 submobjects):  83%|########3 | 10/12 [00:00<00:00, 35.74it/s]
+Animation 127: FadeOut(VGroup of 4 submobjects):  25%|##5       | 3/12 [00:00<00:00, 25.27it/s]
+Animation 127: FadeOut(VGroup of 4 submobjects):  50%|#####     | 6/12 [00:00<00:00, 23.97it/s]
+Animation 127: FadeOut(VGroup of 4 submobjects):  75%|#######5  | 9/12 [00:00<00:00, 23.63it/s]
+Animation 127: FadeOut(VGroup of 4 submobjects): 100%|##########| 12/12 [00:00<00:00, 23.50it/s]
                                                                                                 
-[10/15/26 18:46:58] INFO     Animation 127 : Partial   scene_file_writer.py:192
+[10/15/26 19:31:51] INFO     Animation 127 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1584,13 +1661,14 @@ Animation 127: FadeOut(VGroup of 4 submobjects):  83%|########3 | 10/12 [00:00<0
                              partial_movie_files\Neuro                         
                              nsRegex\uncached_00127.mp                         
                              4'                                                
-                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/15/26 19:31:52] INFO     Caching disabled.             cairo_renderer.py:81
 
 Animation 128: FadeIn(VGroup of 6 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
-Animation 128: FadeIn(VGroup of 6 submobjects):  45%|####5     | 5/11 [00:00<00:00, 41.73it/s]
-Animation 128: FadeIn(VGroup of 6 submobjects):  91%|######### | 10/11 [00:00<00:00, 37.23it/s]
-                                                                                               
-[10/15/26 18:46:59] INFO     Animation 128 : Partial   scene_file_writer.py:192
+Animation 128: FadeIn(VGroup of 6 submobjects):  27%|##7       | 3/11 [00:00<00:00, 22.46it/s]
+Animation 128: FadeIn(VGroup of 6 submobjects):  55%|#####4    | 6/11 [00:00<00:00, 21.50it/s]
+Animation 128: FadeIn(VGroup of 6 submobjects):  82%|########1 | 9/11 [00:00<00:00, 21.07it/s]
+                                                                                              
+[10/15/26 19:31:53] INFO     Animation 128 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1599,7 +1677,7 @@ Animation 128: FadeIn(VGroup of 6 submobjects):  91%|######### | 10/11 [00:00<00
                              nsRegex\uncached_00128.mp                         
                              4'                                                
                     INFO     Caching disabled.             cairo_renderer.py:81
-[10/15/26 18:47:01] INFO     Animation 129 : Partial   scene_file_writer.py:192
+[10/15/26 19:31:55] INFO     Animation 129 : Partial   scene_file_writer.py:192
                              movie file written in                             
                              'C:\Users\owner\Desktop\m                         
                              anim_video\media\aic01\fi                         
@@ -1608,7 +1686,7 @@ Animation 128: FadeIn(VGroup of 6 submobjects):  91%|######### | 10/11 [00:00<00
                              nsRegex\uncached_00129.mp                         
                              4'                                                
                     INFO     Combining to Movie file.  scene_file_writer.py:952
-[10/15/26 18:47:04] INFO                              scene_file_writer.py:1103
+[10/15/26 19:31:58] INFO                              scene_file_writer.py:1103
                              File ready at                                     
                              'C:\Users\owner\Desktop\                          
                              manim_video\media\aic01\                          

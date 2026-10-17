@@ -1139,4 +1139,75 @@ science01 화면 길이는 대사 글자 수에 비례해 배분합니다. `pyth
 - 실제 소스: `episodes/aic01_neurons_regex/` (scene.py, brief.md, narration.md, captions.srt, timing.json, tts_script.txt).
 - 미리보기: `.venv/Scripts/python.exe scripts/render.py aic01 --preview`
 - 최종: `.venv/Scripts/python.exe scripts/render.py aic01`
-- 192초 편집 예산, 1080×1920·30fps 무음. TTS 음원 길이와 싱크는 미확정.
+- 사용자 문장 종료 시각 기준 149초, 1080×1920·30fps 무음. 실제 음원 파일 대조는 미실시.
+
+### AI 컴파일러 02 — 유한한 기억으로 모든 규칙을 인식할 수 있을까? — 유한 오토마타와 학습되는 기억
+
+- 소스: `episodes/aic02_finite_memory/` — scene.py, brief.md, narration.md, timing.json, captions.srt, tts_script.txt.
+- 미리보기: `.venv/Scripts/python.exe scripts/render.py aic02 --preview`
+- 최종: `.venv/Scripts/python.exe scripts/render.py aic02`
+- 사용자 문장 종료 시각 기준 140초, 상태와 기억의 구조 중심·6장면, 1080×1920·30fps 무음. 실제 음원 파일 대조는 미실시.
+
+### AI 컴파일러 03 — 무한히 많은 문자열을 하나의 식으로 표현할 수 있을까?
+
+- 실제 소스: `episodes/aic03_composable_regex/` — scene.py, brief.md, narration.md, timing.json, captions.srt, tts_script.txt.
+- 선택·연결·반복 → `(A|B)*ABB` → 표현 트리 → 수치 계산 그래프.
+- 미리보기: `.venv/Scripts/python.exe scripts/render.py aic03 --preview`
+- 최종: `.venv/Scripts/python.exe scripts/render.py aic03`
+- 8장면·사용자 문장 종료 시각 기준 172초, 1080×1920·30fps 무음. 실제 음원 파일 대조는 미실시.
+
+### AI 컴파일러 04 — 수식과 기계, 어느 쪽이 더 강력할까?
+
+- 부제: 정규 표현식과 유한 오토마타. 언어 부류의 양방향 포함과 표현력의 동등성.
+- 실제 소스: `episodes/aic04_equivalent_representations/` — scene.py, brief.md, narration.md, timing.json, captions.srt, tts_script.txt.
+- 미리보기: `.venv/Scripts/python.exe scripts/render.py aic04 --preview`
+- 최종: `.venv/Scripts/python.exe scripts/render.py aic04`
+- 10장면·사용자 축약 대본과 종료 시각 기준 164초, 1080×1920·30fps 무음. 실제 음원 파일 대조는 미실시.
+
+### AI 컴파일러 05 — 수식은 어떻게 실행 가능한 기계가 될까?
+
+- 부제: Thompson's Construction. 사용자 수정 대본과 26개 종료 시각 기준 147초, 9장면, 1080×1920·30fps 무음.
+- 실제 자료: `episodes/aic05_thompson_construction/` — narration.md, tts_script.txt, brief.md, scene.py, nfa_model.py, timing.json, captions.srt.
+- AST의 자식 조각에서 부모 조각으로 실제 Thompson 구성 자료를 조립하고, 같은 자료의 ε-NFA로 입력을 판정한다.
+- 미리보기: `.venv/Scripts/python.exe scripts/render.py aic05 --preview`
+- 최종: `.venv/Scripts/python.exe scripts/render.py aic05`
+- 실제 음원 파일 대조는 미실시.
+
+
+### AI 컴파일러 06 — 같은 정규식인데 왜 실행 속도는 다를까?
+
+- 실제 자료: `episodes/aic06_regex_execution/` — narration.md, tts_script.txt, brief.md, scene.py, execution_model.py, timing.json, captions.srt.
+- 사용자 확정 30개 발화 구간, 154초. 백트래킹의 경로 증가·NFA 상태 병합·DFA 사전 계산과 메모리 비용을 비교한다.
+- 미리보기: `.venv/Scripts/python.exe scripts/render.py aic06 --preview`
+- 최종: `.venv/Scripts/python.exe scripts/render.py aic06`
+- 출력: `exports/aic06_preview.mp4`, `exports/aic06.mp4` (무음). 음성 합성용 원고와 자막은 별도 자료다.
+
+
+### AI 컴파일러 07 — 문자를 읽는 것과 구조를 이해하는 것은 다르다
+
+- 실제 자료: `episodes/aic07_lexing_parsing/` — narration.md, tts_script.txt, brief.md, scene.py, syntax_model.py, timing.json, captions.srt.
+- 사용자 확정 25개 발화 구간, 164초. Lexer의 토큰 식별과 Parser의 AST 구성, 구문 구조에서 계산 IR로의 전환을 다룬다.
+- 미리보기: `.venv/Scripts/python.exe scripts/render.py aic07 --preview`
+- 최종: `.venv/Scripts/python.exe scripts/render.py aic07`
+- 출력: `exports/aic07_preview.mp4`, `exports/aic07.mp4` (무음). TTS·자막 별도.
+
+
+### AI 컴파일러 08 — 코드의 모양을 지우면 무엇이 남을까?
+
+- 실제 자료: `episodes/aic08_ast_to_ir/` — narration.md, tts_script.txt, brief.md, scene.py, ir_model.py, timing.json, captions.srt.
+- 사용자 확정 25개 발화 구간, 170초. AST에서 공통 계산 IR, 공유 DAG와 SSA 정의·사용 관계로 이어진다.
+- 미리보기: `.venv/Scripts/python.exe scripts/render.py aic08 --preview`
+- 최종: `.venv/Scripts/python.exe scripts/render.py aic08`
+- 출력: `exports/aic08_preview.mp4`, `exports/aic08.mp4` (무음). TTS·SRT 별도.
+
+
+### 과학의 한 장면 20 — 빛보다 빠른 게 존재한다?
+
+- `science20`: 한 칸과 열 칸의 거리 변화 → 허블 관계 → 초광속 거리 증가율 → 국소 측정의 빛 c. 사용자 제공 15구간 종료 시각에 맞춘 132초 무음 영상.
+- 실제 자료: `episodes/science20_superluminal_expansion/` — narration.md, tts_script.txt, brief.md, scene.py, timing.json, captions.srt.
+- 사용자 타이밍 적용: `.venv/Scripts/python.exe scripts/retime_science20.py`
+- 미리보기: `.venv/Scripts/python.exe scripts/render.py science20 --preview`
+- 최종: `.venv/Scripts/python.exe scripts/render.py science20`
+- 화면·프레임 검증: `.venv/Scripts/python.exe scripts/review_science20.py --final`
+- 출력: `exports/science20_preview.mp4`, `exports/science20.mp4` (1080×1920 / 30fps / 무음). TTS·SRT 별도.
+- 진공에서 국소적으로 측정한 빛의 속도와, 같은 우주 시간에서 정의한 공변 지점 사이 proper distance의 증가율을 구별한다. 신경망 비유와 이후 영상 예고는 넣지 않는다.
