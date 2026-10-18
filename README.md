@@ -1,5 +1,19 @@
 # Manim 교육 영상 프로젝트
 
+## 새 AI 컴파일러 시리즈 — 텐서 프로그램에서 하드웨어 실행까지
+
+일반 컴파일러와 공유하는 원리를 바탕으로, 텐서 의미·연산 그래프·머신러닝 컴파일 시스템을 다룹니다. 기존 `aic01–08`과 구분하여 새 제작 ID는 `aicomp`를 사용합니다. [시리즈 기획](plans/ai_compiler_tensor_series.md)에 01~12편의 질문·발견·공통 연출을 기록했습니다. 후속 「AI 컴파일러의 내부」는 02~05에서 시스템 구조 → 컴파일 시점 → 그래프 포착 → 여러 수준의 IR을 살펴보고, 06부터 Shape·Guard·Alias·Bufferization·자동 미분·코드 생성을 다룹니다. 다음 제작 대상은 02의 Framework·Compiler·Runtime입니다.
+
+- 01 **AI 컴파일러란 무엇일까? — 신경망에는 왜 별도의 컴파일러가 필요할까?**: [대본](episodes/aicomp01_what_is_ai_compiler/narration.md), [TTS 원고](episodes/aicomp01_what_is_ai_compiler/tts_script.txt), [제작 기준](episodes/aicomp01_what_is_ai_compiler/brief.md), [화면](episodes/aicomp01_what_is_ai_compiler/scene.py), [자막](episodes/aicomp01_what_is_ai_compiler/captions.srt), [타이밍](episodes/aicomp01_what_is_ai_compiler/timing.json). 사용자 확정 23개 발화 구간·161초 기준, 기본 무음. 미리보기 `python scripts/render.py aicomp01 --preview`, 최종 `python scripts/render.py aicomp01`.
+
+- 02 **신경망 코드가 실행되기까지, 컴파일러는 어디에 있을까? — Framework, Compiler, Runtime**: [대본](episodes/aicomp02_framework_compiler_runtime/narration.md), [TTS 원고](episodes/aicomp02_framework_compiler_runtime/tts_script.txt), [제작 기준](episodes/aicomp02_framework_compiler_runtime/brief.md), [화면](episodes/aicomp02_framework_compiler_runtime/scene.py), [자막](episodes/aicomp02_framework_compiler_runtime/captions.srt), [타이밍](episodes/aicomp02_framework_compiler_runtime/timing.json). 사용자 확정 19개 발화 구간·141초, 기본 무음. 미리보기 `python scripts/render.py aicomp02 --preview`, 최종 `python scripts/render.py aicomp02`.
+
+- 03 **AI 컴파일러는 언제 코드를 만들까? — AOT, JIT와 Runtime Dispatch**: [대본](episodes/aicomp03_when_compilation_happens/narration.md), [TTS 원고](episodes/aicomp03_when_compilation_happens/tts_script.txt), [제작 기준](episodes/aicomp03_when_compilation_happens/brief.md), [화면](episodes/aicomp03_when_compilation_happens/scene.py), [자막](episodes/aicomp03_when_compilation_happens/captions.srt), [타이밍](episodes/aicomp03_when_compilation_happens/timing.json). 사용자 확정 20개 발화 구간·142초, 기본 무음. 미리보기 `python scripts/render.py aicomp03 --preview`, 최종 `python scripts/render.py aicomp03`.
+
+- 04 **파이썬 신경망은 어떻게 계산 그래프가 될까? — Tracing과 Graph Break**: [대본](episodes/aicomp04_graph_capture/narration.md), [TTS 원고](episodes/aicomp04_graph_capture/tts_script.txt), [제작 기준](episodes/aicomp04_graph_capture/brief.md), [화면](episodes/aicomp04_graph_capture/scene.py), [자막](episodes/aicomp04_graph_capture/captions.srt), [타이밍](episodes/aicomp04_graph_capture/timing.json). 사용자 확정 10장면·21개 발화 구간·152초, 기본 무음. 미리보기 `python scripts/render.py aicomp04 --preview`, 최종 `python scripts/render.py aicomp04`.
+
+- 05 **AI 컴파일러는 왜 계산을 여러 번 바꿔 표현할까? — Multi-Level IR과 Lowering**: [대본](episodes/aicomp05_multi_level_ir/narration.md), [TTS 원고](episodes/aicomp05_multi_level_ir/tts_script.txt), [제작 기준](episodes/aicomp05_multi_level_ir/brief.md). 하나의 행렬곱을 여러 표현으로 추적하며 드러나는 정보와 구조 보존의 이유를 다루는 대본 초안입니다. 실제 길이와 타이밍은 미확정입니다.
+
 ## 계산의 두 얼굴
 
 **같은 수식, 다른 실행 비용 — 수학에서 GPU와 AI 컴파일러까지.** Transpose에서 시작해 데이터 이동, 병렬화, 수치적 의미, 신경망 실행 그래프와 컴파일러의 선택으로 확장하는 4부·10편 시리즈입니다.
@@ -1200,6 +1214,15 @@ science01 화면 길이는 대사 글자 수에 비례해 배분합니다. `pyth
 - 최종: `.venv/Scripts/python.exe scripts/render.py aic08`
 - 출력: `exports/aic08_preview.mp4`, `exports/aic08.mp4` (무음). TTS·SRT 별도.
 
+
+### 신경망의 역설 01 — Dropout 50%가 수학적으로 특별한 이유
+
+- 실제 자료: `episodes/paradox01_dropout_half/` — narration.md, tts_script.txt, brief.md, scene.py, timing.json, captions.srt.
+- 사용자 제공 17개 발화 구간, 총 98초. 부분 신경망의 공유 가중치와 평균 손실, 보정된 선형 모델의 정규화 항, 독립적인 이진 마스크의 분산과 256개 조합의 균등성을 다룬다.
+- 미리보기: `python scripts/render.py paradox01 --preview`
+- 최종: `python scripts/render.py paradox01`
+- 출력: `exports/paradox01_preview.mp4`, `exports/paradox01.mp4` (1080×1920 / 30fps / 무음). TTS·SRT 별도. 음원 미제공.
+- 50%에서의 마스크 균등성은 성능 최적성을 증명하지 않는다. 0/1 마스크 분산과 생존 출력 보정에 따른 벌점 계수도 구분한다.
 
 ### 과학의 한 장면 20 — 빛보다 빠른 게 존재한다?
 

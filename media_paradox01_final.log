@@ -1,0 +1,698 @@
+Manim Community v0.21.0
+
+[10/18/26 15:52:19] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 0: FadeIn(VGroup of 3 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 0: FadeIn(VGroup of 3 submobjects):  33%|###3      | 4/12 [00:00<00:00, 38.42it/s]
+Animation 0: FadeIn(VGroup of 3 submobjects):  75%|#######5  | 9/12 [00:00<00:00, 39.57it/s]
+                                                                                            
+                    INFO     Animation 0 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00000.mp4'                                    
+[10/18/26 15:52:20] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 1: Transform(VGroup of 3 submobjects):   0%|          | 0/20 [00:00<?, ?it/s]
+Animation 1: Transform(VGroup of 3 submobjects):  25%|##5       | 5/20 [00:00<00:00, 48.82it/s]
+Animation 1: Transform(VGroup of 3 submobjects):  50%|#####     | 10/20 [00:00<00:00, 48.34it/s]
+Animation 1: Transform(VGroup of 3 submobjects):  75%|#######5  | 15/20 [00:00<00:00, 48.69it/s]
+Animation 1: Transform(VGroup of 3 submobjects): 100%|##########| 20/20 [00:00<00:00, 48.52it/s]
+                                                                                                
+                    INFO     Animation 1 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00001.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 2: Transform(VGroup of 3 submobjects):   0%|          | 0/20 [00:00<?, ?it/s]
+Animation 2: Transform(VGroup of 3 submobjects):  30%|###       | 6/20 [00:00<00:00, 52.19it/s]
+Animation 2: Transform(VGroup of 3 submobjects):  60%|######    | 12/20 [00:00<00:00, 45.17it/s]
+Animation 2: Transform(VGroup of 3 submobjects):  90%|######### | 18/20 [00:00<00:00, 48.40it/s]
+                                                                                                
+[10/18/26 15:52:21] INFO     Animation 2 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00002.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 15:52:22] INFO     Animation 3 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00003.mp4'                                    
+[10/18/26 15:52:23] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 4: FadeIn(VGroup of 3 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 4: FadeIn(VGroup of 3 submobjects):  42%|####1     | 5/12 [00:00<00:00, 42.10it/s]
+Animation 4: FadeIn(VGroup of 3 submobjects):  83%|########3 | 10/12 [00:00<00:00, 38.53it/s]
+                                                                                             
+                    INFO     Animation 4 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00004.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 15:52:25] INFO     Animation 5 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00005.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 6: FadeIn(VGroup of 3 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 6: FadeIn(VGroup of 3 submobjects):  50%|#####     | 6/12 [00:00<00:00, 56.61it/s]
+Animation 6: FadeIn(VGroup of 3 submobjects): 100%|##########| 12/12 [00:00<00:00, 55.39it/s]
+                                                                                             
+[10/18/26 15:52:26] INFO     Animation 6 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00006.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 7: Transform(VGroup of 4 submobjects):   0%|          | 0/17 [00:00<?, ?it/s]
+Animation 7: Transform(VGroup of 4 submobjects):  29%|##9       | 5/17 [00:00<00:00, 45.80it/s]
+Animation 7: Transform(VGroup of 4 submobjects):  59%|#####8    | 10/17 [00:00<00:00, 41.85it/s]
+Animation 7: Transform(VGroup of 4 submobjects):  88%|########8 | 15/17 [00:00<00:00, 39.67it/s]
+                                                                                                
+                    INFO     Animation 7 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00007.mp4'                                    
+[10/18/26 15:52:27] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 8: Transform(VGroup of 8 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 8: Transform(VGroup of 8 submobjects): 100%|##########| 9/9 [00:00<00:00, 80.87it/s]
+                                                                                              
+                    INFO     Animation 8 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00008.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 9: Transform(VGroup of 4 submobjects):   0%|          | 0/17 [00:00<?, ?it/s]
+Animation 9: Transform(VGroup of 4 submobjects):  29%|##9       | 5/17 [00:00<00:00, 45.00it/s]
+Animation 9: Transform(VGroup of 4 submobjects):  65%|######4   | 11/17 [00:00<00:00, 51.80it/s]
+Animation 9: Transform(VGroup of 4 submobjects): 100%|##########| 17/17 [00:00<00:00, 52.94it/s]
+                                                                                                
+                    INFO     Animation 9 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00009.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 10: Transform(VGroup of 8 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 10: Transform(VGroup of 8 submobjects):  89%|########8 | 8/9 [00:00<00:00, 71.28it/s]
+                                                                                               
+[10/18/26 15:52:28] INFO     Animation 10 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00010.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 11 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00011.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 12: Transform(VGroup of 3 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 12: Transform(VGroup of 3 submobjects):  22%|##2       | 4/18 [00:00<00:00, 33.57it/s]
+Animation 12: Transform(VGroup of 3 submobjects):  44%|####4     | 8/18 [00:00<00:00, 31.73it/s]
+Animation 12: Transform(VGroup of 3 submobjects):  67%|######6   | 12/18 [00:00<00:00, 30.01it/s]
+Animation 12: Transform(VGroup of 3 submobjects):  89%|########8 | 16/18 [00:00<00:00, 30.28it/s]
+                                                                                                 
+[10/18/26 15:52:29] INFO     Animation 12 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00012.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 15:52:31] INFO     Animation 13 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00013.mp4'                                    
+[10/18/26 15:52:32] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 14: FadeIn(VGroup of 4 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 14: FadeIn(VGroup of 4 submobjects):  58%|#####8    | 7/12 [00:00<00:00, 66.04it/s]
+                                                                                             
+                    INFO     Animation 14 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00014.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 15:52:33] INFO     Animation 15 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00015.mp4'                                    
+[10/18/26 15:52:34] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 16: FadeIn(VGroup of 3 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 16: FadeIn(VGroup of 3 submobjects):  50%|#####     | 6/12 [00:00<00:00, 52.99it/s]
+Animation 16: FadeIn(VGroup of 3 submobjects): 100%|##########| 12/12 [00:00<00:00, 50.71it/s]
+                                                                                              
+[10/18/26 15:52:35] INFO     Animation 16 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00016.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 15:52:36] INFO     Animation 17 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00017.mp4'                                    
+[10/18/26 15:52:37] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 18: FadeIn(VGroup of 3 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 18: FadeIn(VGroup of 3 submobjects):  58%|#####8    | 7/12 [00:00<00:00, 63.84it/s]
+                                                                                             
+                    INFO     Animation 18 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00018.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 19: Transform(VGroup of 4 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 19: Transform(VGroup of 4 submobjects):  58%|#####8    | 7/12 [00:00<00:00, 62.88it/s]
+                                                                                                
+                    INFO     Animation 19 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00019.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 20: Indicate(Text('������ ����ũ �� �ս� �� �� ����')):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 20: Indicate(Text('������ ����ũ �� �ս� �� �� ����')):  83%|########3 | 10/12 [00:00<00:00, 95.94it/s]
+                                                                                                              
+[10/18/26 15:52:38] INFO     Animation 20 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00020.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 21: Transform(VGroup of 4 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 21: Transform(VGroup of 4 submobjects):  58%|#####8    | 7/12 [00:00<00:00, 63.16it/s]
+                                                                                                
+                    INFO     Animation 21 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00021.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 22: Indicate(Text('������ ����ũ �� �ս� �� �� ����')):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 22: Indicate(Text('������ ����ũ �� �ս� �� �� ����')):  92%|#########1| 11/12 [00:00<00:00, 102.16it/s]
+                                                                                                               
+                    INFO     Animation 22 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00022.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 23: Transform(VGroup of 4 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 23: Transform(VGroup of 4 submobjects):  58%|#####8    | 7/12 [00:00<00:00, 64.68it/s]
+                                                                                                
+                    INFO     Animation 23 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00023.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 24: Indicate(Text('������ ����ũ �� �ս� �� �� ����')):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 24: Indicate(Text('������ ����ũ �� �ս� �� �� ����')):  83%|########3 | 10/12 [00:00<00:00, 95.61it/s]
+                                                                                                              
+[10/18/26 15:52:39] INFO     Animation 24 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00024.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 25 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00025.mp4'                                    
+[10/18/26 15:52:40] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 26: FadeIn(VGroup of 5 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 26: FadeIn(VGroup of 5 submobjects):  33%|###3      | 4/12 [00:00<00:00, 34.41it/s]
+Animation 26: FadeIn(VGroup of 5 submobjects):  67%|######6   | 8/12 [00:00<00:00, 32.43it/s]
+Animation 26: FadeIn(VGroup of 5 submobjects): 100%|##########| 12/12 [00:00<00:00, 31.95it/s]
+                                                                                              
+[10/18/26 15:52:41] INFO     Animation 26 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00026.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 15:52:43] INFO     Animation 27 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00027.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 28: FadeIn(VGroup of 5 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 28: FadeIn(VGroup of 5 submobjects):  33%|###3      | 4/12 [00:00<00:00, 37.53it/s]
+Animation 28: FadeIn(VGroup of 5 submobjects):  67%|######6   | 8/12 [00:00<00:00, 36.02it/s]
+Animation 28: FadeIn(VGroup of 5 submobjects): 100%|##########| 12/12 [00:00<00:00, 36.28it/s]
+                                                                                              
+[10/18/26 15:52:44] INFO     Animation 28 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00028.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 15:52:45] INFO     Animation 29 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00029.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 30: FadeIn(VGroup of 7 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 30: FadeIn(VGroup of 7 submobjects):  50%|#####     | 6/12 [00:00<00:00, 59.49it/s]
+Animation 30: FadeIn(VGroup of 7 submobjects): 100%|##########| 12/12 [00:00<00:00, 59.47it/s]
+                                                                                              
+[10/18/26 15:52:46] INFO     Animation 30 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00030.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 15:52:48] INFO     Animation 31 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00031.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 32: FadeIn(VGroup of 5 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 32: FadeIn(VGroup of 5 submobjects):  75%|#######5  | 9/12 [00:00<00:00, 89.16it/s]
+                                                                                             
+                    INFO     Animation 32 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00032.mp4'                                    
+[10/18/26 15:52:49] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 33: Transform(Text('�⿩ 1 �� ���� 1��')), etc.:   0%|          | 0/36 [00:00<?, ?it/s]
+Animation 33: Transform(Text('�⿩ 1 �� ���� 1��')), etc.:  33%|###3      | 12/36 [00:00<00:00, 114.13it/s]
+Animation 33: Transform(Text('�⿩ 1 �� ���� 1��')), etc.:  67%|######6   | 24/36 [00:00<00:00, 112.52it/s]
+Animation 33: Transform(Text('�⿩ 1 �� ���� 1��')), etc.: 100%|##########| 36/36 [00:00<00:00, 107.15it/s]
+                                                                                                          
+                    INFO     Animation 33 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00033.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 15:52:50] INFO     Animation 34 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00034.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 35: FadeIn(VGroup of 3 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 35: FadeIn(VGroup of 3 submobjects):  83%|########3 | 10/12 [00:00<00:00, 93.52it/s]
+                                                                                              
+[10/18/26 15:52:51] INFO     Animation 35 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00035.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 36 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00036.mp4'                                    
+[10/18/26 15:52:52] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 37: FadeIn(VGroup of 7 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 37: FadeIn(VGroup of 7 submobjects):  67%|######6   | 8/12 [00:00<00:00, 75.42it/s]
+                                                                                             
+                    INFO     Animation 37 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00037.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 38: _MethodAnimation(ValueTracker):   0%|          | 0/45 [00:00<?, ?it/s]
+Animation 38: _MethodAnimation(ValueTracker):  44%|####4     | 20/45 [00:00<00:00, 198.28it/s]
+Animation 38: _MethodAnimation(ValueTracker):  91%|#########1| 41/45 [00:00<00:00, 203.83it/s]
+                                                                                              
+                    INFO     Animation 38 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00038.mp4'                                    
+[10/18/26 15:52:53] INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 15:52:54] INFO     Animation 39 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00039.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 40: FadeIn(VGroup of 7 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 40: FadeIn(VGroup of 7 submobjects):  67%|######6   | 8/12 [00:00<00:00, 76.59it/s]
+                                                                                             
+                    INFO     Animation 40 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00040.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 41: _MethodAnimation(ValueTracker):   0%|          | 0/45 [00:00<?, ?it/s]
+Animation 41: _MethodAnimation(ValueTracker):  47%|####6     | 21/45 [00:00<00:00, 209.34it/s]
+Animation 41: _MethodAnimation(ValueTracker):  93%|#########3| 42/45 [00:00<00:00, 197.62it/s]
+                                                                                              
+[10/18/26 15:52:55] INFO     Animation 41 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00041.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 42: Circumscribe(Group):   0%|          | 0/21 [00:00<?, ?it/s]
+Animation 42: Circumscribe(Group):  81%|########  | 17/21 [00:00<00:00, 160.59it/s]
+                                                                                   
+                    INFO     Animation 42 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00042.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 15:52:56] INFO     Animation 43 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00043.mp4'                                    
+[10/18/26 15:52:57] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 44: FadeIn(VGroup of 4 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 44: FadeIn(VGroup of 4 submobjects):  25%|##5       | 3/12 [00:00<00:00, 28.62it/s]
+Animation 44: FadeIn(VGroup of 4 submobjects):  50%|#####     | 6/12 [00:00<00:00, 28.06it/s]
+Animation 44: FadeIn(VGroup of 4 submobjects):  75%|#######5  | 9/12 [00:00<00:00, 27.55it/s]
+Animation 44: FadeIn(VGroup of 4 submobjects): 100%|##########| 12/12 [00:00<00:00, 27.59it/s]
+                                                                                              
+[10/18/26 15:52:58] INFO     Animation 44 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00044.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 45 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00045.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 46: Transform(VGroup of 256 submobjects), etc.:   0%|          | 0/45 [00:00<?, ?it/s]
+Animation 46: Transform(VGroup of 256 submobjects), etc.:   9%|8         | 4/45 [00:00<00:01, 29.81it/s]
+Animation 46: Transform(VGroup of 256 submobjects), etc.:  18%|#7        | 8/45 [00:00<00:01, 29.75it/s]
+Animation 46: Transform(VGroup of 256 submobjects), etc.:  24%|##4       | 11/45 [00:00<00:01, 29.52it/s]
+Animation 46: Transform(VGroup of 256 submobjects), etc.:  31%|###1      | 14/45 [00:00<00:01, 28.31it/s]
+Animation 46: Transform(VGroup of 256 submobjects), etc.:  38%|###7      | 17/45 [00:00<00:01, 27.72it/s]
+Animation 46: Transform(VGroup of 256 submobjects), etc.:  44%|####4     | 20/45 [00:00<00:00, 27.82it/s]
+Animation 46: Transform(VGroup of 256 submobjects), etc.:  51%|#####1    | 23/45 [00:00<00:00, 27.40it/s]
+Animation 46: Transform(VGroup of 256 submobjects), etc.:  58%|#####7    | 26/45 [00:00<00:00, 27.38it/s]
+Animation 46: Transform(VGroup of 256 submobjects), etc.:  64%|######4   | 29/45 [00:01<00:00, 27.22it/s]
+Animation 46: Transform(VGroup of 256 submobjects), etc.:  71%|#######1  | 32/45 [00:01<00:00, 27.74it/s]
+Animation 46: Transform(VGroup of 256 submobjects), etc.:  78%|#######7  | 35/45 [00:01<00:00, 27.98it/s]
+Animation 46: Transform(VGroup of 256 submobjects), etc.:  84%|########4 | 38/45 [00:01<00:00, 28.35it/s]
+Animation 46: Transform(VGroup of 256 submobjects), etc.:  91%|#########1| 41/45 [00:01<00:00, 28.63it/s]
+Animation 46: Transform(VGroup of 256 submobjects), etc.:  98%|#########7| 44/45 [00:01<00:00, 26.48it/s]
+                                                                                                         
+[10/18/26 15:53:00] INFO     Animation 46 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00046.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 47: Transform(Text('P(m) = (1\u2212r)\u1d4f r\u2078\u207b\u1d4f �� k�� ���� ���� ��')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 47: Transform(Text('P(m) = (1\u2212r)\u1d4f r\u2078\u207b\u1d4f �� k�� ���� ���� ��')):  60%|######    | 9/15 [00:00<00:00, 88.16it/s]
+                                                                                                                      
+[10/18/26 15:53:01] INFO     Animation 47 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00047.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 48 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00048.mp4'                                    
+[10/18/26 15:53:02] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 49: FadeIn(VGroup of 4 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 49: FadeIn(VGroup of 4 submobjects):  25%|##5       | 3/12 [00:00<00:00, 29.80it/s]
+Animation 49: FadeIn(VGroup of 4 submobjects):  50%|#####     | 6/12 [00:00<00:00, 28.54it/s]
+Animation 49: FadeIn(VGroup of 4 submobjects):  75%|#######5  | 9/12 [00:00<00:00, 27.52it/s]
+Animation 49: FadeIn(VGroup of 4 submobjects): 100%|##########| 12/12 [00:00<00:00, 26.71it/s]
+                                                                                              
+[10/18/26 15:53:03] INFO     Animation 49 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00049.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 15:53:04] INFO     Animation 50 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00050.mp4'                                    
+[10/18/26 15:53:05] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 51: FadeIn(VGroup of 4 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 51: FadeIn(VGroup of 4 submobjects):  50%|#####     | 6/12 [00:00<00:00, 56.31it/s]
+Animation 51: FadeIn(VGroup of 4 submobjects): 100%|##########| 12/12 [00:00<00:00, 53.17it/s]
+                                                                                              
+                    INFO     Animation 51 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00051.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 15:53:07] INFO     Animation 52 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00052.mp4'                                    
+[10/18/26 15:53:08] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 53: FadeIn(VGroup of 4 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 53: FadeIn(VGroup of 4 submobjects):  75%|#######5  | 9/12 [00:00<00:00, 84.53it/s]
+                                                                                             
+                    INFO     Animation 53 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00053.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 15:53:10] INFO     Animation 54 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox01\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\DropoutHalf\uncac                         
+                             hed_00054.mp4'                                    
+                    INFO     Combining to Movie file.  scene_file_writer.py:952
+[10/18/26 15:53:11] INFO                              scene_file_writer.py:1103
+                             File ready at                                     
+                             'C:\Users\as042\OneDrive                          
+                             \Desktop\manim_video\med                          
+                             ia\paradox01\final\video                          
+                             s\scene\1920p30\DropoutH                          
+                             alf.mp4'                                          
+                                                                               
+                    INFO     Rendered DropoutHalf                  scene.py:290
+                             Played 55 animations                              
+Export: C:\Users\as042\OneDrive\Desktop\manim_video\exports\paradox01.mp4

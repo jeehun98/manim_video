@@ -235,6 +235,16 @@ EPISODES["aic07"] = ("episodes/aic07_lexing_parsing/scene.py", "LexingParsing")
 
 EPISODES["aic08"] = ("episodes/aic08_ast_to_ir/scene.py", "AstToIR")
 
+EPISODES["aicomp01"] = ("episodes/aicomp01_what_is_ai_compiler/scene.py", "WhatIsAICompiler")
+
+EPISODES["aicomp02"] = ("episodes/aicomp02_framework_compiler_runtime/scene.py", "FrameworkCompilerRuntime")
+
+EPISODES["aicomp03"] = ("episodes/aicomp03_when_compilation_happens/scene.py", "WhenCompilationHappens")
+
+EPISODES["aicomp04"] = ("episodes/aicomp04_graph_capture/scene.py", "GraphCaptureBoundaries")
+
+EPISODES["paradox01"] = ("episodes/paradox01_dropout_half/scene.py", "DropoutHalf")
+
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("episode", choices=EPISODES)
