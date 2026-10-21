@@ -1,0 +1,23 @@
+{
+  "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\nncalc01_shorts.mp4",
+  "duration": 163.999023,
+  "width": 1080,
+  "height": 1920,
+  "fps": "30/1",
+  "audio_streams": 0,
+  "timing_source": "32 user-provided cumulative sentence ends; no audio file supplied",
+  "narration_tts_consistent": true,
+  "sections": 14,
+  "contact_sheets": [
+    "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\nncalc01_shorts\\qa\\final_sheet_1.jpg",
+    "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\nncalc01_shorts\\qa\\final_sheet_2.jpg"
+  ],
+  "critical_frames": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\nncalc01_shorts\\qa\\final_critical.jpg",
+  "edition": "shorts 9:16",
+  "script_and_user_timings_unchanged": true,
+  "visual_review": "14 sections reviewed; final critical frames at 74,77,138,160 seconds inspected; no clipping found",
+  "caption_layout": "32 captions fit portrait panel",
+  "audio_file_supplied": false,
+  "audio_sync_verified": false,
+  "landscape_video_preserved": true
+}

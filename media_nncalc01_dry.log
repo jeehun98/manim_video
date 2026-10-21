@@ -1,0 +1,350 @@
+Manim Community v0.21.0
+
+
+Animation 0: FadeIn(VGroup of 7 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 0: FadeIn(VGroup of 7 submobjects):  78%|#######7  | 7/9 [00:00<00:00, 63.04it/s]
+                                                                                           
+
+Animation 1: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+                                                                                     
+
+Animation 2: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 2: Indicate(VGroup of 3 submobjects): 100%|##########| 8/8 [00:00<00:00, 77.61it/s]
+                                                                                             
+
+Animation 3: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+                                                                                     
+
+Animation 4: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+                                                                                     
+
+Animation 6: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 6: Indicate(VGroup of 2 submobjects), etc.:  50%|#####     | 9/18 [00:00<00:00, 89.38it/s]
+                                                                                                    
+
+Animation 8: FadeIn(VGroup of 8 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                   
+
+Animation 9: Indicate(VGroup of 2 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 9: Indicate(VGroup of 2 submobjects):  56%|#####5    | 10/18 [00:00<00:00, 94.14it/s]
+                                                                                               
+
+Animation 11: FadeIn(VGroup of 9 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 11: FadeIn(VGroup of 9 submobjects):  78%|#######7  | 7/9 [00:00<00:00, 65.06it/s]
+                                                                                            
+
+Animation 12: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 12: Indicate(VGroup of 2 submobjects), etc.:  17%|#6        | 5/30 [00:00<00:00, 45.69it/s]
+Animation 12: Indicate(VGroup of 2 submobjects), etc.:  43%|####3     | 13/30 [00:00<00:00, 62.67it/s]
+Animation 12: Indicate(VGroup of 2 submobjects), etc.:  67%|######6   | 20/30 [00:00<00:00, 62.06it/s]
+Animation 12: Indicate(VGroup of 2 submobjects), etc.:  90%|######### | 27/30 [00:00<00:00, 63.80it/s]
+                                                                                                      
+
+Animation 14: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 14: Indicate(VGroup of 3 submobjects): 100%|##########| 8/8 [00:00<00:00, 77.70it/s]
+                                                                                              
+
+Animation 15: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 15: Indicate(VGroup of 3 submobjects): 100%|##########| 8/8 [00:00<00:00, 77.89it/s]
+                                                                                              
+
+Animation 16: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+                                                                                      
+
+Animation 17: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+                                                                                      
+
+Animation 19: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 19: Indicate(VGroup of 2 submobjects), etc.:  61%|######1   | 11/18 [00:00<00:00, 105.91it/s]
+                                                                                                       
+
+Animation 21: FadeIn(VGroup of 5 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 21: FadeIn(VGroup of 5 submobjects):  78%|#######7  | 7/9 [00:00<00:00, 67.23it/s]
+                                                                                            
+
+Animation 22: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 22: Indicate(VGroup of 2 submobjects), etc.:  67%|######6   | 8/12 [00:00<00:00, 76.68it/s]
+                                                                                                     
+
+Animation 23: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 23: Indicate(VGroup of 2 submobjects), etc.:  67%|######6   | 8/12 [00:00<00:00, 71.14it/s]
+                                                                                                     
+
+Animation 24: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 24: Indicate(VGroup of 2 submobjects), etc.:  58%|#####8    | 7/12 [00:00<00:00, 65.46it/s]
+                                                                                                     
+
+Animation 25: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 25: Indicate(VGroup of 2 submobjects), etc.:  67%|######6   | 8/12 [00:00<00:00, 79.83it/s]
+                                                                                                     
+
+Animation 26: Transform(Text('���� ��')):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 26: Transform(Text('���� ��')):  67%|######6   | 8/12 [00:00<00:00, 76.03it/s]
+                                                                                          
+
+Animation 28: FadeIn(VGroup of 6 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 28: FadeIn(VGroup of 6 submobjects):  89%|########8 | 8/9 [00:00<00:00, 78.49it/s]
+                                                                                            
+
+Animation 29: Indicate(VGroup of 2 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 29: Indicate(VGroup of 2 submobjects):  61%|######1   | 11/18 [00:00<00:00, 106.98it/s]
+                                                                                                 
+
+Animation 31: Create(Line), etc.:   0%|          | 0/17 [00:00<?, ?it/s]
+Animation 31: Create(Line), etc.:  41%|####1     | 7/17 [00:00<00:00, 69.39it/s]
+Animation 31: Create(Line), etc.:  82%|########2 | 14/17 [00:00<00:00, 67.11it/s]
+                                                                                 
+
+Animation 32: Create(Line), etc.:   0%|          | 0/17 [00:00<?, ?it/s]
+Animation 32: Create(Line), etc.:  47%|####7     | 8/17 [00:00<00:00, 69.71it/s]
+Animation 32: Create(Line), etc.:  88%|########8 | 15/17 [00:00<00:00, 65.43it/s]
+                                                                                 
+
+Animation 33: Create(Line), etc.:   0%|          | 0/17 [00:00<?, ?it/s]
+Animation 33: Create(Line), etc.:  47%|####7     | 8/17 [00:00<00:00, 69.80it/s]
+Animation 33: Create(Line), etc.:  94%|#########4| 16/17 [00:00<00:00, 73.53it/s]
+                                                                                 
+
+Animation 34: Create(Line), etc.:   0%|          | 0/17 [00:00<?, ?it/s]
+Animation 34: Create(Line), etc.:  47%|####7     | 8/17 [00:00<00:00, 78.48it/s]
+Animation 34: Create(Line), etc.:  94%|#########4| 16/17 [00:00<00:00, 75.44it/s]
+                                                                                 
+
+Animation 35: Transform(Text('���� ���� �� ������ 0?')):   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 35: Transform(Text('���� ���� �� ������ 0?')):  73%|#######2  | 8/11 [00:00<00:00, 79.76it/s]
+                                                                                                      
+
+Animation 37: Indicate(Text('��� d\u209c �� 0  �׸���  d\u2099 = 0')):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 37: Indicate(Text('��� d\u209c �� 0  �׸���  d\u2099 = 0')):  56%|#####5    | 10/18 [00:00<00:00, 93.65it/s]
+                                                                                                            
+
+Animation 39: FadeIn(VGroup of 5 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 39: FadeIn(VGroup of 5 submobjects):  78%|#######7  | 7/9 [00:00<00:00, 58.57it/s]
+                                                                                            
+
+Animation 40: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 40: Indicate(VGroup of 2 submobjects), etc.:  50%|#####     | 9/18 [00:00<00:00, 79.50it/s]
+Animation 40: Indicate(VGroup of 2 submobjects), etc.:  94%|#########4| 17/18 [00:00<00:00, 79.54it/s]
+                                                                                                      
+
+Animation 42: Indicate(Text('�Ʒ� ���� ��� ����')):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 42: Indicate(Text('�Ʒ� ���� ��� ����')):  72%|#######2  | 13/18 [00:00<00:00, 127.76it/s]
+                                                                                                     
+
+Animation 44: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 44: Indicate(VGroup of 2 submobjects), etc.:  39%|###8      | 7/18 [00:00<00:00, 66.40it/s]
+Animation 44: Indicate(VGroup of 2 submobjects), etc.:  78%|#######7  | 14/18 [00:00<00:00, 64.54it/s]
+                                                                                                      
+
+Animation 46: FadeIn(VGroup of 6 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 46: FadeIn(VGroup of 6 submobjects):  89%|########8 | 8/9 [00:00<00:00, 70.73it/s]
+                                                                                            
+
+Animation 47: Indicate(BracketSequence of 4 submobjects), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 47: Indicate(BracketSequence of 4 submobjects), etc.:  44%|####4     | 8/18 [00:00<00:00, 79.01it/s]
+Animation 47: Indicate(BracketSequence of 4 submobjects), etc.:  89%|########8 | 16/18 [00:00<00:00, 71.37it/s]
+                                                                                                               
+
+Animation 49: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 49: Indicate(VGroup of 2 submobjects), etc.:  58%|#####8    | 7/12 [00:00<00:00, 68.41it/s]
+                                                                                                     
+
+Animation 50: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 50: Indicate(VGroup of 2 submobjects), etc.:  67%|######6   | 8/12 [00:00<00:00, 79.77it/s]
+                                                                                                     
+
+Animation 51: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 51: Indicate(VGroup of 2 submobjects), etc.:  75%|#######5  | 9/12 [00:00<00:00, 81.33it/s]
+                                                                                                     
+
+Animation 52: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 52: Indicate(VGroup of 2 submobjects), etc.:  75%|#######5  | 9/12 [00:00<00:00, 83.01it/s]
+                                                                                                     
+
+Animation 53: Transform(Text('���� ��')):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 53: Transform(Text('���� ��')):  75%|#######5  | 9/12 [00:00<00:00, 81.85it/s]
+                                                                                          
+
+Animation 55: Create(Line), etc.:   0%|          | 0/17 [00:00<?, ?it/s]
+Animation 55: Create(Line), etc.:  47%|####7     | 8/17 [00:00<00:00, 75.36it/s]
+Animation 55: Create(Line), etc.:  94%|#########4| 16/17 [00:00<00:00, 76.59it/s]
+                                                                                 
+
+Animation 56: Create(Line), etc.:   0%|          | 0/17 [00:00<?, ?it/s]
+Animation 56: Create(Line), etc.:  47%|####7     | 8/17 [00:00<00:00, 73.15it/s]
+Animation 56: Create(Line), etc.:  94%|#########4| 16/17 [00:00<00:00, 75.12it/s]
+                                                                                 
+
+Animation 57: Create(Line), etc.:   0%|          | 0/17 [00:00<?, ?it/s]
+Animation 57: Create(Line), etc.:  53%|#####2    | 9/17 [00:00<00:00, 80.38it/s]
+                                                                                
+
+Animation 58: Transform(Text('���� ���� �� ������ 0?')):   0%|          | 0/6 [00:00<?, ?it/s]
+                                                                                             
+
+Animation 60: Create(Line), etc.:   0%|          | 0/17 [00:00<?, ?it/s]
+Animation 60: Create(Line), etc.:  47%|####7     | 8/17 [00:00<00:00, 73.95it/s]
+Animation 60: Create(Line), etc.:  94%|#########4| 16/17 [00:00<00:00, 77.13it/s]
+                                                                                 
+
+Animation 61: Transform(Text('���� ���� �� ������ 0?')):   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 61: Transform(Text('���� ���� �� ������ 0?')):  82%|########1 | 9/11 [00:00<00:00, 85.44it/s]
+                                                                                                      
+
+Animation 63: FadeIn(VGroup of 8 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                    
+
+Animation 64: Create(Arrow), etc.:   0%|          | 0/36 [00:00<?, ?it/s]
+Animation 64: Create(Arrow), etc.:  28%|##7       | 10/36 [00:00<00:00, 90.19it/s]
+Animation 64: Create(Arrow), etc.:  56%|#####5    | 20/36 [00:00<00:00, 89.64it/s]
+Animation 64: Create(Arrow), etc.:  83%|########3 | 30/36 [00:00<00:00, 92.02it/s]
+                                                                                  
+
+Animation 66: FadeIn(VGroup of 8 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 66: FadeIn(VGroup of 8 submobjects):  67%|######6   | 6/9 [00:00<00:00, 59.69it/s]
+                                                                                            
+
+Animation 67: Indicate(VGroup of 2 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 67: Indicate(VGroup of 2 submobjects):  39%|###8      | 7/18 [00:00<00:00, 67.65it/s]
+Animation 67: Indicate(VGroup of 2 submobjects):  83%|########3 | 15/18 [00:00<00:00, 69.83it/s]
+                                                                                                
+
+Animation 69: LaggedStart(Group):   0%|          | 0/60 [00:00<?, ?it/s]
+Animation 69: LaggedStart(Group):  35%|###5      | 21/60 [00:00<00:00, 204.61it/s]
+Animation 69: LaggedStart(Group):  70%|#######   | 42/60 [00:00<00:00, 188.71it/s]
+                                                                                  
+
+Animation 71: FadeIn(VGroup of 7 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 71: FadeIn(VGroup of 7 submobjects):  89%|########8 | 8/9 [00:00<00:00, 75.16it/s]
+                                                                                            
+
+Animation 72: Indicate(Text('�н��� ��� ��Ģ')):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 72: Indicate(Text('�н��� ��� ��Ģ')):  61%|######1   | 11/18 [00:00<00:00, 100.44it/s]
+                                                                                                  
+
+Animation 74: FadeOut(Text('if    for    count')):   0%|          | 0/24 [00:00<?, ?it/s]
+Animation 74: FadeOut(Text('if    for    count')):  29%|##9       | 7/24 [00:00<00:00, 69.02it/s]
+Animation 74: FadeOut(Text('if    for    count')):  62%|######2   | 15/24 [00:00<00:00, 69.71it/s]
+Animation 74: FadeOut(Text('if    for    count')):  96%|#########5| 23/24 [00:00<00:00, 73.53it/s]
+                                                                                                  
+
+Animation 76: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 76: Indicate(VGroup of 3 submobjects): 100%|##########| 8/8 [00:00<00:00, 76.75it/s]
+                                                                                              
+
+Animation 77: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+                                                                                      
+
+Animation 78: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+                                                                                      
+
+Animation 79: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+                                                                                      
+
+Animation 81: FadeIn(VGroup of 10 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 81: FadeIn(VGroup of 10 submobjects):  89%|########8 | 8/9 [00:00<00:00, 79.05it/s]
+                                                                                             
+
+Animation 82: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 82: Indicate(VGroup of 3 submobjects): 100%|##########| 8/8 [00:00<00:00, 73.77it/s]
+                                                                                              
+
+Animation 83: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 83: Indicate(VGroup of 3 submobjects): 100%|##########| 8/8 [00:00<00:00, 79.29it/s]
+                                                                                              
+
+Animation 84: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+                                                                                      
+
+Animation 85: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+                                                                                      
+
+Animation 87: Indicate(VGroup of 2 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 87: Indicate(VGroup of 2 submobjects):  50%|#####     | 9/18 [00:00<00:00, 84.10it/s]
+Animation 87: Indicate(VGroup of 2 submobjects): 100%|##########| 18/18 [00:00<00:00, 85.06it/s]
+                                                                                                
+
+Animation 88: Indicate(VGroup of 2 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 88: Indicate(VGroup of 2 submobjects):  56%|#####5    | 10/18 [00:00<00:00, 92.91it/s]
+                                                                                                
+
+Animation 89: Indicate(VGroup of 2 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 89: Indicate(VGroup of 2 submobjects):  56%|#####5    | 10/18 [00:00<00:00, 91.37it/s]
+                                                                                                
+
+Animation 90: Indicate(VGroup of 2 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 90: Indicate(VGroup of 2 submobjects):  56%|#####5    | 10/18 [00:00<00:00, 97.42it/s]
+                                                                                                
+
+Animation 92: FadeIn(VGroup of 10 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 92: FadeIn(VGroup of 10 submobjects):  67%|######6   | 6/9 [00:00<00:00, 59.09it/s]
+                                                                                             
+
+Animation 93: Indicate(Text('���� ���� ����')):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 93: Indicate(Text('���� ���� ����')):  44%|####4     | 8/18 [00:00<00:00, 68.35it/s]
+Animation 93: Indicate(Text('���� ���� ����')):  83%|########3 | 15/18 [00:00<00:00, 64.66it/s]
+                                                                                                 
+
+Animation 95: Transform(Rectangle), etc.:   0%|          | 0/36 [00:00<?, ?it/s]
+Animation 95: Transform(Rectangle), etc.:  19%|#9        | 7/36 [00:00<00:00, 63.38it/s]
+Animation 95: Transform(Rectangle), etc.:  39%|###8      | 14/36 [00:00<00:00, 64.66it/s]
+Animation 95: Transform(Rectangle), etc.:  58%|#####8    | 21/36 [00:00<00:00, 65.96it/s]
+Animation 95: Transform(Rectangle), etc.:  78%|#######7  | 28/36 [00:00<00:00, 62.55it/s]
+Animation 95: Transform(Rectangle), etc.:  97%|#########7| 35/36 [00:00<00:00, 61.54it/s]
+                                                                                         
+
+Animation 96: Indicate(VGroup of 2 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 96: Indicate(VGroup of 2 submobjects):  39%|###8      | 7/18 [00:00<00:00, 67.58it/s]
+Animation 96: Indicate(VGroup of 2 submobjects):  78%|#######7  | 14/18 [00:00<00:00, 59.95it/s]
+                                                                                                
+
+Animation 98: _MethodAnimation(ModelPopulation of 1 submobjects), etc.:   0%|          | 0/39 [00:00<?, ?it/s]
+Animation 98: _MethodAnimation(ModelPopulation of 1 submobjects), etc.:  18%|#7        | 7/39 [00:00<00:00, 64.33it/s]
+Animation 98: _MethodAnimation(ModelPopulation of 1 submobjects), etc.:  36%|###5      | 14/39 [00:00<00:00, 65.11it/s]
+Animation 98: _MethodAnimation(ModelPopulation of 1 submobjects), etc.:  54%|#####3    | 21/39 [00:00<00:00, 65.40it/s]
+Animation 98: _MethodAnimation(ModelPopulation of 1 submobjects), etc.:  72%|#######1  | 28/39 [00:00<00:00, 62.65it/s]
+Animation 98: _MethodAnimation(ModelPopulation of 1 submobjects), etc.:  90%|########9 | 35/39 [00:00<00:00, 63.33it/s]
+                                                                                                                       
+
+Animation 100: FadeIn(VGroup of 7 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 100: FadeIn(VGroup of 7 submobjects):  78%|#######7  | 7/9 [00:00<00:00, 65.97it/s]
+                                                                                             
+
+Animation 101: Indicate(VGroup of 2 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 101: Indicate(VGroup of 2 submobjects):  39%|###8      | 7/18 [00:00<00:00, 69.28it/s]
+Animation 101: Indicate(VGroup of 2 submobjects):  78%|#######7  | 14/18 [00:00<00:00, 66.31it/s]
+                                                                                                 
+
+Animation 103: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 103: Indicate(VGroup of 2 submobjects), etc.:  33%|###3      | 6/18 [00:00<00:00, 57.21it/s]
+Animation 103: Indicate(VGroup of 2 submobjects), etc.:  72%|#######2  | 13/18 [00:00<00:00, 60.74it/s]
+                                                                                                       
+
+Animation 105: FadeIn(VGroup of 7 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 105: FadeIn(VGroup of 7 submobjects):  67%|######6   | 6/9 [00:00<00:00, 54.70it/s]
+                                                                                             
+
+Animation 106: Transform(Rectangle), etc.:   0%|          | 0/36 [00:00<?, ?it/s]
+Animation 106: Transform(Rectangle), etc.:  22%|##2       | 8/36 [00:00<00:00, 72.24it/s]
+Animation 106: Transform(Rectangle), etc.:  44%|####4     | 16/36 [00:00<00:00, 72.79it/s]
+Animation 106: Transform(Rectangle), etc.:  67%|######6   | 24/36 [00:00<00:00, 69.87it/s]
+Animation 106: Transform(Rectangle), etc.:  89%|########8 | 32/36 [00:00<00:00, 68.57it/s]
+                                                                                          
+
+Animation 107: Indicate(VGroup of 2 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 107: Indicate(VGroup of 2 submobjects):  39%|###8      | 7/18 [00:00<00:00, 69.97it/s]
+Animation 107: Indicate(VGroup of 2 submobjects):  78%|#######7  | 14/18 [00:00<00:00, 66.75it/s]
+                                                                                                 
+
+Animation 108: Indicate(ModelPopulation of 1 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 108: Indicate(ModelPopulation of 1 submobjects):  39%|###8      | 7/18 [00:00<00:00, 63.43it/s]
+Animation 108: Indicate(ModelPopulation of 1 submobjects):  78%|#######7  | 14/18 [00:00<00:00, 66.31it/s]
+                                                                                                          
+
+Animation 110: Indicate(Text('Patterning: The Dual of Interpretability')):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 110: Indicate(Text('Patterning: The Dual of Interpretability')):  56%|#####5    | 10/18 [00:00<00:00, 93.51it/s]
+                                                                                                                          
+
+Animation 112: Indicate(Text('������ �����ϴ� ��  ��  Ǯ�̱��� �����ϴ� ��')):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 112: Indicate(Text('������ �����ϴ� ��  ��  Ǯ�̱��� �����ϴ� ��')):  67%|######6   | 12/18 [00:00<00:00, 114.25it/s]
+                                                                                                                              

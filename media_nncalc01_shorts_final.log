@@ -1,0 +1,1543 @@
+Manim Community v0.21.0
+
+[10/21/26 13:00:54] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 0: FadeIn(VGroup of 6 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 0: FadeIn(VGroup of 6 submobjects):  78%|#######7  | 7/9 [00:00<00:00, 67.57it/s]
+                                                                                           
+                    INFO     Animation 0 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             000.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 1: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 1: Indicate(VGroup of 3 submobjects): 100%|##########| 8/8 [00:00<00:00, 74.09it/s]
+                                                                                             
+                    INFO     Animation 1 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             001.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 2: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 2: Indicate(VGroup of 3 submobjects): 100%|##########| 8/8 [00:00<00:00, 79.90it/s]
+                                                                                             
+[10/21/26 13:00:55] INFO     Animation 2 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             002.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 3: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+                                                                                     
+                    INFO     Animation 3 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             003.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 4: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+                                                                                     
+                    INFO     Animation 4 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             004.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 5 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             005.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 6: Indicate(VGroup of 2 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 6: Indicate(VGroup of 2 submobjects):  44%|####4     | 8/18 [00:00<00:00, 76.89it/s]
+Animation 6: Indicate(VGroup of 2 submobjects):  94%|#########4| 17/18 [00:00<00:00, 80.80it/s]
+                                                                                               
+[10/21/26 13:00:56] INFO     Animation 6 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             006.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:00:57] INFO     Animation 7 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             007.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 8: FadeIn(VGroup of 6 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 8: FadeIn(VGroup of 6 submobjects):  78%|#######7  | 7/9 [00:00<00:00, 68.62it/s]
+                                                                                           
+                    INFO     Animation 8 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             008.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 9: Indicate(VGroup of 2 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 9: Indicate(VGroup of 2 submobjects):  44%|####4     | 8/18 [00:00<00:00, 72.40it/s]
+Animation 9: Indicate(VGroup of 2 submobjects):  89%|########8 | 16/18 [00:00<00:00, 73.34it/s]
+                                                                                               
+[10/21/26 13:00:58] INFO     Animation 9 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             009.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:01:00] INFO     Animation 10 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             010.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 11: FadeIn(VGroup of 6 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 11: FadeIn(VGroup of 6 submobjects):  78%|#######7  | 7/9 [00:00<00:00, 62.83it/s]
+                                                                                            
+                    INFO     Animation 11 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             011.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 12: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 12: Indicate(VGroup of 2 submobjects), etc.:  23%|##3       | 7/30 [00:00<00:00, 62.33it/s]
+Animation 12: Indicate(VGroup of 2 submobjects), etc.:  47%|####6     | 14/30 [00:00<00:00, 58.21it/s]
+Animation 12: Indicate(VGroup of 2 submobjects), etc.:  67%|######6   | 20/30 [00:00<00:00, 55.00it/s]
+Animation 12: Indicate(VGroup of 2 submobjects), etc.:  87%|########6 | 26/30 [00:00<00:00, 52.33it/s]
+                                                                                                      
+[10/21/26 13:01:01] INFO     Animation 12 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             012.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:01:03] INFO     Animation 13 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             013.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 14: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 14: Indicate(VGroup of 3 submobjects):  88%|########7 | 7/8 [00:00<00:00, 67.92it/s]
+                                                                                              
+                    INFO     Animation 14 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             014.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 15: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 15: Indicate(VGroup of 3 submobjects):  88%|########7 | 7/8 [00:00<00:00, 68.03it/s]
+                                                                                              
+                    INFO     Animation 15 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             015.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 16: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 16: Indicate(VGroup of 3 submobjects):  88%|########7 | 7/8 [00:00<00:00, 66.94it/s]
+                                                                                              
+                    INFO     Animation 16 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             016.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 17: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 17: Indicate(VGroup of 3 submobjects): 100%|##########| 8/8 [00:00<00:00, 71.07it/s]
+                                                                                              
+                    INFO     Animation 17 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             017.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:01:05] INFO     Animation 18 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             018.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 19: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 19: Indicate(VGroup of 2 submobjects), etc.:  56%|#####5    | 10/18 [00:00<00:00, 95.80it/s]
+                                                                                                      
+                    INFO     Animation 19 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             019.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:01:06] INFO     Animation 20 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             020.mp4'                                          
+[10/21/26 13:01:07] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 21: FadeIn(VGroup of 5 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 21: FadeIn(VGroup of 5 submobjects):  89%|########8 | 8/9 [00:00<00:00, 69.74it/s]
+                                                                                            
+                    INFO     Animation 21 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             021.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 22: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 22: Indicate(VGroup of 2 submobjects), etc.:  58%|#####8    | 7/12 [00:00<00:00, 69.41it/s]
+                                                                                                     
+[10/21/26 13:01:08] INFO     Animation 22 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             022.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 23: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 23: Indicate(VGroup of 2 submobjects), etc.:  58%|#####8    | 7/12 [00:00<00:00, 69.02it/s]
+                                                                                                     
+                    INFO     Animation 23 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             023.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 24: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 24: Indicate(VGroup of 2 submobjects), etc.:  67%|######6   | 8/12 [00:00<00:00, 70.82it/s]
+                                                                                                     
+                    INFO     Animation 24 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             024.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 25: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 25: Indicate(VGroup of 2 submobjects), etc.:  58%|#####8    | 7/12 [00:00<00:00, 69.39it/s]
+                                                                                                     
+                    INFO     Animation 25 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             025.mp4'                                          
+[10/21/26 13:01:09] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 26: Transform(Text('���� ��')):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 26: Transform(Text('���� ��')):  58%|#####8    | 7/12 [00:00<00:00, 66.85it/s]
+                                                                                          
+                    INFO     Animation 26 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             026.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:01:10] INFO     Animation 27 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             027.mp4'                                          
+[10/21/26 13:01:11] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 28: FadeIn(VGroup of 5 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 28: FadeIn(VGroup of 5 submobjects):  89%|########8 | 8/9 [00:00<00:00, 74.64it/s]
+                                                                                            
+                    INFO     Animation 28 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             028.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 29: Indicate(Text('B �� Nested')):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 29: Indicate(Text('B �� Nested')):  44%|####4     | 8/18 [00:00<00:00, 77.43it/s]
+Animation 29: Indicate(Text('B �� Nested')):  89%|########8 | 16/18 [00:00<00:00, 75.50it/s]
+                                                                                           
+                    INFO     Animation 29 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             029.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:01:12] INFO     Animation 30 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             030.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 31: Create(Line), etc.:   0%|          | 0/17 [00:00<?, ?it/s]
+Animation 31: Create(Line), etc.:  47%|####7     | 8/17 [00:00<00:00, 72.45it/s]
+Animation 31: Create(Line), etc.:  94%|#########4| 16/17 [00:00<00:00, 71.53it/s]
+                                                                                 
+                    INFO     Animation 31 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             031.mp4'                                          
+[10/21/26 13:01:13] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 32: Create(Line), etc.:   0%|          | 0/17 [00:00<?, ?it/s]
+Animation 32: Create(Line), etc.:  41%|####1     | 7/17 [00:00<00:00, 64.05it/s]
+Animation 32: Create(Line), etc.:  82%|########2 | 14/17 [00:00<00:00, 65.67it/s]
+                                                                                 
+                    INFO     Animation 32 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             032.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 33: Create(Line), etc.:   0%|          | 0/17 [00:00<?, ?it/s]
+Animation 33: Create(Line), etc.:  41%|####1     | 7/17 [00:00<00:00, 65.10it/s]
+Animation 33: Create(Line), etc.:  82%|########2 | 14/17 [00:00<00:00, 67.62it/s]
+                                                                                 
+                    INFO     Animation 33 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             033.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 34: Create(Line), etc.:   0%|          | 0/17 [00:00<?, ?it/s]
+Animation 34: Create(Line), etc.:  41%|####1     | 7/17 [00:00<00:00, 68.81it/s]
+Animation 34: Create(Line), etc.:  82%|########2 | 14/17 [00:00<00:00, 66.97it/s]
+                                                                                 
+[10/21/26 13:01:14] INFO     Animation 34 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             034.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 35: Transform(Text('����: ���� ���� �� ������ 0')):   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 35: Transform(Text('����: ���� ���� �� ������ 0')):  73%|#######2  | 8/11 [00:00<00:00, 74.35it/s]
+                                                                                                           
+                    INFO     Animation 35 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             035.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:01:15] INFO     Animation 36 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             036.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 37: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 37: Indicate(VGroup of 2 submobjects), etc.:  50%|#####     | 9/18 [00:00<00:00, 82.85it/s]
+Animation 37: Indicate(VGroup of 2 submobjects), etc.: 100%|##########| 18/18 [00:00<00:00, 81.90it/s]
+                                                                                                      
+                    INFO     Animation 37 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             037.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:01:17] INFO     Animation 38 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             038.mp4'                                          
+[10/21/26 13:01:18] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 39: FadeIn(VGroup of 5 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 39: FadeIn(VGroup of 5 submobjects):  78%|#######7  | 7/9 [00:00<00:00, 63.34it/s]
+                                                                                            
+                    INFO     Animation 39 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             039.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 40: Indicate(VGroup of 13 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 40: Indicate(VGroup of 13 submobjects):  33%|###3      | 6/18 [00:00<00:00, 57.00it/s]
+Animation 40: Indicate(VGroup of 13 submobjects):  67%|######6   | 12/18 [00:00<00:00, 54.41it/s]
+Animation 40: Indicate(VGroup of 13 submobjects): 100%|##########| 18/18 [00:00<00:00, 54.92it/s]
+                                                                                                 
+[10/21/26 13:01:19] INFO     Animation 40 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             040.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:01:21] INFO     Animation 41 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             041.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 42: Indicate(VGroup of 2 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 42: Indicate(VGroup of 2 submobjects):  50%|#####     | 9/18 [00:00<00:00, 83.83it/s]
+Animation 42: Indicate(VGroup of 2 submobjects): 100%|##########| 18/18 [00:00<00:00, 82.20it/s]
+                                                                                                
+                    INFO     Animation 42 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             042.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:01:22] INFO     Animation 43 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             043.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 44: Indicate(Text('A �� ���� ��')), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 44: Indicate(Text('A �� ���� ��')), etc.:  50%|#####     | 9/18 [00:00<00:00, 81.69it/s]
+Animation 44: Indicate(Text('A �� ���� ��')), etc.: 100%|##########| 18/18 [00:00<00:00, 80.92it/s]
+                                                                                                    
+[10/21/26 13:01:23] INFO     Animation 44 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             044.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:01:24] INFO     Animation 45 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             045.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 46: FadeIn(VGroup of 6 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 46: FadeIn(VGroup of 6 submobjects):  67%|######6   | 6/9 [00:00<00:00, 55.19it/s]
+                                                                                            
+[10/21/26 13:01:25] INFO     Animation 46 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             046.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 47: Indicate(BracketSequence of 4 submobjects), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 47: Indicate(BracketSequence of 4 submobjects), etc.:  28%|##7       | 5/18 [00:00<00:00, 49.35it/s]
+Animation 47: Indicate(BracketSequence of 4 submobjects), etc.:  61%|######1   | 11/18 [00:00<00:00, 51.47it/s]
+Animation 47: Indicate(BracketSequence of 4 submobjects), etc.:  94%|#########4| 17/18 [00:00<00:00, 51.94it/s]
+                                                                                                               
+                    INFO     Animation 47 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             047.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:01:26] INFO     Animation 48 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             048.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 49: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 49: Indicate(VGroup of 2 submobjects), etc.:  50%|#####     | 6/12 [00:00<00:00, 58.12it/s]
+                                                                                                     
+                    INFO     Animation 49 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             049.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 50: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 50: Indicate(VGroup of 2 submobjects), etc.:  50%|#####     | 6/12 [00:00<00:00, 56.15it/s]
+Animation 50: Indicate(VGroup of 2 submobjects), etc.: 100%|##########| 12/12 [00:00<00:00, 55.23it/s]
+                                                                                                      
+[10/21/26 13:01:27] INFO     Animation 50 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             050.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 51: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 51: Indicate(VGroup of 2 submobjects), etc.:  50%|#####     | 6/12 [00:00<00:00, 54.53it/s]
+Animation 51: Indicate(VGroup of 2 submobjects), etc.: 100%|##########| 12/12 [00:00<00:00, 57.20it/s]
+                                                                                                      
+                    INFO     Animation 51 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             051.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 52: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 52: Indicate(VGroup of 2 submobjects), etc.:  58%|#####8    | 7/12 [00:00<00:00, 61.41it/s]
+                                                                                                     
+                    INFO     Animation 52 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             052.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 53: Transform(Text('���� ��')):   0%|          | 0/12 [00:00<?, ?it/s]
+Animation 53: Transform(Text('���� ��')):  58%|#####8    | 7/12 [00:00<00:00, 65.45it/s]
+                                                                                          
+                    INFO     Animation 53 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             053.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:01:28] INFO     Animation 54 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             054.mp4'                                          
+[10/21/26 13:01:29] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 55: Create(Line), etc.:   0%|          | 0/17 [00:00<?, ?it/s]
+Animation 55: Create(Line), etc.:  29%|##9       | 5/17 [00:00<00:00, 45.05it/s]
+Animation 55: Create(Line), etc.:  59%|#####8    | 10/17 [00:00<00:00, 47.38it/s]
+Animation 55: Create(Line), etc.:  94%|#########4| 16/17 [00:00<00:00, 50.78it/s]
+                                                                                 
+                    INFO     Animation 55 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             055.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 56: Create(Line), etc.:   0%|          | 0/17 [00:00<?, ?it/s]
+Animation 56: Create(Line), etc.:  41%|####1     | 7/17 [00:00<00:00, 62.14it/s]
+Animation 56: Create(Line), etc.:  82%|########2 | 14/17 [00:00<00:00, 57.31it/s]
+                                                                                 
+[10/21/26 13:01:30] INFO     Animation 56 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             056.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 57: Create(Line), etc.:   0%|          | 0/17 [00:00<?, ?it/s]
+Animation 57: Create(Line), etc.:  35%|###5      | 6/17 [00:00<00:00, 57.83it/s]
+Animation 57: Create(Line), etc.:  71%|#######   | 12/17 [00:00<00:00, 56.05it/s]
+                                                                                 
+                    INFO     Animation 57 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             057.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 58 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             058.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 59: Create(Line), etc.:   0%|          | 0/17 [00:00<?, ?it/s]
+Animation 59: Create(Line), etc.:  41%|####1     | 7/17 [00:00<00:00, 60.62it/s]
+Animation 59: Create(Line), etc.:  82%|########2 | 14/17 [00:00<00:00, 61.53it/s]
+                                                                                 
+[10/21/26 13:01:31] INFO     Animation 59 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             059.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 60: Transform(Text('����: ���� ���� �� ������ 0')):   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 60: Transform(Text('����: ���� ���� �� ������ 0')):  64%|######3   | 7/11 [00:00<00:00, 63.22it/s]
+                                                                                                           
+                    INFO     Animation 60 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             060.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:01:33] INFO     Animation 61 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             061.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 62: FadeIn(VGroup of 8 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 62: FadeIn(VGroup of 8 submobjects):  89%|########8 | 8/9 [00:00<00:00, 73.97it/s]
+                                                                                            
+[10/21/26 13:01:34] INFO     Animation 62 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             062.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 63: Indicate(Text('���� �Ʒ� ����\n��\n���� �Ϲ�ȭ ��Ģ')):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 63: Indicate(Text('���� �Ʒ� ����\n��\n���� �Ϲ�ȭ ��Ģ')):  56%|#####5    | 10/18 [00:00<00:00, 92.04it/s]
+                                                                                                                    
+                    INFO     Animation 63 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             063.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:01:35] INFO     Animation 64 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             064.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 65 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             065.mp4'                                          
+[10/21/26 13:01:36] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 66: FadeIn(VGroup of 8 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 66: FadeIn(VGroup of 8 submobjects):  67%|######6   | 6/9 [00:00<00:00, 58.61it/s]
+                                                                                            
+                    INFO     Animation 66 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             066.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 67: Indicate(VGroup of 2 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 67: Indicate(VGroup of 2 submobjects):  39%|###8      | 7/18 [00:00<00:00, 63.80it/s]
+Animation 67: Indicate(VGroup of 2 submobjects):  78%|#######7  | 14/18 [00:00<00:00, 62.61it/s]
+                                                                                                
+[10/21/26 13:01:37] INFO     Animation 67 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             067.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:01:38] INFO     Animation 68 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             068.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 69: Indicate(ModelPopulation of 1 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 69: Indicate(ModelPopulation of 1 submobjects):  28%|##7       | 5/18 [00:00<00:00, 49.47it/s]
+Animation 69: Indicate(ModelPopulation of 1 submobjects):  61%|######1   | 11/18 [00:00<00:00, 49.68it/s]
+Animation 69: Indicate(ModelPopulation of 1 submobjects):  89%|########8 | 16/18 [00:00<00:00, 46.79it/s]
+                                                                                                         
+[10/21/26 13:01:39] INFO     Animation 69 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             069.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:01:41] INFO     Animation 70 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             070.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 71: FadeIn(VGroup of 6 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 71: FadeIn(VGroup of 6 submobjects):  78%|#######7  | 7/9 [00:00<00:00, 60.43it/s]
+                                                                                            
+[10/21/26 13:01:42] INFO     Animation 71 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             071.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 72: Indicate(Text('�˰�����\n= �н��� ��� ��Ģ')):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 72: Indicate(Text('�˰�����\n= �н��� ��� ��Ģ')):  44%|####4     | 8/18 [00:00<00:00, 76.49it/s]
+Animation 72: Indicate(Text('�˰�����\n= �н��� ��� ��Ģ')):  89%|########8 | 16/18 [00:00<00:00, 72.82it/s]
+                                                                                                             
+                    INFO     Animation 72 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             072.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:01:44] INFO     Animation 73 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             073.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 74: FadeOut(Text('if   for   count')):   0%|          | 0/24 [00:00<?, ?it/s]
+Animation 74: FadeOut(Text('if   for   count')):  25%|##5       | 6/24 [00:00<00:00, 55.24it/s]
+Animation 74: FadeOut(Text('if   for   count')):  50%|#####     | 12/24 [00:00<00:00, 53.65it/s]
+Animation 74: FadeOut(Text('if   for   count')):  79%|#######9  | 19/24 [00:00<00:00, 58.77it/s]
+                                                                                                
+                    INFO     Animation 74 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             074.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:01:46] INFO     Animation 75 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             075.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 76: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 76: Indicate(VGroup of 3 submobjects): 100%|##########| 8/8 [00:00<00:00, 70.54it/s]
+                                                                                              
+                    INFO     Animation 76 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             076.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 77: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 77: Indicate(VGroup of 3 submobjects):  88%|########7 | 7/8 [00:00<00:00, 63.61it/s]
+                                                                                              
+                    INFO     Animation 77 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             077.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 78: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 78: Indicate(VGroup of 3 submobjects):  75%|#######5  | 6/8 [00:00<00:00, 59.49it/s]
+                                                                                              
+                    INFO     Animation 78 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             078.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 79: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 79: Indicate(VGroup of 3 submobjects):  75%|#######5  | 6/8 [00:00<00:00, 56.92it/s]
+                                                                                              
+[10/21/26 13:01:47] INFO     Animation 79 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             079.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:01:48] INFO     Animation 80 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             080.mp4'                                          
+[10/21/26 13:01:49] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 81: FadeIn(VGroup of 3 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 81: FadeIn(VGroup of 3 submobjects):  78%|#######7  | 7/9 [00:00<00:00, 60.43it/s]
+                                                                                            
+                    INFO     Animation 81 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             081.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 82: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 82: Indicate(VGroup of 3 submobjects):  88%|########7 | 7/8 [00:00<00:00, 66.47it/s]
+                                                                                              
+                    INFO     Animation 82 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             082.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 83: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 83: Indicate(VGroup of 3 submobjects):  62%|######2   | 5/8 [00:00<00:00, 49.74it/s]
+                                                                                              
+                    INFO     Animation 83 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             083.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 84: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 84: Indicate(VGroup of 3 submobjects):  88%|########7 | 7/8 [00:00<00:00, 64.61it/s]
+                                                                                              
+[10/21/26 13:01:50] INFO     Animation 84 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             084.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 85: Indicate(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 85: Indicate(VGroup of 3 submobjects):  88%|########7 | 7/8 [00:00<00:00, 61.78it/s]
+                                                                                              
+                    INFO     Animation 85 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             085.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:01:51] INFO     Animation 86 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             086.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 87: Indicate(VGroup of 2 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 87: Indicate(VGroup of 2 submobjects):  39%|###8      | 7/18 [00:00<00:00, 64.65it/s]
+Animation 87: Indicate(VGroup of 2 submobjects):  78%|#######7  | 14/18 [00:00<00:00, 66.81it/s]
+                                                                                                
+[10/21/26 13:01:52] INFO     Animation 87 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             087.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 88: Indicate(VGroup of 2 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 88: Indicate(VGroup of 2 submobjects):  28%|##7       | 5/18 [00:00<00:00, 47.52it/s]
+Animation 88: Indicate(VGroup of 2 submobjects):  56%|#####5    | 10/18 [00:00<00:00, 45.69it/s]
+Animation 88: Indicate(VGroup of 2 submobjects):  83%|########3 | 15/18 [00:00<00:00, 45.06it/s]
+                                                                                                
+                    INFO     Animation 88 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             088.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 89: Indicate(VGroup of 2 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 89: Indicate(VGroup of 2 submobjects):  44%|####4     | 8/18 [00:00<00:00, 74.11it/s]
+Animation 89: Indicate(VGroup of 2 submobjects):  89%|########8 | 16/18 [00:00<00:00, 76.14it/s]
+                                                                                                
+[10/21/26 13:01:53] INFO     Animation 89 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             089.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 90: Indicate(VGroup of 2 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 90: Indicate(VGroup of 2 submobjects):  33%|###3      | 6/18 [00:00<00:00, 54.69it/s]
+Animation 90: Indicate(VGroup of 2 submobjects):  67%|######6   | 12/18 [00:00<00:00, 51.33it/s]
+Animation 90: Indicate(VGroup of 2 submobjects): 100%|##########| 18/18 [00:00<00:00, 46.69it/s]
+                                                                                                
+                    INFO     Animation 90 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             090.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:01:54] INFO     Animation 91 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             091.mp4'                                          
+[10/21/26 13:01:55] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 92: FadeIn(VGroup of 8 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 92: FadeIn(VGroup of 8 submobjects):  44%|####4     | 4/9 [00:00<00:00, 38.21it/s]
+Animation 92: FadeIn(VGroup of 8 submobjects):  89%|########8 | 8/9 [00:00<00:00, 36.04it/s]
+                                                                                            
+[10/21/26 13:01:56] INFO     Animation 92 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             092.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 93: Indicate(Text('���� ���� ����')):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 93: Indicate(Text('���� ���� ����')):  44%|####4     | 8/18 [00:00<00:00, 75.24it/s]
+Animation 93: Indicate(Text('���� ���� ����')):  89%|########8 | 16/18 [00:00<00:00, 75.03it/s]
+                                                                                                 
+                    INFO     Animation 93 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             093.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:01:57] INFO     Animation 94 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             094.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 95: Transform(Rectangle), etc.:   0%|          | 0/36 [00:00<?, ?it/s]
+Animation 95: Transform(Rectangle), etc.:  17%|#6        | 6/36 [00:00<00:00, 56.87it/s]
+Animation 95: Transform(Rectangle), etc.:  33%|###3      | 12/36 [00:00<00:00, 55.47it/s]
+Animation 95: Transform(Rectangle), etc.:  50%|#####     | 18/36 [00:00<00:00, 55.70it/s]
+Animation 95: Transform(Rectangle), etc.:  67%|######6   | 24/36 [00:00<00:00, 46.56it/s]
+Animation 95: Transform(Rectangle), etc.:  81%|########  | 29/36 [00:00<00:00, 41.77it/s]
+Animation 95: Transform(Rectangle), etc.:  94%|#########4| 34/36 [00:00<00:00, 38.29it/s]
+                                                                                         
+[10/21/26 13:01:58] INFO     Animation 95 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             095.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 96: Indicate(VGroup of 2 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 96: Indicate(VGroup of 2 submobjects):  28%|##7       | 5/18 [00:00<00:00, 49.73it/s]
+Animation 96: Indicate(VGroup of 2 submobjects):  56%|#####5    | 10/18 [00:00<00:00, 48.50it/s]
+Animation 96: Indicate(VGroup of 2 submobjects):  83%|########3 | 15/18 [00:00<00:00, 45.93it/s]
+                                                                                                
+[10/21/26 13:01:59] INFO     Animation 96 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             096.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:02:01] INFO     Animation 97 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             097.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 98: Transform(ModelPopulation of 1 submobjects):   0%|          | 0/39 [00:00<?, ?it/s]
+Animation 98: Transform(ModelPopulation of 1 submobjects):  15%|#5        | 6/39 [00:00<00:00, 59.13it/s]
+Animation 98: Transform(ModelPopulation of 1 submobjects):  31%|###       | 12/39 [00:00<00:00, 45.57it/s]
+Animation 98: Transform(ModelPopulation of 1 submobjects):  44%|####3     | 17/39 [00:00<00:00, 42.35it/s]
+Animation 98: Transform(ModelPopulation of 1 submobjects):  56%|#####6    | 22/39 [00:00<00:00, 40.28it/s]
+Animation 98: Transform(ModelPopulation of 1 submobjects):  69%|######9   | 27/39 [00:00<00:00, 38.89it/s]
+Animation 98: Transform(ModelPopulation of 1 submobjects):  79%|#######9  | 31/39 [00:00<00:00, 39.18it/s]
+Animation 98: Transform(ModelPopulation of 1 submobjects):  95%|#########4| 37/39 [00:00<00:00, 42.73it/s]
+                                                                                                          
+[10/21/26 13:02:03] INFO     Animation 98 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             098.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:02:04] INFO     Animation 99 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             099.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 100: FadeIn(VGroup of 5 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 100: FadeIn(VGroup of 5 submobjects):  89%|########8 | 8/9 [00:00<00:00, 73.18it/s]
+                                                                                             
+                    INFO     Animation 100 : Partial   scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             100.mp4'                                          
+[10/21/26 13:02:05] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 101: Indicate(VGroup of 2 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 101: Indicate(VGroup of 2 submobjects):  39%|###8      | 7/18 [00:00<00:00, 69.98it/s]
+Animation 101: Indicate(VGroup of 2 submobjects):  83%|########3 | 15/18 [00:00<00:00, 70.72it/s]
+                                                                                                 
+                    INFO     Animation 101 : Partial   scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             101.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:02:06] INFO     Animation 102 : Partial   scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             102.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 103: Indicate(VGroup of 2 submobjects), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 103: Indicate(VGroup of 2 submobjects), etc.:  39%|###8      | 7/18 [00:00<00:00, 67.70it/s]
+Animation 103: Indicate(VGroup of 2 submobjects), etc.:  78%|#######7  | 14/18 [00:00<00:00, 66.35it/s]
+                                                                                                       
+[10/21/26 13:02:07] INFO     Animation 103 : Partial   scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             103.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:02:08] INFO     Animation 104 : Partial   scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             104.mp4'                                          
+[10/21/26 13:02:09] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 105: FadeIn(VGroup of 7 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 105: FadeIn(VGroup of 7 submobjects):  78%|#######7  | 7/9 [00:00<00:00, 64.36it/s]
+                                                                                             
+                    INFO     Animation 105 : Partial   scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             105.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 106: Transform(Rectangle), etc.:   0%|          | 0/36 [00:00<?, ?it/s]
+Animation 106: Transform(Rectangle), etc.:  19%|#9        | 7/36 [00:00<00:00, 68.39it/s]
+Animation 106: Transform(Rectangle), etc.:  39%|###8      | 14/36 [00:00<00:00, 67.08it/s]
+Animation 106: Transform(Rectangle), etc.:  58%|#####8    | 21/36 [00:00<00:00, 65.23it/s]
+Animation 106: Transform(Rectangle), etc.:  78%|#######7  | 28/36 [00:00<00:00, 66.95it/s]
+Animation 106: Transform(Rectangle), etc.:  97%|#########7| 35/36 [00:00<00:00, 66.68it/s]
+                                                                                          
+[10/21/26 13:02:10] INFO     Animation 106 : Partial   scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             106.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 107: Indicate(VGroup of 2 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 107: Indicate(VGroup of 2 submobjects):  39%|###8      | 7/18 [00:00<00:00, 60.06it/s]
+Animation 107: Indicate(VGroup of 2 submobjects):  78%|#######7  | 14/18 [00:00<00:00, 63.15it/s]
+                                                                                                 
+[10/21/26 13:02:11] INFO     Animation 107 : Partial   scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             107.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 108: Transform(ModelPopulation of 1 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 108: Transform(ModelPopulation of 1 submobjects):  39%|###8      | 7/18 [00:00<00:00, 66.40it/s]
+Animation 108: Transform(ModelPopulation of 1 submobjects):  78%|#######7  | 14/18 [00:00<00:00, 66.49it/s]
+                                                                                                           
+                    INFO     Animation 108 : Partial   scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             108.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:02:12] INFO     Animation 109 : Partial   scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             109.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 110: Indicate(Text('Patterning')):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 110: Indicate(Text('Patterning')):  50%|#####     | 9/18 [00:00<00:00, 80.94it/s]
+Animation 110: Indicate(Text('Patterning')): 100%|##########| 18/18 [00:00<00:00, 76.92it/s]
+                                                                                            
+                    INFO     Animation 110 : Partial   scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             110.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:02:13] INFO     Animation 111 : Partial   scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             111.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 112: Indicate(Text('������ �����ϴ� ��\n�� Ǯ�̱��� �����ϴ� ��')):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 112: Indicate(Text('������ �����ϴ� ��\n�� Ǯ�̱��� �����ϴ� ��')):  44%|####4     | 8/18 [00:00<00:00, 74.86it/s]
+Animation 112: Indicate(Text('������ �����ϴ� ��\n�� Ǯ�̱��� �����ϴ� ��')):  89%|########8 | 16/18 [00:00<00:00, 73.52it/s]
+                                                                                                                            
+[10/21/26 13:02:14] INFO     Animation 112 : Partial   scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             112.mp4'                                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/21/26 13:02:15] INFO     Animation 113 : Partial   scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \nncalc01_shorts\final\vi                         
+                             deos\scene_shorts\1920p30                         
+                             \partial_movie_files\Same                         
+                             AnswersShorts\uncached_00                         
+                             113.mp4'                                          
+                    INFO     Combining to Movie file.  scene_file_writer.py:952
+[10/21/26 13:02:17] INFO                              scene_file_writer.py:1103
+                             File ready at                                     
+                             'C:\Users\as042\OneDrive                          
+                             \Desktop\manim_video\med                          
+                             ia\nncalc01_shorts\final                          
+                             \videos\scene_shorts\192                          
+                             0p30\SameAnswersShorts.m                          
+                             p4'                                               
+                                                                               
+                    INFO     The partial movie        scene_file_writer.py:1073
+                             directory is full (> 100                          
+                             files). Therefore, manim                          
+                             has removed the 15                                
+                             oldest file(s). You can                           
+                             change this behaviour by                          
+                             changing                                          
+                             max_files_cached in                               
+                             config.                                           
+                    INFO     Rendered SameAnswersShorts            scene.py:290
+                             Played 114 animations                             
+Export: C:\Users\as042\OneDrive\Desktop\manim_video\exports\nncalc01_shorts.mp4

@@ -1,0 +1,34 @@
+{
+  "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\nncalc03.mp4",
+  "duration": 171.0,
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "audio_streams": 0,
+  "timing_basis": "user_provided_cumulative_sentence_end_times",
+  "user_sentence_ends_verified": true,
+  "cues": 29,
+  "sections": 15,
+  "narration_tts_consistent": true,
+  "caption_layout_verified": true,
+  "matrix_dimensions": [
+    2,
+    3
+  ],
+  "ordinary_inverse_used": false,
+  "retraining_explicit": true,
+  "measured_curve_claimed": false,
+  "separate_bracket_experiment": true,
+  "curve_fill_opacity": 0,
+  "contact_sheets": [
+    "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\nncalc03\\qa\\final_sheet_1.jpg",
+    "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\nncalc03\\qa\\final_sheet_2.jpg"
+  ],
+  "critical_frames": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\nncalc03\\qa\\final_critical.jpg",
+  "visual_review": "All 15 scene frames reviewed in both previews; final critical frames at 43,72,91,98,111,117,126,143s inspected; no clipping found",
+  "continuous_forward_inverse_transition": true,
+  "curves_are_schematic": true,
+  "audio_file_supplied": false,
+  "audio_sync_verified": false,
+  "actual_model_experiment": false
+}

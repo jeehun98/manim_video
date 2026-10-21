@@ -1,0 +1,9 @@
+{
+  "revision": "v3_user_timed_landscape",
+  "phase": "production",
+  "script_approved": true,
+  "speech_timing_provided_for_this_revision": true,
+  "duration_seconds": 164,
+  "timing_basis": "user_provided_cumulative_sentence_end_times",
+  "audio_file_supplied": false
+}

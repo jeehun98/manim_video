@@ -1,0 +1,40 @@
+{
+  "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\nncalc01.mp4",
+  "duration": 163.997396,
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "audio_streams": 0,
+  "timing_source": "32 user-provided cumulative sentence ends; no audio file supplied",
+  "narration_tts_consistent": true,
+  "sections": 14,
+  "contact_sheets": [
+    "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\nncalc01\\qa\\final_sheet_1.jpg",
+    "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\nncalc01\\qa\\final_sheet_2.jpg"
+  ],
+  "critical_frames": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\nncalc01\\qa\\final_critical.jpg",
+  "revision": "v3_user_timed_landscape",
+  "visual_review": "14 sections and 74s/77s/138s/160s critical frames inspected; icon opacity fixed; no clipping found",
+  "caption_layout": "32 captions fit reserved region",
+  "depth_checks": {
+    "(())": [
+      0,
+      1,
+      2,
+      1,
+      0
+    ],
+    "())(": [
+      0,
+      1,
+      0,
+      -1,
+      0
+    ]
+  },
+  "negative_depth_pause_seconds": 0.5,
+  "actual_neural_network_experiment": false,
+  "audio_file_supplied": false,
+  "audio_sync_verified": false,
+  "user_sentence_ends_verified": true
+}

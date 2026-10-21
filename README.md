@@ -1,5 +1,50 @@
 # Manim 교육 영상 프로젝트
 
+## 신경망 내부의 계산 — 표현에서 알고리즘까지
+
+- 08 **신경망의 알고리즘을 발견하는 것에서 형성을 유도하는 것까지 — Interpretability & Patterning**: 마지막 편·확정 33개 발화·176초(2:56). 같은 답의 다른 괄호 규칙 → 반례와 행동 증거의 한계 → 기존 2~7편 그래픽 재사용 → 해석에서 목표 계산·데이터 설계로 질문 반전 → 국소 반응·재학습·제한된 두 실험 → Discover / Explain / Test. 도식과 형성 곡선은 개념도다. 기본 무음.
+- 08 실제 파일: [대본](episodes/nncalc08_finale/narration.md) · [TTS](episodes/nncalc08_finale/tts_script.txt) · [제작 기준](episodes/nncalc08_finale/brief.md) · [씬 명세](episodes/nncalc08_finale/scene_specs.md) · [원본 콘티](episodes/nncalc08_finale/storyboard_source.md) · [화면](episodes/nncalc08_finale/scene.py) · [확정 시각](episodes/nncalc08_finale/timing.json) · [일반 자막](episodes/nncalc08_finale/captions.srt) · [쇼츠 자막](episodes/nncalc08_finale/captions_shorts.srt).
+- 일반용: `python scripts/render.py nncalc08 --preview` / `python scripts/render.py nncalc08` → `exports/nncalc08_preview.mp4`, `exports/nncalc08.mp4` (1920×1080·16:9·30fps). 쇼츠용: `python scripts/render.py nncalc08_shorts --preview` / `python scripts/render.py nncalc08_shorts` → `exports/nncalc08_shorts_preview.mp4`, `exports/nncalc08_shorts.mp4` (1080×1920·9:16·30fps). 동일한 176초 발화를 각 비율에 맞춰 배치한다.
+- 자료 생성: `python scripts/prepare_nncalc08.py`. 검토: `python scripts/check_nncalc08.py [--shorts] [--preview]`. 여섯 독립 Scene 클래스의 구간별 렌더도 가능하다.
+
+- 07 **신경망이 알고 있는 정보와 실제 계산에 사용하는 정보를 구별하는 방법 — Probing & Intervention**: 확정 37개 발화·175초(2:55). 단수·복수 판독 → 별도 Probe 학습 → POS 제거 투영·INLP → 동일 모델의 행동 비교 → 다른 정보 손상 → 판독·개입·계산 경로라는 세 질문 → 학습 유도 검증. 도식과 분포는 가상 예시다. 기본 무음.
+- 07 실제 파일: [대본](episodes/nncalc07_probing_intervention/narration.md) · [TTS](episodes/nncalc07_probing_intervention/tts_script.txt) · [제작 기준](episodes/nncalc07_probing_intervention/brief.md) · [씬 명세](episodes/nncalc07_probing_intervention/scene_specs.md) · [원본 콘티](episodes/nncalc07_probing_intervention/storyboard_source.md) · [화면](episodes/nncalc07_probing_intervention/scene.py) · [확정 시각](episodes/nncalc07_probing_intervention/timing.json) · [일반 자막](episodes/nncalc07_probing_intervention/captions.srt) · [쇼츠 자막](episodes/nncalc07_probing_intervention/captions_shorts.srt).
+- 일반용: `python scripts/render.py nncalc07 --preview` / `python scripts/render.py nncalc07` → `exports/nncalc07_preview.mp4`, `exports/nncalc07.mp4` (1920×1080·16:9·30fps). 쇼츠용: `python scripts/render.py nncalc07_shorts --preview` / `python scripts/render.py nncalc07_shorts` → `exports/nncalc07_shorts_preview.mp4`, `exports/nncalc07_shorts.mp4` (1080×1920·9:16·30fps). 동일한 175초 발화를 각 비율에 맞춰 구성한다.
+- 자료 생성: `python scripts/prepare_nncalc07.py`. 검토: `python scripts/check_nncalc07.py [--shorts] [--preview]`. 여섯 독립 Scene 클래스로 구간별 렌더도 가능하다.
+
+- 06 **신경망이 답을 만드는 계산 경로를 추적하는 방법 — Circuit Tracing**: 확정 33개 발화·166초(2:46). 특징과 계산 관계 → SAE/Transcoder·CLT → 대체 모델의 기여도 그래프 → Texas 특징군·capital 가지·지름길 → 원래 Dallas 입력을 고정한 특징 교체 → 근거와 한계. 화면은 연구 사례를 단순화한 도식이며 실측 기여도 재현이 아니다. 기본 무음.
+- 06 실제 파일: [대본](episodes/nncalc06_circuit_tracing/narration.md) · [TTS](episodes/nncalc06_circuit_tracing/tts_script.txt) · [제작 기준](episodes/nncalc06_circuit_tracing/brief.md) · [씬 명세](episodes/nncalc06_circuit_tracing/scene_specs.md) · [원본 콘티](episodes/nncalc06_circuit_tracing/storyboard_source.md) · [화면](episodes/nncalc06_circuit_tracing/scene.py) · [확정 시각](episodes/nncalc06_circuit_tracing/timing.json) · [일반 자막](episodes/nncalc06_circuit_tracing/captions.srt) · [쇼츠 자막](episodes/nncalc06_circuit_tracing/captions_shorts.srt).
+- 일반용: `python scripts/render.py nncalc06 --preview` / `python scripts/render.py nncalc06` → `exports/nncalc06_preview.mp4`, `exports/nncalc06.mp4` (1920×1080·16:9·30fps). 쇼츠용: `python scripts/render.py nncalc06_shorts --preview` / `python scripts/render.py nncalc06_shorts` → `exports/nncalc06_shorts_preview.mp4`, `exports/nncalc06_shorts.mp4` (1080×1920·9:16·30fps). 동일한 166초 발화를 별도 배치한다.
+- 자료 생성: `python scripts/prepare_nncalc06.py`. 검토: `python scripts/check_nncalc06.py [--shorts] [--preview]`. 여섯 독립 Scene 클래스로 구간별 렌더도 가능하다.
+
+- 05 **여러 뉴런에 겹쳐진 특징을 다시 분리하는 방법 — Sparse Autoencoders**: 확정 33개 발화 종료 시각·171초(2:51). 고정 모델의 활성화 수집 → 별도 2→5→2 SAE → 희소성·공통 디코더 사전 → 복원과 L1의 절충 → 실제 연구·원래 모델 개입 → 해석의 한계·후보 계산 경로. 도식·값은 설명용 예시. 기본 무음.
+- 05 실제 파일: [대본](episodes/nncalc05_sparse_autoencoders/narration.md) · [TTS](episodes/nncalc05_sparse_autoencoders/tts_script.txt) · [제작 기준](episodes/nncalc05_sparse_autoencoders/brief.md) · [씬 명세](episodes/nncalc05_sparse_autoencoders/scene_specs.md) · [원본 콘티](episodes/nncalc05_sparse_autoencoders/storyboard_source.md) · [화면](episodes/nncalc05_sparse_autoencoders/scene.py) · [확정 시각](episodes/nncalc05_sparse_autoencoders/timing.json) · [일반 자막](episodes/nncalc05_sparse_autoencoders/captions.srt) · [쇼츠 자막](episodes/nncalc05_sparse_autoencoders/captions_shorts.srt).
+- 일반용: `python scripts/render.py nncalc05 --preview` / `python scripts/render.py nncalc05` → `exports/nncalc05_preview.mp4`, `exports/nncalc05.mp4` (1920×1080·16:9·30fps). 쇼츠용: `python scripts/render.py nncalc05_shorts --preview` / `python scripts/render.py nncalc05_shorts` → `exports/nncalc05_shorts_preview.mp4`, `exports/nncalc05_shorts.mp4` (1080×1920·9:16·30fps). 동일한 171초 발화를 각각 배치한다.
+- 자료 생성: `python scripts/prepare_nncalc05.py`. 검토: `python scripts/check_nncalc05.py [--shorts] [--preview]`. scene.py의 여섯 독립 Scene 클래스는 해당 구간만 0초부터 렌더할 수 있다.
+
+- 04 **뉴런 두 개로 다섯 특징을 표현할 수 있을까? — Feature Superposition**: 사용자 수정 확정 34개 발화 종료 시각·178초(2:58). 고정된 2차원 좌표축 → 다섯 특징 방향 → 간섭과 정확한 표현 충돌 → 희소성 → Toy Model과 오각형 → 좌표 성분과 다의성. 정오각형은 이상화된 개념도이며 고양이 입력은 가상 예시다. 기본 무음.
+- 04 실제 파일: [대본](episodes/nncalc04_feature_superposition/narration.md) · [TTS](episodes/nncalc04_feature_superposition/tts_script.txt) · [제작 기준](episodes/nncalc04_feature_superposition/brief.md) · [원본 콘티](episodes/nncalc04_feature_superposition/storyboard_source.md) · [화면](episodes/nncalc04_feature_superposition/scene.py) · [확정 시각](episodes/nncalc04_feature_superposition/timing.json) · [일반 자막](episodes/nncalc04_feature_superposition/captions.srt) · [쇼츠 자막](episodes/nncalc04_feature_superposition/captions_shorts.srt).
+- 일반용: `python scripts/render.py nncalc04 --preview` / `python scripts/render.py nncalc04` → `exports/nncalc04_preview.mp4`, `exports/nncalc04.mp4` (1920×1080·16:9·30fps). 쇼츠용: `python scripts/render.py nncalc04_shorts --preview` / `python scripts/render.py nncalc04_shorts` → `exports/nncalc04_shorts_preview.mp4`, `exports/nncalc04_shorts.mp4` (1080×1920·9:16·30fps). 동일한 178초 발화를 각각의 화면 비율에 배치한다.
+- 자료 생성: `python scripts/prepare_nncalc04.py`. 검토: `python scripts/check_nncalc04.py [--shorts] [--preview]`.
+
+- 03 **학습 데이터로 신경망 내부 회로의 형성을 조절하는 방법 — Patterning**: 사용자 확정 29개 발화 종료 시각·171초(2:51). 데이터 재가중 → 새 학습·회로 형성 비교 → 감수율의 국소 선형 관계 → 목표 지정·데이터 조합 역추정 → 재학습 검증 → 별도 괄호 알고리즘 실험. 정방향에서 역방향으로의 전환은 같은 화면을 유지한다. 곡선·반응값은 실측 재현이 아닌 개념도다. 기본 무음.
+- 03 실제 파일: [대본](episodes/nncalc03_patterning/narration.md) · [TTS](episodes/nncalc03_patterning/tts_script.txt) · [제작 기준](episodes/nncalc03_patterning/brief.md) · [원본 콘티](episodes/nncalc03_patterning/storyboard_source.md) · [화면](episodes/nncalc03_patterning/scene.py) · [확정 시각](episodes/nncalc03_patterning/timing.json) · [일반 자막](episodes/nncalc03_patterning/captions.srt) · [쇼츠 자막](episodes/nncalc03_patterning/captions_shorts.srt).
+- 일반용: `python scripts/render.py nncalc03 --preview` / `python scripts/render.py nncalc03` → `exports/nncalc03_preview.mp4`, `exports/nncalc03.mp4` (1920×1080·16:9·30fps). 쇼츠용: `python scripts/render.py nncalc03_shorts --preview` / `python scripts/render.py nncalc03_shorts` → `exports/nncalc03_shorts_preview.mp4`, `exports/nncalc03_shorts.mp4` (1080×1920·9:16·30fps). 두 비율 모두 동일한 사용자 발화를 사용한다. 음원 파일은 미제공이다.
+- 자료 생성: `python scripts/prepare_nncalc03.py`. 검토: `python scripts/check_nncalc03.py [--shorts] [--preview]`.
+
+- 02 **AI는 반복 패턴을 찾는 회로를 스스로 만든다 — Induction Heads**: 사용자 확정 33개 발화 종료 시각·165초(2:45). A B C D A → 앞 토큰 정보 전달 → QK 5→2 선택 → OV 2→5 전달 → 회로 합성·학습 중 형성·제거 근거. 대표 회로의 개념도이며 학습 곡선·제거 효과의 실측 수치를 만들어 넣지 않는다. 음원 파일은 미제공이다.
+- 02 실제 파일: [대본](episodes/nncalc02_induction_heads/narration.md) · [TTS](episodes/nncalc02_induction_heads/tts_script.txt) · [제작 기준](episodes/nncalc02_induction_heads/brief.md) · [원본 콘티](episodes/nncalc02_induction_heads/storyboard_source.md) · [화면](episodes/nncalc02_induction_heads/scene.py) · [확정 시각](episodes/nncalc02_induction_heads/timing.json) · [일반 자막](episodes/nncalc02_induction_heads/captions.srt) · [쇼츠 자막](episodes/nncalc02_induction_heads/captions_shorts.srt).
+- 일반용: `python scripts/render.py nncalc02 --preview` / `python scripts/render.py nncalc02` → `exports/nncalc02_preview.mp4`, `exports/nncalc02.mp4` (1920×1080·16:9·30fps). 쇼츠용: `python scripts/render.py nncalc02_shorts --preview` / `python scripts/render.py nncalc02_shorts` → `exports/nncalc02_shorts_preview.mp4`, `exports/nncalc02_shorts.mp4` (1080×1920·9:16·30fps). 두 버전은 같은 확정 발화를 사용하며 화면을 각각 배치한다. 기본 무음.
+- 자료 생성: `python scripts/prepare_nncalc02.py`. 검토: `python scripts/check_nncalc02.py [--shorts] [--preview]`.
+
+- 01 **정답만 가르쳤는데, AI는 어떻게 풀이를 배울까?**: 사용자 확정 대본과 32개 문장 종료 시각 기준 **164초(2:44), 16:9, 1920×1080·30fps**, 기본 무음. 정답 라벨 → 개수 비교와 중첩 확인 → 새 입력에서의 분기 → 실제 연구 → 데이터 비중 변경·재학습·일반화 경향 변화를 14장면으로 구성한다. 복습·후속 예고 없음. 실제 음원 파일은 미제공이다.
+- 실제 파일: [대본](episodes/nncalc01_same_answers/narration.md) · [TTS](episodes/nncalc01_same_answers/tts_script.txt) · [제작 기준 및 출처](episodes/nncalc01_same_answers/brief.md) · [화면](episodes/nncalc01_same_answers/scene.py) · [자막](episodes/nncalc01_same_answers/captions.srt) · [시간 기준](episodes/nncalc01_same_answers/timing.json).
+- 렌더: `python scripts/render.py nncalc01 --preview` (640×360) / `python scripts/render.py nncalc01` (1920×1080). 출력: `exports/nncalc01_preview.mp4`, `exports/nncalc01.mp4`. 이 편만 가로 규격을 사용한다.
+- 확정 자료 생성: `python scripts/prepare_nncalc01.py`. 사용자 제공 종료 시각으로 대본·TTS·timing.json·SRT를 생성하며 타이밍을 추정하지 않는다. 검토: `python scripts/check_nncalc01.py --preview` / `python scripts/check_nncalc01.py`.
+- 이전 세로 제작 소스는 `revisions/v1_probe_intervention/`, 이전 대본 검토본은 `revisions/v2_script_only/`에 보존했다. 현재 MP4는 가로 영상으로 갱신한다.
+- **쇼츠 세로 버전**: 같은 확정 대본·32개 종료 시각·164초를 유지하고 [전용 세로 장면](episodes/nncalc01_same_answers/scene_shorts.py)으로 재배치했다. 개수 비교와 중첩 확인은 위아래 비교, 데이터 재가중·재학습은 위에서 아래로 진행한다. `python scripts/render.py nncalc01_shorts --preview` (360×640) / `python scripts/render.py nncalc01_shorts` (1080×1920·30fps). 출력 `exports/nncalc01_shorts_preview.mp4`, `exports/nncalc01_shorts.mp4`. 가로 영상은 유지한다. 검토: `python scripts/check_nncalc01.py --shorts`.
+- 세로 폭에 맞춘 별도 자막: [captions_shorts.srt](episodes/nncalc01_same_answers/captions_shorts.srt). 문장과 시각은 가로 버전과 동일하고 줄바꿈만 다르다.
+
 ## 새 AI 컴파일러 시리즈 — 텐서 프로그램에서 하드웨어 실행까지
 
 일반 컴파일러와 공유하는 원리를 바탕으로, 텐서 의미·연산 그래프·머신러닝 컴파일 시스템을 다룹니다. 기존 `aic01–08`과 구분하여 새 제작 ID는 `aicomp`를 사용합니다. [시리즈 기획](plans/ai_compiler_tensor_series.md)에 01~12편의 질문·발견·공통 연출을 기록했습니다. 후속 「AI 컴파일러의 내부」는 02~05에서 시스템 구조 → 컴파일 시점 → 그래프 포착 → 여러 수준의 IR을 살펴보고, 06부터 Shape·Guard·Alias·Bufferization·자동 미분·코드 생성을 다룹니다. 다음 제작 대상은 02의 Framework·Compiler·Runtime입니다.
@@ -1215,6 +1260,63 @@ science01 화면 길이는 대사 글자 수에 비례해 배분합니다. `pyth
 - 출력: `exports/aic08_preview.mp4`, `exports/aic08.mp4` (무음). TTS·SRT 별도.
 
 
+### 신경망의 역설 07 — 최악의 상황을 먼저 학습하는 신경망
+
+- 실제 자료: `episodes/paradox07_sam/` — narration.md, tts_script.txt, brief.md, scene.py, timing.json, captions.srt.
+- 사용자 제공 25개 발화 구간, 총 108초. 같은 반경의 두 골짜기 비교, Min-Max 목적, 기울기 기반 임시 교란과 원래 파라미터에서 출발하는 갱신을 구분한다. 고정된 데이터에 대한 파라미터 교란이며 입력 공격이 아니다.
+- 미리보기: `python scripts/render.py paradox07 --preview`
+- 최종: `python scripts/render.py paradox07`
+- 출력: `exports/paradox07_preview.mp4`, `exports/paradox07.mp4` (1080×1920 / 30fps / 무음). 음원 미제공, TTS·SRT 별도.
+- 검토: `python episodes/paradox07_sam/review.py --final`
+- 지형은 설명용 모형이다. 실제 SAM의 1차 근사는 정확한 최악점과 다르며, 주변 안정성이 일반화를 보장하지 않는다.
+
+### 신경망의 역설 06 — 신경망에서의 청출어람
+
+- 실제 자료: `episodes/paradox06_born_again/` — narration.md, tts_script.txt, brief.md, scene.py, timing.json, captions.srt, assets/.
+- 사용자 제공 25개 발화 구간, 총 121초. 동일한 구조·크기의 교사와 학생, 가중치 복사와 출력 증류의 차이, 학생 로짓 기울기 q−p, 다른 목표·초기값에서 다른 해를 찾는 과정을 보여준다.
+- 실험 예시: 원 논문 Table 2, CIFAR-100 DenseNet-90-60 테스트 오류율 Teacher 17.69% → BAN 16.69%. 분포 예시는 가상 수치로 구분한다.
+- 미리보기: `python scripts/render.py paradox06 --preview`
+- 최종: `python scripts/render.py paradox06`
+- 출력: `exports/paradox06_preview.mp4`, `exports/paradox06.mp4` (1080×1920 / 30fps / 무음). 음원 미제공, TTS·SRT 별도.
+- 검토: `python episodes/paradox06_born_again/review.py --final`
+
+### 신경망의 역설 05 — 좋은 해는 점이 아니라 영역이다?
+
+- 실제 자료: `episodes/paradox05_model_soups/` — narration.md, tts_script.txt, brief.md, scene.py, timing.json, captions.srt.
+- 사용자 제공 25개 발화 구간, 총 118초. 공통 사전학습에서 얻은 호환 모델의 가중치 평균을 직선 보간과 중간점으로 설명한다. 3D 설명용 손실 지형, 장벽/저손실 경로 대비, 예측 평균과 가중치 평균의 차이를 보여준다.
+- 미리보기: `python scripts/render.py paradox05 --preview`
+- 최종: `python scripts/render.py paradox05`
+- 출력: `exports/paradox05_preview.mp4`, `exports/paradox05.mp4` (1080×1920 / 30fps / 무음). 음원 미제공, TTS·SRT 별도.
+- 검토: `python episodes/paradox05_model_soups/review.py --final`
+- 넓은 골짜기는 조건부 기하학적 해석이며, 전체 좋은 해 집합의 볼록성이나 모든 평균의 성능을 보장하지 않는다.
+
+### 신경망의 역설 04 — 신경망은 얕게 학습해야 더 깊어진다?
+
+- 실제 자료: `episodes/paradox04_stochastic_depth/` — narration.md, tts_script.txt, brief.md, scene.py, timing.json, captions.srt.
+- 사용자 제공 26개 발화 구간, 총 133초. 기존 항등 경로를 남긴 잔차 변환 생략, 8개 블록의 256개 구성, 가중치 공유와 평균 손실을 시각화한다. 전체 구조의 표현력과 학습이 선택하는 함수를 구별한다.
+- 미리보기: `python scripts/render.py paradox04 --preview`
+- 최종: `python scripts/render.py paradox04`
+- 출력: `exports/paradox04_preview.mp4`, `exports/paradox04.mp4` (1080×1920 / 30fps / 무음). 음원 미제공, TTS·SRT 별도.
+- 검토: `python episodes/paradox04_stochastic_depth/review.py --final`
+
+### 신경망의 역설 03 — 신경망은 키메라를 학습할 때 더 똑똑해진다?
+
+- 실제 자료: `episodes/paradox03_mixup_rules/` — narration.md, tts_script.txt, brief.md, scene.py, timing.json, captions.srt, assets/.
+- 사용자 제공 23개 발화 구간, 총 109초. 양 끝만 맞히는 예측 곡선에 선형 혼합 목표를 추가하고, 학습으로 그 규칙에 가까워지는 과정을 보여준다. 혼합 데이터의 실제 정답 발견이 아니라 인위적인 예측 규칙의 부여임을 구분한다.
+- 미리보기: `python scripts/render.py paradox03 --preview`
+- 최종: `python scripts/render.py paradox03`
+- 출력: `exports/paradox03_preview.mp4`, `exports/paradox03.mp4` (1080×1920 / 30fps / 무음). 음원 미제공, TTS·SRT 별도.
+- 프레임 검토와 일관성 확인: `python episodes/paradox03_mixup_rules/review.py --final`
+
+### 신경망의 역설 02 — AI는 정답을 틀리게 가르쳐야 더 잘 배운다
+
+- 실제 자료: `episodes/paradox02_label_smoothing/` — narration.md, tts_script.txt, brief.md, scene.py, timing.json, captions.srt.
+- 사용자 제공 19개 발화 구간, 총 96초. 확률 단체의 꼭짓점에서 내부로 이동하는 목표, One-Hot 손실과 균등분포 제약의 균형을 다룬다. 90·5·5 목표에 해당하는 균등 혼합계수는 ε=0.15이다.
+- 미리보기: `python scripts/render.py paradox02 --preview`
+- 최종: `python scripts/render.py paradox02`
+- 출력: `exports/paradox02_preview.mp4`, `exports/paradox02.mp4` (1080×1920 / 30fps / 무음). 음원 미제공, TTS·SRT 별도.
+- 프레임 검토와 수식 확인: `python episodes/paradox02_label_smoothing/review.py --final`
+
 ### 신경망의 역설 01 — Dropout 50%가 수학적으로 특별한 이유
 
 - 실제 자료: `episodes/paradox01_dropout_half/` — narration.md, tts_script.txt, brief.md, scene.py, timing.json, captions.srt.
@@ -1234,3 +1336,23 @@ science01 화면 길이는 대사 글자 수에 비례해 배분합니다. `pyth
 - 화면·프레임 검증: `.venv/Scripts/python.exe scripts/review_science20.py --final`
 - 출력: `exports/science20_preview.mp4`, `exports/science20.mp4` (1080×1920 / 30fps / 무음). TTS·SRT 별도.
 - 진공에서 국소적으로 측정한 빛의 속도와, 같은 우주 시간에서 정의한 공변 지점 사이 proper distance의 증가율을 구별한다. 신경망 비유와 이후 영상 예고는 넣지 않는다.
+
+
+### 신경망의 역설 08 — 무엇을 배우지 않을지 고르는 신경망
+
+실제 소스: `episodes/paradox08_loss_selection/` · 98초 · 무음 영상, TTS 원고와 SRT 별도. LossHF 선택 규칙과 LossH-Wiki의 약 1.3배 결과를 구분한다.
+
+```powershell
+python scripts/render.py paradox08 --preview
+python scripts/render.py paradox08
+```
+
+
+### 신경망의 역설 09 — 신경망을 무너뜨린 것은 단 하나의 반올림이었다?
+
+실제 소스: `episodes/paradox09_numerical_inflation/` · 173초 · Softmax 대칭성, 기울기 상쇄 실패와 Numerical Feature Inflation. 무음, SRT/TTS 별도.
+
+```powershell
+python scripts/render.py paradox09 --preview
+python scripts/render.py paradox09
+```

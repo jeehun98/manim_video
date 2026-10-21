@@ -1,0 +1,856 @@
+Manim Community v0.21.0
+
+[10/19/26 16:50:38] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 0: Create(ParametricFunction), etc.:   0%|          | 0/66 [00:00<?, ?it/s]
+Animation 0: Create(ParametricFunction), etc.:   6%|6         | 4/66 [00:00<00:01, 35.57it/s]
+Animation 0: Create(ParametricFunction), etc.:  14%|#3        | 9/66 [00:00<00:01, 39.81it/s]
+Animation 0: Create(ParametricFunction), etc.:  21%|##1       | 14/66 [00:00<00:01, 40.46it/s]
+Animation 0: Create(ParametricFunction), etc.:  29%|##8       | 19/66 [00:00<00:01, 38.74it/s]
+Animation 0: Create(ParametricFunction), etc.:  35%|###4      | 23/66 [00:00<00:01, 38.19it/s]
+Animation 0: Create(ParametricFunction), etc.:  41%|####      | 27/66 [00:00<00:01, 37.71it/s]
+Animation 0: Create(ParametricFunction), etc.:  47%|####6     | 31/66 [00:00<00:00, 35.70it/s]
+Animation 0: Create(ParametricFunction), etc.:  53%|#####3    | 35/66 [00:00<00:00, 36.01it/s]
+Animation 0: Create(ParametricFunction), etc.:  59%|#####9    | 39/66 [00:01<00:00, 36.05it/s]
+Animation 0: Create(ParametricFunction), etc.:  65%|######5   | 43/66 [00:01<00:00, 35.56it/s]
+Animation 0: Create(ParametricFunction), etc.:  71%|#######1  | 47/66 [00:01<00:00, 35.20it/s]
+Animation 0: Create(ParametricFunction), etc.:  77%|#######7  | 51/66 [00:01<00:00, 34.59it/s]
+Animation 0: Create(ParametricFunction), etc.:  83%|########3 | 55/66 [00:01<00:00, 34.02it/s]
+Animation 0: Create(ParametricFunction), etc.:  89%|########9 | 59/66 [00:01<00:00, 33.28it/s]
+Animation 0: Create(ParametricFunction), etc.:  95%|#########5| 63/66 [00:01<00:00, 33.16it/s]
+                                                                                              
+[10/19/26 16:50:40] INFO     Animation 0 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00000.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 1: _MethodAnimation(ValueTracker), etc.:   0%|          | 0/21 [00:00<?, ?it/s]
+Animation 1: _MethodAnimation(ValueTracker), etc.:   5%|4         | 1/21 [00:00<00:03,  5.17it/s]
+Animation 1: _MethodAnimation(ValueTracker), etc.:  10%|9         | 2/21 [00:00<00:03,  5.09it/s]
+Animation 1: _MethodAnimation(ValueTracker), etc.:  14%|#4        | 3/21 [00:00<00:03,  5.09it/s]
+Animation 1: _MethodAnimation(ValueTracker), etc.:  19%|#9        | 4/21 [00:00<00:03,  5.19it/s]
+Animation 1: _MethodAnimation(ValueTracker), etc.:  24%|##3       | 5/21 [00:00<00:03,  5.22it/s]
+Animation 1: _MethodAnimation(ValueTracker), etc.:  29%|##8       | 6/21 [00:01<00:02,  5.28it/s]
+Animation 1: _MethodAnimation(ValueTracker), etc.:  33%|###3      | 7/21 [00:01<00:02,  5.34it/s]
+Animation 1: _MethodAnimation(ValueTracker), etc.:  38%|###8      | 8/21 [00:01<00:02,  5.42it/s]
+Animation 1: _MethodAnimation(ValueTracker), etc.:  43%|####2     | 9/21 [00:01<00:02,  5.48it/s]
+Animation 1: _MethodAnimation(ValueTracker), etc.:  48%|####7     | 10/21 [00:01<00:01,  5.51it/s]
+Animation 1: _MethodAnimation(ValueTracker), etc.:  52%|#####2    | 11/21 [00:02<00:01,  5.56it/s]
+Animation 1: _MethodAnimation(ValueTracker), etc.:  57%|#####7    | 12/21 [00:02<00:01,  5.44it/s]
+Animation 1: _MethodAnimation(ValueTracker), etc.:  62%|######1   | 13/21 [00:02<00:01,  5.40it/s]
+Animation 1: _MethodAnimation(ValueTracker), etc.:  67%|######6   | 14/21 [00:02<00:01,  5.41it/s]
+Animation 1: _MethodAnimation(ValueTracker), etc.:  71%|#######1  | 15/21 [00:02<00:01,  5.41it/s]
+Animation 1: _MethodAnimation(ValueTracker), etc.:  76%|#######6  | 16/21 [00:02<00:00,  5.41it/s]
+Animation 1: _MethodAnimation(ValueTracker), etc.:  81%|########  | 17/21 [00:03<00:00,  5.40it/s]
+Animation 1: _MethodAnimation(ValueTracker), etc.:  86%|########5 | 18/21 [00:03<00:00,  5.42it/s]
+Animation 1: _MethodAnimation(ValueTracker), etc.:  90%|######### | 19/21 [00:03<00:00,  5.50it/s]
+Animation 1: _MethodAnimation(ValueTracker), etc.:  95%|#########5| 20/21 [00:03<00:00,  5.55it/s]
+Animation 1: _MethodAnimation(ValueTracker), etc.: 100%|##########| 21/21 [00:03<00:00,  5.56it/s]
+                                                                                                  
+[10/19/26 16:50:44] INFO     Animation 1 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00001.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 2 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00002.mp4'                            
+[10/19/26 16:50:45] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 3: Create(ParametricFunction), etc.:   0%|          | 0/66 [00:00<?, ?it/s]
+Animation 3: Create(ParametricFunction), etc.:   6%|6         | 4/66 [00:00<00:01, 37.26it/s]
+Animation 3: Create(ParametricFunction), etc.:  14%|#3        | 9/66 [00:00<00:01, 39.63it/s]
+Animation 3: Create(ParametricFunction), etc.:  21%|##1       | 14/66 [00:00<00:01, 40.61it/s]
+Animation 3: Create(ParametricFunction), etc.:  29%|##8       | 19/66 [00:00<00:01, 40.40it/s]
+Animation 3: Create(ParametricFunction), etc.:  36%|###6      | 24/66 [00:00<00:01, 40.81it/s]
+Animation 3: Create(ParametricFunction), etc.:  44%|####3     | 29/66 [00:00<00:00, 40.86it/s]
+Animation 3: Create(ParametricFunction), etc.:  52%|#####1    | 34/66 [00:00<00:00, 40.01it/s]
+Animation 3: Create(ParametricFunction), etc.:  59%|#####9    | 39/66 [00:00<00:00, 38.50it/s]
+Animation 3: Create(ParametricFunction), etc.:  65%|######5   | 43/66 [00:01<00:00, 36.98it/s]
+Animation 3: Create(ParametricFunction), etc.:  71%|#######1  | 47/66 [00:01<00:00, 36.20it/s]
+Animation 3: Create(ParametricFunction), etc.:  77%|#######7  | 51/66 [00:01<00:00, 35.15it/s]
+Animation 3: Create(ParametricFunction), etc.:  83%|########3 | 55/66 [00:01<00:00, 34.41it/s]
+Animation 3: Create(ParametricFunction), etc.:  89%|########9 | 59/66 [00:01<00:00, 33.45it/s]
+Animation 3: Create(ParametricFunction), etc.:  95%|#########5| 63/66 [00:01<00:00, 32.79it/s]
+                                                                                              
+[10/19/26 16:50:47] INFO     Animation 3 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00003.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 4: _MethodAnimation(ValueTracker), etc.:   0%|          | 0/21 [00:00<?, ?it/s]
+Animation 4: _MethodAnimation(ValueTracker), etc.:   5%|4         | 1/21 [00:00<00:03,  5.13it/s]
+Animation 4: _MethodAnimation(ValueTracker), etc.:  10%|9         | 2/21 [00:00<00:03,  4.90it/s]
+Animation 4: _MethodAnimation(ValueTracker), etc.:  14%|#4        | 3/21 [00:00<00:03,  4.97it/s]
+Animation 4: _MethodAnimation(ValueTracker), etc.:  19%|#9        | 4/21 [00:00<00:03,  4.97it/s]
+Animation 4: _MethodAnimation(ValueTracker), etc.:  24%|##3       | 5/21 [00:01<00:03,  5.01it/s]
+Animation 4: _MethodAnimation(ValueTracker), etc.:  29%|##8       | 6/21 [00:01<00:03,  4.91it/s]
+Animation 4: _MethodAnimation(ValueTracker), etc.:  33%|###3      | 7/21 [00:01<00:02,  4.93it/s]
+Animation 4: _MethodAnimation(ValueTracker), etc.:  38%|###8      | 8/21 [00:01<00:02,  4.78it/s]
+Animation 4: _MethodAnimation(ValueTracker), etc.:  43%|####2     | 9/21 [00:01<00:02,  4.97it/s]
+Animation 4: _MethodAnimation(ValueTracker), etc.:  48%|####7     | 10/21 [00:02<00:02,  5.12it/s]
+Animation 4: _MethodAnimation(ValueTracker), etc.:  52%|#####2    | 11/21 [00:02<00:01,  5.27it/s]
+Animation 4: _MethodAnimation(ValueTracker), etc.:  57%|#####7    | 12/21 [00:02<00:01,  5.34it/s]
+Animation 4: _MethodAnimation(ValueTracker), etc.:  62%|######1   | 13/21 [00:02<00:01,  5.34it/s]
+Animation 4: _MethodAnimation(ValueTracker), etc.:  67%|######6   | 14/21 [00:02<00:01,  5.38it/s]
+Animation 4: _MethodAnimation(ValueTracker), etc.:  71%|#######1  | 15/21 [00:02<00:01,  5.43it/s]
+Animation 4: _MethodAnimation(ValueTracker), etc.:  76%|#######6  | 16/21 [00:03<00:00,  5.47it/s]
+Animation 4: _MethodAnimation(ValueTracker), etc.:  81%|########  | 17/21 [00:03<00:00,  5.46it/s]
+Animation 4: _MethodAnimation(ValueTracker), etc.:  86%|########5 | 18/21 [00:03<00:00,  5.48it/s]
+Animation 4: _MethodAnimation(ValueTracker), etc.:  90%|######### | 19/21 [00:03<00:00,  5.45it/s]
+Animation 4: _MethodAnimation(ValueTracker), etc.:  95%|#########5| 20/21 [00:03<00:00,  5.47it/s]
+Animation 4: _MethodAnimation(ValueTracker), etc.: 100%|##########| 21/21 [00:04<00:00,  5.48it/s]
+                                                                                                  
+[10/19/26 16:50:51] INFO     Animation 4 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00004.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 5 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00005.mp4'                            
+[10/19/26 16:50:52] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 6: Create(ParametricFunction):   0%|          | 0/21 [00:00<?, ?it/s]
+                                                                               
+                    INFO     Animation 6 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00006.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 7: _MethodAnimation(ValueTracker), etc.:   0%|          | 0/21 [00:00<?, ?it/s]
+Animation 7: _MethodAnimation(ValueTracker), etc.:   5%|4         | 1/21 [00:00<00:04,  4.57it/s]
+Animation 7: _MethodAnimation(ValueTracker), etc.:  10%|9         | 2/21 [00:00<00:04,  4.46it/s]
+Animation 7: _MethodAnimation(ValueTracker), etc.:  14%|#4        | 3/21 [00:00<00:03,  4.56it/s]
+Animation 7: _MethodAnimation(ValueTracker), etc.:  19%|#9        | 4/21 [00:00<00:03,  4.51it/s]
+Animation 7: _MethodAnimation(ValueTracker), etc.:  24%|##3       | 5/21 [00:01<00:03,  4.31it/s]
+Animation 7: _MethodAnimation(ValueTracker), etc.:  29%|##8       | 6/21 [00:01<00:03,  4.25it/s]
+Animation 7: _MethodAnimation(ValueTracker), etc.:  33%|###3      | 7/21 [00:01<00:03,  4.10it/s]
+Animation 7: _MethodAnimation(ValueTracker), etc.:  38%|###8      | 8/21 [00:01<00:03,  4.06it/s]
+Animation 7: _MethodAnimation(ValueTracker), etc.:  43%|####2     | 9/21 [00:02<00:02,  4.07it/s]
+Animation 7: _MethodAnimation(ValueTracker), etc.:  48%|####7     | 10/21 [00:02<00:02,  4.23it/s]
+Animation 7: _MethodAnimation(ValueTracker), etc.:  52%|#####2    | 11/21 [00:02<00:02,  4.37it/s]
+Animation 7: _MethodAnimation(ValueTracker), etc.:  57%|#####7    | 12/21 [00:02<00:01,  4.54it/s]
+Animation 7: _MethodAnimation(ValueTracker), etc.:  62%|######1   | 13/21 [00:02<00:01,  4.63it/s]
+Animation 7: _MethodAnimation(ValueTracker), etc.:  67%|######6   | 14/21 [00:03<00:01,  4.66it/s]
+Animation 7: _MethodAnimation(ValueTracker), etc.:  71%|#######1  | 15/21 [00:03<00:01,  4.74it/s]
+Animation 7: _MethodAnimation(ValueTracker), etc.:  76%|#######6  | 16/21 [00:03<00:01,  4.83it/s]
+Animation 7: _MethodAnimation(ValueTracker), etc.:  81%|########  | 17/21 [00:03<00:00,  4.91it/s]
+Animation 7: _MethodAnimation(ValueTracker), etc.:  86%|########5 | 18/21 [00:03<00:00,  4.95it/s]
+Animation 7: _MethodAnimation(ValueTracker), etc.:  90%|######### | 19/21 [00:04<00:00,  4.98it/s]
+Animation 7: _MethodAnimation(ValueTracker), etc.:  95%|#########5| 20/21 [00:04<00:00,  4.99it/s]
+Animation 7: _MethodAnimation(ValueTracker), etc.: 100%|##########| 21/21 [00:04<00:00,  4.94it/s]
+                                                                                                  
+[10/19/26 16:50:57] INFO     Animation 7 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00007.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 8 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00008.mp4'                            
+[10/19/26 16:50:58] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 9: FadeIn(VGroup of 9 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                   
+                    INFO     Animation 9 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00009.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 10 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00010.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 11: FadeIn(VGroup of 9 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                    
+[10/19/26 16:50:59] INFO     Animation 11 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00011.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 12 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00012.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 13: FadeIn(VGroup of 8 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 13: FadeIn(VGroup of 8 submobjects): 100%|##########| 9/9 [00:00<00:00, 81.73it/s]
+                                                                                            
+[10/19/26 16:51:00] INFO     Animation 13 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00013.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 14 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00014.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 15: FadeIn(VGroup of 6 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                    
+[10/19/26 16:51:01] INFO     Animation 15 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00015.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 16: Indicate(VGroup of 2 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 16: Indicate(VGroup of 2 submobjects): 100%|##########| 18/18 [00:00<00:00, 175.46it/s]
+                                                                                                 
+                    INFO     Animation 16 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00016.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 17 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00017.mp4'                            
+[10/19/26 16:51:02] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 18: FadeIn(VGroup of 8 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 18: FadeIn(VGroup of 8 submobjects): 100%|##########| 9/9 [00:00<00:00, 87.93it/s]
+                                                                                            
+                    INFO     Animation 18 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00018.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 19 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00019.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 20: FadeIn(VGroup of 8 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 20: FadeIn(VGroup of 8 submobjects): 100%|##########| 9/9 [00:00<00:00, 82.35it/s]
+                                                                                            
+[10/19/26 16:51:03] INFO     Animation 20 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00020.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 21 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00021.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 22: FadeIn(VGroup of 8 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                    
+[10/19/26 16:51:04] INFO     Animation 22 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00022.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 23 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00023.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 24: FadeIn(VGroup of 8 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                    
+[10/19/26 16:51:05] INFO     Animation 24 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00024.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 25: _MethodAnimation(ValueTracker):   0%|          | 0/36 [00:00<?, ?it/s]
+                                                                                    
+                    INFO     Animation 25 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00025.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 26 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00026.mp4'                            
+[10/19/26 16:51:06] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 27: FadeIn(VGroup of 8 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 27: FadeIn(VGroup of 8 submobjects): 100%|##########| 9/9 [00:00<00:00, 89.58it/s]
+                                                                                            
+                    INFO     Animation 27 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00027.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 28 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00028.mp4'                            
+[10/19/26 16:51:07] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 29: FadeIn(VGroup of 8 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                    
+                    INFO     Animation 29 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00029.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 30: Flash(VGroup of 12 submobjects):   0%|          | 0/18 [00:00<?, ?it/s]
+                                                                                     
+                    INFO     Animation 30 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00030.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 31 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00031.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 32: FadeIn(VGroup of 12 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 32: FadeIn(VGroup of 12 submobjects): 100%|##########| 9/9 [00:00<00:00, 83.82it/s]
+                                                                                             
+[10/19/26 16:51:08] INFO     Animation 32 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00032.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 33 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00033.mp4'                            
+[10/19/26 16:51:09] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 34: FadeIn(VGroup of 8 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                    
+                    INFO     Animation 34 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00034.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 35: _MethodAnimation(ValueTracker):   0%|          | 0/36 [00:00<?, ?it/s]
+                                                                                    
+                    INFO     Animation 35 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00035.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 36 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00036.mp4'                            
+[10/19/26 16:51:10] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 37: Create(ParametricFunction):   0%|          | 0/21 [00:00<?, ?it/s]
+                                                                                
+                    INFO     Animation 37 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00037.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 38: _MethodAnimation(ValueTracker), etc.:   0%|          | 0/21 [00:00<?, ?it/s]
+Animation 38: _MethodAnimation(ValueTracker), etc.:   5%|4         | 1/21 [00:00<00:04,  4.32it/s]
+Animation 38: _MethodAnimation(ValueTracker), etc.:  10%|9         | 2/21 [00:00<00:04,  3.95it/s]
+Animation 38: _MethodAnimation(ValueTracker), etc.:  14%|#4        | 3/21 [00:00<00:04,  4.04it/s]
+Animation 38: _MethodAnimation(ValueTracker), etc.:  19%|#9        | 4/21 [00:00<00:04,  4.13it/s]
+Animation 38: _MethodAnimation(ValueTracker), etc.:  24%|##3       | 5/21 [00:01<00:03,  4.04it/s]
+Animation 38: _MethodAnimation(ValueTracker), etc.:  29%|##8       | 6/21 [00:01<00:03,  4.00it/s]
+Animation 38: _MethodAnimation(ValueTracker), etc.:  33%|###3      | 7/21 [00:01<00:03,  3.58it/s]
+Animation 38: _MethodAnimation(ValueTracker), etc.:  38%|###8      | 8/21 [00:02<00:03,  3.37it/s]
+Animation 38: _MethodAnimation(ValueTracker), etc.:  43%|####2     | 9/21 [00:02<00:03,  3.59it/s]
+Animation 38: _MethodAnimation(ValueTracker), etc.:  48%|####7     | 10/21 [00:02<00:02,  3.82it/s]
+Animation 38: _MethodAnimation(ValueTracker), etc.:  52%|#####2    | 11/21 [00:02<00:02,  3.89it/s]
+Animation 38: _MethodAnimation(ValueTracker), etc.:  57%|#####7    | 12/21 [00:03<00:02,  3.93it/s]
+Animation 38: _MethodAnimation(ValueTracker), etc.:  62%|######1   | 13/21 [00:03<00:01,  4.01it/s]
+Animation 38: _MethodAnimation(ValueTracker), etc.:  67%|######6   | 14/21 [00:03<00:01,  4.10it/s]
+Animation 38: _MethodAnimation(ValueTracker), etc.:  71%|#######1  | 15/21 [00:03<00:01,  4.15it/s]
+Animation 38: _MethodAnimation(ValueTracker), etc.:  76%|#######6  | 16/21 [00:04<00:01,  4.24it/s]
+Animation 38: _MethodAnimation(ValueTracker), etc.:  81%|########  | 17/21 [00:04<00:00,  4.16it/s]
+Animation 38: _MethodAnimation(ValueTracker), etc.:  86%|########5 | 18/21 [00:04<00:00,  4.20it/s]
+Animation 38: _MethodAnimation(ValueTracker), etc.:  90%|######### | 19/21 [00:04<00:00,  4.12it/s]
+Animation 38: _MethodAnimation(ValueTracker), etc.:  95%|#########5| 20/21 [00:05<00:00,  4.13it/s]
+Animation 38: _MethodAnimation(ValueTracker), etc.: 100%|##########| 21/21 [00:05<00:00,  3.95it/s]
+                                                                                                   
+[10/19/26 16:51:16] INFO     Animation 38 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00038.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 39 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00039.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 40: FadeIn(VGroup of 8 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                    
+[10/19/26 16:51:17] INFO     Animation 40 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00040.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 41: _MethodAnimation(ValueTracker):   0%|          | 0/36 [00:00<?, ?it/s]
+                                                                                    
+                    INFO     Animation 41 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00041.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 42 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00042.mp4'                            
+[10/19/26 16:51:18] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 43: FadeIn(VGroup of 8 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                    
+                    INFO     Animation 43 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00043.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 44 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00044.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 45: FadeIn(VGroup of 15 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 45: FadeIn(VGroup of 15 submobjects):  89%|########8 | 8/9 [00:00<00:00, 76.21it/s]
+                                                                                             
+[10/19/26 16:51:19] INFO     Animation 45 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00045.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 46 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00046.mp4'                            
+[10/19/26 16:51:20] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 47: FadeIn(VGroup of 15 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 47: FadeIn(VGroup of 15 submobjects): 100%|##########| 9/9 [00:00<00:00, 80.67it/s]
+                                                                                             
+                    INFO     Animation 47 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00047.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 48 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00048.mp4'                            
+[10/19/26 16:51:21] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 49: FadeIn(VGroup of 5 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 49: FadeIn(VGroup of 5 submobjects):  89%|########8 | 8/9 [00:00<00:00, 72.27it/s]
+                                                                                            
+                    INFO     Animation 49 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00049.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/19/26 16:51:22] INFO     Animation 50 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00050.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 51: FadeIn(VGroup of 4 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                    
+                    INFO     Animation 51 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00051.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 52 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00052.mp4'                            
+[10/19/26 16:51:23] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 53: FadeIn(VGroup of 8 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                    
+                    INFO     Animation 53 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00053.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 54: _MethodAnimation(ValueTracker):   0%|          | 0/36 [00:00<?, ?it/s]
+                                                                                    
+                    INFO     Animation 54 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00054.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 55 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00055.mp4'                            
+[10/19/26 16:51:24] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 56: FadeIn(VGroup of 8 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                    
+                    INFO     Animation 56 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00056.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 57: _MethodAnimation(ValueTracker):   0%|          | 0/36 [00:00<?, ?it/s]
+                                                                                    
+                    INFO     Animation 57 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00057.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/19/26 16:51:25] INFO     Animation 58 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00058.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 59: Create(ParametricFunction):   0%|          | 0/21 [00:00<?, ?it/s]
+                                                                                
+                    INFO     Animation 59 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00059.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 60: _MethodAnimation(ThreeDVMobject), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 60: _MethodAnimation(ThreeDVMobject), etc.:   6%|5         | 1/18 [00:00<00:02,  6.75it/s]
+Animation 60: _MethodAnimation(ThreeDVMobject), etc.:  11%|#1        | 2/18 [00:00<00:02,  6.70it/s]
+Animation 60: _MethodAnimation(ThreeDVMobject), etc.:  17%|#6        | 3/18 [00:00<00:02,  6.82it/s]
+Animation 60: _MethodAnimation(ThreeDVMobject), etc.:  22%|##2       | 4/18 [00:00<00:02,  6.91it/s]
+Animation 60: _MethodAnimation(ThreeDVMobject), etc.:  28%|##7       | 5/18 [00:00<00:01,  6.89it/s]
+Animation 60: _MethodAnimation(ThreeDVMobject), etc.:  33%|###3      | 6/18 [00:00<00:01,  7.07it/s]
+Animation 60: _MethodAnimation(ThreeDVMobject), etc.:  39%|###8      | 7/18 [00:01<00:01,  7.01it/s]
+Animation 60: _MethodAnimation(ThreeDVMobject), etc.:  44%|####4     | 8/18 [00:01<00:01,  6.99it/s]
+Animation 60: _MethodAnimation(ThreeDVMobject), etc.:  50%|#####     | 9/18 [00:01<00:01,  7.11it/s]
+Animation 60: _MethodAnimation(ThreeDVMobject), etc.:  56%|#####5    | 10/18 [00:01<00:01,  7.25it/s]
+Animation 60: _MethodAnimation(ThreeDVMobject), etc.:  61%|######1   | 11/18 [00:01<00:00,  7.21it/s]
+Animation 60: _MethodAnimation(ThreeDVMobject), etc.:  67%|######6   | 12/18 [00:01<00:00,  7.32it/s]
+Animation 60: _MethodAnimation(ThreeDVMobject), etc.:  72%|#######2  | 13/18 [00:01<00:00,  7.41it/s]
+Animation 60: _MethodAnimation(ThreeDVMobject), etc.:  78%|#######7  | 14/18 [00:01<00:00,  7.46it/s]
+Animation 60: _MethodAnimation(ThreeDVMobject), etc.:  83%|########3 | 15/18 [00:02<00:00,  7.43it/s]
+Animation 60: _MethodAnimation(ThreeDVMobject), etc.:  89%|########8 | 16/18 [00:02<00:00,  7.28it/s]
+Animation 60: _MethodAnimation(ThreeDVMobject), etc.:  94%|#########4| 17/18 [00:02<00:00,  7.36it/s]
+Animation 60: _MethodAnimation(ThreeDVMobject), etc.: 100%|##########| 18/18 [00:02<00:00,  7.51it/s]
+                                                                                                     
+[10/19/26 16:51:28] INFO     Animation 60 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00060.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 61: _MethodAnimation(ValueTracker), etc.:   0%|          | 0/21 [00:00<?, ?it/s]
+Animation 61: _MethodAnimation(ValueTracker), etc.:   5%|4         | 1/21 [00:00<00:07,  2.68it/s]
+Animation 61: _MethodAnimation(ValueTracker), etc.:  10%|9         | 2/21 [00:00<00:06,  2.77it/s]
+Animation 61: _MethodAnimation(ValueTracker), etc.:  14%|#4        | 3/21 [00:01<00:07,  2.44it/s]
+Animation 61: _MethodAnimation(ValueTracker), etc.:  19%|#9        | 4/21 [00:01<00:06,  2.48it/s]
+Animation 61: _MethodAnimation(ValueTracker), etc.:  24%|##3       | 5/21 [00:01<00:06,  2.65it/s]
+Animation 61: _MethodAnimation(ValueTracker), etc.:  29%|##8       | 6/21 [00:02<00:05,  2.70it/s]
+Animation 61: _MethodAnimation(ValueTracker), etc.:  33%|###3      | 7/21 [00:02<00:05,  2.58it/s]
+Animation 61: _MethodAnimation(ValueTracker), etc.:  38%|###8      | 8/21 [00:03<00:05,  2.33it/s]
+Animation 61: _MethodAnimation(ValueTracker), etc.:  43%|####2     | 9/21 [00:03<00:05,  2.19it/s]
+Animation 61: _MethodAnimation(ValueTracker), etc.:  48%|####7     | 10/21 [00:04<00:04,  2.36it/s]
+Animation 61: _MethodAnimation(ValueTracker), etc.:  52%|#####2    | 11/21 [00:04<00:03,  2.50it/s]
+Animation 61: _MethodAnimation(ValueTracker), etc.:  57%|#####7    | 12/21 [00:04<00:03,  2.49it/s]
+Animation 61: _MethodAnimation(ValueTracker), etc.:  62%|######1   | 13/21 [00:05<00:03,  2.30it/s]
+Animation 61: _MethodAnimation(ValueTracker), etc.:  67%|######6   | 14/21 [00:05<00:03,  2.23it/s]
+Animation 61: _MethodAnimation(ValueTracker), etc.:  71%|#######1  | 15/21 [00:06<00:02,  2.37it/s]
+Animation 61: _MethodAnimation(ValueTracker), etc.:  76%|#######6  | 16/21 [00:06<00:01,  2.51it/s]
+Animation 61: _MethodAnimation(ValueTracker), etc.:  81%|########  | 17/21 [00:06<00:01,  2.49it/s]
+Animation 61: _MethodAnimation(ValueTracker), etc.:  86%|########5 | 18/21 [00:07<00:01,  2.32it/s]
+Animation 61: _MethodAnimation(ValueTracker), etc.:  90%|######### | 19/21 [00:07<00:00,  2.20it/s]
+Animation 61: _MethodAnimation(ValueTracker), etc.:  95%|#########5| 20/21 [00:08<00:00,  2.27it/s]
+Animation 61: _MethodAnimation(ValueTracker), etc.: 100%|##########| 21/21 [00:08<00:00,  2.46it/s]
+                                                                                                   
+[10/19/26 16:51:37] INFO     Animation 61 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00061.mp4'                            
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 62 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox05\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\ModelSoupsGeomet                         
+                             ry\uncached_00062.mp4'                            
+                    INFO     Combining to Movie file.  scene_file_writer.py:952
+[10/19/26 16:51:38] INFO                              scene_file_writer.py:1103
+                             File ready at                                     
+                             'C:\Users\as042\OneDrive                          
+                             \Desktop\manim_video\med                          
+                             ia\paradox05\preview\vid                          
+                             eos\scene\640p30\ModelSo                          
+                             upsGeometry.mp4'                                  
+                                                                               
+                    INFO     Rendered ModelSoupsGeometry           scene.py:290
+                             Played 63 animations                              
+Export: C:\Users\as042\OneDrive\Desktop\manim_video\exports\paradox05_preview.mp4

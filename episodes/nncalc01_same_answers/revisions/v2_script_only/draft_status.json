@@ -1,0 +1,11 @@
+{
+  "revision": "v2_learning_answers_vs_algorithms",
+  "phase": "script_review",
+  "script_approved": false,
+  "speech_timing_provided_for_this_revision": false,
+  "duration_seconds": null,
+  "previous_video": "exports/nncalc01.mp4",
+  "previous_video_matches_current_script": false,
+  "previous_production_sources": "revisions/v1_probe_intervention",
+  "next_step": "user script review, then actual speech timing; no render before both"
+}

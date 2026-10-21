@@ -1,0 +1,632 @@
+Manim Community v0.21.0
+
+[10/18/26 19:02:22] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 0: FadeIn(VGroup of 4 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 0: FadeIn(VGroup of 4 submobjects):  64%|######3   | 7/11 [00:00<00:00, 64.89it/s]
+                                                                                            
+                    INFO     Animation 0 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00000.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 19:02:24] INFO     Animation 1 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00001.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 2: FadeIn(VGroup of 4 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 2: FadeIn(VGroup of 4 submobjects):  73%|#######2  | 8/11 [00:00<00:00, 77.67it/s]
+                                                                                            
+[10/18/26 19:02:25] INFO     Animation 2 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00002.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 3 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00003.mp4'                          
+[10/18/26 19:02:26] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 4: FadeIn(VGroup of 3 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 4: FadeIn(VGroup of 3 submobjects):  73%|#######2  | 8/11 [00:00<00:00, 73.51it/s]
+                                                                                            
+                    INFO     Animation 4 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00004.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 19:02:28] INFO     Animation 5 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00005.mp4'                          
+[10/18/26 19:02:29] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 6: FadeIn(VGroup of 3 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 6: FadeIn(VGroup of 3 submobjects):  82%|########1 | 9/11 [00:00<00:00, 80.48it/s]
+                                                                                            
+                    INFO     Animation 6 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00006.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 7: Transform(VGroup of 12 submobjects):   0%|          | 0/36 [00:00<?, ?it/s]
+Animation 7: Transform(VGroup of 12 submobjects):  22%|##2       | 8/36 [00:00<00:00, 75.20it/s]
+Animation 7: Transform(VGroup of 12 submobjects):  44%|####4     | 16/36 [00:00<00:00, 69.89it/s]
+Animation 7: Transform(VGroup of 12 submobjects):  67%|######6   | 24/36 [00:00<00:00, 69.05it/s]
+Animation 7: Transform(VGroup of 12 submobjects):  89%|########8 | 32/36 [00:00<00:00, 69.21it/s]
+                                                                                                 
+[10/18/26 19:02:30] INFO     Animation 7 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00007.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 19:02:31] INFO     Animation 8 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00008.mp4'                          
+[10/18/26 19:02:32] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 9: FadeIn(VGroup of 4 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 9: FadeIn(VGroup of 4 submobjects):  91%|######### | 10/11 [00:00<00:00, 89.23it/s]
+                                                                                             
+                    INFO     Animation 9 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00009.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 19:02:33] INFO     Animation 10 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00010.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 11: FadeIn(VGroup of 4 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 11: FadeIn(VGroup of 4 submobjects):  73%|#######2  | 8/11 [00:00<00:00, 75.48it/s]
+                                                                                             
+[10/18/26 19:02:34] INFO     Animation 11 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00011.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 12: _MethodAnimation(Dot):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 12: _MethodAnimation(Dot):  70%|#######   | 21/30 [00:00<00:00, 209.52it/s]
+                                                                                     
+                    INFO     Animation 12 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00012.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 13: _MethodAnimation(Dot):   0%|          | 0/33 [00:00<?, ?it/s]
+Animation 13: _MethodAnimation(Dot):  55%|#####4    | 18/33 [00:00<00:00, 177.29it/s]
+                                                                                     
+[10/18/26 19:02:35] INFO     Animation 13 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00013.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 19:02:36] INFO     Animation 14 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00014.mp4'                          
+[10/18/26 19:02:37] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 15: FadeIn(VGroup of 4 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 15: FadeIn(VGroup of 4 submobjects):  73%|#######2  | 8/11 [00:00<00:00, 76.12it/s]
+                                                                                             
+                    INFO     Animation 15 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00015.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 16: Flash(VGroup of 12 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+                                                                                     
+                    INFO     Animation 16 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00016.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 17: Flash(VGroup of 12 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+                                                                                     
+                    INFO     Animation 17 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00017.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 18: Flash(VGroup of 12 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+                                                                                     
+[10/18/26 19:02:38] INFO     Animation 18 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00018.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 19 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00019.mp4'                          
+[10/18/26 19:02:39] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 20: FadeIn(VGroup of 4 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 20: FadeIn(VGroup of 4 submobjects):  64%|######3   | 7/11 [00:00<00:00, 69.59it/s]
+                                                                                             
+                    INFO     Animation 20 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00020.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 21: _MethodAnimation(Dot):   0%|          | 0/27 [00:00<?, ?it/s]
+Animation 21: _MethodAnimation(Dot):  81%|########1 | 22/27 [00:00<00:00, 216.35it/s]
+                                                                                     
+[10/18/26 19:02:40] INFO     Animation 21 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00021.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 22: _MethodAnimation(Dot):   0%|          | 0/27 [00:00<?, ?it/s]
+Animation 22: _MethodAnimation(Dot):  74%|#######4  | 20/27 [00:00<00:00, 194.58it/s]
+                                                                                     
+                    INFO     Animation 22 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00022.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 23: _MethodAnimation(Dot):   0%|          | 0/27 [00:00<?, ?it/s]
+Animation 23: _MethodAnimation(Dot):  70%|#######   | 19/27 [00:00<00:00, 188.68it/s]
+                                                                                     
+                    INFO     Animation 23 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00023.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 19:02:42] INFO     Animation 24 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00024.mp4'                          
+[10/18/26 19:02:43] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 25: FadeIn(VGroup of 9 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 25: FadeIn(VGroup of 9 submobjects):  64%|######3   | 7/11 [00:00<00:00, 69.66it/s]
+                                                                                             
+                    INFO     Animation 25 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00025.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 19:02:44] INFO     Animation 26 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00026.mp4'                          
+[10/18/26 19:02:45] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 27: FadeIn(VGroup of 4 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 27: FadeIn(VGroup of 4 submobjects):  64%|######3   | 7/11 [00:00<00:00, 69.19it/s]
+                                                                                             
+                    INFO     Animation 27 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00027.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 28: _MethodAnimation(Circle):   0%|          | 0/33 [00:00<?, ?it/s]
+Animation 28: _MethodAnimation(Circle):  33%|###3      | 11/33 [00:00<00:00, 100.71it/s]
+Animation 28: _MethodAnimation(Circle):  67%|######6   | 22/33 [00:00<00:00, 101.94it/s]
+Animation 28: _MethodAnimation(Circle): 100%|##########| 33/33 [00:00<00:00, 100.64it/s]
+                                                                                        
+                    INFO     Animation 28 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00028.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 29: Flash(VGroup of 12 submobjects):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 29: Flash(VGroup of 12 submobjects):  93%|#########3| 14/15 [00:00<00:00, 137.28it/s]
+                                                                                               
+[10/18/26 19:02:46] INFO     Animation 29 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00029.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 30 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00030.mp4'                          
+[10/18/26 19:02:47] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 31: FadeIn(VGroup of 7 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 31: FadeIn(VGroup of 7 submobjects):  55%|#####4    | 6/11 [00:00<00:00, 59.59it/s]
+                                                                                             
+                    INFO     Animation 31 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00031.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 19:02:49] INFO     Animation 32 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00032.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 33: FadeIn(VGroup of 7 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 33: FadeIn(VGroup of 7 submobjects):  64%|######3   | 7/11 [00:00<00:00, 60.41it/s]
+                                                                                             
+[10/18/26 19:02:50] INFO     Animation 33 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00033.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 19:02:52] INFO     Animation 34 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00034.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 35: FadeIn(VGroup of 11 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 35: FadeIn(VGroup of 11 submobjects):  55%|#####4    | 6/11 [00:00<00:00, 59.60it/s]
+                                                                                              
+[10/18/26 19:02:53] INFO     Animation 35 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00035.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 36: Indicate(Arrow):   0%|          | 0/24 [00:00<?, ?it/s]
+Animation 36: Indicate(Arrow):  38%|###7      | 9/24 [00:00<00:00, 82.55it/s]
+Animation 36: Indicate(Arrow):  75%|#######5  | 18/24 [00:00<00:00, 84.45it/s]
+                                                                              
+                    INFO     Animation 36 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00036.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 37: Indicate(Arrow):   0%|          | 0/24 [00:00<?, ?it/s]
+Animation 37: Indicate(Arrow):  42%|####1     | 10/24 [00:00<00:00, 91.26it/s]
+Animation 37: Indicate(Arrow):  83%|########3 | 20/24 [00:00<00:00, 94.61it/s]
+                                                                              
+                    INFO     Animation 37 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00037.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 19:02:55] INFO     Animation 38 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00038.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 39: FadeIn(VGroup of 11 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 39: FadeIn(VGroup of 11 submobjects):  64%|######3   | 7/11 [00:00<00:00, 63.03it/s]
+                                                                                              
+                    INFO     Animation 39 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00039.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 40: _MethodAnimation(Dot):   0%|          | 0/36 [00:00<?, ?it/s]
+Animation 40: _MethodAnimation(Dot):  64%|######3   | 23/36 [00:00<00:00, 225.37it/s]
+                                                                                     
+[10/18/26 19:02:56] INFO     Animation 40 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00040.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 19:02:57] INFO     Animation 41 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00041.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 42: FadeIn(VGroup of 5 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 42: FadeIn(VGroup of 5 submobjects):  64%|######3   | 7/11 [00:00<00:00, 61.65it/s]
+                                                                                             
+[10/18/26 19:02:58] INFO     Animation 42 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00042.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 19:03:00] INFO     Animation 43 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00043.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 44: FadeIn(VGroup of 4 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 44: FadeIn(VGroup of 4 submobjects):  91%|######### | 10/11 [00:00<00:00, 91.18it/s]
+                                                                                              
+[10/18/26 19:03:01] INFO     Animation 44 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00044.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 45 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00045.mp4'                          
+[10/18/26 19:03:02] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 46: FadeIn(VGroup of 4 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 46: FadeIn(VGroup of 4 submobjects):  73%|#######2  | 8/11 [00:00<00:00, 74.61it/s]
+                                                                                             
+                    INFO     Animation 46 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00046.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 47: Transform(Circle):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 47: Transform(Circle):  50%|#####     | 15/30 [00:00<00:00, 139.56it/s]
+Animation 47: Transform(Circle):  97%|#########6| 29/30 [00:00<00:00, 136.27it/s]
+                                                                                 
+                    INFO     Animation 47 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00047.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 19:03:04] INFO     Animation 48 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00048.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 49: FadeIn(VGroup of 6 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 49: FadeIn(VGroup of 6 submobjects):  55%|#####4    | 6/11 [00:00<00:00, 53.63it/s]
+                                                                                             
+[10/18/26 19:03:05] INFO     Animation 49 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00049.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 19:03:07] INFO     Animation 50 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00050.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 51: FadeIn(VGroup of 6 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 51: FadeIn(VGroup of 6 submobjects):  64%|######3   | 7/11 [00:00<00:00, 61.24it/s]
+                                                                                             
+[10/18/26 19:03:08] INFO     Animation 51 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00051.mp4'                          
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 52 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox02\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\LabelSmoothingSim                         
+                             plex\uncached_00052.mp4'                          
+                    INFO     Combining to Movie file.  scene_file_writer.py:952
+[10/18/26 19:03:09] INFO                              scene_file_writer.py:1103
+                             File ready at                                     
+                             'C:\Users\as042\OneDrive                          
+                             \Desktop\manim_video\med                          
+                             ia\paradox02\final\video                          
+                             s\scene\1920p30\LabelSmo                          
+                             othingSimplex.mp4'                                
+                                                                               
+                    INFO     Rendered LabelSmoothingSimplex        scene.py:290
+                             Played 53 animations                              
+Export: C:\Users\as042\OneDrive\Desktop\manim_video\exports\paradox02.mp4

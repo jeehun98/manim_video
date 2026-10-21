@@ -1,0 +1,660 @@
+Manim Community v0.21.0
+
+[10/18/26 19:57:40] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 0: FadeIn(Group):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 0: FadeIn(Group):  44%|####4     | 4/9 [00:00<00:00, 33.21it/s]
+Animation 0: FadeIn(Group): 100%|##########| 9/9 [00:00<00:00, 37.96it/s]
+                                                                         
+                    INFO     Animation 0 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00000.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 1 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00001.mp4'                                    
+[10/18/26 19:57:41] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 2: FadeIn(Group):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 2: FadeIn(Group):  56%|#####5    | 5/9 [00:00<00:00, 46.24it/s]
+                                                                         
+                    INFO     Animation 2 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00002.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 3 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00003.mp4'                                    
+[10/18/26 19:57:42] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 4: FadeIn(Group):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 4: FadeIn(Group):  56%|#####5    | 5/9 [00:00<00:00, 45.06it/s]
+                                                                         
+                    INFO     Animation 4 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00004.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 5 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00005.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 6: FadeIn(Group):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                 
+[10/18/26 19:57:43] INFO     Animation 6 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00006.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 7 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00007.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 8: FadeIn(Group):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 8: FadeIn(Group):  56%|#####5    | 5/9 [00:00<00:00, 45.42it/s]
+                                                                         
+                    INFO     Animation 8 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00008.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 9 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00009.mp4'                                    
+[10/18/26 19:57:44] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 10: FadeIn(Group):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 10: FadeIn(Group):  56%|#####5    | 5/9 [00:00<00:00, 46.69it/s]
+                                                                          
+                    INFO     Animation 10 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00010.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 11 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00011.mp4'                                    
+[10/18/26 19:57:45] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 12: FadeIn(Group):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 12: FadeIn(Group):  78%|#######7  | 7/9 [00:00<00:00, 65.92it/s]
+                                                                          
+                    INFO     Animation 12 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00012.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 13 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00013.mp4'                                    
+[10/18/26 19:57:46] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 14: FadeIn(VGroup of 6 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                    
+                    INFO     Animation 14 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00014.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 15: Transform(ParametricFunction):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 15: Transform(ParametricFunction):  60%|######    | 18/30 [00:00<00:00, 176.35it/s]
+                                                                                             
+                    INFO     Animation 15 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00015.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 16: Transform(ParametricFunction):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 16: Transform(ParametricFunction):  60%|######    | 18/30 [00:00<00:00, 174.36it/s]
+                                                                                             
+                    INFO     Animation 16 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00016.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 17 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00017.mp4'                                    
+[10/18/26 19:57:47] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 18: FadeIn(VGroup of 6 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                    
+                    INFO     Animation 18 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00018.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 19 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00019.mp4'                                    
+[10/18/26 19:57:48] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 20: FadeIn(VGroup of 6 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                    
+                    INFO     Animation 20 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00020.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 21: Create(DashedVMobject), etc.:   0%|          | 0/33 [00:00<?, ?it/s]
+Animation 21: Create(DashedVMobject), etc.: 100%|##########| 33/33 [00:00<00:00, 318.63it/s]
+                                                                                            
+                    INFO     Animation 21 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00021.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 22: FadeIn(Text('������ ��ǥ: q������ = ��')):   0%|          | 0/12 [00:00<?, ?it/s]
+                                                                                              
+[10/18/26 19:57:49] INFO     Animation 22 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00022.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 23 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00023.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 24: FadeIn(Group):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 24: FadeIn(Group):  56%|#####5    | 5/9 [00:00<00:00, 44.45it/s]
+                                                                          
+                    INFO     Animation 24 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00024.mp4'                                    
+[10/18/26 19:57:50] INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 25 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00025.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 26: FadeIn(Group):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 26: FadeIn(Group):  56%|#####5    | 5/9 [00:00<00:00, 47.27it/s]
+                                                                          
+[10/18/26 19:57:51] INFO     Animation 26 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00026.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 27 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00027.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 28: FadeIn(VGroup of 6 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                    
+                    INFO     Animation 28 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00028.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 29 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00029.mp4'                                    
+[10/18/26 19:57:52] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 30: FadeIn(VGroup of 6 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                    
+                    INFO     Animation 30 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00030.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 31: LaggedStart(Group):   0%|          | 0/42 [00:00<?, ?it/s]
+                                                                        
+                    INFO     Animation 31 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00031.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 32 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00032.mp4'                                    
+[10/18/26 19:57:53] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 33: FadeIn(VGroup of 6 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                    
+                    INFO     Animation 33 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00033.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 34: _MethodAnimation(Dot):   0%|          | 0/39 [00:00<?, ?it/s]
+                                                                           
+                    INFO     Animation 34 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00034.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 35: _MethodAnimation(Dot):   0%|          | 0/24 [00:00<?, ?it/s]
+                                                                           
+                    INFO     Animation 35 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00035.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 19:57:54] INFO     Animation 36 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00036.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 37: FadeIn(VGroup of 6 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                    
+                    INFO     Animation 37 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00037.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 38 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00038.mp4'                                    
+[10/18/26 19:57:55] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 39: FadeIn(VGroup of 6 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                    
+                    INFO     Animation 39 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00039.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 40 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00040.mp4'                                    
+[10/18/26 19:57:56] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 41: FadeIn(VGroup of 6 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                    
+                    INFO     Animation 41 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00041.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 42: _MethodAnimation(ValueTracker):   0%|          | 0/60 [00:00<?, ?it/s]
+Animation 42: _MethodAnimation(ValueTracker):  27%|##6       | 16/60 [00:00<00:00, 159.35it/s]
+Animation 42: _MethodAnimation(ValueTracker):  53%|#####3    | 32/60 [00:00<00:00, 157.25it/s]
+Animation 42: _MethodAnimation(ValueTracker):  80%|########  | 48/60 [00:00<00:00, 154.75it/s]
+                                                                                              
+                    INFO     Animation 42 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00042.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/18/26 19:57:57] INFO     Animation 43 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00043.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 44: FadeIn(VGroup of 6 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 44: FadeIn(VGroup of 6 submobjects):  78%|#######7  | 7/9 [00:00<00:00, 65.53it/s]
+                                                                                            
+                    INFO     Animation 44 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00044.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 45: _MethodAnimation(ValueTracker):   0%|          | 0/60 [00:00<?, ?it/s]
+Animation 45: _MethodAnimation(ValueTracker):  15%|#5        | 9/60 [00:00<00:00, 89.11it/s]
+Animation 45: _MethodAnimation(ValueTracker):  33%|###3      | 20/60 [00:00<00:00, 95.01it/s]
+Animation 45: _MethodAnimation(ValueTracker):  57%|#####6    | 34/60 [00:00<00:00, 112.83it/s]
+Animation 45: _MethodAnimation(ValueTracker):  82%|########1 | 49/60 [00:00<00:00, 125.79it/s]
+                                                                                              
+[10/18/26 19:57:58] INFO     Animation 45 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00045.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 46 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00046.mp4'                                    
+[10/18/26 19:57:59] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 47: FadeIn(VGroup of 6 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                    
+                    INFO     Animation 47 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00047.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 48 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00048.mp4'                                    
+[10/18/26 19:58:00] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 49: FadeIn(Group):   0%|          | 0/9 [00:00<?, ?it/s]
+Animation 49: FadeIn(Group):  33%|###3      | 3/9 [00:00<00:00, 27.83it/s]
+Animation 49: FadeIn(Group):  78%|#######7  | 7/9 [00:00<00:00, 28.02it/s]
+                                                                          
+                    INFO     Animation 49 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00049.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 50 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00050.mp4'                                    
+[10/18/26 19:58:01] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 51: FadeIn(VGroup of 6 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                    
+                    INFO     Animation 51 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00051.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 52 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00052.mp4'                                    
+[10/18/26 19:58:02] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 53: FadeIn(VGroup of 3 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]
+                                                                                    
+                    INFO     Animation 53 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00053.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 54: FadeIn(Text('���� �н�: �� �������� ������ �˷��ش�')):   0%|          | 0/15 [00:00<?, ?it/s]
+                                                                                                            
+                    INFO     Animation 54 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00054.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 55 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00055.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 56: FadeIn(Text('Mixup: ������ ������ ���� ��Ģ���� �˷��ش�')):   0%|          | 0/18 [00:00<?, ?it/s]
+                                                                                                                 
+                    INFO     Animation 56 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00056.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 57 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox03\preview\videos                         
+                             \scene\640p30\partial_mov                         
+                             ie_files\MixupRules\uncac                         
+                             hed_00057.mp4'                                    
+[10/18/26 19:58:03] INFO     Combining to Movie file.  scene_file_writer.py:952
+                    INFO                              scene_file_writer.py:1103
+                             File ready at                                     
+                             'C:\Users\as042\OneDrive                          
+                             \Desktop\manim_video\med                          
+                             ia\paradox03\preview\vid                          
+                             eos\scene\640p30\MixupRu                          
+                             les.mp4'                                          
+                                                                               
+                    INFO     Rendered MixupRules                   scene.py:290
+                             Played 58 animations                              
+Export: C:\Users\as042\OneDrive\Desktop\manim_video\exports\paradox03_preview.mp4

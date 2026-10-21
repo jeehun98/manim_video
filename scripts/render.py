@@ -244,6 +244,33 @@ EPISODES["aicomp03"] = ("episodes/aicomp03_when_compilation_happens/scene.py", "
 EPISODES["aicomp04"] = ("episodes/aicomp04_graph_capture/scene.py", "GraphCaptureBoundaries")
 
 EPISODES["paradox01"] = ("episodes/paradox01_dropout_half/scene.py", "DropoutHalf")
+EPISODES["paradox02"] = ("episodes/paradox02_label_smoothing/scene.py", "LabelSmoothingSimplex")
+EPISODES["paradox03"] = ("episodes/paradox03_mixup_rules/scene.py", "MixupRules")
+EPISODES["paradox04"] = ("episodes/paradox04_stochastic_depth/scene.py", "StochasticDepthPaths")
+EPISODES["paradox05"] = ("episodes/paradox05_model_soups/scene.py", "ModelSoupsGeometry")
+EPISODES["paradox06"] = ("episodes/paradox06_born_again/scene.py", "BornAgainNetworks")
+EPISODES["paradox07"] = ("episodes/paradox07_sam/scene.py", "SharpnessAwareMinimization")
+
+EPISODES["paradox08"] = ("episodes/paradox08_loss_selection/scene.py", "LossBasedSelection")
+
+EPISODES["paradox09"] = ("episodes/paradox09_numerical_inflation/scene.py", "NumericalFeatureInflation")
+
+EPISODES["nncalc01"] = ("episodes/nncalc01_same_answers/scene.py", "SameAnswersDifferentAlgorithms")
+EPISODES["nncalc01_shorts"] = ("episodes/nncalc01_same_answers/scene_shorts.py", "SameAnswersShorts")
+EPISODES["nncalc02"] = ("episodes/nncalc02_induction_heads/scene.py", "InductionHeads")
+EPISODES["nncalc02_shorts"] = ("episodes/nncalc02_induction_heads/scene.py", "InductionHeadsShorts")
+EPISODES["nncalc03"] = ("episodes/nncalc03_patterning/scene.py", "Patterning")
+EPISODES["nncalc03_shorts"] = ("episodes/nncalc03_patterning/scene.py", "PatterningShorts")
+EPISODES["nncalc04"] = ("episodes/nncalc04_feature_superposition/scene.py", "FeatureSuperposition")
+EPISODES["nncalc04_shorts"] = ("episodes/nncalc04_feature_superposition/scene.py", "FeatureSuperpositionShorts")
+EPISODES["nncalc05"] = ("episodes/nncalc05_sparse_autoencoders/scene.py", "SparseAutoencoders")
+EPISODES["nncalc05_shorts"] = ("episodes/nncalc05_sparse_autoencoders/scene.py", "SparseAutoencodersShorts")
+EPISODES["nncalc06"] = ("episodes/nncalc06_circuit_tracing/scene.py", "CircuitTracing")
+EPISODES["nncalc06_shorts"] = ("episodes/nncalc06_circuit_tracing/scene.py", "CircuitTracingShorts")
+EPISODES["nncalc07"] = ("episodes/nncalc07_probing_intervention/scene.py", "ProbingIntervention")
+EPISODES["nncalc07_shorts"] = ("episodes/nncalc07_probing_intervention/scene.py", "ProbingInterventionShorts")
+EPISODES["nncalc08"] = ("episodes/nncalc08_finale/scene.py", "InterpretabilityPatterningFinale")
+EPISODES["nncalc08_shorts"] = ("episodes/nncalc08_finale/scene.py", "InterpretabilityPatterningFinaleShorts")
 
 def main():
     p = argparse.ArgumentParser()
@@ -252,7 +279,10 @@ def main():
     a = p.parse_args()
     source, scene = EPISODES[a.episode]
     env = os.environ.copy()
-    env.update(VIDEO_WIDTH="360" if a.preview else "1080", VIDEO_HEIGHT="640" if a.preview else "1920")
+    if a.episode in ("nncalc01", "nncalc02", "nncalc03", "nncalc04", "nncalc05", "nncalc06", "nncalc07", "nncalc08"):
+        env.update(VIDEO_WIDTH="640" if a.preview else "1920", VIDEO_HEIGHT="360" if a.preview else "1080")
+    else:
+        env.update(VIDEO_WIDTH="360" if a.preview else "1080", VIDEO_HEIGHT="640" if a.preview else "1920")
     media = ROOT / "media" / a.episode / ("preview" if a.preview else "final")
     subprocess.run([sys.executable, "-m", "manim", "render", source, scene, "--media_dir", str(media)], cwd=ROOT, env=env, check=True)
     latest = max((media / "videos").rglob(scene + ".mp4"), key=lambda p: p.stat().st_mtime)

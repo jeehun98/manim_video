@@ -1,0 +1,1245 @@
+Manim Community v0.21.0
+
+[10/20/26 12:55:09] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 0: FadeIn(VGroup of 5 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+                                                                                   
+                    INFO     Animation 0 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00000.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 1: Create(ParametricFunction):   0%|          | 0/51 [00:00<?, ?it/s]
+Animation 1: Create(ParametricFunction):  45%|####5     | 23/51 [00:00<00:00, 229.50it/s]
+Animation 1: Create(ParametricFunction):  90%|######### | 46/51 [00:00<00:00, 186.18it/s]
+                                                                                         
+[10/20/26 12:55:10] INFO     Animation 1 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00001.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:55:11] INFO     Animation 2 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00002.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 3: FadeIn(VGroup of 5 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+                                                                                   
+                    INFO     Animation 3 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00003.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 4: Create(ParametricFunction):   0%|          | 0/51 [00:00<?, ?it/s]
+Animation 4: Create(ParametricFunction):  47%|####7     | 24/51 [00:00<00:00, 239.49it/s]
+Animation 4: Create(ParametricFunction):  94%|#########4| 48/51 [00:00<00:00, 175.78it/s]
+                                                                                         
+[10/20/26 12:55:12] INFO     Animation 4 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00004.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:55:13] INFO     Animation 5 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00005.m                         
+                             p4'                                               
+[10/20/26 12:55:14] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 6: FadeIn(VGroup of 5 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+                                                                                   
+                    INFO     Animation 6 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00006.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 7: Create(ParametricFunction):   0%|          | 0/51 [00:00<?, ?it/s]
+Animation 7: Create(ParametricFunction):  45%|####5     | 23/51 [00:00<00:00, 227.13it/s]
+Animation 7: Create(ParametricFunction):  90%|######### | 46/51 [00:00<00:00, 186.84it/s]
+                                                                                         
+[10/20/26 12:55:15] INFO     Animation 7 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00007.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+                    INFO     Animation 8 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00008.m                         
+                             p4'                                               
+[10/20/26 12:55:16] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 9: FadeIn(VGroup of 21 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 9: FadeIn(VGroup of 21 submobjects):  75%|#######5  | 6/8 [00:00<00:00, 59.14it/s]
+                                                                                            
+                    INFO     Animation 9 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00009.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:55:18] INFO     Animation 10 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00010.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 11: FadeIn(VGroup of 21 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 11: FadeIn(VGroup of 21 submobjects):  88%|########7 | 7/8 [00:00<00:00, 59.70it/s]
+                                                                                             
+[10/20/26 12:55:19] INFO     Animation 11 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00011.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:55:20] INFO     Animation 12 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00012.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 13: FadeIn(VGroup of 21 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 13: FadeIn(VGroup of 21 submobjects):  75%|#######5  | 6/8 [00:00<00:00, 59.30it/s]
+                                                                                             
+                    INFO     Animation 13 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00013.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 14: Indicate(Text('Softmax(z + c��1) = Softmax(z)')):   0%|          | 0/21 [00:00<?, ?it/s]
+Animation 14: Indicate(Text('Softmax(z + c��1) = Softmax(z)')):  43%|####2     | 9/21 [00:00<00:00, 89.79it/s]
+Animation 14: Indicate(Text('Softmax(z + c��1) = Softmax(z)')):  86%|########5 | 18/21 [00:00<00:00, 88.77it/s]
+                                                                                                              
+[10/20/26 12:55:21] INFO     Animation 14 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00014.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:55:22] INFO     Animation 15 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00015.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 16: FadeIn(VGroup of 21 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 16: FadeIn(VGroup of 21 submobjects):  75%|#######5  | 6/8 [00:00<00:00, 56.67it/s]
+                                                                                             
+[10/20/26 12:55:23] INFO     Animation 16 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00016.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 17: Transform(Rectangle), etc.:   0%|          | 0/45 [00:00<?, ?it/s]
+Animation 17: Transform(Rectangle), etc.:  20%|##        | 9/45 [00:00<00:00, 78.45it/s]
+Animation 17: Transform(Rectangle), etc.:  40%|####      | 18/45 [00:00<00:00, 81.09it/s]
+Animation 17: Transform(Rectangle), etc.:  60%|######    | 27/45 [00:00<00:00, 82.73it/s]
+Animation 17: Transform(Rectangle), etc.:  80%|########  | 36/45 [00:00<00:00, 84.06it/s]
+Animation 17: Transform(Rectangle), etc.: 100%|##########| 45/45 [00:00<00:00, 85.94it/s]
+                                                                                         
+                    INFO     Animation 17 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00017.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:55:24] INFO     Animation 18 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00018.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 19: FadeIn(VGroup of 21 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 19: FadeIn(VGroup of 21 submobjects):  88%|########7 | 7/8 [00:00<00:00, 58.73it/s]
+                                                                                             
+[10/20/26 12:55:25] INFO     Animation 19 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00019.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 20: Transform(Rectangle), etc.:   0%|          | 0/45 [00:00<?, ?it/s]
+Animation 20: Transform(Rectangle), etc.:  20%|##        | 9/45 [00:00<00:00, 80.49it/s]
+Animation 20: Transform(Rectangle), etc.:  40%|####      | 18/45 [00:00<00:00, 82.00it/s]
+Animation 20: Transform(Rectangle), etc.:  60%|######    | 27/45 [00:00<00:00, 82.72it/s]
+Animation 20: Transform(Rectangle), etc.:  80%|########  | 36/45 [00:00<00:00, 82.93it/s]
+Animation 20: Transform(Rectangle), etc.: 100%|##########| 45/45 [00:00<00:00, 77.09it/s]
+                                                                                         
+                    INFO     Animation 20 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00020.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:55:26] INFO     Animation 21 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00021.m                         
+                             p4'                                               
+[10/20/26 12:55:27] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 22: FadeIn(VGroup of 21 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 22: FadeIn(VGroup of 21 submobjects):  88%|########7 | 7/8 [00:00<00:00, 58.71it/s]
+                                                                                             
+                    INFO     Animation 22 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00022.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:55:29] INFO     Animation 23 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00023.m                         
+                             p4'                                               
+[10/20/26 12:55:30] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 24: FadeIn(VGroup of 21 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 24: FadeIn(VGroup of 21 submobjects):  75%|#######5  | 6/8 [00:00<00:00, 59.48it/s]
+                                                                                             
+                    INFO     Animation 24 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00024.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:55:31] INFO     Animation 25 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00025.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 26: FadeIn(VGroup of 10 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 26: FadeIn(VGroup of 10 submobjects):  88%|########7 | 7/8 [00:00<00:00, 68.97it/s]
+                                                                                             
+[10/20/26 12:55:32] INFO     Animation 26 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00026.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:55:34] INFO     Animation 27 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00027.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 28: FadeIn(VGroup of 10 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 28: FadeIn(VGroup of 10 submobjects): 100%|##########| 8/8 [00:00<00:00, 77.29it/s]
+                                                                                             
+                    INFO     Animation 28 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00028.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 29: _MethodAnimation(Arrow), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 29: _MethodAnimation(Arrow), etc.:  37%|###6      | 11/30 [00:00<00:00, 101.06it/s]
+Animation 29: _MethodAnimation(Arrow), etc.:  73%|#######3  | 22/30 [00:00<00:00, 100.98it/s]
+                                                                                             
+[10/20/26 12:55:35] INFO     Animation 29 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00029.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:55:36] INFO     Animation 30 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00030.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 31: FadeIn(VGroup of 10 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 31: FadeIn(VGroup of 10 submobjects): 100%|##########| 8/8 [00:00<00:00, 72.53it/s]
+                                                                                             
+                    INFO     Animation 31 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00031.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:55:38] INFO     Animation 32 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00032.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 33: FadeIn(VGroup of 8 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 33: FadeIn(VGroup of 8 submobjects):  75%|#######5  | 6/8 [00:00<00:00, 55.60it/s]
+                                                                                            
+[10/20/26 12:55:39] INFO     Animation 33 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00033.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:55:41] INFO     Animation 34 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00034.m                         
+                             p4'                                               
+[10/20/26 12:55:42] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 35: FadeIn(VGroup of 10 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 35: FadeIn(VGroup of 10 submobjects): 100%|##########| 8/8 [00:00<00:00, 76.59it/s]
+                                                                                             
+                    INFO     Animation 35 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00035.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 36: FadeOut(Arrow):   0%|          | 0/27 [00:00<?, ?it/s]
+Animation 36: FadeOut(Arrow):  41%|####      | 11/27 [00:00<00:00, 104.56it/s]
+Animation 36: FadeOut(Arrow):  81%|########1 | 22/27 [00:00<00:00, 103.15it/s]
+                                                                              
+                    INFO     Animation 36 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00036.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:55:43] INFO     Animation 37 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00037.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 38: FadeIn(VGroup of 10 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 38: FadeIn(VGroup of 10 submobjects): 100%|##########| 8/8 [00:00<00:00, 75.44it/s]
+                                                                                             
+[10/20/26 12:55:44] INFO     Animation 38 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00038.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 39: Indicate(Arrow):   0%|          | 0/24 [00:00<?, ?it/s]
+Animation 39: Indicate(Arrow):  46%|####5     | 11/24 [00:00<00:00, 100.92it/s]
+Animation 39: Indicate(Arrow):  92%|#########1| 22/24 [00:00<00:00, 99.09it/s] 
+                                                                              
+                    INFO     Animation 39 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00039.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:55:45] INFO     Animation 40 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00040.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 41: FadeIn(VGroup of 10 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 41: FadeIn(VGroup of 10 submobjects): 100%|##########| 8/8 [00:00<00:00, 76.88it/s]
+                                                                                             
+[10/20/26 12:55:46] INFO     Animation 41 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00041.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 42: Indicate(Arrow):   0%|          | 0/24 [00:00<?, ?it/s]
+Animation 42: Indicate(Arrow):  46%|####5     | 11/24 [00:00<00:00, 101.17it/s]
+Animation 42: Indicate(Arrow):  92%|#########1| 22/24 [00:00<00:00, 100.76it/s]
+                                                                               
+                    INFO     Animation 42 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00042.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:55:47] INFO     Animation 43 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00043.m                         
+                             p4'                                               
+[10/20/26 12:55:48] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 44: FadeIn(VGroup of 13 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 44: FadeIn(VGroup of 13 submobjects):  50%|#####     | 4/8 [00:00<00:00, 39.87it/s]
+Animation 44: FadeIn(VGroup of 13 submobjects): 100%|##########| 8/8 [00:00<00:00, 38.77it/s]
+                                                                                             
+                    INFO     Animation 44 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00044.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:55:49] INFO     Animation 45 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00045.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 46: FadeIn(VGroup of 13 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 46: FadeIn(VGroup of 13 submobjects):  62%|######2   | 5/8 [00:00<00:00, 41.48it/s]
+                                                                                             
+[10/20/26 12:55:50] INFO     Animation 46 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00046.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:55:51] INFO     Animation 47 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00047.m                         
+                             p4'                                               
+[10/20/26 12:55:52] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 48: FadeIn(VGroup of 16 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 48: FadeIn(VGroup of 16 submobjects):  50%|#####     | 4/8 [00:00<00:00, 37.02it/s]
+Animation 48: FadeIn(VGroup of 16 submobjects): 100%|##########| 8/8 [00:00<00:00, 36.04it/s]
+                                                                                             
+                    INFO     Animation 48 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00048.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:55:54] INFO     Animation 49 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00049.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 50: FadeIn(VGroup of 9 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 50: FadeIn(VGroup of 9 submobjects): 100%|##########| 8/8 [00:00<00:00, 75.51it/s]
+                                                                                            
+                    INFO     Animation 50 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00050.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:55:55] INFO     Animation 51 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00051.m                         
+                             p4'                                               
+[10/20/26 12:55:56] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 52: FadeIn(VGroup of 8 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 52: FadeIn(VGroup of 8 submobjects):  88%|########7 | 7/8 [00:00<00:00, 68.06it/s]
+                                                                                            
+                    INFO     Animation 52 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00052.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:55:57] INFO     Animation 53 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00053.m                         
+                             p4'                                               
+[10/20/26 12:55:58] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 54: FadeIn(VGroup of 9 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 54: FadeIn(VGroup of 9 submobjects):  88%|########7 | 7/8 [00:00<00:00, 68.62it/s]
+                                                                                            
+                    INFO     Animation 54 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00054.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:56:00] INFO     Animation 55 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00055.m                         
+                             p4'                                               
+[10/20/26 12:56:01] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 56: FadeIn(VGroup of 12 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 56: FadeIn(VGroup of 12 submobjects):  88%|########7 | 7/8 [00:00<00:00, 62.19it/s]
+                                                                                             
+                    INFO     Animation 56 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00056.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 57: Transform(Arrow):   0%|          | 0/10 [00:00<?, ?it/s]
+Animation 57: Transform(Arrow):  90%|######### | 9/10 [00:00<00:00, 84.95it/s]
+                                                                              
+[10/20/26 12:56:02] INFO     Animation 57 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00057.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 58: Transform(Arrow):   0%|          | 0/10 [00:00<?, ?it/s]
+Animation 58: Transform(Arrow):  90%|######### | 9/10 [00:00<00:00, 87.70it/s]
+                                                                              
+                    INFO     Animation 58 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00058.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 59: Transform(Arrow):   0%|          | 0/10 [00:00<?, ?it/s]
+Animation 59: Transform(Arrow):  90%|######### | 9/10 [00:00<00:00, 81.68it/s]
+                                                                              
+                    INFO     Animation 59 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00059.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 60: Transform(Arrow):   0%|          | 0/10 [00:00<?, ?it/s]
+Animation 60: Transform(Arrow):  80%|########  | 8/10 [00:00<00:00, 76.75it/s]
+                                                                              
+                    INFO     Animation 60 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00060.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 61: Transform(Arrow):   0%|          | 0/10 [00:00<?, ?it/s]
+Animation 61: Transform(Arrow):  80%|########  | 8/10 [00:00<00:00, 69.83it/s]
+                                                                              
+                    INFO     Animation 61 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00061.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 62: Transform(Arrow):   0%|          | 0/10 [00:00<?, ?it/s]
+Animation 62: Transform(Arrow):  90%|######### | 9/10 [00:00<00:00, 87.34it/s]
+                                                                              
+[10/20/26 12:56:03] INFO     Animation 62 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00062.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:56:04] INFO     Animation 63 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00063.m                         
+                             p4'                                               
+[10/20/26 12:56:05] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 64: FadeIn(VGroup of 12 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 64: FadeIn(VGroup of 12 submobjects):  75%|#######5  | 6/8 [00:00<00:00, 55.67it/s]
+                                                                                             
+                    INFO     Animation 64 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00064.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 65: Transform(Arrow):   0%|          | 0/10 [00:00<?, ?it/s]
+Animation 65: Transform(Arrow):  80%|########  | 8/10 [00:00<00:00, 67.79it/s]
+                                                                              
+                    INFO     Animation 65 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00065.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 66: Transform(Arrow):   0%|          | 0/10 [00:00<?, ?it/s]
+Animation 66: Transform(Arrow):  70%|#######   | 7/10 [00:00<00:00, 66.27it/s]
+                                                                              
+                    INFO     Animation 66 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00066.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 67: Transform(Arrow):   0%|          | 0/10 [00:00<?, ?it/s]
+Animation 67: Transform(Arrow):  80%|########  | 8/10 [00:00<00:00, 78.98it/s]
+                                                                              
+[10/20/26 12:56:06] INFO     Animation 67 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00067.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 68: Transform(Arrow):   0%|          | 0/10 [00:00<?, ?it/s]
+Animation 68: Transform(Arrow):  90%|######### | 9/10 [00:00<00:00, 87.76it/s]
+                                                                              
+                    INFO     Animation 68 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00068.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 69: Transform(Arrow):   0%|          | 0/10 [00:00<?, ?it/s]
+Animation 69: Transform(Arrow):  90%|######### | 9/10 [00:00<00:00, 82.85it/s]
+                                                                              
+                    INFO     Animation 69 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00069.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 70: Transform(Arrow):   0%|          | 0/10 [00:00<?, ?it/s]
+Animation 70: Transform(Arrow):  90%|######### | 9/10 [00:00<00:00, 80.04it/s]
+                                                                              
+                    INFO     Animation 70 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00070.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:56:08] INFO     Animation 71 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00071.m                         
+                             p4'                                               
+[10/20/26 12:56:09] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 72: FadeIn(VGroup of 11 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 72: FadeIn(VGroup of 11 submobjects):  75%|#######5  | 6/8 [00:00<00:00, 59.82it/s]
+                                                                                             
+                    INFO     Animation 72 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00072.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 73: Create(ParametricFunction), etc.:   0%|          | 0/36 [00:00<?, ?it/s]
+Animation 73: Create(ParametricFunction), etc.:  25%|##5       | 9/36 [00:00<00:00, 81.10it/s]
+Animation 73: Create(ParametricFunction), etc.:  50%|#####     | 18/36 [00:00<00:00, 75.38it/s]
+Animation 73: Create(ParametricFunction), etc.:  72%|#######2  | 26/36 [00:00<00:00, 74.16it/s]
+Animation 73: Create(ParametricFunction), etc.:  94%|#########4| 34/36 [00:00<00:00, 69.39it/s]
+                                                                                               
+[10/20/26 12:56:10] INFO     Animation 73 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00073.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:56:11] INFO     Animation 74 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00074.m                         
+                             p4'                                               
+[10/20/26 12:56:12] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 75: FadeIn(VGroup of 11 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 75: FadeIn(VGroup of 11 submobjects):  75%|#######5  | 6/8 [00:00<00:00, 56.84it/s]
+                                                                                             
+                    INFO     Animation 75 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00075.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 76: Create(ParametricFunction), etc.:   0%|          | 0/36 [00:00<?, ?it/s]
+Animation 76: Create(ParametricFunction), etc.:  22%|##2       | 8/36 [00:00<00:00, 74.90it/s]
+Animation 76: Create(ParametricFunction), etc.:  44%|####4     | 16/36 [00:00<00:00, 70.49it/s]
+Animation 76: Create(ParametricFunction), etc.:  67%|######6   | 24/36 [00:00<00:00, 72.10it/s]
+Animation 76: Create(ParametricFunction), etc.:  89%|########8 | 32/36 [00:00<00:00, 70.18it/s]
+                                                                                               
+[10/20/26 12:56:13] INFO     Animation 76 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00076.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:56:14] INFO     Animation 77 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00077.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 78: FadeIn(VGroup of 11 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 78: FadeIn(VGroup of 11 submobjects):  75%|#######5  | 6/8 [00:00<00:00, 56.92it/s]
+                                                                                             
+[10/20/26 12:56:15] INFO     Animation 78 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00078.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 79: Circumscribe(Group):   0%|          | 0/18 [00:00<?, ?it/s]
+                                                                         
+                    INFO     Animation 79 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00079.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 80: Circumscribe(Group):   0%|          | 0/18 [00:00<?, ?it/s]
+                                                                         
+                    INFO     Animation 80 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00080.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 81: Circumscribe(Group):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 81: Circumscribe(Group): 100%|##########| 18/18 [00:00<00:00, 178.14it/s]
+                                                                                   
+[10/20/26 12:56:16] INFO     Animation 81 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00081.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:56:19] INFO     Animation 82 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00082.m                         
+                             p4'                                               
+[10/20/26 12:56:20] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 83: FadeIn(VGroup of 6 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 83: FadeIn(VGroup of 6 submobjects):  88%|########7 | 7/8 [00:00<00:00, 60.78it/s]
+                                                                                            
+                    INFO     Animation 83 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00083.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:56:21] INFO     Animation 84 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00084.m                         
+                             p4'                                               
+[10/20/26 12:56:22] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 85: FadeIn(VGroup of 6 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 85: FadeIn(VGroup of 6 submobjects): 100%|##########| 8/8 [00:00<00:00, 69.85it/s]
+                                                                                            
+                    INFO     Animation 85 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00085.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:56:23] INFO     Animation 86 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00086.m                         
+                             p4'                                               
+[10/20/26 12:56:24] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 87: FadeIn(VGroup of 16 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 87: FadeIn(VGroup of 16 submobjects):  50%|#####     | 4/8 [00:00<00:00, 37.56it/s]
+Animation 87: FadeIn(VGroup of 16 submobjects): 100%|##########| 8/8 [00:00<00:00, 36.15it/s]
+                                                                                             
+                    INFO     Animation 87 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00087.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:56:26] INFO     Animation 88 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00088.m                         
+                             p4'                                               
+[10/20/26 12:56:27] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 89: FadeIn(VGroup of 11 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 89: FadeIn(VGroup of 11 submobjects):  88%|########7 | 7/8 [00:00<00:00, 61.66it/s]
+                                                                                             
+                    INFO     Animation 89 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00089.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 90: Create(ParametricFunction), etc.:   0%|          | 0/36 [00:00<?, ?it/s]
+Animation 90: Create(ParametricFunction), etc.:  28%|##7       | 10/36 [00:00<00:00, 90.14it/s]
+Animation 90: Create(ParametricFunction), etc.:  56%|#####5    | 20/36 [00:00<00:00, 86.86it/s]
+Animation 90: Create(ParametricFunction), etc.:  81%|########  | 29/36 [00:00<00:00, 83.87it/s]
+                                                                                               
+                    INFO     Animation 90 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00090.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:56:28] INFO     Animation 91 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00091.m                         
+                             p4'                                               
+[10/20/26 12:56:29] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 92: FadeIn(VGroup of 16 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 92: FadeIn(VGroup of 16 submobjects):  50%|#####     | 4/8 [00:00<00:00, 35.84it/s]
+Animation 92: FadeIn(VGroup of 16 submobjects): 100%|##########| 8/8 [00:00<00:00, 35.69it/s]
+                                                                                             
+                    INFO     Animation 92 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00092.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:56:31] INFO     Animation 93 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00093.m                         
+                             p4'                                               
+[10/20/26 12:56:32] INFO     Caching disabled.             cairo_renderer.py:81
+
+Animation 94: FadeIn(VGroup of 6 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 94: FadeIn(VGroup of 6 submobjects): 100%|##########| 8/8 [00:00<00:00, 75.83it/s]
+                                                                                            
+                    INFO     Animation 94 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00094.m                         
+                             p4'                                               
+                    INFO     Caching disabled.             cairo_renderer.py:81
+[10/20/26 12:56:33] INFO     Animation 95 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \paradox09\final\videos\s                         
+                             cene\1920p30\partial_movi                         
+                             e_files\NumericalFeatureI                         
+                             nflation\uncached_00095.m                         
+                             p4'                                               
+                    INFO     Combining to Movie file.  scene_file_writer.py:952
+[10/20/26 12:56:34] INFO                              scene_file_writer.py:1103
+                             File ready at                                     
+                             'C:\Users\as042\OneDrive                          
+                             \Desktop\manim_video\med                          
+                             ia\paradox09\final\video                          
+                             s\scene\1920p30\Numerica                          
+                             lFeatureInflation.mp4'                            
+                                                                               
+                    INFO     Rendered NumericalFeatureInflation    scene.py:290
+                             Played 96 animations                              
+Export: C:\Users\as042\OneDrive\Desktop\manim_video\exports\paradox09.mp4
