@@ -1,0 +1,64 @@
+id: eigen03_invariants
+title: 행렬의 숫자가 바뀌어도 변하지 않는 것은?
+video:
+  fps: 30
+  variants:
+    shorts: [1080, 1920]
+    longform: [1920, 1080]
+scenes:
+  - id: "01"
+    directory: scenes/01
+    class: Scene01
+    duration_seconds: 9
+  - id: "02"
+    directory: scenes/02
+    class: Scene02
+    duration_seconds: 9
+  - id: "03"
+    directory: scenes/03
+    class: Scene03
+    duration_seconds: 6
+  - id: "04"
+    directory: scenes/04
+    class: Scene04
+    duration_seconds: 9
+  - id: "05"
+    directory: scenes/05
+    class: Scene05
+    duration_seconds: 11
+  - id: "06"
+    directory: scenes/06
+    class: Scene06
+    duration_seconds: 9
+  - id: "07"
+    directory: scenes/07
+    class: Scene07
+    duration_seconds: 7
+  - id: "08"
+    directory: scenes/08
+    class: Scene08
+    duration_seconds: 9
+  - id: "09"
+    directory: scenes/09
+    class: Scene09
+    duration_seconds: 6
+  - id: "10"
+    directory: scenes/10
+    class: Scene10
+    duration_seconds: 12
+  - id: "11"
+    directory: scenes/11
+    class: Scene11
+    duration_seconds: 9
+  - id: "12"
+    directory: scenes/12
+    class: Scene12
+    duration_seconds: 11
+  - id: "13"
+    directory: scenes/13
+    class: Scene13
+    duration_seconds: 7
+  - id: "14"
+    directory: scenes/14
+    class: Scene14
+    duration_seconds: 7

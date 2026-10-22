@@ -1376,3 +1376,7 @@ python scripts/render.py learn01
 ### 고윳값과 고유벡터 · 2막
 
 [숫자가 다른 두 행렬이 같은 변환일 수 있을까?](longforms/eigen02_same_map/README.md) — 120초, 문장별 종료 시각27개, 세로 쇼츠·가로 롱폼. `python longforms/eigen02_same_map/build.py --preview` / `python longforms/eigen02_same_map/build.py`. 자막 포함본은 `python longforms/eigen02_same_map/add_captions.py`.
+
+### 고윳값과 고유벡터 · 3막
+
+[행렬의 숫자가 바뀌어도 변하지 않는 것은?](longforms/eigen03_invariants/README.md) — 121초, 문장별 종료 시각27개. 실행: `python longforms/eigen03_invariants/build.py --preview` / `python longforms/eigen03_invariants/build.py`. 자막 포함본: `python longforms/eigen03_invariants/add_captions.py`. 세로 쇼츠·가로 롱폼 두 버전.

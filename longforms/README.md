@@ -82,3 +82,5 @@ longforms/<ID>_<slug>/
 - [1막 — 행렬을 계속 곱하면 왜 특정 방향만 남을까?](eigen01_dominant_direction/README.md): 사용자 콘티 기준 119초, 14개 독립 씬. 세로 쇼츠·가로 롱폼 두 버전. `python longforms/eigen01_dominant_direction/build.py --preview` 또는 `python longforms/eigen01_dominant_direction/build.py`. TTS 음원 미제공으로 무음 제작.
 
 - [2막 — 숫자가 다른 두 행렬이 같은 변환일 수 있을까?](eigen02_same_map/README.md): 사용자 문장별 종료 시각27개 기준120초, 13개 독립 씬. 세로 쇼츠·가로 롱폼 및 핵심 자막. `python longforms/eigen02_same_map/build.py --preview` / `python longforms/eigen02_same_map/build.py`, 자막은 `python longforms/eigen02_same_map/add_captions.py`. 음원 미제공으로 무음 제작.
+
+- [3막 — 행렬의 숫자가 바뀌어도 변하지 않는 것은?](eigen03_invariants/README.md): 사용자 문장 종료 시각27개 기준121초, 14개 독립 씬. 연속 기저 변경·불변량·항등/전단 반례. `python longforms/eigen03_invariants/build.py --preview` / `python longforms/eigen03_invariants/build.py`, 핵심 자막은 `python longforms/eigen03_invariants/add_captions.py`. 세로 쇼츠·가로 롱폼 무음 제작.
