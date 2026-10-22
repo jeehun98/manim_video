@@ -1,0 +1,52 @@
+{
+  "photo_source": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\longforms\\xai01_cat_mystery\\assets\\cat_photo.png",
+  "source_kind": "existing photorealistic generated image; see xai01_cat_mystery/assets/generation.md",
+  "photo_shape": [
+    192,
+    160
+  ],
+  "photo_errors": {
+    "1": {
+      "squared_frobenius": 827.6137995757841,
+      "relative_frobenius": 0.2197458307812241,
+      "discarded_sigma_squared_sum": 827.6137995757853
+    },
+    "2": {
+      "squared_frobenius": 566.8881507473968,
+      "relative_frobenius": 0.18186765704892277,
+      "discarded_sigma_squared_sum": 566.8881507473972
+    },
+    "5": {
+      "squared_frobenius": 241.66809860743925,
+      "relative_frobenius": 0.11874530432193495,
+      "discarded_sigma_squared_sum": 241.66809860743922
+    },
+    "10": {
+      "squared_frobenius": 132.3045144479582,
+      "relative_frobenius": 0.08786058971721702,
+      "discarded_sigma_squared_sum": 132.3045144479582
+    }
+  },
+  "display": "grayscale display clips to [0,1]; all ranks/errors computed on unclipped float matrices",
+  "rank3_squared_error": 1.2899999999999998,
+  "rank2_example": {
+    "sigma": [
+      8,
+      4,
+      2
+    ],
+    "keep_8_4_error": 4,
+    "keep_8_2_error": 16
+  },
+  "marker": {
+    "sigma": [
+      8.0,
+      0.30000000000000004
+    ],
+    "original_score": 0.15000000000000002,
+    "rank1_score": 0.0,
+    "threshold": 0.075,
+    "squared_frobenius_error": 0.09000000000000002,
+    "relative_frobenius_error": 0.037473660589094286
+  }
+}

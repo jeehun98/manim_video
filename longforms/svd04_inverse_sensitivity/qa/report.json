@@ -1,0 +1,20 @@
+{
+  "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\svd04_inverse_sensitivity_176s_1080p30.mp4",
+  "duration_seconds": 176,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "decoded_frames": 5280,
+  "audio": "none; source audio not supplied",
+  "timing_source": "34 user-supplied sentence endpoints",
+  "checks": [
+    "monotonic frame timestamps",
+    "exact duration and frame count",
+    "20 independent scenes joined",
+    "21 final-video sample frames extracted",
+    "maximum response gold/purple minimum comparison palette",
+    "final selected output is one point, not the entire range line"
+  ]
+}

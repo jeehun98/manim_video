@@ -1,0 +1,83 @@
+id: svd_information_map
+status: script_draft
+video:
+  width: 1920
+  height: 1080
+  fps: 30
+scenes:
+  - id: '01'
+    act: 1
+    directory: scenes/01
+    duration_seconds: null
+    transition: cut
+  - id: '02'
+    act: 1
+    directory: scenes/02
+    duration_seconds: null
+    transition: cut
+  - id: '03'
+    act: 1
+    directory: scenes/03
+    duration_seconds: null
+    transition: cut
+  - id: '04'
+    act: 2
+    directory: scenes/04
+    duration_seconds: null
+    transition: cut
+  - id: '05'
+    act: 2
+    directory: scenes/05
+    duration_seconds: null
+    transition: cut
+  - id: '06'
+    act: 3
+    directory: scenes/06
+    duration_seconds: null
+    transition: cut
+  - id: '07'
+    act: 3
+    directory: scenes/07
+    duration_seconds: null
+    transition: cut
+  - id: '08'
+    act: 3
+    directory: scenes/08
+    duration_seconds: null
+    transition: cut
+  - id: '09'
+    act: 4
+    directory: scenes/09
+    duration_seconds: null
+    transition: cut
+  - id: '10'
+    act: 4
+    directory: scenes/10
+    duration_seconds: null
+    transition: cut
+  - id: '11'
+    act: 4
+    directory: scenes/11
+    duration_seconds: null
+    transition: cut
+  - id: '12'
+    act: 5
+    directory: scenes/12
+    duration_seconds: null
+    transition: cut
+  - id: '13'
+    act: 5
+    directory: scenes/13
+    duration_seconds: null
+    transition: cut
+  - id: '14'
+    act: 5
+    directory: scenes/14
+    duration_seconds: null
+    transition: cut
+  - id: '15'
+    act: 5
+    directory: scenes/15
+    duration_seconds: null
+    transition: cut
+

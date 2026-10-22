@@ -272,6 +272,8 @@ EPISODES["nncalc07_shorts"] = ("episodes/nncalc07_probing_intervention/scene.py"
 EPISODES["nncalc08"] = ("episodes/nncalc08_finale/scene.py", "InterpretabilityPatterningFinale")
 EPISODES["nncalc08_shorts"] = ("episodes/nncalc08_finale/scene.py", "InterpretabilityPatterningFinaleShorts")
 
+EPISODES["learn01"] = ("episodes/learn01_after_accuracy/scene.py", "AfterAccuracy")
+
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("episode", choices=EPISODES)

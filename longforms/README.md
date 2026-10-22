@@ -67,3 +67,18 @@ longforms/<ID>_<slug>/
 - `narration.mp3`, 씬별 MP4, 최종 MP4는 생성물이며 Git에 커밋하지 않는다.
 - 렌더·mux·concat 자동화 스크립트가 추가되면 프로젝트 `README.md`에 정확한 실행 명령과 필요한 도구 버전을 기록한다.
 - 현재 저장소의 `scripts/render.py`는 기존 에피소드용이다. 롱폼 지원이 구현되기 전에는 롱폼을 자동으로 처리한다고 가정하지 않는다.
+
+## SVD 관측 실험
+
+- [1막 — 서로 다른 입력을 행렬은 구별할 수 있을까?](svd01_distinguish_inputs/README.md): 사용자 문장 종료 시각 기준 133초. 16개 독립 씬을 결합하는 가로형 영상. 실행: `python longforms/svd01_distinguish_inputs/build.py --preview` 또는 `python longforms/svd01_distinguish_inputs/build.py`.
+- [이전 전체 초안](svd_information_map/README.md): 관점 전환 전 5막·15씬 자료. 현재 1막 제작본과 구분한다.
+- [2막 — 행렬이 가장 잘 구별하는 방향은 어디일까?](svd02_direction_map/README.md): 사용자 문장 종료 시각 기준154초, 독립 씬20개. 실행: `python longforms/svd02_direction_map/build.py --preview` 또는 `python longforms/svd02_direction_map/build.py`.
+- [3막 — 행렬은 하나의 입력을 어떻게 읽어낼까?](svd03_read_and_reassemble/README.md): 사용자 문장 종료 시각 기준152초, 독립 씬23개. 실행: `python longforms/svd03_read_and_reassemble/build.py --preview` 또는 `python longforms/svd03_read_and_reassemble/build.py`.
+- [4편 — 출력에 남은 정보를 되돌리면 왜 오차가 커질까?](svd04_inverse_sensitivity/README.md): 사용자 문장 종료 시각 기준176초, 독립 씬20개. 실행: `python longforms/svd04_inverse_sensitivity/build.py --preview` 또는 `python longforms/svd04_inverse_sensitivity/build.py`.
+- [5편 — 사라진 정보는 복원할 수 있을까?](svd05_lost_information/README.md): 사용자 문장 종료 시각 기준251초, 독립 씬28개. 실제3D 차원 소실과 계산된 이미지 SVD. 실행: `python longforms/svd05_lost_information/build.py --preview` 또는 `python longforms/svd05_lost_information/build.py`. 1–5편 무음 통합본은 `python longforms/svd05_lost_information/combine_series.py`로 결합한다(866초).
+
+## 고윳값과 고유벡터
+
+- [1막 — 행렬을 계속 곱하면 왜 특정 방향만 남을까?](eigen01_dominant_direction/README.md): 사용자 콘티 기준 119초, 14개 독립 씬. 세로 쇼츠·가로 롱폼 두 버전. `python longforms/eigen01_dominant_direction/build.py --preview` 또는 `python longforms/eigen01_dominant_direction/build.py`. TTS 음원 미제공으로 무음 제작.
+
+- [2막 — 숫자가 다른 두 행렬이 같은 변환일 수 있을까?](eigen02_same_map/README.md): 사용자 문장별 종료 시각27개 기준120초, 13개 독립 씬. 세로 쇼츠·가로 롱폼 및 핵심 자막. `python longforms/eigen02_same_map/build.py --preview` / `python longforms/eigen02_same_map/build.py`, 자막은 `python longforms/eigen02_same_map/add_captions.py`. 음원 미제공으로 무음 제작.

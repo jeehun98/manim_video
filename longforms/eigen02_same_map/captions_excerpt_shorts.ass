@@ -1,0 +1,40 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Malgun Gothic,60,&H00F7F3ED,&H00F7F3ED,&H00101A26,&H80000000,0,0,0,0,100,100,0,0,1,0,0,2,65,65,170,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,,서로 다른 두 행렬
+Dialogue: 0,0:00:01.00,0:00:07.00,Default,,0,0,0,,A에는 2와 1, D의 대각선에는\N3과 1이 놓여 있습니다.
+Dialogue: 0,0:00:07.00,0:00:10.00,Default,,0,0,0,,같은 좌표 숫자를 입력하면\N서로 다른 결과가 나옵니다.
+Dialogue: 0,0:00:10.00,0:00:15.00,Default,,0,0,0,,반드시 서로 다른 변환일까요?
+Dialogue: 0,0:00:15.00,0:00:20.00,Default,,0,0,0,,먼저 둘 다 같은 수평·수직\N좌표계에서 해석하겠습니다.
+Dialogue: 0,0:00:20.00,0:00:25.00,Default,,0,0,0,,A는 수평·수직 성분을\N서로 섞으며 공간을 변형합니다.
+Dialogue: 0,0:00:25.00,0:00:30.00,Default,,0,0,0,,D는 수평으로 3배 늘리고\N수직 방향은 그대로 유지합니다.
+Dialogue: 0,0:00:30.00,0:00:31.00,Default,,0,0,0,,분명 서로 다른 모습입니다.
+Dialogue: 0,0:00:31.00,0:00:34.00,Default,,0,0,0,,한 가지를 바꿔보겠습니다.
+Dialogue: 0,0:00:34.00,0:00:37.00,Default,,0,0,0,,변환 자체가 아니라\N변환을 바라보는 좌표계입니다.
+Dialogue: 0,0:00:37.00,0:00:43.00,Default,,0,0,0,,수평과 수직만이\N좌표축의 선택지는 아닙니다.
+Dialogue: 0,0:00:43.00,0:00:49.00,Default,,0,0,0,,오른쪽 위와 오른쪽 아래를 향하는\N두 대각선을 새 축으로 선택합니다.
+Dialogue: 0,0:00:49.00,0:00:53.00,Default,,0,0,0,,각 축의 단위 눈금도\N새로운 기준에 맞춰 바꿉니다.
+Dialogue: 0,0:00:53.00,0:00:59.00,Default,,0,0,0,,벡터는 움직이지 않았습니다.\N기준과 좌표 숫자만 달라졌습니다.
+Dialogue: 0,0:00:59.00,0:01:04.00,Default,,0,0,0,,같은 벡터의 좌표가\N(2, 1)에서 (1.5, 0.5)로 바뀝니다.
+Dialogue: 0,0:01:04.00,0:01:08.00,Default,,0,0,0,,각 좌표계에서\N각각의 행렬을 적용하겠습니다.
+Dialogue: 0,0:01:08.00,0:01:12.00,Default,,0,0,0,,A를 적용한 표준 좌표는\N(5, 4)입니다.
+Dialogue: 0,0:01:12.00,0:01:17.00,Default,,0,0,0,,D를 적용한 새로운 좌표는\N(4.5, 0.5)입니다.
+Dialogue: 0,0:01:17.00,0:01:19.00,Default,,0,0,0,,출력 좌표 숫자는 서로 다릅니다.
+Dialogue: 0,0:01:19.00,0:01:25.00,Default,,0,0,0,,새 좌표축으로 결과를 그리면\N두 실제 화살표가 겹칩니다.
+Dialogue: 0,0:01:25.00,0:01:29.00,Default,,0,0,0,,다른 숫자로 계산했지만\N같은 실제 벡터에 도달했습니다.
+Dialogue: 0,0:01:29.00,0:01:33.00,Default,,0,0,0,,이 벡터에서만 일어나는\N우연이 아닙니다.
+Dialogue: 0,0:01:33.00,0:01:39.00,Default,,0,0,0,,어떤 벡터도 좌표를 바르게 바꾸면\N같은 실제 결과에 도달합니다.
+Dialogue: 0,0:01:39.00,0:01:46.00,Default,,0,0,0,,새 좌표계에서는 두 방향의\N독립적인 확대와 유지로 보입니다.
+Dialogue: 0,0:01:46.00,0:01:50.00,Default,,0,0,0,,두 축은 이 변환의\N고유벡터 방향입니다.
+Dialogue: 0,0:01:50.00,0:01:55.00,Default,,0,0,0,,같은 변환을 다른 기저로 표현하면\N두 행렬은 닮음 관계입니다.
+Dialogue: 0,0:01:55.00,0:02:00.00,Default,,0,0,0,,행렬의 숫자는 변환의 작용과\N표현의 좌표계를 함께 반영합니다.

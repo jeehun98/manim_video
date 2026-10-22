@@ -1356,3 +1356,23 @@ python scripts/render.py paradox08
 python scripts/render.py paradox09 --preview
 python scripts/render.py paradox09
 ```
+
+
+## 정답 이후의 신경망 (단일 세로 영상)
+
+`episodes/learn01_after_accuracy/`: 사용자 제공 내레이션과 종료 시각에 맞춘 141초, 9:16 독립 영상. `scene.py`, `narration.md`, `brief.md`, `timing.json`, `captions.srt`, `tts_script.txt`, 원본 콘티 포함.
+
+```powershell
+python scripts/render.py learn01 --preview
+python scripts/render.py learn01
+```
+
+출력: `exports/learn01_preview.mp4`, `exports/learn01.mp4` (무음, 음성 원고와 자막 별도).
+
+### 고윳값과 고유벡터 · 1막
+
+[행렬을 계속 곱하면 왜 특정 방향만 남을까?](longforms/eigen01_dominant_direction/README.md) — 119초, 세로 쇼츠(1080×1920)·가로 롱폼(1920×1080), 14개 독립 씬. 실행: `python longforms/eigen01_dominant_direction/build.py --preview` / `python longforms/eigen01_dominant_direction/build.py`. 음원 미제공으로 무음 제작.
+
+### 고윳값과 고유벡터 · 2막
+
+[숫자가 다른 두 행렬이 같은 변환일 수 있을까?](longforms/eigen02_same_map/README.md) — 120초, 문장별 종료 시각27개, 세로 쇼츠·가로 롱폼. `python longforms/eigen02_same_map/build.py --preview` / `python longforms/eigen02_same_map/build.py`. 자막 포함본은 `python longforms/eigen02_same_map/add_captions.py`.

@@ -1,0 +1,24 @@
+{
+  "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\svd05_lost_information_251s_1080p30.mp4",
+  "duration_seconds": 251,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "decoded_frames": 7530,
+  "audio": "none; act 5 audio not supplied",
+  "sentence_endpoints": 52,
+  "independent_scenes": 28,
+  "sampled_frames": 32,
+  "checks": [
+    "all frame timestamps strictly increase",
+    "exact frame count and duration",
+    "continuous approved sentence intervals",
+    "null space versus affine solution set",
+    "minimum norm least squares outside range",
+    "actual SVD image error equals discarded squared singular values",
+    "same rank 2 error comparison: 4 vs 16",
+    "orthogonal local marker is absent from actual rank 1 approximation"
+  ]
+}

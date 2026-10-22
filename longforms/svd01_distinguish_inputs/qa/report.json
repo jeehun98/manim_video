@@ -1,0 +1,18 @@
+{
+  "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\svd01_distinguish_inputs_133s_1080p30.mp4",
+  "duration_seconds": 133,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "decoded_frames": 3990,
+  "audio": "none; source audio not supplied",
+  "timing_source": "26 user-supplied sentence endpoints",
+  "checks": [
+    "monotonic frame timestamps",
+    "exact duration and frame count",
+    "all 16 independent scenes joined",
+    "14 final-video sample frames extracted"
+  ]
+}

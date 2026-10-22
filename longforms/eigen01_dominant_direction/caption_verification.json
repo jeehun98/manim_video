@@ -1,0 +1,28 @@
+{
+  "revision": 2,
+  "burned_cues": 19,
+  "timing_source": "user storyboard",
+  "visual_checks": [
+    "portrait 62s,99s; landscape 99s: no text collisions or clipping"
+  ],
+  "outputs": [
+    {
+      "file": "exports\\eigen01_119s_shorts_final_captioned_v2.mp4",
+      "decode": "pass",
+      "width": 1080,
+      "height": 1920,
+      "r_frame_rate": "30/1",
+      "duration": "119.000000",
+      "nb_read_frames": "3570"
+    },
+    {
+      "file": "exports\\eigen01_119s_longform_final_captioned_v2.mp4",
+      "decode": "pass",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "30/1",
+      "duration": "119.000000",
+      "nb_read_frames": "3570"
+    }
+  ]
+}

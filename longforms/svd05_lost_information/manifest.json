@@ -1,0 +1,254 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01",
+    "class": "Scene01",
+    "start": 0,
+    "end": 11,
+    "duration_seconds": 11,
+    "title": "하나의 출력 여러 입력"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02",
+    "class": "Scene02",
+    "start": 11,
+    "end": 17,
+    "duration_seconds": 6,
+    "title": "세로 차이를 지우는 행렬"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03",
+    "class": "Scene03",
+    "start": 17,
+    "end": 25,
+    "duration_seconds": 8,
+    "title": "입력 이동과 고정된 출력"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04",
+    "class": "Scene04",
+    "start": 25,
+    "end": 37,
+    "duration_seconds": 12,
+    "title": "해 집합은 직선 전체"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05",
+    "class": "Scene05",
+    "start": 37,
+    "end": 44,
+    "duration_seconds": 7,
+    "title": "차이 벡터가 0이 된다"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06",
+    "class": "Scene06",
+    "start": 44,
+    "end": 54,
+    "duration_seconds": 10,
+    "title": "Null Space와 해 집합"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07",
+    "class": "Scene07",
+    "start": 54,
+    "end": 58,
+    "duration_seconds": 4,
+    "title": "관측 불가능한 방향"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08",
+    "class": "Scene08",
+    "start": 58,
+    "end": 65,
+    "duration_seconds": 7,
+    "title": "3차원으로 확장"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09",
+    "class": "Scene09",
+    "start": 65,
+    "end": 76,
+    "duration_seconds": 11,
+    "title": "타원체에서 원판과 선분으로"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10",
+    "class": "Scene10",
+    "start": 76,
+    "end": 85,
+    "duration_seconds": 9,
+    "title": "Rank는 살아남는 차원"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11",
+    "class": "Scene11",
+    "start": 85,
+    "end": 96,
+    "duration_seconds": 11,
+    "title": "원래 입력을 알 수 없다"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12",
+    "class": "Scene12",
+    "start": 96,
+    "end": 103,
+    "duration_seconds": 7,
+    "title": "하나를 선택하는 규칙"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13",
+    "class": "Scene13",
+    "start": 103,
+    "end": 110,
+    "duration_seconds": 7,
+    "title": "특잇값의 의사역수"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14",
+    "class": "Scene14",
+    "start": 110,
+    "end": 117,
+    "duration_seconds": 7,
+    "title": "가능한 해 중 최소 노름"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15",
+    "class": "Scene15",
+    "start": 117,
+    "end": 124,
+    "duration_seconds": 7,
+    "title": "최소제곱과 최소 노름"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16",
+    "class": "Scene16",
+    "start": 124,
+    "end": 131,
+    "duration_seconds": 7,
+    "title": "숨은 성분을 0으로 선택"
+  },
+  {
+    "id": "17",
+    "directory": "scenes/17",
+    "class": "Scene17",
+    "start": 131,
+    "end": 141,
+    "duration_seconds": 10,
+    "title": "이번에는 일부러 버린다"
+  },
+  {
+    "id": "18",
+    "directory": "scenes/18",
+    "class": "Scene18",
+    "start": 141,
+    "end": 152,
+    "duration_seconds": 11,
+    "title": "랭크 1 성분들의 합"
+  },
+  {
+    "id": "19",
+    "directory": "scenes/19",
+    "class": "Scene19",
+    "start": 152,
+    "end": 161,
+    "duration_seconds": 9,
+    "title": "더 적은 성분으로 근사"
+  },
+  {
+    "id": "20",
+    "directory": "scenes/20",
+    "class": "Scene20",
+    "start": 161,
+    "end": 176,
+    "duration_seconds": 15,
+    "title": "실제 계산한 이미지 SVD"
+  },
+  {
+    "id": "21",
+    "directory": "scenes/21",
+    "class": "Scene21",
+    "start": 176,
+    "end": 187,
+    "duration_seconds": 11,
+    "title": "같은 Rank 2 다른 오차"
+  },
+  {
+    "id": "22",
+    "directory": "scenes/22",
+    "class": "Scene22",
+    "start": 187,
+    "end": 191,
+    "duration_seconds": 4,
+    "title": "버린 특잇값의 제곱합"
+  },
+  {
+    "id": "23",
+    "directory": "scenes/23",
+    "class": "Scene23",
+    "start": 191,
+    "end": 205,
+    "duration_seconds": 14,
+    "title": "최적성은 목적에 달려 있다"
+  },
+  {
+    "id": "24",
+    "directory": "scenes/24",
+    "class": "Scene24",
+    "start": 205,
+    "end": 217,
+    "duration_seconds": 12,
+    "title": "처음의 두 점"
+  },
+  {
+    "id": "25",
+    "directory": "scenes/25",
+    "class": "Scene25",
+    "start": 217,
+    "end": 224,
+    "duration_seconds": 7,
+    "title": "방향을 찾고 행렬을 분해"
+  },
+  {
+    "id": "26",
+    "directory": "scenes/26",
+    "class": "Scene26",
+    "start": 224,
+    "end": 231,
+    "duration_seconds": 7,
+    "title": "약한 차이와 사라진 차이"
+  },
+  {
+    "id": "27",
+    "directory": "scenes/27",
+    "class": "Scene27",
+    "start": 231,
+    "end": 239,
+    "duration_seconds": 8,
+    "title": "손실을 활용하는 근사"
+  },
+  {
+    "id": "28",
+    "directory": "scenes/28",
+    "class": "Scene28",
+    "start": 239,
+    "end": 251,
+    "duration_seconds": 12,
+    "title": "하나의 수학적 지도"
+  }
+]
