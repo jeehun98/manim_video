@@ -110,4 +110,6 @@ longforms/<ID>_<slug>/
 
 ## EVD vs SVD ⑤ — 미래 예측
 
+6편: [복원 정확도·133초·23개독립씬](evdsvd06_reconstruction/README.md). 같은10×10 행렬을5개성분으로근사. 고정색상격자와실제Frobenius오차.
+
 [130초·세로/가로 프로젝트](evdsvd05_future/README.md). 고유성분의 반복 변화와 특이값 거듭제곱의 불일치. 실제 사용자 발화 시각 기준.
