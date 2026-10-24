@@ -1,0 +1,1 @@
+다음은 SVD. Singular Value Decomposition, 특이값 분해입니다. Singular는 '특이한', '독특한'이라는 의미를 가지고 있습니다.

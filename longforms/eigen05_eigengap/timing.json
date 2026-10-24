@@ -1,0 +1,340 @@
+{
+  "source": "사용자 제공 문장 종료 시각",
+  "duration_seconds": 146,
+  "sentences": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 6,
+      "text": "데이터의 위치가 아주 조금만 달라졌는데, 인공지능이 찾아낸 데이터의 주요 방향은 크게 바뀔 수 있을까요?"
+    },
+    {
+      "id": 2,
+      "start": 6,
+      "end": 10,
+      "text": "주성분 분석, PCA에서는 이런 현상이 나타날 수 있습니다."
+    },
+    {
+      "id": 3,
+      "start": 10,
+      "end": 13,
+      "text": "평면에 여러 데이터 점들이 놓여 있다고 생각해 보겠습니다."
+    },
+    {
+      "id": 4,
+      "start": 13,
+      "end": 20,
+      "text": "점들이 길쭉한 타원 모양으로 퍼져 있다면, 데이터가 가장 넓게 퍼진 방향을 비교적 쉽게 찾을 수 있습니다."
+    },
+    {
+      "id": 5,
+      "start": 20,
+      "end": 23,
+      "text": "PCA는 바로 이런 방향을 찾는 방법입니다."
+    },
+    {
+      "id": 6,
+      "start": 23,
+      "end": 29,
+      "text": "데이터의 평균을 기준으로 각 점의 위치를 나타내고, 방향에 따른 퍼짐의 정도를 공분산행렬에 담습니다."
+    },
+    {
+      "id": 7,
+      "start": 29,
+      "end": 34,
+      "text": "그리고 이 행렬의 고유벡터를 이용해 데이터가 가장 크게 퍼진 방향을 찾습니다."
+    },
+    {
+      "id": 8,
+      "start": 34,
+      "end": 38,
+      "text": "가장 큰 고윳값에 대응하는 고유벡터가 첫 번째 주성분 방향입니다."
+    },
+    {
+      "id": 9,
+      "start": 38,
+      "end": 43,
+      "text": "그런데 데이터가 길쭉한 타원이 아니라, 원형에 가까운 모습으로 퍼져 있다면 어떨까요?"
+    },
+    {
+      "id": 10,
+      "start": 43,
+      "end": 49,
+      "text": "가로 방향과 세로 방향의 퍼짐이 비슷해지면서, 공분산행렬의 두 고윳값도 가까워집니다."
+    },
+    {
+      "id": 11,
+      "start": 49,
+      "end": 53,
+      "text": "이때는 어느 방향이 가장 크게 퍼져 있는지 구분하기 어려워집니다."
+    },
+    {
+      "id": 12,
+      "start": 53,
+      "end": 58,
+      "text": "이제 데이터 점 몇 개를 조금 움직이거나, 새로운 데이터를 소수 추가해 보겠습니다."
+    },
+    {
+      "id": 13,
+      "start": 58,
+      "end": 61,
+      "text": "전체적인 점들의 분포는 거의 달라지지 않았습니다."
+    },
+    {
+      "id": 14,
+      "start": 61,
+      "end": 67,
+      "text": "그런데 PCA를 다시 계산하면 첫 번째 주성분을 나타내는 직선이 크게 회전할 수 있습니다."
+    },
+    {
+      "id": 15,
+      "start": 67,
+      "end": 74,
+      "text": "반대로 길쭉한 타원형 데이터에서는 비슷한 크기의 변화를 주어도 주성분 방향이 비교적 안정적으로 유지됩니다."
+    },
+    {
+      "id": 16,
+      "start": 74,
+      "end": 76,
+      "text": "왜 이런 차이가 발생할까요?"
+    },
+    {
+      "id": 17,
+      "start": 76,
+      "end": 81,
+      "text": "핵심은 공분산행렬의 가장 큰 고윳값과 두 번째 고윳값 사이의 간격입니다."
+    },
+    {
+      "id": 18,
+      "start": 81,
+      "end": 84,
+      "text": "이 간격을 아이겐갭, Eigengap이라고 합니다."
+    },
+    {
+      "id": 19,
+      "start": 84,
+      "end": 88,
+      "text": "고윳값은 각 주성분 방향으로 데이터가 얼마나 퍼져 있는지를 나타냅니다."
+    },
+    {
+      "id": 20,
+      "start": 88,
+      "end": 91,
+      "text": "그렇다면 고윳값의 간격은 무엇을 알려줄까요?"
+    },
+    {
+      "id": 21,
+      "start": 91,
+      "end": 97,
+      "text": "간격이 크다면 첫 번째 주성분 방향의 분산이 다른 방향보다 뚜렷하게 큽니다."
+    },
+    {
+      "id": 22,
+      "start": 97,
+      "end": 105,
+      "text": "하지만 간격이 작다면 두 방향의 퍼짐이 거의 비슷하기 때문에, 작은 변화만으로도 첫 번째 주성분 방향이 크게 달라질 수 있습니다."
+    },
+    {
+      "id": 23,
+      "start": 105,
+      "end": 110,
+      "text": "극단적으로 모든 방향의 분산이 같다면, 어떤 방향을 선택해도 분산이 같습니다."
+    },
+    {
+      "id": 24,
+      "start": 110,
+      "end": 113,
+      "text": "따라서 특별한 첫 번째 주성분 방향을 결정할 수 없습니다."
+    },
+    {
+      "id": 25,
+      "start": 113,
+      "end": 120,
+      "text": "이 상태에서 아주 작은 변화가 생기면, 그 변화에 따라 특정 방향이 첫 번째 주성분으로 선택될 수 있습니다."
+    },
+    {
+      "id": 26,
+      "start": 120,
+      "end": 125,
+      "text": "중요한 것은 데이터의 구조가 갑자기 크게 바뀌었다는 뜻이 아니라는 점입니다."
+    },
+    {
+      "id": 27,
+      "start": 125,
+      "end": 131,
+      "text": "원래부터 여러 방향의 퍼짐이 거의 같았기 때문에, 주성분의 방향이 안정적으로 결정되지 않았던 것입니다."
+    },
+    {
+      "id": 28,
+      "start": 131,
+      "end": 136,
+      "text": "우리는 고윳값을 통해 데이터가 각 방향으로 얼마나 퍼져 있는지 알 수 있습니다."
+    },
+    {
+      "id": 29,
+      "start": 136,
+      "end": 142,
+      "text": "하지만 그 방향이 얼마나 뚜렷하고 안정적인지 이해하려면, 고윳값 하나만 보는 것으로는 충분하지 않습니다."
+    },
+    {
+      "id": 30,
+      "start": 142,
+      "end": 146,
+      "text": "고윳값의 크기뿐 아니라, 고윳값 사이의 간격도 함께 살펴봐야 합니다."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "01",
+      "directory": "scenes/01",
+      "class": "Scene01",
+      "start": 0,
+      "end": 6,
+      "duration_seconds": 6
+    },
+    {
+      "id": "02",
+      "directory": "scenes/02",
+      "class": "Scene02",
+      "start": 6,
+      "end": 13,
+      "duration_seconds": 7
+    },
+    {
+      "id": "03",
+      "directory": "scenes/03",
+      "class": "Scene03",
+      "start": 13,
+      "end": 23,
+      "duration_seconds": 10
+    },
+    {
+      "id": "04",
+      "directory": "scenes/04",
+      "class": "Scene04",
+      "start": 23,
+      "end": 29,
+      "duration_seconds": 6
+    },
+    {
+      "id": "05",
+      "directory": "scenes/05",
+      "class": "Scene05",
+      "start": 29,
+      "end": 38,
+      "duration_seconds": 9
+    },
+    {
+      "id": "06",
+      "directory": "scenes/06",
+      "class": "Scene06",
+      "start": 38,
+      "end": 43,
+      "duration_seconds": 5
+    },
+    {
+      "id": "07",
+      "directory": "scenes/07",
+      "class": "Scene07",
+      "start": 43,
+      "end": 53,
+      "duration_seconds": 10
+    },
+    {
+      "id": "08",
+      "directory": "scenes/08",
+      "class": "Scene08",
+      "start": 53,
+      "end": 61,
+      "duration_seconds": 8
+    },
+    {
+      "id": "09",
+      "directory": "scenes/09",
+      "class": "Scene09",
+      "start": 61,
+      "end": 67,
+      "duration_seconds": 6
+    },
+    {
+      "id": "10",
+      "directory": "scenes/10",
+      "class": "Scene10",
+      "start": 67,
+      "end": 74,
+      "duration_seconds": 7
+    },
+    {
+      "id": "11",
+      "directory": "scenes/11",
+      "class": "Scene11",
+      "start": 74,
+      "end": 81,
+      "duration_seconds": 7
+    },
+    {
+      "id": "12",
+      "directory": "scenes/12",
+      "class": "Scene12",
+      "start": 81,
+      "end": 88,
+      "duration_seconds": 7
+    },
+    {
+      "id": "13",
+      "directory": "scenes/13",
+      "class": "Scene13",
+      "start": 88,
+      "end": 97,
+      "duration_seconds": 9
+    },
+    {
+      "id": "14",
+      "directory": "scenes/14",
+      "class": "Scene14",
+      "start": 97,
+      "end": 105,
+      "duration_seconds": 8
+    },
+    {
+      "id": "15",
+      "directory": "scenes/15",
+      "class": "Scene15",
+      "start": 105,
+      "end": 113,
+      "duration_seconds": 8
+    },
+    {
+      "id": "16",
+      "directory": "scenes/16",
+      "class": "Scene16",
+      "start": 113,
+      "end": 120,
+      "duration_seconds": 7
+    },
+    {
+      "id": "17",
+      "directory": "scenes/17",
+      "class": "Scene17",
+      "start": 120,
+      "end": 131,
+      "duration_seconds": 11
+    },
+    {
+      "id": "18",
+      "directory": "scenes/18",
+      "class": "Scene18",
+      "start": 131,
+      "end": 142,
+      "duration_seconds": 11
+    },
+    {
+      "id": "19",
+      "directory": "scenes/19",
+      "class": "Scene19",
+      "start": 142,
+      "end": 146,
+      "duration_seconds": 4
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "layout": "shorts",
+    "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\evdsvd03_structure_153s_shorts_final.mp4",
+    "duration": 153,
+    "frames": 4590,
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "decode_check": "passed",
+    "audio": false
+  },
+  {
+    "layout": "longform",
+    "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\evdsvd03_structure_153s_longform_final.mp4",
+    "duration": 153,
+    "frames": 4590,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "decode_check": "passed",
+    "audio": false
+  }
+]

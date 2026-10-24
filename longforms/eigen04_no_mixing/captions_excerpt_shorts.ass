@@ -1,0 +1,40 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Malgun Gothic,60,&H00F7F3ED,&H00F7F3ED,&H00101A26,&H80000000,0,0,0,0,100,100,0,0,1,0,0,2,65,65,170,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:04.00,Default,,0,0,0,,행렬은 서로 다른\N좌표 성분을 섞기도 합니다.
+Dialogue: 0,0:00:04.00,0:00:08.00,Default,,0,0,0,,좌표계를 잘 선택하면\N성분의 섞임을 없앨 수 있을까요?
+Dialogue: 0,0:00:08.00,0:00:10.00,Default,,0,0,0,,하나의 행렬을 살펴보겠습니다.
+Dialogue: 0,0:00:10.00,0:00:16.00,Default,,0,0,0,,첫 출력 성분에는\N두 입력이 모두 영향을 줍니다.
+Dialogue: 0,0:00:16.00,0:00:18.00,Default,,0,0,0,,두 번째 출력 성분도\N마찬가지입니다.
+Dialogue: 0,0:00:18.00,0:00:20.00,Default,,0,0,0,,좌표축을 바꿔보겠습니다.
+Dialogue: 0,0:00:20.00,0:00:27.00,Default,,0,0,0,,서로 독립인 두 벡터를\N새 기저로 선택할 수 있습니다.
+Dialogue: 0,0:00:27.00,0:00:32.00,Default,,0,0,0,,아무 좌표계나 고른다고\N섞임이 사라지지는 않습니다.
+Dialogue: 0,0:00:32.00,0:00:35.00,Default,,0,0,0,,첫 번째 축 위의 벡터를\N변환해 보겠습니다.
+Dialogue: 0,0:00:35.00,0:00:42.00,Default,,0,0,0,,축을 벗어난 출력은\N다른 축 성분도 만든다는 뜻입니다.
+Dialogue: 0,0:00:42.00,0:00:45.00,Default,,0,0,0,,두 번째 축에서도\N같은 일이 일어날 수 있습니다.
+Dialogue: 0,0:00:45.00,0:00:50.00,Default,,0,0,0,,변환 후에도 각 축을 벗어나지 않는\N방향을 선택하면 어떨까요?
+Dialogue: 0,0:00:50.00,0:00:52.00,Default,,0,0,0,,이것이 바로 고유벡터 방향입니다.
+Dialogue: 0,0:00:52.00,0:00:56.00,Default,,0,0,0,,고유벡터는 변환 후에도\N원래의 직선 위에 남습니다.
+Dialogue: 0,0:00:56.00,0:01:02.00,Default,,0,0,0,,각 축이 자기 직선 위에 남으면\N다른 축의 성분을 만들지 않습니다.
+Dialogue: 0,0:01:02.00,0:01:08.00,Default,,0,0,0,,첫 고유축의 성분은\N다른 축의 출력 성분은 0입니다.
+Dialogue: 0,0:01:08.00,0:01:15.00,Default,,0,0,0,,독립인 두 고유축을 고르면\N각 성분은 배율만 바뀝니다.
+Dialogue: 0,0:01:15.00,0:01:20.00,Default,,0,0,0,,첫 번째 성분은 3배,\N두 번째 성분은 그대로입니다.
+Dialogue: 0,0:01:20.00,0:01:26.00,Default,,0,0,0,,새 좌표계에서는\N두 성분이 독립적으로 변합니다.
+Dialogue: 0,0:01:26.00,0:01:33.00,Default,,0,0,0,,고유벡터 기저로 표현해\N대각행렬이 되면 대각화입니다.
+Dialogue: 0,0:01:33.00,0:01:35.00,Default,,0,0,0,,세 단계로 설명할 수 있습니다.
+Dialogue: 0,0:01:35.00,0:01:38.00,Default,,0,0,0,,먼저 벡터를\N고유벡터 기저의 좌표로 읽습니다.
+Dialogue: 0,0:01:38.00,0:01:41.00,Default,,0,0,0,,각 성분에\N해당 고윳값을 곱합니다.
+Dialogue: 0,0:01:41.00,0:01:44.00,Default,,0,0,0,,결과를 원래 좌표계로\N되돌립니다.
+Dialogue: 0,0:01:44.00,0:01:48.00,Default,,0,0,0,,세 단계를 정리한 것이\N대각화 공식입니다.
+Dialogue: 0,0:01:48.00,0:01:50.00,Default,,0,0,0,,행렬의 작용 자체를\N바꾼 것은 아닙니다.
+Dialogue: 0,0:01:50.00,0:01:55.00,Default,,0,0,0,,성분은 서로 섞이지 않고\N각자의 배율로만 변합니다.

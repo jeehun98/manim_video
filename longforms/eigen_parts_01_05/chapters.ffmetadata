@@ -1,0 +1,27 @@
+;FFMETADATA1
+title=고윳값과 고유벡터 · 1–5편
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=122300
+title=01. 행렬을 계속 곱하면 왜 특정 방향만 남을까?
+[CHAPTER]
+TIMEBASE=1/1000
+START=122300
+END=245533
+title=02. 숫자가 다른 두 행렬이 같은 변환일 수 있을까?
+[CHAPTER]
+TIMEBASE=1/1000
+START=245533
+END=369300
+title=03. 행렬의 숫자가 바뀌어도 변하지 않는 것은?
+[CHAPTER]
+TIMEBASE=1/1000
+START=369300
+END=487267
+title=04. 행렬의 성분이 서로 섞이지 않는 좌표계가 있을까?
+[CHAPTER]
+TIMEBASE=1/1000
+START=487267
+END=636500
+title=05. 고윳값 간격 — PCA의 주성분 방향이 불안정해지는 이유

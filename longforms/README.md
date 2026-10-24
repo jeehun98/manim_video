@@ -84,3 +84,30 @@ longforms/<ID>_<slug>/
 - [2막 — 숫자가 다른 두 행렬이 같은 변환일 수 있을까?](eigen02_same_map/README.md): 사용자 문장별 종료 시각27개 기준120초, 13개 독립 씬. 세로 쇼츠·가로 롱폼 및 핵심 자막. `python longforms/eigen02_same_map/build.py --preview` / `python longforms/eigen02_same_map/build.py`, 자막은 `python longforms/eigen02_same_map/add_captions.py`. 음원 미제공으로 무음 제작.
 
 - [3막 — 행렬의 숫자가 바뀌어도 변하지 않는 것은?](eigen03_invariants/README.md): 사용자 문장 종료 시각27개 기준121초, 14개 독립 씬. 연속 기저 변경·불변량·항등/전단 반례. `python longforms/eigen03_invariants/build.py --preview` / `python longforms/eigen03_invariants/build.py`, 핵심 자막은 `python longforms/eigen03_invariants/add_captions.py`. 세로 쇼츠·가로 롱폼 무음 제작.
+
+- [4막 — 행렬의 성분이 서로 섞이지 않는 좌표계가 있을까?](eigen04_no_mixing/README.md): 사용자 문장 종료 시각27개 기준115초, 15개 독립 씬. 첫 고유축과 두 고유축의 차이, 비대각 원소 제거, P⁻¹→D→P. `python longforms/eigen04_no_mixing/build.py --preview` / `python longforms/eigen04_no_mixing/build.py`, 자막은 `python longforms/eigen04_no_mixing/add_captions.py`. 세로·가로 무음 영상.
+
+- [5막 — 고윳값 간격: PCA의 주성분 방향이 불안정해지는 이유](eigen05_eigengap/README.md): 사용자 문장 종료 시각30개 기준146초, 19개 독립 씬. 같은 제어점4개·같은 공분산 교란에서 PC1 회전0.57°/31.72°를 실제 계산. `python longforms/eigen05_eigengap/build.py --preview` / `python longforms/eigen05_eigengap/build.py`, 핵심 자막은 `python longforms/eigen05_eigengap/add_captions.py`. 세로·가로 무음 영상.
+
+## 행렬분해 이상형 월드컵
+
+- [01 — EVD vs SVD: 이름](evdsvd01_names/README.md): 사용자 확정 52초, 11개 독립 씬. 9:16 쇼츠와 16:9 가로형. 실행: python longforms/evdsvd01_names/build.py (--preview 미리보기). 음원 미제공, 무음·자막 영상.
+
+
+- [월드컵 02 — EVD vs SVD: 분해 조건](evdsvd02_conditions/README.md): 사용자 콘티 기준 92초, 18개 독립 씬, 세로·가로. 실행: python longforms/evdsvd02_conditions/build.py (--preview 미리보기). 마지막 종료 시각은 첨부 콘티 명시에 따라 91/92초 적용.
+
+
+- [월드컵 02 — 분해 조건, 132초 수정본 v2](evdsvd02_conditions/revisions/v2_132s/README.md): 23개 독립 씬. 열벡터의 길이·내적으로 Gram 행렬을 구성하는 새 대본. 상위92초 자료와 구분. 실행: python longforms/evdsvd02_conditions/revisions/v2_132s/build.py.
+
+
+- [월드컵 03 — EVD vs SVD: 분해 구조](evdsvd03_structure/README.md): 사용자 종료 시각149초,24개 독립 씬,쇼츠·가로형. 실행: python longforms/evdsvd03_structure/build.py (--preview 미리보기).
+
+
+- [월드컵03 — 분해 구조,153초 그래프 수정본](evdsvd03_structure/revisions/v2_153s/README.md):18개 독립 씬. 숫자 계산 제거,좌표·투영·회전된 원/타원 애니메이션. 실행: python longforms/evdsvd03_structure/revisions/v2_153s/build.py.
+
+
+- [월드컵04 — 고윳값과 특이값](evdsvd04_values/README.md):103초,17개독립씬. 마지막종료시각101/103사용자확정. 실행: python longforms/evdsvd04_values/build.py.
+
+## EVD vs SVD ⑤ — 미래 예측
+
+[130초·세로/가로 프로젝트](evdsvd05_future/README.md). 고유성분의 반복 변화와 특이값 거듭제곱의 불일치. 실제 사용자 발화 시각 기준.

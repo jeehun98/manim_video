@@ -1,0 +1,45 @@
+{
+  "inputs": [
+    "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\eigen_1_part1.mp4",
+    "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\eigen_2_part2.mp4",
+    "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\eigen_3_part3.mp4",
+    "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\eigen_4_part4.mp4",
+    "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\eigen_5_part5.mp4"
+  ],
+  "chapters": [
+    {
+      "part": 1,
+      "start_seconds": 0.0,
+      "end_seconds": 122.3,
+      "title": "행렬을 계속 곱하면 왜 특정 방향만 남을까?"
+    },
+    {
+      "part": 2,
+      "start_seconds": 122.3,
+      "end_seconds": 245.533,
+      "title": "숫자가 다른 두 행렬이 같은 변환일 수 있을까?"
+    },
+    {
+      "part": 3,
+      "start_seconds": 245.533,
+      "end_seconds": 369.3,
+      "title": "행렬의 숫자가 바뀌어도 변하지 않는 것은?"
+    },
+    {
+      "part": 4,
+      "start_seconds": 369.3,
+      "end_seconds": 487.267,
+      "title": "행렬의 성분이 서로 섞이지 않는 좌표계가 있을까?"
+    },
+    {
+      "part": 5,
+      "start_seconds": 487.267,
+      "end_seconds": 636.5,
+      "title": "고윳값 간격 — PCA의 주성분 방향이 불안정해지는 이유"
+    }
+  ],
+  "expected_duration": 636.5,
+  "actual_duration": "636.523242",
+  "full_decode": "passed",
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\eigen_parts_1-5_longform.mp4"
+}

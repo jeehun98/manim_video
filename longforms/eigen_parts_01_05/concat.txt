@@ -1,0 +1,5 @@
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/eigen_1_part1.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/eigen_2_part2.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/eigen_3_part3.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/eigen_4_part4.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/eigen_5_part5.mp4'

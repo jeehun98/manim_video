@@ -276,9 +276,28 @@ EPISODES["learn01"] = ("episodes/learn01_after_accuracy/scene.py", "AfterAccurac
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("episode", choices=EPISODES)
+    projects = {
+        "evdsvd01_shorts": ("evdsvd01_names", "shorts"),
+        "evdsvd01_longform": ("evdsvd01_names", "longform"),
+        "evdsvd02_shorts": ("evdsvd02_conditions/revisions/v2_132s", "shorts"),
+        "evdsvd02_longform": ("evdsvd02_conditions/revisions/v2_132s", "longform"),
+        "evdsvd03_shorts": ("evdsvd03_structure/revisions/v2_153s", "shorts"),
+        "evdsvd03_longform": ("evdsvd03_structure/revisions/v2_153s", "longform"),
+        "evdsvd04_shorts": ("evdsvd04_values", "shorts"),
+        "evdsvd04_longform": ("evdsvd04_values", "longform"),
+        "evdsvd05_shorts": ("evdsvd05_future", "shorts"),
+        "evdsvd05_longform": ("evdsvd05_future", "longform"),
+    }
+    p.add_argument("episode", choices=[*EPISODES, *projects])
     p.add_argument("--preview", action="store_true")
     a = p.parse_args()
+    if a.episode in projects:
+        project, layout = projects[a.episode]
+        command = [sys.executable, str(ROOT / "longforms" / project / "build.py"), "--layout", layout]
+        if a.preview:
+            command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
     source, scene = EPISODES[a.episode]
     env = os.environ.copy()
     if a.episode in ("nncalc01", "nncalc02", "nncalc03", "nncalc04", "nncalc05", "nncalc06", "nncalc07", "nncalc08"):

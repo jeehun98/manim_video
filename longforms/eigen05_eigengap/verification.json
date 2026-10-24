@@ -1,0 +1,36 @@
+{
+  "sentence_endpoints": 30,
+  "independent_scenes": 19,
+  "duration_seconds": 146,
+  "frames": 4380,
+  "fps": 30,
+  "audio": "not supplied; silent video",
+  "numerical_validation": "data_validation.json",
+  "intermediate_PCA_states_verified": 202,
+  "outputs": {
+    "shorts": {
+      "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\eigen05_146s_shorts_final_captioned.mp4",
+      "stream": {
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "duration": "146.000000",
+        "nb_read_frames": "4380"
+      },
+      "full_decode": "passed"
+    },
+    "longform": {
+      "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\eigen05_146s_longform_final_captioned.mp4",
+      "stream": {
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "duration": "146.000000",
+        "nb_read_frames": "4380"
+      },
+      "full_decode": "passed"
+    }
+  }
+}

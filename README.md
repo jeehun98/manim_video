@@ -1380,3 +1380,37 @@ python scripts/render.py learn01
 ### 고윳값과 고유벡터 · 3막
 
 [행렬의 숫자가 바뀌어도 변하지 않는 것은?](longforms/eigen03_invariants/README.md) — 121초, 문장별 종료 시각27개. 실행: `python longforms/eigen03_invariants/build.py --preview` / `python longforms/eigen03_invariants/build.py`. 자막 포함본: `python longforms/eigen03_invariants/add_captions.py`. 세로 쇼츠·가로 롱폼 두 버전.
+
+### 고윳값과 고유벡터 · 4막
+
+[행렬의 성분이 서로 섞이지 않는 좌표계가 있을까?](longforms/eigen04_no_mixing/README.md) — 115초, 문장별 종료 시각27개, 15개 독립 씬. `python longforms/eigen04_no_mixing/build.py --preview` / `python longforms/eigen04_no_mixing/build.py`. 자막 포함본: `python longforms/eigen04_no_mixing/add_captions.py`. 세로 쇼츠·가로 롱폼.
+
+### 고윳값과 고유벡터 · 5막
+
+[고윳값 간격 — PCA 방향의 안정성](longforms/eigen05_eigengap/README.md) — 146초, 문장별 종료 시각30개, 19개 독립 씬. `python longforms/eigen05_eigengap/build.py --preview` / `python longforms/eigen05_eigengap/build.py`. 핵심 자막 포함본은 `python longforms/eigen05_eigengap/add_captions.py`. 세로 쇼츠·가로 롱폼.
+
+## 행렬분해 이상형 월드컵 — EVD vs SVD
+
+- [01 이름: 대본·52초 타이밍·독립 씬·렌더](longforms/evdsvd01_names/README.md)
+- 쇼츠: python scripts/render.py evdsvd01_shorts (--preview 미리보기)
+- 가로형: python scripts/render.py evdsvd01_longform
+- 두 화면비 모두: python longforms/evdsvd01_names/build.py
+
+
+- [월드컵 02 — 분해 조건, 92초](longforms/evdsvd02_conditions/README.md): python scripts/render.py evdsvd02_shorts / evdsvd02_longform. --preview 미리보기.
+
+
+- [월드컵 02 수정본 — 132초](longforms/evdsvd02_conditions/revisions/v2_132s/README.md): 기본 evdsvd02_shorts / evdsvd02_longform은 새 확정 대본을 사용. 기존92초 자료 보존.
+
+
+- [월드컵 03 — 분해 구조, 149초](longforms/evdsvd03_structure/README.md): python scripts/render.py evdsvd03_shorts / evdsvd03_longform. EVD 좌표 변환과 SVD 원·타원 및 직교 대응.
+
+
+- [월드컵03 수정본 —153초,그래프 중심](longforms/evdsvd03_structure/revisions/v2_153s/README.md): 기본evdsvd03_shorts/longform은 새 확정 대본을 사용. 이전149초 보존.
+
+
+- [월드컵04 — 고윳값과 특이값,103초](longforms/evdsvd04_values/README.md): python scripts/render.py evdsvd04_shorts / evdsvd04_longform. 같은 전단행렬,수평고유방향과타원반축 비교.
+
+## 행렬 분해 월드컵 ⑤ — 미래 예측
+
+실제 소스: `longforms/evdsvd05_future/`. 사용자 확정130초 대본 및 시각. 세로·가로 각각 `python scripts/render.py evdsvd05_shorts`, `python scripts/render.py evdsvd05_longform`. 자세한 내용은 [제작 안내](longforms/evdsvd05_future/README.md).

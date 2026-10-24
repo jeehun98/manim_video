@@ -1,0 +1,209 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_open",
+    "start": 0,
+    "end": 5,
+    "duration_seconds": 5,
+    "class": "RevisionOpen",
+    "title": "ROUND 02 · 분해 조건"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_evd",
+    "start": 5,
+    "end": 10,
+    "duration_seconds": 5,
+    "class": "RevisionEVD",
+    "title": "EVD · 고유값 분해"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_square",
+    "start": 10,
+    "end": 17,
+    "duration_seconds": 7,
+    "class": "RevisionSquare",
+    "title": "조건 1 · 정사각행렬"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_basis",
+    "start": 17,
+    "end": 25,
+    "duration_seconds": 8,
+    "class": "RevisionBasis",
+    "title": "조건 2 · 독립적인 고유벡터"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_shear",
+    "start": 25,
+    "end": 30,
+    "duration_seconds": 5,
+    "class": "RevisionShear",
+    "title": "수평 방향만 고유벡터"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_failure",
+    "start": 30,
+    "end": 38,
+    "duration_seconds": 8,
+    "class": "RevisionFailure",
+    "title": "하나의 직선으로 기저를 만들 수 없다"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_field",
+    "start": 38,
+    "end": 42,
+    "duration_seconds": 4,
+    "class": "RevisionField",
+    "title": "어떤 수를 허용할까?"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_rotation",
+    "start": 42,
+    "end": 52,
+    "duration_seconds": 10,
+    "class": "RevisionRotation",
+    "title": "90° 회전 · 실수 고유벡터 없음"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_complex",
+    "start": 52,
+    "end": 62,
+    "duration_seconds": 10,
+    "class": "RevisionComplex",
+    "title": "복소수에서는 대각화 가능"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_same_matrix",
+    "start": 62,
+    "end": 68,
+    "duration_seconds": 6,
+    "class": "RevisionSameMatrix",
+    "title": "같은 행렬 · 다른 수 체계"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_svd",
+    "start": 68,
+    "end": 76,
+    "duration_seconds": 8,
+    "class": "RevisionSVD",
+    "title": "SVD · 직사각행렬도 가능"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_columns",
+    "start": 76,
+    "end": 82,
+    "duration_seconds": 6,
+    "class": "RevisionColumns",
+    "title": "행렬의 열 = 좌표축의 도착점"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_product",
+    "start": 82,
+    "end": 86,
+    "duration_seconds": 4,
+    "class": "RevisionProduct",
+    "title": "AᵀA · 정사각행렬을 만든다"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_entries",
+    "start": 86,
+    "end": 90,
+    "duration_seconds": 4,
+    "class": "RevisionEntries",
+    "title": "각 칸은 열벡터의 내적"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15_diagonal",
+    "start": 90,
+    "end": 93,
+    "duration_seconds": 3,
+    "class": "RevisionDiagonal",
+    "title": "대각 원소 = 길이 제곱"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16_offdiagonal",
+    "start": 93,
+    "end": 96,
+    "duration_seconds": 3,
+    "class": "RevisionOffdiagonal",
+    "title": "비대각 원소 = 두 열의 내적"
+  },
+  {
+    "id": "17",
+    "directory": "scenes/17_geometry",
+    "start": 96,
+    "end": 103,
+    "duration_seconds": 7,
+    "class": "RevisionGeometry",
+    "title": "변환의 길이·내적 정보"
+  },
+  {
+    "id": "18",
+    "directory": "scenes/18_symmetry",
+    "start": 103,
+    "end": 107,
+    "duration_seconds": 4,
+    "class": "RevisionSymmetry",
+    "title": "내적의 대칭성 → 대칭행렬"
+  },
+  {
+    "id": "19",
+    "directory": "scenes/19_orthogonal",
+    "start": 107,
+    "end": 111,
+    "duration_seconds": 4,
+    "class": "RevisionOrthogonal",
+    "title": "직교 고유벡터로 기저 구성"
+  },
+  {
+    "id": "20",
+    "directory": "scenes/20_shear_svd",
+    "start": 111,
+    "end": 117,
+    "duration_seconds": 6,
+    "class": "RevisionShearSVD",
+    "title": "고유기저가 부족해도 SVD 가능"
+  },
+  {
+    "id": "21",
+    "directory": "scenes/21_exists",
+    "start": 117,
+    "end": 120,
+    "duration_seconds": 3,
+    "class": "RevisionExists",
+    "title": "모든 실수 행렬에 SVD 존재"
+  },
+  {
+    "id": "22",
+    "directory": "scenes/22_verdict",
+    "start": 120,
+    "end": 127,
+    "duration_seconds": 7,
+    "class": "RevisionVerdict",
+    "title": "분해 조건 대결 · SVD 승"
+  },
+  {
+    "id": "23",
+    "directory": "scenes/23_score",
+    "start": 127,
+    "end": 132,
+    "duration_seconds": 5,
+    "class": "RevisionScore",
+    "title": "현재 스코어 · 1:1"
+  }
+]

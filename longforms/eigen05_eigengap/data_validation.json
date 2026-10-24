@@ -1,0 +1,134 @@
+{
+  "ellipse": {
+    "covariance": [
+      [
+        2.5534845121081724,
+        0.9575555538987225
+      ],
+      [
+        0.9575555538987225,
+        0.946515487891826
+      ]
+    ],
+    "eigenvalues": [
+      2.9999999999999982,
+      0.5
+    ],
+    "gap": 2.4999999999999982
+  },
+  "large": {
+    "covariance": [
+      [
+        1.9999999999999987,
+        -1.0711251165975975e-16
+      ],
+      [
+        -1.0711251165975975e-16,
+        1.0
+      ]
+    ],
+    "eigenvalues": [
+      1.9999999999999987,
+      1.0
+    ],
+    "gap": 0.9999999999999987,
+    "changed_points": 4,
+    "max_point_displacement": 0.09890112306323567,
+    "rms_point_displacement": 0.02211496342204672,
+    "covariance_delta": [
+      [
+        0.0,
+        0.01
+      ],
+      [
+        0.01,
+        0.0
+      ]
+    ],
+    "covariance_delta_spectral_norm": 0.01,
+    "axis_rotation_degrees": 0.5728814190875511
+  },
+  "small": {
+    "covariance": [
+      [
+        1.0099999999999991,
+        -6.739571821797885e-17
+      ],
+      [
+        -6.739571821797885e-17,
+        1.0
+      ]
+    ],
+    "eigenvalues": [
+      1.0099999999999991,
+      1.0
+    ],
+    "gap": 0.00999999999999912,
+    "changed_points": 4,
+    "max_point_displacement": 0.09890112306323567,
+    "rms_point_displacement": 0.02211496342204672,
+    "covariance_delta": [
+      [
+        0.0,
+        0.01
+      ],
+      [
+        0.01,
+        0.0
+      ]
+    ],
+    "covariance_delta_spectral_norm": 0.01,
+    "axis_rotation_degrees": 31.717474411462327
+  },
+  "isotropic": {
+    "covariance": [
+      [
+        0.9999999999999994,
+        -9.573346979648653e-17
+      ],
+      [
+        -9.573346979648653e-17,
+        1.0
+      ]
+    ],
+    "eigenvalues": [
+      1.0,
+      0.9999999999999994
+    ],
+    "gap": 5.551115123125783e-16
+  },
+  "isotropic_choices": {
+    "plus_covariance": [
+      [
+        1.0099999999999993,
+        -9.573346979648653e-17
+      ],
+      [
+        -9.573346979648653e-17,
+        1.0
+      ]
+    ],
+    "minus_covariance": [
+      [
+        0.9999999999999994,
+        -9.573346979648653e-17
+      ],
+      [
+        -9.573346979648653e-17,
+        1.01
+      ]
+    ],
+    "angle_difference_degrees": 90,
+    "plus_displacement": {
+      "changed_points": 2,
+      "max_point_displacement": 0.09642552932366266,
+      "rms_point_displacement": 0.015246214862506472
+    },
+    "minus_displacement": {
+      "changed_points": 2,
+      "max_point_displacement": 0.09642552932366266,
+      "rms_point_displacement": 0.015246214862506472
+    },
+    "all_projection_variances": 1
+  }
+}

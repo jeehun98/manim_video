@@ -1,0 +1,218 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_open",
+    "start": 0,
+    "end": 5,
+    "duration_seconds": 5,
+    "class": "StructureOpen",
+    "title": "ROUND 03 · 분해 구조"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_evd",
+    "start": 5,
+    "end": 13,
+    "duration_seconds": 8,
+    "class": "StructureEVD",
+    "title": "왜 P와 P⁻¹일까?"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_eigenline",
+    "start": 13,
+    "end": 23,
+    "duration_seconds": 10,
+    "class": "StructureEigenline",
+    "title": "고유벡터는 원래 직선을 유지"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_coordinates",
+    "start": 23,
+    "end": 34,
+    "duration_seconds": 11,
+    "class": "StructureCoordinates",
+    "title": "P⁻¹ → D → P"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_rows",
+    "start": 34,
+    "end": 42,
+    "duration_seconds": 8,
+    "class": "StructureRows",
+    "title": "행렬곱 = 행별 내적"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_dual",
+    "start": 42,
+    "end": 53,
+    "duration_seconds": 11,
+    "class": "StructureDual",
+    "title": "직접 내적과 기저 좌표는 다르다"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_one_basis",
+    "start": 53,
+    "end": 58,
+    "duration_seconds": 5,
+    "class": "StructureOneBasis",
+    "title": "EVD · 하나의 고유기저"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_ellipse",
+    "start": 58,
+    "end": 66,
+    "duration_seconds": 8,
+    "class": "StructureEllipse",
+    "title": "단위원 → 타원"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_scan",
+    "start": 66,
+    "end": 70,
+    "duration_seconds": 4,
+    "class": "StructureScan",
+    "title": "방향에 따라 길이·방향 변화"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_right",
+    "start": 70,
+    "end": 77,
+    "duration_seconds": 7,
+    "class": "StructureRight",
+    "title": "가장 긴 출력의 입력 방향 v₁"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_left",
+    "start": 77,
+    "end": 86,
+    "duration_seconds": 9,
+    "class": "StructureLeft",
+    "title": "출력 단위방향 u₁ · 배율 σ₁"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_pair",
+    "start": 86,
+    "end": 89,
+    "duration_seconds": 3,
+    "class": "StructurePair",
+    "title": "Av₁ = σ₁u₁"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_arbitrary",
+    "start": 89,
+    "end": 94,
+    "duration_seconds": 5,
+    "class": "StructureArbitrary",
+    "title": "이 관계만으로 특별할까?"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_orthogonal",
+    "start": 94,
+    "end": 102,
+    "duration_seconds": 8,
+    "class": "StructureOrthogonal",
+    "title": "입력도 직교 · 출력도 직교"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15_two_bases",
+    "start": 102,
+    "end": 105,
+    "duration_seconds": 3,
+    "class": "StructureTwoBases",
+    "title": "입력 기저와 출력 기저는 달라도 된다"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16_transition",
+    "start": 105,
+    "end": 106,
+    "duration_seconds": 1,
+    "class": "StructureTransition",
+    "title": "방향들을 행렬로 모으면"
+  },
+  {
+    "id": "17",
+    "directory": "scenes/17_transpose",
+    "start": 106,
+    "end": 110,
+    "duration_seconds": 4,
+    "class": "StructureTranspose",
+    "title": "V의 열 → Vᵀ의 행"
+  },
+  {
+    "id": "18",
+    "directory": "scenes/18_dots",
+    "start": 110,
+    "end": 115,
+    "duration_seconds": 5,
+    "class": "StructureDots",
+    "title": "Vᵀx · 각 행과 내적"
+  },
+  {
+    "id": "19",
+    "directory": "scenes/19_orthonormal",
+    "start": 115,
+    "end": 119,
+    "duration_seconds": 4,
+    "class": "StructureOrthonormal",
+    "title": "정규직교하므로 내적 = 좌표"
+  },
+  {
+    "id": "20",
+    "directory": "scenes/20_combine",
+    "start": 119,
+    "end": 125,
+    "duration_seconds": 6,
+    "class": "StructureCombine",
+    "title": "Σ 배율 → U 출력 조합"
+  },
+  {
+    "id": "21",
+    "directory": "scenes/21_formula",
+    "start": 125,
+    "end": 129,
+    "duration_seconds": 4,
+    "class": "StructureFormula",
+    "title": "A = UΣVᵀ"
+  },
+  {
+    "id": "22",
+    "directory": "scenes/22_compare",
+    "start": 129,
+    "end": 137,
+    "duration_seconds": 8,
+    "class": "StructureCompare",
+    "title": "하나의 고유기저 vs 두 직교기저"
+  },
+  {
+    "id": "23",
+    "directory": "scenes/23_verdict",
+    "start": 137,
+    "end": 145,
+    "duration_seconds": 8,
+    "class": "StructureVerdict",
+    "title": "분해 구조 대결 · EVD 승"
+  },
+  {
+    "id": "24",
+    "directory": "scenes/24_score",
+    "start": 145,
+    "end": 149,
+    "duration_seconds": 4,
+    "class": "StructureScore",
+    "title": "현재 스코어 · EVD 2:1 SVD"
+  }
+]
