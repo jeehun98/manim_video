@@ -1,0 +1,245 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_scene",
+    "class": "QRShot",
+    "start": 0,
+    "end": 3,
+    "duration_seconds": 3,
+    "title": "행렬식은 왜 부피와 연결될까?"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_scene",
+    "class": "QRShot",
+    "start": 3,
+    "end": 6,
+    "duration_seconds": 3,
+    "title": "기준 부피 1 · 단위 정육면체"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_scene",
+    "class": "QRShot",
+    "start": 6,
+    "end": 11,
+    "duration_seconds": 5,
+    "title": "표준기저에서 A의 열벡터로"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_scene",
+    "class": "QRShot",
+    "start": 11,
+    "end": 15,
+    "duration_seconds": 4,
+    "title": "같은 변환을 도형 전체에"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_scene",
+    "class": "QRShot",
+    "start": 15,
+    "end": 20,
+    "duration_seconds": 5,
+    "title": "행렬식의 절댓값 = 부피 배율"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_scene",
+    "class": "QRShot",
+    "start": 20,
+    "end": 24,
+    "duration_seconds": 4,
+    "title": "부피 변화를 더 단순하게"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_scene",
+    "class": "QRShot",
+    "start": 24,
+    "end": 26,
+    "duration_seconds": 2,
+    "title": "QR로 분리하면"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_scene",
+    "class": "QRShot",
+    "start": 26,
+    "end": 30,
+    "duration_seconds": 4,
+    "title": "R을 먼저, Q를 나중에"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_scene",
+    "class": "QRShot",
+    "start": 30,
+    "end": 34,
+    "duration_seconds": 4,
+    "title": "Q는 회전 또는 반사"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_scene",
+    "class": "QRShot",
+    "start": 34,
+    "end": 37,
+    "duration_seconds": 3,
+    "title": "길이 · 각도 · 부피 보존"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_scene",
+    "class": "QRShot",
+    "start": 37,
+    "end": 42,
+    "duration_seconds": 5,
+    "title": "A와 R의 부피 배율은 같다"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_scene",
+    "class": "QRShot",
+    "start": 42,
+    "end": 44,
+    "duration_seconds": 2,
+    "title": "첫 번째 열 · 첫 번째 방향"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_scene",
+    "class": "QRShot",
+    "start": 44,
+    "end": 49,
+    "duration_seconds": 5,
+    "title": "밑변 길이와 첫 대각 성분"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_scene",
+    "class": "QRShot",
+    "start": 49,
+    "end": 53,
+    "duration_seconds": 4,
+    "title": "두 번째 열이 만드는 밑면"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15_scene",
+    "class": "QRShot",
+    "start": 53,
+    "end": 58,
+    "duration_seconds": 5,
+    "title": "기울어져도 넓이는 그대로"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16_scene",
+    "class": "QRShot",
+    "start": 58,
+    "end": 62,
+    "duration_seconds": 4,
+    "title": "넓이 = 밑변 × 수직 높이"
+  },
+  {
+    "id": "17",
+    "directory": "scenes/17_scene",
+    "class": "QRShot",
+    "start": 62,
+    "end": 66,
+    "duration_seconds": 4,
+    "title": "두 번째 대각 성분은 높이"
+  },
+  {
+    "id": "18",
+    "directory": "scenes/18_scene",
+    "class": "QRShot",
+    "start": 66,
+    "end": 71,
+    "duration_seconds": 5,
+    "title": "첫 두 대각 성분의 곱 = 넓이"
+  },
+  {
+    "id": "19",
+    "directory": "scenes/19_scene",
+    "class": "QRShot",
+    "start": 71,
+    "end": 73,
+    "duration_seconds": 2,
+    "title": "세 번째 열 · 평면 밖으로"
+  },
+  {
+    "id": "20",
+    "directory": "scenes/20_scene",
+    "class": "QRShot",
+    "start": 73,
+    "end": 79,
+    "duration_seconds": 6,
+    "title": "부피 = 밑면 넓이 × 높이"
+  },
+  {
+    "id": "21",
+    "directory": "scenes/21_scene",
+    "class": "QRShot",
+    "start": 79,
+    "end": 84,
+    "duration_seconds": 5,
+    "title": "세 번째 대각 성분은 높이"
+  },
+  {
+    "id": "22",
+    "directory": "scenes/22_scene",
+    "class": "QRShot",
+    "start": 84,
+    "end": 88,
+    "duration_seconds": 4,
+    "title": "세 대각 성분의 곱 = 부피"
+  },
+  {
+    "id": "23",
+    "directory": "scenes/23_scene",
+    "class": "QRShot",
+    "start": 88,
+    "end": 92,
+    "duration_seconds": 4,
+    "title": "기울기 변화 ≠ 부피 변화"
+  },
+  {
+    "id": "24",
+    "directory": "scenes/24_scene",
+    "class": "QRShot",
+    "start": 92,
+    "end": 95,
+    "duration_seconds": 3,
+    "title": "세 수직 길이는 그대로"
+  },
+  {
+    "id": "25",
+    "directory": "scenes/25_scene",
+    "class": "QRShot",
+    "start": 95,
+    "end": 100,
+    "duration_seconds": 5,
+    "title": "A의 행렬식과 R의 대각선"
+  },
+  {
+    "id": "26",
+    "directory": "scenes/26_scene",
+    "class": "QRShot",
+    "start": 100,
+    "end": 106,
+    "duration_seconds": 6,
+    "title": "독립 방향마다 쌓이는 부피"
+  },
+  {
+    "id": "27",
+    "directory": "scenes/27_scene",
+    "class": "QRShot",
+    "start": 106,
+    "end": 108,
+    "duration_seconds": 2,
+    "title": "전체 부피와 기하학적 구성"
+  }
+]

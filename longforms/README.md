@@ -117,3 +117,13 @@ longforms/<ID>_<slug>/
 6편: [복원 정확도·133초·23개독립씬](evdsvd06_reconstruction/README.md). 같은10×10 행렬을5개성분으로근사. 고정색상격자와실제Frobenius오차.
 
 [130초·세로/가로 프로젝트](evdsvd05_future/README.md). 고유성분의 반복 변화와 특이값 거듭제곱의 불일치. 실제 사용자 발화 시각 기준.
+
+## QR 분해
+
+- [1편 — 벡터는 어떻게 새로운 공간을 만드는가?](qr01_new_directions/README.md): 사용자 문장 종료 시각 기준 95초, 24개 교체 가능 컷. 세로 쇼츠·가로형. `python longforms/qr01_new_directions/build.py --preview` / `python longforms/qr01_new_directions/build.py`. 음원 미제공으로 무음·자막 제작.
+
+- [2편 — 왜 R의 아래쪽은 모두 0일까?](qr02_triangular_structure/README.md): 사용자 종료 시각 기준 98초, 25개 독립 컷, 세로·가로 무음 자막 영상. `python longforms/qr02_triangular_structure/build.py --preview` / `python longforms/qr02_triangular_structure/build.py`.
+
+- [QR 2편 현재 수정본 v2 — 공간의 차원이 만드는 위삼각 구조](qr02_triangular_structure/revisions/v2_96s/README.md): 새 대본·96초 종료 시각·24컷. `python longforms/qr02_triangular_structure/revisions/v2_96s/build.py`. 이전 98초 버전과 구분.
+
+- [QR 3편 — 대각선과 부피](qr03_diagonal_volume/README.md): 사용자 108초·27개 독립 컷·쇼츠/가로형 무음 자막 영상. `python longforms/qr03_diagonal_volume/build.py --preview` / `python longforms/qr03_diagonal_volume/build.py`.

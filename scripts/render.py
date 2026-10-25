@@ -274,9 +274,17 @@ EPISODES["nncalc08_shorts"] = ("episodes/nncalc08_finale/scene.py", "Interpretab
 
 EPISODES["learn01"] = ("episodes/learn01_after_accuracy/scene.py", "AfterAccuracy")
 
+EPISODES["matrixtier01"] = ("episodes/matrixtier01_decompositions/scene.py", "MatrixDecompositionTierList")
+
 def main():
     p = argparse.ArgumentParser()
     projects = {
+        "qr01_shorts": ("qr01_new_directions", "shorts"),
+        "qr01_longform": ("qr01_new_directions", "longform"),
+        "qr02_shorts": ("qr02_triangular_structure/revisions/v2_96s", "shorts"),
+        "qr02_longform": ("qr02_triangular_structure/revisions/v2_96s", "longform"),
+        "qr03_shorts": ("qr03_diagonal_volume", "shorts"),
+        "qr03_longform": ("qr03_diagonal_volume", "longform"),
         "evdsvd01_shorts": ("evdsvd01_names", "shorts"),
         "evdsvd01_longform": ("evdsvd01_names", "longform"),
         "evdsvd02_shorts": ("evdsvd02_conditions/revisions/v2_132s", "shorts"),

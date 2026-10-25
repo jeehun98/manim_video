@@ -1,0 +1,12 @@
+{
+  "A_equals_QR": true,
+  "orthonormal_Q": true,
+  "det_A": 4.0,
+  "det_Q": 0.9999999999999998,
+  "diagonal_product": 3.999999999999999,
+  "positive_diagonal": true,
+  "shears_preserve_area_and_volume": true,
+  "timing_continuous": true,
+  "duration": 108,
+  "sentences": 25
+}

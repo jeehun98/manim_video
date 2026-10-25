@@ -1,0 +1,8 @@
+{
+  "A_equals_QR": true,
+  "orthonormal": true,
+  "positive_diagonal": true,
+  "continuous_timing": true,
+  "duration": 95,
+  "sentences": 20
+}

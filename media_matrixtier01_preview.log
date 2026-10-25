@@ -1,0 +1,790 @@
+Manim Community v0.21.0
+
+[10/25/26 13:42:18] INFO     Animation 0 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1591222100                         
+                             _499328632_4224104588.mp4                         
+                             '                                                 
+
+Animation 1: FadeIn(VGroup of 5 submobjects):   0%|          | 0/6 [00:00<?, ?it/s]
+                                                                                   
+[10/25/26 13:42:19] INFO     Animation 1 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _3451908370_2124536556.mp                         
+                             4'                                                
+                    INFO     Animation 2 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _167377540_2822886273.mp4                         
+                             '                                                 
+                    INFO     Animation 3 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _2613753579_1073859564.mp                         
+                             4'                                                
+
+Animation 4: _MethodAnimation(VGroup of 2 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+                                                                                              
+[10/25/26 13:42:20] INFO     Animation 4 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _2178143741_313914614.mp4                         
+                             '                                                 
+                    INFO     Animation 5 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _610822384_3188188664.mp4                         
+                             '                                                 
+                    WARNING  The original duration of             scene.py:1131
+                             MatrixDecompositionTierList.wait(),               
+                             2.66454e-15 seconds, is too short                 
+                             for the current frame rate of 30                  
+                             FPS. Rendering with the shortest                  
+                             possible duration of 0.0333333                    
+                             seconds instead.                                  
+                    INFO     Animation 6 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _588268838_428374760.mp4'                         
+
+Animation 7: FadeIn(VGroup of 5 submobjects):   0%|          | 0/6 [00:00<?, ?it/s]
+                                                                                   
+                    INFO     Animation 7 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _3720688417_1174452963.mp                         
+                             4'                                                
+                    INFO     Animation 8 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _3434364905_2722678467.mp                         
+                             4'                                                
+[10/25/26 13:42:21] INFO     Animation 9 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _267731156_3340255549.mp4                         
+                             '                                                 
+
+Animation 10: _MethodAnimation(VGroup of 2 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+                                                                                               
+                    INFO     Animation 10 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _3396589916_1241659528.mp                         
+                             4'                                                
+                    INFO     Animation 11 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _329569224_1699720900.mp4                         
+                             '                                                 
+                    WARNING  The original duration of             scene.py:1131
+                             MatrixDecompositionTierList.wait(),               
+                             3.55271e-15 seconds, is too short                 
+                             for the current frame rate of 30                  
+                             FPS. Rendering with the shortest                  
+                             possible duration of 0.0333333                    
+                             seconds instead.                                  
+                    INFO     Animation 12 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _588268838_1058867834.mp4                         
+                             '                                                 
+
+Animation 13: FadeIn(VGroup of 5 submobjects):   0%|          | 0/6 [00:00<?, ?it/s]
+                                                                                    
+[10/25/26 13:42:22] INFO     Animation 13 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _2136141000_622918154.mp4                         
+                             '                                                 
+                    INFO     Animation 14 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _1337522069_4250493852.mp                         
+                             4'                                                
+                    INFO     Animation 15 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _1253102004_3312090897.mp                         
+                             4'                                                
+
+Animation 16: _MethodAnimation(VGroup of 2 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+                                                                                               
+[10/25/26 13:42:23] INFO     Animation 16 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _1180408765_3203071225.mp                         
+                             4'                                                
+                    INFO     Animation 17 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _2203674430_3465732019.mp                         
+                             4'                                                
+                    WARNING  The original duration of             scene.py:1131
+                             MatrixDecompositionTierList.wait(),               
+                             0.0333333 seconds, is too short for               
+                             the current frame rate of 30 FPS.                 
+                             Rendering with the shortest possible              
+                             duration of 0.0333333 seconds                     
+                             instead.                                          
+                    INFO     Animation 18 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _588268838_3575200369.mp4                         
+                             '                                                 
+
+Animation 19: FadeIn(VGroup of 5 submobjects):   0%|          | 0/6 [00:00<?, ?it/s]
+                                                                                    
+[10/25/26 13:42:24] INFO     Animation 19 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _1197909743_453179484.mp4                         
+                             '                                                 
+                    INFO     Animation 20 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _3491047614_509656662.mp4                         
+                             '                                                 
+[10/25/26 13:42:25] INFO     Animation 21 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _3120590284_3460547616.mp                         
+                             4'                                                
+
+Animation 22: _MethodAnimation(VGroup of 2 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+                                                                                               
+                    INFO     Animation 22 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _4164239026_3311681927.mp                         
+                             4'                                                
+                    INFO     Animation 23 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _1312705251_355385664.mp4                         
+                             '                                                 
+                    WARNING  The original duration of             scene.py:1131
+                             MatrixDecompositionTierList.wait(),               
+                             0.0333333 seconds, is too short for               
+                             the current frame rate of 30 FPS.                 
+                             Rendering with the shortest possible              
+                             duration of 0.0333333 seconds                     
+                             instead.                                          
+                    INFO     Animation 24 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _588268838_723430441.mp4'                         
+
+Animation 25: FadeIn(VGroup of 5 submobjects):   0%|          | 0/6 [00:00<?, ?it/s]
+                                                                                    
+[10/25/26 13:42:26] INFO     Animation 25 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _908107163_1637838814.mp4                         
+                             '                                                 
+                    INFO     Animation 26 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _1998852959_3116252975.mp                         
+                             4'                                                
+[10/25/26 13:42:27] INFO     Animation 27 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _2043112785_337687046.mp4                         
+                             '                                                 
+                    INFO     Animation 28 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _4037780429_1962329253.mp                         
+                             4'                                                
+
+Animation 29: _MethodAnimation(VGroup of 2 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+                                                                                               
+[10/25/26 13:42:28] INFO     Animation 29 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _3587763993_3427323403.mp                         
+                             4'                                                
+                    INFO     Animation 30 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _672090636_186259337.mp4'                         
+                    WARNING  The original duration of             scene.py:1131
+                             MatrixDecompositionTierList.wait(),               
+                             0.0333333 seconds, is too short for               
+                             the current frame rate of 30 FPS.                 
+                             Rendering with the shortest possible              
+                             duration of 0.0333333 seconds                     
+                             instead.                                          
+                    INFO     Animation 31 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _588268838_3147677282.mp4                         
+                             '                                                 
+
+Animation 32: FadeIn(VGroup of 5 submobjects):   0%|          | 0/6 [00:00<?, ?it/s]
+                                                                                    
+[10/25/26 13:42:29] INFO     Animation 32 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _3387699313_4150808410.mp                         
+                             4'                                                
+                    INFO     Animation 33 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _2664258416_1339914561.mp                         
+                             4'                                                
+[10/25/26 13:42:30] INFO     Animation 34 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _36606809_1219559959.mp4'                         
+
+Animation 35: _MethodAnimation(VGroup of 2 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+                                                                                               
+                    INFO     Animation 35 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _1607986714_3219861014.mp                         
+                             4'                                                
+                    INFO     Animation 36 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _3009928680_3384818170.mp                         
+                             4'                                                
+                    WARNING  The original duration of             scene.py:1131
+                             MatrixDecompositionTierList.wait(),               
+                             0.0333333 seconds, is too short for               
+                             the current frame rate of 30 FPS.                 
+                             Rendering with the shortest possible              
+                             duration of 0.0333333 seconds                     
+                             instead.                                          
+                    INFO     Animation 37 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _588268838_1472569937.mp4                         
+                             '                                                 
+
+Animation 38: FadeIn(VGroup of 5 submobjects):   0%|          | 0/6 [00:00<?, ?it/s]
+                                                                                    
+[10/25/26 13:42:31] INFO     Animation 38 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _3369753886_450572931.mp4                         
+                             '                                                 
+                    INFO     Animation 39 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _669649186_3330321347.mp4                         
+                             '                                                 
+                    INFO     Animation 40 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _3534509734_3014857556.mp                         
+                             4'                                                
+
+Animation 41: _MethodAnimation(VGroup of 2 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+                                                                                               
+[10/25/26 13:42:32] INFO     Animation 41 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _772505816_2632792711.mp4                         
+                             '                                                 
+                    INFO     Animation 42 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _2443932822_1473039393.mp                         
+                             4'                                                
+
+Animation 43: FadeIn(VGroup of 5 submobjects):   0%|          | 0/6 [00:00<?, ?it/s]
+                                                                                    
+                    INFO     Animation 43 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _1506939098_2861382622.mp                         
+                             4'                                                
+[10/25/26 13:42:33] INFO     Animation 44 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _2297052693_1322124442.mp                         
+                             4'                                                
+                    INFO     Animation 45 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _2670907500_331266987.mp4                         
+                             '                                                 
+                    WARNING  The original duration of             scene.py:1131
+                             MatrixDecompositionTierList.wait(),               
+                             1.42109e-14 seconds, is too short                 
+                             for the current frame rate of 30                  
+                             FPS. Rendering with the shortest                  
+                             possible duration of 0.0333333                    
+                             seconds instead.                                  
+                    INFO     Animation 46 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _588268838_3608027393.mp4                         
+                             '                                                 
+
+Animation 47: _MethodAnimation(VGroup of 2 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+                                                                                               
+                    INFO     Animation 47 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _4044013853_3279557824.mp                         
+                             4'                                                
+[10/25/26 13:42:34] INFO     Animation 48 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _923741015_518559469.mp4'                         
+
+Animation 49: _MethodAnimation(VGroup of 2 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+                                                                                               
+                    INFO     Animation 49 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _1597647111_3762454635.mp                         
+                             4'                                                
+                    INFO     Animation 50 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _2105300383_3415098328.mp                         
+                             4'                                                
+                    WARNING  The original duration of             scene.py:1131
+                             MatrixDecompositionTierList.wait(),               
+                             5.68434e-14 seconds, is too short                 
+                             for the current frame rate of 30                  
+                             FPS. Rendering with the shortest                  
+                             possible duration of 0.0333333                    
+                             seconds instead.                                  
+                    INFO     Animation 51 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _588268838_86926407.mp4'                          
+
+Animation 52: FadeIn(VGroup of 5 submobjects):   0%|          | 0/6 [00:00<?, ?it/s]
+                                                                                    
+[10/25/26 13:42:35] INFO     Animation 52 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _4292322456_2859073583.mp                         
+                             4'                                                
+                    INFO     Animation 53 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _471005418_3531414506.mp4                         
+                             '                                                 
+[10/25/26 13:42:36] INFO     Animation 54 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _1467451808_1294013697.mp                         
+                             4'                                                
+
+Animation 55: _MethodAnimation(VGroup of 2 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+                                                                                               
+                    INFO     Animation 55 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _4055004418_281496042.mp4                         
+                             '                                                 
+                    INFO     Animation 56 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _2136972968_145286556.mp4                         
+                             '                                                 
+                    WARNING  The original duration of             scene.py:1131
+                             MatrixDecompositionTierList.wait(),               
+                             9.9476e-14 seconds, is too short for              
+                             the current frame rate of 30 FPS.                 
+                             Rendering with the shortest possible              
+                             duration of 0.0333333 seconds                     
+                             instead.                                          
+                    INFO     Animation 57 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _588268838_917658044.mp4'                         
+
+Animation 58: FadeIn(VGroup of 5 submobjects):   0%|          | 0/6 [00:00<?, ?it/s]
+                                                                                    
+[10/25/26 13:42:37] INFO     Animation 58 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _2343536776_16621059.mp4'                         
+                    INFO     Animation 59 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _3712376606_1280453906.mp                         
+                             4'                                                
+                    INFO     Animation 60 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _1680513003_2577836628.mp                         
+                             4'                                                
+[10/25/26 13:42:38] INFO     Animation 61 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _1949062099_847807589.mp4                         
+                             '                                                 
+                    WARNING  The original duration of             scene.py:1131
+                             MatrixDecompositionTierList.wait(),               
+                             1.13687e-13 seconds, is too short                 
+                             for the current frame rate of 30                  
+                             FPS. Rendering with the shortest                  
+                             possible duration of 0.0333333                    
+                             seconds instead.                                  
+                    INFO     Animation 62 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _588268838_4159239886.mp4                         
+                             '                                                 
+
+Animation 63: _MethodAnimation(VGroup of 2 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]
+                                                                                               
+                    INFO     Animation 63 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _3147822085_987413644.mp4                         
+                             '                                                 
+                    INFO     Animation 64 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\as042\OneDrive\                         
+                             Desktop\manim_video\media                         
+                             \matrixtier01\preview\vid                         
+                             eos\scene\640p30\partial_                         
+                             movie_files\MatrixDecompo                         
+                             sitionTierList\1448644805                         
+                             _3728879840_963402428.mp4                         
+                             '                                                 
+                    INFO     Combining to Movie file.  scene_file_writer.py:952
+[10/25/26 13:42:39] INFO                              scene_file_writer.py:1103
+                             File ready at                                     
+                             'C:\Users\as042\OneDrive                          
+                             \Desktop\manim_video\med                          
+                             ia\matrixtier01\preview\                          
+                             videos\scene\640p30\Matr                          
+                             ixDecompositionTierList.                          
+                             mp4'                                              
+                                                                               
+                    INFO     Rendered MatrixDecompositionTierList  scene.py:290
+                             Played 65 animations                              
+Export: C:\Users\as042\OneDrive\Desktop\manim_video\exports\matrixtier01_preview.mp4

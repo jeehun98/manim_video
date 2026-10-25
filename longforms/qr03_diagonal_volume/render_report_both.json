@@ -1,0 +1,20 @@
+[
+  {
+    "layout": "shorts",
+    "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\qr03_diagonal_volume_108s_shorts_final.mp4",
+    "width": 1080,
+    "height": 1920,
+    "r_frame_rate": "30/1",
+    "duration": "108.000000",
+    "nb_read_frames": "3240"
+  },
+  {
+    "layout": "longform",
+    "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\qr03_diagonal_volume_108s_longform_final.mp4",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "30/1",
+    "duration": "108.000000",
+    "nb_read_frames": "3240"
+  }
+]

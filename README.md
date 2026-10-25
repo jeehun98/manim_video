@@ -1420,3 +1420,21 @@ python scripts/render.py learn01
 6편도 구현: [복원 정확도·133초](longforms/evdsvd06_reconstruction/README.md). 실행: `python scripts/render.py evdsvd06_shorts` / `python scripts/render.py evdsvd06_longform`. 같은10×10 행렬의실제rank5근사와오차.
 
 실제 소스: `longforms/evdsvd05_future/`. 사용자 확정130초 대본 및 시각. 세로·가로 각각 `python scripts/render.py evdsvd05_shorts`, `python scripts/render.py evdsvd05_longform`. 자세한 내용은 [제작 안내](longforms/evdsvd05_future/README.md).
+
+
+## 행렬 분해 티어리스트 쇼츠
+
+- `episodes/matrixtier01_decompositions/`: 사용자 확정 대본 및 문장 종료 시각 기준 61초, 세로형 단독 쇼츠. 음원 미제공으로 무음.
+- 콘티: `brief.md`, 대본: `narration.md`, 발음 원고: `tts_script.txt`, 시간표: `timing.json`, 자막: `captions.srt`, 화면: `scene.py`.
+- 미리보기: `python scripts/render.py matrixtier01 --preview`
+- 최종본: `python scripts/render.py matrixtier01`
+
+## QR 분해 — 새로운 방향
+
+- [QR 1편: 벡터는 어떻게 새로운 공간을 만드는가?](longforms/qr01_new_directions/README.md): 사용자 확정 95초, 24개 독립 컷, 세로·가로 무음 자막 영상. `python scripts/render.py qr01_shorts --preview` / `python scripts/render.py qr01_longform --preview`; 최종본은 `--preview`를 생략한다. 두 버전 동시 제작은 `python longforms/qr01_new_directions/build.py`.
+
+- [QR 2편: 왜 R의 아래쪽은 모두 0일까?](longforms/qr02_triangular_structure/README.md): 사용자 확정 98초, 25개 독립 컷, 세로·가로 무음 자막 영상. `python scripts/render.py qr02_shorts --preview` / `python scripts/render.py qr02_longform --preview`; 최종본은 `--preview` 생략. 두 버전은 `python longforms/qr02_triangular_structure/build.py`.
+
+- [QR 2편 현재 수정본 v2 · 96초](longforms/qr02_triangular_structure/revisions/v2_96s/README.md): 새 원고·종료 시각 기준, 24컷. 점→직선→평면→공간→R의 열을 구성한다. `python scripts/render.py qr02_shorts` / `python scripts/render.py qr02_longform`. 상위 98초 버전은 보존 자료다.
+
+- [QR 3편 — 대각선에 부피가 숨어 있는 이유](longforms/qr03_diagonal_volume/README.md): 사용자 확정 108초·27컷, 단위 정육면체 변환·Q 부피 보존·R의 직교 높이·전단. `python scripts/render.py qr03_shorts` / `python scripts/render.py qr03_longform`. 미리보기는 --preview 추가.
