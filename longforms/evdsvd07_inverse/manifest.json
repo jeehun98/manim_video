@@ -1,0 +1,245 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_open",
+    "start": 0,
+    "end": 5,
+    "duration_seconds": 5,
+    "class": "Inverse01",
+    "title": "ROUND 07 · 역변환"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_circle",
+    "start": 5,
+    "end": 8,
+    "duration_seconds": 3,
+    "class": "Inverse02",
+    "title": "단위원에서 출발"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_ellipse",
+    "start": 8,
+    "end": 12,
+    "duration_seconds": 4,
+    "class": "Inverse03",
+    "title": "A₁ · 원 → 타원"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_restore",
+    "start": 12,
+    "end": 18,
+    "duration_seconds": 6,
+    "class": "Inverse04",
+    "title": "다시 원으로 되돌릴 수 있을까?"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_evd",
+    "start": 18,
+    "end": 25,
+    "duration_seconds": 7,
+    "class": "Inverse05",
+    "title": "EVD · A = PDP⁻¹"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_reciprocal",
+    "start": 25,
+    "end": 31,
+    "duration_seconds": 6,
+    "class": "Inverse06",
+    "title": "0이 아닌 고윳값의 역수"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_evd_inverse",
+    "start": 31,
+    "end": 37,
+    "duration_seconds": 6,
+    "class": "Inverse07",
+    "title": "A⁻¹ = PD⁻¹P⁻¹"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_eigendirections",
+    "start": 37,
+    "end": 41,
+    "duration_seconds": 4,
+    "class": "Inverse08",
+    "title": "고유방향의 배율을 반대로"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_svd",
+    "start": 41,
+    "end": 48,
+    "duration_seconds": 7,
+    "class": "Inverse09",
+    "title": "SVD · A = UΣVᵀ"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_svd_inverse",
+    "start": 48,
+    "end": 56,
+    "duration_seconds": 8,
+    "class": "Inverse10",
+    "title": "A⁻¹ = VΣ⁻¹Uᵀ"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_both",
+    "start": 56,
+    "end": 59,
+    "duration_seconds": 3,
+    "class": "Inverse11",
+    "title": "가역인 예시에서는 둘 다 가능"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_change",
+    "start": 59,
+    "end": 62,
+    "duration_seconds": 3,
+    "class": "Inverse12",
+    "title": "다른 변환으로 교체"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_collapse",
+    "start": 62,
+    "end": 67,
+    "duration_seconds": 5,
+    "class": "Inverse13",
+    "title": "원 → 유한한 선분"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_overlap",
+    "start": 67,
+    "end": 70,
+    "duration_seconds": 3,
+    "class": "Inverse14",
+    "title": "서로 다른 입력이 같은 출력으로"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15_ambiguous",
+    "start": 70,
+    "end": 74,
+    "duration_seconds": 4,
+    "class": "Inverse15",
+    "title": "출력 하나 · 가능한 입력 무수히 많음"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16_lost",
+    "start": 74,
+    "end": 77,
+    "duration_seconds": 3,
+    "class": "Inverse16",
+    "title": "수직 방향 정보 소실"
+  },
+  {
+    "id": "17",
+    "directory": "scenes/17_no_inverse",
+    "start": 77,
+    "end": 80,
+    "duration_seconds": 3,
+    "class": "Inverse17",
+    "title": "역행렬 없음"
+  },
+  {
+    "id": "18",
+    "directory": "scenes/18_question",
+    "start": 80,
+    "end": 84,
+    "duration_seconds": 4,
+    "class": "Inverse18",
+    "title": "가능한 입력은 무엇일까?"
+  },
+  {
+    "id": "19",
+    "directory": "scenes/19_nullspace",
+    "start": 84,
+    "end": 93,
+    "duration_seconds": 9,
+    "class": "Inverse19",
+    "title": "특이값 0 · 사라진 입력 방향"
+  },
+  {
+    "id": "20",
+    "directory": "scenes/20_pseudoinverse",
+    "start": 93,
+    "end": 99,
+    "duration_seconds": 6,
+    "class": "Inverse20",
+    "title": "0이 아닌 특이값만 역수로"
+  },
+  {
+    "id": "21",
+    "directory": "scenes/21_not_magic",
+    "start": 99,
+    "end": 102,
+    "duration_seconds": 3,
+    "class": "Inverse21",
+    "title": "선택한 해 ≠ 반드시 원래 입력"
+  },
+  {
+    "id": "22",
+    "directory": "scenes/22_minnorm",
+    "start": 102,
+    "end": 110,
+    "duration_seconds": 8,
+    "class": "Inverse22",
+    "title": "가능한 해 중 가장 짧은 입력"
+  },
+  {
+    "id": "23",
+    "directory": "scenes/23_systems",
+    "start": 110,
+    "end": 115,
+    "duration_seconds": 5,
+    "class": "Inverse23",
+    "title": "Ax = b · 최소제곱과 최소 노름"
+  },
+  {
+    "id": "24",
+    "directory": "scenes/24_other_methods",
+    "start": 115,
+    "end": 120,
+    "duration_seconds": 5,
+    "class": "Inverse24",
+    "title": "의사역행렬 계산법은 다양하다"
+  },
+  {
+    "id": "25",
+    "directory": "scenes/25_directions",
+    "start": 120,
+    "end": 127,
+    "duration_seconds": 7,
+    "class": "Inverse25",
+    "title": "남은 방향과 사라진 방향"
+  },
+  {
+    "id": "26",
+    "directory": "scenes/26_verdict",
+    "start": 127,
+    "end": 137,
+    "duration_seconds": 10,
+    "class": "Inverse26",
+    "title": "ROUND 07 · SVD 승"
+  },
+  {
+    "id": "27",
+    "directory": "scenes/27_score",
+    "start": 137,
+    "end": 142,
+    "duration_seconds": 5,
+    "class": "Inverse27",
+    "title": "EVD 3 : 4 SVD"
+  }
+]

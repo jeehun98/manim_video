@@ -1413,6 +1413,10 @@ python scripts/render.py learn01
 
 ## 행렬 분해 월드컵 ⑤ — 미래 예측
 
+최종8편: [최종 선택·149초](longforms/evdsvd08_final_choice/README.md). 실행: `python scripts/render.py evdsvd08_shorts` / `python scripts/render.py evdsvd08_longform`. 같은음수고윳값행렬의EVD·SVD표현과최종3:4우승.
+
+7편: [역변환·142초](longforms/evdsvd07_inverse/README.md). 실행: `python scripts/render.py evdsvd07_shorts` / `python scripts/render.py evdsvd07_longform`. 역행렬·정보소실·최소노름해를실제좌표로표현.
+
 6편도 구현: [복원 정확도·133초](longforms/evdsvd06_reconstruction/README.md). 실행: `python scripts/render.py evdsvd06_shorts` / `python scripts/render.py evdsvd06_longform`. 같은10×10 행렬의실제rank5근사와오차.
 
 실제 소스: `longforms/evdsvd05_future/`. 사용자 확정130초 대본 및 시각. 세로·가로 각각 `python scripts/render.py evdsvd05_shorts`, `python scripts/render.py evdsvd05_longform`. 자세한 내용은 [제작 안내](longforms/evdsvd05_future/README.md).

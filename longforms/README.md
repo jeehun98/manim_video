@@ -110,6 +110,10 @@ longforms/<ID>_<slug>/
 
 ## EVD vs SVD ⑤ — 미래 예측
 
+최종8편: [최종 선택·149초·30개독립씬](evdsvd08_final_choice/README.md). 같은행렬의음수고윳값과SVD반전표현,최종3:4,질문에서시작하는분해선택.
+
+7편: [역변환·142초·27개독립씬](evdsvd07_inverse/README.md). 원→타원→원,선분으로의붕괴,의사역행렬의최소노름선택.사용자발화시각기준.
+
 6편: [복원 정확도·133초·23개독립씬](evdsvd06_reconstruction/README.md). 같은10×10 행렬을5개성분으로근사. 고정색상격자와실제Frobenius오차.
 
 [130초·세로/가로 프로젝트](evdsvd05_future/README.md). 고유성분의 반복 변화와 특이값 거듭제곱의 불일치. 실제 사용자 발화 시각 기준.

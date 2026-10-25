@@ -289,6 +289,10 @@ def main():
         "evdsvd05_longform": ("evdsvd05_future", "longform"),
         "evdsvd06_shorts": ("evdsvd06_reconstruction", "shorts"),
         "evdsvd06_longform": ("evdsvd06_reconstruction", "longform"),
+        "evdsvd07_shorts": ("evdsvd07_inverse", "shorts"),
+        "evdsvd07_longform": ("evdsvd07_inverse", "longform"),
+        "evdsvd08_shorts": ("evdsvd08_final_choice", "shorts"),
+        "evdsvd08_longform": ("evdsvd08_final_choice", "longform"),
     }
     p.add_argument("episode", choices=[*EPISODES, *projects])
     p.add_argument("--preview", action="store_true")

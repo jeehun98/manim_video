@@ -1,0 +1,72 @@
+{
+  "status": "passed",
+  "A1": [
+    [
+      2.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.5
+    ]
+  ],
+  "A1_inverse": [
+    [
+      0.5,
+      0.0
+    ],
+    [
+      0.0,
+      2.0
+    ]
+  ],
+  "A2": [
+    [
+      2.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ]
+  ],
+  "A2_pseudoinverse": [
+    [
+      0.5,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ]
+  ],
+  "original_inputs": [
+    [
+      0.6,
+      0.8
+    ],
+    [
+      0.6,
+      -0.8
+    ]
+  ],
+  "common_output": [
+    1.2,
+    0.0
+  ],
+  "selected_input": [
+    0.6,
+    0.0
+  ],
+  "inconsistent_output": [
+    1.2,
+    0.8
+  ],
+  "least_squares_projection": [
+    1.2,
+    0.0
+  ],
+  "least_squares_residual": 0.8,
+  "moore_penrose_conditions": 4,
+  "solution_line_samples": 121
+}
