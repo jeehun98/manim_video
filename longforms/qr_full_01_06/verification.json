@@ -1,0 +1,47 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\qr_full_01_06_longform.mp4",
+  "chapters": [
+    {
+      "source": "exports\\qr_long_1.mp4",
+      "title": "벡터와 새로운 공간",
+      "start_seconds": 0.0,
+      "duration_seconds": 97.633333
+    },
+    {
+      "source": "exports\\qr_long_2.mp4",
+      "title": "위삼각행렬의 구조",
+      "start_seconds": 97.633333,
+      "duration_seconds": 98.9
+    },
+    {
+      "source": "exports\\qr_long_3.mp4",
+      "title": "대각선과 부피",
+      "start_seconds": 196.533333,
+      "duration_seconds": 111.166667
+    },
+    {
+      "source": "exports\\qr_long_4.mp4",
+      "title": "QR과 SVD",
+      "start_seconds": 307.7,
+      "duration_seconds": 110.633333
+    },
+    {
+      "source": "exports\\qr_long_5.mp4",
+      "title": "QR 반복과 고윳값",
+      "start_seconds": 418.333333,
+      "duration_seconds": 127.233333
+    },
+    {
+      "source": "exports\\qr_long_6.mp4",
+      "title": "QR 분해의 기하학 — 마무리",
+      "start_seconds": 545.5666659999999,
+      "duration_seconds": 92.366667
+    }
+  ],
+  "expected_duration_seconds": 637.933333,
+  "actual_duration_seconds": 637.956575,
+  "video_frames": 19138,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "method": "stream copy; original audio and video preserved"
+}

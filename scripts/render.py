@@ -276,6 +276,8 @@ EPISODES["learn01"] = ("episodes/learn01_after_accuracy/scene.py", "AfterAccurac
 
 EPISODES["matrixtier01"] = ("episodes/matrixtier01_decompositions/scene.py", "MatrixDecompositionTierList")
 
+EPISODES["softmax01"] = ("episodes/softmax01_collapse/scene.py", "SoftmaxCollapse")
+
 def main():
     p = argparse.ArgumentParser()
     projects = {
@@ -285,6 +287,13 @@ def main():
         "qr02_longform": ("qr02_triangular_structure/revisions/v2_96s", "longform"),
         "qr03_shorts": ("qr03_diagonal_volume", "shorts"),
         "qr03_longform": ("qr03_diagonal_volume", "longform"),
+        "qr04_shorts": ("qr04_qr_vs_svd", "shorts"),
+        "qr04_longform": ("qr04_qr_vs_svd", "longform"),
+        "qr05_shorts": ("qr05_eigenvalue_iteration", "shorts"),
+        "qr05_longform": ("qr05_eigenvalue_iteration", "longform"),
+        "qr_closing_longform": ("qr_series_closing", "longform"),
+        "qr04_least_squares_shorts": ("qr04_stable_least_squares", "shorts"),
+        "qr04_least_squares_longform": ("qr04_stable_least_squares", "longform"),
         "evdsvd01_shorts": ("evdsvd01_names", "shorts"),
         "evdsvd01_longform": ("evdsvd01_names", "longform"),
         "evdsvd02_shorts": ("evdsvd02_conditions/revisions/v2_132s", "shorts"),

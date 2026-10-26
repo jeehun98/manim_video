@@ -1,0 +1,218 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_sequence",
+    "start": 0,
+    "end": 4,
+    "duration_seconds": 4,
+    "title": "고리 위에 생긴 얇은 막",
+    "class": "SoapShot"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_sequence",
+    "start": 4,
+    "end": 10,
+    "duration_seconds": 6,
+    "title": "같은 축 위의 두 고리",
+    "class": "SoapShot"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_sequence",
+    "start": 10,
+    "end": 16,
+    "duration_seconds": 6,
+    "title": "가운데가 잘록해진다",
+    "class": "SoapShot"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_sequence",
+    "start": 16,
+    "end": 21,
+    "duration_seconds": 5,
+    "title": "카테노이드",
+    "class": "SoapShot"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_sequence",
+    "start": 21,
+    "end": 30,
+    "duration_seconds": 9,
+    "title": "표면 안으로 들어가면",
+    "class": "SoapShot"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_sequence",
+    "start": 30,
+    "end": 42,
+    "duration_seconds": 12,
+    "title": "분자 사이의 거리와 에너지",
+    "class": "SoapShot"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_sequence",
+    "start": 42,
+    "end": 51,
+    "duration_seconds": 9,
+    "title": "내부에서 표면으로",
+    "class": "SoapShot"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_sequence",
+    "start": 51,
+    "end": 55,
+    "duration_seconds": 4,
+    "title": "주변 상호작용의 차이",
+    "class": "SoapShot"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_sequence",
+    "start": 55,
+    "end": 62,
+    "duration_seconds": 7,
+    "title": "새로운 표면에는 비용이 든다",
+    "class": "SoapShot"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_sequence",
+    "start": 62,
+    "end": 71,
+    "duration_seconds": 9,
+    "title": "표면 자유에너지",
+    "class": "SoapShot"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_sequence",
+    "start": 71,
+    "end": 77,
+    "duration_seconds": 6,
+    "title": "면적에 비례하는 에너지",
+    "class": "SoapShot"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_sequence",
+    "start": 77,
+    "end": 82,
+    "duration_seconds": 5,
+    "title": "면적이 줄면 에너지도 줄어든다",
+    "class": "SoapShot"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_sequence",
+    "start": 82,
+    "end": 89,
+    "duration_seconds": 7,
+    "title": "에너지를 줄이는 방법",
+    "class": "SoapShot"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_sequence",
+    "start": 89,
+    "end": 96,
+    "duration_seconds": 7,
+    "title": "가장자리는 고정되어 있다",
+    "class": "SoapShot"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15_sequence",
+    "start": 96,
+    "end": 101,
+    "duration_seconds": 5,
+    "title": "같은 경계 · 다른 면적",
+    "class": "SoapShot"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16_sequence",
+    "start": 101,
+    "end": 109,
+    "duration_seconds": 8,
+    "title": "안정된 평형과 최소곡면",
+    "class": "SoapShot"
+  },
+  {
+    "id": "17",
+    "directory": "scenes/17_sequence",
+    "start": 109,
+    "end": 115,
+    "duration_seconds": 6,
+    "title": "계산해서 고르는 걸까?",
+    "class": "SoapShot"
+  },
+  {
+    "id": "18",
+    "directory": "scenes/18_sequence",
+    "start": 115,
+    "end": 121,
+    "duration_seconds": 6,
+    "title": "전체 탐색은 필요 없다",
+    "class": "SoapShot"
+  },
+  {
+    "id": "19",
+    "directory": "scenes/19_sequence",
+    "start": 121,
+    "end": 123,
+    "duration_seconds": 2,
+    "title": "작은 부분을 들여다보면",
+    "class": "SoapShot"
+  },
+  {
+    "id": "20",
+    "directory": "scenes/20_sequence",
+    "start": 123,
+    "end": 135,
+    "duration_seconds": 12,
+    "title": "주변 막이 당기는 힘",
+    "class": "SoapShot"
+  },
+  {
+    "id": "21",
+    "directory": "scenes/21_sequence",
+    "start": 135,
+    "end": 146,
+    "duration_seconds": 11,
+    "title": "힘의 평형과 곡률",
+    "class": "SoapShot"
+  },
+  {
+    "id": "22",
+    "directory": "scenes/22_sequence",
+    "start": 146,
+    "end": 156,
+    "duration_seconds": 10,
+    "title": "시간 변화와 다른, 작은 변형",
+    "class": "SoapShot"
+  },
+  {
+    "id": "23",
+    "directory": "scenes/23_sequence",
+    "start": 156,
+    "end": 165,
+    "duration_seconds": 9,
+    "title": "국소적인 법칙 · 전체의 조건",
+    "class": "SoapShot"
+  },
+  {
+    "id": "24",
+    "directory": "scenes/24_sequence",
+    "start": 165,
+    "end": 174,
+    "duration_seconds": 9,
+    "title": "미리 아는 것이 아니라",
+    "class": "SoapShot"
+  }
+]

@@ -1438,3 +1438,28 @@ python scripts/render.py learn01
 - [QR 2편 현재 수정본 v2 · 96초](longforms/qr02_triangular_structure/revisions/v2_96s/README.md): 새 원고·종료 시각 기준, 24컷. 점→직선→평면→공간→R의 열을 구성한다. `python scripts/render.py qr02_shorts` / `python scripts/render.py qr02_longform`. 상위 98초 버전은 보존 자료다.
 
 - [QR 3편 — 대각선에 부피가 숨어 있는 이유](longforms/qr03_diagonal_volume/README.md): 사용자 확정 108초·27컷, 단위 정육면체 변환·Q 부피 보존·R의 직교 높이·전단. `python scripts/render.py qr03_shorts` / `python scripts/render.py qr03_longform`. 미리보기는 --preview 추가.
+
+- [QR 4편 — 정규방정식과 QR의 수치 안정성](longforms/qr04_stable_least_squares/README.md): 사용자 확정 107초·28컷, 쇼츠·가로형 무음 자막 영상. `python scripts/render.py qr04_shorts` / `python scripts/render.py qr04_longform`. 미리보기 --preview.
+
+
+## Softmax Collapse — 106초 세로 쇼츠
+
+실제 소스: `episodes/softmax01_collapse/` (`scene.py`, `narration.md`, `brief.md`, `timing.json`, `captions.srt`, `tts_script.txt`). 사용자 제공 발화시간 기준, 27컷, 무음 영상.
+
+```powershell
+python scripts/render.py softmax01 --preview
+python scripts/render.py softmax01
+```
+
+출력: `exports/softmax01.mp4` (1080×1920, 30fps).
+
+- [현재 QR 기하학 4편 — QR은 왜 SVD처럼 대각화하지 않을까?](longforms/qr04_qr_vs_svd/README.md): 사용자 새 대본 108초·27컷. `python scripts/render.py qr04_shorts` / `python scripts/render.py qr04_longform`. 이전 107초 최소제곱 4편은 별도 폴더·출력으로 보존.
+
+- [QR 기하학 5편 최종편 — QR을 반복하면 왜 고윳값이 나타날까?](longforms/qr05_eigenvalue_iteration/README.md): 사용자 확정 124초·30컷. 실제 QR 반복·누적 기준 Pₖ·고윳값 보존·대각 수렴. `python scripts/render.py qr05_shorts` / `python scripts/render.py qr05_longform`. 미리보기 --preview.
+
+- [QR 기하학 — 마무리 영상](longforms/qr_series_closing/README.md): 사용자 요청 회고 대본·89초·25컷, 가로형만. `python scripts/render.py qr_closing_longform`. 무음·자막 영상, 미리보기 --preview.
+
+## 자연의 최적화 01
+
+[비눗막 · 174초 · 세로/가로](longforms/nature01_soap_film/README.md). python longforms/nature01_soap_film/build.py --preview / python longforms/nature01_soap_film/build.py. 음원 미제공, 문장 시각 기준 자막 무음 영상.
+

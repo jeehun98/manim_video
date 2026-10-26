@@ -127,3 +127,18 @@ longforms/<ID>_<slug>/
 - [QR 2편 현재 수정본 v2 — 공간의 차원이 만드는 위삼각 구조](qr02_triangular_structure/revisions/v2_96s/README.md): 새 대본·96초 종료 시각·24컷. `python longforms/qr02_triangular_structure/revisions/v2_96s/build.py`. 이전 98초 버전과 구분.
 
 - [QR 3편 — 대각선과 부피](qr03_diagonal_volume/README.md): 사용자 108초·27개 독립 컷·쇼츠/가로형 무음 자막 영상. `python longforms/qr03_diagonal_volume/build.py --preview` / `python longforms/qr03_diagonal_volume/build.py`.
+
+- [QR 4편 — 컴퓨터는 왜 정규방정식보다 QR을 선호할까?](qr04_stable_least_squares/README.md): 사용자 107초·28컷. `python longforms/qr04_stable_least_squares/build.py --preview` / `python longforms/qr04_stable_least_squares/build.py`. 열공간 고정·계수 상쇄·조건수 제곱·후진대입, 무음 자막 영상.
+
+- [현재 기하학 4편 — QR과 SVD의 방향 선택](qr04_qr_vs_svd/README.md): 새 확정 원고·108초·27컷, 같은 회전된 행렬을 사용하는 QR/SVD. `python longforms/qr04_qr_vs_svd/build.py`. 이전 최소제곱 4편과 구분.
+
+- [기하학 5편 최종편 — QR 반복과 고윳값](qr05_eigenvalue_iteration/README.md): 124초·30개 독립 컷·쇼츠/가로형 무음 자막. `python longforms/qr05_eigenvalue_iteration/build.py --preview` / `python longforms/qr05_eigenvalue_iteration/build.py`.
+
+- [QR 기하학 — 직교성으로 연결하는 마무리](qr_series_closing/README.md): 요청된 시리즈 회고, 89초·25컷·가로형만. `python longforms/qr_series_closing/build.py --preview` / `python longforms/qr_series_closing/build.py`.
+
+- [QR 1~6편 음성 포함 통합본](qr_full_01_06/README.md): exports/qr_long_1.mp4~qr_long_6.mp4 순서 연결. 10분 37.96초, 1920×1080·30fps, 원본 영상·음성 유지 및 챕터 포함. 실행: python longforms/qr_full_01_06/combine.py. 썸네일: exports/qr_full_01_06_thumbnail.png.
+
+## 자연의 최적화
+
+- [01 — 비눗막은 어떻게 최소 면적을 찾을까?](nature01_soap_film/README.md): 사용자 문장 종료 시각 기준 174초, 24개 독립 Manim 3D 씬. 쇼츠·가로형 자막 무음 영상. 실행: python longforms/nature01_soap_film/build.py --preview 또는 python longforms/nature01_soap_film/build.py.
+

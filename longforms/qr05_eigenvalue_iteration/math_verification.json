@@ -1,0 +1,17 @@
+{
+  "all_checks_pass": true,
+  "checks": [
+    "A_k=Q_kR_k",
+    "positive diagonal",
+    "A_k=P_k^T A0 P_k",
+    "orthogonal P_k",
+    "eigenvalues 2,4 at every step"
+  ],
+  "iterations": 13,
+  "duration": 124,
+  "sentences": 28,
+  "timing_continuous": true,
+  "power_direction_matches_first_cumulative_basis": true,
+  "off_diagonal_monotone": true,
+  "first_iterate_matches_storyboard": true
+}

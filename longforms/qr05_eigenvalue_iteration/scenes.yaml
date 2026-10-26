@@ -1,0 +1,154 @@
+title: QR 기하학 5편 — QR 반복
+duration_seconds: 124
+timing_source: user_sentence_end_times
+scenes:
+  - id: "01"
+    source: scenes/01_scene/scene.py
+    class: QRShot
+    start: 0
+    duration_seconds: 5
+  - id: "02"
+    source: scenes/02_scene/scene.py
+    class: QRShot
+    start: 5
+    duration_seconds: 2
+  - id: "03"
+    source: scenes/03_scene/scene.py
+    class: QRShot
+    start: 7
+    duration_seconds: 6
+  - id: "04"
+    source: scenes/04_scene/scene.py
+    class: QRShot
+    start: 13
+    duration_seconds: 6
+  - id: "05"
+    source: scenes/05_scene/scene.py
+    class: QRShot
+    start: 19
+    duration_seconds: 4
+  - id: "06"
+    source: scenes/06_scene/scene.py
+    class: QRShot
+    start: 23
+    duration_seconds: 3
+  - id: "07"
+    source: scenes/07_scene/scene.py
+    class: QRShot
+    start: 26
+    duration_seconds: 1
+  - id: "08"
+    source: scenes/08_scene/scene.py
+    class: QRShot
+    start: 27
+    duration_seconds: 4
+  - id: "09"
+    source: scenes/09_scene/scene.py
+    class: QRShot
+    start: 31
+    duration_seconds: 3
+  - id: "10"
+    source: scenes/10_scene/scene.py
+    class: QRShot
+    start: 34
+    duration_seconds: 1
+  - id: "11"
+    source: scenes/11_scene/scene.py
+    class: QRShot
+    start: 35
+    duration_seconds: 6
+  - id: "12"
+    source: scenes/12_scene/scene.py
+    class: QRShot
+    start: 41
+    duration_seconds: 3
+  - id: "13"
+    source: scenes/13_scene/scene.py
+    class: QRShot
+    start: 44
+    duration_seconds: 4
+  - id: "14"
+    source: scenes/14_scene/scene.py
+    class: QRShot
+    start: 48
+    duration_seconds: 6
+  - id: "15"
+    source: scenes/15_scene/scene.py
+    class: QRShot
+    start: 54
+    duration_seconds: 2
+  - id: "16"
+    source: scenes/16_scene/scene.py
+    class: QRShot
+    start: 56
+    duration_seconds: 5
+  - id: "17"
+    source: scenes/17_scene/scene.py
+    class: QRShot
+    start: 61
+    duration_seconds: 5
+  - id: "18"
+    source: scenes/18_scene/scene.py
+    class: QRShot
+    start: 66
+    duration_seconds: 5
+  - id: "19"
+    source: scenes/19_scene/scene.py
+    class: QRShot
+    start: 71
+    duration_seconds: 6
+  - id: "20"
+    source: scenes/20_scene/scene.py
+    class: QRShot
+    start: 77
+    duration_seconds: 3
+  - id: "21"
+    source: scenes/21_scene/scene.py
+    class: QRShot
+    start: 80
+    duration_seconds: 7
+  - id: "22"
+    source: scenes/22_scene/scene.py
+    class: QRShot
+    start: 87
+    duration_seconds: 5
+  - id: "23"
+    source: scenes/23_scene/scene.py
+    class: QRShot
+    start: 92
+    duration_seconds: 4
+  - id: "24"
+    source: scenes/24_scene/scene.py
+    class: QRShot
+    start: 96
+    duration_seconds: 2
+  - id: "25"
+    source: scenes/25_scene/scene.py
+    class: QRShot
+    start: 98
+    duration_seconds: 5
+  - id: "26"
+    source: scenes/26_scene/scene.py
+    class: QRShot
+    start: 103
+    duration_seconds: 3
+  - id: "27"
+    source: scenes/27_scene/scene.py
+    class: QRShot
+    start: 106
+    duration_seconds: 4
+  - id: "28"
+    source: scenes/28_scene/scene.py
+    class: QRShot
+    start: 110
+    duration_seconds: 4
+  - id: "29"
+    source: scenes/29_scene/scene.py
+    class: QRShot
+    start: 114
+    duration_seconds: 3
+  - id: "30"
+    source: scenes/30_scene/scene.py
+    class: QRShot
+    start: 117
+    duration_seconds: 7

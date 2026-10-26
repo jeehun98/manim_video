@@ -1,0 +1,43 @@
+{
+  "stability": 0.5312294162142792,
+  "area_candidates": {
+    "0": 13.44536256628979,
+    "0.5": 12.679332911292994,
+    "1": 12.489615091542062
+  },
+  "area_first_derivative": 4.6895820560166606e-08,
+  "equilibrium_patch_force_over_gamma": [
+    -1.1102230246251565e-16,
+    4.242716789004675e-09,
+    0.0
+  ],
+  "deformed_patch_force_over_gamma": [
+    -1.1102230246251565e-16,
+    0.3380381875416744,
+    0.0
+  ],
+  "sentence_count": 42,
+  "duration": 174
+}
+[
+  {
+    "layout": "shorts",
+    "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\nature01_soap_film_174s_shorts_final.mp4",
+    "codec_type": "video",
+    "width": 1080,
+    "height": 1920,
+    "r_frame_rate": "30/1",
+    "duration": "174.000000",
+    "nb_read_frames": "5220"
+  },
+  {
+    "layout": "longform",
+    "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\nature01_soap_film_174s_longform_final.mp4",
+    "codec_type": "video",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "30/1",
+    "duration": "174.000000",
+    "nb_read_frames": "5220"
+  }
+]

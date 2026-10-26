@@ -1,0 +1,88 @@
+{
+  "all_checks_pass": true,
+  "checks": [
+    "A=QR",
+    "orthonormal columns",
+    "p=(0,1,0)",
+    "residual orthogonal",
+    "same solution in exact-reference float64",
+    "condition number squared",
+    "R retains condition number"
+  ],
+  "examples": [
+    {
+      "epsilon": 0.8,
+      "kappa_A": 2.9624404748406685,
+      "kappa_AtA": 8.776053566974197,
+      "coefficients": [
+        -1.25,
+        1.25
+      ],
+      "projection": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 0.2,
+      "kappa_A": 10.100999900019996,
+      "kappa_AtA": 102.03019898020348,
+      "coefficients": [
+        -5.0,
+        5.0
+      ],
+      "projection": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 0.05,
+      "kappa_A": 40.02501562499389,
+      "kappa_AtA": 1602.0018757810485,
+      "coefficients": [
+        -20.0,
+        20.0
+      ],
+      "projection": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 0.02,
+      "kappa_A": 100.01000099999999,
+      "kappa_AtA": 10002.00030002121,
+      "coefficients": [
+        -50.0,
+        50.0
+      ],
+      "projection": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 0.002,
+      "kappa_A": 1000.0010000010003,
+      "kappa_AtA": 1000002.0000070466,
+      "coefficients": [
+        -500.0,
+        500.0
+      ],
+      "projection": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    }
+  ],
+  "timing_continuous": true,
+  "duration": 107,
+  "sentences": 27,
+  "roundoff_illustration": "qualitative; not claimed measured errors"
+}
