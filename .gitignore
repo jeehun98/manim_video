@@ -12,3 +12,10 @@ longforms/**/longform_final.mp4
 
 # Local rendering toolchain
 .tools/
+
+# Regenerable caches and rendering logs
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log

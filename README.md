@@ -1463,3 +1463,7 @@ python scripts/render.py softmax01
 
 [비눗막 · 174초 · 세로/가로](longforms/nature01_soap_film/README.md). python longforms/nature01_soap_film/build.py --preview / python longforms/nature01_soap_film/build.py. 음원 미제공, 문장 시각 기준 자막 무음 영상.
 
+## 작업 공간 정리
+
+렌더 작업을 종료한 뒤 PowerShell에서 `./scripts/clean_workspace.ps1`로 정리 대상 수와 용량을 확인하고, `./scripts/clean_workspace.ps1 -Apply`로 삭제한다. Python 캐시, `media/` 아래 Manim 부분 영상·Tex·texts 캐시, 루트 및 episodes/longforms의 렌더 로그를 정리한다. 완성 영상, 음원, 대본, 타이밍 자료, archive, 가상환경은 보존한다. 캐시 삭제 후 첫 렌더는 캐시를 다시 생성하므로 시간이 더 걸릴 수 있다.
+
