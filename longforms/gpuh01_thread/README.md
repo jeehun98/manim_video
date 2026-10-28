@@ -35,6 +35,16 @@ python longforms/gpuh01_thread/verify.py
 
 가로형은 구조와 코드를 나란히, 세로형은 구조 위·코드 아래로 재배치한다. 자막은 별도 하단 공간에 배치한다. Register File은 SM의 자원으로 표현하며 Thread의 개별 물리 메모리로 그리지 않는다. 화면 동작은 소스 수준의 개념도이며 GPU 명령 trace를 재현하지 않는다.
 
+## 코드 가독성 수정 v2
+
+사용자 피드백에 따라 `01`, `02` 같은 줄 번호를 제거했다. 코드 영역은 채운 배경·외곽 테두리·제목줄·분리선이 있는 고정 패널로 표시한다. 장면에 필요한 소스 부분만 발췌하고 글자를 확대하며 자료형·인덱스·중간값을 색으로 구분한다. 이어지는 식은 앞 줄을 함께 표시해 `+ threadIdx.x`만 떨어져 나오지 않도록 한다. 대본·자막·문장 종료 시각과 전체 152초는 유지한다.
+
+기본 최종 경로에 수정본을 저장하고, 전달용 복사본은 `gpuh01_thread_152s_shorts_code_readable_v2.mp4` 및 `gpuh01_thread_152s_longform_code_readable_v2.mp4`로 제공한다.
+
+## 구조 연결 수정 v3
+
+[continuity.md](continuity.md)에 따라 같은 GPU·SM 0·Block·Thread의 실행 배치도를 계속 유지한다. 선택한 Thread의 번호·색을 배열 계산과 일치시키고, Register 설명에서는 같은 SM을 확대해 Block과 Thread 1을 남긴다. 저장 자원은 Thread 내부의 물리 메모리로 표현하지 않는다. 2D 설정은 다른 설정 예시임을 명시한다. 전달용은 `gpuh01_thread_152s_shorts_structure_connected_v3.mp4` 및 `gpuh01_thread_152s_longform_structure_connected_v3.mp4`다.
+
 ## CUDA 실행 검증
 
 `vector_add.cu`는 전체 host 준비·오류 확인·결과 검증·해제를 포함한다. CUDA 13.3, NVIDIA GeForce RTX 3060, driver 610.88에서 컴파일·실행했다.
