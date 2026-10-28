@@ -1467,3 +1467,45 @@ python scripts/render.py softmax01
 
 렌더 작업을 종료한 뒤 PowerShell에서 `./scripts/clean_workspace.ps1`로 정리 대상 수와 용량을 확인하고, `./scripts/clean_workspace.ps1 -Apply`로 삭제한다. Python 캐시, `media/` 아래 Manim 부분 영상·Tex·texts 캐시, 루트 및 episodes/longforms의 렌더 로그를 정리한다. 완성 영상, 음원, 대본, 타이밍 자료, archive, 가상환경은 보존한다. 캐시 삭제 후 첫 렌더는 캐시를 다시 생성하므로 시간이 더 걸릴 수 있다.
 
+
+## 자연의 최적화 02
+
+[현수선과 중력 위치에너지 · 150초 · 세로/가로](longforms/nature02_catenary/README.md). python longforms/nature02_catenary/build.py --preview / python longforms/nature02_catenary/build.py. 음원 미제공, 문장 종료 시각 기준 자막 무음 영상.
+
+
+## 자연의 최적화 03
+
+[빛의 굴절과 이동 시간 · 149초 · 세로/가로](longforms/nature03_refraction/README.md). python longforms/nature03_refraction/build.py --preview / python longforms/nature03_refraction/build.py. 음원 미제공, 사용자 문장 종료 시각 기준 자막 무음 영상.
+
+
+## 자연의 최적화 04
+
+[최속강하선과 사이클로이드 · 165초 · 세로/가로](longforms/nature04_brachistochrone/README.md). `python longforms/nature04_brachistochrone/build.py --preview` / `python longforms/nature04_brachistochrone/build.py`. 사용자 문장 종료 시각, 26개 독립 씬, 자막 포함 무음 영상.
+
+## 자연의 최적화 05
+
+[최소작용 원리와 뉴턴의 운동법칙 · 162초 · 세로/가로](longforms/nature05_stationary_action/README.md). `python longforms/nature05_stationary_action/build.py --preview` / `python longforms/nature05_stationary_action/build.py`. 사용자 문장 종료 시각, 27개 독립 씬, 자막 포함 무음 영상.
+
+## 자연의 최적화 1~5편 통합 롱폼
+
+[음성 포함 통합본](longforms/nature_full_01_05/README.md): `nature_1.mp4`~`nature_5.mp4` 순서, 13분 35초, 1920×1080·30fps, 원본 영상·음성 보존 및 챕터 포함.
+
+## 내적 LEVEL 01
+[102초 쇼츠·롱폼 제작 자료](longforms/dot01_direction_measure/README.md). 실행: python longforms/dot01_direction_measure/build.py (--preview). 사용자 제공 문장 종료 시각 기준, 무음·자막 영상.
+
+
+## 내적 LEVEL 02 — 정사영
+[101초 쇼츠·롱폼 제작 자료](longforms/dot02_projection/README.md). 실행: python longforms/dot02_projection/build.py (--preview). 사용자 제공 문장 종료 시각 기준, 무음·자막 영상.
+
+
+## 내적 LEVEL 03 — 직교 잔차
+[101초 쇼츠·롱폼 제작 자료](longforms/dot03_orthogonal_residual/README.md). 실행: python longforms/dot03_orthogonal_residual/build.py (--preview). 정사영 제거·잔차 평행이동·내적0·성분 재구성, 무음 자막 영상.
+
+
+## 내적 LEVEL 04 — 직교정규기저와 좌표
+[137초 쇼츠·롱폼 제작 자료](longforms/dot04_orthonormal_coordinates/README.md). 실행: python longforms/dot04_orthonormal_coordinates/build.py (--preview). 고정 벡터·45도 기저 회전·음수 좌표·성분 재구성, 무음 자막 영상.
+
+## GPU 계층 구조 LEVEL 01 — Thread
+
+[152초 세로·가로 제작 자료](longforms/gpuh01_thread/README.md). 사용자 문장 종료 시각 기준, 16개 독립 씬, 무음 자막 영상. 실행: `python longforms/gpuh01_thread/build.py --preview` / `python longforms/gpuh01_thread/build.py`. CUDA 배열 덧셈은 RTX 3060에서 결과 검증 완료.
+

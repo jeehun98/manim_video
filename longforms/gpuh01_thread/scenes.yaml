@@ -1,0 +1,88 @@
+id: gpuh01_thread
+title: "GPU의 스레드 하나는 무엇을 할까?"
+video:
+  fps: 30
+  layouts:
+    shorts: [1080, 1920]
+    longform: [1920, 1080]
+scenes:
+  - id: "01"
+    directory: scenes/01_hook
+    class: Thread01
+    duration_seconds: 8
+    transition: cut
+  - id: "02"
+    directory: scenes/02_scene
+    class: Thread02
+    duration_seconds: 8
+    transition: cut
+  - id: "03"
+    directory: scenes/03_scene
+    class: Thread03
+    duration_seconds: 13
+    transition: cut
+  - id: "04"
+    directory: scenes/04_scene
+    class: Thread04
+    duration_seconds: 7
+    transition: cut
+  - id: "05"
+    directory: scenes/05_scene
+    class: Thread05
+    duration_seconds: 12
+    transition: cut
+  - id: "06"
+    directory: scenes/06_scene
+    class: Thread06
+    duration_seconds: 7
+    transition: cut
+  - id: "07"
+    directory: scenes/07_scene
+    class: Thread07
+    duration_seconds: 7
+    transition: cut
+  - id: "08"
+    directory: scenes/08_scene
+    class: Thread08
+    duration_seconds: 8
+    transition: cut
+  - id: "09"
+    directory: scenes/09_scene
+    class: Thread09
+    duration_seconds: 11
+    transition: cut
+  - id: "10"
+    directory: scenes/10_scene
+    class: Thread10
+    duration_seconds: 11
+    transition: cut
+  - id: "11"
+    directory: scenes/11_scene
+    class: Thread11
+    duration_seconds: 7
+    transition: cut
+  - id: "12"
+    directory: scenes/12_scene
+    class: Thread12
+    duration_seconds: 10
+    transition: cut
+  - id: "13"
+    directory: scenes/13_scene
+    class: Thread13
+    duration_seconds: 12
+    transition: cut
+  - id: "14"
+    directory: scenes/14_scene
+    class: Thread14
+    duration_seconds: 7
+    transition: cut
+  - id: "15"
+    directory: scenes/15_scene
+    class: Thread15
+    duration_seconds: 12
+    transition: cut
+  - id: "16"
+    directory: scenes/16_scene
+    class: Thread16
+    duration_seconds: 12
+    transition: cut

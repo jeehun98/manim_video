@@ -1,0 +1,8 @@
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/dot01_direction_measure/scenes/01_scene/visual_longform_final.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/dot01_direction_measure/scenes/02_scene/visual_longform_final.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/dot01_direction_measure/scenes/03_scene/visual_longform_final.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/dot01_direction_measure/scenes/04_scene/visual_longform_final.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/dot01_direction_measure/scenes/05_scene/visual_longform_final.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/dot01_direction_measure/scenes/06_scene/visual_longform_final.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/dot01_direction_measure/scenes/07_scene/visual_longform_final.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/dot01_direction_measure/scenes/08_scene/visual_longform_final.mp4'

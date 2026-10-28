@@ -1,0 +1,29 @@
+{
+  "duration_seconds": 152,
+  "frames": 4560,
+  "checks": [
+    {
+      "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpuh01_thread_152s_shorts_final.mp4",
+      "width": 1080,
+      "height": 1920,
+      "frames": 4560,
+      "fps": 30,
+      "seconds": "152.000000",
+      "codec": "h264",
+      "geometry_samples": 66,
+      "contact_sheet": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpuh01_qa_shorts_final.jpg"
+    },
+    {
+      "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpuh01_thread_152s_longform_final.mp4",
+      "width": 1920,
+      "height": 1080,
+      "frames": 4560,
+      "fps": 30,
+      "seconds": "152.000000",
+      "codec": "h264",
+      "geometry_samples": 66,
+      "contact_sheet": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpuh01_qa_longform_final.jpg"
+    }
+  ],
+  "audio": "none; source narration audio not provided"
+}

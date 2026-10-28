@@ -1,0 +1,200 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_sequence",
+    "start": 0,
+    "end": 4,
+    "duration_seconds": 4,
+    "title": "물속으로 전파되는 빛",
+    "class": "LightShot"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_sequence",
+    "start": 4,
+    "end": 10,
+    "duration_seconds": 6,
+    "title": "경계에서 방향이 꺾인다",
+    "class": "LightShot"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_sequence",
+    "start": 10,
+    "end": 17,
+    "duration_seconds": 7,
+    "title": "전파한 뒤 관찰점을 선택한다",
+    "class": "LightShot"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_sequence",
+    "start": 17,
+    "end": 23,
+    "duration_seconds": 6,
+    "title": "가장 짧은 거리와 실제 광선",
+    "class": "LightShot"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_sequence",
+    "start": 23,
+    "end": 30,
+    "duration_seconds": 7,
+    "title": "같은 시간 · 다른 이동 거리",
+    "class": "LightShot"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_sequence",
+    "start": 30,
+    "end": 40,
+    "duration_seconds": 10,
+    "title": "거리보다 중요한 이동 시간",
+    "class": "LightShot"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_sequence",
+    "start": 40,
+    "end": 46,
+    "duration_seconds": 6,
+    "title": "만약 모든 경로를 계산한다면?",
+    "class": "LightShot"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_sequence",
+    "start": 46,
+    "end": 56,
+    "duration_seconds": 10,
+    "title": "빛의 전파가 먼저다",
+    "class": "LightShot"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_sequence",
+    "start": 56,
+    "end": 59,
+    "duration_seconds": 3,
+    "title": "광선에서 파면으로",
+    "class": "LightShot"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_sequence",
+    "start": 59,
+    "end": 67,
+    "duration_seconds": 8,
+    "title": "비스듬히 도착하는 파면",
+    "class": "LightShot"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_sequence",
+    "start": 67,
+    "end": 74,
+    "duration_seconds": 7,
+    "title": "먼저 물에 들어간 부분은 더 느리게",
+    "class": "LightShot"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_sequence",
+    "start": 74,
+    "end": 78,
+    "duration_seconds": 4,
+    "title": "파면이 바뀌면 진행 방향도 바뀐다",
+    "class": "LightShot"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_sequence",
+    "start": 78,
+    "end": 83,
+    "duration_seconds": 5,
+    "title": "목적지 없이 계속 전파된다",
+    "class": "LightShot"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_sequence",
+    "start": 83,
+    "end": 88,
+    "duration_seconds": 5,
+    "title": "물리적 전파 → 수학적 경로 분석",
+    "class": "LightShot"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15_sequence",
+    "start": 88,
+    "end": 96,
+    "duration_seconds": 8,
+    "title": "통과점 C를 조금씩 바꾸면",
+    "class": "LightShot"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16_sequence",
+    "start": 96,
+    "end": 103,
+    "duration_seconds": 7,
+    "title": "실제 경로에서 시간의 일차 변화가 0",
+    "class": "LightShot"
+  },
+  {
+    "id": "17",
+    "directory": "scenes/17_sequence",
+    "start": 103,
+    "end": 108,
+    "duration_seconds": 5,
+    "title": "페르마의 원리에서 스넬 법칙으로",
+    "class": "LightShot"
+  },
+  {
+    "id": "18",
+    "directory": "scenes/18_sequence",
+    "start": 108,
+    "end": 117,
+    "duration_seconds": 9,
+    "title": "서로 다른 시간 · 서로 다른 위상",
+    "class": "LightShot"
+  },
+  {
+    "id": "19",
+    "directory": "scenes/19_sequence",
+    "start": 117,
+    "end": 128,
+    "duration_seconds": 11,
+    "title": "정지시간 근처에서는 위상이 모인다",
+    "class": "LightShot"
+  },
+  {
+    "id": "20",
+    "directory": "scenes/20_sequence",
+    "start": 128,
+    "end": 135,
+    "duration_seconds": 7,
+    "title": "물리적 전파와 수학적 해석",
+    "class": "LightShot"
+  },
+  {
+    "id": "21",
+    "directory": "scenes/21_sequence",
+    "start": 135,
+    "end": 141,
+    "duration_seconds": 6,
+    "title": "두 관점이 같은 굴절 경로를 준다",
+    "class": "LightShot"
+  },
+  {
+    "id": "22",
+    "directory": "scenes/22_sequence",
+    "start": 141,
+    "end": 149,
+    "duration_seconds": 8,
+    "title": "국소적인 법칙 · 전체적인 조건",
+    "class": "LightShot"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_scene",
+    "start": 0,
+    "end": 13,
+    "duration_seconds": 13,
+    "title": "내적의 계산 규칙",
+    "class": "Dot01"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_scene",
+    "start": 13,
+    "end": 24,
+    "duration_seconds": 11,
+    "title": "계산한 숫자 3의 의미",
+    "class": "Dot02"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_scene",
+    "start": 24,
+    "end": 33,
+    "duration_seconds": 9,
+    "title": "방향과 길이",
+    "class": "Dot03"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_scene",
+    "start": 33,
+    "end": 45,
+    "duration_seconds": 12,
+    "title": "길이가 1인 기준",
+    "class": "Dot04"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_scene",
+    "start": 45,
+    "end": 62,
+    "duration_seconds": 17,
+    "title": "같은 방향에서 측정한 길이",
+    "class": "Dot05"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_scene",
+    "start": 62,
+    "end": 74,
+    "duration_seconds": 12,
+    "title": "기준 방향을 바꾸면",
+    "class": "Dot06"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_scene",
+    "start": 74,
+    "end": 90,
+    "duration_seconds": 16,
+    "title": "방향에 따라 달라지는 성분",
+    "class": "Dot07"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_scene",
+    "start": 90,
+    "end": 102,
+    "duration_seconds": 12,
+    "title": "방향을 기준으로 성분을 측정한다",
+    "class": "Dot08"
+  }
+]

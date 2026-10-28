@@ -142,3 +142,32 @@ longforms/<ID>_<slug>/
 
 - [01 — 비눗막은 어떻게 최소 면적을 찾을까?](nature01_soap_film/README.md): 사용자 문장 종료 시각 기준 174초, 24개 독립 Manim 3D 씬. 쇼츠·가로형 자막 무음 영상. 실행: python longforms/nature01_soap_film/build.py --preview 또는 python longforms/nature01_soap_film/build.py.
 
+
+- [02 — 매달린 사슬이 포물선이 아닌 이유](nature02_catenary/README.md): 사용자 문장 종료 시각 기준 150초, 22개 독립 Manim 3D 씬. 같은 길이 후보의 에너지 적분·거리 제약 사슬·현수선 회전. 세로/가로 자막 무음 영상. python longforms/nature02_catenary/build.py --preview / python longforms/nature02_catenary/build.py.
+
+
+- [03 — 빛은 목적지를 모르는데 어떻게 최단시간 경로가 나타날까?](nature03_refraction/README.md): 사용자 종료 시각 기준 149초, 22개 독립 Manim 2D/3D 씬. 위상장 기반 파면 굴절·실제 이동 시간·페이저 비교. 세로/가로 자막 무음 영상. python longforms/nature03_refraction/build.py --preview / python longforms/nature03_refraction/build.py.
+
+
+- [04 — 최속강하선과 사이클로이드](nature04_brachistochrone/README.md): 165초·26개 독립 씬. 물리 시간 경주·에너지·회전 원·층별 Snell 경로와 연속 극한. 세로/가로 자막 무음 영상. `python longforms/nature04_brachistochrone/build.py --preview` / `python longforms/nature04_brachistochrone/build.py`.
+
+- [05 — 최소작용 원리와 뉴턴의 운동법칙](nature05_stationary_action/README.md): 162초·27개 독립 씬. 시간 이력·부호 있는 작용·정지 조건·뉴턴 법칙 유도와 두 해법의 일치. 세로/가로 자막 무음 영상. `python longforms/nature05_stationary_action/build.py --preview` / `python longforms/nature05_stationary_action/build.py`.
+
+- [자연의 최적화 1~5편 통합 롱폼](nature_full_01_05/README.md): 음성 포함 가로형 `nature_1.mp4`~`nature_5.mp4` 순서 결합. 13분 35초, 1920×1080·30fps, 재인코딩 없음, 편별 챕터. `python longforms/nature_full_01_05/combine.py`.
+
+## 내적
+- [LEVEL 01 — 방향을 측정하는 연산](dot01_direction_measure/README.md): 102초, 8개 독립 씬, 9:16 쇼츠·16:9 롱폼. 사용자 제공 27개 문장 종료 시각. python longforms/dot01_direction_measure/build.py (--preview). 음원 미제공으로 무음·자막 제작.
+
+
+- [내적 LEVEL 02 — Projection / 정사영](dot02_projection/README.md): 101초, 9개 독립 씬, 세로 쇼츠·가로 롱폼. x=(4,2), 45도 단위벡터, 내적값3√2로 정사영(3,3) 생성. python longforms/dot02_projection/build.py (--preview). 음원 미제공으로 무음·자막 제작.
+
+
+- [내적 LEVEL 03 — 방향 성분 제거와 직교 잔차](dot03_orthogonal_residual/README.md): 사용자 종료 시각 기준101초, 8개 독립 씬, 쇼츠·가로형. (4,2)−(3,3)=(1,−1), 잔차의 내적0과 성분 재구성. python longforms/dot03_orthogonal_residual/build.py (--preview). 음원 미제공으로 무음·자막 제작.
+
+
+- [내적 LEVEL 04 — 직교정규기저와 좌표](dot04_orthonormal_coordinates/README.md): 사용자 종료 시각137초, 9개 독립 씬, 쇼츠·가로형. 고정 x=(5,1), 새 좌표(3√2,−2√2), 두 정사영(3,3)+(2,−2)로 복원. python longforms/dot04_orthonormal_coordinates/build.py (--preview). 음원 미제공으로 무음·자막 제작.
+
+
+## GPU 계층 구조
+
+- [LEVEL 01 — Thread](gpuh01_thread/README.md): 사용자 문장 종료 시각 기준 152초, 16개 독립 씬, 세로·가로 무음 자막 영상. 실행: python longforms/gpuh01_thread/build.py --preview / python longforms/gpuh01_thread/build.py. CUDA 배열 덧셈 실행 검증 완료.

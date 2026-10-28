@@ -1,0 +1,44 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\nature_full_01_05_longform.mp4",
+  "chapters": [
+    {
+      "source": "exports\\nature_1.mp4",
+      "title": "01 비눗막과 최소곡면",
+      "start_seconds": 0.0,
+      "duration_seconds": 177.233333
+    },
+    {
+      "source": "exports\\nature_2.mp4",
+      "title": "02 현수선과 위치에너지",
+      "start_seconds": 177.233333,
+      "duration_seconds": 152.966667
+    },
+    {
+      "source": "exports\\nature_3.mp4",
+      "title": "03 빛의 굴절과 이동 시간",
+      "start_seconds": 330.2,
+      "duration_seconds": 151.7
+    },
+    {
+      "source": "exports\\nature_4.mp4",
+      "title": "04 최속강하선과 사이클로이드",
+      "start_seconds": 481.9,
+      "duration_seconds": 168.5
+    },
+    {
+      "source": "exports\\nature_5.mp4",
+      "title": "05 정지작용과 뉴턴의 운동법칙",
+      "start_seconds": 650.4,
+      "duration_seconds": 164.9
+    }
+  ],
+  "expected_duration_seconds": 815.3,
+  "actual_duration_seconds": 815.323242,
+  "video_frames": 24459,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "method": "stream copy; original audio and video preserved",
+  "decoded_frames": 24459,
+  "decode_errors": 0,
+  "chapter_count": 5
+}

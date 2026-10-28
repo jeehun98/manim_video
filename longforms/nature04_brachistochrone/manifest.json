@@ -1,0 +1,236 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_sequence",
+    "start": 0,
+    "end": 4,
+    "duration_seconds": 4,
+    "title": "가장 빠른 길은 어떤 모양일까?",
+    "class": "BrachiShot"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_sequence",
+    "start": 4,
+    "end": 12,
+    "duration_seconds": 8,
+    "title": "같은 출발점 · 같은 도착점",
+    "class": "BrachiShot"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_sequence",
+    "start": 12,
+    "end": 18,
+    "duration_seconds": 6,
+    "title": "가장 짧다고 가장 빠르지는 않다",
+    "class": "BrachiShot"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_sequence",
+    "start": 18,
+    "end": 27,
+    "duration_seconds": 9,
+    "title": "초반의 가속이 도착 시간을 바꾼다",
+    "class": "BrachiShot"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_sequence",
+    "start": 27,
+    "end": 35,
+    "duration_seconds": 8,
+    "title": "깊게 내려가면 더 빠를까?",
+    "class": "BrachiShot"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_sequence",
+    "start": 35,
+    "end": 39,
+    "duration_seconds": 4,
+    "title": "거리와 속력을 함께 비교한다",
+    "class": "BrachiShot"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_sequence",
+    "start": 39,
+    "end": 47,
+    "duration_seconds": 8,
+    "title": "내려온 높이가 속력을 결정한다",
+    "class": "BrachiShot"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_sequence",
+    "start": 47,
+    "end": 56,
+    "duration_seconds": 9,
+    "title": "같은 높이에서는 같은 속력",
+    "class": "BrachiShot"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_sequence",
+    "start": 56,
+    "end": 60,
+    "duration_seconds": 4,
+    "title": "같은 속력 · 다른 도달 시간",
+    "class": "BrachiShot"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_sequence",
+    "start": 60,
+    "end": 68,
+    "duration_seconds": 8,
+    "title": "작은 구간의 시간을 더한다",
+    "class": "BrachiShot"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_sequence",
+    "start": 68,
+    "end": 77,
+    "duration_seconds": 9,
+    "title": "곡선 전체의 이동 시간",
+    "class": "BrachiShot"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_sequence",
+    "start": 77,
+    "end": 80,
+    "duration_seconds": 3,
+    "title": "최속강하선 문제",
+    "class": "BrachiShot"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_sequence",
+    "start": 80,
+    "end": 84,
+    "duration_seconds": 4,
+    "title": "정답은 사이클로이드",
+    "class": "BrachiShot"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_sequence",
+    "start": 84,
+    "end": 88,
+    "duration_seconds": 4,
+    "title": "굴러가는 원이 그리는 곡선",
+    "class": "BrachiShot"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15_sequence",
+    "start": 88,
+    "end": 93,
+    "duration_seconds": 5,
+    "title": "중력과 빛의 흥미로운 연결",
+    "class": "BrachiShot"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16_sequence",
+    "start": 93,
+    "end": 100,
+    "duration_seconds": 7,
+    "title": "이동 시간을 구하는 같은 방법",
+    "class": "BrachiShot"
+  },
+  {
+    "id": "17",
+    "directory": "scenes/17_sequence",
+    "start": 100,
+    "end": 107,
+    "duration_seconds": 7,
+    "title": "속력이 달라지는 이유",
+    "class": "BrachiShot"
+  },
+  {
+    "id": "18",
+    "directory": "scenes/18_sequence",
+    "start": 107,
+    "end": 114,
+    "duration_seconds": 7,
+    "title": "깊을수록 빠른 가상의 매질",
+    "class": "BrachiShot"
+  },
+  {
+    "id": "19",
+    "directory": "scenes/19_sequence",
+    "start": 114,
+    "end": 120,
+    "duration_seconds": 6,
+    "title": "경계마다 굴절하는 광선",
+    "class": "BrachiShot"
+  },
+  {
+    "id": "20",
+    "directory": "scenes/20_sequence",
+    "start": 120,
+    "end": 126,
+    "duration_seconds": 6,
+    "title": "층을 얇게 만들면 곡선이 된다",
+    "class": "BrachiShot"
+  },
+  {
+    "id": "21",
+    "directory": "scenes/21_sequence",
+    "start": 126,
+    "end": 130,
+    "duration_seconds": 4,
+    "title": "같은 속력 분포를 설정한다",
+    "class": "BrachiShot"
+  },
+  {
+    "id": "22",
+    "directory": "scenes/22_sequence",
+    "start": 130,
+    "end": 135,
+    "duration_seconds": 5,
+    "title": "서로 다른 현상 · 같은 최적화",
+    "class": "BrachiShot"
+  },
+  {
+    "id": "23",
+    "directory": "scenes/23_sequence",
+    "start": 135,
+    "end": 142,
+    "duration_seconds": 7,
+    "title": "빛의 전파와 트랙의 설계",
+    "class": "BrachiShot"
+  },
+  {
+    "id": "24",
+    "directory": "scenes/24_sequence",
+    "start": 142,
+    "end": 150,
+    "duration_seconds": 8,
+    "title": "물체는 주어진 트랙을 따라간다",
+    "class": "BrachiShot"
+  },
+  {
+    "id": "25",
+    "directory": "scenes/25_sequence",
+    "start": 150,
+    "end": 156,
+    "duration_seconds": 6,
+    "title": "물리법칙을 이용해 경로를 설계한다",
+    "class": "BrachiShot"
+  },
+  {
+    "id": "26",
+    "directory": "scenes/26_sequence",
+    "start": 156,
+    "end": 165,
+    "duration_seconds": 9,
+    "title": "공통된 수학적 사고방식 · 변분법",
+    "class": "BrachiShot"
+  }
+]

@@ -1,0 +1,33 @@
+scenes:
+  - id: "01"
+    directory: scenes/01_scene
+    class: Dot01
+    duration_seconds: 13
+  - id: "02"
+    directory: scenes/02_scene
+    class: Dot02
+    duration_seconds: 11
+  - id: "03"
+    directory: scenes/03_scene
+    class: Dot03
+    duration_seconds: 9
+  - id: "04"
+    directory: scenes/04_scene
+    class: Dot04
+    duration_seconds: 12
+  - id: "05"
+    directory: scenes/05_scene
+    class: Dot05
+    duration_seconds: 17
+  - id: "06"
+    directory: scenes/06_scene
+    class: Dot06
+    duration_seconds: 12
+  - id: "07"
+    directory: scenes/07_scene
+    class: Dot07
+    duration_seconds: 16
+  - id: "08"
+    directory: scenes/08_scene
+    class: Dot08
+    duration_seconds: 12

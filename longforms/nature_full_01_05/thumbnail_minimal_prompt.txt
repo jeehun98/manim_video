@@ -1,0 +1,26 @@
+Edit the nature optimization thumbnail using the TWO references.
+Image 1 (QR thumbnail) is the exact STYLE AND LAYOUT reference. Image 2 (existing nature thumbnail) is the CONTENT reference/edit target. Completely redesign image 2 to match the understated academic graphic design of image 1. Requested 3840x2160, 16:9 landscape.
+
+Follow image 1 closely: uniform very dark navy background, faint thin square grid, generous negative space, flat clean Manim-like mathematical vector diagrams, thin white and pale cyan lines with just a little muted gold. No photorealism, metallic materials, beveled 3D text, scenery, water textures, dramatic lighting, glow, particles, fancy rendered objects or decorative curves. Restrained precise textbook geometry and elegant typography. Crisp premium mathematics channel cover.
+
+Layout: Left 40% is typography, right 55% is mathematics, similar margins and scale to image 1.
+At upper-left a small widely tracked pale cyan English eyebrow: "NATURE & VARIATION".
+Main title at left, two large lines in thin-to-regular clean Korean sans-serif Gothic:
+"자연의" (white)
+"최적화" (pale cyan).
+Below it smaller white supporting copy, two lines:
+"서로 다른 법칙,"
+"하나의 수학".
+No additional left text.
+
+At upper-right, large beautifully typeset white italic mathematical expression: "δJ = 0". Correct lowercase Greek delta δ, uppercase J, equals, zero. Beneath it small Korean label "작은 변화에 대한 정지 조건".
+
+Below the equation, a carefully balanced cluster of FIVE clean distinct minimal line diagrams, all confined to the right side without boxes, not photographic collage, with brief small labels:
+(1) catenoid surface between two coaxial circular wire rings drawn as a few thin cyan wireframe curves, narrow neck, labelled "비눗막".
+(2) hanging U-shaped catenary with fixed end dots, thin pale gold smooth curve, labelled "현수선". A hanging chain profile, different from the cycloid.
+(3) single refracted ray: horizontal air-water interface, dashed vertical normal, cyan/gold ray entering then bending towards normal below boundary, labelled "빛의 굴절".
+(4) first descending cycloid arc beginning high at left steeply vertical then flattening towards low right, one tiny bead, labelled "사이클로이드". Do NOT draw a U shape.
+(5) concave-down parabolic ballistic trajectory, tiny dot moving on it, labelled "포물선 운동".
+Use clean sparse coordinate guides where useful. Balance the five in two compact rows (three above, two below) below the main equation. They must stay visually quiet and subordinate to the equation and title. Maintain mathematical clarity, elegant whitespace and consistent stroke widths, like the QR example. All exact Korean text must be correct. No QR content, no matrices, no A=QR, no other formulas.
+
+Final targeted edit: reverse the incident cyan light arrow so it points down-right towards the interface; preserve all other content.

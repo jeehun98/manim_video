@@ -1,0 +1,31 @@
+{
+  "m": 1.0,
+  "g": 1.0,
+  "T": 4.0,
+  "x0": 0,
+  "y0": 0.5,
+  "v0x": 1.0,
+  "v0y": 2.0,
+  "full_action": -2.666666666666666,
+  "vertical_action": -4.666666666666666,
+  "epsilon_squared_coefficient": 0.6168502750680849,
+  "lagrangian_roots": [
+    0.5857864376269049,
+    3.414213562373095
+  ],
+  "energy": 3.0,
+  "action_quadrature_max_error": 8.881784197001252e-16,
+  "first_variation_max_error": 2.220446049250313e-16,
+  "signed_integral_parts": [
+    0.5522847498307933,
+    -3.7712361663282534,
+    0.5522847498307935
+  ],
+  "newton_max_error": 4.440892098500626e-15,
+  "variational_max_error": 2.6645352591003757e-14,
+  "variational_initial_velocity_error": 4.75175454539567e-14,
+  "discrete_stationarity_residual": 4.6612019799496807e-14,
+  "sentence_count": 38,
+  "scene_count": 27,
+  "duration": 162
+}

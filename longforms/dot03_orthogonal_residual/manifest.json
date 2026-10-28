@@ -1,0 +1,74 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_scene",
+    "start": 0,
+    "end": 15,
+    "duration_seconds": 15,
+    "title": "원하는 방향만 제거할 수 있을까?",
+    "class": "Residual01"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_scene",
+    "start": 15,
+    "end": 33,
+    "duration_seconds": 18,
+    "title": "제거할 성분을 먼저 추출한다",
+    "class": "Residual02"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_scene",
+    "start": 33,
+    "end": 44,
+    "duration_seconds": 11,
+    "title": "정사영을 빼면 무엇이 남을까?",
+    "class": "Residual03"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_scene",
+    "start": 44,
+    "end": 62,
+    "duration_seconds": 18,
+    "title": "성분이 사라졌는지 다시 측정한다",
+    "class": "Residual04"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_scene",
+    "start": 62,
+    "end": 71,
+    "duration_seconds": 9,
+    "title": "다시 측정했을 때 0",
+    "class": "Residual05"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_scene",
+    "start": 71,
+    "end": 83,
+    "duration_seconds": 12,
+    "title": "나란한 성분을 빼면, 직교 성분",
+    "class": "Residual06"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_scene",
+    "start": 83,
+    "end": 93,
+    "duration_seconds": 10,
+    "title": "두 성분을 더하면 원래 벡터",
+    "class": "Residual07"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_scene",
+    "start": 93,
+    "end": 101,
+    "duration_seconds": 8,
+    "title": "측정 → 추출 → 제거",
+    "class": "Residual08"
+  }
+]

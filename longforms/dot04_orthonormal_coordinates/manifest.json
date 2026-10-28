@@ -1,0 +1,83 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_scene",
+    "start": 0,
+    "end": 7,
+    "duration_seconds": 7,
+    "title": "다른 좌표, 같은 벡터?",
+    "class": "Basis01"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_scene",
+    "start": 7,
+    "end": 22,
+    "duration_seconds": 15,
+    "title": "좌표는 기저에 곱하는 계수",
+    "class": "Basis02"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_scene",
+    "start": 22,
+    "end": 45,
+    "duration_seconds": 23,
+    "title": "벡터는 고정, 기준축만 회전",
+    "class": "Basis03"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_scene",
+    "start": 45,
+    "end": 62,
+    "duration_seconds": 17,
+    "title": "첫 번째 좌표를 내적으로 읽는다",
+    "class": "Basis04"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_scene",
+    "start": 62,
+    "end": 81,
+    "duration_seconds": 19,
+    "title": "음수 좌표는 반대 방향을 뜻한다",
+    "class": "Basis05"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_scene",
+    "start": 81,
+    "end": 89,
+    "duration_seconds": 8,
+    "title": "숫자는 달라졌는데, 같은 벡터일까?",
+    "class": "Basis06"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_scene",
+    "start": 89,
+    "end": 104,
+    "duration_seconds": 15,
+    "title": "두 성분을 더하면 원래 벡터",
+    "class": "Basis07"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_scene",
+    "start": 104,
+    "end": 125,
+    "duration_seconds": 21,
+    "title": "좌표를 읽고, 기저로 재구성한다",
+    "class": "Basis08"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_scene",
+    "start": 125,
+    "end": 137,
+    "duration_seconds": 12,
+    "title": "좌표는 선택한 기저에 따라 달라진다",
+    "class": "Basis09"
+  }
+]

@@ -1,0 +1,134 @@
+id: nature04_brachistochrone
+video:
+  fps: 30
+scenes:
+  - id: "01"
+    directory: scenes/01_sequence
+    class: BrachiShot
+    duration_seconds: 4
+    transition: cut
+  - id: "02"
+    directory: scenes/02_sequence
+    class: BrachiShot
+    duration_seconds: 8
+    transition: cut
+  - id: "03"
+    directory: scenes/03_sequence
+    class: BrachiShot
+    duration_seconds: 6
+    transition: cut
+  - id: "04"
+    directory: scenes/04_sequence
+    class: BrachiShot
+    duration_seconds: 9
+    transition: cut
+  - id: "05"
+    directory: scenes/05_sequence
+    class: BrachiShot
+    duration_seconds: 8
+    transition: cut
+  - id: "06"
+    directory: scenes/06_sequence
+    class: BrachiShot
+    duration_seconds: 4
+    transition: cut
+  - id: "07"
+    directory: scenes/07_sequence
+    class: BrachiShot
+    duration_seconds: 8
+    transition: cut
+  - id: "08"
+    directory: scenes/08_sequence
+    class: BrachiShot
+    duration_seconds: 9
+    transition: cut
+  - id: "09"
+    directory: scenes/09_sequence
+    class: BrachiShot
+    duration_seconds: 4
+    transition: cut
+  - id: "10"
+    directory: scenes/10_sequence
+    class: BrachiShot
+    duration_seconds: 8
+    transition: cut
+  - id: "11"
+    directory: scenes/11_sequence
+    class: BrachiShot
+    duration_seconds: 9
+    transition: cut
+  - id: "12"
+    directory: scenes/12_sequence
+    class: BrachiShot
+    duration_seconds: 3
+    transition: cut
+  - id: "13"
+    directory: scenes/13_sequence
+    class: BrachiShot
+    duration_seconds: 4
+    transition: cut
+  - id: "14"
+    directory: scenes/14_sequence
+    class: BrachiShot
+    duration_seconds: 4
+    transition: cut
+  - id: "15"
+    directory: scenes/15_sequence
+    class: BrachiShot
+    duration_seconds: 5
+    transition: cut
+  - id: "16"
+    directory: scenes/16_sequence
+    class: BrachiShot
+    duration_seconds: 7
+    transition: cut
+  - id: "17"
+    directory: scenes/17_sequence
+    class: BrachiShot
+    duration_seconds: 7
+    transition: cut
+  - id: "18"
+    directory: scenes/18_sequence
+    class: BrachiShot
+    duration_seconds: 7
+    transition: cut
+  - id: "19"
+    directory: scenes/19_sequence
+    class: BrachiShot
+    duration_seconds: 6
+    transition: cut
+  - id: "20"
+    directory: scenes/20_sequence
+    class: BrachiShot
+    duration_seconds: 6
+    transition: cut
+  - id: "21"
+    directory: scenes/21_sequence
+    class: BrachiShot
+    duration_seconds: 4
+    transition: cut
+  - id: "22"
+    directory: scenes/22_sequence
+    class: BrachiShot
+    duration_seconds: 5
+    transition: cut
+  - id: "23"
+    directory: scenes/23_sequence
+    class: BrachiShot
+    duration_seconds: 7
+    transition: cut
+  - id: "24"
+    directory: scenes/24_sequence
+    class: BrachiShot
+    duration_seconds: 8
+    transition: cut
+  - id: "25"
+    directory: scenes/25_sequence
+    class: BrachiShot
+    duration_seconds: 6
+    transition: cut
+  - id: "26"
+    directory: scenes/26_sequence
+    class: BrachiShot
+    duration_seconds: 9
+    transition: cut
