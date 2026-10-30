@@ -189,3 +189,9 @@ longforms/<ID>_<slug>/
 
 - [내적 LEVEL 08 — SVD와 방향별 행렬 작용](dot08_svd_direction/README.md): 사용자 문장 종료 시각147초, 11개 독립 씬, 쇼츠·가로형. A=[[0,−1],[3,0]]의 Vᵀ→Σ→U 계산과 벡터 합, 직접 행렬곱 검증. 실행: `python longforms/dot08_svd_direction/build.py --preview` / `python longforms/dot08_svd_direction/build.py`. 음원 미제공으로 무음·자막 제작.
 
+- [내적 LEVEL 09 — Attention과 정보 결합](dot09_attention_mix/README.md): 사용자 문장 종료 시각154초, 11개 독립 씬, 쇼츠·가로형. Query–Key내적→√dₖ스케일링→Softmax→Value가중합을 같은 수치로 연결하고 정사영과 구별. 실행: `python longforms/dot09_attention_mix/build.py --preview` / `python longforms/dot09_attention_mix/build.py`. 음원 미제공으로 무음·자막 제작.
+
+- [내적 LEVEL 10 — 기울기와 경사하강법](dot10_gradient_descent/README.md): 사용자 문장 종료 시각169초, 13개 독립 씬, 쇼츠·가로형. L=θ₁²+4θ₂², 방향미분·국소 최급강하·실제 갱신·큰 학습률의 손실증가. 사용자 요청 LEVEL01–10 결론 포함. 실행: `python longforms/dot10_gradient_descent/build.py --preview` / `python longforms/dot10_gradient_descent/build.py`. 무음·자막 제작.
+
+- [내적 LEVEL 01–10 통합 롱폼](dot_full_01_10/README.md): 사용자 지정 `exports/dot_long1.mp4`~`dot_long10.mp4` 음성 포함 파일을 순서대로 무손실 결합. 약23분33.5초, 내장10챕터와 유튜브 설명용 타임라인. 실행: `python longforms/dot_full_01_10/combine.py`.
+

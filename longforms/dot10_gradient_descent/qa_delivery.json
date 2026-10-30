@@ -1,0 +1,24 @@
+[
+  {
+    "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\dot10_gradient_descent_169s_shorts_final.mp4",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 5070,
+    "duration_seconds": 169,
+    "audio": false,
+    "full_decode": "passed",
+    "bytes": 3669494
+  },
+  {
+    "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\dot10_gradient_descent_169s_longform_final.mp4",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "frames": 5070,
+    "duration_seconds": 169,
+    "audio": false,
+    "full_decode": "passed",
+    "bytes": 3450283
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "loss": "theta1**2+4*theta2**2",
+  "current": [
+    2.0,
+    1.0
+  ],
+  "gradient": [
+    4.0,
+    8.0
+  ],
+  "finite_difference": [
+    4.000000000115023,
+    8.000000000230045
+  ],
+  "gradient_norm": 8.94427190999916,
+  "minimum_unit_direction": [
+    -0.4472135954999579,
+    -0.8944271909999159
+  ],
+  "minimum_directional_derivative": -8.94427190999916,
+  "max_unit_norm_error": 1.1102230246251565e-16,
+  "max_taylor_remainder_error": 3.2248920229388262e-15,
+  "max_contour_error": 1.0658141036401503e-14,
+  "updates": [
+    {
+      "learning_rate": 0.1,
+      "new_point": [
+        1.6,
+        0.19999999999999996
+      ],
+      "loss": 2.7200000000000006,
+      "exact_change": -5.279999999999999,
+      "first_order_change": -8.0
+    },
+    {
+      "learning_rate": 0.4,
+      "new_point": [
+        0.3999999999999999,
+        -2.2
+      ],
+      "loss": 19.520000000000003,
+      "exact_change": 11.520000000000003,
+      "first_order_change": -32.0
+    }
+  ],
+  "gradient_display_scale": 0.18,
+  "surface_height_display_scale": 0.15,
+  "tangent_plane": "z=8+4*(x-2)+8*(y-1)",
+  "local_condition": "Euclidean fixed-length first-order change; not arbitrary finite steps"
+}

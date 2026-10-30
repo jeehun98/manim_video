@@ -1,0 +1,119 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_scene",
+    "start": 0,
+    "end": 8,
+    "duration_seconds": 8,
+    "title": "손실을 줄이려면 어느 방향으로?",
+    "class": "Gradient01"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_scene",
+    "start": 8,
+    "end": 23,
+    "duration_seconds": 15,
+    "title": "손실함수가 만드는 지형",
+    "class": "Gradient02"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_scene",
+    "start": 23,
+    "end": 44,
+    "duration_seconds": 21,
+    "title": "각 변화율을 모은 벡터 · Gradient",
+    "class": "Gradient03"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_scene",
+    "start": 44,
+    "end": 59,
+    "duration_seconds": 15,
+    "title": "이동과 손실 변화를 잇는 내적",
+    "class": "Gradient04"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_scene",
+    "start": 59,
+    "end": 69,
+    "duration_seconds": 10,
+    "title": "같은 위치 · 오른쪽과 왼쪽",
+    "class": "Gradient05"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_scene",
+    "start": 69,
+    "end": 94,
+    "duration_seconds": 25,
+    "title": "같은 거리에서 내적을 최소로",
+    "class": "Gradient06"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_scene",
+    "start": 94,
+    "end": 102,
+    "duration_seconds": 8,
+    "title": "음의 기울기 · 가장 빠른 국소 감소",
+    "class": "Gradient07"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_scene",
+    "start": 102,
+    "end": 117,
+    "duration_seconds": 15,
+    "title": "학습률 0.1 · 실제 파라미터 갱신",
+    "class": "Gradient08"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_scene",
+    "start": 117,
+    "end": 126,
+    "duration_seconds": 9,
+    "title": "같은 방향이라도 너무 멀리 가면",
+    "class": "Gradient09"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_scene",
+    "start": 126,
+    "end": 133,
+    "duration_seconds": 7,
+    "title": "LEVEL 01 · 방향의 성분 측정",
+    "class": "Gradient10"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_scene",
+    "start": 133,
+    "end": 142,
+    "duration_seconds": 9,
+    "title": "내적에서 공간과 데이터의 구조로",
+    "class": "Gradient11"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_scene",
+    "start": 142,
+    "end": 153,
+    "duration_seconds": 11,
+    "title": "행렬과 신경망의 계산으로",
+    "class": "Gradient12"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_scene",
+    "start": 153,
+    "end": 169,
+    "duration_seconds": 16,
+    "title": "내적 하나로 어디까지 이해할 수 있을까?",
+    "class": "Gradient13"
+  }
+]

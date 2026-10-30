@@ -1541,3 +1541,15 @@ python scripts/render.py softmax01
 
 [147초 쇼츠·롱폼 제작 자료](longforms/dot08_svd_direction/README.md). 실행: `python longforms/dot08_svd_direction/build.py --preview` / `python longforms/dot08_svd_direction/build.py`. Vᵀ의 내적 측정·Σ의 배율 적용·U의 출력 방향 결합으로(2,1)을(−1,6)으로 변환. 무음 자막 영상.
 
+## 내적 LEVEL 09 — Attention과 정보 결합
+
+[154초 쇼츠·롱폼 제작 자료](longforms/dot09_attention_mix/README.md). 실행: `python longforms/dot09_attention_mix/build.py --preview` / `python longforms/dot09_attention_mix/build.py`. Query–Key 점수3,2에서 스케일링·Softmax·별도Value가중합(2.68,0.66)까지. 정사영과의 역할 차이, 무음 자막 영상.
+
+## 내적 LEVEL 10 — 기울기와 경사하강법
+
+[169초 쇼츠·롱폼 제작 자료](longforms/dot10_gradient_descent/README.md). 실행: `python longforms/dot10_gradient_descent/build.py --preview` / `python longforms/dot10_gradient_descent/build.py`. 실제 손실곡면·등고선, 고정기울기와 회전방향, 방향미분 최소화, 학습률0.1·0.4 비교, 사용자 요청 시리즈 결론. 무음 자막 영상.
+
+## 내적 LEVEL 01–10 통합 롱폼
+
+[통합 제작 자료](longforms/dot_full_01_10/README.md). `exports/dot_long1.mp4`~`dot_long10.mp4`를 음성과 함께 순서대로 재인코딩 없이 연결. 출력 `exports/dot_full_01_10_longform.mp4`, 약23분33.5초. MP4챕터와 유튜브 설명 타임라인 포함. 실행: `python longforms/dot_full_01_10/combine.py`.
+

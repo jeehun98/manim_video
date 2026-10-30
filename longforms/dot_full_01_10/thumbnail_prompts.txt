@@ -1,0 +1,26 @@
+Built-in image_gen tool; style reference supplied by user.
+
+INITIAL PROMPT
+Use case: ads-marketing / scientific-educational.
+Create a finished premium Korean YouTube thumbnail for the user's complete ten-part DOT PRODUCT mathematics series, landscape 16:9, ideally 3840x2160.
+Image 1 is a STYLE AND COMPOSITION REFERENCE ONLY, not an edit target. Closely match its calm sophisticated mathematics textbook aesthetic: very dark midnight navy background, fine muted cyan square grid, clean flat vector-like diagrams, luminous restrained cyan and pale gold accents, crisp white math typography, spacious disciplined composition. No people, photos, mascots, logos, watermark, extraneous text.
+
+Composition: large Korean title occupying the left 42%, mathematical visual story occupying the right 58%. Mobile-readable strong hierarchy; less small text than the reference. Generous safe margins.
+LEFT exact text:
+small upper-left label: "DOT PRODUCT · LEVEL 01–10"
+huge white first line: "내적 하나로"
+huge bright cyan second line: "어디까지?"
+medium light-gray subtitle below: "정사영부터 신경망까지"
+This is a completed series thumbnail, not an eigenvalue thumbnail. Do not reproduce EIGEN or the reference's Korean title.
+
+RIGHT: at upper right, one large elegant correctly typeset equation "a · b = ‖a‖ ‖b‖ cos θ". Beneath it a fine horizontal divider.
+Lower right region contains TWO refined, substantial mathematics diagrams side by side:
+1. Projection diagram on thin gray orthogonal axes. A cyan vector a from origin points up and right, a pale gold unit direction u points right. A dashed perpendicular drops from the head of a to the horizontal axis; its horizontal projection arrow is cyan. The vector geometry must be consistent. Clear small labels "a", "u", and "(a · u)u". Caption "방향의 성분".
+2. Accurate elliptical loss contours for L(x,y)=x²+4y², wider horizontally than vertically. At a point in the first quadrant, a short pale gold gradient arrow points up-right, and a green negative-gradient arrow points down-left toward lower loss. Caption "학습의 방향". Beneath it a neatly typeset update equation "θ_new = θ − η∇L".
+Keep the visuals precise, uncluttered, polished and readable. Flat dark background with subtle cyan glow only around key geometry; match the reference palette and editorial tone. Korean lettering must be exact with no malformed glyphs. Render all math and words as intentional designed typography, no placeholder blocks.
+
+TARGETED EDIT
+Edit this thumbnail, changing ONLY the two small mathematical diagrams for geometric correctness. Preserve every word, equation, font, layout, navy grid background, palette and large title exactly.
+LEFT PROJECTION DIAGRAM: The yellow unit vector u is currently incorrectly attached to the cyan projection endpoint. Move the yellow arrow so its TAIL is at the SAME origin as the cyan vector a, the intersection of the gray axes. Yellow u points horizontally right and is SHORTER than the cyan projection, about half its horizontal length. The cyan projection remains origin-to-perpendicular-foot. Draw the yellow arrow thin and on top of the thicker cyan projection for the first half, so both arrows remain visible. Place the yellow u label at its new short arrowhead, not at the right end of the axis. The dashed perpendicular and all other diagram parts stay unchanged.
+RIGHT GRADIENT DIAGRAM: Keep the ellipses, axes, white point, formula L(x,y)=x²+4y² and text unchanged. At the white point in the first quadrant, gradient arrows must be NORMAL to the ellipse, not radial. The point is about 141px right and 84px up from the contour center, so ∇L=(2x,8y) points about 67 degrees above the positive horizontal axis. Rotate/reposition ONLY the orange ∇L arrow and green −∇L arrow to this direction and its exact opposite. Both arrows start at the white point. Orange points steeply up-right, green steeply down-left toward lower loss; they lie on the same straight line in opposite directions. Roughly orange tip 21px right and 50px up from the white point, green tip 35px left and 84px down from the white point. Adjust the adjacent ∇L and −∇L labels to avoid collisions. Do not change anything else.
+

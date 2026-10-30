@@ -72,10 +72,11 @@ def main():
         directory=f'scenes/{i+1:02}_scene';d=P/directory;shutil.copytree(P.parent/'_template/scenes/01_example',d,dirs_exist_ok=True)
         original='\n'.join(c['caption'] for c in cues if s<=c['start']<e)
         (d/'script.txt').write_text(spoken(original)+'\n',encoding='utf-8')
-        (d/'spec.md').write_text(f'# {i+1:02} — {title}\n\n## 목적과核心主張\n{claim}\n\n## 앞 장면에서 받은 내용\n'.replace('核心主張','핵심 주장')+(CUTS[i-1][3] if i else '없음. 본편 질문.')+f'\n\n## TTS와 확정 길이\n사용자 제공 {s}–{e}초, {e-s}초. 음원 미제공.\n\n{original}\n\n## 화면 구성\n토큰개념도→QK벡터·점수→가중치→Value가중합을 구별. 세로 도형 위·수식 아래, 가로 도형 왼쪽·수식 오른쪽. 자막 영역 별도. 파랑Q,초록K₁/V₁,보라K₂/V₂,주황점수,청록가중치,밝은파랑출력.\n\n## 구간별 애니메이션·텍스트\n{animation}\n\n## 시작·종료 상태와 다음 연결\n'+(CUTS[i+1][3] if i+1<len(CUTS) else '내적점수와Value결합으로본편독립완결.')+'\n\n## 수학적 조건\n'+CONTRACT+'\n',encoding='utf-8')
+        (d/'spec.md').write_text(f'# {i+1:02} — {title}\n\n## 목적과 핵심 주장\n{claim}\n\n## 앞 장면에서 받은 내용\n'+(CUTS[i-1][3] if i else '없음. 본편 질문.')+f'\n\n## TTS와 확정 길이\n사용자 제공 {s}–{e}초, {e-s}초. 음원 미제공.\n\n{original}\n\n## 화면 구성\n토큰개념도→QK벡터·점수→가중치→Value가중합을 구별. 세로 도형 위·수식 아래, 가로 도형 왼쪽·수식 오른쪽. 자막 영역 별도. 파랑Q,초록K₁/V₁,보라K₂/V₂,주황점수,청록가중치,밝은파랑출력.\n\n## 구간별 애니메이션·텍스트\n{animation}\n\n## 시작·종료 상태와 다음 연결\n'+(CUTS[i+1][3] if i+1<len(CUTS) else '내적점수와Value결합으로본편독립완결.')+'\n\n## 수학적 조건\n'+CONTRACT+'\n',encoding='utf-8')
         (d/'scene.py').write_text(f'import sys\nfrom pathlib import Path\nsys.path.insert(0,str(Path(__file__).resolve().parents[2]))\nfrom visuals import AttentionBase\nclass Attention{i+1:02}(AttentionBase):\n    INDEX={i}\n',encoding='utf-8')
         manifest.append(dict(id=f'{i+1:02}',directory=directory,start=s,end=e,duration_seconds=e-s,title=title,**{'class':f'Attention{i+1:02}'}))
     (P/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
     (P/'scenes.yaml').write_text('duration_seconds: 154\ntiming_source: user_sentence_end_times\nlayouts:\n  shorts: [1080, 1920, 30]\n  longform: [1920, 1080, 30]\nscenes:\n'+''.join(f'  - id: "{m["id"]}"\n    directory: {m["directory"]}\n    class: {m["class"]}\n    duration_seconds: {m["duration_seconds"]}\n' for m in manifest),encoding='utf-8')
     (P/'brief.md').write_text('# 내적 LEVEL 09 — 제작 기준\n\n154초, 사용자 확정36문장과 종료시각. 11개 독립씬. 세로1080×1920,가로1920×1080,30fps. 음원미제공으로무음·자막.\n\n'+CONTRACT+'\n\n요청대본의정사영비교만유지하고추가복습·예고는넣지않는다.\n',encoding='utf-8')
 if __name__=='__main__':main()
+

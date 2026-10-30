@@ -1,0 +1,12 @@
+Built-in image_gen edit; reduced text size and weight with reference-guided spacing.
+
+Edit Image 1 (the DOT PRODUCT thumbnail). Image 2 is ONLY the typography density and negative-space reference. Keep Image 1's subject and all its text content, background grid, colors and mathematical diagrams; do NOT copy EIGEN, eigenvalue formulas, or the Korean text from Image 2.
+The requested change is a quieter, more spacious typography treatment like Image 2:
+- Reduce the two-line Korean main headline "내적 하나로" / "어디까지?" to about 65% of its current font size. Replace the extremely heavy extra-bold lettering with a refined regular-to-medium-weight Korean sans serif, with NO outline, NO shadow, NO embossed effect. Comparable thinness to Image 2's "행렬의" and "숨겨진 좌표계". Keep first line white, second line cyan.
+- The headline should occupy about 400–440 px width rather than the full 630px left column at this 1672px-wide canvas. Left-align it around x=95. Place the first line baseline near y=430 and second line near y=545. Leave substantial dark grid space above, below, and to the right of the headline. Keep comfortable line spacing.
+- Reduce the subtitle "정사영부터 신경망까지" to about 65–70% current size, regular thin light-gray weight, left aligned with the headline near y=625.
+- Reduce upper-left "DOT PRODUCT · LEVEL 01–10" to about 70% current size, light weight with airy letter spacing, left aligned at x≈95 near y≈220.
+- Reduce the large upper-right a·b equation to about 80% its current size, keeping elegant light serif mathematical glyphs. Center it in its existing right-side area with generous padding; keep every mathematical symbol correct.
+- Reduce diagram captions "방향의 성분" and "학습의 방향" slightly, to about 85%, regular weight.
+Keep diagram positions, geometry and all other mathematical labels essentially unchanged. Preserve all written content verbatim. This is an intentional editorial mathematics cover with breathing room, not a bold clickbait poster. Same 16:9 canvas.
+
