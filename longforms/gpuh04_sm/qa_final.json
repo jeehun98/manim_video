@@ -1,0 +1,18 @@
+[
+  {
+    "layout": "shorts",
+    "frames": 5340,
+    "duration": "178.000000",
+    "geometry_samples": 80,
+    "warp_layout": "fixed",
+    "latency_sequence": "Warp 1 and 2 issue while Warp 0 waits; Warp 0 resumes after data arrival"
+  },
+  {
+    "layout": "longform",
+    "frames": 5340,
+    "duration": "178.000000",
+    "geometry_samples": 80,
+    "warp_layout": "fixed",
+    "latency_sequence": "Warp 1 and 2 issue while Warp 0 waits; Warp 0 resumes after data arrival"
+  }
+]

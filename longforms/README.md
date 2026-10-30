@@ -171,3 +171,21 @@ longforms/<ID>_<slug>/
 ## GPU 계층 구조
 
 - [LEVEL 01 — Thread](gpuh01_thread/README.md): 사용자 문장 종료 시각 기준 152초, 16개 독립 씬, 세로·가로 무음 자막 영상. 실행: python longforms/gpuh01_thread/build.py --preview / python longforms/gpuh01_thread/build.py. CUDA 배열 덧셈 실행 검증 완료.
+
+- [LEVEL 02 — Warp](gpuh02_warp/README.md): 사용자 문장 종료 시각 기준 167초, 20개 독립 씬, 세로·가로 무음 자막 영상. 같은 GPU·SM·Block 지도에서 고정 32 Lane의 SIMT·분기 경로·마스크를 시각화. 실행: `python longforms/gpuh02_warp/build.py --preview` / `python longforms/gpuh02_warp/build.py`. CUDA 결과와 참여 mask 검증, 실제 명령 trace와 소스 경로 개념도 구분.
+
+- [LEVEL 03 — Block](gpuh03_block/README.md): 사용자 종료 시각178초, 20개 독립 씬, 세로·가로 무음 자막 영상. 같은 지도·네 Warp·한 Shared 배열·Block 장벽으로128개 입력을8256으로 합산. 실행: `python longforms/gpuh03_block/build.py --preview` / `python longforms/gpuh03_block/build.py`. 원본 CUDA 결과와8단계×128개 슬롯 검증.
+
+- [LEVEL 04 — SM](gpuh04_sm/README.md): 사용자 종료 시각178초, 16개 독립 씬, 세로·가로 무음 자막 영상. 상주 Warp의 위치를 유지하며 데이터 대기·준비·명령 발행을 구분한다. 실행: `python longforms/gpuh04_sm/build.py --preview` / `python longforms/gpuh04_sm/build.py`. CUDA 1,003개 결과 검증, 스케줄링 개념도와 실제 측정값 구분.
+
+- [LEVEL 05 — Grid](gpuh05_grid/README.md): 사용자 종료 시각178초, 18개 독립 씬, 세로·가로 무음 자막 영상. 12Block×128Thread의 논리 공간과4SM의 설명용 배치, 인덱스5·133, 별도5×4Grid의 이미지 타일. 실행: `python longforms/gpuh05_grid/build.py --preview` / `python longforms/gpuh05_grid/build.py`. CUDA1536개 배열 출력과2D 이미지 결과 검증.
+
+- [내적 LEVEL 05 — 그람–슈미트 직교화와 QR 분해](dot05_gram_schmidt_qr/README.md): 사용자 문장 종료 시각153초, 11개 독립 씬, 쇼츠·가로형. a₁=(1,1), a₂=(2,0)에서 기저를 만들고 Q열·R계수로 A를 복원. python longforms/dot05_gram_schmidt_qr/build.py (--preview). 음원 미제공으로 무음·자막 제작.
+
+
+- [내적 LEVEL 06 — 최소제곱과 직교 잔차](dot06_least_squares/README.md): 사용자 문장 종료 시각170초, 11개 독립 씬, 쇼츠·가로형. b=(2,3,4), xy평면의 최적 결과(2,3,0), 수직 잔차(0,0,4), 정규방정식과 Q=A·R=I₂인 축약QR. python longforms/dot06_least_squares/build.py (--preview). 음원 미제공으로 무음·자막 제작.
+
+- [내적 LEVEL 07 — PCA와 최적 방향](dot07_pca_direction/README.md): 사용자 문장 종료 시각149초, 12개 독립 씬, 쇼츠·가로형. 같은16개 데이터에서 오차 최소와 분산 최대의 동치, 공분산행렬과 첫 번째 주성분을 시각화. 실행: `python longforms/dot07_pca_direction/build.py --preview` / `python longforms/dot07_pca_direction/build.py`. 음원 미제공으로 무음·자막 제작.
+
+- [내적 LEVEL 08 — SVD와 방향별 행렬 작용](dot08_svd_direction/README.md): 사용자 문장 종료 시각147초, 11개 독립 씬, 쇼츠·가로형. A=[[0,−1],[3,0]]의 Vᵀ→Σ→U 계산과 벡터 합, 직접 행렬곱 검증. 실행: `python longforms/dot08_svd_direction/build.py --preview` / `python longforms/dot08_svd_direction/build.py`. 음원 미제공으로 무음·자막 제작.
+

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_scene",
+    "start": 0,
+    "end": 8,
+    "duration_seconds": 8,
+    "title": "정확한 답이 없다면, 가장 가까운 답은?",
+    "class": "LeastSquares01"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_scene",
+    "start": 8,
+    "end": 27,
+    "duration_seconds": 19,
+    "title": "두 방향으로 만들 수 있는 공간",
+    "class": "LeastSquares02"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_scene",
+    "start": 27,
+    "end": 42,
+    "duration_seconds": 15,
+    "title": "평면 밖의 목표는 정확히 만들 수 없다",
+    "class": "LeastSquares03"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_scene",
+    "start": 42,
+    "end": 61,
+    "duration_seconds": 19,
+    "title": "후보를 움직이면 오차도 변한다",
+    "class": "LeastSquares04"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_scene",
+    "start": 61,
+    "end": 75,
+    "duration_seconds": 14,
+    "title": "평면 방향 오차가 남아 있다면",
+    "class": "LeastSquares05"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_scene",
+    "start": 75,
+    "end": 94,
+    "duration_seconds": 19,
+    "title": "정사영과 잔차를 숫자로 확인한다",
+    "class": "LeastSquares06"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_scene",
+    "start": 94,
+    "end": 101,
+    "duration_seconds": 7,
+    "title": "최소제곱법 · Least Squares",
+    "class": "LeastSquares07"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_scene",
+    "start": 101,
+    "end": 120,
+    "duration_seconds": 19,
+    "title": "벡터 조합을 행렬 문제로",
+    "class": "LeastSquares08"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_scene",
+    "start": 120,
+    "end": 135,
+    "duration_seconds": 15,
+    "title": "직교 조건에서 정규방정식으로",
+    "class": "LeastSquares09"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_scene",
+    "start": 135,
+    "end": 157,
+    "duration_seconds": 22,
+    "title": "QR로 같은 정사영을 계산한다",
+    "class": "LeastSquares10"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_scene",
+    "start": 157,
+    "end": 170,
+    "duration_seconds": 13,
+    "title": "가장 가까운 결과의 오차는 직교한다",
+    "class": "LeastSquares11"
+  }
+]

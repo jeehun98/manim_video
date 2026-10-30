@@ -1,0 +1,15 @@
+[
+  {
+    "layout": "longform",
+    "frames": 2670,
+    "duration": "178.000000",
+    "geometry_samples": 112,
+    "grid": "fixed 12 logical Blocks, separate from physical GPU",
+    "index_examples": [
+      5,
+      133
+    ],
+    "placement": "capacity and ID invariants passed; illustrative scenarios",
+    "CUDA": "1536 vector outputs and separate 2D kernels passed"
+  }
+]

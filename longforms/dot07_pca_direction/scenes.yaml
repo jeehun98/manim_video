@@ -1,0 +1,54 @@
+duration_seconds: 149
+timing_source: user_sentence_end_times
+layouts:
+  shorts: [1080, 1920, 30]
+  longform: [1920, 1080, 30]
+scenes:
+  - id: "01"
+    directory: scenes/01_scene
+    class: PCA01
+    duration_seconds: 9
+  - id: "02"
+    directory: scenes/02_scene
+    class: PCA02
+    duration_seconds: 20
+  - id: "03"
+    directory: scenes/03_scene
+    class: PCA03
+    duration_seconds: 9
+  - id: "04"
+    directory: scenes/04_scene
+    class: PCA04
+    duration_seconds: 17
+  - id: "05"
+    directory: scenes/05_scene
+    class: PCA05
+    duration_seconds: 8
+  - id: "06"
+    directory: scenes/06_scene
+    class: PCA06
+    duration_seconds: 16
+  - id: "07"
+    directory: scenes/07_scene
+    class: PCA07
+    duration_seconds: 12
+  - id: "08"
+    directory: scenes/08_scene
+    class: PCA08
+    duration_seconds: 15
+  - id: "09"
+    directory: scenes/09_scene
+    class: PCA09
+    duration_seconds: 8
+  - id: "10"
+    directory: scenes/10_scene
+    class: PCA10
+    duration_seconds: 15
+  - id: "11"
+    directory: scenes/11_scene
+    class: PCA11
+    duration_seconds: 12
+  - id: "12"
+    directory: scenes/12_scene
+    class: PCA12
+    duration_seconds: 8

@@ -1509,3 +1509,35 @@ python scripts/render.py softmax01
 
 [152초 세로·가로 제작 자료](longforms/gpuh01_thread/README.md). 사용자 문장 종료 시각 기준, 16개 독립 씬, 무음 자막 영상. 실행: `python longforms/gpuh01_thread/build.py --preview` / `python longforms/gpuh01_thread/build.py`. CUDA 배열 덧셈은 RTX 3060에서 결과 검증 완료.
 
+## GPU 계층 구조 LEVEL 02 — Warp
+
+[167초 세로·가로 제작 자료](longforms/gpuh02_warp/README.md). 사용자 문장 종료 시각 기준, 20개 독립 씬, 고정 32 Lane·SIMT·분기 경로·활성 마스크, 무음 자막 영상. 실행: `python longforms/gpuh02_warp/build.py --preview` / `python longforms/gpuh02_warp/build.py`. CUDA 결과·소스 경로 참여 mask 검증 완료. 실제 compiler 변환과 경로 개념도를 구분한다.
+
+## GPU 계층 구조 LEVEL 03 — Block
+
+[178초 세로·가로 제작 자료](longforms/gpuh03_block/README.md). 사용자 문장 종료 시각 기준, 20개 독립 씬, 4 Warp·Shared Memory·Block 동기화·128→1 리덕션. 실행: `python longforms/gpuh03_block/build.py --preview` / `python longforms/gpuh03_block/build.py`. 원본 CUDA 출력8256과 각 단계의128개 Shared 슬롯을 GPU에서 검증. 음원 미제공으로 무음·자막 제작.
+
+## GPU 계층 구조 LEVEL 04 — SM
+
+[178초 세로·가로 제작 자료](longforms/gpuh04_sm/README.md). 사용자 문장 종료 시각 기준, 16개 독립 씬. 고정 GPU·SM·Block 지도에서 Warp 대기와 명령 발행을 연결하고 Latency Hiding·자원 제한·Occupancy를 설명한다. 실행: `python longforms/gpuh04_sm/build.py --preview` / `python longforms/gpuh04_sm/build.py`. CUDA 1,003개 출력 검증. 스케줄링과 최대32Warp 예시는 개념도이며 실측 trace·실제 사양이 아니다. 음원 미제공으로 무음·자막 제작.
+
+## GPU 계층 구조 LEVEL 05 — Grid
+
+[178초 세로·가로 제작 자료](longforms/gpuh05_grid/README.md). 사용자 종료 시각 기준18개 독립 씬. 논리 Grid12Block×128Thread와 물리 GPU의 SM 배치를 분리하고, 전역 인덱스·독립 Block·2D 이미지 타일을 연결한다. 실행: `python longforms/gpuh05_grid/build.py --preview` / `python longforms/gpuh05_grid/build.py`. CUDA 1536개 출력 및 별도2D 이미지 커널 검증. 배치 순서는 설명용 예시이며 음원 미제공으로 무음·자막 제작.
+
+
+## 내적 LEVEL 05 — 그람–슈미트와 QR
+[153초 쇼츠·롱폼 제작 자료](longforms/dot05_gram_schmidt_qr/README.md). 실행: python longforms/dot05_gram_schmidt_qr/build.py (--preview). 정규화·정사영 제거·공간 보존·Q/R 구성과 원래 행렬 복원, 무음 자막 영상.
+
+
+## 내적 LEVEL 06 — 최소제곱과 직교 잔차
+[170초 쇼츠·롱폼 제작 자료](longforms/dot06_least_squares/README.md). 실행: python longforms/dot06_least_squares/build.py (--preview). 3차원 평면 위 거리 탐색·잔차 직교성·정규방정식·축약 QR, 무음 자막 영상.
+
+## 내적 LEVEL 07 — PCA와 최적 방향
+
+[149초 쇼츠·롱폼 제작 자료](longforms/dot07_pca_direction/README.md). 실행: `python longforms/dot07_pca_direction/build.py --preview` / `python longforms/dot07_pca_direction/build.py`. 같은16개 점의 중심화·정사영·잔차, 오차 최소와 분산 최대의 동치, 공분산 고유벡터. 무음 자막 영상.
+
+## 내적 LEVEL 08 — SVD와 방향별 행렬 작용
+
+[147초 쇼츠·롱폼 제작 자료](longforms/dot08_svd_direction/README.md). 실행: `python longforms/dot08_svd_direction/build.py --preview` / `python longforms/dot08_svd_direction/build.py`. Vᵀ의 내적 측정·Σ의 배율 적용·U의 출력 방향 결합으로(2,1)을(−1,6)으로 변환. 무음 자막 영상.
+

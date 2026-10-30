@@ -1,0 +1,35 @@
+{
+  "duration_seconds": 167,
+  "frames": 5010,
+  "checks": [
+    {
+      "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpuh02_warp_167s_shorts_final.mp4",
+      "width": 1080,
+      "height": 1920,
+      "frames": 5010,
+      "fps": 30,
+      "seconds": "167.000000",
+      "codec": "h264",
+      "geometry_samples": 77,
+      "mask_states": 30,
+      "lane_coordinates": "32 fixed positions across all 20 scenes",
+      "code_and_mask": "consistent",
+      "contact_sheet": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpuh02_qa_shorts_final.jpg"
+    },
+    {
+      "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpuh02_warp_167s_longform_final.mp4",
+      "width": 1920,
+      "height": 1080,
+      "frames": 5010,
+      "fps": 30,
+      "seconds": "167.000000",
+      "codec": "h264",
+      "geometry_samples": 77,
+      "mask_states": 30,
+      "lane_coordinates": "32 fixed positions across all 20 scenes",
+      "code_and_mask": "consistent",
+      "contact_sheet": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpuh02_qa_longform_final.jpg"
+    }
+  ],
+  "audio": "none; narration audio not supplied"
+}
