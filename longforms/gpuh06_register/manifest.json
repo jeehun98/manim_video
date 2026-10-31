@@ -1,0 +1,164 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_scene",
+    "title": "실행 구조에서 저장 공간으로",
+    "start": 0,
+    "end": 21,
+    "duration_seconds": 21,
+    "class": "Register01"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_scene",
+    "title": "연산을 지원하는 Register",
+    "start": 21,
+    "end": 32,
+    "duration_seconds": 11,
+    "class": "Register02"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_scene",
+    "title": "Thread 2의 Load · Add · Store",
+    "start": 32,
+    "end": 41,
+    "duration_seconds": 9,
+    "class": "Register03"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_scene",
+    "title": "지역 변수와 물리 레지스터",
+    "start": 41,
+    "end": 46,
+    "duration_seconds": 5,
+    "class": "Register04"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_scene",
+    "title": "Compiler가 결정하는 할당",
+    "start": 46,
+    "end": 55,
+    "duration_seconds": 9,
+    "class": "Register05"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_scene",
+    "title": "Register File은 SM의 자원",
+    "start": 55,
+    "end": 64,
+    "duration_seconds": 9,
+    "class": "Register06"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_scene",
+    "title": "Thread별로 할당받는 자원",
+    "start": 64,
+    "end": 69,
+    "duration_seconds": 5,
+    "class": "Register07"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_scene",
+    "title": "빠르지만 한정된 저장 공간",
+    "start": 69,
+    "end": 79,
+    "duration_seconds": 10,
+    "class": "Register08"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_scene",
+    "title": "128 Thread × 32 Registers",
+    "start": 79,
+    "end": 85,
+    "duration_seconds": 6,
+    "class": "Register09"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_scene",
+    "title": "같은 Block · 두 배의 요구량",
+    "start": 85,
+    "end": 95,
+    "duration_seconds": 10,
+    "class": "Register10"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_scene",
+    "title": "Register Pressure와 상주 수",
+    "start": 95,
+    "end": 105,
+    "duration_seconds": 10,
+    "class": "Register11"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_scene",
+    "title": "Occupancy와 Latency Hiding",
+    "start": 105,
+    "end": 114,
+    "duration_seconds": 9,
+    "class": "Register12"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_scene",
+    "title": "Register Pressure ≠ Spilling",
+    "start": 114,
+    "end": 124,
+    "duration_seconds": 10,
+    "class": "Register13"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_scene",
+    "title": "Local Memory와 추가 접근",
+    "start": 124,
+    "end": 137,
+    "duration_seconds": 13,
+    "class": "Register14"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15_scene",
+    "title": "많이 써도 적게 써도 제약",
+    "start": 137,
+    "end": 143,
+    "duration_seconds": 6,
+    "class": "Register15"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16_scene",
+    "title": "Register Usage ↔ Parallelism",
+    "start": 143,
+    "end": 158,
+    "duration_seconds": 15,
+    "class": "Register16"
+  },
+  {
+    "id": "17",
+    "directory": "scenes/17_scene",
+    "title": "저장 자원이 실행 규모에 미치는 영향",
+    "start": 158,
+    "end": 166,
+    "duration_seconds": 8,
+    "class": "Register17"
+  },
+  {
+    "id": "18",
+    "directory": "scenes/18_scene",
+    "title": "계산과 데이터 저장을 함께 본다",
+    "start": 166,
+    "end": 175,
+    "duration_seconds": 9,
+    "class": "Register18"
+  }
+]

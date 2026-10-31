@@ -1,0 +1,22 @@
+[
+  {
+    "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpuh07_shared_memory_160s_shorts_final.mp4",
+    "layout": "shorts",
+    "audio": "none; no narration audio supplied",
+    "width": 1080,
+    "height": 1920,
+    "r_frame_rate": "30/1",
+    "duration": "160.000000",
+    "nb_frames": "4800"
+  },
+  {
+    "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpuh07_shared_memory_160s_longform_final.mp4",
+    "layout": "longform",
+    "audio": "none; no narration audio supplied",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "30/1",
+    "duration": "160.000000",
+    "nb_frames": "4800"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "layout": "shorts",
+    "frames": 5250,
+    "duration": "175.000000",
+    "geometry_samples": 102,
+    "identity": "Execution map transitions at 9s; fixed Thread 2 / SM Register memory map afterward",
+    "motion": "Load3, Load4, Add7, Store7 synchronized with code; allocation width and resident counts change; Spill Store/Load packets move",
+    "memory_map": "Register, Shared, L1 within SM; L2 and device DRAM outside SM; no forced serial path through Shared",
+    "CUDA": "1536 outputs; Thread 2 = 3+4=7",
+    "compiled_registers": 12,
+    "actual_spill_bytes": 0,
+    "hypothetical_register_demands": [
+      4096,
+      8192
+    ],
+    "local_memory": "private scope; cache-hit path supported; no mandatory DRAM access"
+  },
+  {
+    "layout": "longform",
+    "frames": 5250,
+    "duration": "175.000000",
+    "geometry_samples": 102,
+    "identity": "Execution map transitions at 9s; fixed Thread 2 / SM Register memory map afterward",
+    "motion": "Load3, Load4, Add7, Store7 synchronized with code; allocation width and resident counts change; Spill Store/Load packets move",
+    "memory_map": "Register, Shared, L1 within SM; L2 and device DRAM outside SM; no forced serial path through Shared",
+    "CUDA": "1536 outputs; Thread 2 = 3+4=7",
+    "compiled_registers": 12,
+    "actual_spill_bytes": 0,
+    "hypothetical_register_demands": [
+      4096,
+      8192
+    ],
+    "local_memory": "private scope; cache-hit path supported; no mandatory DRAM access"
+  }
+]

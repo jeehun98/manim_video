@@ -1,0 +1,186 @@
+[
+  {
+    "kind": "identity",
+    "time": 32.0,
+    "thread": 2,
+    "block": 0,
+    "sm": 0,
+    "register_location": "SM 0",
+    "mini_thread_center": [
+      -5.9555,
+      1.6675,
+      0.0
+    ],
+    "register_center": [
+      -4.041499999999999,
+      1.6675,
+      0.0
+    ],
+    "sm_bounds": [
+      -6.695,
+      -2.606,
+      0.6930999999999999,
+      2.1547
+    ]
+  },
+  {
+    "kind": "memory_layout",
+    "time": 32.0,
+    "thread": 2,
+    "mini_thread_center": [
+      -5.9555,
+      1.6675,
+      0.0
+    ],
+    "register_center": [
+      -4.041499999999999,
+      1.6675,
+      0.0
+    ],
+    "sm": [
+      -6.695,
+      -2.606,
+      0.6930999999999999,
+      2.1547
+    ],
+    "register": [
+      -5.129,
+      -2.9539999999999997,
+      1.45,
+      1.885
+    ],
+    "shared": [
+      -6.4862,
+      -4.5548,
+      0.8584,
+      1.2064
+    ],
+    "l1": [
+      -4.3547,
+      -2.9453,
+      0.8584,
+      1.2064
+    ],
+    "l2": [
+      -2.3363,
+      -0.7877000000000005,
+      1.4413,
+      1.8589
+    ],
+    "dram": [
+      -2.40155,
+      -0.7224499999999998,
+      0.8061999999999999,
+      1.2238
+    ],
+    "register_parent": "SM 0",
+    "l2_scope": "GPU-wide",
+    "dram_location": "device memory outside SM",
+    "register_to_shared_serial_path": false
+  },
+  {
+    "kind": "values",
+    "time": 32.0,
+    "thread": 2,
+    "a": 3,
+    "b": 4,
+    "sum": null,
+    "stored": false,
+    "physical_slot_mapping": false
+  },
+  {
+    "kind": "map_motion",
+    "operation": "load",
+    "value": 3,
+    "start": 32.0,
+    "end": 32.7,
+    "route": [
+      "L2",
+      "L1",
+      "Register"
+    ],
+    "active_code": [
+      "float a = A[i];"
+    ],
+    "conceptual": true
+  },
+  {
+    "kind": "map_motion",
+    "operation": "load",
+    "value": 4,
+    "start": 32.9,
+    "end": 33.6,
+    "route": [
+      "L2",
+      "L1",
+      "Register"
+    ],
+    "active_code": [
+      "float b = B[i];"
+    ],
+    "conceptual": true
+  },
+  {
+    "kind": "values",
+    "time": 36.3667,
+    "thread": 2,
+    "a": 3,
+    "b": 4,
+    "sum": 7,
+    "stored": false,
+    "physical_slot_mapping": false
+  },
+  {
+    "kind": "map_motion",
+    "operation": "add",
+    "value": 7,
+    "start": 36.3667,
+    "end": 36.9667,
+    "active_code": [
+      "float sum = a + b;"
+    ],
+    "conceptual": true
+  },
+  {
+    "kind": "values",
+    "time": 39.4,
+    "thread": 2,
+    "a": 3,
+    "b": 4,
+    "sum": 7,
+    "stored": true,
+    "physical_slot_mapping": false
+  },
+  {
+    "kind": "map_motion",
+    "operation": "store",
+    "value": 7,
+    "start": 39.4,
+    "end": 39.8,
+    "route": [
+      "Register",
+      "L2"
+    ],
+    "active_code": [
+      "C[i] = sum;"
+    ],
+    "conceptual": true
+  },
+  {
+    "kind": "final_identity",
+    "thread": 2,
+    "block": 0,
+    "sm": 0,
+    "register_location": "SM 0",
+    "mini_thread_center": [
+      -5.9555,
+      1.6675,
+      0.0
+    ],
+    "register_center": [
+      -4.041499999999999,
+      1.6675,
+      0.0
+    ]
+  }
+]

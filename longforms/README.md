@@ -180,6 +180,8 @@ longforms/<ID>_<slug>/
 
 - [LEVEL 05 — Grid](gpuh05_grid/README.md): 사용자 종료 시각178초, 18개 독립 씬, 세로·가로 무음 자막 영상. 12Block×128Thread의 논리 공간과4SM의 설명용 배치, 인덱스5·133, 별도5×4Grid의 이미지 타일. 실행: `python longforms/gpuh05_grid/build.py --preview` / `python longforms/gpuh05_grid/build.py`. CUDA1536개 배열 출력과2D 이미지 결과 검증.
 
+- [LEVEL 06 — Register](gpuh06_register/README.md): 사용자종료시각175초,18개독립씬,세로·가로무음자막영상. Thread2의계산과SM RegisterFile,가상4096/8192개요구량,Pressure와Spilling의구분. 실행: `python longforms/gpuh06_register/build.py --preview` / `python longforms/gpuh06_register/build.py`. 실제CUDA1536개결과·12Register/Thread·Spill0bytes검증.
+
 - [내적 LEVEL 05 — 그람–슈미트 직교화와 QR 분해](dot05_gram_schmidt_qr/README.md): 사용자 문장 종료 시각153초, 11개 독립 씬, 쇼츠·가로형. a₁=(1,1), a₂=(2,0)에서 기저를 만들고 Q열·R계수로 A를 복원. python longforms/dot05_gram_schmidt_qr/build.py (--preview). 음원 미제공으로 무음·자막 제작.
 
 
@@ -195,3 +197,5 @@ longforms/<ID>_<slug>/
 
 - [내적 LEVEL 01–10 통합 롱폼](dot_full_01_10/README.md): 사용자 지정 `exports/dot_long1.mp4`~`dot_long10.mp4` 음성 포함 파일을 순서대로 무손실 결합. 약23분33.5초, 내장10챕터와 유튜브 설명용 타임라인. 실행: `python longforms/dot_full_01_10/combine.py`.
 
+
+- [GPU LEVEL 07 — Shared Memory](gpuh07_shared_memory/README.md): 160초, 17씬, 가로·세로. Block 내부 공유·동기화, 2×2 타일 재사용, 용량과 Bank Conflict. 실제 CUDA 결과 검증. `python longforms/gpuh07_shared_memory/build.py`.

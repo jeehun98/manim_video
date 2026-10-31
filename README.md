@@ -1525,6 +1525,10 @@ python scripts/render.py softmax01
 
 [178초 세로·가로 제작 자료](longforms/gpuh05_grid/README.md). 사용자 종료 시각 기준18개 독립 씬. 논리 Grid12Block×128Thread와 물리 GPU의 SM 배치를 분리하고, 전역 인덱스·독립 Block·2D 이미지 타일을 연결한다. 실행: `python longforms/gpuh05_grid/build.py --preview` / `python longforms/gpuh05_grid/build.py`. CUDA 1536개 출력 및 별도2D 이미지 커널 검증. 배치 순서는 설명용 예시이며 음원 미제공으로 무음·자막 제작.
 
+## GPU 계층 구조 LEVEL 06 — Register
+
+[175초 세로·가로 제작 자료](longforms/gpuh06_register/README.md). 사용자 종료 시각 기준18개 독립 씬. Thread2의3+4=7을SM RegisterFile과 연결하고 Register Pressure·상주Warp·Spilling을 구분한다. 실행: `python longforms/gpuh06_register/build.py --preview` / `python longforms/gpuh06_register/build.py`. 실제CUDA1536개 출력,12Register/Thread·Spill0bytes 확인. 32/64Register와자원예산은별도가상예시. 음원미제공으로무음·전체자막.
+
 
 ## 내적 LEVEL 05 — 그람–슈미트와 QR
 [153초 쇼츠·롱폼 제작 자료](longforms/dot05_gram_schmidt_qr/README.md). 실행: python longforms/dot05_gram_schmidt_qr/build.py (--preview). 정규화·정사영 제거·공간 보존·Q/R 구성과 원래 행렬 복원, 무음 자막 영상.
@@ -1553,3 +1557,5 @@ python scripts/render.py softmax01
 
 [통합 제작 자료](longforms/dot_full_01_10/README.md). `exports/dot_long1.mp4`~`dot_long10.mp4`를 음성과 함께 순서대로 재인코딩 없이 연결. 출력 `exports/dot_full_01_10_longform.mp4`, 약23분33.5초. MP4챕터와 유튜브 설명 타임라인 포함. 실행: `python longforms/dot_full_01_10/combine.py`.
 
+
+- GPU LEVEL 07 Shared Memory: [제작 자료](longforms/gpuh07_shared_memory/README.md), 160초 가로·세로. `python longforms/gpuh07_shared_memory/build.py`.
