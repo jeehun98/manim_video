@@ -1,0 +1,24 @@
+{
+  "shorts": {
+    "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\minimal01_154s_shorts_final.mp4",
+    "width": 1080,
+    "height": 1920,
+    "r_frame_rate": "30/1",
+    "duration": "154.000000",
+    "nb_read_frames": "4620",
+    "caption_method": "single post-concat ASS track",
+    "caption_boundary_frames": 108,
+    "caption_fixed_path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\minimal01_154s_shorts_final_caption_fixed.mp4"
+  },
+  "longform": {
+    "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\minimal01_154s_longform_final.mp4",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "30/1",
+    "duration": "154.000000",
+    "nb_read_frames": "4620",
+    "caption_method": "single post-concat ASS track",
+    "caption_boundary_frames": 108,
+    "caption_fixed_path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\minimal01_154s_longform_final_caption_fixed.mp4"
+  }
+}

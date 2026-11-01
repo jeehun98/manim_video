@@ -1,0 +1,46 @@
+{
+  "seed": 606,
+  "model": "16x16 periodic 2D nearest-neighbor Ising, J=kB=1, h=0",
+  "method": "Wolff single-cluster Monte Carlo",
+  "burnin_cluster_updates": 1600,
+  "samples_per_temperature": 64,
+  "updates_between_samples": 30,
+  "critical_temperature": 2.269185314213022,
+  "sample_statistics": {
+    "low": {
+      "T": 1.4,
+      "mean_abs_magnetization": 0.9906005859375,
+      "mean_energy": -1.965576171875,
+      "mean_neighbor_correlation": 0.98193359375
+    },
+    "high": {
+      "T": 4.0,
+      "mean_abs_magnetization": 0.09033203125,
+      "mean_energy": -0.560302734375,
+      "mean_neighbor_correlation": 0.28173828125
+    },
+    "critical": {
+      "T": 2.269185314213022,
+      "mean_abs_magnetization": 0.6973876953125,
+      "mean_energy": -1.445068359375,
+      "mean_neighbor_correlation": 0.7197265625
+    }
+  },
+  "selected_critical_sample": 32,
+  "selection": "Mixed equilibrium snapshot selected for legibility, not measurement.",
+  "block_sizes": [
+    16,
+    8,
+    4,
+    2
+  ],
+  "block_tie_counts": [
+    17,
+    4,
+    0
+  ],
+  "tie_rule": "Each zero-sum 2x2 block independently samples -1 or +1 with equal probability; fixed seed 1608.",
+  "rg_flow": "Schematic local map (r,g)->(2r,g/2), not inferred Ising coupling constants.",
+  "critical_manifold": "r=0; g decays to zero. r!=0 grows away from fixed point.",
+  "scaling_curves": "Illustrative power-law curves only, no measured critical exponents."
+}

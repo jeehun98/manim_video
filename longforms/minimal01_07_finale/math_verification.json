@@ -1,0 +1,47 @@
+{
+  "total_seconds": 163,
+  "sentence_count": 33,
+  "scene_count": 14,
+  "caption_intervals": "contiguous half-open",
+  "graph_examples": [
+    {
+      "vertices": 8,
+      "edges": 9,
+      "connected": true
+    },
+    {
+      "vertices": 8,
+      "edges": 8,
+      "connected": true
+    },
+    {
+      "vertices": 8,
+      "edges": 7,
+      "connected": true
+    }
+  ],
+  "shortest_path": {
+    "original": 1,
+    "tree": 7
+  },
+  "statistics": {
+    "A": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "B": [
+      0,
+      0,
+      3,
+      6,
+      6
+    ],
+    "mean_A": 3,
+    "mean_B": 3,
+    "condition": "iid normal, same known variance, fixed n"
+  },
+  "final_question": "Function identity posed as question, finite test not a proof; permutation does not imply smaller parameter count or continuous dimension."
+}

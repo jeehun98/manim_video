@@ -1,0 +1,11 @@
+{
+  "mask_fixed": true,
+  "retained": 33,
+  "total": 44,
+  "reset_max_error": 0.0,
+  "inactive_original_max": 0.0,
+  "inactive_random_max": 0.0,
+  "same_mask_comparison": true,
+  "original_and_random_values_differ": true,
+  "scope": "Single illustrative synthetic XOR experiment, not original-paper reproduction; threshold 95% is illustrative, not the original validation-loss stopping rule."
+}

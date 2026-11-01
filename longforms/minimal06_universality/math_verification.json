@@ -1,0 +1,109 @@
+{
+  "block_reproduction_passed": true,
+  "tie_up_fraction": 0.4998,
+  "critical_correlations_not_iid": true,
+  "rg_fixed_point_invariant": true,
+  "rg_history": [
+    {
+      "a": [
+        0.0,
+        0.8
+      ],
+      "b": [
+        0.0,
+        -0.65
+      ],
+      "off": [
+        0.05,
+        0.3
+      ]
+    },
+    {
+      "a": [
+        0.0,
+        0.4
+      ],
+      "b": [
+        0.0,
+        -0.325
+      ],
+      "off": [
+        0.1,
+        0.15
+      ]
+    },
+    {
+      "a": [
+        0.0,
+        0.2
+      ],
+      "b": [
+        0.0,
+        -0.1625
+      ],
+      "off": [
+        0.2,
+        0.075
+      ]
+    },
+    {
+      "a": [
+        0.0,
+        0.1
+      ],
+      "b": [
+        0.0,
+        -0.08125
+      ],
+      "off": [
+        0.4,
+        0.0375
+      ]
+    },
+    {
+      "a": [
+        0.0,
+        0.05
+      ],
+      "b": [
+        0.0,
+        -0.040625
+      ],
+      "off": [
+        0.8,
+        0.01875
+      ]
+    },
+    {
+      "a": [
+        0.0,
+        0.025
+      ],
+      "b": [
+        0.0,
+        -0.0203125
+      ],
+      "off": [
+        1.6,
+        0.009375
+      ]
+    },
+    {
+      "a": [
+        0.0,
+        0.0125
+      ],
+      "b": [
+        0.0,
+        -0.01015625
+      ],
+      "off": [
+        3.2,
+        0.0046875
+      ]
+    }
+  ],
+  "rg_relevant_multiplier": 2,
+  "rg_irrelevant_multiplier": 0.5,
+  "scope": "Equilibrium samples and block spins are computed. RG flow and material diagrams are illustrative; no effective Hamiltonian is fitted."
+}

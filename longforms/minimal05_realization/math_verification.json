@@ -1,0 +1,58 @@
+{
+  "original_A": [
+    [
+      -1.0,
+      -0.0
+    ],
+    [
+      -0.0,
+      -1.0
+    ]
+  ],
+  "original_B": [
+    [
+      1.0
+    ],
+    [
+      1.0
+    ]
+  ],
+  "original_C": [
+    [
+      1.0,
+      1.0
+    ]
+  ],
+  "transformed_B": [
+    [
+      2.0
+    ],
+    [
+      0.0
+    ]
+  ],
+  "transformed_C": [
+    [
+      1.0,
+      0.0
+    ]
+  ],
+  "initial_state": [
+    1.5,
+    0.5
+  ],
+  "reduced_initial_state": 2,
+  "independent_integration_max_output_error": 3.1086244689504383e-15,
+  "difference_free_decay_max_error": 1.923516901314315e-12,
+  "original_controllability_rank": 1,
+  "original_observability_rank": 1,
+  "reduced_controllability_rank": 1,
+  "reduced_observability_rank": 1,
+  "transfer_function": "2/(s+1)",
+  "transfer_function_max_error": 0.0,
+  "minimal_dimension": 1,
+  "minimality_reason": "Controllable and observable scalar LTI realization; nonconstant transfer function excludes dimension zero.",
+  "general_equivalence": "Zero-initial-state input-output relation",
+  "example_stronger_equivalence": "Any x(0), with z(0)=x1(0)+x2(0), gives identical outputs for all inputs by z_dot=-z+2u.",
+  "difference_dynamics": "d_dot=-d; autonomous decay, no u term; absent from y"
+}

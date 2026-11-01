@@ -1,0 +1,76 @@
+[
+  {
+    "kind": "identity",
+    "block": 1,
+    "thread": 5,
+    "warp": 0,
+    "lane": 5,
+    "i": 133,
+    "assumed_sm": 1,
+    "mapping_guaranteed": false,
+    "shared_used": false
+  },
+  {
+    "kind": "flow",
+    "time": 125.367,
+    "value": "B1",
+    "label": "Block 1 → SM 1 · 한 가지 가능한 배치 · 실제 SM 번호 보장 없음",
+    "shared_in_route": false
+  },
+  {
+    "kind": "mapping",
+    "block": 1,
+    "sm": 1,
+    "assumed": true
+  },
+  {
+    "kind": "flow",
+    "time": 125.733,
+    "value": "W0",
+    "label": "준비된 Warp 0의 명령 발행 · 선택 순서는 설명용",
+    "shared_in_route": false
+  },
+  {
+    "kind": "issue",
+    "warp": 0,
+    "simultaneous_all_warps": false
+  },
+  {
+    "kind": "flow",
+    "time": 126.1,
+    "value": "W2",
+    "label": "준비된 Warp 2의 명령 발행 · 선택 순서는 설명용",
+    "shared_in_route": false
+  },
+  {
+    "kind": "issue",
+    "warp": 2,
+    "simultaneous_all_warps": false
+  },
+  {
+    "kind": "flow",
+    "time": 126.467,
+    "value": "W1",
+    "label": "준비된 Warp 1의 명령 발행 · 선택 순서는 설명용",
+    "shared_in_route": false
+  },
+  {
+    "kind": "issue",
+    "warp": 1,
+    "simultaneous_all_warps": false
+  },
+  {
+    "kind": "flow",
+    "time": 126.833,
+    "value": "값",
+    "label": "다른 Warp의 실행과 메모리 요청은 겹쳐 진행될 수 있음",
+    "shared_in_route": false
+  },
+  {
+    "kind": "parallel_results",
+    "threads": 512,
+    "blocks": 4,
+    "per_block": 128,
+    "all_same_instant": false
+  }
+]

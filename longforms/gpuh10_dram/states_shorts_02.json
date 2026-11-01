@@ -1,0 +1,20 @@
+[
+  {
+    "time": 23.7,
+    "kind": "flow",
+    "value": "요청",
+    "label": "SM의 요청이 캐시 계층으로"
+  },
+  {
+    "time": 30.4,
+    "kind": "flow",
+    "value": "요청",
+    "label": "여러 SM에서 발생하는 메모리 요청"
+  },
+  {
+    "time": 35.8,
+    "kind": "flow",
+    "value": "요청",
+    "label": "캐시에 데이터가 없어 DRAM 접근이 필요한 상황 가정"
+  }
+]

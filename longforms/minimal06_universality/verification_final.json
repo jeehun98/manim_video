@@ -1,0 +1,30 @@
+{
+  "shorts": {
+    "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\minimal06_160s_shorts_final.mp4",
+    "width": 1080,
+    "height": 1920,
+    "r_frame_rate": "30/1",
+    "duration": "160.000000",
+    "nb_read_frames": "4800",
+    "full_decode_passed": true,
+    "caption_method": "single ASS track after concat; non-overlapping half-open events",
+    "caption_checked_frames": 99,
+    "caption_minimum_text_mask_iou": 0.9781905163922893,
+    "visual_review_passed": true,
+    "audio_included": false
+  },
+  "longform": {
+    "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\minimal06_160s_longform_final.mp4",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "30/1",
+    "duration": "160.000000",
+    "nb_read_frames": "4800",
+    "full_decode_passed": true,
+    "caption_method": "single ASS track after concat; non-overlapping half-open events",
+    "caption_checked_frames": 99,
+    "caption_minimum_text_mask_iou": 0.9742825195676481,
+    "visual_review_passed": true,
+    "audio_included": false
+  }
+}

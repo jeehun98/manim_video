@@ -1,0 +1,11 @@
+[
+  {
+    "kind": "packaging",
+    "technology": "HBM",
+    "diagram": "same_package_example",
+    "memory_on_gpu_die": false,
+    "stacked_dram": true,
+    "wide_interface": true,
+    "performance_ranking": false
+  }
+]

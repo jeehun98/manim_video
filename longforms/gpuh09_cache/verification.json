@@ -1,0 +1,52 @@
+{
+  "cues": 31,
+  "shots": 14,
+  "cuda": "three kernels / 768 output values passed",
+  "cache_model": "assumed independent cases; no measured hits, latency, or policy effects",
+  "outputs": [
+    {
+      "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpuh09_cache_169s_shorts_final.mp4",
+      "duration": 169,
+      "frames": 5070,
+      "audio": false
+    },
+    {
+      "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpuh09_cache_169s_longform_final.mp4",
+      "duration": 169,
+      "frames": 5070,
+      "audio": false
+    }
+  ],
+  "states": {
+    "shorts": {
+      "traces": 14,
+      "cache_cases": [
+        "L1 Hit",
+        "L2 Hit",
+        "DRAM",
+        "L1 Bypass"
+      ],
+      "conceptual_partitions": [
+        0.5,
+        0.75
+      ],
+      "explicit_shared_stores": 1,
+      "cross_sm_reuse": 1
+    },
+    "longform": {
+      "traces": 14,
+      "cache_cases": [
+        "L1 Hit",
+        "L2 Hit",
+        "DRAM",
+        "L1 Bypass"
+      ],
+      "conceptual_partitions": [
+        0.5,
+        0.75
+      ],
+      "explicit_shared_stores": 1,
+      "cross_sm_reuse": 1
+    }
+  }
+}

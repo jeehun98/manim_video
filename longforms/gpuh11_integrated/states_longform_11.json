@@ -1,0 +1,20 @@
+[
+  {
+    "kind": "identity",
+    "block": 1,
+    "thread": 5,
+    "warp": 0,
+    "lane": 5,
+    "i": 133,
+    "assumed_sm": 1,
+    "mapping_guaranteed": false,
+    "shared_used": false
+  },
+  {
+    "kind": "flow",
+    "time": 145.633,
+    "value": "주소",
+    "label": "정렬된 Stride 1: 네 개 32B Sector",
+    "shared_in_route": false
+  }
+]

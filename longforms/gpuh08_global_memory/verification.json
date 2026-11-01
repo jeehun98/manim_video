@@ -1,0 +1,32 @@
+{
+  "cues": 30,
+  "shots": 14,
+  "cuda": "all256 vectorAdd and all32 values for three patterns passed",
+  "sector_model": "aligned base, active32, float32, 32B sectors; no measured traffic or timing",
+  "outputs": [
+    {
+      "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpuh08_global_memory_165s_shorts_final.mp4",
+      "duration": 165,
+      "frames": 4950,
+      "audio": false
+    },
+    {
+      "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpuh08_global_memory_165s_longform_final.mp4",
+      "duration": 165,
+      "frames": 4950,
+      "audio": false
+    }
+  ],
+  "states": {
+    "shorts": {
+      "traces": 14,
+      "patterns": 14,
+      "exact_lane_links": 46
+    },
+    "longform": {
+      "traces": 14,
+      "patterns": 14,
+      "exact_lane_links": 46
+    }
+  }
+}

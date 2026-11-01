@@ -1,0 +1,52 @@
+[
+  {
+    "kind": "identity",
+    "block": 1,
+    "thread": 5,
+    "warp": 0,
+    "lane": 5,
+    "i": 133,
+    "assumed_sm": 1,
+    "mapping_guaranteed": false,
+    "shared_used": false
+  },
+  {
+    "kind": "flow",
+    "time": 95.367,
+    "value": 4,
+    "label": "가정 1 · A[133]은 L1 적중 · 값 4",
+    "shared_in_route": false
+  },
+  {
+    "kind": "flow",
+    "time": 96.0,
+    "value": 7,
+    "label": "가정 1 · B[133]은 L2 적중 · 값 7",
+    "shared_in_route": false
+  },
+  {
+    "kind": "flow",
+    "time": 101.0,
+    "value": "B[133]",
+    "label": "가정 2 · 같은 B[133] Load가 캐시에 없는 대안 사례",
+    "shared_in_route": false
+  },
+  {
+    "kind": "flow",
+    "time": 102.167,
+    "value": 7,
+    "label": "가정 2 · DRAM에서 같은 값 7 반환",
+    "shared_in_route": false
+  },
+  {
+    "kind": "load_cases",
+    "inputs": [
+      "A[133]",
+      "B[133]"
+    ],
+    "third_load": false,
+    "A": 4,
+    "B": 7,
+    "alternative": "same B load via DRAM"
+  }
+]

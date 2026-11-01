@@ -1,0 +1,1 @@
+PASS vectorAdd<<<4,128>>> all512; C133=4+7=11; Shared=0 bytes; 12 registers/thread; cache/SM mapping not measured

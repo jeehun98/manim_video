@@ -1559,3 +1559,41 @@ python scripts/render.py softmax01
 
 
 - GPU LEVEL 07 Shared Memory: [제작 자료](longforms/gpuh07_shared_memory/README.md), 160초 가로·세로. `python longforms/gpuh07_shared_memory/build.py`.
+
+- [GPU LEVEL 08 — Global Memory & Coalescing](longforms/gpuh08_global_memory/README.md): 165초, 14개 독립 씬, 가로·세로. 32Lane의 정렬된 float32 접근을 고정 격자에서 비교하며 4→32 Sector로 변화. 실제 CUDA 출력 및 주소 모델 검증. `python longforms/gpuh08_global_memory/build.py`.
+
+- [GPU LEVEL 09 — L1 & L2 Cache](longforms/gpuh09_cache/README.md): 169초, 독립 씬14개, 가로·세로. 메모리 공간과 캐시 계층, L1/L2 Hit·Miss·L1 Bypass의 가정 경로, Unified L1/Shared 물리 자원의 개념 분할. `python longforms/gpuh09_cache/build.py`.
+
+- [GPU LEVEL 10 — Memory Controller & DRAM](longforms/gpuh10_dram/README.md): 164초, 독립 씬14개, 가로·세로. 논리 주소와 물리 저장 장치, Controller 요청·데이터 반환, DRAM Row 상태와 명령, GDDR/HBM 구조. `python longforms/gpuh10_dram/build.py`.
+
+- [GPU LEVEL 11 — 최종 통합편](longforms/gpuh11_integrated/README.md): 191초, 독립 씬16개, 가로형만. N512/Block128/Grid4의 vectorAdd에서 Block1 Thread5(i133)의 4+7=11을 끝까지 추적하며 논리 조직·SM 실행·데이터 공급을 연결. `python longforms/gpuh11_integrated/build.py`.
+
+- [GPU LEVEL 01–11 통합 롱폼](longforms/gpuh_full_01_11/README.md): 사용자 지정 `gpuh_1.mp4`~`gpuh_11.mp4` 음성 포함 파일을 순서대로 스트림 복사. 약31분46초, MP4 내장11챕터와 유튜브 구간 설명. `python longforms/gpuh_full_01_11/combine.py`.
+
+## 모든 것이 필요할까?
+
+- [01 — 최소 표현의 조건](longforms/minimal01_preserve/README.md): 154초, 15개 독립 씬, 세로 쇼츠·가로 롱폼. 무음·전체 발화 자막. 실행: python longforms/minimal01_preserve/build.py (--preview 미리보기).
+
+- [모든 것이 필요할까? 02 — 최소 유전체](longforms/minimal02_genome/README.md): 164초, 17개 독립 씬, 세로 쇼츠·가로 롱폼, 무음·전체 발화 자막. 실행: python longforms/minimal02_genome/build.py (--preview 미리보기).
+
+- [모든 것이 필요할까? 03 — 그래프 희소화](longforms/minimal03_sparsification/README.md): 163초, 독립 씬15개, 세로 쇼츠·가로 롱폼, 무음·자막. 실제 에너지 및 전칭 오차 검증. 실행: python longforms/minimal03_sparsification/build.py (--preview 미리보기).
+
+- [모든 것이 필요할까? 04 — 충분통계량](longforms/minimal04_sufficiency/README.md): 153초, 독립 씬15개, 세로 쇼츠·가로 롱폼, 무음·자막. 실제 상대 우도와 통계량 계산 검증. 실행: python longforms/minimal04_sufficiency/build.py (--preview 미리보기).
+
+
+충분통계량 4편의 현재 개정본(158초, 직관 실험): [제작 원본](longforms/minimal04_sufficiency/revisions/v2_intuition_158s/README.md)
+
+
+- [모든 것이 필요할까? 05 — 최소 실현](longforms/minimal05_realization/README.md): 사용자 발화 시각 기준 154초·16개 독립 씬·세로/가로. 실행: `python longforms/minimal05_realization/build.py --preview` 또는 `python longforms/minimal05_realization/build.py`.
+
+
+- [모든 것이 필요할까? 06 — 재규격화와 보편성](longforms/minimal06_universality/README.md):160초·14개 독립 씬·세로/가로. 실행: `python longforms/minimal06_universality/build.py --preview` 또는 `python longforms/minimal06_universality/build.py`.
+
+
+- [모든 것이 필요할까? 07 — 복권 가설](longforms/minimal07_lottery/README.md):170초·16개 독립 씬·세로/가로. 실행: `python longforms/minimal07_lottery/build.py --preview` 또는 `python longforms/minimal07_lottery/build.py`.
+
+
+- [01–07 통합 마무리 · 모든 것이 필요할까?](longforms/minimal01_07_finale/README.md): 사용자 확정163초, 14개 독립 씬, 16:9 롱폼만. 실행: `python longforms/minimal01_07_finale/build.py --preview` / `python longforms/minimal01_07_finale/build.py`. 음원 미제공, 무음·단일 트랙 자막.
+
+
+- [모든 것이 필요할까? 1–8 통합 롱폼](longforms/minimal_full_01_08/README.md): 사용자 지정 음성 포함 `minimal_1_long.mp4`–`minimal_8_long.mp4` 순차 결합. 21분49초,1080p30fps,8개 챕터와 유튜브 설명문. 실행: `python longforms/minimal_full_01_08/build.py`.

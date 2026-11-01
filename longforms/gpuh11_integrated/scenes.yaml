@@ -1,0 +1,69 @@
+title: GPU LEVEL 11 Integrated
+duration_seconds: 191
+layout: longform
+timing_source: user_sentence_end_times
+scenes:
+  - id: "01"
+    directory: scenes/01_scene
+    duration_seconds: 18
+    class: Integrated01
+  - id: "02"
+    directory: scenes/02_scene
+    duration_seconds: 8
+    class: Integrated02
+  - id: "03"
+    directory: scenes/03_scene
+    duration_seconds: 17
+    class: Integrated03
+  - id: "04"
+    directory: scenes/04_scene
+    duration_seconds: 10
+    class: Integrated04
+  - id: "05"
+    directory: scenes/05_scene
+    duration_seconds: 19
+    class: Integrated05
+  - id: "06"
+    directory: scenes/06_scene
+    duration_seconds: 9
+    class: Integrated06
+  - id: "07"
+    directory: scenes/07_scene
+    duration_seconds: 14
+    class: Integrated07
+  - id: "08"
+    directory: scenes/08_scene
+    duration_seconds: 10
+    class: Integrated08
+  - id: "09"
+    directory: scenes/09_scene
+    duration_seconds: 10
+    class: Integrated09
+  - id: "10"
+    directory: scenes/10_scene
+    duration_seconds: 18
+    class: Integrated10
+  - id: "11"
+    directory: scenes/11_scene
+    duration_seconds: 12
+    class: Integrated11
+  - id: "12"
+    directory: scenes/12_scene
+    duration_seconds: 6
+    class: Integrated12
+  - id: "13"
+    directory: scenes/13_scene
+    duration_seconds: 12
+    class: Integrated13
+  - id: "14"
+    directory: scenes/14_scene
+    duration_seconds: 15
+    class: Integrated14
+  - id: "15"
+    directory: scenes/15_scene
+    duration_seconds: 5
+    class: Integrated15
+  - id: "16"
+    directory: scenes/16_scene
+    duration_seconds: 8
+    class: Integrated16

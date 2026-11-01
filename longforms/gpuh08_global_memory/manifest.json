@@ -1,0 +1,128 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_scene",
+    "title": "대규모 데이터는 어디에 있을까?",
+    "start": 0,
+    "end": 15,
+    "duration_seconds": 15,
+    "class": "Global01"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_scene",
+    "title": "여러 SM이 접근하는 메모리",
+    "start": 15,
+    "end": 26,
+    "duration_seconds": 11,
+    "class": "Global02"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_scene",
+    "title": "Global Load → 계산 → Store",
+    "start": 26,
+    "end": 41,
+    "duration_seconds": 15,
+    "class": "Global03"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_scene",
+    "title": "데이터의 왕복 경로",
+    "start": 41,
+    "end": 48,
+    "duration_seconds": 7,
+    "class": "Global04"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_scene",
+    "title": "Warp 하나가 요청하는 128B",
+    "start": 48,
+    "end": 65,
+    "duration_seconds": 17,
+    "class": "Global05"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_scene",
+    "title": "연속 주소는 네 개의 Sector로",
+    "start": 65,
+    "end": 81,
+    "duration_seconds": 16,
+    "class": "Global06"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_scene",
+    "title": "같은 128B · 달라지는 주소",
+    "start": 81,
+    "end": 92,
+    "duration_seconds": 11,
+    "class": "Global07"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_scene",
+    "title": "32개의 서로 다른 Sector",
+    "start": 92,
+    "end": 103,
+    "duration_seconds": 11,
+    "class": "Global08"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_scene",
+    "title": "유효 데이터와 Sector Footprint",
+    "start": 103,
+    "end": 109,
+    "duration_seconds": 6,
+    "class": "Global09"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_scene",
+    "title": "주소를 필요한 접근으로 묶기",
+    "start": 109,
+    "end": 117,
+    "duration_seconds": 8,
+    "class": "Global10"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_scene",
+    "title": "Lane 순서보다 주소 집합",
+    "start": 117,
+    "end": 127,
+    "duration_seconds": 10,
+    "class": "Global11"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_scene",
+    "title": "섹터 수와 실행시간은 다르다",
+    "start": 127,
+    "end": 137,
+    "duration_seconds": 10,
+    "class": "Global12"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_scene",
+    "title": "Shared Bank와 Global Sector",
+    "start": 137,
+    "end": 149,
+    "duration_seconds": 12,
+    "class": "Global13"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_scene",
+    "title": "Global Memory · 주소 패턴이 중요하다",
+    "start": 149,
+    "end": 165,
+    "duration_seconds": 16,
+    "class": "Global14"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "shorts": {
+    "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\minimal04_v2_158s_shorts_preview.mp4",
+    "derived_from_final": true,
+    "width": 360,
+    "height": 640,
+    "r_frame_rate": "15/1",
+    "duration": "158.000000",
+    "nb_read_frames": "2370"
+  },
+  "longform": {
+    "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\minimal04_v2_158s_longform_preview.mp4",
+    "derived_from_final": true,
+    "width": 854,
+    "height": 480,
+    "r_frame_rate": "15/1",
+    "duration": "158.000000",
+    "nb_read_frames": "2370"
+  }
+}

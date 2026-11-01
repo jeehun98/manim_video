@@ -1,0 +1,141 @@
+[
+  {
+    "kind": "pattern",
+    "time": 65.0,
+    "stride": 1,
+    "reverse": false,
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "sectors": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "useful_bytes": 128,
+    "sector_footprint": 128,
+    "base_aligned": 32
+  },
+  {
+    "kind": "lane_links",
+    "time": 66.3,
+    "links": [
+      {
+        "lane": 0,
+        "word": 0,
+        "byte": 0,
+        "sector": 0
+      },
+      {
+        "lane": 1,
+        "word": 1,
+        "byte": 4,
+        "sector": 0
+      },
+      {
+        "lane": 7,
+        "word": 7,
+        "byte": 28,
+        "sector": 0
+      },
+      {
+        "lane": 8,
+        "word": 8,
+        "byte": 32,
+        "sector": 1
+      },
+      {
+        "lane": 16,
+        "word": 16,
+        "byte": 64,
+        "sector": 2
+      },
+      {
+        "lane": 31,
+        "word": 31,
+        "byte": 124,
+        "sector": 3
+      }
+    ]
+  },
+  {
+    "time": 67.0,
+    "kind": "flow",
+    "value": "주소",
+    "label": "Stride 1 주소 요청 · 캐시 계층에서 처리 가능"
+  },
+  {
+    "kind": "lane_links",
+    "time": 71.26666666666667,
+    "links": [
+      {
+        "lane": 0,
+        "word": 0,
+        "byte": 0,
+        "sector": 0
+      },
+      {
+        "lane": 7,
+        "word": 7,
+        "byte": 28,
+        "sector": 0
+      },
+      {
+        "lane": 8,
+        "word": 8,
+        "byte": 32,
+        "sector": 1
+      },
+      {
+        "lane": 15,
+        "word": 15,
+        "byte": 60,
+        "sector": 1
+      },
+      {
+        "lane": 24,
+        "word": 24,
+        "byte": 96,
+        "sector": 3
+      },
+      {
+        "lane": 31,
+        "word": 31,
+        "byte": 124,
+        "sector": 3
+      }
+    ]
+  }
+]

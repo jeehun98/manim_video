@@ -1,0 +1,27 @@
+[
+  {
+    "kind": "identity",
+    "block": 1,
+    "thread": 5,
+    "warp": 0,
+    "lane": 5,
+    "i": 133,
+    "assumed_sm": 1,
+    "mapping_guaranteed": false,
+    "shared_used": false
+  },
+  {
+    "kind": "flow",
+    "time": 89.367,
+    "value": "A[133]",
+    "label": "Thread 5 · A[133]의 값 요청",
+    "shared_in_route": false
+  },
+  {
+    "kind": "flow",
+    "time": 92.633,
+    "value": "B[133]",
+    "label": "Thread 5 · B[133]의 값 요청 · 실제 경로는 캐시 상태/정책에 따라 다름",
+    "shared_in_route": false
+  }
+]

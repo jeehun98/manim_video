@@ -1,0 +1,38 @@
+[
+  {
+    "time": 132.4,
+    "kind": "flow",
+    "value": "A[5]",
+    "label": "SM 0의 요청 · 해당 L1 Miss를 가정"
+  },
+  {
+    "time": 133.1,
+    "kind": "flow",
+    "value": 6,
+    "label": "L2에서 SM 0에 값 6 공급"
+  },
+  {
+    "time": 137.4,
+    "kind": "flow",
+    "value": "A[5]",
+    "label": "SM 1도 같은 주소 요청 · 해당 L1 Miss 가정"
+  },
+  {
+    "time": 137.8,
+    "kind": "flow",
+    "value": 6,
+    "label": "SM 1에도 L2에서 값 6 공급 · DRAM 재접근 없음"
+  },
+  {
+    "kind": "cross_sm_reuse",
+    "source": "L2",
+    "sms": [
+      0,
+      1
+    ],
+    "value": 6,
+    "unchanged_input": true,
+    "residency_assumed": true,
+    "dram_access": false
+  }
+]

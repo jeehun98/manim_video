@@ -1,0 +1,14 @@
+[
+  {
+    "time": 132.7,
+    "kind": "flow",
+    "value": "Hit",
+    "label": "L1 적중을 가정한 데이터 경로"
+  },
+  {
+    "time": 133.4,
+    "kind": "flow",
+    "value": "Hit",
+    "label": "L2 적중을 가정한 데이터 경로"
+  }
+]

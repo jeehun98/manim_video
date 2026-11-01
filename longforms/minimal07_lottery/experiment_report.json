@@ -1,0 +1,36 @@
+{
+  "scope": "Fixed illustrative synthetic XOR experiment, not original-paper results or general evidence.",
+  "architecture": [
+    2,
+    6,
+    4,
+    2
+  ],
+  "connection_weights": 44,
+  "retained_weights": 33,
+  "retention": 0.75,
+  "pruning": "One-shot global magnitude pruning of trained connection weights. Biases are retained.",
+  "steps": 300,
+  "optimizer": "Full-batch Adam",
+  "learning_rate": 0.02,
+  "train_size": 256,
+  "test_size": 512,
+  "seeds": {
+    "original": 707,
+    "reinitialization": 708,
+    "training_data": 17,
+    "test_data": 18
+  },
+  "comparison": "Same mask, data, optimizer, learning rate and iteration budget; biases initialized to zero in all cases.",
+  "target_accuracy": 0.95,
+  "first_target_iterations": {
+    "dense": 30,
+    "original": 26,
+    "random": 21
+  },
+  "final_test_accuracy": {
+    "dense": 1.0,
+    "original": 1.0,
+    "random": 0.990234375
+  }
+}

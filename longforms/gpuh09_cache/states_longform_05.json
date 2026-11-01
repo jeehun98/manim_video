@@ -1,0 +1,35 @@
+[
+  {
+    "time": 64.4,
+    "kind": "flow",
+    "value": "A[5]",
+    "label": "L1 Hit · 요청 경로 · 측정된 캐시 상태 아님"
+  },
+  {
+    "time": 64.8,
+    "kind": "flow",
+    "value": 6,
+    "label": "L1 Hit · L1에서 값 6 공급"
+  },
+  {
+    "kind": "cache_case",
+    "time": 64.8,
+    "case": "L1 Hit",
+    "request": [
+      "Warp",
+      "L1"
+    ],
+    "response": [
+      "L1",
+      "Register"
+    ],
+    "status": [
+      "Hit",
+      "미접근",
+      "미접근"
+    ],
+    "source": "L1",
+    "value": 6,
+    "conceptual": true
+  }
+]

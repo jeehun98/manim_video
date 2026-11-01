@@ -1,0 +1,14 @@
+[
+  {
+    "time": 154.3,
+    "kind": "flow",
+    "value": "A[5]",
+    "label": "캐시 Miss를 가정한 단순화된 요청 경로"
+  },
+  {
+    "time": 158.267,
+    "kind": "flow",
+    "value": 6,
+    "label": "값은 물리 DRAM에서 메모리 시스템을 거쳐 SM으로"
+  }
+]

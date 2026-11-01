@@ -1,0 +1,10 @@
+{
+  "retained_weights": 22,
+  "total": 44,
+  "final_test_accuracy": {
+    "dense": 1.0,
+    "original": 0.734375,
+    "random": 0.73046875
+  },
+  "description": "Initial 50% retention pilot failed to retain dense accuracy; tutorial uses a less aggressive 75% retention. This pilot is not presented as a successful ticket."
+}
