@@ -1,0 +1,110 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_opening",
+    "start": 0,
+    "end": 6,
+    "duration_seconds": 6,
+    "claim": "뉴런 수와 독립적인 정보의 수는 같을까?",
+    "class": "Scene01"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_research2019",
+    "start": 6,
+    "end": 18,
+    "duration_seconds": 12,
+    "claim": "뉴런 수보다 낮은 측정 차원이 보고되었다",
+    "class": "Scene02"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_three_outputs",
+    "start": 18,
+    "end": 27,
+    "duration_seconds": 9,
+    "claim": "세 뉴런의 세 출력을 독립적으로 조절한다",
+    "class": "Scene03"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_curve",
+    "start": 27,
+    "end": 42,
+    "duration_seconds": 15,
+    "claim": "세 출력 t, t², t³는 한 곡선 위에서 움직인다",
+    "class": "Scene04"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_definition",
+    "start": 42,
+    "end": 49,
+    "duration_seconds": 7,
+    "claim": "좌표 세 개와 독립 변수 하나를 구분한다",
+    "class": "Scene05"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_layers",
+    "start": 49,
+    "end": 64,
+    "duration_seconds": 15,
+    "claim": "계층별 측정 차원은 증가 후 감소하는 경향을 보였다",
+    "class": "Scene06"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_interpretation",
+    "start": 64,
+    "end": 75,
+    "duration_seconds": 11,
+    "claim": "표현 확장과 정리라는 해석에 질문을 던진다",
+    "class": "Scene07"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_research2026",
+    "start": 75,
+    "end": 91,
+    "duration_seconds": 16,
+    "claim": "점들에서 실제 차원을 추정하는 방법을 검토한다",
+    "class": "Scene08"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_sampling",
+    "start": 91,
+    "end": 105,
+    "duration_seconds": 14,
+    "claim": "변위·분포·표본 수가 관측에 영향을 준다",
+    "class": "Scene09"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_estimated_true",
+    "start": 105,
+    "end": 125,
+    "duration_seconds": 20,
+    "claim": "측정 차원 변화만으로 실제 차원 변화를 확정하지 않는다",
+    "class": "Scene10"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_structure",
+    "start": 125,
+    "end": 141,
+    "duration_seconds": 16,
+    "claim": "저차원 구조의 존재와 차원 추정 문제는 구분한다",
+    "class": "Scene11"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_question",
+    "start": 141,
+    "end": 153,
+    "duration_seconds": 12,
+    "claim": "뉴런 수·실제 차원·추정 차원을 구분하는 질문",
+    "class": "Scene12"
+  }
+]

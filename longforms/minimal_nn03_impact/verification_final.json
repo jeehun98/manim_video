@@ -1,0 +1,18 @@
+{
+  "longform": {
+    "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\minimal_nn03_impact_156s_longform_final.mp4",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "60/1",
+    "duration": "156.000000",
+    "nb_read_frames": "9360"
+  },
+  "shorts": {
+    "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\minimal_nn03_impact_156s_shorts_final.mp4",
+    "width": 1080,
+    "height": 1920,
+    "r_frame_rate": "60/1",
+    "duration": "156.000000",
+    "nb_read_frames": "9360"
+  }
+}

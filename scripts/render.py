@@ -278,6 +278,8 @@ EPISODES["matrixtier01"] = ("episodes/matrixtier01_decompositions/scene.py", "Ma
 
 EPISODES["softmax01"] = ("episodes/softmax01_collapse/scene.py", "SoftmaxCollapse")
 
+EPISODES["mult01"] = ("episodes/mult01_error_parity/scene.py", "MultiplicationErrorParity")
+
 def main():
     p = argparse.ArgumentParser()
     projects = {
@@ -333,6 +335,15 @@ def main():
     output = ROOT / "exports" / (a.episode + ("_preview" if a.preview else "") + ".mp4")
     output.parent.mkdir(exist_ok=True)
     shutil.copy2(latest, output)
+    if a.episode == "mult01":
+        # Manim's partial-clip concatenation can introduce millisecond PTS drift.
+        # Assign all 3060 frames their exact 30fps presentation timestamps.
+        normalized = output.with_name(output.stem + "_cfr.mp4")
+        subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", str(output),
+                        "-vf", "setpts=N/(30*TB)", "-r", "30", "-fps_mode", "cfr",
+                        "-c:v", "libx264", "-preset", "fast", "-crf", "18", "-pix_fmt", "yuv420p",
+                        "-an", "-movflags", "+faststart", str(normalized)], check=True)
+        normalized.replace(output)
     print(f"Export: {output}")
 if __name__ == "__main__":
     main()

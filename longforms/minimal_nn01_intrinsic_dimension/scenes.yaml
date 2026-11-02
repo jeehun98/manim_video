@@ -1,0 +1,41 @@
+title: 최소 조건 2부 · 신경망 1편 · 내재 차원
+duration_seconds: 129
+layouts: [1920x1080, 1080x1920]
+fps: 60
+scenes:
+  - id: "01"
+    directory: scenes/01_question
+    class: Scene01
+    duration_seconds: 13
+  - id: "02"
+    directory: scenes/02_research
+    class: Scene02
+    duration_seconds: 16
+  - id: "03"
+    directory: scenes/03_three_weights
+    class: Scene03
+    duration_seconds: 19
+  - id: "04"
+    directory: scenes/04_projection
+    class: Scene04
+    duration_seconds: 11
+  - id: "05"
+    directory: scenes/05_result
+    class: Scene05
+    duration_seconds: 17
+  - id: "06"
+    directory: scenes/06_connections
+    class: Scene06
+    duration_seconds: 11
+  - id: "07"
+    directory: scenes/07_measurement
+    class: Scene07
+    duration_seconds: 17
+  - id: "08"
+    directory: scenes/08_conditions
+    class: Scene08
+    duration_seconds: 12
+  - id: "09"
+    directory: scenes/09_conclusion
+    class: Scene09
+    duration_seconds: 13

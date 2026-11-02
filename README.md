@@ -1597,3 +1597,11 @@ python scripts/render.py softmax01
 
 
 - [모든 것이 필요할까? 1–8 통합 롱폼](longforms/minimal_full_01_08/README.md): 사용자 지정 음성 포함 `minimal_1_long.mp4`–`minimal_8_long.mp4` 순차 결합. 21분49초,1080p30fps,8개 챕터와 유튜브 설명문. 실행: `python longforms/minimal_full_01_08/build.py`.
+
+- [최소 조건 2부 · 신경망 1편 — 내재 차원](longforms/minimal_nn01_intrinsic_dimension/README.md): 사용자 문장 종료 시각 기준 129초, 롱폼·쇼츠 두 버전, 1080p·60fps·무음·전체 문장 자막. 실행: `python longforms/minimal_nn01_intrinsic_dimension/build.py` (`--preview` 미리보기).
+
+- [최소 조건 2부 · 신경망 2편 — 신경망의 진짜 차원은 몇 개일까?](longforms/minimal_nn02_representation_dimension/README.md): 사용자 문장 종료 시각 기준 153초, 12개 독립 씬, 롱폼·쇼츠 1080p·60fps·무음·전체 문장 자막. 실행: `python longforms/minimal_nn02_representation_dimension/build.py` (`--preview` 미리보기).
+
+- [최소 조건 2부 · 신경망 3편 — IMPACT](longforms/minimal_nn03_impact/README.md): 사용자 확정156초·9개 독립 씬, 행렬 분해·활성화·기울기 중요도·기능 보존. 롱폼·쇼츠1080p·60fps·무음·자막. 실행: `python longforms/minimal_nn03_impact/build.py` (`--preview` 미리보기).
+
+- [인공지능은 어떻게 곱셈을 틀릴까?](episodes/mult01_error_parity/brief.md): 사용자 제공 대본·문장 종료 시각 기준 102초, 쇼츠 1080×1920·30fps·무음·전체 문장 자막. 십의 자리 오류의 홀짝 보존과 덧셈 선행 연구를 구분한다. 소스: `episodes/mult01_error_parity/scene.py`. 실행: `python scripts/render.py mult01 --preview` / `python scripts/render.py mult01`.

@@ -1,0 +1,40 @@
+{
+  "original_parameters": 64,
+  "rank2_parameters": 32,
+  "rank3_parameters": 48,
+  "weight_relative_rank2_error": 0.7696093058424291,
+  "orthogonal_error_norm": 0.75,
+  "parallel_error_norm": 0.75,
+  "gradient": [
+    -1,
+    0
+  ],
+  "loss_inner_products": [
+    0,
+    0.75
+  ],
+  "prediction_before": "A",
+  "prediction_orthogonal": "A",
+  "prediction_parallel": "B",
+  "total_seconds": 156,
+  "final_frames": 9360,
+  "function_example": {
+    "rank": 2,
+    "first_row_preserved": true,
+    "svd_frobenius_error": 2.4613750926948885,
+    "function_frobenius_error": 2.5537576150264307,
+    "original_score": 0.8107688776186546,
+    "svd_score": -0.5522711275474917,
+    "function_score": 0.8107688776186546
+  },
+  "visual_error_arrow_lengths": {
+    "longform": [
+      1.0568181818181817,
+      1.0568181818181817
+    ],
+    "shorts": [
+      1.3295454545454546,
+      1.3295454545454546
+    ]
+  }
+}

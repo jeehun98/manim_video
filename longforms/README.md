@@ -237,3 +237,12 @@ longforms/<ID>_<slug>/
 
 
 - [모든 것이 필요할까? 1–8 통합 롱폼](minimal_full_01_08/README.md): 사용자 지정 음성 포함 `minimal_1_long.mp4`–`minimal_8_long.mp4` 순차 결합. 21분49초,1080p30fps,8개 챕터와 유튜브 설명문. 실행: `python longforms/minimal_full_01_08/build.py`.
+
+
+## 최소 조건 2부 · 신경망
+
+- [1편 — 내재 차원](minimal_nn01_intrinsic_dimension/README.md): 사용자 문장 종료 시각 기준 129초, 9개 독립 씬. 롱폼 1920×1080·쇼츠 1080×1920, 60fps, 무음·전체 대본 자막. 실행: python longforms/minimal_nn01_intrinsic_dimension/build.py (--preview 미리보기).
+
+- [2편 — 신경망의 진짜 차원은 몇 개일까?](minimal_nn02_representation_dimension/README.md): 사용자 문장 종료 시각 기준 153초, 12개 독립 씬. 뉴런 수·실제 차원·추정 차원을 구분한다. 롱폼·쇼츠 1080p·60fps·무음·전체 문장 자막. 실행: `python longforms/minimal_nn02_representation_dimension/build.py` (`--preview` 미리보기).
+
+- [3편 — IMPACT: 신경망의 차원을 줄여도 성능을 유지할 수 있을까?](minimal_nn03_impact/README.md): 사용자 문장 종료 시각156초·9개 독립 씬. 실제 계산한 행렬분해와 오차 방향 비교, ACL2026 보고 수치. 롱폼·쇼츠1080p·60fps·무음·자막. 실행: `python longforms/minimal_nn03_impact/build.py` (`--preview` 미리보기).
