@@ -1,0 +1,18 @@
+{
+  "longform": {
+    "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui01_binary_113s_longform_final.mp4",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "30/1",
+    "duration": "113.000000",
+    "nb_read_frames": "3390"
+  },
+  "shorts": {
+    "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui01_binary_113s_shorts_final.mp4",
+    "width": 1080,
+    "height": 1920,
+    "r_frame_rate": "30/1",
+    "duration": "113.000000",
+    "nb_read_frames": "3390"
+  }
+}

@@ -1,5 +1,12 @@
 # Manim 교육 영상 프로젝트
 
+## GPU 개론 — 전기 신호에서 GPU 아키텍처까지
+
+- [02 — 트랜지스터는 어떻게 전기 신호를 제어할까?](longforms/gpui02_transistor/README.md): 사용자 확정 28문장·142초, 독립 씬 10개. 수동 접점→전압 제어→MOSFET 단면→CMOS 인버터. 가로 1920×1080 / 세로 1080×1920, 30fps, 무음·전체 문장 자막. `python longforms/gpui02_transistor/build.py --preview` / `python longforms/gpui02_transistor/build.py`.
+
+- [01 — 컴퓨터는 왜 0과 1을 사용할까?](longforms/gpui01_binary_signals/README.md): 사용자 확정 26문장·113초, 독립 씬 8개. 같은 전압 그래프에서 다수준 표현·잡음·판정 오류·두 논리 상태·2→4→8→16 조합·Bit을 발견하는 실험. 가로 1920×1080 / 세로 1080×1920, 30fps, 무음·전체 문장 자막.
+- 미리보기: `python longforms/gpui01_binary_signals/build.py --preview`. 최종 두 버전: `python longforms/gpui01_binary_signals/build.py`. 결과: `exports/gpui01_binary_113s_longform_final.mp4`, `exports/gpui01_binary_113s_shorts_final.mp4`. 음원 미제공으로 현재 자막·무음 제작.
+
 ## 신경망 내부의 계산 — 표현에서 알고리즘까지
 
 - 08 **신경망의 알고리즘을 발견하는 것에서 형성을 유도하는 것까지 — Interpretability & Patterning**: 마지막 편·확정 33개 발화·176초(2:56). 같은 답의 다른 괄호 규칙 → 반례와 행동 증거의 한계 → 기존 2~7편 그래픽 재사용 → 해석에서 목표 계산·데이터 설계로 질문 반전 → 국소 반응·재학습·제한된 두 실험 → Discover / Explain / Test. 도식과 형성 곡선은 개념도다. 기본 무음.

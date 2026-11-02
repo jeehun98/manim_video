@@ -1,5 +1,11 @@
 # 롱폼 제작 규격
 
+## GPU 개론
+
+- [02 — 트랜지스터는 어떻게 전기 신호를 제어할까?](gpui02_transistor/README.md): 사용자 제공 28문장·142초, 독립 씬 10개. 입력 제어와 전류 경로를 분리하고 n채널 MOSFET의 전기장·전도 채널, 상보적 CMOS 인버터와 출력 전압을 설명한다. 가로·세로 1080p30fps·무음·전체 자막. `python longforms/gpui02_transistor/build.py --preview` / `python longforms/gpui02_transistor/build.py`.
+
+- [01 — 컴퓨터는 왜 0과 1을 사용할까?](gpui01_binary_signals/README.md): 사용자 제공 26문장 종료 시각 기준 113초, 독립 씬 8개, 가로·세로 두 버전. 전압을 이용한 정보 표현에서 잡음·판정 경계·두 상태·조합 확장·Bit까지 이어지는 실험. 가로 1920×1080 / 세로 1080×1920, 30fps. 무음·전체 문장 자막. `python longforms/gpui01_binary_signals/build.py --preview` / `python longforms/gpui01_binary_signals/build.py`.
+
 이 문서는 다른 컴퓨터나 새 Codex 세션에서도 같은 방식으로 롱폼을 이어 만들기 위한 최소 규격이다. 새 프로젝트는 `_template/`을 복사해 `longforms/<ID>_<slug>/`로 만든다.
 
 ## 핵심 원칙
