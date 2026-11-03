@@ -1,6 +1,12 @@
 # 롱폼 제작 규격
 
+- [GPU 개론 05 — 하나의 회로로 여러 연산을 수행하는 방법](gpui05_alu_reuse/README.md): 확정 175초·35문장·16씬, 가로/세로 1080p30, 무음·전체 자막. `python longforms/gpui05_alu_reuse/build.py --preview` / `python longforms/gpui05_alu_reuse/build.py`.
+
+- [GPU 개론 04 — 논리 게이트는 어떻게 숫자를 더할까?](gpui04_binary_adder/README.md): 확정 143초·35문장·15씬, 가로/세로 1080p30, 무음·전체 자막. `python longforms/gpui04_binary_adder/build.py --preview` / `python longforms/gpui04_binary_adder/build.py`.
+
 ## GPU 개론
+
+- [03 — 스위치의 연결이 어떻게 논리 연산이 될까?](gpui03_logic_connections/README.md): 사용자 제공 34문장·164초, 독립 씬 14개. CMOS NAND 네 입력과 NAND-only NOT·AND·OR·XOR netlist 검증. 직렬·병렬·출력 전압·기능적 완전성·물리 비용을 구별한다. 가로·세로 1080p30fps·무음·전체 자막. `python longforms/gpui03_logic_connections/build.py --preview` / `python longforms/gpui03_logic_connections/build.py`.
 
 - [02 — 트랜지스터는 어떻게 전기 신호를 제어할까?](gpui02_transistor/README.md): 사용자 제공 28문장·142초, 독립 씬 10개. 입력 제어와 전류 경로를 분리하고 n채널 MOSFET의 전기장·전도 채널, 상보적 CMOS 인버터와 출력 전압을 설명한다. 가로·세로 1080p30fps·무음·전체 자막. `python longforms/gpui02_transistor/build.py --preview` / `python longforms/gpui02_transistor/build.py`.
 

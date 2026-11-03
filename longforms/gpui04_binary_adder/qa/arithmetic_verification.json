@@ -1,0 +1,10 @@
+{
+  "half_adder_cases": 4,
+  "full_adder_cases": 8,
+  "four_bit_cases": 512,
+  "matching_sum_and_every_carry": true,
+  "examples": [
+    "11+01=100",
+    "1111+0001=10000"
+  ]
+}

@@ -1,6 +1,12 @@
 # Manim 교육 영상 프로젝트
 
+- [GPU 개론 05 — 하나의 회로로 여러 연산을 수행하는 방법](longforms/gpui05_alu_reuse/README.md): 확정 175초·35문장·16씬, 가로/세로 1080p30, 무음·전체 자막. `python longforms/gpui05_alu_reuse/build.py --preview` / `python longforms/gpui05_alu_reuse/build.py`.
+
+- [GPU 개론 04 — 논리 게이트는 어떻게 숫자를 더할까?](longforms/gpui04_binary_adder/README.md): 확정 143초·35문장·15씬, 가로/세로 1080p30, 무음·전체 자막. `python longforms/gpui04_binary_adder/build.py --preview` / `python longforms/gpui04_binary_adder/build.py`.
+
 ## GPU 개론 — 전기 신호에서 GPU 아키텍처까지
+
+- [03 — 스위치의 연결이 어떻게 논리 연산이 될까?](longforms/gpui03_logic_connections/README.md): 사용자 확정 34문장·164초, 독립 씬 14개. 직렬·병렬 연결 조건→CMOS NAND→NAND만으로 NOT·AND·OR·XOR→고정 회로와 면적·지연·에너지. 가로·세로 1080p30fps·무음·전체 자막. `python longforms/gpui03_logic_connections/build.py --preview` / `python longforms/gpui03_logic_connections/build.py`.
 
 - [02 — 트랜지스터는 어떻게 전기 신호를 제어할까?](longforms/gpui02_transistor/README.md): 사용자 확정 28문장·142초, 독립 씬 10개. 수동 접점→전압 제어→MOSFET 단면→CMOS 인버터. 가로 1920×1080 / 세로 1080×1920, 30fps, 무음·전체 문장 자막. `python longforms/gpui02_transistor/build.py --preview` / `python longforms/gpui02_transistor/build.py`.
 

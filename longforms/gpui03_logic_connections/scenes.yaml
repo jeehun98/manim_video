@@ -1,0 +1,108 @@
+id: gpui03_logic_connections
+title: "스위치의 연결이 어떻게 논리 연산이 될까?"
+duration_seconds: 164
+video:
+  fps: 30
+  layouts:
+    longform: [1920, 1080]
+    shorts: [1080, 1920]
+audio: null
+scenes:
+  - id: "01"
+    directory: scenes/01_switches
+    class: Scene01
+    start_seconds: 0
+    end_seconds: 12
+    duration_seconds: 12
+    transition: cut
+  - id: "02"
+    directory: scenes/02_series
+    class: Scene02
+    start_seconds: 12
+    end_seconds: 19
+    duration_seconds: 7
+    transition: cut
+  - id: "03"
+    directory: scenes/03_parallel
+    class: Scene03
+    start_seconds: 19
+    end_seconds: 33
+    duration_seconds: 14
+    transition: cut
+  - id: "04"
+    directory: scenes/04_rules
+    class: Scene04
+    start_seconds: 33
+    end_seconds: 43
+    duration_seconds: 10
+    transition: cut
+  - id: "05"
+    directory: scenes/05_physical_rule
+    class: Scene05
+    start_seconds: 43
+    end_seconds: 55
+    duration_seconds: 12
+    transition: cut
+  - id: "06"
+    directory: scenes/06_voltage
+    class: Scene06
+    start_seconds: 55
+    end_seconds: 63
+    duration_seconds: 8
+    transition: cut
+  - id: "07"
+    directory: scenes/07_nand_build
+    class: Scene07
+    start_seconds: 63
+    end_seconds: 71
+    duration_seconds: 8
+    transition: cut
+  - id: "08"
+    directory: scenes/08_nand_states
+    class: Scene08
+    start_seconds: 71
+    end_seconds: 81
+    duration_seconds: 10
+    transition: cut
+  - id: "09"
+    directory: scenes/09_compose
+    class: Scene09
+    start_seconds: 81
+    end_seconds: 88
+    duration_seconds: 7
+    transition: cut
+  - id: "10"
+    directory: scenes/10_complete
+    class: Scene10
+    start_seconds: 88
+    end_seconds: 95
+    duration_seconds: 7
+    transition: cut
+  - id: "11"
+    directory: scenes/11_fixed
+    class: Scene11
+    start_seconds: 95
+    end_seconds: 119
+    duration_seconds: 24
+    transition: cut
+  - id: "12"
+    directory: scenes/12_costs
+    class: Scene12
+    start_seconds: 119
+    end_seconds: 139
+    duration_seconds: 20
+    transition: cut
+  - id: "13"
+    directory: scenes/13_tradeoffs
+    class: Scene13
+    start_seconds: 139
+    end_seconds: 152
+    duration_seconds: 13
+    transition: cut
+  - id: "14"
+    directory: scenes/14_arithmetic
+    class: Scene14
+    start_seconds: 152
+    end_seconds: 164
+    duration_seconds: 12
+    transition: cut

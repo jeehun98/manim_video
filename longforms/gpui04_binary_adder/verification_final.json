@@ -1,0 +1,22 @@
+{
+  "longform": {
+    "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui04_adder_143s_longform_final.mp4",
+    "sha256": "f6a357cc20d377e6955965fc219999b2d9eb10af986077e09109acf870a28733",
+    "codec_type": "video",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "30/1",
+    "duration": "143.000000",
+    "nb_read_frames": "4290"
+  },
+  "shorts": {
+    "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui04_adder_143s_shorts_final.mp4",
+    "sha256": "fa66088f90d6c4ad6e031b88d55fdbb9b03d65be2bb1b37c29a965eab9522a6c",
+    "codec_type": "video",
+    "width": 1080,
+    "height": 1920,
+    "r_frame_rate": "30/1",
+    "duration": "143.000000",
+    "nb_read_frames": "4290"
+  }
+}
