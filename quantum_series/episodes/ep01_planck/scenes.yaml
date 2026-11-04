@@ -1,0 +1,32 @@
+id: quantum01
+title: 뜨거운 물체의 빛은 어떻게 계산할까?
+fps: 30
+layouts:
+  shorts: [1080, 1920]
+  longform: [1920, 1080]
+timing_source: user_sentence_end_times
+scenes:
+  - id: 01_thermal
+    class: ThermalChapter
+    directory: scenes/01_thermal
+    duration_seconds: 24
+    start: 0
+    end: 24
+  - id: 02_spectrum
+    class: SpectrumChapter
+    directory: scenes/02_spectrum
+    duration_seconds: 25
+    start: 24
+    end: 49
+  - id: 03_energy
+    class: EnergyChapter
+    directory: scenes/03_energy
+    duration_seconds: 23
+    start: 49
+    end: 72
+  - id: 04_interpretation
+    class: InterpretationChapter
+    directory: scenes/04_interpretation
+    duration_seconds: 14
+    start: 72
+    end: 86

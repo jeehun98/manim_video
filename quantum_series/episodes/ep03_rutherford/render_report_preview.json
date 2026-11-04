@@ -1,0 +1,21 @@
+[
+  {
+    "layout": "longform",
+    "ending": "join",
+    "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\quantum03_longform_preview.mp4",
+    "duration": 105,
+    "frames": 3150,
+    "width": 640,
+    "height": 360,
+    "fps": 30,
+    "audio": "not supplied; silent video",
+    "clips": [
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum03\\longform\\join\\preview\\videos\\scene\\360p30\\FoilObservationChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum03\\longform\\join\\preview\\videos\\scene\\360p30\\ThomsonChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum03\\longform\\join\\preview\\videos\\scene\\360p30\\GeigerMarsdenChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum03\\longform\\join\\preview\\videos\\scene\\360p30\\CoulombChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum03\\longform\\join\\preview\\videos\\scene\\360p30\\NuclearModelChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum03\\longform\\join\\preview\\videos\\scene\\360p30\\StabilityChapter.mp4"
+    ]
+  }
+]

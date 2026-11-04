@@ -1,0 +1,34 @@
+{
+  "title": "고전물리학에서 양자역학으로",
+  "chapters": [
+    {
+      "id": "ep01_planck",
+      "title": "1900 · 플랑크와 흑체복사",
+      "video": "exports/quantum01_longform.mp4",
+      "script": "quantum_series/episodes/ep01_planck/script.json",
+      "duration": 86
+    },
+    {
+      "id": "ep02_photoelectric",
+      "title": "1905 · 아인슈타인과 광전효과",
+      "video": "exports/quantum02_longform.mp4",
+      "script": "quantum_series/episodes/ep02_photoelectric/script.json",
+      "duration": 101
+    },
+    {
+      "id": "ep03_rutherford",
+      "title": "1911 · 러더퍼드와 원자핵 발견",
+      "video": "exports/quantum03_longform.mp4",
+      "script": "quantum_series/episodes/ep03_rutherford/script.json",
+      "duration": 105
+    }
+  ],
+  "planned_only": [
+    {
+      "id": "ep04_bohr",
+      "year": 1913,
+      "topic": "보어 모형",
+      "status": "미제작"
+    }
+  ]
+}

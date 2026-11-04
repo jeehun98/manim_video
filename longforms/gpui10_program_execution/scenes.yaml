@@ -1,0 +1,21 @@
+id: gpui10_program_execution
+duration_seconds: 165
+audio: null
+fps: 30
+layouts: {longform: [1920, 1080], shorts: [1080, 1920]}
+scenes:
+  - {id: "01", directory: scenes/01_hook, class: Scene01, start_seconds: 0, duration_seconds: 18}
+  - {id: "02", directory: scenes/02_memory, class: Scene02, start_seconds: 18, duration_seconds: 16}
+  - {id: "03", directory: scenes/03_address, class: Scene03, start_seconds: 34, duration_seconds: 9}
+  - {id: "04", directory: scenes/04_pc, class: Scene04, start_seconds: 43, duration_seconds: 14}
+  - {id: "05", directory: scenes/05_fetch, class: Scene05, start_seconds: 57, duration_seconds: 6}
+  - {id: "06", directory: scenes/06_decode_execute, class: Scene06, start_seconds: 63, duration_seconds: 13}
+  - {id: "07", directory: scenes/07_advance, class: Scene07, start_seconds: 76, duration_seconds: 9}
+  - {id: "08", directory: scenes/08_stages, class: Scene08, start_seconds: 85, duration_seconds: 9}
+  - {id: "09", directory: scenes/09_condition, class: Scene09, start_seconds: 94, duration_seconds: 13}
+  - {id: "10", directory: scenes/10_branch, class: Scene10, start_seconds: 107, duration_seconds: 13}
+  - {id: "11", directory: scenes/11_paths, class: Scene11, start_seconds: 120, duration_seconds: 6}
+  - {id: "12", directory: scenes/12_assemble, class: Scene12, start_seconds: 126, duration_seconds: 11}
+  - {id: "13", directory: scenes/13_processor, class: Scene13, start_seconds: 137, duration_seconds: 11}
+  - {id: "14", directory: scenes/14_limits, class: Scene14, start_seconds: 148, duration_seconds: 8}
+  - {id: "15", directory: scenes/15_speed, class: Scene15, start_seconds: 156, duration_seconds: 9}

@@ -282,6 +282,14 @@ EPISODES["mult01"] = ("episodes/mult01_error_parity/scene.py", "MultiplicationEr
 
 def main():
     p = argparse.ArgumentParser()
+    quantum_projects = {
+        "quantum01": ("ep01_planck", "both"), "quantum01_shorts": ("ep01_planck", "shorts"),
+        "quantum01_longform": ("ep01_planck", "longform"),
+        "quantum02": ("ep02_photoelectric", "both"), "quantum02_shorts": ("ep02_photoelectric", "shorts"),
+        "quantum02_longform": ("ep02_photoelectric", "longform"),
+        "quantum03": ("ep03_rutherford", "both"), "quantum03_shorts": ("ep03_rutherford", "shorts"),
+        "quantum03_longform": ("ep03_rutherford", "longform"),
+    }
     projects = {
         "qr01_shorts": ("qr01_new_directions", "shorts"),
         "qr01_longform": ("qr01_new_directions", "longform"),
@@ -313,9 +321,17 @@ def main():
         "evdsvd08_shorts": ("evdsvd08_final_choice", "shorts"),
         "evdsvd08_longform": ("evdsvd08_final_choice", "longform"),
     }
-    p.add_argument("episode", choices=[*EPISODES, *projects])
+    p.add_argument("episode", choices=[*EPISODES, *projects, *quantum_projects])
     p.add_argument("--preview", action="store_true")
     a = p.parse_args()
+    if a.episode in quantum_projects:
+        quantum_project, quantum_layout = quantum_projects[a.episode]
+        command = [sys.executable, str(ROOT / "quantum_series" / "episodes" / quantum_project / "build.py"),
+                   "--layout", quantum_layout]
+        if a.preview:
+            command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
     if a.episode in projects:
         project, layout = projects[a.episode]
         command = [sys.executable, str(ROOT / "longforms" / project / "build.py"), "--layout", layout]

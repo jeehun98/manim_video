@@ -1,5 +1,9 @@
 # Manim 교육 영상 프로젝트
 
+- [GPU 개론 07 — 회로는 언제 값을 갱신할까?](longforms/gpui07_clock_timing/README.md): 확정135초·31문장·14씬, 가로/세로1080p30, 무음·전체 자막. `python longforms/gpui07_clock_timing/build.py --preview` / `python longforms/gpui07_clock_timing/build.py`.
+
+- [GPU 개론 06 — 논리 게이트는 어떻게 값을 기억할까?](longforms/gpui06_sr_latch/README.md): 확정140초·29문장·14씬, 가로/세로1080p30, 무음·전체 자막. `python longforms/gpui06_sr_latch/build.py --preview` / `python longforms/gpui06_sr_latch/build.py`.
+
 - [GPU 개론 05 — 하나의 회로로 여러 연산을 수행하는 방법](longforms/gpui05_alu_reuse/README.md): 확정 175초·35문장·16씬, 가로/세로 1080p30, 무음·전체 자막. `python longforms/gpui05_alu_reuse/build.py --preview` / `python longforms/gpui05_alu_reuse/build.py`.
 
 - [GPU 개론 04 — 논리 게이트는 어떻게 숫자를 더할까?](longforms/gpui04_binary_adder/README.md): 확정 143초·35문장·15씬, 가로/세로 1080p30, 무음·전체 자막. `python longforms/gpui04_binary_adder/build.py --preview` / `python longforms/gpui04_binary_adder/build.py`.
@@ -1618,3 +1622,35 @@ python scripts/render.py softmax01
 - [최소 조건 2부 · 신경망 3편 — IMPACT](longforms/minimal_nn03_impact/README.md): 사용자 확정156초·9개 독립 씬, 행렬 분해·활성화·기울기 중요도·기능 보존. 롱폼·쇼츠1080p·60fps·무음·자막. 실행: `python longforms/minimal_nn03_impact/build.py` (`--preview` 미리보기).
 
 - [인공지능은 어떻게 곱셈을 틀릴까?](episodes/mult01_error_parity/brief.md): 사용자 제공 대본·문장 종료 시각 기준 102초, 쇼츠 1080×1920·30fps·무음·전체 문장 자막. 십의 자리 오류의 홀짝 보존과 덧셈 선행 연구를 구분한다. 소스: `episodes/mult01_error_parity/scene.py`. 실행: `python scripts/render.py mult01 --preview` / `python scripts/render.py mult01`.
+
+## GPU 개론 08 — 레지스터와 데이터 경로
+
+`longforms/gpui08_register_datapath/` — 확정 153초, 가로·세로 별도 렌더.
+실행: `python longforms/gpui08_register_datapath/build.py --preview` 및 `python longforms/gpui08_register_datapath/build.py`.
+
+## GPU 개론 09 — 명령어와 제어 회로
+
+`longforms/gpui09_instruction_control/` — 확정141초, 가상8비트 명령어→해독→데이터 경로. 가로·세로별도렌더: `python longforms/gpui09_instruction_control/build.py --preview` 및 `python longforms/gpui09_instruction_control/build.py`.
+
+## GPU 개론 10 — 프로그램 실행과 PC
+
+`longforms/gpui10_program_execution/` — 확정165초, 명령어메모리·PC·인출/해독/실행·분기. 가로/세로별도렌더: `python longforms/gpui10_program_execution/build.py --preview` / `python longforms/gpui10_program_execution/build.py`.
+
+## GPU 개론 6~10편 합본
+
+음성 포함 지정 원본5개를연결: `python longforms/gpui_full_06_10/build.py`. 출력 `exports/gpui_6_10_long.mp4`.
+
+
+## 양자역학 EP.01 · 플랑크와 흑체복사
+
+[시리즈 공통 규격](quantum_series/README.md), [EP.01 제작·실행](quantum_series/episodes/ep01_planck/README.md). 사용자 확정86초·16문장, 세로1080×1920 / 가로1920×1080·30fps·무음·전체 문장 자막. 두 화면비 별도 배치, 4개 독립 씬, 연결 가능한 엔딩. `python scripts/render.py quantum01 --preview` / `python scripts/render.py quantum01`. 개별 실행: `quantum01_shorts`, `quantum01_longform`.
+
+
+## 양자역학 EP.02 · 광전효과와 아인슈타인
+
+[EP.02 제작·실행](quantum_series/episodes/ep02_photoelectric/README.md). 사용자 확정101초·22문장, 세로1080×1920 / 가로1920×1080·30fps·무음·전체 문장 자막. 같은 가상 금속에서 세기와 진동수를 독립적으로 비교하고, 5개 씬을 개별 렌더한다. `python scripts/render.py quantum02 --preview` / `python scripts/render.py quantum02`. 개별 비율: `quantum02_shorts`, `quantum02_longform`.
+
+
+## 양자역학 EP.03 · 금박 실험과 원자핵 발견
+
+[EP.03 제작·실행](quantum_series/episodes/ep03_rutherford/README.md). 사용자 확정105초·20문장, 세로1080×1920 / 가로1920×1080·30fps·무음·전체 문장 자막. 같은 에너지·전체 양전하에서 균일 구와 중심 쿨롱 산란을 비교하고, 6개 씬을 독립 렌더한다. `python scripts/render.py quantum03 --preview` / `python scripts/render.py quantum03`. 개별 비율: `quantum03_shorts`, `quantum03_longform`. 최종 엔딩 PNG도 별도 저장한다.

@@ -1,5 +1,11 @@
 # 롱폼 제작 규격
 
+- [GPU 개론 07 — 회로는 언제 값을 갱신할까?](gpui07_clock_timing/README.md): 확정135초·31문장·14씬, 가로/세로1080p30, 무음·전체 자막. `python longforms/gpui07_clock_timing/build.py --preview` / `python longforms/gpui07_clock_timing/build.py`.
+
+- [GPU 개론 06 — 논리 게이트는 어떻게 값을 기억할까?](gpui06_sr_latch/README.md): 확정140초·29문장·14씬, 가로/세로1080p30, 무음·전체 자막. `python longforms/gpui06_sr_latch/build.py --preview` / `python longforms/gpui06_sr_latch/build.py`.
+
+- [GPU 개론 1~5편 통합 롱폼](gpui_full_01_05/README.md): 사용자 지정 음성 포함 gpui_1~5_long.mp4 합본. 12분 31.633초, 1080p30, MP4 챕터와 유튜브 설명 포함. `python longforms/gpui_full_01_05/build.py`.
+
 - [GPU 개론 05 — 하나의 회로로 여러 연산을 수행하는 방법](gpui05_alu_reuse/README.md): 확정 175초·35문장·16씬, 가로/세로 1080p30, 무음·전체 자막. `python longforms/gpui05_alu_reuse/build.py --preview` / `python longforms/gpui05_alu_reuse/build.py`.
 
 - [GPU 개론 04 — 논리 게이트는 어떻게 숫자를 더할까?](gpui04_binary_adder/README.md): 확정 143초·35문장·15씬, 가로/세로 1080p30, 무음·전체 자막. `python longforms/gpui04_binary_adder/build.py --preview` / `python longforms/gpui04_binary_adder/build.py`.
@@ -258,3 +264,11 @@ longforms/<ID>_<slug>/
 - [2편 — 신경망의 진짜 차원은 몇 개일까?](minimal_nn02_representation_dimension/README.md): 사용자 문장 종료 시각 기준 153초, 12개 독립 씬. 뉴런 수·실제 차원·추정 차원을 구분한다. 롱폼·쇼츠 1080p·60fps·무음·전체 문장 자막. 실행: `python longforms/minimal_nn02_representation_dimension/build.py` (`--preview` 미리보기).
 
 - [3편 — IMPACT: 신경망의 차원을 줄여도 성능을 유지할 수 있을까?](minimal_nn03_impact/README.md): 사용자 문장 종료 시각156초·9개 독립 씬. 실제 계산한 행렬분해와 오차 방향 비교, ACL2026 보고 수치. 롱폼·쇼츠1080p·60fps·무음·자막. 실행: `python longforms/minimal_nn03_impact/build.py` (`--preview` 미리보기).
+
+- `gpui08_register_datapath/`: GPU 개론 08, 레지스터·MUX·데이터 경로. 확정 153초, 14개 독립 씬. `python longforms/gpui08_register_datapath/build.py`.
+
+- [GPU 개론 09 — 명령어는 어떻게 회로를 제어할까?](gpui09_instruction_control/README.md): 확정141초·27문장·14씬,가로/세로1080p30,무음·전체자막. `python longforms/gpui09_instruction_control/build.py`.
+
+- [GPU 개론 10 — 컴퓨터는 어떻게 프로그램을 실행할까?](gpui10_program_execution/README.md): 확정165초·35문장·15씬, 가로/세로1080p30, 무음·전체자막. `python longforms/gpui10_program_execution/build.py`.
+
+- [GPU 개론 6~10편 통합 롱폼](gpui_full_06_10/README.md): 사용자 지정 음성 포함 `gpui_6_long.mp4`~`gpui_10_long.mp4` 합본. `python longforms/gpui_full_06_10/build.py`.

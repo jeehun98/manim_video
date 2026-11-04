@@ -1,0 +1,142 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_hook",
+    "class": "Scene01",
+    "start": 0,
+    "end": 11,
+    "duration_seconds": 11,
+    "title": "저장한 값을 다시 계산하려면?",
+    "method": "hook"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_onebit",
+    "class": "Scene02",
+    "start": 11,
+    "end": 24,
+    "duration_seconds": 13,
+    "title": "하나의 저장 회로는 1비트",
+    "method": "onebit"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_bits",
+    "class": "Scene03",
+    "start": 24,
+    "end": 31,
+    "duration_seconds": 7,
+    "title": "숫자 5를 네 비트로",
+    "method": "bits"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_register",
+    "class": "Scene04",
+    "start": 31,
+    "end": 45,
+    "duration_seconds": 14,
+    "title": "네 개의 저장 요소를 하나로",
+    "method": "register"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_stored",
+    "class": "Scene05",
+    "start": 45,
+    "end": 60,
+    "duration_seconds": 15,
+    "title": "저장된 결과를 다음 입력으로",
+    "method": "stored"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_sequence",
+    "class": "Scene06",
+    "start": 60,
+    "end": 77,
+    "duration_seconds": 17,
+    "title": "5+3의 결과를 다시 사용한다",
+    "method": "sequence"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_mux",
+    "class": "Scene07",
+    "start": 77,
+    "end": 91,
+    "duration_seconds": 14,
+    "title": "여러 값 중 하나를 선택",
+    "method": "mux"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_reuse",
+    "class": "Scene08",
+    "start": 91,
+    "end": 102,
+    "duration_seconds": 11,
+    "title": "같은 ALU, 다른 데이터",
+    "method": "reuse"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_many",
+    "class": "Scene09",
+    "start": 102,
+    "end": 112,
+    "duration_seconds": 10,
+    "title": "여러 값에는 여러 레지스터",
+    "method": "many"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_readwrite",
+    "class": "Scene10",
+    "start": 112,
+    "end": 118,
+    "duration_seconds": 6,
+    "title": "어디서 읽고, 어디에 쓸까?",
+    "method": "readwrite"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_datapath",
+    "class": "Scene11",
+    "start": 118,
+    "end": 127,
+    "duration_seconds": 9,
+    "title": "선택 · 연산 · 다시 저장",
+    "method": "datapath"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_roles",
+    "class": "Scene12",
+    "start": 127,
+    "end": 139,
+    "duration_seconds": 12,
+    "title": "계산·저장·연결의 역할",
+    "method": "roles"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_control",
+    "class": "Scene13",
+    "start": 139,
+    "end": 148,
+    "duration_seconds": 9,
+    "title": "누가 이 동작을 결정할까?",
+    "method": "control"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_instruction",
+    "class": "Scene14",
+    "start": 148,
+    "end": 153,
+    "duration_seconds": 5,
+    "title": "회로의 동작을 정하는 신호",
+    "method": "instruction"
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui_6_10_long.mp4",
+  "video_frames": "22443",
+  "video_duration": "748.100000",
+  "audio_duration": "748.100000",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": "30/1",
+  "chapters": [
+    {
+      "id": 0,
+      "time_base": "1/11289600",
+      "start": 0,
+      "start_time": "0.000000",
+      "end": 1613283840,
+      "end_time": "142.900000",
+      "tags": {
+        "title": "논리 게이트는 어떻게 값을 기억할까?"
+      }
+    },
+    {
+      "id": 1,
+      "time_base": "1/11289600",
+      "start": 1613283840,
+      "start_time": "142.900000",
+      "end": 3176137037,
+      "end_time": "281.333000",
+      "tags": {
+        "title": "회로는 언제 값을 갱신할까?"
+      }
+    },
+    {
+      "id": 2,
+      "time_base": "1/11289600",
+      "start": 3176137037,
+      "start_time": "281.333000",
+      "end": 4932426240,
+      "end_time": "436.900000",
+      "tags": {
+        "title": "저장된 값은 어떻게 다시 계산에 사용될까?"
+      }
+    },
+    {
+      "id": 3,
+      "time_base": "1/11289600",
+      "start": 4932426240,
+      "start_time": "436.900000",
+      "end": 6551727437,
+      "end_time": "580.333000",
+      "tags": {
+        "title": "명령어는 어떻게 회로를 제어할까?"
+      }
+    },
+    {
+      "id": 4,
+      "time_base": "1/11289600",
+      "start": 6551727437,
+      "start_time": "580.333000",
+      "end": 8445749760,
+      "end_time": "748.100000",
+      "tags": {
+        "title": "컴퓨터는 어떻게 프로그램을 실행할까?"
+      }
+    }
+  ],
+  "video_encoding": "stream copy",
+  "audio": "AAC; per-episode silence padding preserves video boundaries",
+  "full_decode_passed": true,
+  "decoded_frames": 22443,
+  "sha256": "37cdfb8ab21e35dcaad82ed2a65006e841cf3a4f62ca31e1689097f0b804f5b5",
+  "size_bytes": 38142799
+}

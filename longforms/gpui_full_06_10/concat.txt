@@ -1,0 +1,5 @@
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/gpui_6_long.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/gpui_7_long.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/gpui_8_long.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/gpui_9_long.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/gpui_10_long.mp4'

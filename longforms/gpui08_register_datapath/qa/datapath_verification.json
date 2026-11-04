@@ -1,0 +1,19 @@
+{
+  "register_values": 16,
+  "mux_cases": 512,
+  "write_cases": 192,
+  "read_cases": 36864,
+  "read_is_non_destructive": true,
+  "write_requires_enable_and_edge": true,
+  "examples": {
+    "5": "0101",
+    "3": "0011",
+    "8": "1000",
+    "10": "1010"
+  },
+  "sequence": [
+    8,
+    10
+  ],
+  "all_passed": true
+}

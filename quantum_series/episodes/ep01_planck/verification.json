@@ -1,0 +1,25 @@
+{
+  "videos": [
+    {
+      "layout": "shorts",
+      "duration": 86,
+      "frames": 2580,
+      "fps": "30/1",
+      "width": 1080,
+      "height": 1920,
+      "full_decode": "passed"
+    },
+    {
+      "layout": "longform",
+      "duration": 86,
+      "frames": 2580,
+      "fps": "30/1",
+      "width": 1920,
+      "height": 1080,
+      "full_decode": "passed"
+    }
+  ],
+  "physics": "Planck/Wien functions, short-wave limit, long-wave discrepancy, six-unit energy conservation passed",
+  "layout": "caption bounds and graph note/legend separation passed; final keyframes visually reviewed",
+  "assembly": "single chapter concat and metadata succeeded"
+}

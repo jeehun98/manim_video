@@ -1,0 +1,36 @@
+[
+  {
+    "layout": "shorts",
+    "ending": "standalone",
+    "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\quantum01_shorts_preview.mp4",
+    "duration": 86,
+    "frames": 2580,
+    "width": 360,
+    "height": 640,
+    "fps": 30,
+    "audio": "not supplied; silent video",
+    "clips": [
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum01\\shorts\\standalone\\preview\\videos\\scenes\\640p30\\ThermalChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum01\\shorts\\standalone\\preview\\videos\\scenes\\640p30\\SpectrumChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum01\\shorts\\standalone\\preview\\videos\\scenes\\640p30\\EnergyChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum01\\shorts\\standalone\\preview\\videos\\scenes\\640p30\\InterpretationChapter.mp4"
+    ]
+  },
+  {
+    "layout": "longform",
+    "ending": "join",
+    "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\quantum01_longform_preview.mp4",
+    "duration": 86,
+    "frames": 2580,
+    "width": 640,
+    "height": 360,
+    "fps": 30,
+    "audio": "not supplied; silent video",
+    "clips": [
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum01\\longform\\join\\preview\\videos\\scenes\\360p30\\ThermalChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum01\\longform\\join\\preview\\videos\\scenes\\360p30\\SpectrumChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum01\\longform\\join\\preview\\videos\\scenes\\360p30\\EnergyChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum01\\longform\\join\\preview\\videos\\scenes\\360p30\\InterpretationChapter.mp4"
+    ]
+  }
+]

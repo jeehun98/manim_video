@@ -1,0 +1,45 @@
+{
+  "duration_seconds": 751.6333333333333,
+  "episodes": [
+    {
+      "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui_1_long.mp4",
+      "title": "컴퓨터는 왜 0과 1을 사용할까?",
+      "start_seconds": 0.0,
+      "duration_seconds": 115.83333333333333,
+      "video_frames": 3475,
+      "audio_duration_seconds": 113.450862
+    },
+    {
+      "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui_2_long.mp4",
+      "title": "트랜지스터는 어떻게 전기 신호를 제어할까?",
+      "start_seconds": 115.83333333333333,
+      "duration_seconds": 144.76666666666668,
+      "video_frames": 4343,
+      "audio_duration_seconds": 142.250635
+    },
+    {
+      "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui_3_long.mp4",
+      "title": "스위치의 연결이 어떻게 논리 연산이 될까?",
+      "start_seconds": 260.6,
+      "duration_seconds": 166.9,
+      "video_frames": 5007,
+      "audio_duration_seconds": 164.500771
+    },
+    {
+      "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui_4_long.mp4",
+      "title": "논리 게이트는 어떻게 숫자를 더할까?",
+      "start_seconds": 427.5,
+      "duration_seconds": 146.16666666666666,
+      "video_frames": 4385,
+      "audio_duration_seconds": 143.900794
+    },
+    {
+      "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui_5_long.mp4",
+      "title": "하나의 회로로 여러 연산을 수행하는 방법",
+      "start_seconds": 573.6666666666666,
+      "duration_seconds": 177.96666666666667,
+      "video_frames": 5339,
+      "audio_duration_seconds": 175.550794
+    }
+  ]
+}

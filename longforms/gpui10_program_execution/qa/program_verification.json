@@ -1,0 +1,41 @@
+{
+  "all_passed": true,
+  "pc_cases": 2048,
+  "branch_conditions": 32,
+  "memory_immutable": true,
+  "slot_addresses": true,
+  "trace": [
+    {
+      "pc": 0,
+      "word": "00110110",
+      "result": 8,
+      "next_pc": 1,
+      "regs": [
+        0,
+        5,
+        3,
+        8
+      ]
+    },
+    {
+      "pc": 1,
+      "word": "01111101",
+      "result": 3,
+      "next_pc": 2,
+      "regs": [
+        0,
+        5,
+        3,
+        3
+      ]
+    }
+  ],
+  "branch_example": {
+    "pc": 1,
+    "sequential": 2,
+    "target": 3,
+    "taken_next_pc": 3,
+    "not_taken_next_pc": 2
+  },
+  "branch_not_encoded_in_arithmetic_isa": true
+}

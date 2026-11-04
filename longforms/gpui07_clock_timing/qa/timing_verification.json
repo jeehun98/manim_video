@@ -1,0 +1,15 @@
+{
+  "four_bit_edge_cases": 1024,
+  "clock_to_q": 0.3,
+  "rising_edges": [
+    2,
+    8
+  ],
+  "q_changes_after_edges": true,
+  "early_capture": 0,
+  "late_capture": 8,
+  "unstable_capture": null,
+  "bank8": "1000",
+  "period_check": "CQ+logic+setup+uncertainty; hold is a separate constraint",
+  "all_passed": true
+}

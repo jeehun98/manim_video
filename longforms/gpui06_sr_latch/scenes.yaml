@@ -1,0 +1,20 @@
+id: gpui06_sr_latch
+duration_seconds: 140
+audio: null
+fps: 30
+layouts: {longform: [1920, 1080], shorts: [1080, 1920]}
+scenes:
+  - {id: "01", directory: scenes/01_alu, class: Scene01, start_seconds: 0, duration_seconds: 11}
+  - {id: "02", directory: scenes/02_chain, class: Scene02, start_seconds: 11, duration_seconds: 20}
+  - {id: "03", directory: scenes/03_reuse, class: Scene03, start_seconds: 31, duration_seconds: 11}
+  - {id: "04", directory: scenes/04_combinational, class: Scene04, start_seconds: 42, duration_seconds: 14}
+  - {id: "05", directory: scenes/05_feedback, class: Scene05, start_seconds: 56, duration_seconds: 15}
+  - {id: "06", directory: scenes/06_nor, class: Scene06, start_seconds: 71, duration_seconds: 8}
+  - {id: "07", directory: scenes/07_sethold, class: Scene07, start_seconds: 79, duration_seconds: 11}
+  - {id: "08", directory: scenes/08_reset, class: Scene08, start_seconds: 90, duration_seconds: 5}
+  - {id: "09", directory: scenes/09_twostates, class: Scene09, start_seconds: 95, duration_seconds: 7}
+  - {id: "10", directory: scenes/10_bit, class: Scene10, start_seconds: 102, duration_seconds: 4}
+  - {id: "11", directory: scenes/11_controls, class: Scene11, start_seconds: 106, duration_seconds: 8}
+  - {id: "12", directory: scenes/12_samegates, class: Scene12, start_seconds: 114, duration_seconds: 8}
+  - {id: "13", directory: scenes/13_when, class: Scene13, start_seconds: 122, duration_seconds: 8}
+  - {id: "14", directory: scenes/14_timing, class: Scene14, start_seconds: 130, duration_seconds: 10}

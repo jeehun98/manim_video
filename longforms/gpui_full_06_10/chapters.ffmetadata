@@ -1,0 +1,27 @@
+;FFMETADATA1
+title=GPU 개론 2부 — 기억하는 회로에서 프로그램 실행까지
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=142900
+title=논리 게이트는 어떻게 값을 기억할까?
+[CHAPTER]
+TIMEBASE=1/1000
+START=142900
+END=281333
+title=회로는 언제 값을 갱신할까?
+[CHAPTER]
+TIMEBASE=1/1000
+START=281333
+END=436900
+title=저장된 값은 어떻게 다시 계산에 사용될까?
+[CHAPTER]
+TIMEBASE=1/1000
+START=436900
+END=580333
+title=명령어는 어떻게 회로를 제어할까?
+[CHAPTER]
+TIMEBASE=1/1000
+START=580333
+END=748100
+title=컴퓨터는 어떻게 프로그램을 실행할까?

@@ -1,0 +1,45 @@
+id: quantum03
+title: 러더퍼드의 금박 실험과 원자핵 발견
+duration_seconds: 105
+fps: 30
+layouts:
+  shorts: [1080, 1920]
+  longform: [1920, 1080]
+timing_source: user_sentence_end_times
+scenes:
+  - id: 01_observation
+    directory: scenes/01_observation
+    class: FoilObservationChapter
+    duration_seconds: 16
+    start: 0
+    end: 16
+  - id: 02_thomson
+    directory: scenes/02_thomson
+    class: ThomsonChapter
+    duration_seconds: 24
+    start: 16
+    end: 40
+  - id: 03_experiment
+    directory: scenes/03_experiment
+    class: GeigerMarsdenChapter
+    duration_seconds: 11
+    start: 40
+    end: 51
+  - id: 04_coulomb
+    directory: scenes/04_coulomb
+    class: CoulombChapter
+    duration_seconds: 26
+    start: 51
+    end: 77
+  - id: 05_nucleus
+    directory: scenes/05_nucleus
+    class: NuclearModelChapter
+    duration_seconds: 14
+    start: 77
+    end: 91
+  - id: 06_stability
+    directory: scenes/06_stability
+    class: StabilityChapter
+    duration_seconds: 14
+    start: 91
+    end: 105

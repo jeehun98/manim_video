@@ -1,0 +1,142 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_memory",
+    "class": "Scene01",
+    "start": 0,
+    "end": 7,
+    "duration_seconds": 7,
+    "title": "기억한 값을 언제 갱신할까?",
+    "method": "memory"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_delay",
+    "class": "Scene02",
+    "start": 7,
+    "end": 20,
+    "duration_seconds": 13,
+    "title": "수학의 결과와 회로의 시간",
+    "method": "delay"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_propagation",
+    "class": "Scene03",
+    "start": 20,
+    "end": 29,
+    "duration_seconds": 9,
+    "title": "논리 게이트를 지나는 시간",
+    "method": "propagation"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_settling",
+    "class": "Scene04",
+    "start": 29,
+    "end": 38,
+    "duration_seconds": 9,
+    "title": "서로 다른 도착 시점",
+    "method": "settling"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_sampling",
+    "class": "Scene05",
+    "start": 38,
+    "end": 56,
+    "duration_seconds": 18,
+    "title": "너무 일찍 저장하면?",
+    "method": "sampling"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_dff",
+    "class": "Scene06",
+    "start": 56,
+    "end": 67,
+    "duration_seconds": 11,
+    "title": "변화하는 입력, 유지되는 출력",
+    "method": "dff"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_edge",
+    "class": "Scene07",
+    "start": 67,
+    "end": 77,
+    "duration_seconds": 10,
+    "title": "상승 에지에서 받아들인다",
+    "method": "edge"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_clock",
+    "class": "Scene08",
+    "start": 77,
+    "end": 88,
+    "duration_seconds": 11,
+    "title": "공통된 갱신 기준, 클럭",
+    "method": "clock"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_fast",
+    "class": "Scene09",
+    "start": 88,
+    "end": 98,
+    "duration_seconds": 10,
+    "title": "클럭이 너무 빨라진다면",
+    "method": "fast"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_period",
+    "class": "Scene10",
+    "start": 98,
+    "end": 105,
+    "duration_seconds": 7,
+    "title": "계산과 저장에 필요한 시간 확보",
+    "method": "period"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_roles",
+    "class": "Scene11",
+    "start": 105,
+    "end": 116,
+    "duration_seconds": 11,
+    "title": "계산과 저장의 역할은 다르다",
+    "method": "roles"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_sync",
+    "class": "Scene12",
+    "start": 116,
+    "end": 125,
+    "duration_seconds": 9,
+    "title": "여러 저장 회로, 하나의 기준",
+    "method": "sync"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_register",
+    "class": "Scene13",
+    "start": 125,
+    "end": 130,
+    "duration_seconds": 5,
+    "title": "계산 결과를 비트별로 저장",
+    "method": "register"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_choose",
+    "class": "Scene14",
+    "start": 130,
+    "end": 135,
+    "duration_seconds": 5,
+    "title": "다음 계산에 어떤 값을 쓸까?",
+    "method": "choose"
+  }
+]

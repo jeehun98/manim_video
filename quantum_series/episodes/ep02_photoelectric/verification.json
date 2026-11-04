@@ -1,0 +1,42 @@
+{
+  "videos": [
+    {
+      "layout": "shorts",
+      "width": 1080,
+      "height": 1920,
+      "duration": 101,
+      "frames": 3030,
+      "fps": 30,
+      "full_decode": "passed",
+      "audio": "not supplied; silent",
+      "last_second_mean_pixel_difference": 0.0025590676814317703
+    },
+    {
+      "layout": "longform",
+      "width": 1920,
+      "height": 1080,
+      "duration": 101,
+      "frames": 3030,
+      "fps": 30,
+      "full_decode": "passed",
+      "audio": "not supplied; silent",
+      "last_second_mean_pixel_difference": 0.0020262610632926226
+    }
+  ],
+  "physics": [
+    "E_low < Phi < E_high",
+    "intensity-independent threshold and maximum kinetic energy",
+    "fixed-frequency intensity/number-flux proportionality",
+    "fixed-intensity frequency/number-flux inverse proportionality",
+    "zero intensity prevents emission",
+    "energy conservation E = Phi + Kmax"
+  ],
+  "layout": [
+    "both caption bounds passed",
+    "comparison bounds and plate/result separation passed",
+    "preview keyframes visually reviewed",
+    "final shorts and longform keyframes visually reviewed"
+  ],
+  "timing": "all 22 user sentence end times retained",
+  "assembly": "EP.01 + EP.02: 187 seconds, 5610 frames, 2 MP4 chapters; temporary QA output only"
+}

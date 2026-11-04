@@ -1,0 +1,27 @@
+;FFMETADATA1
+title=GPU 개론 — 전기 신호에서 ALU까지
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=115833
+title=컴퓨터는 왜 0과 1을 사용할까?
+[CHAPTER]
+TIMEBASE=1/1000
+START=115833
+END=260600
+title=트랜지스터는 어떻게 전기 신호를 제어할까?
+[CHAPTER]
+TIMEBASE=1/1000
+START=260600
+END=427500
+title=스위치의 연결이 어떻게 논리 연산이 될까?
+[CHAPTER]
+TIMEBASE=1/1000
+START=427500
+END=573667
+title=논리 게이트는 어떻게 숫자를 더할까?
+[CHAPTER]
+TIMEBASE=1/1000
+START=573667
+END=751633
+title=하나의 회로로 여러 연산을 수행하는 방법
