@@ -1,0 +1,245 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_scene",
+    "class": "QRShot",
+    "start": 0,
+    "end": 4,
+    "duration_seconds": 4,
+    "title": "QR은 왜 대각행렬을 만들지 않을까?"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_scene",
+    "class": "QRShot",
+    "start": 4,
+    "end": 9,
+    "duration_seconds": 5,
+    "title": "같은 행렬 · 다른 방향 선택"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_scene",
+    "class": "QRShot",
+    "start": 9,
+    "end": 12,
+    "duration_seconds": 3,
+    "title": "두 개의 선형독립 열벡터"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_scene",
+    "class": "QRShot",
+    "start": 12,
+    "end": 18,
+    "duration_seconds": 6,
+    "title": "첫 열벡터의 방향을 그대로"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_scene",
+    "class": "QRShot",
+    "start": 18,
+    "end": 24,
+    "duration_seconds": 6,
+    "title": "겹치는 성분을 빼면 새 방향"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_scene",
+    "class": "QRShot",
+    "start": 24,
+    "end": 29,
+    "duration_seconds": 5,
+    "title": "첫 직선에서 평면으로"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_scene",
+    "class": "QRShot",
+    "start": 29,
+    "end": 33,
+    "duration_seconds": 4,
+    "title": "두 번째 벡터의 첫 방향 성분"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_scene",
+    "class": "QRShot",
+    "start": 33,
+    "end": 39,
+    "duration_seconds": 6,
+    "title": "위삼각행렬에 남는 조합 관계"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_scene",
+    "class": "QRShot",
+    "start": 39,
+    "end": 42,
+    "duration_seconds": 3,
+    "title": "SVD는 무엇을 바라볼까?"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_scene",
+    "class": "QRShot",
+    "start": 42,
+    "end": 45,
+    "duration_seconds": 3,
+    "title": "행렬을 공간 변환으로 보면"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_scene",
+    "class": "QRShot",
+    "start": 45,
+    "end": 50,
+    "duration_seconds": 5,
+    "title": "단위원 전체에 같은 A를 적용"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_scene",
+    "class": "QRShot",
+    "start": 50,
+    "end": 53,
+    "duration_seconds": 3,
+    "title": "최대 확대 · 최소 확대"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_scene",
+    "class": "QRShot",
+    "start": 53,
+    "end": 56,
+    "duration_seconds": 3,
+    "title": "입력 방향과 출력 축의 대응"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_scene",
+    "class": "QRShot",
+    "start": 56,
+    "end": 62,
+    "duration_seconds": 6,
+    "title": "가장 크게 늘어나는 입력 방향"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15_scene",
+    "class": "QRShot",
+    "start": 62,
+    "end": 66,
+    "duration_seconds": 4,
+    "title": "특이값 = 방향별 확대율"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16_scene",
+    "class": "QRShot",
+    "start": 66,
+    "end": 70,
+    "duration_seconds": 4,
+    "title": "출력 타원의 축도 단위 기준으로"
+  },
+  {
+    "id": "17",
+    "directory": "scenes/17_scene",
+    "class": "QRShot",
+    "start": 70,
+    "end": 74,
+    "duration_seconds": 4,
+    "title": "입력 기준 V · 출력 기준 U"
+  },
+  {
+    "id": "18",
+    "directory": "scenes/18_scene",
+    "class": "QRShot",
+    "start": 74,
+    "end": 77,
+    "duration_seconds": 3,
+    "title": "두 기준 사이의 작용은 대각행렬"
+  },
+  {
+    "id": "19",
+    "directory": "scenes/19_scene",
+    "class": "QRShot",
+    "start": 77,
+    "end": 81,
+    "duration_seconds": 4,
+    "title": "QR: 원래 열벡터의 순서"
+  },
+  {
+    "id": "20",
+    "directory": "scenes/20_scene",
+    "class": "QRShot",
+    "start": 81,
+    "end": 85,
+    "duration_seconds": 4,
+    "title": "SVD: 변환의 특이방향"
+  },
+  {
+    "id": "21",
+    "directory": "scenes/21_scene",
+    "class": "QRShot",
+    "start": 85,
+    "end": 90,
+    "duration_seconds": 5,
+    "title": "같은 행렬, 서로 다른 구조"
+  },
+  {
+    "id": "22",
+    "directory": "scenes/22_scene",
+    "class": "QRShot",
+    "start": 90,
+    "end": 94,
+    "duration_seconds": 4,
+    "title": "R에는 벡터의 조합 관계"
+  },
+  {
+    "id": "23",
+    "directory": "scenes/23_scene",
+    "class": "QRShot",
+    "start": 94,
+    "end": 98,
+    "duration_seconds": 4,
+    "title": "Σ에는 방향별 확대율"
+  },
+  {
+    "id": "24",
+    "directory": "scenes/24_scene",
+    "class": "QRShot",
+    "start": 98,
+    "end": 102,
+    "duration_seconds": 4,
+    "title": "위삼각과 대각 · 목적의 차이"
+  },
+  {
+    "id": "25",
+    "directory": "scenes/25_scene",
+    "class": "QRShot",
+    "start": 102,
+    "end": 105,
+    "duration_seconds": 3,
+    "title": "QR: 공간을 구성하는 순서"
+  },
+  {
+    "id": "26",
+    "directory": "scenes/26_scene",
+    "class": "QRShot",
+    "start": 105,
+    "end": 107,
+    "duration_seconds": 2,
+    "title": "SVD: 공간이 변형되는 방식"
+  },
+  {
+    "id": "27",
+    "directory": "scenes/27_scene",
+    "class": "QRShot",
+    "start": 107,
+    "end": 108,
+    "duration_seconds": 1,
+    "title": "같은 행렬 · 서로 다른 기하학"
+  }
+]

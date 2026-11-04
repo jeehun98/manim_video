@@ -1,0 +1,50 @@
+duration_seconds: 147
+timing_source: user_sentence_end_times
+layouts:
+  shorts: [1080, 1920, 30]
+  longform: [1920, 1080, 30]
+scenes:
+  - id: "01"
+    directory: scenes/01_scene
+    class: SVD01
+    duration_seconds: 17
+  - id: "02"
+    directory: scenes/02_scene
+    class: SVD02
+    duration_seconds: 12
+  - id: "03"
+    directory: scenes/03_scene
+    class: SVD03
+    duration_seconds: 21
+  - id: "04"
+    directory: scenes/04_scene
+    class: SVD04
+    duration_seconds: 7
+  - id: "05"
+    directory: scenes/05_scene
+    class: SVD05
+    duration_seconds: 16
+  - id: "06"
+    directory: scenes/06_scene
+    class: SVD06
+    duration_seconds: 16
+  - id: "07"
+    directory: scenes/07_scene
+    class: SVD07
+    duration_seconds: 19
+  - id: "08"
+    directory: scenes/08_scene
+    class: SVD08
+    duration_seconds: 12
+  - id: "09"
+    directory: scenes/09_scene
+    class: SVD09
+    duration_seconds: 9
+  - id: "10"
+    directory: scenes/10_scene
+    class: SVD10
+    duration_seconds: 11
+  - id: "11"
+    directory: scenes/11_scene
+    class: SVD11
+    duration_seconds: 7

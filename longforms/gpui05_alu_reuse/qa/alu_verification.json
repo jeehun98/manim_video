@@ -1,0 +1,25 @@
+{
+  "addsub_cases": 512,
+  "comparison_cases": 256,
+  "alu_opcode_cases": 1024,
+  "example_outputs": [
+    "1000",
+    "0010",
+    "0001",
+    "0111"
+  ],
+  "carry_convention": "Cout=1 means no borrow for A+NOT(B)+1",
+  "mux_ports": [
+    0,
+    0,
+    1,
+    2
+  ],
+  "sub_controls": [
+    0,
+    1,
+    0,
+    0
+  ],
+  "all_passed": true
+}

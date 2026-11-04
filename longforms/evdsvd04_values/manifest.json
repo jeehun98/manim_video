@@ -1,0 +1,155 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_open",
+    "start": 0,
+    "end": 6,
+    "duration_seconds": 6,
+    "class": "ValuesOpen",
+    "title": "ROUND 04 · 고윳값과 특이값"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_square",
+    "start": 6,
+    "end": 14,
+    "duration_seconds": 8,
+    "class": "ValuesSquare",
+    "title": "하나의 전단변환"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_eigenvalues",
+    "start": 14,
+    "end": 23,
+    "duration_seconds": 9,
+    "class": "ValuesEigenvalues",
+    "title": "고윳값은 1, 1"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_eigenvector",
+    "start": 23,
+    "end": 30,
+    "duration_seconds": 7,
+    "class": "ValuesEigenvector",
+    "title": "Av = v"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_meaning",
+    "start": 30,
+    "end": 38,
+    "duration_seconds": 8,
+    "class": "ValuesMeaning",
+    "title": "고유방향의 배율 ×1"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_vertical",
+    "start": 38,
+    "end": 45,
+    "duration_seconds": 7,
+    "class": "ValuesVertical",
+    "title": "수직 벡터는 길어진다"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_question",
+    "start": 45,
+    "end": 52,
+    "duration_seconds": 7,
+    "class": "ValuesQuestion",
+    "title": "길이 변화를 어떻게 볼까?"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_circle",
+    "start": 52,
+    "end": 55,
+    "duration_seconds": 3,
+    "class": "ValuesCircle",
+    "title": "‖x‖ = 1"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_ellipse",
+    "start": 55,
+    "end": 59,
+    "duration_seconds": 4,
+    "class": "ValuesEllipse",
+    "title": "같은 A · 원에서 타원으로"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_maximum",
+    "start": 59,
+    "end": 65,
+    "duration_seconds": 6,
+    "class": "ValuesMaximum",
+    "title": "최대 길이 배율"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_minimum",
+    "start": 65,
+    "end": 71,
+    "duration_seconds": 6,
+    "class": "ValuesMinimum",
+    "title": "최소 길이 배율"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_lengths",
+    "start": 71,
+    "end": 74,
+    "duration_seconds": 3,
+    "class": "ValuesLengths",
+    "title": "특이값 = 길이 배율"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_compare",
+    "start": 74,
+    "end": 80,
+    "duration_seconds": 6,
+    "class": "ValuesCompare",
+    "title": "같은 행렬 · 다른 숫자"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_eigenmeaning",
+    "start": 80,
+    "end": 85,
+    "duration_seconds": 5,
+    "class": "ValuesEigenMeaning",
+    "title": "고유직선에서의 배율"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15_singularmeaning",
+    "start": 85,
+    "end": 90,
+    "duration_seconds": 5,
+    "class": "ValuesSingularMeaning",
+    "title": "특이방향의 길이 배율"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16_verdict",
+    "start": 90,
+    "end": 98,
+    "duration_seconds": 8,
+    "class": "ValuesVerdict",
+    "title": "ROUND 04 · SVD 승"
+  },
+  {
+    "id": "17",
+    "directory": "scenes/17_score",
+    "start": 98,
+    "end": 103,
+    "duration_seconds": 5,
+    "class": "ValuesScore",
+    "title": "EVD 2 : 2 SVD"
+  }
+]

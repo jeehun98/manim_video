@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "volume_8": true,
+    "positive_diagonal_product": true,
+    "QR_Q_identity": true,
+    "xy_plane_restriction": true,
+    "SVD_reconstruction": true,
+    "SVD_orthogonality": true,
+    "cumulative_similarity": true,
+    "eigenvalues_preserved": true,
+    "timing_continuous": true
+  },
+  "all_checks_pass": true,
+  "duration": 89,
+  "sentences": 17,
+  "volume": 8,
+  "singular_values": [
+    2.5615528128088303,
+    1.5615528128088303
+  ],
+  "layout": "longform only"
+}

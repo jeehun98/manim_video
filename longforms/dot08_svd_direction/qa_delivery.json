@@ -1,0 +1,24 @@
+[
+  {
+    "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\dot08_svd_direction_147s_shorts_final.mp4",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 4410,
+    "duration_seconds": 147,
+    "audio": false,
+    "full_decode": "passed",
+    "bytes": 2062333
+  },
+  {
+    "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\dot08_svd_direction_147s_longform_final.mp4",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "frames": 4410,
+    "duration_seconds": 147,
+    "audio": false,
+    "full_decode": "passed",
+    "bytes": 1971641
+  }
+]

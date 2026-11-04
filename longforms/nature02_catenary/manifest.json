@@ -1,0 +1,200 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_sequence",
+    "start": 0,
+    "end": 4,
+    "duration_seconds": 4,
+    "title": "중력 위치에너지의 최소화",
+    "class": "SoapShot"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_sequence",
+    "start": 4,
+    "end": 9,
+    "duration_seconds": 5,
+    "title": "양 끝을 고정한 균일한 사슬",
+    "class": "SoapShot"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_sequence",
+    "start": 9,
+    "end": 14,
+    "duration_seconds": 5,
+    "title": "같은 조건에서 가장 낮은 에너지",
+    "class": "SoapShot"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_sequence",
+    "start": 14,
+    "end": 20,
+    "duration_seconds": 6,
+    "title": "최소화의 목표와 지켜야 할 조건",
+    "class": "SoapShot"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_sequence",
+    "start": 20,
+    "end": 23,
+    "duration_seconds": 3,
+    "title": "전체 계산보다 작은 부분으로",
+    "class": "SoapShot"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_sequence",
+    "start": 23,
+    "end": 31,
+    "duration_seconds": 8,
+    "title": "작은 부분에 작용하는 세 힘",
+    "class": "SoapShot"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_sequence",
+    "start": 31,
+    "end": 37,
+    "duration_seconds": 6,
+    "title": "힘이 맞지 않으면 움직인다",
+    "class": "SoapShot"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_sequence",
+    "start": 37,
+    "end": 42,
+    "duration_seconds": 5,
+    "title": "연결된 이웃도 함께 움직인다",
+    "class": "SoapShot"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_sequence",
+    "start": 42,
+    "end": 50,
+    "duration_seconds": 8,
+    "title": "끝점과 총길이는 그대로",
+    "class": "SoapShot"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_sequence",
+    "start": 50,
+    "end": 57,
+    "duration_seconds": 7,
+    "title": "한 부분의 에너지와 전체 에너지",
+    "class": "SoapShot"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_sequence",
+    "start": 57,
+    "end": 63,
+    "duration_seconds": 6,
+    "title": "진동하면서 에너지를 잃는다",
+    "class": "SoapShot"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_sequence",
+    "start": 63,
+    "end": 69,
+    "duration_seconds": 6,
+    "title": "움직임이 멈춘 평형",
+    "class": "SoapShot"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_sequence",
+    "start": 69,
+    "end": 78,
+    "duration_seconds": 9,
+    "title": "수평 장력은 일정 · 수직 장력은 증가",
+    "class": "SoapShot"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_sequence",
+    "start": 78,
+    "end": 84,
+    "duration_seconds": 6,
+    "title": "힘의 균형에서 곡선으로",
+    "class": "SoapShot"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15_sequence",
+    "start": 84,
+    "end": 88,
+    "duration_seconds": 4,
+    "title": "포물선이 아닌 현수선",
+    "class": "SoapShot"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16_sequence",
+    "start": 88,
+    "end": 96,
+    "duration_seconds": 8,
+    "title": "같은 길이의 후보를 비교하면",
+    "class": "SoapShot"
+  },
+  {
+    "id": "17",
+    "directory": "scenes/17_sequence",
+    "start": 96,
+    "end": 100,
+    "duration_seconds": 4,
+    "title": "두 곡선이 정확히 겹친다",
+    "class": "SoapShot"
+  },
+  {
+    "id": "18",
+    "directory": "scenes/18_sequence",
+    "start": 100,
+    "end": 107,
+    "duration_seconds": 7,
+    "title": "서로 다른 접근 · 같은 형태",
+    "class": "SoapShot"
+  },
+  {
+    "id": "19",
+    "directory": "scenes/19_sequence",
+    "start": 107,
+    "end": 120,
+    "duration_seconds": 13,
+    "title": "부분은 전체 에너지를 계산하지 않는다",
+    "class": "SoapShot"
+  },
+  {
+    "id": "20",
+    "directory": "scenes/20_sequence",
+    "start": 120,
+    "end": 128,
+    "duration_seconds": 8,
+    "title": "현수선을 축 주위로 회전하면",
+    "class": "SoapShot"
+  },
+  {
+    "id": "21",
+    "directory": "scenes/21_sequence",
+    "start": 128,
+    "end": 132,
+    "duration_seconds": 4,
+    "title": "카테노이드가 만들어진다",
+    "class": "SoapShot"
+  },
+  {
+    "id": "22",
+    "directory": "scenes/22_sequence",
+    "start": 132,
+    "end": 150,
+    "duration_seconds": 18,
+    "title": "다른 에너지 · 같은 cosh",
+    "class": "SoapShot"
+  }
+]

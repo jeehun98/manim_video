@@ -1,0 +1,101 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_scene",
+    "start": 0,
+    "end": 16,
+    "duration_seconds": 16,
+    "title": "비스듬한 두 벡터에서 직교축을?",
+    "class": "Gram01"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_scene",
+    "start": 16,
+    "end": 30,
+    "duration_seconds": 14,
+    "title": "첫 방향을 길이 1로",
+    "class": "Gram02"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_scene",
+    "start": 30,
+    "end": 49,
+    "duration_seconds": 19,
+    "title": "겹치는 성분을 내적으로 찾는다",
+    "class": "Gram03"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_scene",
+    "start": 49,
+    "end": 60,
+    "duration_seconds": 11,
+    "title": "정사영을 빼면 새 방향이 남는다",
+    "class": "Gram04"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_scene",
+    "start": 60,
+    "end": 71,
+    "duration_seconds": 11,
+    "title": "정말 직교하는지 확인한다",
+    "class": "Gram05"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_scene",
+    "start": 71,
+    "end": 86,
+    "duration_seconds": 15,
+    "title": "둘째 방향도 길이 1로",
+    "class": "Gram06"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_scene",
+    "start": 86,
+    "end": 106,
+    "duration_seconds": 20,
+    "title": "그람–슈미트: 같은 공간, 새 기저",
+    "class": "Gram07"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_scene",
+    "start": 106,
+    "end": 114,
+    "duration_seconds": 8,
+    "title": "새 기저를 열로 묶으면 Q",
+    "class": "Gram08"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_scene",
+    "start": 114,
+    "end": 127,
+    "duration_seconds": 13,
+    "title": "원래 벡터를 복원하는 계수 R",
+    "class": "Gram09"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_scene",
+    "start": 127,
+    "end": 139,
+    "duration_seconds": 12,
+    "title": "A = QR",
+    "class": "Gram10"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_scene",
+    "start": 139,
+    "end": 153,
+    "duration_seconds": 14,
+    "title": "방향의 제거에서 행렬 분해로",
+    "class": "Gram11"
+  }
+]

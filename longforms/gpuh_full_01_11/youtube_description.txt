@@ -1,0 +1,53 @@
+GPU 내부의 계산 — 하나의 Thread에서 GPU 전체와 DRAM까지
+
+GPU의 실행 구조와 메모리 시스템을 하나의 흐름으로 이해하는 LEVEL 01–11 통합 영상입니다.
+Thread·Warp·Block·Grid가 계산을 어떻게 구성하고, SM이 어떻게 실행하며, Register·Shared Memory·캐시·DRAM이 데이터를 어떻게 저장하고 공급하는지 CUDA 코드와 애니메이션으로 살펴봅니다. 마지막에는 벡터 덧셈 하나로 전체 구조를 연결합니다.
+
+타임라인
+00:00 01 Thread — GPU의 개별 실행 문맥
+02:34 02 Warp — 32개 Thread와 SIMT
+05:24 03 Block — Thread의 협력과 동기화
+08:25 04 SM — Warp 실행과 대기 시간 숨기기
+11:26 05 Grid — 전체 작업과 Block 배치
+14:25 06 Register — 계산값과 레지스터 자원
+17:23 07 Shared Memory — 데이터 공유와 재사용
+20:06 08 Global Memory — 주소 패턴과 Coalescing
+22:54 09 L1 & L2 Cache — 메모리 공간과 데이터 공급 경로
+25:46 10 Memory Controller & DRAM — 실제 저장 장치의 동작
+28:32 11 최종 통합 — 하나의 CUDA 커널로 연결되는 GPU
+
+구간별 내용
+01. Thread — GPU의 개별 실행 문맥
+인덱스와 실행 상태를 가진 Thread가 각자의 데이터를 계산하는 과정을 살펴봅니다.
+
+02. Warp — 32개 Thread와 SIMT
+32개 Thread의 명령 실행, Lane, SIMT와 Warp Divergence를 설명합니다.
+
+03. Block — Thread의 협력과 동기화
+같은 Block의 Thread들이 Shared Memory와 동기화를 이용해 협력하는 과정을 다룹니다.
+
+04. SM — Warp 실행과 대기 시간 숨기기
+SM의 실행 자원, Warp Scheduler, Latency Hiding과 Occupancy의 관계를 살펴봅니다.
+
+05. Grid — 전체 작업과 Block 배치
+Grid와 Block의 논리적 구성, 전체 인덱스 계산과 실제 SM 배치를 구분합니다.
+
+06. Register — 계산값과 레지스터 자원
+SM의 Register File이 Thread에 할당되는 방식과 Register Pressure·Spilling을 설명합니다.
+
+07. Shared Memory — 데이터 공유와 재사용
+Block 내부의 안전한 데이터 공유, Tiling을 통한 재사용과 Bank Conflict를 살펴봅니다.
+
+08. Global Memory — 주소 패턴과 Coalescing
+같은 128B의 유효 데이터라도 접근 주소에 따라 필요한 32B Sector 수가 달라지는 원리를 설명합니다.
+
+09. L1 & L2 Cache — 메모리 공간과 데이터 공급 경로
+CUDA의 메모리 공간과 하드웨어 캐시를 구분하고 Hit·Miss 및 Shared/L1 자원 공유를 다룹니다.
+
+10. Memory Controller & DRAM — 실제 저장 장치의 동작
+논리적 Global 주소와 물리적 DRAM을 구분하고 컨트롤러, Bank·Row·Column, GDDR·HBM 구조를 연결합니다.
+
+11. 최종 통합 — 하나의 CUDA 커널로 연결되는 GPU
+벡터 덧셈 하나를 따라 Grid·Block·Warp·Thread, SM의 실행, 캐시와 DRAM의 데이터 공급을 통합합니다.
+
+#GPU #CUDA #병렬컴퓨팅 #GPU구조 #GPU최적화

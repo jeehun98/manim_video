@@ -1,0 +1,12 @@
+[
+  {
+    "time": 144.46666666666667,
+    "value": 105,
+    "label": "Register · Thread별 계산값"
+  },
+  {
+    "time": 148.83333333333334,
+    "value": 106,
+    "label": "쓰기·동기화 후 · 같은 Block의 다른 Thread가 읽기"
+  }
+]

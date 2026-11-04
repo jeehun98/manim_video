@@ -1,0 +1,90 @@
+[
+  {
+    "episode": 1,
+    "title": "이름",
+    "source": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\evdsvd_long_1.mp4",
+    "start_frame": 0,
+    "end_frame": 1635,
+    "start_seconds": 0.0,
+    "duration_seconds": 54.5,
+    "source_video_frames": 1635,
+    "source_audio_seconds": 52.050363
+  },
+  {
+    "episode": 2,
+    "title": "분해 조건",
+    "source": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\evdsvd_long_2.mp4",
+    "start_frame": 1635,
+    "end_frame": 5674,
+    "start_seconds": 54.5,
+    "duration_seconds": 134.63333333333333,
+    "source_video_frames": 4039,
+    "source_audio_seconds": 132.050862
+  },
+  {
+    "episode": 3,
+    "title": "분해 구조",
+    "source": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\evdsvd_long_3.mp4",
+    "start_frame": 5674,
+    "end_frame": 10365,
+    "start_seconds": 189.13333333333333,
+    "duration_seconds": 156.36666666666667,
+    "source_video_frames": 4691,
+    "source_audio_seconds": 153.900998
+  },
+  {
+    "episode": 4,
+    "title": "고윳값과 특이값",
+    "source": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\evdsvd_long_4.mp4",
+    "start_frame": 10365,
+    "end_frame": 13538,
+    "start_seconds": 345.5,
+    "duration_seconds": 105.76666666666667,
+    "source_video_frames": 3173,
+    "source_audio_seconds": 103.15068
+  },
+  {
+    "episode": 5,
+    "title": "미래 예측",
+    "source": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\evdsvd_long_5.mp4",
+    "start_frame": 13538,
+    "end_frame": 17523,
+    "start_seconds": 451.26666666666665,
+    "duration_seconds": 132.83333333333334,
+    "source_video_frames": 3985,
+    "source_audio_seconds": 130.450748
+  },
+  {
+    "episode": 6,
+    "title": "복원 정확도",
+    "source": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\evdsvd_long_6.mp4",
+    "start_frame": 17523,
+    "end_frame": 21590,
+    "start_seconds": 584.1,
+    "duration_seconds": 135.56666666666666,
+    "source_video_frames": 4067,
+    "source_audio_seconds": 133.050748
+  },
+  {
+    "episode": 7,
+    "title": "역변환",
+    "source": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\evdsvd_long_7.mp4",
+    "start_frame": 21590,
+    "end_frame": 25947,
+    "start_seconds": 719.6666666666666,
+    "duration_seconds": 145.23333333333332,
+    "source_video_frames": 4357,
+    "source_audio_seconds": 142.650816
+  },
+  {
+    "episode": 8,
+    "title": "최종 선택",
+    "source": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\evdsvd_long_8.mp4",
+    "start_frame": 25947,
+    "end_frame": 30498,
+    "start_seconds": 864.9,
+    "duration_seconds": 151.7,
+    "source_video_frames": 4551,
+    "source_audio_seconds": 149.050884
+  }
+]

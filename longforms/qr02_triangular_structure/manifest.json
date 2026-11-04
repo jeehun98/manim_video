@@ -1,0 +1,227 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_scene",
+    "class": "QRShot",
+    "start": 0,
+    "end": 4,
+    "duration_seconds": 4,
+    "title": "왜 아래쪽은 모두 0일까?"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_scene",
+    "class": "QRShot",
+    "start": 4,
+    "end": 10,
+    "duration_seconds": 6,
+    "title": "숫자의 구조 ↔ 공간의 구조"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_scene",
+    "class": "QRShot",
+    "start": 10,
+    "end": 14,
+    "duration_seconds": 4,
+    "title": "세 개의 선형독립 벡터"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_scene",
+    "class": "QRShot",
+    "start": 14,
+    "end": 21,
+    "duration_seconds": 7,
+    "title": "서로 직교하는 단위벡터"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_scene",
+    "class": "QRShot",
+    "start": 21,
+    "end": 25,
+    "duration_seconds": 4,
+    "title": "첫 벡터에는 첫 방향만"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_scene",
+    "class": "QRShot",
+    "start": 25,
+    "end": 27,
+    "duration_seconds": 2,
+    "title": "나머지 두 계수는 왜 0일까?"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_scene",
+    "class": "QRShot",
+    "start": 27,
+    "end": 30,
+    "duration_seconds": 3,
+    "title": "첫 벡터와 수직인 두 방향"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_scene",
+    "class": "QRShot",
+    "start": 30,
+    "end": 36,
+    "duration_seconds": 6,
+    "title": "각 방향의 계수 = 내적"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_scene",
+    "class": "QRShot",
+    "start": 36,
+    "end": 41,
+    "duration_seconds": 5,
+    "title": "내적의 0이 행렬의 0으로"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_scene",
+    "class": "QRShot",
+    "start": 41,
+    "end": 43,
+    "duration_seconds": 2,
+    "title": "두 번째 벡터의 계수"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_scene",
+    "class": "QRShot",
+    "start": 43,
+    "end": 47,
+    "duration_seconds": 4,
+    "title": "두 방향으로 벡터 복원"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_scene",
+    "class": "QRShot",
+    "start": 47,
+    "end": 53,
+    "duration_seconds": 6,
+    "title": "평면에 수직이면 내적은 0"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_scene",
+    "class": "QRShot",
+    "start": 53,
+    "end": 57,
+    "duration_seconds": 4,
+    "title": "세 번째 벡터의 세 성분"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_scene",
+    "class": "QRShot",
+    "start": 57,
+    "end": 61,
+    "duration_seconds": 4,
+    "title": "계수들을 열 순서대로"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15_scene",
+    "class": "QRShot",
+    "start": 61,
+    "end": 65,
+    "duration_seconds": 4,
+    "title": "위삼각행렬의 완성"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16_scene",
+    "class": "QRShot",
+    "start": 65,
+    "end": 67,
+    "duration_seconds": 2,
+    "title": "무엇이 그대로 유지될까?"
+  },
+  {
+    "id": "17",
+    "directory": "scenes/17_scene",
+    "class": "QRShot",
+    "start": 67,
+    "end": 71,
+    "duration_seconds": 4,
+    "title": "길이가 달라도 같은 직선"
+  },
+  {
+    "id": "18",
+    "directory": "scenes/18_scene",
+    "class": "QRShot",
+    "start": 71,
+    "end": 76,
+    "duration_seconds": 5,
+    "title": "벡터가 달라도 같은 평면"
+  },
+  {
+    "id": "19",
+    "directory": "scenes/19_scene",
+    "class": "QRShot",
+    "start": 76,
+    "end": 79,
+    "duration_seconds": 3,
+    "title": "두 기저가 만드는 같은 공간"
+  },
+  {
+    "id": "20",
+    "directory": "scenes/20_scene",
+    "class": "QRShot",
+    "start": 79,
+    "end": 83,
+    "duration_seconds": 4,
+    "title": "직선 ⊂ 평면 ⊂ 공간"
+  },
+  {
+    "id": "21",
+    "directory": "scenes/21_scene",
+    "class": "QRShot",
+    "start": 83,
+    "end": 87,
+    "duration_seconds": 4,
+    "title": "공간을 유지하며 기준 바꾸기"
+  },
+  {
+    "id": "22",
+    "directory": "scenes/22_scene",
+    "class": "QRShot",
+    "start": 87,
+    "end": 91,
+    "duration_seconds": 4,
+    "title": "공간의 직교 관계가 만든 0"
+  },
+  {
+    "id": "23",
+    "directory": "scenes/23_scene",
+    "class": "QRShot",
+    "start": 91,
+    "end": 94,
+    "duration_seconds": 3,
+    "title": "뒤 방향은 앞 공간에 수직"
+  },
+  {
+    "id": "24",
+    "directory": "scenes/24_scene",
+    "class": "QRShot",
+    "start": 94,
+    "end": 96,
+    "duration_seconds": 2,
+    "title": "수직 관계를 기록한 계수"
+  },
+  {
+    "id": "25",
+    "directory": "scenes/25_scene",
+    "class": "QRShot",
+    "start": 96,
+    "end": 98,
+    "duration_seconds": 2,
+    "title": "위삼각 구조에 담긴 기하학"
+  }
+]

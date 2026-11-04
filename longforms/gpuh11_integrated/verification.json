@@ -1,0 +1,26 @@
+{
+  "cues": 37,
+  "shots": 16,
+  "cuda": "all512 outputs; Shared0; selected4+7=11",
+  "traces": 16,
+  "identities": 16,
+  "load_cases": 1,
+  "stores": 1,
+  "parallel_results": 1,
+  "warp_issues": [
+    0,
+    0,
+    2,
+    1
+  ],
+  "outputs": [
+    {
+      "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpuh11_integrated_191s_longform_final.mp4",
+      "duration": 191,
+      "frames": 5730,
+      "audio": false,
+      "width": 1920,
+      "height": 1080
+    }
+  ]
+}

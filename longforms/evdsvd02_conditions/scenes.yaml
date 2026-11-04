@@ -1,0 +1,77 @@
+title: EVD vs SVD — 분해 조건
+duration_seconds: 92
+timing_source: user_sentence_ends_and_storyboard_correction
+layouts: [shorts_1080x1920, longform_1920x1080]
+scenes:
+  - id: "01"
+    directory: scenes/01_open
+    class: ConditionsOpen
+    duration_seconds: 3
+  - id: "02"
+    directory: scenes/02_criterion
+    class: ConditionsCriterion
+    duration_seconds: 2
+  - id: "03"
+    directory: scenes/03_evd
+    class: ConditionsEVD
+    duration_seconds: 5
+  - id: "04"
+    directory: scenes/04_square
+    class: ConditionsSquare
+    duration_seconds: 3
+  - id: "05"
+    directory: scenes/05_dimensions
+    class: ConditionsDimensions
+    duration_seconds: 10
+  - id: "06"
+    directory: scenes/06_basis
+    class: ConditionsBasis
+    duration_seconds: 8
+  - id: "07"
+    directory: scenes/07_shear
+    class: ConditionsShear
+    duration_seconds: 11
+  - id: "08"
+    directory: scenes/08_field
+    class: ConditionsField
+    duration_seconds: 3
+  - id: "09"
+    directory: scenes/09_rotation
+    class: ConditionsRotation
+    duration_seconds: 4
+  - id: "10"
+    directory: scenes/10_complex
+    class: ConditionsComplex
+    duration_seconds: 6
+  - id: "11"
+    directory: scenes/11_svd
+    class: ConditionsSVD
+    duration_seconds: 3
+  - id: "12"
+    directory: scenes/12_rectangular
+    class: ConditionsRectangular
+    duration_seconds: 5
+  - id: "13"
+    directory: scenes/13_pass
+    class: ConditionsPass
+    duration_seconds: 5
+  - id: "14"
+    directory: scenes/14_gram
+    class: ConditionsGram
+    duration_seconds: 7
+  - id: "15"
+    directory: scenes/15_orthogonal
+    class: ConditionsOrthogonal
+    duration_seconds: 4
+  - id: "16"
+    directory: scenes/16_exists
+    class: ConditionsExists
+    duration_seconds: 3
+  - id: "17"
+    directory: scenes/17_verdict
+    class: ConditionsVerdict
+    duration_seconds: 7
+  - id: "18"
+    directory: scenes/18_score
+    class: ConditionsScore
+    duration_seconds: 3

@@ -1,0 +1,117 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\dot_full_01_10_longform.mp4",
+  "method": "video and audio stream copy; source tails preserved",
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "frames": 42406,
+  "video_duration_seconds": 1413.533333,
+  "container_duration_seconds": 1413.556575,
+  "audio_codec": "aac",
+  "audio_duration_seconds": 1411.107415,
+  "full_decode": "passed",
+  "chapters": [
+    {
+      "episode": 1,
+      "source": "exports\\dot_long1.mp4",
+      "title": "내적과 방향 성분의 측정",
+      "start_seconds": 0.0,
+      "duration_seconds": 104.7,
+      "start_frame": 0,
+      "frames": 3141,
+      "youtube_time": "00:00"
+    },
+    {
+      "episode": 2,
+      "source": "exports\\dot_long2.mp4",
+      "title": "정사영: 원하는 방향의 성분 추출",
+      "start_seconds": 104.7,
+      "duration_seconds": 103.9,
+      "start_frame": 3141,
+      "frames": 3117,
+      "youtube_time": "01:44"
+    },
+    {
+      "episode": 3,
+      "source": "exports\\dot_long3.mp4",
+      "title": "직교와 잔차: 방향 성분 제거",
+      "start_seconds": 208.6,
+      "duration_seconds": 103.96666666666667,
+      "start_frame": 6258,
+      "frames": 3119,
+      "youtube_time": "03:28"
+    },
+    {
+      "episode": 4,
+      "source": "exports\\dot_long4.mp4",
+      "title": "직교정규기저와 좌표 표현",
+      "start_seconds": 312.56666666666666,
+      "duration_seconds": 140.5,
+      "start_frame": 9377,
+      "frames": 4215,
+      "youtube_time": "05:12"
+    },
+    {
+      "episode": 5,
+      "source": "exports\\dot_long5.mp4",
+      "title": "그람–슈미트 직교화와 QR 분해",
+      "start_seconds": 453.06666666666666,
+      "duration_seconds": 156.36666666666667,
+      "start_frame": 13592,
+      "frames": 4691,
+      "youtube_time": "07:33"
+    },
+    {
+      "episode": 6,
+      "source": "exports\\dot_long6.mp4",
+      "title": "최소제곱법: 가장 가까운 해",
+      "start_seconds": 609.4333333333333,
+      "duration_seconds": 173.23333333333332,
+      "start_frame": 18283,
+      "frames": 5197,
+      "youtube_time": "10:09"
+    },
+    {
+      "episode": 7,
+      "source": "exports\\dot_long7.mp4",
+      "title": "PCA: 정보를 보존하는 방향",
+      "start_seconds": 782.6666666666666,
+      "duration_seconds": 151.7,
+      "start_frame": 23480,
+      "frames": 4551,
+      "youtube_time": "13:02"
+    },
+    {
+      "episode": 8,
+      "source": "exports\\dot_long8.mp4",
+      "title": "SVD: 행렬의 방향별 작용",
+      "start_seconds": 934.3666666666667,
+      "duration_seconds": 149.76666666666668,
+      "start_frame": 28031,
+      "frames": 4493,
+      "youtube_time": "15:34"
+    },
+    {
+      "episode": 9,
+      "source": "exports\\dot_long9.mp4",
+      "title": "Attention: 정보의 비교와 결합",
+      "start_seconds": 1084.1333333333334,
+      "duration_seconds": 157.1,
+      "start_frame": 32524,
+      "frames": 4713,
+      "youtube_time": "18:04"
+    },
+    {
+      "episode": 10,
+      "source": "exports\\dot_long10.mp4",
+      "title": "기울기와 경사하강법 · 시리즈 마무리",
+      "start_seconds": 1241.2333333333333,
+      "duration_seconds": 172.3,
+      "start_frame": 37237,
+      "frames": 5169,
+      "youtube_time": "20:41"
+    }
+  ],
+  "youtube_chapter_rounding": "floor to preceding whole second",
+  "bytes": 60705864
+}

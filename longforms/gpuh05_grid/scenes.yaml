@@ -1,0 +1,76 @@
+title: GPU 계층 구조 LEVEL 05 — Grid
+duration_seconds: 178
+timing_source: user_sentence_end_times
+scenes:
+  - id: "01"
+    directory: scenes/01_scene
+    duration_seconds: 17
+    class: Grid01
+  - id: "02"
+    directory: scenes/02_scene
+    duration_seconds: 12
+    class: Grid02
+  - id: "03"
+    directory: scenes/03_scene
+    duration_seconds: 12
+    class: Grid03
+  - id: "04"
+    directory: scenes/04_scene
+    duration_seconds: 7
+    class: Grid04
+  - id: "05"
+    directory: scenes/05_scene
+    duration_seconds: 11
+    class: Grid05
+  - id: "06"
+    directory: scenes/06_scene
+    duration_seconds: 12
+    class: Grid06
+  - id: "07"
+    directory: scenes/07_scene
+    duration_seconds: 7
+    class: Grid07
+  - id: "08"
+    directory: scenes/08_scene
+    duration_seconds: 9
+    class: Grid08
+  - id: "09"
+    directory: scenes/09_scene
+    duration_seconds: 6
+    class: Grid09
+  - id: "10"
+    directory: scenes/10_scene
+    duration_seconds: 11
+    class: Grid10
+  - id: "11"
+    directory: scenes/11_scene
+    duration_seconds: 11
+    class: Grid11
+  - id: "12"
+    directory: scenes/12_scene
+    duration_seconds: 11
+    class: Grid12
+  - id: "13"
+    directory: scenes/13_scene
+    duration_seconds: 6
+    class: Grid13
+  - id: "14"
+    directory: scenes/14_scene
+    duration_seconds: 8
+    class: Grid14
+  - id: "15"
+    directory: scenes/15_scene
+    duration_seconds: 10
+    class: Grid15
+  - id: "16"
+    directory: scenes/16_scene
+    duration_seconds: 6
+    class: Grid16
+  - id: "17"
+    directory: scenes/17_scene
+    duration_seconds: 10
+    class: Grid17
+  - id: "18"
+    directory: scenes/18_scene
+    duration_seconds: 12
+    class: Grid18

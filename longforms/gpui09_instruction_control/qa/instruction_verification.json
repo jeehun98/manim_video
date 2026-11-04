@@ -1,0 +1,23 @@
+{
+  "all_passed": true,
+  "encodings": 256,
+  "alu_cases": 1024,
+  "write_cases": 1024,
+  "example": {
+    "instruction": "00110110",
+    "fields": {
+      "op": 0,
+      "rd": 3,
+      "rs1": 1,
+      "rs2": 2
+    },
+    "result": 8,
+    "registers": [
+      0,
+      5,
+      3,
+      8
+    ]
+  },
+  "sub_preview_write_disabled": true
+}

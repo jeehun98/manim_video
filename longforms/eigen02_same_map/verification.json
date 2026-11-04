@@ -1,0 +1,33 @@
+{
+  "duration_source": "사용자 문장별 종료 시각 27개",
+  "audio": "미제공, 무음",
+  "mathematics": [
+    "AP=PD",
+    "x=P solve(P,x)",
+    "Ax=PD solve(P,x) for four storyboard inputs"
+  ],
+  "preview_visual_qa": "16 timestamps in each aspect ratio; panel grid/header separation and merged-stage cleanup",
+  "caption_visual_qa": "portrait 62s,75s; landscape final screenshots",
+  "outputs": [
+    {
+      "file": "exports\\eigen02_120s_shorts_final_captioned.mp4",
+      "full_decode": "pass",
+      "codec_type": "video",
+      "width": 1080,
+      "height": 1920,
+      "r_frame_rate": "30/1",
+      "duration": "120.000000",
+      "nb_read_frames": "3600"
+    },
+    {
+      "file": "exports\\eigen02_120s_longform_final_captioned.mp4",
+      "full_decode": "pass",
+      "codec_type": "video",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "30/1",
+      "duration": "120.000000",
+      "nb_read_frames": "3600"
+    }
+  ]
+}

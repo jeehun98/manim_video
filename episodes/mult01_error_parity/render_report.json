@@ -1,0 +1,19 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\mult01.mp4",
+  "duration": "102.000000",
+  "frames": 3060,
+  "width": 1080,
+  "height": 1920,
+  "fps": "30/1",
+  "audio": false,
+  "sentence_endpoints": "21 user-supplied endpoints preserved",
+  "subtitles": "21 complete sentences; contiguous boundaries; panel containment passed",
+  "tts": "21 paragraphs, no timecodes",
+  "decode": "complete video decoded successfully",
+  "visual_review": "all 21 preview cue-end frames reviewed; final samples reviewed separately",
+  "preview_contact_sheets": [
+    "media/mult01/qa/contact_1.jpg",
+    "media/mult01/qa/contact_2.jpg"
+  ],
+  "limitation": "Narration preserved verbatim. 92.7% refers specifically to incorrect tens digits; the screen makes this explicit. No audio supplied."
+}

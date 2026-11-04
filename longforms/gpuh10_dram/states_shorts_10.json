@@ -1,0 +1,9 @@
+[
+  {
+    "kind": "packaging",
+    "technology": "GDDR",
+    "diagram": "board",
+    "memory_on_gpu_die": false,
+    "performance_ranking": false
+  }
+]

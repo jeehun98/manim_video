@@ -1,0 +1,24 @@
+[
+  {
+    "layout": "shorts",
+    "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\evdsvd07_inverse_142s_shorts_final.mp4",
+    "duration": 142,
+    "frames": 4260,
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "decode_check": "passed",
+    "audio": false
+  },
+  {
+    "layout": "longform",
+    "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\evdsvd07_inverse_142s_longform_final.mp4",
+    "duration": 142,
+    "frames": 4260,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "decode_check": "passed",
+    "audio": false
+  }
+]

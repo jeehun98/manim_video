@@ -1,0 +1,14 @@
+[
+  {
+    "time": 118.4,
+    "kind": "flow",
+    "value": "Line A",
+    "label": "하드웨어가 L1에 캐시 Line 적재"
+  },
+  {
+    "time": 121.4,
+    "kind": "flow",
+    "value": "Line B",
+    "label": "용량·정책에 따라 기존 Line이 교체될 수 있음"
+  }
+]

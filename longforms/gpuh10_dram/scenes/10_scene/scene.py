@@ -1,0 +1,6 @@
+import sys
+from pathlib import Path
+sys.path.insert(0,str(Path(__file__).resolve().parents[2]))
+from dram_visuals import DramBase
+class Dram10(DramBase):
+    INDEX=9

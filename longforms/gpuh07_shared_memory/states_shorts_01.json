@@ -1,0 +1,12 @@
+[
+  {
+    "time": 19.466666666666665,
+    "value": "개별",
+    "label": "Register · Thread별 할당"
+  },
+  {
+    "time": 23.83333333333333,
+    "value": "공유",
+    "label": "Shared · 같은 Block에서 공유 가능"
+  }
+]

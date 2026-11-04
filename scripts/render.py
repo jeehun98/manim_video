@@ -235,20 +235,131 @@ EPISODES["aic07"] = ("episodes/aic07_lexing_parsing/scene.py", "LexingParsing")
 
 EPISODES["aic08"] = ("episodes/aic08_ast_to_ir/scene.py", "AstToIR")
 
+EPISODES["aicomp01"] = ("episodes/aicomp01_what_is_ai_compiler/scene.py", "WhatIsAICompiler")
+
+EPISODES["aicomp02"] = ("episodes/aicomp02_framework_compiler_runtime/scene.py", "FrameworkCompilerRuntime")
+
+EPISODES["aicomp03"] = ("episodes/aicomp03_when_compilation_happens/scene.py", "WhenCompilationHappens")
+
+EPISODES["aicomp04"] = ("episodes/aicomp04_graph_capture/scene.py", "GraphCaptureBoundaries")
+
+EPISODES["paradox01"] = ("episodes/paradox01_dropout_half/scene.py", "DropoutHalf")
+EPISODES["paradox02"] = ("episodes/paradox02_label_smoothing/scene.py", "LabelSmoothingSimplex")
+EPISODES["paradox03"] = ("episodes/paradox03_mixup_rules/scene.py", "MixupRules")
+EPISODES["paradox04"] = ("episodes/paradox04_stochastic_depth/scene.py", "StochasticDepthPaths")
+EPISODES["paradox05"] = ("episodes/paradox05_model_soups/scene.py", "ModelSoupsGeometry")
+EPISODES["paradox06"] = ("episodes/paradox06_born_again/scene.py", "BornAgainNetworks")
+EPISODES["paradox07"] = ("episodes/paradox07_sam/scene.py", "SharpnessAwareMinimization")
+
+EPISODES["paradox08"] = ("episodes/paradox08_loss_selection/scene.py", "LossBasedSelection")
+
+EPISODES["paradox09"] = ("episodes/paradox09_numerical_inflation/scene.py", "NumericalFeatureInflation")
+
+EPISODES["nncalc01"] = ("episodes/nncalc01_same_answers/scene.py", "SameAnswersDifferentAlgorithms")
+EPISODES["nncalc01_shorts"] = ("episodes/nncalc01_same_answers/scene_shorts.py", "SameAnswersShorts")
+EPISODES["nncalc02"] = ("episodes/nncalc02_induction_heads/scene.py", "InductionHeads")
+EPISODES["nncalc02_shorts"] = ("episodes/nncalc02_induction_heads/scene.py", "InductionHeadsShorts")
+EPISODES["nncalc03"] = ("episodes/nncalc03_patterning/scene.py", "Patterning")
+EPISODES["nncalc03_shorts"] = ("episodes/nncalc03_patterning/scene.py", "PatterningShorts")
+EPISODES["nncalc04"] = ("episodes/nncalc04_feature_superposition/scene.py", "FeatureSuperposition")
+EPISODES["nncalc04_shorts"] = ("episodes/nncalc04_feature_superposition/scene.py", "FeatureSuperpositionShorts")
+EPISODES["nncalc05"] = ("episodes/nncalc05_sparse_autoencoders/scene.py", "SparseAutoencoders")
+EPISODES["nncalc05_shorts"] = ("episodes/nncalc05_sparse_autoencoders/scene.py", "SparseAutoencodersShorts")
+EPISODES["nncalc06"] = ("episodes/nncalc06_circuit_tracing/scene.py", "CircuitTracing")
+EPISODES["nncalc06_shorts"] = ("episodes/nncalc06_circuit_tracing/scene.py", "CircuitTracingShorts")
+EPISODES["nncalc07"] = ("episodes/nncalc07_probing_intervention/scene.py", "ProbingIntervention")
+EPISODES["nncalc07_shorts"] = ("episodes/nncalc07_probing_intervention/scene.py", "ProbingInterventionShorts")
+EPISODES["nncalc08"] = ("episodes/nncalc08_finale/scene.py", "InterpretabilityPatterningFinale")
+EPISODES["nncalc08_shorts"] = ("episodes/nncalc08_finale/scene.py", "InterpretabilityPatterningFinaleShorts")
+
+EPISODES["learn01"] = ("episodes/learn01_after_accuracy/scene.py", "AfterAccuracy")
+
+EPISODES["matrixtier01"] = ("episodes/matrixtier01_decompositions/scene.py", "MatrixDecompositionTierList")
+
+EPISODES["softmax01"] = ("episodes/softmax01_collapse/scene.py", "SoftmaxCollapse")
+
+EPISODES["mult01"] = ("episodes/mult01_error_parity/scene.py", "MultiplicationErrorParity")
+
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("episode", choices=EPISODES)
+    quantum_projects = {
+        "quantum01": ("ep01_planck", "both"), "quantum01_shorts": ("ep01_planck", "shorts"),
+        "quantum01_longform": ("ep01_planck", "longform"),
+        "quantum02": ("ep02_photoelectric", "both"), "quantum02_shorts": ("ep02_photoelectric", "shorts"),
+        "quantum02_longform": ("ep02_photoelectric", "longform"),
+        "quantum03": ("ep03_rutherford", "both"), "quantum03_shorts": ("ep03_rutherford", "shorts"),
+        "quantum03_longform": ("ep03_rutherford", "longform"),
+    }
+    projects = {
+        "qr01_shorts": ("qr01_new_directions", "shorts"),
+        "qr01_longform": ("qr01_new_directions", "longform"),
+        "qr02_shorts": ("qr02_triangular_structure/revisions/v2_96s", "shorts"),
+        "qr02_longform": ("qr02_triangular_structure/revisions/v2_96s", "longform"),
+        "qr03_shorts": ("qr03_diagonal_volume", "shorts"),
+        "qr03_longform": ("qr03_diagonal_volume", "longform"),
+        "qr04_shorts": ("qr04_qr_vs_svd", "shorts"),
+        "qr04_longform": ("qr04_qr_vs_svd", "longform"),
+        "qr05_shorts": ("qr05_eigenvalue_iteration", "shorts"),
+        "qr05_longform": ("qr05_eigenvalue_iteration", "longform"),
+        "qr_closing_longform": ("qr_series_closing", "longform"),
+        "qr04_least_squares_shorts": ("qr04_stable_least_squares", "shorts"),
+        "qr04_least_squares_longform": ("qr04_stable_least_squares", "longform"),
+        "evdsvd01_shorts": ("evdsvd01_names", "shorts"),
+        "evdsvd01_longform": ("evdsvd01_names", "longform"),
+        "evdsvd02_shorts": ("evdsvd02_conditions/revisions/v2_132s", "shorts"),
+        "evdsvd02_longform": ("evdsvd02_conditions/revisions/v2_132s", "longform"),
+        "evdsvd03_shorts": ("evdsvd03_structure/revisions/v2_153s", "shorts"),
+        "evdsvd03_longform": ("evdsvd03_structure/revisions/v2_153s", "longform"),
+        "evdsvd04_shorts": ("evdsvd04_values", "shorts"),
+        "evdsvd04_longform": ("evdsvd04_values", "longform"),
+        "evdsvd05_shorts": ("evdsvd05_future", "shorts"),
+        "evdsvd05_longform": ("evdsvd05_future", "longform"),
+        "evdsvd06_shorts": ("evdsvd06_reconstruction", "shorts"),
+        "evdsvd06_longform": ("evdsvd06_reconstruction", "longform"),
+        "evdsvd07_shorts": ("evdsvd07_inverse", "shorts"),
+        "evdsvd07_longform": ("evdsvd07_inverse", "longform"),
+        "evdsvd08_shorts": ("evdsvd08_final_choice", "shorts"),
+        "evdsvd08_longform": ("evdsvd08_final_choice", "longform"),
+    }
+    p.add_argument("episode", choices=[*EPISODES, *projects, *quantum_projects])
     p.add_argument("--preview", action="store_true")
     a = p.parse_args()
+    if a.episode in quantum_projects:
+        quantum_project, quantum_layout = quantum_projects[a.episode]
+        command = [sys.executable, str(ROOT / "quantum_series" / "episodes" / quantum_project / "build.py"),
+                   "--layout", quantum_layout]
+        if a.preview:
+            command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode in projects:
+        project, layout = projects[a.episode]
+        command = [sys.executable, str(ROOT / "longforms" / project / "build.py"), "--layout", layout]
+        if a.preview:
+            command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
     source, scene = EPISODES[a.episode]
     env = os.environ.copy()
-    env.update(VIDEO_WIDTH="360" if a.preview else "1080", VIDEO_HEIGHT="640" if a.preview else "1920")
+    if a.episode in ("nncalc01", "nncalc02", "nncalc03", "nncalc04", "nncalc05", "nncalc06", "nncalc07", "nncalc08"):
+        env.update(VIDEO_WIDTH="640" if a.preview else "1920", VIDEO_HEIGHT="360" if a.preview else "1080")
+    else:
+        env.update(VIDEO_WIDTH="360" if a.preview else "1080", VIDEO_HEIGHT="640" if a.preview else "1920")
     media = ROOT / "media" / a.episode / ("preview" if a.preview else "final")
     subprocess.run([sys.executable, "-m", "manim", "render", source, scene, "--media_dir", str(media)], cwd=ROOT, env=env, check=True)
     latest = max((media / "videos").rglob(scene + ".mp4"), key=lambda p: p.stat().st_mtime)
     output = ROOT / "exports" / (a.episode + ("_preview" if a.preview else "") + ".mp4")
     output.parent.mkdir(exist_ok=True)
     shutil.copy2(latest, output)
+    if a.episode == "mult01":
+        # Manim's partial-clip concatenation can introduce millisecond PTS drift.
+        # Assign all 3060 frames their exact 30fps presentation timestamps.
+        normalized = output.with_name(output.stem + "_cfr.mp4")
+        subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", str(output),
+                        "-vf", "setpts=N/(30*TB)", "-r", "30", "-fps_mode", "cfr",
+                        "-c:v", "libx264", "-preset", "fast", "-crf", "18", "-pix_fmt", "yuv420p",
+                        "-an", "-movflags", "+faststart", str(normalized)], check=True)
+        normalized.replace(output)
     print(f"Export: {output}")
 if __name__ == "__main__":
     main()

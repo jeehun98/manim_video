@@ -1,0 +1,83 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_question",
+    "start": 0,
+    "end": 13,
+    "duration_seconds": 13,
+    "claim": "모든 가중치를 독립적으로 조정해야 할까?",
+    "class": "Scene01"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_research",
+    "start": 13,
+    "end": 29,
+    "duration_seconds": 16,
+    "claim": "신경망을 유지하고 학습 제어만 바꾼다",
+    "class": "Scene02"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_three_weights",
+    "start": 29,
+    "end": 48,
+    "duration_seconds": 19,
+    "claim": "세 가중치가 하나의 변수에 따라 직선 위에서 움직인다",
+    "class": "Scene03"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_projection",
+    "start": 48,
+    "end": 59,
+    "duration_seconds": 11,
+    "claim": "고정된 무작위 방향으로 전체 가중치를 조정한다",
+    "class": "Scene04"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_result",
+    "start": 59,
+    "end": 76,
+    "duration_seconds": 17,
+    "claim": "199,210개 파라미터와 약 750개 학습 변수",
+    "class": "Scene05"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_connections",
+    "start": 76,
+    "end": 87,
+    "duration_seconds": 11,
+    "claim": "모든 연결은 계산에 그대로 사용된다",
+    "class": "Scene06"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_measurement",
+    "start": 87,
+    "end": 104,
+    "duration_seconds": 17,
+    "claim": "성능 기준에 도달하는 무작위 부분공간 차원을 측정한다",
+    "class": "Scene07"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_conditions",
+    "start": 104,
+    "end": 116,
+    "duration_seconds": 12,
+    "claim": "내재 차원은 문제와 모델과 성능 기준에 따라 달라진다",
+    "class": "Scene08"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_conclusion",
+    "start": 116,
+    "end": 129,
+    "duration_seconds": 13,
+    "claim": "파라미터 수와 학습 자유도는 다를 수 있다",
+    "class": "Scene09"
+  }
+]

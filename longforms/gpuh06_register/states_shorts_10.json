@@ -1,0 +1,142 @@
+[
+  {
+    "kind": "identity",
+    "time": 95.0,
+    "thread": 2,
+    "block": 0,
+    "sm": 0,
+    "register_location": "SM 0",
+    "mini_thread_center": [
+      -2.65,
+      4.65,
+      0.0
+    ],
+    "register_center": [
+      -0.44999999999999996,
+      4.65,
+      0.0
+    ],
+    "sm_bounds": [
+      -3.5,
+      1.2000000000000002,
+      3.5300000000000002,
+      5.21
+    ]
+  },
+  {
+    "kind": "memory_layout",
+    "time": 95.0,
+    "thread": 2,
+    "mini_thread_center": [
+      -2.65,
+      4.65,
+      0.0
+    ],
+    "register_center": [
+      -0.44999999999999996,
+      4.65,
+      0.0
+    ],
+    "sm": [
+      -3.5,
+      1.2000000000000002,
+      3.5300000000000002,
+      5.21
+    ],
+    "register": [
+      -1.7,
+      0.8,
+      4.4,
+      4.9
+    ],
+    "shared": [
+      -3.26,
+      -1.0399999999999998,
+      3.7200000000000006,
+      4.12
+    ],
+    "l1": [
+      -0.81,
+      0.81,
+      3.7200000000000006,
+      4.12
+    ],
+    "l2": [
+      1.5099999999999998,
+      3.29,
+      4.390000000000001,
+      4.87
+    ],
+    "dram": [
+      1.435,
+      3.365,
+      3.66,
+      4.140000000000001
+    ],
+    "register_parent": "SM 0",
+    "l2_scope": "GPU-wide",
+    "dram_location": "device memory outside SM",
+    "register_to_shared_serial_path": false
+  },
+  {
+    "kind": "residency",
+    "time": 95.0,
+    "register_budget": 32768,
+    "registers_per_thread": 32,
+    "block_threads": 128,
+    "resident_blocks": 8,
+    "resident_warps": 32,
+    "max_warps": 32,
+    "hypothetical": true,
+    "performance_ratio": null
+  },
+  {
+    "kind": "map_budget",
+    "time": 95.0,
+    "registers_per_thread": 32,
+    "block_count": 8,
+    "warp_count": 32,
+    "segments": 8,
+    "segment_fraction": 0.125,
+    "hypothetical": true
+  },
+  {
+    "kind": "residency",
+    "time": 99.4,
+    "register_budget": 32768,
+    "registers_per_thread": 64,
+    "block_threads": 128,
+    "resident_blocks": 4,
+    "resident_warps": 16,
+    "max_warps": 32,
+    "hypothetical": true,
+    "performance_ratio": null
+  },
+  {
+    "kind": "map_budget",
+    "time": 100.1,
+    "registers_per_thread": 64,
+    "block_count": 4,
+    "warp_count": 16,
+    "segments": 4,
+    "segment_fraction": 0.25,
+    "hypothetical": true
+  },
+  {
+    "kind": "final_identity",
+    "thread": 2,
+    "block": 0,
+    "sm": 0,
+    "register_location": "SM 0",
+    "mini_thread_center": [
+      -2.65,
+      4.65,
+      0.0
+    ],
+    "register_center": [
+      -0.44999999999999996,
+      4.65,
+      0.0
+    ]
+  }
+]

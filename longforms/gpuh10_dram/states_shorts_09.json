@@ -1,0 +1,37 @@
+[
+  {
+    "time": 105.6,
+    "kind": "flow",
+    "value": "PRECHARGE",
+    "label": "설명용 DRAM 명령: PRECHARGE"
+  },
+  {
+    "time": 106.5,
+    "kind": "flow",
+    "value": "ACTIVATE",
+    "label": "설명용 DRAM 명령: ACTIVATE"
+  },
+  {
+    "time": 107.4,
+    "kind": "flow",
+    "value": "READ",
+    "label": "설명용 DRAM 명령: READ"
+  },
+  {
+    "kind": "bank_read",
+    "time": 108.167,
+    "read_value_source": "Row Buffer",
+    "bank": 0,
+    "row": 3,
+    "col": 2,
+    "before": 1,
+    "after": 3,
+    "commands": [
+      "PRECHARGE",
+      "ACTIVATE",
+      "READ"
+    ],
+    "value": 26,
+    "conceptual": true
+  }
+]

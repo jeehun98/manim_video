@@ -1,0 +1,209 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_open",
+    "start": 0,
+    "end": 5,
+    "duration_seconds": 5,
+    "class": "Reconstruction01",
+    "title": "ROUND 06 · 복원 정확도"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_recombine",
+    "start": 5,
+    "end": 9,
+    "duration_seconds": 4,
+    "class": "Reconstruction02",
+    "title": "분해 → 합성 → 원본"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_discard",
+    "start": 9,
+    "end": 13,
+    "duration_seconds": 4,
+    "class": "Reconstruction03",
+    "title": "성분 일부만 남긴다면?"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_fair",
+    "start": 13,
+    "end": 22,
+    "duration_seconds": 9,
+    "class": "Reconstruction04",
+    "title": "같은 원본 · 같은 성분 수"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_evd",
+    "start": 22,
+    "end": 28,
+    "duration_seconds": 6,
+    "class": "Reconstruction05",
+    "title": "EVD · 고유성분의 합"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_choose",
+    "start": 28,
+    "end": 34,
+    "duration_seconds": 6,
+    "class": "Reconstruction06",
+    "title": "큰 고윳값부터 남기면?"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_oblique",
+    "start": 34,
+    "end": 38,
+    "duration_seconds": 4,
+    "class": "Reconstruction07",
+    "title": "고유벡터는 직교하지 않을 수 있다"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_cancel",
+    "start": 38,
+    "end": 43,
+    "duration_seconds": 5,
+    "class": "Reconstruction08",
+    "title": "같은 칸에서 효과가 상쇄"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_break",
+    "start": 43,
+    "end": 47,
+    "duration_seconds": 4,
+    "class": "Reconstruction09",
+    "title": "하나를 버리면 상쇄도 사라진다"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_evd_result",
+    "start": 47,
+    "end": 52,
+    "duration_seconds": 5,
+    "class": "Reconstruction10",
+    "title": "큰 고윳값 ≠ 최적 복원 보장"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_svd",
+    "start": 52,
+    "end": 58,
+    "duration_seconds": 6,
+    "class": "Reconstruction11",
+    "title": "SVD · 랭크 1 성분의 합"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_orthogonal",
+    "start": 58,
+    "end": 68,
+    "duration_seconds": 10,
+    "class": "Reconstruction12",
+    "title": "행렬을 펼쳤을 때의 직교"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_error",
+    "start": 68,
+    "end": 75,
+    "duration_seconds": 7,
+    "class": "Reconstruction13",
+    "title": "제거한 성분의 σ²만큼 오차 증가"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_large",
+    "start": 75,
+    "end": 79,
+    "duration_seconds": 4,
+    "class": "Reconstruction14",
+    "title": "큰 특이값을 남기는 이유"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15_optimal",
+    "start": 79,
+    "end": 88,
+    "duration_seconds": 9,
+    "class": "Reconstruction15",
+    "title": "같은 랭크 이하에서 최소 오차"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16_best",
+    "start": 88,
+    "end": 91,
+    "duration_seconds": 3,
+    "class": "Reconstruction16",
+    "title": "최적 저랭크 근사"
+  },
+  {
+    "id": "17",
+    "directory": "scenes/17_experiment",
+    "start": 91,
+    "end": 97,
+    "duration_seconds": 6,
+    "class": "Reconstruction17",
+    "title": "10개 중 5개 · 같은 실험"
+  },
+  {
+    "id": "18",
+    "directory": "scenes/18_evd_actual",
+    "start": 97,
+    "end": 103,
+    "duration_seconds": 6,
+    "class": "Reconstruction18",
+    "title": "EVD · 큰 고윳값 5개"
+  },
+  {
+    "id": "19",
+    "directory": "scenes/19_svd_actual",
+    "start": 103,
+    "end": 109,
+    "duration_seconds": 6,
+    "class": "Reconstruction19",
+    "title": "SVD · 큰 특이값 5개"
+  },
+  {
+    "id": "20",
+    "directory": "scenes/20_symmetric",
+    "start": 109,
+    "end": 115,
+    "duration_seconds": 6,
+    "class": "Reconstruction20",
+    "title": "대칭행렬에서는 같은 최적 근사도 가능"
+  },
+  {
+    "id": "21",
+    "directory": "scenes/21_guarantee",
+    "start": 115,
+    "end": 119,
+    "duration_seconds": 4,
+    "class": "Reconstruction21",
+    "title": "일반적인 행렬에서의 최적 보장"
+  },
+  {
+    "id": "22",
+    "directory": "scenes/22_verdict",
+    "start": 119,
+    "end": 128,
+    "duration_seconds": 9,
+    "class": "Reconstruction22",
+    "title": "ROUND 06 · SVD 승"
+  },
+  {
+    "id": "23",
+    "directory": "scenes/23_score",
+    "start": 128,
+    "end": 133,
+    "duration_seconds": 5,
+    "class": "Reconstruction23",
+    "title": "EVD 3 : 3 SVD"
+  }
+]

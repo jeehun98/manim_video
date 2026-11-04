@@ -1,0 +1,14 @@
+{
+  "shorts": {
+    "max_caption_height": 1.6823791254521434,
+    "panel_height": 2.25,
+    "sentences": 35,
+    "all_fit": true
+  },
+  "longform": {
+    "max_caption_height": 1.000968926371311,
+    "panel_height": 1.4,
+    "sentences": 35,
+    "all_fit": true
+  }
+}

@@ -1,0 +1,1 @@
+PASS readData all256; A5=6 B5=12; no cache/DRAM state or timing measured

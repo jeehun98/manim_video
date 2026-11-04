@@ -1,0 +1,34 @@
+{
+  "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\nncalc02_shorts.mp4",
+  "duration": 164.997396,
+  "width": 1080,
+  "height": 1920,
+  "fps": "30/1",
+  "audio_streams": 0,
+  "timing_basis": "user_provided_cumulative_sentence_end_times",
+  "user_sentence_ends_verified": true,
+  "cues": 33,
+  "sections": 19,
+  "narration_tts_consistent": true,
+  "caption_layout_verified": true,
+  "input_positions": 5,
+  "prediction_slot_is_input": false,
+  "qk_selection": [
+    5,
+    2
+  ],
+  "ov_information_flow": [
+    2,
+    5
+  ],
+  "contact_sheets": [
+    "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\nncalc02_shorts\\qa\\final_sheet_1.jpg",
+    "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\nncalc02_shorts\\qa\\final_sheet_2.jpg",
+    "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\nncalc02_shorts\\qa\\final_sheet_3.jpg"
+  ],
+  "critical_frames": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\nncalc02_shorts\\qa\\final_critical.jpg",
+  "visual_review": "19 scene frames reviewed in preview; final QK/OV, preceding-token features, learning and ablation frames reviewed; no clipping found",
+  "audio_file_supplied": false,
+  "audio_sync_verified": false,
+  "actual_model_experiment": false
+}

@@ -1,0 +1,39 @@
+duration_seconds: 101
+timing_source: user_sentence_end_times
+scenes:
+  - id: "01"
+    directory: scenes/01_scene
+    class: Projection01
+    duration_seconds: 11
+  - id: "02"
+    directory: scenes/02_scene
+    class: Projection02
+    duration_seconds: 8
+  - id: "03"
+    directory: scenes/03_scene
+    class: Projection03
+    duration_seconds: 8
+  - id: "04"
+    directory: scenes/04_scene
+    class: Projection04
+    duration_seconds: 11
+  - id: "05"
+    directory: scenes/05_scene
+    class: Projection05
+    duration_seconds: 11
+  - id: "06"
+    directory: scenes/06_scene
+    class: Projection06
+    duration_seconds: 13
+  - id: "07"
+    directory: scenes/07_scene
+    class: Projection07
+    duration_seconds: 16
+  - id: "08"
+    directory: scenes/08_scene
+    class: Projection08
+    duration_seconds: 11
+  - id: "09"
+    directory: scenes/09_scene
+    class: Projection09
+    duration_seconds: 12

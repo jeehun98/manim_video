@@ -1,0 +1,26 @@
+[
+  {
+    "time": 15.4,
+    "kind": "flow",
+    "value": "접근",
+    "label": "SM 0의 Global 접근"
+  },
+  {
+    "time": 15.8,
+    "kind": "flow",
+    "value": "접근",
+    "label": "여러 SM이 같은 Global 주소 공간에 접근"
+  },
+  {
+    "time": 16.2,
+    "kind": "flow",
+    "value": "접근",
+    "label": "여러 SM이 같은 Global 주소 공간에 접근"
+  },
+  {
+    "time": 16.6,
+    "kind": "flow",
+    "value": "접근",
+    "label": "여러 SM이 같은 Global 주소 공간에 접근"
+  }
+]

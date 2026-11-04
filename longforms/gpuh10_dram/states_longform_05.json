@@ -1,0 +1,20 @@
+[
+  {
+    "time": 63.4,
+    "kind": "flow",
+    "value": "A[5]",
+    "label": "L2 아래 메모리 시스템을 통해 컨트롤러로 전달"
+  },
+  {
+    "time": 67.4,
+    "kind": "flow",
+    "value": "READ",
+    "label": "컨트롤러가 필요한 DRAM 읽기 명령 처리"
+  },
+  {
+    "kind": "controller_request",
+    "request": "A[5]",
+    "role": "DRAM read/write and timing",
+    "virtual_translation_only_here": false
+  }
+]

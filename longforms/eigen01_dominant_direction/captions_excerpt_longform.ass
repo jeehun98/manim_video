@@ -1,0 +1,32 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Malgun Gothic,46,&H00F7F3ED,&H00F7F3ED,&H00101A26,&H80000000,0,0,0,0,100,100,0,0,1,0,0,2,65,65,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.00,Default,,0,0,0,,평면 위에 벡터 하나를 놓아보겠습니다.
+Dialogue: 0,0:00:03.00,0:00:12.00,Default,,0,0,0,,같은 행렬을 반복해서 적용하면 벡터의 방향이 달라집니다.
+Dialogue: 0,0:00:12.00,0:00:19.00,Default,,0,0,0,,반복할수록 벡터가 특정한 방향을 향하기 시작합니다.
+Dialogue: 0,0:00:19.00,0:00:26.00,Default,,0,0,0,,길이를 일정하게 맞추고 방향의 변화만 관찰하겠습니다.
+Dialogue: 0,0:00:26.00,0:00:34.00,Default,,0,0,0,,서로 다른 방향의 벡터들도 하나의 직선 방향으로 정렬됩니다.
+Dialogue: 0,0:00:34.00,0:00:45.00,Default,,0,0,0,,어떤 방향에서는 변환 후에도 벡터가 원래의 직선 위에 남습니다.
+Dialogue: 0,0:00:45.00,0:00:55.00,Default,,0,0,0,,한 방향은 길이가 3배로 늘어나고 다른 방향은 그대로 유지됩니다.
+Dialogue: 0,0:00:55.00,0:01:00.00,Default,,0,0,0,,같은 직선 위에 남는 특별한 방향을 고유방향이라고 합니다.
+Dialogue: 0,0:01:00.00,0:01:04.00,Default,,0,0,0,,그 방향 위의 영벡터가 아닌 벡터가 고유벡터입니다.
+Dialogue: 0,0:01:04.00,0:01:09.00,Default,,0,0,0,,고유벡터를 몇 배로 바꾸는지 나타내는 수가 고윳값입니다.
+Dialogue: 0,0:01:09.00,0:01:14.00,Default,,0,0,0,,고윳값은 첫 방향에서 3, 두 번째 방향에서 1입니다.
+Dialogue: 0,0:01:14.00,0:01:20.00,Default,,0,0,0,,고유방향과 고윳값은 행렬의 변환 방식이 결정합니다.
+Dialogue: 0,0:01:20.00,0:01:24.00,Default,,0,0,0,,지금 선택한 벡터에는 두 고유성분이 섞여 있습니다.
+Dialogue: 0,0:01:24.00,0:01:28.00,Default,,0,0,0,,한 번 적용하면 첫 성분은 3배, 두 번째 성분은 그대로입니다.
+Dialogue: 0,0:01:28.00,0:01:32.00,Default,,0,0,0,,두 번 적용하면 첫 성분은 처음의 9배가 됩니다.
+Dialogue: 0,0:01:32.00,0:01:36.00,Default,,0,0,0,,세 번 적용하면 첫 성분은 처음의 27배가 됩니다.
+Dialogue: 0,0:01:36.00,0:01:45.00,Default,,0,0,0,,더 크게 자라는 성분이 압도하면 전체 방향도 그쪽으로 향합니다.
+Dialogue: 0,0:01:45.00,0:01:54.00,Default,,0,0,0,,처음에 그 고유성분이 없다면 그 방향으로 수렴하지 않습니다.
+Dialogue: 0,0:01:54.00,0:01:59.00,Default,,0,0,0,,더 크게 증폭되는 고유성분이 전체 벡터의 방향을 결정합니다.

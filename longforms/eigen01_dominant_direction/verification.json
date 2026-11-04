@@ -1,0 +1,29 @@
+{
+  "duration_source": "user storyboard",
+  "audio": "not provided; silent video",
+  "visual_qa": "preview contact sheets at 17 portrait and 15 landscape timestamps; no clipping observed",
+  "finals": [
+    {
+      "layout": "shorts",
+      "file": "exports\\eigen01_119s_shorts_final.mp4",
+      "decode": "pass",
+      "codec_type": "video",
+      "width": 1080,
+      "height": 1920,
+      "r_frame_rate": "30/1",
+      "duration": "119.000000",
+      "nb_read_frames": "3570"
+    },
+    {
+      "layout": "longform",
+      "file": "exports\\eigen01_119s_longform_final.mp4",
+      "decode": "pass",
+      "codec_type": "video",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "30/1",
+      "duration": "119.000000",
+      "nb_read_frames": "3570"
+    }
+  ]
+}

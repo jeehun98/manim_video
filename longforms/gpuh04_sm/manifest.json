@@ -1,0 +1,146 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_scene",
+    "title": "블록과 워프의 실제 실행 공간",
+    "start": 0,
+    "end": 19,
+    "duration_seconds": 19,
+    "class": "SM01"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_scene",
+    "title": "SM 내부의 실행 자원",
+    "start": 19,
+    "end": 29,
+    "duration_seconds": 10,
+    "class": "SM02"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_scene",
+    "title": "한 SM에 상주하는 Block",
+    "start": 29,
+    "end": 42,
+    "duration_seconds": 13,
+    "class": "SM03"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_scene",
+    "title": "준비된 Warp의 명령 발행",
+    "start": 42,
+    "end": 52,
+    "duration_seconds": 10,
+    "class": "SM04"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_scene",
+    "title": "Load → Compute → Store",
+    "start": 52,
+    "end": 66,
+    "duration_seconds": 14,
+    "class": "SM05"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_scene",
+    "title": "데이터가 도착하지 않았다면",
+    "start": 66,
+    "end": 78,
+    "duration_seconds": 12,
+    "class": "SM06"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_scene",
+    "title": "Warp 0은 SM 안에서 대기",
+    "start": 78,
+    "end": 82,
+    "duration_seconds": 4,
+    "class": "SM07"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_scene",
+    "title": "다른 Warp 발행 · Warp 0 재개",
+    "start": 82,
+    "end": 95,
+    "duration_seconds": 13,
+    "class": "SM08"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_scene",
+    "title": "Latency Hiding",
+    "start": 95,
+    "end": 103,
+    "duration_seconds": 8,
+    "class": "SM09"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_scene",
+    "title": "상주 수를 제한하는 자원",
+    "start": 103,
+    "end": 119,
+    "duration_seconds": 16,
+    "class": "SM10"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_scene",
+    "title": "Occupancy = 상주 Warp 비율",
+    "start": 119,
+    "end": 130,
+    "duration_seconds": 11,
+    "class": "SM11"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_scene",
+    "title": "높은 Occupancy와 실행 성능",
+    "start": 130,
+    "end": 140,
+    "duration_seconds": 10,
+    "class": "SM12"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_scene",
+    "title": "Block 배치는 하드웨어가 결정",
+    "start": 140,
+    "end": 154,
+    "duration_seconds": 14,
+    "class": "SM13"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_scene",
+    "title": "Thread · Warp · Block",
+    "start": 154,
+    "end": 162,
+    "duration_seconds": 8,
+    "class": "SM14"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15_scene",
+    "title": "SM에서 실제로 명령 실행",
+    "start": 162,
+    "end": 169,
+    "duration_seconds": 7,
+    "class": "SM15"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16_scene",
+    "title": "계산과 대기를 겹치는 구조",
+    "start": 169,
+    "end": 178,
+    "duration_seconds": 9,
+    "class": "SM16"
+  }
+]

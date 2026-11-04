@@ -1,0 +1,26 @@
+[
+  {
+    "time": 72.3,
+    "kind": "flow",
+    "value": 6,
+    "label": "DRAM → Controller → 캐시/메모리 시스템 → SM · 값 6"
+  },
+  {
+    "kind": "load_return",
+    "value": 6,
+    "route": [
+      "DRAM",
+      "Controller",
+      "L2",
+      "L1",
+      "Register"
+    ],
+    "conceptual": true
+  },
+  {
+    "kind": "compute",
+    "input": 6,
+    "multiplier": 2,
+    "result": 12
+  }
+]

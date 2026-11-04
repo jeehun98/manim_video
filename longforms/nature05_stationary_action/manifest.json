@@ -1,0 +1,245 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_sequence",
+    "start": 0,
+    "end": 4,
+    "duration_seconds": 4,
+    "title": "운동의 전체 경로를 설명하는 원리",
+    "class": "ActionShot"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_sequence",
+    "start": 4,
+    "end": 11,
+    "duration_seconds": 7,
+    "title": "매 순간의 힘 · 뉴턴의 관점",
+    "class": "ActionShot"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_sequence",
+    "start": 11,
+    "end": 18,
+    "duration_seconds": 7,
+    "title": "속도는 변하고 가속도는 일정하다",
+    "class": "ActionShot"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_sequence",
+    "start": 18,
+    "end": 21,
+    "duration_seconds": 3,
+    "title": "같은 운동을 다른 관점으로",
+    "class": "ActionShot"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_sequence",
+    "start": 21,
+    "end": 28,
+    "duration_seconds": 7,
+    "title": "위치와 시간을 함께 고정한다",
+    "class": "ActionShot"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_sequence",
+    "start": 28,
+    "end": 37,
+    "duration_seconds": 9,
+    "title": "가능한 여러 운동 이력",
+    "class": "ActionShot"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_sequence",
+    "start": 37,
+    "end": 42,
+    "duration_seconds": 5,
+    "title": "운동은 위치와 시간을 함께 담는다",
+    "class": "ActionShot"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_sequence",
+    "start": 42,
+    "end": 45,
+    "duration_seconds": 3,
+    "title": "실제 운동의 특별한 조건은?",
+    "class": "ActionShot"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_sequence",
+    "start": 45,
+    "end": 54,
+    "duration_seconds": 9,
+    "title": "두 에너지의 합에서 차이로",
+    "class": "ActionShot"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_sequence",
+    "start": 54,
+    "end": 58,
+    "duration_seconds": 4,
+    "title": "라그랑지안 · Lagrangian",
+    "class": "ActionShot"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_sequence",
+    "start": 58,
+    "end": 65,
+    "duration_seconds": 7,
+    "title": "시간 전체에 걸쳐 더하면 작용",
+    "class": "ActionShot"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_sequence",
+    "start": 65,
+    "end": 71,
+    "duration_seconds": 6,
+    "title": "운동 이력 전체 → 하나의 작용값",
+    "class": "ActionShot"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_sequence",
+    "start": 71,
+    "end": 75,
+    "duration_seconds": 4,
+    "title": "실제 운동 궤적에 집중한다",
+    "class": "ActionShot"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_sequence",
+    "start": 75,
+    "end": 82,
+    "duration_seconds": 7,
+    "title": "끝점은 고정 · 중간 부분만 변형",
+    "class": "ActionShot"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15_sequence",
+    "start": 82,
+    "end": 84,
+    "duration_seconds": 2,
+    "title": "작용의 일차 변화량이 0",
+    "class": "ActionShot"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16_sequence",
+    "start": 84,
+    "end": 94,
+    "duration_seconds": 10,
+    "title": "정지작용 ≠ 항상 최소작용",
+    "class": "ActionShot"
+  },
+  {
+    "id": "17",
+    "directory": "scenes/17_sequence",
+    "start": 94,
+    "end": 99,
+    "duration_seconds": 5,
+    "title": "정지 조건과 뉴턴 법칙의 관계",
+    "class": "ActionShot"
+  },
+  {
+    "id": "18",
+    "directory": "scenes/18_sequence",
+    "start": 99,
+    "end": 107,
+    "duration_seconds": 8,
+    "title": "공의 운동으로 라그랑지안을 만든다",
+    "class": "ActionShot"
+  },
+  {
+    "id": "19",
+    "directory": "scenes/19_sequence",
+    "start": 107,
+    "end": 112,
+    "duration_seconds": 5,
+    "title": "위치와 속도를 함께 변형한다",
+    "class": "ActionShot"
+  },
+  {
+    "id": "20",
+    "directory": "scenes/20_sequence",
+    "start": 112,
+    "end": 119,
+    "duration_seconds": 7,
+    "title": "변분에서 가속도 조건이 나타난다",
+    "class": "ActionShot"
+  },
+  {
+    "id": "21",
+    "directory": "scenes/21_sequence",
+    "start": 119,
+    "end": 121,
+    "duration_seconds": 2,
+    "title": "다시 나타나는 뉴턴의 운동법칙",
+    "class": "ActionShot"
+  },
+  {
+    "id": "22",
+    "directory": "scenes/22_sequence",
+    "start": 121,
+    "end": 130,
+    "duration_seconds": 9,
+    "title": "두 관점 · 같은 운동방정식",
+    "class": "ActionShot"
+  },
+  {
+    "id": "23",
+    "directory": "scenes/23_sequence",
+    "start": 130,
+    "end": 139,
+    "duration_seconds": 9,
+    "title": "물체는 현재의 힘에 반응한다",
+    "class": "ActionShot"
+  },
+  {
+    "id": "24",
+    "directory": "scenes/24_sequence",
+    "start": 139,
+    "end": 143,
+    "duration_seconds": 4,
+    "title": "운동 전체를 하나의 조건으로",
+    "class": "ActionShot"
+  },
+  {
+    "id": "25",
+    "directory": "scenes/25_sequence",
+    "start": 143,
+    "end": 152,
+    "duration_seconds": 9,
+    "title": "최소화만이 전부는 아니다",
+    "class": "ActionShot"
+  },
+  {
+    "id": "26",
+    "directory": "scenes/26_sequence",
+    "start": 152,
+    "end": 158,
+    "duration_seconds": 6,
+    "title": "더 일반적인 조건 · 일차 변분 0",
+    "class": "ActionShot"
+  },
+  {
+    "id": "27",
+    "directory": "scenes/27_sequence",
+    "start": 158,
+    "end": 162,
+    "duration_seconds": 4,
+    "title": "서로 다른 물리법칙 · 공통된 수학",
+    "class": "ActionShot"
+  }
+]

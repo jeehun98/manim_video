@@ -1,0 +1,32 @@
+{
+  "data_A": {
+    "n": 5,
+    "sum": 15.0,
+    "mean": 3.0,
+    "sum_squares": 55.0,
+    "centered_sum_squares": 10.0
+  },
+  "data_B": {
+    "n": 5,
+    "sum": 15.0,
+    "mean": 3.0,
+    "sum_squares": 81.0,
+    "centered_sum_squares": 36.0
+  },
+  "known_variance": 4.0,
+  "relative_curve_max_error": 1.2212453270876722e-15,
+  "relative_formula_max_error": 6.661338147750939e-16,
+  "expansion_max_error": 5.684341886080802e-14,
+  "absolute_B_to_A_ratio": 0.03877420783172201,
+  "absolute_likelihood_at_mu3": {
+    "A": 9.047576177478438e-05,
+    "B": 3.5081259907888595e-06
+  },
+  "unknown_variance_ratios": {
+    "1.0": 2.2603294069810542e-06,
+    "4.0": 0.03877420783172201,
+    "9.0": 0.23587708298569995
+  },
+  "symbolic_relative_curve": "exp[-n*(mu-xbar)^2/(2*sigma^2)]",
+  "minimality": "For fixed n and known variance, L(x;mu)/L(y;mu) is independent of mu iff sum(x)=sum(y)."
+}

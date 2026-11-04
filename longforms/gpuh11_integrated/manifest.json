@@ -1,0 +1,146 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_scene",
+    "title": "하나의 CUDA 프로그램으로 연결되는 GPU",
+    "start": 0,
+    "end": 18,
+    "duration_seconds": 18,
+    "class": "Integrated01"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_scene",
+    "title": "끝까지 추적할 계산 · 벡터 덧셈",
+    "start": 18,
+    "end": 26,
+    "duration_seconds": 8,
+    "class": "Integrated02"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_scene",
+    "title": "Grid의 4개 Block · Block당 128 Thread",
+    "start": 26,
+    "end": 43,
+    "duration_seconds": 17,
+    "class": "Integrated03"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_scene",
+    "title": "Block 1의 Thread 5 → 배열 위치 133",
+    "start": 43,
+    "end": 53,
+    "duration_seconds": 10,
+    "class": "Integrated04"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_scene",
+    "title": "논리적 작업을 실제 SM에 배치",
+    "start": 53,
+    "end": 72,
+    "duration_seconds": 19,
+    "class": "Integrated05"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_scene",
+    "title": "Register와 선택적인 Shared Memory",
+    "start": 72,
+    "end": 81,
+    "duration_seconds": 9,
+    "class": "Integrated06"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_scene",
+    "title": "같은 Thread가 요청하는 A[133]와 B[133]",
+    "start": 81,
+    "end": 95,
+    "duration_seconds": 14,
+    "class": "Integrated07"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_scene",
+    "title": "캐시와 DRAM · 같은 Load의 다른 공급 경로",
+    "start": 95,
+    "end": 105,
+    "duration_seconds": 10,
+    "class": "Integrated08"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_scene",
+    "title": "4 + 7 = 11 · 계산과 Global Store",
+    "start": 105,
+    "end": 115,
+    "duration_seconds": 10,
+    "class": "Integrated09"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_scene",
+    "title": "하나의 코드가 512개의 계산으로",
+    "start": 115,
+    "end": 133,
+    "duration_seconds": 18,
+    "class": "Integrated10"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_scene",
+    "title": "상주 규모를 제한하는 하드웨어 자원",
+    "start": 133,
+    "end": 145,
+    "duration_seconds": 12,
+    "class": "Integrated11"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_scene",
+    "title": "주소 패턴이 바꾸는 데이터 이동",
+    "start": 145,
+    "end": 151,
+    "duration_seconds": 6,
+    "class": "Integrated12"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_scene",
+    "title": "누가 · 어디서 · 데이터를 어디에서",
+    "start": 151,
+    "end": 163,
+    "duration_seconds": 12,
+    "class": "Integrated13"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_scene",
+    "title": "실행 조직과 하드웨어·메모리의 연결",
+    "start": 163,
+    "end": 178,
+    "duration_seconds": 15,
+    "class": "Integrated14"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15_scene",
+    "title": "하나의 Kernel에서 GPU 실행까지",
+    "start": 178,
+    "end": 183,
+    "duration_seconds": 5,
+    "class": "Integrated15"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16_scene",
+    "title": "GPU HIERARCHY — COMPLETE",
+    "start": 183,
+    "end": 191,
+    "duration_seconds": 8,
+    "class": "Integrated16"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\nncalc01.mp4",
+  "duration": 171.990885,
+  "width": 1080,
+  "height": 1920,
+  "fps": "30/1",
+  "audio_streams": 0,
+  "timing_source": "estimated, not audio measured",
+  "narration_tts_consistent": true,
+  "sections": 16,
+  "contact_sheets": [
+    "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\nncalc01\\qa\\final_sheet_1.jpg",
+    "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\nncalc01\\qa\\final_sheet_2.jpg"
+  ],
+  "visual_review": "16 section frames inspected; corrected panel spacing and arrow-text overlap; no clipping found",
+  "caption_layout": "40 captions checked; maximum height 1.372 scene units inside 2.05-unit reserved panel",
+  "depth_checks": {
+    "(())": [
+      0,
+      1,
+      2,
+      1,
+      0
+    ],
+    "())(": [
+      0,
+      1,
+      0,
+      -1,
+      0
+    ]
+  },
+  "actual_neural_network_experiment": false,
+  "audio_sync_verified": false
+}

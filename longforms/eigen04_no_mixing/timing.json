@@ -1,0 +1,290 @@
+{
+  "source": "사용자 제공 문장 종료 시각",
+  "duration_seconds": 115,
+  "sentences": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "행렬은 벡터를 변환할 때, 서로 다른 좌표 성분을 섞기도 합니다."
+    },
+    {
+      "id": 2,
+      "start": 4,
+      "end": 8,
+      "text": "그런데 좌표계를 잘 선택하면, 이러한 성분의 섞임을 완전히 없앨 수 있을까요?"
+    },
+    {
+      "id": 3,
+      "start": 8,
+      "end": 10,
+      "text": "하나의 행렬을 살펴보겠습니다."
+    },
+    {
+      "id": 4,
+      "start": 10,
+      "end": 16,
+      "text": "이 행렬에 벡터를 입력하면, 첫 번째 출력 성분에는 두 입력 성분이 모두 영향을 줍니다."
+    },
+    {
+      "id": 5,
+      "start": 16,
+      "end": 18,
+      "text": "두 번째 출력 성분도 마찬가지입니다."
+    },
+    {
+      "id": 6,
+      "start": 18,
+      "end": 20,
+      "text": "이번에는 좌표축을 바꿔보겠습니다."
+    },
+    {
+      "id": 7,
+      "start": 20,
+      "end": 27,
+      "text": "좌표축은 반드시 수평과 수직일 필요가 없습니다. 서로 독립적인 두 벡터라면 새로운 좌표계의 기저로 선택할 수 있습니다."
+    },
+    {
+      "id": 8,
+      "start": 27,
+      "end": 32,
+      "text": "하지만 아무 좌표계나 선택한다고 성분의 섞임이 사라지는 것은 아닙니다."
+    },
+    {
+      "id": 9,
+      "start": 32,
+      "end": 35,
+      "text": "첫 번째 좌표축 위에 놓인 벡터를 변환해 보겠습니다."
+    },
+    {
+      "id": 10,
+      "start": 35,
+      "end": 42,
+      "text": "변환된 벡터가 원래 축에서 벗어난다면, 첫 번째 입력 성분이 두 번째 출력 성분에도 영향을 준다는 뜻입니다."
+    },
+    {
+      "id": 11,
+      "start": 42,
+      "end": 45,
+      "text": "두 번째 좌표축에서도 같은 일이 일어날 수 있습니다."
+    },
+    {
+      "id": 12,
+      "start": 45,
+      "end": 50,
+      "text": "그렇다면 변환 후에도 각 좌표축을 벗어나지 않는 방향을 선택하면 어떨까요?"
+    },
+    {
+      "id": 13,
+      "start": 50,
+      "end": 52,
+      "text": "이것이 바로 고유벡터 방향입니다."
+    },
+    {
+      "id": 14,
+      "start": 52,
+      "end": 56,
+      "text": "고유벡터는 행렬을 적용해도 원래의 직선 위에 남습니다."
+    },
+    {
+      "id": 15,
+      "start": 56,
+      "end": 62,
+      "text": "각 좌표축이 변환 후에도 자기 직선 위에 남으면, 다른 좌표축의 성분을 만들어내지 않습니다."
+    },
+    {
+      "id": 16,
+      "start": 62,
+      "end": 68,
+      "text": "첫 번째 고유벡터를 좌표축으로 선택하면, 그 축의 성분은 다른 축의 출력 성분에 영향을 주지 않습니다."
+    },
+    {
+      "id": 17,
+      "start": 68,
+      "end": 75,
+      "text": "두 번째 축도 첫 번째 고유벡터와 독립인 고유벡터로 선택하면, 두 성분은 서로 섞이지 않고 각각의 배율로만 변합니다."
+    },
+    {
+      "id": 18,
+      "start": 75,
+      "end": 80,
+      "text": "이번 행렬에서는 첫 번째 성분이 3배가 되고, 두 번째 성분은 그대로 유지됩니다."
+    },
+    {
+      "id": 19,
+      "start": 80,
+      "end": 86,
+      "text": "원래 행렬에서는 서로 섞여 있던 좌표 성분이, 새로운 좌표계에서는 완전히 독립적으로 변하는 것입니다."
+    },
+    {
+      "id": 20,
+      "start": 86,
+      "end": 93,
+      "text": "이처럼 독립적인 고유벡터들로 기저를 구성해 행렬을 대각행렬로 표현하는 것을 대각화라고 합니다."
+    },
+    {
+      "id": 21,
+      "start": 93,
+      "end": 95,
+      "text": "이 관계는 세 단계로 설명할 수 있습니다."
+    },
+    {
+      "id": 22,
+      "start": 95,
+      "end": 98,
+      "text": "먼저 벡터를 고유벡터 기준의 좌표로 표현합니다."
+    },
+    {
+      "id": 23,
+      "start": 98,
+      "end": 101,
+      "text": "다음으로 각 성분에 해당 고윳값을 곱합니다."
+    },
+    {
+      "id": 24,
+      "start": 101,
+      "end": 104,
+      "text": "마지막으로 결과를 원래 좌표계로 되돌립니다."
+    },
+    {
+      "id": 25,
+      "start": 104,
+      "end": 108,
+      "text": "이 세 단계를 하나로 정리한 것이 대각화 공식입니다."
+    },
+    {
+      "id": 26,
+      "start": 108,
+      "end": 110,
+      "text": "행렬의 작용 자체를 바꾼 것은 아닙니다."
+    },
+    {
+      "id": 27,
+      "start": 110,
+      "end": 115,
+      "text": "성분이 서로 섞이지 않고, 각자의 배율로만 변하는 좌표계를 찾아낸 것입니다."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "01",
+      "directory": "scenes/01",
+      "class": "Scene01",
+      "start": 0,
+      "end": 8,
+      "duration_seconds": 8
+    },
+    {
+      "id": "02",
+      "directory": "scenes/02",
+      "class": "Scene02",
+      "start": 8,
+      "end": 18,
+      "duration_seconds": 10
+    },
+    {
+      "id": "03",
+      "directory": "scenes/03",
+      "class": "Scene03",
+      "start": 18,
+      "end": 27,
+      "duration_seconds": 9
+    },
+    {
+      "id": "04",
+      "directory": "scenes/04",
+      "class": "Scene04",
+      "start": 27,
+      "end": 35,
+      "duration_seconds": 8
+    },
+    {
+      "id": "05",
+      "directory": "scenes/05",
+      "class": "Scene05",
+      "start": 35,
+      "end": 45,
+      "duration_seconds": 10
+    },
+    {
+      "id": "06",
+      "directory": "scenes/06",
+      "class": "Scene06",
+      "start": 45,
+      "end": 52,
+      "duration_seconds": 7
+    },
+    {
+      "id": "07",
+      "directory": "scenes/07",
+      "class": "Scene07",
+      "start": 52,
+      "end": 62,
+      "duration_seconds": 10
+    },
+    {
+      "id": "08",
+      "directory": "scenes/08",
+      "class": "Scene08",
+      "start": 62,
+      "end": 75,
+      "duration_seconds": 13
+    },
+    {
+      "id": "09",
+      "directory": "scenes/09",
+      "class": "Scene09",
+      "start": 75,
+      "end": 86,
+      "duration_seconds": 11
+    },
+    {
+      "id": "10",
+      "directory": "scenes/10",
+      "class": "Scene10",
+      "start": 86,
+      "end": 93,
+      "duration_seconds": 7
+    },
+    {
+      "id": "11",
+      "directory": "scenes/11",
+      "class": "Scene11",
+      "start": 93,
+      "end": 98,
+      "duration_seconds": 5
+    },
+    {
+      "id": "12",
+      "directory": "scenes/12",
+      "class": "Scene12",
+      "start": 98,
+      "end": 101,
+      "duration_seconds": 3
+    },
+    {
+      "id": "13",
+      "directory": "scenes/13",
+      "class": "Scene13",
+      "start": 101,
+      "end": 104,
+      "duration_seconds": 3
+    },
+    {
+      "id": "14",
+      "directory": "scenes/14",
+      "class": "Scene14",
+      "start": 104,
+      "end": 110,
+      "duration_seconds": 6
+    },
+    {
+      "id": "15",
+      "directory": "scenes/15",
+      "class": "Scene15",
+      "start": 110,
+      "end": 115,
+      "duration_seconds": 5
+    }
+  ]
+}

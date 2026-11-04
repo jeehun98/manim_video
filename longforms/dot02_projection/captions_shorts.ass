@@ -1,0 +1,33 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 360
+PlayResY: 640
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Malgun Gothic,17,&H00F8F8F8,&H00FFFFFF,&H00211409,&H00211409,0,0,0,0,100,100,0,0,3,4,0,2,15,15,35,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:05.00,Default,,0,0,0,,내적을 이용하면 벡터가 특정 방향으로 얼마나\N뻗어 있는지 숫자 하나로 측정할 수 있습니다.
+Dialogue: 0,0:00:05.00,0:00:11.00,Default,,0,0,0,,그렇다면 이 숫자를 이용해 원래 벡터에서 특정\N방향의 성분만 꺼낼 수도 있을까요?
+Dialogue: 0,0:00:11.00,0:00:14.00,Default,,0,0,0,,가로로 4, 세로로 2만큼 향하는 벡터를\N생각해 보겠습니다.
+Dialogue: 0,0:00:14.00,0:00:19.00,Default,,0,0,0,,이번에는 이 벡터에서 45도 대각선 방향의\N성분만 추출해 보겠습니다.
+Dialogue: 0,0:00:19.00,0:00:22.00,Default,,0,0,0,,먼저 기준 방향을 나타내는 단위벡터가\N필요합니다.
+Dialogue: 0,0:00:22.00,0:00:27.00,Default,,0,0,0,,45도 방향의 단위벡터는 가로와 세로 성분이\N모두 1 나누기 루트 2입니다.
+Dialogue: 0,0:00:27.00,0:00:30.00,Default,,0,0,0,,이제 원래 벡터와 이 단위벡터를 내적해\N보겠습니다.
+Dialogue: 0,0:00:30.00,0:00:35.00,Default,,0,0,0,,4 곱하기 1 나누기 루트 2, 더하기 2\N곱하기 1 나누기 루트 2.
+Dialogue: 0,0:00:35.00,0:00:38.00,Default,,0,0,0,,계산하면 3 루트 2, 약 4.24가\N나옵니다.
+Dialogue: 0,0:00:38.00,0:00:43.00,Default,,0,0,0,,이 숫자는 원래 벡터가 45도 방향으로 얼마나\N뻗어 있는지를 나타냅니다.
+Dialogue: 0,0:00:43.00,0:00:48.00,Default,,0,0,0,,그런데 우리가 구하려는 것은 숫자 하나가\N아니라, 실제로 그 방향을 향하는 벡터입니다.
+Dialogue: 0,0:00:48.00,0:00:49.00,Default,,0,0,0,,어떻게 하면 될까요?
+Dialogue: 0,0:00:49.00,0:00:54.00,Default,,0,0,0,,앞서 사용한 단위벡터는 길이가 1이고, 우리가\N원하는 방향을 가리키고 있습니다.
+Dialogue: 0,0:00:54.00,0:00:58.00,Default,,0,0,0,,따라서 내적으로 구한 3 루트 2를 이\N단위벡터에 곱하면 됩니다.
+Dialogue: 0,0:00:58.00,0:01:02.00,Default,,0,0,0,,계산하면 가로 성분은 3, 세로 성분도 3이\N됩니다.
+Dialogue: 0,0:01:02.00,0:01:06.00,Default,,0,0,0,,원래 벡터는 4, 2였지만, 대각선 방향의\N성분만 추출한 결과는 3, 3입니다.
+Dialogue: 0,0:01:06.00,0:01:11.00,Default,,0,0,0,,이것을 정사영, 영어로 Orthogonal\NProjection이라고 합니다.
+Dialogue: 0,0:01:11.00,0:01:18.00,Default,,0,0,0,,원래 벡터의 끝점에서 기준 직선으로 수선을\N내렸을 때, 그 수선의 발까지 향하는 벡터가\N바로 정사영 벡터입니다.
+Dialogue: 0,0:01:18.00,0:01:20.00,Default,,0,0,0,,이 과정을 다시 살펴보겠습니다.
+Dialogue: 0,0:01:20.00,0:01:24.00,Default,,0,0,0,,먼저 내적으로 특정 방향의 성분을 숫자로\N측정합니다.
+Dialogue: 0,0:01:24.00,0:01:29.00,Default,,0,0,0,,그리고 그 숫자를 기준 단위벡터에 곱해, 실제\N공간에서 해당 방향의 벡터로 만듭니다.
+Dialogue: 0,0:01:29.00,0:01:36.00,Default,,0,0,0,,즉, 내적이 방향 성분의 크기를 측정하는\N연산이라면, 정사영은 그 성분을 벡터로\N추출하는 연산입니다.
+Dialogue: 0,0:01:36.00,0:01:41.00,Default,,0,0,0,,이렇게 우리는 내적 하나를 이용해 원래\N벡터에서 원하는 방향의 성분만 분리할 수\N있습니다.

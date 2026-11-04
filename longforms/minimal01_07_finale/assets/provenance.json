@@ -1,0 +1,44 @@
+[
+  {
+    "episode": 2,
+    "time_seconds": 93,
+    "source": "exports/minimal02_long.mp4",
+    "crop": "1720:650:100:150",
+    "scale": "688:260"
+  },
+  {
+    "episode": 3,
+    "time_seconds": 18,
+    "source": "exports/minimal03_long.mp4",
+    "crop": "1720:650:100:150",
+    "scale": "688:260"
+  },
+  {
+    "episode": 4,
+    "time_seconds": 86,
+    "source": "exports/minimal04_long.mp4",
+    "crop": "1720:650:100:150",
+    "scale": "688:260"
+  },
+  {
+    "episode": 5,
+    "time_seconds": 49,
+    "source": "exports/minimal05_long.mp4",
+    "crop": "1720:650:100:150",
+    "scale": "688:260"
+  },
+  {
+    "episode": 6,
+    "time_seconds": 70,
+    "source": "exports/minimal06_long.mp4",
+    "crop": "1720:650:100:150",
+    "scale": "688:260"
+  },
+  {
+    "episode": 7,
+    "time_seconds": 108,
+    "source": "exports/minimal07_long.mp4",
+    "crop": "1720:650:100:150",
+    "scale": "688:260"
+  }
+]

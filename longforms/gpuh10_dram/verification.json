@@ -1,0 +1,142 @@
+{
+  "cues": 34,
+  "shots": 14,
+  "cuda": "readData all256 output values passed",
+  "dram_model": "one active row per bank; illustrative mapping and command ordering; no measured timing",
+  "outputs": [
+    {
+      "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpuh10_dram_164s_shorts_final.mp4",
+      "duration": 164,
+      "frames": 4920,
+      "audio": false
+    },
+    {
+      "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpuh10_dram_164s_longform_final.mp4",
+      "duration": 164,
+      "frames": 4920,
+      "audio": false
+    }
+  ],
+  "states": {
+    "shorts": {
+      "traces": 14,
+      "reads": [
+        {
+          "kind": "bank_read",
+          "time": 96.267,
+          "read_value_source": "Row Buffer",
+          "bank": 0,
+          "row": 1,
+          "col": 2,
+          "before": null,
+          "after": 1,
+          "commands": [
+            "ACTIVATE",
+            "READ"
+          ],
+          "value": 6,
+          "conceptual": true
+        },
+        {
+          "kind": "bank_read",
+          "time": 101.333,
+          "read_value_source": "Row Buffer",
+          "bank": 0,
+          "row": 1,
+          "col": 5,
+          "before": 1,
+          "after": 1,
+          "commands": [
+            "READ"
+          ],
+          "value": 9,
+          "conceptual": true
+        },
+        {
+          "kind": "bank_read",
+          "time": 108.167,
+          "read_value_source": "Row Buffer",
+          "bank": 0,
+          "row": 3,
+          "col": 2,
+          "before": 1,
+          "after": 3,
+          "commands": [
+            "PRECHARGE",
+            "ACTIVATE",
+            "READ"
+          ],
+          "value": 26,
+          "conceptual": true
+        }
+      ],
+      "packaging": [
+        "GDDR",
+        "HBM"
+      ],
+      "load_returns": 1,
+      "computed": 1,
+      "controller_requests": 1
+    },
+    "longform": {
+      "traces": 14,
+      "reads": [
+        {
+          "kind": "bank_read",
+          "time": 96.267,
+          "read_value_source": "Row Buffer",
+          "bank": 0,
+          "row": 1,
+          "col": 2,
+          "before": null,
+          "after": 1,
+          "commands": [
+            "ACTIVATE",
+            "READ"
+          ],
+          "value": 6,
+          "conceptual": true
+        },
+        {
+          "kind": "bank_read",
+          "time": 101.333,
+          "read_value_source": "Row Buffer",
+          "bank": 0,
+          "row": 1,
+          "col": 5,
+          "before": 1,
+          "after": 1,
+          "commands": [
+            "READ"
+          ],
+          "value": 9,
+          "conceptual": true
+        },
+        {
+          "kind": "bank_read",
+          "time": 108.167,
+          "read_value_source": "Row Buffer",
+          "bank": 0,
+          "row": 3,
+          "col": 2,
+          "before": 1,
+          "after": 3,
+          "commands": [
+            "PRECHARGE",
+            "ACTIVATE",
+            "READ"
+          ],
+          "value": 26,
+          "conceptual": true
+        }
+      ],
+      "packaging": [
+        "GDDR",
+        "HBM"
+      ],
+      "load_returns": 1,
+      "computed": 1,
+      "controller_requests": 1
+    }
+  }
+}

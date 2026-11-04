@@ -1,0 +1,4 @@
+PASS vectorAdd all256; C[5]=66; cudaMalloc base aligned32B
+PASS pattern0 all32 output values; modeled sector count=4; no performance measurement
+PASS pattern1 all32 output values; modeled sector count=32; no performance measurement
+PASS pattern2 all32 output values; modeled sector count=4; no performance measurement

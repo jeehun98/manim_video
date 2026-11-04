@@ -1,0 +1,36 @@
+{
+  "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\nncalc05.mp4",
+  "duration": 170.996094,
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "audio_streams": 0,
+  "timing_basis": "user_provided_cumulative_sentence_end_times",
+  "user_sentence_ends_verified": true,
+  "cues": 33,
+  "sections": 6,
+  "frames": 5130,
+  "narration_tts_consistent": true,
+  "caption_layout_verified": true,
+  "dictionary_shape": [
+    2,
+    5
+  ],
+  "decoder_column_unit_norms_verified": true,
+  "shared_dictionary_across_inputs": true,
+  "example_active_latents": [
+    1,
+    4
+  ],
+  "original_model_frozen": true,
+  "interpretation_guaranteed": false,
+  "candidate_graph_causality_established": false,
+  "six_independent_sections": true,
+  "contact_sheets": [
+    "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\nncalc05\\qa\\final_sheet_1.jpg",
+    "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\nncalc05\\qa\\final_sheet_2.jpg",
+    "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\nncalc05\\qa\\final_sheet_3.jpg",
+    "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\nncalc05\\qa\\final_sheet_4.jpg",
+    "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\nncalc05\\qa\\final_sheet_5.jpg"
+  ]
+}

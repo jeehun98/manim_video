@@ -1,0 +1,5 @@
+PASS vectorAdd<<<12,128>>>: all 1536 outputs; C[5]=56; C[133]=1464
+PASS two CPU block-order permutations agree with GPU output; independent output ranges, not a measured GPU issue order.
+PASS separate imageKernel: image 80x64, grid 5x4, block 16x16, all 5120 pixels
+PASS separate imageKernel: image 77x61, grid 5x4, block 16x16, all 4697 pixels
+Animation: fictional 4-SM resource example; placement, completion timing, and resident capacity are not measured device traces.

@@ -1,0 +1,2 @@
+PASS all 1536 outputs; Thread 2: A[2]=3 B[2]=4 C[2]=7
+Actual compiled vectorAdd: 12 registers/thread, 0 local bytes/thread

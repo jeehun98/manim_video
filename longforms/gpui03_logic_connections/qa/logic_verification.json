@@ -1,0 +1,64 @@
+{
+  "truth_tables": [
+    {
+      "a": 0,
+      "b": 0,
+      "nand": 1,
+      "pull_up": true,
+      "pull_down": false,
+      "netlists": {
+        "NOT": 1,
+        "AND": 0,
+        "OR": 0,
+        "XOR": 0
+      }
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "nand": 1,
+      "pull_up": true,
+      "pull_down": false,
+      "netlists": {
+        "NOT": 1,
+        "AND": 0,
+        "OR": 1,
+        "XOR": 1
+      }
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "nand": 1,
+      "pull_up": true,
+      "pull_down": false,
+      "netlists": {
+        "NOT": 0,
+        "AND": 0,
+        "OR": 1,
+        "XOR": 1
+      }
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "nand": 0,
+      "pull_up": false,
+      "pull_down": true,
+      "netlists": {
+        "NOT": 0,
+        "AND": 1,
+        "OR": 1,
+        "XOR": 0
+      }
+    }
+  ],
+  "nand_gate_counts": {
+    "NOT": 1,
+    "AND": 2,
+    "OR": 3,
+    "XOR": 4
+  },
+  "sentence_count": 34,
+  "duration_seconds": 164
+}

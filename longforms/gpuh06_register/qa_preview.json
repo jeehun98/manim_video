@@ -1,0 +1,32 @@
+[
+  {
+    "layout": "shorts",
+    "frames": 2625,
+    "duration": "175.000000",
+    "geometry_samples": 96,
+    "identity": "Thread 2 / Block 0 / SM 0 and Register File centers fixed",
+    "CUDA": "1536 outputs; Thread 2 = 3+4=7",
+    "compiled_registers": 12,
+    "actual_spill_bytes": 0,
+    "hypothetical_register_demands": [
+      4096,
+      8192
+    ],
+    "local_memory": "private scope; cache-hit path supported; no mandatory DRAM access"
+  },
+  {
+    "layout": "longform",
+    "frames": 2625,
+    "duration": "175.000000",
+    "geometry_samples": 96,
+    "identity": "Thread 2 / Block 0 / SM 0 and Register File centers fixed",
+    "CUDA": "1536 outputs; Thread 2 = 3+4=7",
+    "compiled_registers": 12,
+    "actual_spill_bytes": 0,
+    "hypothetical_register_demands": [
+      4096,
+      8192
+    ],
+    "local_memory": "private scope; cache-hit path supported; no mandatory DRAM access"
+  }
+]

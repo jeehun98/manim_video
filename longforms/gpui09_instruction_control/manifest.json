@@ -1,0 +1,142 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_hook",
+    "class": "Scene01",
+    "start": 0,
+    "end": 16,
+    "duration_seconds": 16,
+    "title": "여러 선택을 하나의 정보로",
+    "method": "hook"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_choices",
+    "class": "Scene02",
+    "start": 16,
+    "end": 40,
+    "duration_seconds": 24,
+    "title": "계산 한 번에도 필요한 선택",
+    "method": "choices"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_encode",
+    "class": "Scene03",
+    "start": 40,
+    "end": 46,
+    "duration_seconds": 6,
+    "title": "동작도 0과 1로 표현한다",
+    "method": "encode"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_opcodes",
+    "class": "Scene04",
+    "start": 46,
+    "end": 53,
+    "duration_seconds": 7,
+    "title": "연산 종류를 비트로",
+    "method": "opcodes"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_registers",
+    "class": "Scene05",
+    "start": 53,
+    "end": 58,
+    "duration_seconds": 5,
+    "title": "레지스터 번호를 비트로",
+    "method": "registers"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_fields",
+    "class": "Scene06",
+    "start": 58,
+    "end": 66,
+    "duration_seconds": 8,
+    "title": "네 선택을 하나의 비트열로",
+    "method": "fields"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_meaning",
+    "class": "Scene07",
+    "start": 66,
+    "end": 73,
+    "duration_seconds": 7,
+    "title": "00110110의 의미",
+    "method": "meaning"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_roles",
+    "class": "Scene08",
+    "start": 73,
+    "end": 83,
+    "duration_seconds": 10,
+    "title": "비트열에는 연결 규칙이 필요하다",
+    "method": "roles"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_decoder",
+    "class": "Scene09",
+    "start": 83,
+    "end": 95,
+    "duration_seconds": 12,
+    "title": "명령어에서 제어 신호로",
+    "method": "decoder"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_execute",
+    "class": "Scene10",
+    "start": 95,
+    "end": 105,
+    "duration_seconds": 10,
+    "title": "선택 → 계산 → 기록",
+    "method": "execute"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_fixed",
+    "class": "Scene11",
+    "start": 105,
+    "end": 119,
+    "duration_seconds": 14,
+    "title": "배선은 그대로, 선택만 변경",
+    "method": "fixed"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_unified",
+    "class": "Scene12",
+    "start": 119,
+    "end": 126,
+    "duration_seconds": 7,
+    "title": "하나의 명령어, 여러 제어 신호",
+    "method": "unified"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_next",
+    "class": "Scene13",
+    "start": 126,
+    "end": 137,
+    "duration_seconds": 11,
+    "title": "다음 명령어는 어디에 있을까?",
+    "method": "next"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_closing",
+    "class": "Scene14",
+    "start": 137,
+    "end": 141,
+    "duration_seconds": 4,
+    "title": "명령어 하나의 실행 구조",
+    "method": "closing"
+  }
+]

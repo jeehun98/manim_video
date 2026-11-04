@@ -1,0 +1,110 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_scene",
+    "start": 0,
+    "end": 9,
+    "duration_seconds": 9,
+    "title": "데이터를 담을 하나의 방향",
+    "class": "PCA01"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_scene",
+    "start": 9,
+    "end": 29,
+    "duration_seconds": 20,
+    "title": "방향에 따라 사라지는 정보",
+    "class": "PCA02"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_scene",
+    "start": 29,
+    "end": 38,
+    "duration_seconds": 9,
+    "title": "평균을 원점으로 · 중심화",
+    "class": "PCA03"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_scene",
+    "start": 38,
+    "end": 55,
+    "duration_seconds": 17,
+    "title": "내적 → 정사영 → 잔차",
+    "class": "PCA04"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_scene",
+    "start": 55,
+    "end": 63,
+    "duration_seconds": 8,
+    "title": "가장 작은 재구성 오차",
+    "class": "PCA05"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_scene",
+    "start": 63,
+    "end": 79,
+    "duration_seconds": 16,
+    "title": "직교하는 두 성분과 피타고라스",
+    "class": "PCA06"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_scene",
+    "start": 79,
+    "end": 91,
+    "duration_seconds": 12,
+    "title": "전체 에너지는 일정하다",
+    "class": "PCA07"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_scene",
+    "start": 91,
+    "end": 106,
+    "duration_seconds": 15,
+    "title": "내적값의 제곱합에서 분산으로",
+    "class": "PCA08"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_scene",
+    "start": 106,
+    "end": 114,
+    "duration_seconds": 8,
+    "title": "오차 최소 = 분산 최대",
+    "class": "PCA09"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_scene",
+    "start": 114,
+    "end": 129,
+    "duration_seconds": 15,
+    "title": "공분산행렬이 알려주는 방향",
+    "class": "PCA10"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_scene",
+    "start": 129,
+    "end": 141,
+    "duration_seconds": 12,
+    "title": "첫 번째 주성분이 찾는 것",
+    "class": "PCA11"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_scene",
+    "start": 141,
+    "end": 149,
+    "duration_seconds": 8,
+    "title": "정보를 가장 잘 보존하는 방향",
+    "class": "PCA12"
+  }
+]

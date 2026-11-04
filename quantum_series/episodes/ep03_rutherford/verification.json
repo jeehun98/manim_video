@@ -1,0 +1,46 @@
+{
+  "videos": [
+    {
+      "layout": "shorts",
+      "width": 1080,
+      "height": 1920,
+      "duration": 105,
+      "frames": 3150,
+      "fps": 30,
+      "full_decode": "passed",
+      "audio": "not supplied; silent",
+      "last_second_mean_pixel_difference": 0.0009827985195443034,
+      "ending_frame": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\quantum03_shorts_ending.png"
+    },
+    {
+      "layout": "longform",
+      "width": 1920,
+      "height": 1080,
+      "duration": 105,
+      "frames": 3150,
+      "fps": 30,
+      "full_decode": "passed",
+      "audio": "not supplied; silent",
+      "last_second_mean_pixel_difference": 0.0007766602793708444,
+      "ending_frame": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\quantum03_longform_ending.png"
+    }
+  ],
+  "physics": [
+    "RK4 energy conservation error < 1e-4",
+    "angular momentum drift < 1e-5",
+    "agreement with analytical Rutherford angle within 1 degree",
+    "mirror symmetry for signed impact parameter",
+    "156.86-degree selected backscatter; distant path < 7 degrees",
+    "diffuse charge yields much less deflection than point charge at fixed energy and total positive charge"
+  ],
+  "layout": [
+    "caption bounds passed for both ratios",
+    "detector/title separation passed",
+    "classical spiral stays in bounds and stops before nucleus collision",
+    "preview and final shorts keyframes visually reviewed",
+    "final longform keyframes visually reviewed"
+  ],
+  "timing": "all 20 user sentence end times retained",
+  "ending": "classical radiating-orbit problem explicitly labeled; not a real electron trajectory",
+  "assembly": "EP.01–03: 292 seconds, 8760 frames, 3 chapters; temporary QA output only"
+}

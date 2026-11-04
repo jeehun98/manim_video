@@ -1,0 +1,128 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_scene",
+    "title": "Global 주소 공간과 물리 저장 장치",
+    "start": 0,
+    "end": 15,
+    "duration_seconds": 15,
+    "class": "Dram01"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_scene",
+    "title": "주소가 가리키는 데이터는 DRAM에",
+    "start": 15,
+    "end": 23,
+    "duration_seconds": 8,
+    "class": "Dram02"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_scene",
+    "title": "캐시 아래로 이어지는 요청",
+    "start": 23,
+    "end": 40,
+    "duration_seconds": 17,
+    "class": "Dram03"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_scene",
+    "title": "Memory Controller가 하는 일",
+    "start": 40,
+    "end": 51,
+    "duration_seconds": 11,
+    "class": "Dram04"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_scene",
+    "title": "같은 CUDA Load · 캐시 미스 가정",
+    "start": 51,
+    "end": 63,
+    "duration_seconds": 12,
+    "class": "Dram05"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_scene",
+    "title": "컨트롤러가 처리하는 DRAM 읽기",
+    "start": 63,
+    "end": 71,
+    "duration_seconds": 8,
+    "class": "Dram06"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_scene",
+    "title": "데이터 반환과 계산 재개",
+    "start": 71,
+    "end": 81,
+    "duration_seconds": 10,
+    "class": "Dram07"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_scene",
+    "title": "DRAM 내부의 Bank · Row · Column",
+    "start": 81,
+    "end": 94,
+    "duration_seconds": 13,
+    "class": "Dram08"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_scene",
+    "title": "열린 Row와 새로 열어야 하는 Row",
+    "start": 94,
+    "end": 105,
+    "duration_seconds": 11,
+    "class": "Dram09"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_scene",
+    "title": "명령과 타이밍을 고려하는 컨트롤러",
+    "start": 105,
+    "end": 116,
+    "duration_seconds": 11,
+    "class": "Dram10"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_scene",
+    "title": "GDDR · GPU 주변의 메모리 칩",
+    "start": 116,
+    "end": 129,
+    "duration_seconds": 13,
+    "class": "Dram11"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_scene",
+    "title": "HBM · 적층과 넓은 인터페이스",
+    "start": 129,
+    "end": 141,
+    "duration_seconds": 12,
+    "class": "Dram12"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_scene",
+    "title": "주소 공간 · 제어 장치 · 저장 장치",
+    "start": 141,
+    "end": 153,
+    "duration_seconds": 12,
+    "class": "Dram13"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_scene",
+    "title": "GPU 메모리 시스템의 물리적 연결",
+    "start": 153,
+    "end": 164,
+    "duration_seconds": 11,
+    "class": "Dram14"
+  }
+]

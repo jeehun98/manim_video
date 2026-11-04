@@ -1,0 +1,74 @@
+{
+  "triangle": {
+    "original": 6,
+    "sparse": 7.5,
+    "all_vector_ratio_range": [
+      0.5,
+      1.5
+    ]
+  },
+  "validated_graph": {
+    "nodes": 8,
+    "original_edges": 28,
+    "sparse_edges": 8,
+    "original_weights": {
+      "cycle": 4,
+      "other": 0.1
+    },
+    "sparse_weight": 4.6,
+    "epsilon": 0.15,
+    "all_vector_ratio_range": [
+      0.8735804797994241,
+      1.1219512195121946
+    ],
+    "analytic_cycle_eigenvalue_certificate": true,
+    "examples": [
+      {
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1,
+          0,
+          -1
+        ],
+        "original": 40.8,
+        "sparse": 36.8
+      },
+      {
+        "values": [
+          1,
+          0,
+          -1,
+          0,
+          1,
+          0,
+          -1,
+          0
+        ],
+        "original": 34.4,
+        "sparse": 36.8
+      },
+      {
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "original": 9.4,
+        "sparse": 9.2
+      }
+    ]
+  },
+  "effective_resistance": {
+    "internal": 0.4999999999999999,
+    "bridge": 1.000000000000001
+  }
+}

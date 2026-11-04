@@ -1,0 +1,42 @@
+[
+  {
+    "time": 126.46666666666667,
+    "value": 0,
+    "label": "Lane 0 · word 0 → Bank 0 · 충돌 없음"
+  },
+  {
+    "time": 126.93333333333334,
+    "value": 1,
+    "label": "Lane 1 · word 1 → Bank 1 · 충돌 없음"
+  },
+  {
+    "time": 127.39999999999999,
+    "value": 2,
+    "label": "Lane 2 · word 2 → Bank 2 · 충돌 없음"
+  },
+  {
+    "time": 127.86666666666666,
+    "value": 3,
+    "label": "Lane 3 · word 3 → Bank 3 · 충돌 없음"
+  },
+  {
+    "time": 129.83333333333331,
+    "value": 0,
+    "label": "word 0 → Bank 0 · 분할 처리 단계 1/4"
+  },
+  {
+    "time": 130.29999999999998,
+    "value": 32,
+    "label": "word 32 → Bank 0 · 분할 처리 단계 2/4"
+  },
+  {
+    "time": 130.76666666666665,
+    "value": 64,
+    "label": "word 64 → Bank 0 · 분할 처리 단계 3/4"
+  },
+  {
+    "time": 131.23333333333332,
+    "value": 96,
+    "label": "word 96 → Bank 0 · 분할 처리 단계 4/4"
+  }
+]

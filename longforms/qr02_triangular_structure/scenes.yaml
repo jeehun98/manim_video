@@ -1,0 +1,130 @@
+title: QR 2편 — 위삼각 구조
+duration_seconds: 98
+timing_source: user_sentence_end_times
+audio: not_supplied
+scenes:
+  - id: "01"
+    source: scenes/01_scene/scene.py
+    class: QRShot
+    start: 0
+    duration_seconds: 4
+  - id: "02"
+    source: scenes/02_scene/scene.py
+    class: QRShot
+    start: 4
+    duration_seconds: 6
+  - id: "03"
+    source: scenes/03_scene/scene.py
+    class: QRShot
+    start: 10
+    duration_seconds: 4
+  - id: "04"
+    source: scenes/04_scene/scene.py
+    class: QRShot
+    start: 14
+    duration_seconds: 7
+  - id: "05"
+    source: scenes/05_scene/scene.py
+    class: QRShot
+    start: 21
+    duration_seconds: 4
+  - id: "06"
+    source: scenes/06_scene/scene.py
+    class: QRShot
+    start: 25
+    duration_seconds: 2
+  - id: "07"
+    source: scenes/07_scene/scene.py
+    class: QRShot
+    start: 27
+    duration_seconds: 3
+  - id: "08"
+    source: scenes/08_scene/scene.py
+    class: QRShot
+    start: 30
+    duration_seconds: 6
+  - id: "09"
+    source: scenes/09_scene/scene.py
+    class: QRShot
+    start: 36
+    duration_seconds: 5
+  - id: "10"
+    source: scenes/10_scene/scene.py
+    class: QRShot
+    start: 41
+    duration_seconds: 2
+  - id: "11"
+    source: scenes/11_scene/scene.py
+    class: QRShot
+    start: 43
+    duration_seconds: 4
+  - id: "12"
+    source: scenes/12_scene/scene.py
+    class: QRShot
+    start: 47
+    duration_seconds: 6
+  - id: "13"
+    source: scenes/13_scene/scene.py
+    class: QRShot
+    start: 53
+    duration_seconds: 4
+  - id: "14"
+    source: scenes/14_scene/scene.py
+    class: QRShot
+    start: 57
+    duration_seconds: 4
+  - id: "15"
+    source: scenes/15_scene/scene.py
+    class: QRShot
+    start: 61
+    duration_seconds: 4
+  - id: "16"
+    source: scenes/16_scene/scene.py
+    class: QRShot
+    start: 65
+    duration_seconds: 2
+  - id: "17"
+    source: scenes/17_scene/scene.py
+    class: QRShot
+    start: 67
+    duration_seconds: 4
+  - id: "18"
+    source: scenes/18_scene/scene.py
+    class: QRShot
+    start: 71
+    duration_seconds: 5
+  - id: "19"
+    source: scenes/19_scene/scene.py
+    class: QRShot
+    start: 76
+    duration_seconds: 3
+  - id: "20"
+    source: scenes/20_scene/scene.py
+    class: QRShot
+    start: 79
+    duration_seconds: 4
+  - id: "21"
+    source: scenes/21_scene/scene.py
+    class: QRShot
+    start: 83
+    duration_seconds: 4
+  - id: "22"
+    source: scenes/22_scene/scene.py
+    class: QRShot
+    start: 87
+    duration_seconds: 4
+  - id: "23"
+    source: scenes/23_scene/scene.py
+    class: QRShot
+    start: 91
+    duration_seconds: 3
+  - id: "24"
+    source: scenes/24_scene/scene.py
+    class: QRShot
+    start: 94
+    duration_seconds: 2
+  - id: "25"
+    source: scenes/25_scene/scene.py
+    class: QRShot
+    start: 96
+    duration_seconds: 2

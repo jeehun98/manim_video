@@ -1,0 +1,164 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_open",
+    "start": 0,
+    "end": 5,
+    "duration_seconds": 5,
+    "class": "GraphOpen",
+    "title": "ROUND 03 · 분해 구조"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_evd",
+    "start": 5,
+    "end": 12,
+    "duration_seconds": 7,
+    "class": "GraphEVD",
+    "title": "A = PDP⁻¹"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_eigenlines",
+    "start": 12,
+    "end": 25,
+    "duration_seconds": 13,
+    "class": "GraphEigenlines",
+    "title": "Apᵢ = λᵢpᵢ"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_oblique",
+    "start": 25,
+    "end": 29,
+    "duration_seconds": 4,
+    "class": "GraphOblique",
+    "title": "P⁻¹"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_evd_scale",
+    "start": 29,
+    "end": 40,
+    "duration_seconds": 11,
+    "class": "GraphEVDScale",
+    "title": "P⁻¹ → D → P"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_projections",
+    "start": 40,
+    "end": 50,
+    "duration_seconds": 10,
+    "class": "GraphProjections",
+    "title": "P⁻¹"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_same_basis",
+    "start": 50,
+    "end": 54,
+    "duration_seconds": 4,
+    "class": "GraphSameBasis",
+    "title": "하나의 고유기저"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_morph",
+    "start": 54,
+    "end": 63,
+    "duration_seconds": 9,
+    "class": "GraphMorph",
+    "title": "단위원 → 선형변환 → 타원"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_scan",
+    "start": 63,
+    "end": 70,
+    "duration_seconds": 7,
+    "class": "GraphScan",
+    "title": "어떤 입력 방향일까?"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_first_pair",
+    "start": 70,
+    "end": 89,
+    "duration_seconds": 19,
+    "class": "GraphFirstPair",
+    "title": "Av₁ = σ₁u₁"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_second_pair",
+    "start": 89,
+    "end": 95,
+    "duration_seconds": 6,
+    "class": "GraphSecondPair",
+    "title": "두 번째 특이방향"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_two_bases",
+    "start": 95,
+    "end": 106,
+    "duration_seconds": 11,
+    "class": "GraphTwoBases",
+    "title": "입력도 직교 · 출력도 직교"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_coordinates",
+    "start": 106,
+    "end": 120,
+    "duration_seconds": 14,
+    "class": "GraphCoordinates",
+    "title": "Vᵀx"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_sigma",
+    "start": 120,
+    "end": 123,
+    "duration_seconds": 3,
+    "class": "GraphSigma",
+    "title": "Σ"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15_output",
+    "start": 123,
+    "end": 133,
+    "duration_seconds": 10,
+    "class": "GraphOutput",
+    "title": "U → A=UΣVᵀ"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16_compare",
+    "start": 133,
+    "end": 141,
+    "duration_seconds": 8,
+    "class": "GraphCompare",
+    "title": "하나의 고유기저 vs 두 직교기저"
+  },
+  {
+    "id": "17",
+    "directory": "scenes/17_verdict",
+    "start": 141,
+    "end": 149,
+    "duration_seconds": 8,
+    "class": "GraphVerdict",
+    "title": "ROUND 03 · EVD 승"
+  },
+  {
+    "id": "18",
+    "directory": "scenes/18_score",
+    "start": 149,
+    "end": 153,
+    "duration_seconds": 4,
+    "class": "GraphScore",
+    "title": "EVD 2 : 1 SVD"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01",
+    "class": "Scene01",
+    "start": 0,
+    "end": 10,
+    "duration_seconds": 10,
+    "title": "다른 물질, 같은 법칙?"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02",
+    "class": "Scene02",
+    "start": 10,
+    "end": 21,
+    "duration_seconds": 11,
+    "title": "서로 다른 두 임계 현상"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03",
+    "class": "Scene03",
+    "start": 21,
+    "end": 38,
+    "duration_seconds": 17,
+    "title": "같은 임계 지수라는 단서"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04",
+    "class": "Scene04",
+    "start": 38,
+    "end": 48,
+    "duration_seconds": 10,
+    "title": "작은 자석들이 만든 격자"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05",
+    "class": "Scene05",
+    "start": 48,
+    "end": 62,
+    "duration_seconds": 14,
+    "title": "정렬, 요동, 그리고 임계점"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06",
+    "class": "Scene06",
+    "start": 62,
+    "end": 76,
+    "duration_seconds": 14,
+    "title": "관찰하는 규모를 바꾸면"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07",
+    "class": "Scene07",
+    "start": 76,
+    "end": 92,
+    "duration_seconds": 16,
+    "title": "격자와 상호작용을 함께 바꾼다"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08",
+    "class": "Scene08",
+    "start": 92,
+    "end": 105,
+    "duration_seconds": 13,
+    "title": "작아지는 영향, 남는 영향"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09",
+    "class": "Scene09",
+    "start": 105,
+    "end": 117,
+    "duration_seconds": 12,
+    "title": "같은 고정점으로 향하는 흐름"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10",
+    "class": "Scene10",
+    "start": 117,
+    "end": 126,
+    "duration_seconds": 9,
+    "title": "고정점이 정하는 공통 법칙"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11",
+    "class": "Scene11",
+    "start": 126,
+    "end": 135,
+    "duration_seconds": 9,
+    "title": "보편성에도 조건이 있다"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12",
+    "class": "Scene12",
+    "start": 135,
+    "end": 142,
+    "duration_seconds": 7,
+    "title": "같은 법칙에도 차이는 남는다"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13",
+    "class": "Scene13",
+    "start": 142,
+    "end": 149,
+    "duration_seconds": 7,
+    "title": "모든 세부 정보가 필요한가?"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14",
+    "class": "Scene14",
+    "start": 149,
+    "end": 160,
+    "duration_seconds": 11,
+    "title": "서로 다른 구조에 남는 핵심"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_newcircuits",
+    "class": "Scene01",
+    "start": 0,
+    "end": 14,
+    "duration_seconds": 14,
+    "title": "연산마다 회로가 필요할까?",
+    "method": "newcircuits"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_cost",
+    "class": "Scene02",
+    "start": 14,
+    "end": 23,
+    "duration_seconds": 9,
+    "title": "기존 회로를 활용할 수 있다면",
+    "method": "cost"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_complement",
+    "class": "Scene03",
+    "start": 23,
+    "end": 41,
+    "duration_seconds": 18,
+    "title": "뺄셈을 덧셈으로 바꾸기",
+    "method": "complement"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_example",
+    "class": "Scene04",
+    "start": 41,
+    "end": 57,
+    "duration_seconds": 16,
+    "title": "4비트로 5 − 3을 계산하면",
+    "method": "example"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_shared",
+    "class": "Scene05",
+    "start": 57,
+    "end": 69,
+    "duration_seconds": 12,
+    "title": "하나의 가산기로 ADD와 SUB",
+    "method": "shared"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_compare",
+    "class": "Scene06",
+    "start": 69,
+    "end": 83,
+    "duration_seconds": 14,
+    "title": "뺄셈 결과를 비교에 활용하기",
+    "method": "compare"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_reuse",
+    "class": "Scene07",
+    "start": 83,
+    "end": 93,
+    "duration_seconds": 10,
+    "title": "계산 경로를 공유하는 설계",
+    "method": "reuse"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_logic",
+    "class": "Scene08",
+    "start": 93,
+    "end": 101,
+    "duration_seconds": 8,
+    "title": "다른 기능에는 다른 논리 구조",
+    "method": "logic"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_integrate",
+    "class": "Scene09",
+    "start": 101,
+    "end": 111,
+    "duration_seconds": 10,
+    "title": "여러 기능을 한 장치 안에",
+    "method": "integrate"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_mux",
+    "class": "Scene10",
+    "start": 111,
+    "end": 120,
+    "duration_seconds": 9,
+    "title": "여러 결과 중 하나를 선택",
+    "method": "mux"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_select",
+    "class": "Scene11",
+    "start": 120,
+    "end": 129,
+    "duration_seconds": 9,
+    "title": "같은 입력, 다른 선택 신호",
+    "method": "select"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_name",
+    "class": "Scene12",
+    "start": 129,
+    "end": 135,
+    "duration_seconds": 6,
+    "title": "산술논리장치 ALU",
+    "method": "name"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_fixed",
+    "class": "Scene13",
+    "start": 135,
+    "end": 148,
+    "duration_seconds": 13,
+    "title": "배선은 고정, 신호는 변화",
+    "method": "fixed"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_overview",
+    "class": "Scene14",
+    "start": 148,
+    "end": 156,
+    "duration_seconds": 8,
+    "title": "회로 재사용과 기능 통합",
+    "method": "overview"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15_limits",
+    "class": "Scene15",
+    "start": 156,
+    "end": 161,
+    "duration_seconds": 5,
+    "title": "구현된 기능에는 범위가 있다",
+    "method": "limits"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16_conclusion",
+    "class": "Scene16",
+    "start": 161,
+    "end": 175,
+    "duration_seconds": 14,
+    "title": "재사용하고, 통합하고, 선택한다",
+    "method": "conclusion"
+  }
+]

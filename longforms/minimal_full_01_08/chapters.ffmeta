@@ -1,0 +1,50 @@
+;FFMETADATA1
+title=모든 것이 필요할까? — 최소 구조를 찾아서
+
+[CHAPTER]
+TIMEBASE=1/30
+START=0
+END=4707
+title=최소 표현 — 무엇을 남겨야 할까?
+
+[CHAPTER]
+TIMEBASE=1/30
+START=4707
+END=9704
+title=최소 유전체 — 생명에 필요한 유전자는?
+
+[CHAPTER]
+TIMEBASE=1/30
+START=9704
+END=14671
+title=그래프 희소화 — 연결을 줄여도 남는 성질
+
+[CHAPTER]
+TIMEBASE=1/30
+START=14671
+END=19502
+title=충분통계량 — 데이터 대신 무엇을 기억할까?
+
+[CHAPTER]
+TIMEBASE=1/30
+START=19502
+END=24217
+title=최소 실현 — 같은 동작, 더 적은 상태
+
+[CHAPTER]
+TIMEBASE=1/30
+START=24217
+END=29096
+title=재규격화와 보편성 — 다른 구조, 같은 법칙
+
+[CHAPTER]
+TIMEBASE=1/30
+START=29096
+END=34297
+title=복권 가설 — 큰 신경망 속 작은 신경망
+
+[CHAPTER]
+TIMEBASE=1/30
+START=34297
+END=39270
+title=통합 마무리 — 최소 구조를 찾는 세 가지 질문

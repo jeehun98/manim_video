@@ -1,0 +1,24 @@
+[
+  {
+    "layout": "shorts",
+    "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\evdsvd01_names_52s_shorts_final.mp4",
+    "duration": 52,
+    "frames": 1560,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "audio": false,
+    "decode_check": "passed"
+  },
+  {
+    "layout": "longform",
+    "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\evdsvd01_names_52s_longform_final.mp4",
+    "duration": 52,
+    "frames": 1560,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "audio": false,
+    "decode_check": "passed"
+  }
+]

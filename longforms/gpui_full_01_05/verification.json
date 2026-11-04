@@ -1,0 +1,70 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui_1_5_long.mp4",
+  "video_frames": "22549",
+  "video_duration": "751.633333",
+  "audio_duration": "751.633333",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": "30/1",
+  "chapters": [
+    {
+      "id": 0,
+      "time_base": "1/11289600",
+      "start": 0,
+      "start_time": "0.000000",
+      "end": 1307708237,
+      "end_time": "115.833000",
+      "tags": {
+        "title": "컴퓨터는 왜 0과 1을 사용할까?"
+      }
+    },
+    {
+      "id": 1,
+      "time_base": "1/11289600",
+      "start": 1307708237,
+      "start_time": "115.833000",
+      "end": 2942069760,
+      "end_time": "260.600000",
+      "tags": {
+        "title": "트랜지스터는 어떻게 전기 신호를 제어할까?"
+      }
+    },
+    {
+      "id": 2,
+      "time_base": "1/11289600",
+      "start": 2942069760,
+      "start_time": "260.600000",
+      "end": 4826304000,
+      "end_time": "427.500000",
+      "tags": {
+        "title": "스위치의 연결이 어떻게 논리 연산이 될까?"
+      }
+    },
+    {
+      "id": 3,
+      "time_base": "1/11289600",
+      "start": 4826304000,
+      "start_time": "427.500000",
+      "end": 6476470963,
+      "end_time": "573.667000",
+      "tags": {
+        "title": "논리 게이트는 어떻게 숫자를 더할까?"
+      }
+    },
+    {
+      "id": 4,
+      "time_base": "1/11289600",
+      "start": 6476470963,
+      "start_time": "573.667000",
+      "end": 8485635917,
+      "end_time": "751.633000",
+      "tags": {
+        "title": "하나의 회로로 여러 연산을 수행하는 방법"
+      }
+    }
+  ],
+  "video_encoding": "stream copy",
+  "audio": "AAC; per-episode silence padding preserves video boundaries"
+}

@@ -1,0 +1,49 @@
+title: EVD vs SVD — 이름
+duration_seconds: 52
+timing_source: user_sentence_end_times
+layouts: [shorts_1080x1920, longform_1920x1080]
+scenes:
+  - id: "01"
+    directory: scenes/01_open
+    class: NameOpen
+    duration_seconds: 3
+  - id: "02"
+    directory: scenes/02_criterion
+    class: NameCriterion
+    duration_seconds: 2
+  - id: "03"
+    directory: scenes/03_eigen
+    class: NameEigen
+    duration_seconds: 8
+  - id: "04"
+    directory: scenes/04_eigenline
+    class: NameEigenline
+    duration_seconds: 8
+  - id: "05"
+    directory: scenes/05_connection
+    class: NameConnection
+    duration_seconds: 3
+  - id: "06"
+    directory: scenes/06_singular
+    class: NameSingular
+    duration_seconds: 8
+  - id: "07"
+    directory: scenes/07_question
+    class: NameQuestion
+    duration_seconds: 2
+  - id: "08"
+    directory: scenes/08_ellipse
+    class: NameEllipse
+    duration_seconds: 5
+  - id: "09"
+    directory: scenes/09_intuition
+    class: NameIntuition
+    duration_seconds: 5
+  - id: "10"
+    directory: scenes/10_verdict
+    class: NameVerdict
+    duration_seconds: 3
+  - id: "11"
+    directory: scenes/11_winner
+    class: NameWinner
+    duration_seconds: 5

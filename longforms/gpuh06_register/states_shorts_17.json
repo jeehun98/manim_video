@@ -1,0 +1,156 @@
+[
+  {
+    "kind": "identity",
+    "time": 166.0,
+    "thread": 2,
+    "block": 0,
+    "sm": 0,
+    "register_location": "SM 0",
+    "mini_thread_center": [
+      -2.65,
+      4.65,
+      0.0
+    ],
+    "register_center": [
+      -0.44999999999999996,
+      4.65,
+      0.0
+    ],
+    "sm_bounds": [
+      -3.5,
+      1.2000000000000002,
+      3.5300000000000002,
+      5.21
+    ]
+  },
+  {
+    "kind": "memory_layout",
+    "time": 166.0,
+    "thread": 2,
+    "mini_thread_center": [
+      -2.65,
+      4.65,
+      0.0
+    ],
+    "register_center": [
+      -0.44999999999999996,
+      4.65,
+      0.0
+    ],
+    "sm": [
+      -3.5,
+      1.2000000000000002,
+      3.5300000000000002,
+      5.21
+    ],
+    "register": [
+      -1.7,
+      0.8,
+      4.4,
+      4.9
+    ],
+    "shared": [
+      -3.26,
+      -1.0399999999999998,
+      3.7200000000000006,
+      4.12
+    ],
+    "l1": [
+      -0.81,
+      0.81,
+      3.7200000000000006,
+      4.12
+    ],
+    "l2": [
+      1.5099999999999998,
+      3.29,
+      4.390000000000001,
+      4.87
+    ],
+    "dram": [
+      1.435,
+      3.365,
+      3.66,
+      4.140000000000001
+    ],
+    "register_parent": "SM 0",
+    "l2_scope": "GPU-wide",
+    "dram_location": "device memory outside SM",
+    "register_to_shared_serial_path": false
+  },
+  {
+    "kind": "map_motion",
+    "operation": "load",
+    "value": 3,
+    "start": 166.0,
+    "end": 166.7,
+    "route": [
+      "L2",
+      "L1",
+      "Register"
+    ],
+    "active_code": [
+      "float a = A[i];"
+    ],
+    "conceptual": true
+  },
+  {
+    "kind": "map_motion",
+    "operation": "load",
+    "value": 4,
+    "start": 166.9,
+    "end": 167.6,
+    "route": [
+      "L2",
+      "L1",
+      "Register"
+    ],
+    "active_code": [
+      "float b = B[i];"
+    ],
+    "conceptual": true
+  },
+  {
+    "kind": "map_motion",
+    "operation": "add",
+    "value": 7,
+    "start": 169.9667,
+    "end": 170.5667,
+    "active_code": [
+      "float sum = a + b;"
+    ],
+    "conceptual": true
+  },
+  {
+    "kind": "map_motion",
+    "operation": "store",
+    "value": 7,
+    "start": 171.9667,
+    "end": 172.3667,
+    "route": [
+      "Register",
+      "L2"
+    ],
+    "active_code": [
+      "C[i] = sum;"
+    ],
+    "conceptual": true
+  },
+  {
+    "kind": "final_identity",
+    "thread": 2,
+    "block": 0,
+    "sm": 0,
+    "register_location": "SM 0",
+    "mini_thread_center": [
+      -2.65,
+      4.65,
+      0.0
+    ],
+    "register_center": [
+      -0.44999999999999996,
+      4.65,
+      0.0
+    ]
+  }
+]

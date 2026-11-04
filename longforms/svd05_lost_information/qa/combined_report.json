@@ -1,0 +1,45 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\svd_longform_866s_1080p30.mp4",
+  "duration_seconds": 866,
+  "fps": 30,
+  "decoded_frames": 25980,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "audio": "silent visual master; no act 5 audio supplied",
+  "chapters": [
+    {
+      "act": "svd01_distinguish_inputs",
+      "start_seconds": 0,
+      "duration_seconds": 133,
+      "source": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\svd01.mp4"
+    },
+    {
+      "act": "svd02_direction_map",
+      "start_seconds": 133,
+      "duration_seconds": 154,
+      "source": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\svd02.mp4"
+    },
+    {
+      "act": "svd03_read_and_reassemble",
+      "start_seconds": 287,
+      "duration_seconds": 152,
+      "source": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\svd03.mp4"
+    },
+    {
+      "act": "svd04_inverse_sensitivity",
+      "start_seconds": 439,
+      "duration_seconds": 176,
+      "source": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\svd04.mp4"
+    },
+    {
+      "act": "svd05_lost_information",
+      "start_seconds": 615,
+      "duration_seconds": 251,
+      "source": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\svd05_lost_information_251s_1080p30.mp4"
+    }
+  ],
+  "subtitles": 172,
+  "pacing": "all five approved durations preserved; no retiming"
+}

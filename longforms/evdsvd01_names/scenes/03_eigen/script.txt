@@ -1,0 +1,1 @@
+먼저 EVD. Eigenvalue Decomposition, 고유값 분해입니다. Eigen은 독일어로 '고유한', '자기 자신의'라는 의미를 가지고 있습니다.

@@ -1,0 +1,99 @@
+duration_seconds: 170
+layouts: [9:16, 16:9]
+scenes:
+  - id: "01"
+    directory: scenes/01
+    title: 모든 것이 정말 필요할까?
+    start: 0
+    end: 5
+    duration_seconds: 5
+  - id: "02"
+    directory: scenes/02
+    title: 연결을 줄여도 남는 성질
+    start: 5
+    end: 11
+    duration_seconds: 6
+  - id: "03"
+    directory: scenes/03
+    title: 필수성은 조건에 따라 달라진다
+    start: 11
+    end: 18
+    duration_seconds: 7
+  - id: "04"
+    directory: scenes/04
+    title: 추론에 필요한 정보를 남긴다
+    start: 18
+    end: 26
+    duration_seconds: 8
+  - id: "05"
+    directory: scenes/05
+    title: 같은 동작을 더 적은 상태로
+    start: 26
+    end: 33
+    duration_seconds: 7
+  - id: "06"
+    directory: scenes/06
+    title: 다른 구조가 공유하는 법칙
+    start: 33
+    end: 39
+    duration_seconds: 6
+  - id: "07"
+    directory: scenes/07
+    title: 이제, 신경망에서는?
+    start: 39
+    end: 51
+    duration_seconds: 12
+  - id: "08"
+    directory: scenes/08
+    title: 수많은 연결이 모두 필요할까?
+    start: 51
+    end: 65
+    duration_seconds: 14
+  - id: "09"
+    directory: scenes/09
+    title: 작은 신경망만 처음부터 학습한다면
+    start: 65
+    end: 80
+    duration_seconds: 15
+  - id: "10"
+    directory: scenes/10
+    title: 무작위 초기값을 저장한다
+    start: 80
+    end: 86
+    duration_seconds: 6
+  - id: "11"
+    directory: scenes/11
+    title: 남은 연결을 원래 초기값으로
+    start: 86
+    end: 101
+    duration_seconds: 15
+  - id: "12"
+    directory: scenes/12
+    title: 선택된 연결만 다시 학습한다
+    start: 101
+    end: 117
+    duration_seconds: 16
+  - id: "13"
+    directory: scenes/13
+    title: 같은 연결 구조, 다른 초기값
+    start: 117
+    end: 135
+    duration_seconds: 18
+  - id: "14"
+    directory: scenes/14
+    title: 가능한 범위와 발견 비용
+    start: 135
+    end: 144
+    duration_seconds: 9
+  - id: "15"
+    directory: scenes/15
+    title: 구조와 초기 조건의 조합
+    start: 144
+    end: 158
+    duration_seconds: 14
+  - id: "16"
+    directory: scenes/16
+    title: 신경망에 필요한 자유도는?
+    start: 158
+    end: 170
+    duration_seconds: 12

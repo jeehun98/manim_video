@@ -1,0 +1,18 @@
+{
+  "shorts": {
+    "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\minimal01_154s_shorts_preview.mp4",
+    "width": 360,
+    "height": 640,
+    "r_frame_rate": "15/1",
+    "duration": "154.000000",
+    "nb_read_frames": "2310"
+  },
+  "longform": {
+    "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\minimal01_154s_longform_preview.mp4",
+    "width": 854,
+    "height": 480,
+    "r_frame_rate": "15/1",
+    "duration": "154.000000",
+    "nb_read_frames": "2310"
+  }
+}

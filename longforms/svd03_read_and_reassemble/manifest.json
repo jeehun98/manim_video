@@ -1,0 +1,209 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01",
+    "class": "Scene01",
+    "start": 0,
+    "end": 7,
+    "duration_seconds": 7,
+    "title": "두 특별한 입력 방향"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02",
+    "class": "Scene02",
+    "start": 7,
+    "end": 13,
+    "duration_seconds": 6,
+    "title": "방향과 배율의 대응"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03",
+    "class": "Scene03",
+    "start": 13,
+    "end": 22,
+    "duration_seconds": 9,
+    "title": "고정 입력 x"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04",
+    "class": "Scene04",
+    "start": 22,
+    "end": 26,
+    "duration_seconds": 4,
+    "title": "함께 들어 있는 두 성분"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05",
+    "class": "Scene05",
+    "start": 26,
+    "end": 33,
+    "duration_seconds": 7,
+    "title": "첫 번째 성분 읽기"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06",
+    "class": "Scene06",
+    "start": 33,
+    "end": 36,
+    "duration_seconds": 3,
+    "title": "두 번째 성분 읽기"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07",
+    "class": "Scene07",
+    "start": 36,
+    "end": 42,
+    "duration_seconds": 6,
+    "title": "두 성분의 합은 x"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08",
+    "class": "Scene08",
+    "start": 42,
+    "end": 46,
+    "duration_seconds": 4,
+    "title": "벡터와 좌표의 구분"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09",
+    "class": "Scene09",
+    "start": 46,
+    "end": 50,
+    "duration_seconds": 4,
+    "title": "두 성분의 처리 경로"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10",
+    "class": "Scene10",
+    "start": 50,
+    "end": 58,
+    "duration_seconds": 8,
+    "title": "서로 다른 배율"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11",
+    "class": "Scene11",
+    "start": 58,
+    "end": 62,
+    "duration_seconds": 4,
+    "title": "성분별 크기 변화"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12",
+    "class": "Scene12",
+    "start": 62,
+    "end": 67,
+    "duration_seconds": 5,
+    "title": "아직 스칼라 좌표"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13",
+    "class": "Scene13",
+    "start": 67,
+    "end": 77,
+    "duration_seconds": 10,
+    "title": "출력 방향으로 옮기기"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14",
+    "class": "Scene14",
+    "start": 77,
+    "end": 80,
+    "duration_seconds": 3,
+    "title": "출력 벡터 더하기"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15",
+    "class": "Scene15",
+    "start": 80,
+    "end": 87,
+    "duration_seconds": 7,
+    "title": "직접 계산 Ax와 일치"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16",
+    "class": "Scene16",
+    "start": 87,
+    "end": 99,
+    "duration_seconds": 12,
+    "title": "읽기 배율 조립"
+  },
+  {
+    "id": "17",
+    "directory": "scenes/17",
+    "class": "Scene17",
+    "start": 99,
+    "end": 108,
+    "duration_seconds": 9,
+    "title": "SVD 공식 발견"
+  },
+  {
+    "id": "18",
+    "directory": "scenes/18",
+    "class": "Scene18",
+    "start": 108,
+    "end": 110,
+    "duration_seconds": 2,
+    "title": "발견의 이름"
+  },
+  {
+    "id": "19",
+    "directory": "scenes/19",
+    "class": "Scene19",
+    "start": 110,
+    "end": 119,
+    "duration_seconds": 9,
+    "title": "별도 반례 큰 배율 기여 0"
+  },
+  {
+    "id": "20",
+    "directory": "scenes/20",
+    "class": "Scene20",
+    "start": 119,
+    "end": 125,
+    "duration_seconds": 6,
+    "title": "작은 배율의 기여"
+  },
+  {
+    "id": "21",
+    "directory": "scenes/21",
+    "class": "Scene21",
+    "start": 125,
+    "end": 138,
+    "duration_seconds": 13,
+    "title": "반응 능력과 실제 기여"
+  },
+  {
+    "id": "22",
+    "directory": "scenes/22",
+    "class": "Scene22",
+    "start": 138,
+    "end": 146,
+    "duration_seconds": 8,
+    "title": "복원 방향으로 질문 전환"
+  },
+  {
+    "id": "23",
+    "directory": "scenes/23",
+    "class": "Scene23",
+    "start": 146,
+    "end": 152,
+    "duration_seconds": 6,
+    "title": "출력에 작은 오차가 있다면"
+  }
+]

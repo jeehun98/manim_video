@@ -1,0 +1,14 @@
+[
+  {
+    "time": 137.4,
+    "kind": "flow",
+    "value": "Bank",
+    "label": "Shared의 서로 다른 주소가 같은 Bank로 집중"
+  },
+  {
+    "time": 143.7,
+    "kind": "flow",
+    "value": "Sector",
+    "label": "Global 주소 집합이 여러 Sector에 분산"
+  }
+]

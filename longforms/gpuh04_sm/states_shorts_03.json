@@ -1,0 +1,117 @@
+[
+  {
+    "kind": "layout",
+    "time": 42,
+    "warp_centers": [
+      [
+        -0.16429104731343314,
+        1.7382089552238806,
+        0.0
+      ],
+      [
+        -0.15304162716417946,
+        1.3119402985074626,
+        0.0
+      ],
+      [
+        -0.16275478014925393,
+        0.8856716417910449,
+        0.0
+      ],
+      [
+        -0.16216009731343295,
+        0.45940298507462696,
+        0.0
+      ]
+    ],
+    "resident_warps": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "kind": "warp_state",
+    "time": 48.0,
+    "warp": 1,
+    "state": "Issue Compute",
+    "resident": true,
+    "center": [
+      -0.15304162716417946,
+      1.3119402985074626,
+      0.0
+    ],
+    "active_code": [
+      "float y = x * 2.0f;"
+    ]
+  },
+  {
+    "kind": "issue",
+    "time": 48.5667,
+    "warp": 1,
+    "operation": "Compute",
+    "resident_warps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "states": [
+      "Ready",
+      "Issue Compute",
+      "Ready",
+      "Ready"
+    ],
+    "illustrative": true
+  },
+  {
+    "kind": "warp_state",
+    "time": 50.0,
+    "warp": 1,
+    "state": "Ready",
+    "resident": true,
+    "center": [
+      -0.15304162716417946,
+      1.3119402985074626,
+      0.0
+    ],
+    "active_code": [
+      "float y = x * 2.0f;"
+    ]
+  },
+  {
+    "kind": "warp_state",
+    "time": 50.0,
+    "warp": 2,
+    "state": "Issue Compute",
+    "resident": true,
+    "center": [
+      -0.16275478014925393,
+      0.8856716417910449,
+      0.0
+    ],
+    "active_code": [
+      "float y = x * 2.0f;"
+    ]
+  },
+  {
+    "kind": "issue",
+    "time": 50.5667,
+    "warp": 2,
+    "operation": "Compute",
+    "resident_warps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "states": [
+      "Ready",
+      "Ready",
+      "Issue Compute",
+      "Ready"
+    ],
+    "illustrative": true
+  }
+]

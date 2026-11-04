@@ -1,0 +1,36 @@
+{
+  "candidate_length_errors": [
+    0.0,
+    0.0,
+    -2.220446049250313e-16,
+    1.3322676295501878e-15
+  ],
+  "candidate_energies": [
+    1.9877839766001149,
+    2.012411975281818,
+    2.042374286612646,
+    2.07312618763509
+  ],
+  "equilibrium_force_residual": 0.0,
+  "matching_episode01_catenoid": true,
+  "dynamics": {
+    "nodes": 33,
+    "segment_length": 0.05550662388672644,
+    "dt": 0.004166666666666667,
+    "projection_iterations": 100,
+    "drag": 1.1,
+    "seconds": 14.0,
+    "max_segment_error": 9.670929185238986e-06,
+    "max_endpoint_error": 0.0,
+    "initial_mechanical_energy": 2.0425187863426086,
+    "final_mechanical_energy": 1.9878472191513346,
+    "potential_increase_steps": 212,
+    "max_positive_mechanical_increment": 5.680307335609314e-10,
+    "final_speed": 0.00011065019154020173,
+    "note": "PBD distance constraints; numerical dissipation included, not a fluid or rigid-link contact simulation"
+  },
+  "dynamic_max_total_length_error": 0.0001265102864222989,
+  "dynamic_max_relative_length_error": 7.122476875489173e-05,
+  "sentence_count": 35,
+  "duration": 150
+}

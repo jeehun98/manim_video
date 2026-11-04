@@ -1,0 +1,60 @@
+[
+  {
+    "layout": "shorts",
+    "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\qr01_new_directions_95s_shorts_final.mp4",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 2850,
+    "duration": 95,
+    "audio": "not supplied; silent",
+    "samples": [
+      2,
+      6,
+      14,
+      22,
+      28,
+      37,
+      43,
+      49,
+      54,
+      61,
+      64,
+      69,
+      74,
+      78,
+      81,
+      84,
+      92
+    ]
+  },
+  {
+    "layout": "longform",
+    "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\qr01_new_directions_95s_longform_final.mp4",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "frames": 2850,
+    "duration": 95,
+    "audio": "not supplied; silent",
+    "samples": [
+      2,
+      6,
+      14,
+      22,
+      28,
+      37,
+      43,
+      49,
+      54,
+      61,
+      64,
+      69,
+      74,
+      78,
+      81,
+      84,
+      92
+    ]
+  }
+]

@@ -1,0 +1,80 @@
+id: gpui02_transistor
+title: "트랜지스터는 어떻게 전기 신호를 제어할까?"
+duration_seconds: 142
+video:
+  fps: 30
+  layouts:
+    longform: [1920, 1080]
+    shorts: [1080, 1920]
+audio: null
+scenes:
+  - id: "01"
+    directory: scenes/01_need
+    class: Scene01
+    start_seconds: 0
+    end_seconds: 16
+    duration_seconds: 16
+    transition: cut
+  - id: "02"
+    directory: scenes/02_manual
+    class: Scene02
+    start_seconds: 16
+    end_seconds: 28
+    duration_seconds: 12
+    transition: cut
+  - id: "03"
+    directory: scenes/03_control
+    class: Scene03
+    start_seconds: 28
+    end_seconds: 43
+    duration_seconds: 15
+    transition: cut
+  - id: "04"
+    directory: scenes/04_field
+    class: Scene04
+    start_seconds: 43
+    end_seconds: 62
+    duration_seconds: 19
+    transition: cut
+  - id: "05"
+    directory: scenes/05_electronic
+    class: Scene05
+    start_seconds: 62
+    end_seconds: 68
+    duration_seconds: 6
+    transition: cut
+  - id: "06"
+    directory: scenes/06_mosfet
+    class: Scene06
+    start_seconds: 68
+    end_seconds: 92
+    duration_seconds: 24
+    transition: cut
+  - id: "07"
+    directory: scenes/07_output
+    class: Scene07
+    start_seconds: 92
+    end_seconds: 109
+    duration_seconds: 17
+    transition: cut
+  - id: "08"
+    directory: scenes/08_inverter
+    class: Scene08
+    start_seconds: 109
+    end_seconds: 120
+    duration_seconds: 11
+    transition: cut
+  - id: "09"
+    directory: scenes/09_physical
+    class: Scene09
+    start_seconds: 120
+    end_seconds: 136
+    duration_seconds: 16
+    transition: cut
+  - id: "10"
+    directory: scenes/10_networks
+    class: Scene10
+    start_seconds: 136
+    end_seconds: 142
+    duration_seconds: 6
+    transition: cut

@@ -1,5 +1,81 @@
 # Manim 교육 영상 프로젝트
 
+- [GPU 개론 07 — 회로는 언제 값을 갱신할까?](longforms/gpui07_clock_timing/README.md): 확정135초·31문장·14씬, 가로/세로1080p30, 무음·전체 자막. `python longforms/gpui07_clock_timing/build.py --preview` / `python longforms/gpui07_clock_timing/build.py`.
+
+- [GPU 개론 06 — 논리 게이트는 어떻게 값을 기억할까?](longforms/gpui06_sr_latch/README.md): 확정140초·29문장·14씬, 가로/세로1080p30, 무음·전체 자막. `python longforms/gpui06_sr_latch/build.py --preview` / `python longforms/gpui06_sr_latch/build.py`.
+
+- [GPU 개론 05 — 하나의 회로로 여러 연산을 수행하는 방법](longforms/gpui05_alu_reuse/README.md): 확정 175초·35문장·16씬, 가로/세로 1080p30, 무음·전체 자막. `python longforms/gpui05_alu_reuse/build.py --preview` / `python longforms/gpui05_alu_reuse/build.py`.
+
+- [GPU 개론 04 — 논리 게이트는 어떻게 숫자를 더할까?](longforms/gpui04_binary_adder/README.md): 확정 143초·35문장·15씬, 가로/세로 1080p30, 무음·전체 자막. `python longforms/gpui04_binary_adder/build.py --preview` / `python longforms/gpui04_binary_adder/build.py`.
+
+## GPU 개론 — 전기 신호에서 GPU 아키텍처까지
+
+- [03 — 스위치의 연결이 어떻게 논리 연산이 될까?](longforms/gpui03_logic_connections/README.md): 사용자 확정 34문장·164초, 독립 씬 14개. 직렬·병렬 연결 조건→CMOS NAND→NAND만으로 NOT·AND·OR·XOR→고정 회로와 면적·지연·에너지. 가로·세로 1080p30fps·무음·전체 자막. `python longforms/gpui03_logic_connections/build.py --preview` / `python longforms/gpui03_logic_connections/build.py`.
+
+- [02 — 트랜지스터는 어떻게 전기 신호를 제어할까?](longforms/gpui02_transistor/README.md): 사용자 확정 28문장·142초, 독립 씬 10개. 수동 접점→전압 제어→MOSFET 단면→CMOS 인버터. 가로 1920×1080 / 세로 1080×1920, 30fps, 무음·전체 문장 자막. `python longforms/gpui02_transistor/build.py --preview` / `python longforms/gpui02_transistor/build.py`.
+
+- [01 — 컴퓨터는 왜 0과 1을 사용할까?](longforms/gpui01_binary_signals/README.md): 사용자 확정 26문장·113초, 독립 씬 8개. 같은 전압 그래프에서 다수준 표현·잡음·판정 오류·두 논리 상태·2→4→8→16 조합·Bit을 발견하는 실험. 가로 1920×1080 / 세로 1080×1920, 30fps, 무음·전체 문장 자막.
+- 미리보기: `python longforms/gpui01_binary_signals/build.py --preview`. 최종 두 버전: `python longforms/gpui01_binary_signals/build.py`. 결과: `exports/gpui01_binary_113s_longform_final.mp4`, `exports/gpui01_binary_113s_shorts_final.mp4`. 음원 미제공으로 현재 자막·무음 제작.
+
+## 신경망 내부의 계산 — 표현에서 알고리즘까지
+
+- 08 **신경망의 알고리즘을 발견하는 것에서 형성을 유도하는 것까지 — Interpretability & Patterning**: 마지막 편·확정 33개 발화·176초(2:56). 같은 답의 다른 괄호 규칙 → 반례와 행동 증거의 한계 → 기존 2~7편 그래픽 재사용 → 해석에서 목표 계산·데이터 설계로 질문 반전 → 국소 반응·재학습·제한된 두 실험 → Discover / Explain / Test. 도식과 형성 곡선은 개념도다. 기본 무음.
+- 08 실제 파일: [대본](episodes/nncalc08_finale/narration.md) · [TTS](episodes/nncalc08_finale/tts_script.txt) · [제작 기준](episodes/nncalc08_finale/brief.md) · [씬 명세](episodes/nncalc08_finale/scene_specs.md) · [원본 콘티](episodes/nncalc08_finale/storyboard_source.md) · [화면](episodes/nncalc08_finale/scene.py) · [확정 시각](episodes/nncalc08_finale/timing.json) · [일반 자막](episodes/nncalc08_finale/captions.srt) · [쇼츠 자막](episodes/nncalc08_finale/captions_shorts.srt).
+- 일반용: `python scripts/render.py nncalc08 --preview` / `python scripts/render.py nncalc08` → `exports/nncalc08_preview.mp4`, `exports/nncalc08.mp4` (1920×1080·16:9·30fps). 쇼츠용: `python scripts/render.py nncalc08_shorts --preview` / `python scripts/render.py nncalc08_shorts` → `exports/nncalc08_shorts_preview.mp4`, `exports/nncalc08_shorts.mp4` (1080×1920·9:16·30fps). 동일한 176초 발화를 각 비율에 맞춰 배치한다.
+- 자료 생성: `python scripts/prepare_nncalc08.py`. 검토: `python scripts/check_nncalc08.py [--shorts] [--preview]`. 여섯 독립 Scene 클래스의 구간별 렌더도 가능하다.
+
+- 07 **신경망이 알고 있는 정보와 실제 계산에 사용하는 정보를 구별하는 방법 — Probing & Intervention**: 확정 37개 발화·175초(2:55). 단수·복수 판독 → 별도 Probe 학습 → POS 제거 투영·INLP → 동일 모델의 행동 비교 → 다른 정보 손상 → 판독·개입·계산 경로라는 세 질문 → 학습 유도 검증. 도식과 분포는 가상 예시다. 기본 무음.
+- 07 실제 파일: [대본](episodes/nncalc07_probing_intervention/narration.md) · [TTS](episodes/nncalc07_probing_intervention/tts_script.txt) · [제작 기준](episodes/nncalc07_probing_intervention/brief.md) · [씬 명세](episodes/nncalc07_probing_intervention/scene_specs.md) · [원본 콘티](episodes/nncalc07_probing_intervention/storyboard_source.md) · [화면](episodes/nncalc07_probing_intervention/scene.py) · [확정 시각](episodes/nncalc07_probing_intervention/timing.json) · [일반 자막](episodes/nncalc07_probing_intervention/captions.srt) · [쇼츠 자막](episodes/nncalc07_probing_intervention/captions_shorts.srt).
+- 일반용: `python scripts/render.py nncalc07 --preview` / `python scripts/render.py nncalc07` → `exports/nncalc07_preview.mp4`, `exports/nncalc07.mp4` (1920×1080·16:9·30fps). 쇼츠용: `python scripts/render.py nncalc07_shorts --preview` / `python scripts/render.py nncalc07_shorts` → `exports/nncalc07_shorts_preview.mp4`, `exports/nncalc07_shorts.mp4` (1080×1920·9:16·30fps). 동일한 175초 발화를 각 비율에 맞춰 구성한다.
+- 자료 생성: `python scripts/prepare_nncalc07.py`. 검토: `python scripts/check_nncalc07.py [--shorts] [--preview]`. 여섯 독립 Scene 클래스로 구간별 렌더도 가능하다.
+
+- 06 **신경망이 답을 만드는 계산 경로를 추적하는 방법 — Circuit Tracing**: 확정 33개 발화·166초(2:46). 특징과 계산 관계 → SAE/Transcoder·CLT → 대체 모델의 기여도 그래프 → Texas 특징군·capital 가지·지름길 → 원래 Dallas 입력을 고정한 특징 교체 → 근거와 한계. 화면은 연구 사례를 단순화한 도식이며 실측 기여도 재현이 아니다. 기본 무음.
+- 06 실제 파일: [대본](episodes/nncalc06_circuit_tracing/narration.md) · [TTS](episodes/nncalc06_circuit_tracing/tts_script.txt) · [제작 기준](episodes/nncalc06_circuit_tracing/brief.md) · [씬 명세](episodes/nncalc06_circuit_tracing/scene_specs.md) · [원본 콘티](episodes/nncalc06_circuit_tracing/storyboard_source.md) · [화면](episodes/nncalc06_circuit_tracing/scene.py) · [확정 시각](episodes/nncalc06_circuit_tracing/timing.json) · [일반 자막](episodes/nncalc06_circuit_tracing/captions.srt) · [쇼츠 자막](episodes/nncalc06_circuit_tracing/captions_shorts.srt).
+- 일반용: `python scripts/render.py nncalc06 --preview` / `python scripts/render.py nncalc06` → `exports/nncalc06_preview.mp4`, `exports/nncalc06.mp4` (1920×1080·16:9·30fps). 쇼츠용: `python scripts/render.py nncalc06_shorts --preview` / `python scripts/render.py nncalc06_shorts` → `exports/nncalc06_shorts_preview.mp4`, `exports/nncalc06_shorts.mp4` (1080×1920·9:16·30fps). 동일한 166초 발화를 별도 배치한다.
+- 자료 생성: `python scripts/prepare_nncalc06.py`. 검토: `python scripts/check_nncalc06.py [--shorts] [--preview]`. 여섯 독립 Scene 클래스로 구간별 렌더도 가능하다.
+
+- 05 **여러 뉴런에 겹쳐진 특징을 다시 분리하는 방법 — Sparse Autoencoders**: 확정 33개 발화 종료 시각·171초(2:51). 고정 모델의 활성화 수집 → 별도 2→5→2 SAE → 희소성·공통 디코더 사전 → 복원과 L1의 절충 → 실제 연구·원래 모델 개입 → 해석의 한계·후보 계산 경로. 도식·값은 설명용 예시. 기본 무음.
+- 05 실제 파일: [대본](episodes/nncalc05_sparse_autoencoders/narration.md) · [TTS](episodes/nncalc05_sparse_autoencoders/tts_script.txt) · [제작 기준](episodes/nncalc05_sparse_autoencoders/brief.md) · [씬 명세](episodes/nncalc05_sparse_autoencoders/scene_specs.md) · [원본 콘티](episodes/nncalc05_sparse_autoencoders/storyboard_source.md) · [화면](episodes/nncalc05_sparse_autoencoders/scene.py) · [확정 시각](episodes/nncalc05_sparse_autoencoders/timing.json) · [일반 자막](episodes/nncalc05_sparse_autoencoders/captions.srt) · [쇼츠 자막](episodes/nncalc05_sparse_autoencoders/captions_shorts.srt).
+- 일반용: `python scripts/render.py nncalc05 --preview` / `python scripts/render.py nncalc05` → `exports/nncalc05_preview.mp4`, `exports/nncalc05.mp4` (1920×1080·16:9·30fps). 쇼츠용: `python scripts/render.py nncalc05_shorts --preview` / `python scripts/render.py nncalc05_shorts` → `exports/nncalc05_shorts_preview.mp4`, `exports/nncalc05_shorts.mp4` (1080×1920·9:16·30fps). 동일한 171초 발화를 각각 배치한다.
+- 자료 생성: `python scripts/prepare_nncalc05.py`. 검토: `python scripts/check_nncalc05.py [--shorts] [--preview]`. scene.py의 여섯 독립 Scene 클래스는 해당 구간만 0초부터 렌더할 수 있다.
+
+- 04 **뉴런 두 개로 다섯 특징을 표현할 수 있을까? — Feature Superposition**: 사용자 수정 확정 34개 발화 종료 시각·178초(2:58). 고정된 2차원 좌표축 → 다섯 특징 방향 → 간섭과 정확한 표현 충돌 → 희소성 → Toy Model과 오각형 → 좌표 성분과 다의성. 정오각형은 이상화된 개념도이며 고양이 입력은 가상 예시다. 기본 무음.
+- 04 실제 파일: [대본](episodes/nncalc04_feature_superposition/narration.md) · [TTS](episodes/nncalc04_feature_superposition/tts_script.txt) · [제작 기준](episodes/nncalc04_feature_superposition/brief.md) · [원본 콘티](episodes/nncalc04_feature_superposition/storyboard_source.md) · [화면](episodes/nncalc04_feature_superposition/scene.py) · [확정 시각](episodes/nncalc04_feature_superposition/timing.json) · [일반 자막](episodes/nncalc04_feature_superposition/captions.srt) · [쇼츠 자막](episodes/nncalc04_feature_superposition/captions_shorts.srt).
+- 일반용: `python scripts/render.py nncalc04 --preview` / `python scripts/render.py nncalc04` → `exports/nncalc04_preview.mp4`, `exports/nncalc04.mp4` (1920×1080·16:9·30fps). 쇼츠용: `python scripts/render.py nncalc04_shorts --preview` / `python scripts/render.py nncalc04_shorts` → `exports/nncalc04_shorts_preview.mp4`, `exports/nncalc04_shorts.mp4` (1080×1920·9:16·30fps). 동일한 178초 발화를 각각의 화면 비율에 배치한다.
+- 자료 생성: `python scripts/prepare_nncalc04.py`. 검토: `python scripts/check_nncalc04.py [--shorts] [--preview]`.
+
+- 03 **학습 데이터로 신경망 내부 회로의 형성을 조절하는 방법 — Patterning**: 사용자 확정 29개 발화 종료 시각·171초(2:51). 데이터 재가중 → 새 학습·회로 형성 비교 → 감수율의 국소 선형 관계 → 목표 지정·데이터 조합 역추정 → 재학습 검증 → 별도 괄호 알고리즘 실험. 정방향에서 역방향으로의 전환은 같은 화면을 유지한다. 곡선·반응값은 실측 재현이 아닌 개념도다. 기본 무음.
+- 03 실제 파일: [대본](episodes/nncalc03_patterning/narration.md) · [TTS](episodes/nncalc03_patterning/tts_script.txt) · [제작 기준](episodes/nncalc03_patterning/brief.md) · [원본 콘티](episodes/nncalc03_patterning/storyboard_source.md) · [화면](episodes/nncalc03_patterning/scene.py) · [확정 시각](episodes/nncalc03_patterning/timing.json) · [일반 자막](episodes/nncalc03_patterning/captions.srt) · [쇼츠 자막](episodes/nncalc03_patterning/captions_shorts.srt).
+- 일반용: `python scripts/render.py nncalc03 --preview` / `python scripts/render.py nncalc03` → `exports/nncalc03_preview.mp4`, `exports/nncalc03.mp4` (1920×1080·16:9·30fps). 쇼츠용: `python scripts/render.py nncalc03_shorts --preview` / `python scripts/render.py nncalc03_shorts` → `exports/nncalc03_shorts_preview.mp4`, `exports/nncalc03_shorts.mp4` (1080×1920·9:16·30fps). 두 비율 모두 동일한 사용자 발화를 사용한다. 음원 파일은 미제공이다.
+- 자료 생성: `python scripts/prepare_nncalc03.py`. 검토: `python scripts/check_nncalc03.py [--shorts] [--preview]`.
+
+- 02 **AI는 반복 패턴을 찾는 회로를 스스로 만든다 — Induction Heads**: 사용자 확정 33개 발화 종료 시각·165초(2:45). A B C D A → 앞 토큰 정보 전달 → QK 5→2 선택 → OV 2→5 전달 → 회로 합성·학습 중 형성·제거 근거. 대표 회로의 개념도이며 학습 곡선·제거 효과의 실측 수치를 만들어 넣지 않는다. 음원 파일은 미제공이다.
+- 02 실제 파일: [대본](episodes/nncalc02_induction_heads/narration.md) · [TTS](episodes/nncalc02_induction_heads/tts_script.txt) · [제작 기준](episodes/nncalc02_induction_heads/brief.md) · [원본 콘티](episodes/nncalc02_induction_heads/storyboard_source.md) · [화면](episodes/nncalc02_induction_heads/scene.py) · [확정 시각](episodes/nncalc02_induction_heads/timing.json) · [일반 자막](episodes/nncalc02_induction_heads/captions.srt) · [쇼츠 자막](episodes/nncalc02_induction_heads/captions_shorts.srt).
+- 일반용: `python scripts/render.py nncalc02 --preview` / `python scripts/render.py nncalc02` → `exports/nncalc02_preview.mp4`, `exports/nncalc02.mp4` (1920×1080·16:9·30fps). 쇼츠용: `python scripts/render.py nncalc02_shorts --preview` / `python scripts/render.py nncalc02_shorts` → `exports/nncalc02_shorts_preview.mp4`, `exports/nncalc02_shorts.mp4` (1080×1920·9:16·30fps). 두 버전은 같은 확정 발화를 사용하며 화면을 각각 배치한다. 기본 무음.
+- 자료 생성: `python scripts/prepare_nncalc02.py`. 검토: `python scripts/check_nncalc02.py [--shorts] [--preview]`.
+
+- 01 **정답만 가르쳤는데, AI는 어떻게 풀이를 배울까?**: 사용자 확정 대본과 32개 문장 종료 시각 기준 **164초(2:44), 16:9, 1920×1080·30fps**, 기본 무음. 정답 라벨 → 개수 비교와 중첩 확인 → 새 입력에서의 분기 → 실제 연구 → 데이터 비중 변경·재학습·일반화 경향 변화를 14장면으로 구성한다. 복습·후속 예고 없음. 실제 음원 파일은 미제공이다.
+- 실제 파일: [대본](episodes/nncalc01_same_answers/narration.md) · [TTS](episodes/nncalc01_same_answers/tts_script.txt) · [제작 기준 및 출처](episodes/nncalc01_same_answers/brief.md) · [화면](episodes/nncalc01_same_answers/scene.py) · [자막](episodes/nncalc01_same_answers/captions.srt) · [시간 기준](episodes/nncalc01_same_answers/timing.json).
+- 렌더: `python scripts/render.py nncalc01 --preview` (640×360) / `python scripts/render.py nncalc01` (1920×1080). 출력: `exports/nncalc01_preview.mp4`, `exports/nncalc01.mp4`. 이 편만 가로 규격을 사용한다.
+- 확정 자료 생성: `python scripts/prepare_nncalc01.py`. 사용자 제공 종료 시각으로 대본·TTS·timing.json·SRT를 생성하며 타이밍을 추정하지 않는다. 검토: `python scripts/check_nncalc01.py --preview` / `python scripts/check_nncalc01.py`.
+- 이전 세로 제작 소스는 `revisions/v1_probe_intervention/`, 이전 대본 검토본은 `revisions/v2_script_only/`에 보존했다. 현재 MP4는 가로 영상으로 갱신한다.
+- **쇼츠 세로 버전**: 같은 확정 대본·32개 종료 시각·164초를 유지하고 [전용 세로 장면](episodes/nncalc01_same_answers/scene_shorts.py)으로 재배치했다. 개수 비교와 중첩 확인은 위아래 비교, 데이터 재가중·재학습은 위에서 아래로 진행한다. `python scripts/render.py nncalc01_shorts --preview` (360×640) / `python scripts/render.py nncalc01_shorts` (1080×1920·30fps). 출력 `exports/nncalc01_shorts_preview.mp4`, `exports/nncalc01_shorts.mp4`. 가로 영상은 유지한다. 검토: `python scripts/check_nncalc01.py --shorts`.
+- 세로 폭에 맞춘 별도 자막: [captions_shorts.srt](episodes/nncalc01_same_answers/captions_shorts.srt). 문장과 시각은 가로 버전과 동일하고 줄바꿈만 다르다.
+
+## 새 AI 컴파일러 시리즈 — 텐서 프로그램에서 하드웨어 실행까지
+
+일반 컴파일러와 공유하는 원리를 바탕으로, 텐서 의미·연산 그래프·머신러닝 컴파일 시스템을 다룹니다. 기존 `aic01–08`과 구분하여 새 제작 ID는 `aicomp`를 사용합니다. [시리즈 기획](plans/ai_compiler_tensor_series.md)에 01~12편의 질문·발견·공통 연출을 기록했습니다. 후속 「AI 컴파일러의 내부」는 02~05에서 시스템 구조 → 컴파일 시점 → 그래프 포착 → 여러 수준의 IR을 살펴보고, 06부터 Shape·Guard·Alias·Bufferization·자동 미분·코드 생성을 다룹니다. 다음 제작 대상은 02의 Framework·Compiler·Runtime입니다.
+
+- 01 **AI 컴파일러란 무엇일까? — 신경망에는 왜 별도의 컴파일러가 필요할까?**: [대본](episodes/aicomp01_what_is_ai_compiler/narration.md), [TTS 원고](episodes/aicomp01_what_is_ai_compiler/tts_script.txt), [제작 기준](episodes/aicomp01_what_is_ai_compiler/brief.md), [화면](episodes/aicomp01_what_is_ai_compiler/scene.py), [자막](episodes/aicomp01_what_is_ai_compiler/captions.srt), [타이밍](episodes/aicomp01_what_is_ai_compiler/timing.json). 사용자 확정 23개 발화 구간·161초 기준, 기본 무음. 미리보기 `python scripts/render.py aicomp01 --preview`, 최종 `python scripts/render.py aicomp01`.
+
+- 02 **신경망 코드가 실행되기까지, 컴파일러는 어디에 있을까? — Framework, Compiler, Runtime**: [대본](episodes/aicomp02_framework_compiler_runtime/narration.md), [TTS 원고](episodes/aicomp02_framework_compiler_runtime/tts_script.txt), [제작 기준](episodes/aicomp02_framework_compiler_runtime/brief.md), [화면](episodes/aicomp02_framework_compiler_runtime/scene.py), [자막](episodes/aicomp02_framework_compiler_runtime/captions.srt), [타이밍](episodes/aicomp02_framework_compiler_runtime/timing.json). 사용자 확정 19개 발화 구간·141초, 기본 무음. 미리보기 `python scripts/render.py aicomp02 --preview`, 최종 `python scripts/render.py aicomp02`.
+
+- 03 **AI 컴파일러는 언제 코드를 만들까? — AOT, JIT와 Runtime Dispatch**: [대본](episodes/aicomp03_when_compilation_happens/narration.md), [TTS 원고](episodes/aicomp03_when_compilation_happens/tts_script.txt), [제작 기준](episodes/aicomp03_when_compilation_happens/brief.md), [화면](episodes/aicomp03_when_compilation_happens/scene.py), [자막](episodes/aicomp03_when_compilation_happens/captions.srt), [타이밍](episodes/aicomp03_when_compilation_happens/timing.json). 사용자 확정 20개 발화 구간·142초, 기본 무음. 미리보기 `python scripts/render.py aicomp03 --preview`, 최종 `python scripts/render.py aicomp03`.
+
+- 04 **파이썬 신경망은 어떻게 계산 그래프가 될까? — Tracing과 Graph Break**: [대본](episodes/aicomp04_graph_capture/narration.md), [TTS 원고](episodes/aicomp04_graph_capture/tts_script.txt), [제작 기준](episodes/aicomp04_graph_capture/brief.md), [화면](episodes/aicomp04_graph_capture/scene.py), [자막](episodes/aicomp04_graph_capture/captions.srt), [타이밍](episodes/aicomp04_graph_capture/timing.json). 사용자 확정 10장면·21개 발화 구간·152초, 기본 무음. 미리보기 `python scripts/render.py aicomp04 --preview`, 최종 `python scripts/render.py aicomp04`.
+
+- 05 **AI 컴파일러는 왜 계산을 여러 번 바꿔 표현할까? — Multi-Level IR과 Lowering**: [대본](episodes/aicomp05_multi_level_ir/narration.md), [TTS 원고](episodes/aicomp05_multi_level_ir/tts_script.txt), [제작 기준](episodes/aicomp05_multi_level_ir/brief.md). 하나의 행렬곱을 여러 표현으로 추적하며 드러나는 정보와 구조 보존의 이유를 다루는 대본 초안입니다. 실제 길이와 타이밍은 미확정입니다.
+
 ## 계산의 두 얼굴
 
 **같은 수식, 다른 실행 비용 — 수학에서 GPU와 AI 컴파일러까지.** Transpose에서 시작해 데이터 이동, 병렬화, 수치적 의미, 신경망 실행 그래프와 컴파일러의 선택으로 확장하는 4부·10편 시리즈입니다.
@@ -1201,6 +1277,72 @@ science01 화면 길이는 대사 글자 수에 비례해 배분합니다. `pyth
 - 출력: `exports/aic08_preview.mp4`, `exports/aic08.mp4` (무음). TTS·SRT 별도.
 
 
+### 신경망의 역설 07 — 최악의 상황을 먼저 학습하는 신경망
+
+- 실제 자료: `episodes/paradox07_sam/` — narration.md, tts_script.txt, brief.md, scene.py, timing.json, captions.srt.
+- 사용자 제공 25개 발화 구간, 총 108초. 같은 반경의 두 골짜기 비교, Min-Max 목적, 기울기 기반 임시 교란과 원래 파라미터에서 출발하는 갱신을 구분한다. 고정된 데이터에 대한 파라미터 교란이며 입력 공격이 아니다.
+- 미리보기: `python scripts/render.py paradox07 --preview`
+- 최종: `python scripts/render.py paradox07`
+- 출력: `exports/paradox07_preview.mp4`, `exports/paradox07.mp4` (1080×1920 / 30fps / 무음). 음원 미제공, TTS·SRT 별도.
+- 검토: `python episodes/paradox07_sam/review.py --final`
+- 지형은 설명용 모형이다. 실제 SAM의 1차 근사는 정확한 최악점과 다르며, 주변 안정성이 일반화를 보장하지 않는다.
+
+### 신경망의 역설 06 — 신경망에서의 청출어람
+
+- 실제 자료: `episodes/paradox06_born_again/` — narration.md, tts_script.txt, brief.md, scene.py, timing.json, captions.srt, assets/.
+- 사용자 제공 25개 발화 구간, 총 121초. 동일한 구조·크기의 교사와 학생, 가중치 복사와 출력 증류의 차이, 학생 로짓 기울기 q−p, 다른 목표·초기값에서 다른 해를 찾는 과정을 보여준다.
+- 실험 예시: 원 논문 Table 2, CIFAR-100 DenseNet-90-60 테스트 오류율 Teacher 17.69% → BAN 16.69%. 분포 예시는 가상 수치로 구분한다.
+- 미리보기: `python scripts/render.py paradox06 --preview`
+- 최종: `python scripts/render.py paradox06`
+- 출력: `exports/paradox06_preview.mp4`, `exports/paradox06.mp4` (1080×1920 / 30fps / 무음). 음원 미제공, TTS·SRT 별도.
+- 검토: `python episodes/paradox06_born_again/review.py --final`
+
+### 신경망의 역설 05 — 좋은 해는 점이 아니라 영역이다?
+
+- 실제 자료: `episodes/paradox05_model_soups/` — narration.md, tts_script.txt, brief.md, scene.py, timing.json, captions.srt.
+- 사용자 제공 25개 발화 구간, 총 118초. 공통 사전학습에서 얻은 호환 모델의 가중치 평균을 직선 보간과 중간점으로 설명한다. 3D 설명용 손실 지형, 장벽/저손실 경로 대비, 예측 평균과 가중치 평균의 차이를 보여준다.
+- 미리보기: `python scripts/render.py paradox05 --preview`
+- 최종: `python scripts/render.py paradox05`
+- 출력: `exports/paradox05_preview.mp4`, `exports/paradox05.mp4` (1080×1920 / 30fps / 무음). 음원 미제공, TTS·SRT 별도.
+- 검토: `python episodes/paradox05_model_soups/review.py --final`
+- 넓은 골짜기는 조건부 기하학적 해석이며, 전체 좋은 해 집합의 볼록성이나 모든 평균의 성능을 보장하지 않는다.
+
+### 신경망의 역설 04 — 신경망은 얕게 학습해야 더 깊어진다?
+
+- 실제 자료: `episodes/paradox04_stochastic_depth/` — narration.md, tts_script.txt, brief.md, scene.py, timing.json, captions.srt.
+- 사용자 제공 26개 발화 구간, 총 133초. 기존 항등 경로를 남긴 잔차 변환 생략, 8개 블록의 256개 구성, 가중치 공유와 평균 손실을 시각화한다. 전체 구조의 표현력과 학습이 선택하는 함수를 구별한다.
+- 미리보기: `python scripts/render.py paradox04 --preview`
+- 최종: `python scripts/render.py paradox04`
+- 출력: `exports/paradox04_preview.mp4`, `exports/paradox04.mp4` (1080×1920 / 30fps / 무음). 음원 미제공, TTS·SRT 별도.
+- 검토: `python episodes/paradox04_stochastic_depth/review.py --final`
+
+### 신경망의 역설 03 — 신경망은 키메라를 학습할 때 더 똑똑해진다?
+
+- 실제 자료: `episodes/paradox03_mixup_rules/` — narration.md, tts_script.txt, brief.md, scene.py, timing.json, captions.srt, assets/.
+- 사용자 제공 23개 발화 구간, 총 109초. 양 끝만 맞히는 예측 곡선에 선형 혼합 목표를 추가하고, 학습으로 그 규칙에 가까워지는 과정을 보여준다. 혼합 데이터의 실제 정답 발견이 아니라 인위적인 예측 규칙의 부여임을 구분한다.
+- 미리보기: `python scripts/render.py paradox03 --preview`
+- 최종: `python scripts/render.py paradox03`
+- 출력: `exports/paradox03_preview.mp4`, `exports/paradox03.mp4` (1080×1920 / 30fps / 무음). 음원 미제공, TTS·SRT 별도.
+- 프레임 검토와 일관성 확인: `python episodes/paradox03_mixup_rules/review.py --final`
+
+### 신경망의 역설 02 — AI는 정답을 틀리게 가르쳐야 더 잘 배운다
+
+- 실제 자료: `episodes/paradox02_label_smoothing/` — narration.md, tts_script.txt, brief.md, scene.py, timing.json, captions.srt.
+- 사용자 제공 19개 발화 구간, 총 96초. 확률 단체의 꼭짓점에서 내부로 이동하는 목표, One-Hot 손실과 균등분포 제약의 균형을 다룬다. 90·5·5 목표에 해당하는 균등 혼합계수는 ε=0.15이다.
+- 미리보기: `python scripts/render.py paradox02 --preview`
+- 최종: `python scripts/render.py paradox02`
+- 출력: `exports/paradox02_preview.mp4`, `exports/paradox02.mp4` (1080×1920 / 30fps / 무음). 음원 미제공, TTS·SRT 별도.
+- 프레임 검토와 수식 확인: `python episodes/paradox02_label_smoothing/review.py --final`
+
+### 신경망의 역설 01 — Dropout 50%가 수학적으로 특별한 이유
+
+- 실제 자료: `episodes/paradox01_dropout_half/` — narration.md, tts_script.txt, brief.md, scene.py, timing.json, captions.srt.
+- 사용자 제공 17개 발화 구간, 총 98초. 부분 신경망의 공유 가중치와 평균 손실, 보정된 선형 모델의 정규화 항, 독립적인 이진 마스크의 분산과 256개 조합의 균등성을 다룬다.
+- 미리보기: `python scripts/render.py paradox01 --preview`
+- 최종: `python scripts/render.py paradox01`
+- 출력: `exports/paradox01_preview.mp4`, `exports/paradox01.mp4` (1080×1920 / 30fps / 무음). TTS·SRT 별도. 음원 미제공.
+- 50%에서의 마스크 균등성은 성능 최적성을 증명하지 않는다. 0/1 마스크 분산과 생존 출력 보정에 따른 벌점 계수도 구분한다.
+
 ### 과학의 한 장면 20 — 빛보다 빠른 게 존재한다?
 
 - `science20`: 한 칸과 열 칸의 거리 변화 → 허블 관계 → 초광속 거리 증가율 → 국소 측정의 빛 c. 사용자 제공 15구간 종료 시각에 맞춘 132초 무음 영상.
@@ -1211,3 +1353,304 @@ science01 화면 길이는 대사 글자 수에 비례해 배분합니다. `pyth
 - 화면·프레임 검증: `.venv/Scripts/python.exe scripts/review_science20.py --final`
 - 출력: `exports/science20_preview.mp4`, `exports/science20.mp4` (1080×1920 / 30fps / 무음). TTS·SRT 별도.
 - 진공에서 국소적으로 측정한 빛의 속도와, 같은 우주 시간에서 정의한 공변 지점 사이 proper distance의 증가율을 구별한다. 신경망 비유와 이후 영상 예고는 넣지 않는다.
+
+
+### 신경망의 역설 08 — 무엇을 배우지 않을지 고르는 신경망
+
+실제 소스: `episodes/paradox08_loss_selection/` · 98초 · 무음 영상, TTS 원고와 SRT 별도. LossHF 선택 규칙과 LossH-Wiki의 약 1.3배 결과를 구분한다.
+
+```powershell
+python scripts/render.py paradox08 --preview
+python scripts/render.py paradox08
+```
+
+
+### 신경망의 역설 09 — 신경망을 무너뜨린 것은 단 하나의 반올림이었다?
+
+실제 소스: `episodes/paradox09_numerical_inflation/` · 173초 · Softmax 대칭성, 기울기 상쇄 실패와 Numerical Feature Inflation. 무음, SRT/TTS 별도.
+
+```powershell
+python scripts/render.py paradox09 --preview
+python scripts/render.py paradox09
+```
+
+
+## 정답 이후의 신경망 (단일 세로 영상)
+
+`episodes/learn01_after_accuracy/`: 사용자 제공 내레이션과 종료 시각에 맞춘 141초, 9:16 독립 영상. `scene.py`, `narration.md`, `brief.md`, `timing.json`, `captions.srt`, `tts_script.txt`, 원본 콘티 포함.
+
+```powershell
+python scripts/render.py learn01 --preview
+python scripts/render.py learn01
+```
+
+출력: `exports/learn01_preview.mp4`, `exports/learn01.mp4` (무음, 음성 원고와 자막 별도).
+
+### 고윳값과 고유벡터 · 1막
+
+[행렬을 계속 곱하면 왜 특정 방향만 남을까?](longforms/eigen01_dominant_direction/README.md) — 119초, 세로 쇼츠(1080×1920)·가로 롱폼(1920×1080), 14개 독립 씬. 실행: `python longforms/eigen01_dominant_direction/build.py --preview` / `python longforms/eigen01_dominant_direction/build.py`. 음원 미제공으로 무음 제작.
+
+### 고윳값과 고유벡터 · 2막
+
+[숫자가 다른 두 행렬이 같은 변환일 수 있을까?](longforms/eigen02_same_map/README.md) — 120초, 문장별 종료 시각27개, 세로 쇼츠·가로 롱폼. `python longforms/eigen02_same_map/build.py --preview` / `python longforms/eigen02_same_map/build.py`. 자막 포함본은 `python longforms/eigen02_same_map/add_captions.py`.
+
+### 고윳값과 고유벡터 · 3막
+
+[행렬의 숫자가 바뀌어도 변하지 않는 것은?](longforms/eigen03_invariants/README.md) — 121초, 문장별 종료 시각27개. 실행: `python longforms/eigen03_invariants/build.py --preview` / `python longforms/eigen03_invariants/build.py`. 자막 포함본: `python longforms/eigen03_invariants/add_captions.py`. 세로 쇼츠·가로 롱폼 두 버전.
+
+### 고윳값과 고유벡터 · 4막
+
+[행렬의 성분이 서로 섞이지 않는 좌표계가 있을까?](longforms/eigen04_no_mixing/README.md) — 115초, 문장별 종료 시각27개, 15개 독립 씬. `python longforms/eigen04_no_mixing/build.py --preview` / `python longforms/eigen04_no_mixing/build.py`. 자막 포함본: `python longforms/eigen04_no_mixing/add_captions.py`. 세로 쇼츠·가로 롱폼.
+
+### 고윳값과 고유벡터 · 5막
+
+[고윳값 간격 — PCA 방향의 안정성](longforms/eigen05_eigengap/README.md) — 146초, 문장별 종료 시각30개, 19개 독립 씬. `python longforms/eigen05_eigengap/build.py --preview` / `python longforms/eigen05_eigengap/build.py`. 핵심 자막 포함본은 `python longforms/eigen05_eigengap/add_captions.py`. 세로 쇼츠·가로 롱폼.
+
+## 행렬분해 이상형 월드컵 — EVD vs SVD
+
+- [01 이름: 대본·52초 타이밍·독립 씬·렌더](longforms/evdsvd01_names/README.md)
+- 쇼츠: python scripts/render.py evdsvd01_shorts (--preview 미리보기)
+- 가로형: python scripts/render.py evdsvd01_longform
+- 두 화면비 모두: python longforms/evdsvd01_names/build.py
+
+
+- [월드컵 02 — 분해 조건, 92초](longforms/evdsvd02_conditions/README.md): python scripts/render.py evdsvd02_shorts / evdsvd02_longform. --preview 미리보기.
+
+
+- [월드컵 02 수정본 — 132초](longforms/evdsvd02_conditions/revisions/v2_132s/README.md): 기본 evdsvd02_shorts / evdsvd02_longform은 새 확정 대본을 사용. 기존92초 자료 보존.
+
+
+- [월드컵 03 — 분해 구조, 149초](longforms/evdsvd03_structure/README.md): python scripts/render.py evdsvd03_shorts / evdsvd03_longform. EVD 좌표 변환과 SVD 원·타원 및 직교 대응.
+
+
+- [월드컵03 수정본 —153초,그래프 중심](longforms/evdsvd03_structure/revisions/v2_153s/README.md): 기본evdsvd03_shorts/longform은 새 확정 대본을 사용. 이전149초 보존.
+
+
+- [월드컵04 — 고윳값과 특이값,103초](longforms/evdsvd04_values/README.md): python scripts/render.py evdsvd04_shorts / evdsvd04_longform. 같은 전단행렬,수평고유방향과타원반축 비교.
+
+## 행렬 분해 월드컵 ⑤ — 미래 예측
+
+최종8편: [최종 선택·149초](longforms/evdsvd08_final_choice/README.md). 실행: `python scripts/render.py evdsvd08_shorts` / `python scripts/render.py evdsvd08_longform`. 같은음수고윳값행렬의EVD·SVD표현과최종3:4우승.
+
+7편: [역변환·142초](longforms/evdsvd07_inverse/README.md). 실행: `python scripts/render.py evdsvd07_shorts` / `python scripts/render.py evdsvd07_longform`. 역행렬·정보소실·최소노름해를실제좌표로표현.
+
+6편도 구현: [복원 정확도·133초](longforms/evdsvd06_reconstruction/README.md). 실행: `python scripts/render.py evdsvd06_shorts` / `python scripts/render.py evdsvd06_longform`. 같은10×10 행렬의실제rank5근사와오차.
+
+실제 소스: `longforms/evdsvd05_future/`. 사용자 확정130초 대본 및 시각. 세로·가로 각각 `python scripts/render.py evdsvd05_shorts`, `python scripts/render.py evdsvd05_longform`. 자세한 내용은 [제작 안내](longforms/evdsvd05_future/README.md).
+
+
+## 행렬 분해 티어리스트 쇼츠
+
+- `episodes/matrixtier01_decompositions/`: 사용자 확정 대본 및 문장 종료 시각 기준 61초, 세로형 단독 쇼츠. 음원 미제공으로 무음.
+- 콘티: `brief.md`, 대본: `narration.md`, 발음 원고: `tts_script.txt`, 시간표: `timing.json`, 자막: `captions.srt`, 화면: `scene.py`.
+- 미리보기: `python scripts/render.py matrixtier01 --preview`
+- 최종본: `python scripts/render.py matrixtier01`
+
+## QR 분해 — 새로운 방향
+
+- [QR 1편: 벡터는 어떻게 새로운 공간을 만드는가?](longforms/qr01_new_directions/README.md): 사용자 확정 95초, 24개 독립 컷, 세로·가로 무음 자막 영상. `python scripts/render.py qr01_shorts --preview` / `python scripts/render.py qr01_longform --preview`; 최종본은 `--preview`를 생략한다. 두 버전 동시 제작은 `python longforms/qr01_new_directions/build.py`.
+
+- [QR 2편: 왜 R의 아래쪽은 모두 0일까?](longforms/qr02_triangular_structure/README.md): 사용자 확정 98초, 25개 독립 컷, 세로·가로 무음 자막 영상. `python scripts/render.py qr02_shorts --preview` / `python scripts/render.py qr02_longform --preview`; 최종본은 `--preview` 생략. 두 버전은 `python longforms/qr02_triangular_structure/build.py`.
+
+- [QR 2편 현재 수정본 v2 · 96초](longforms/qr02_triangular_structure/revisions/v2_96s/README.md): 새 원고·종료 시각 기준, 24컷. 점→직선→평면→공간→R의 열을 구성한다. `python scripts/render.py qr02_shorts` / `python scripts/render.py qr02_longform`. 상위 98초 버전은 보존 자료다.
+
+- [QR 3편 — 대각선에 부피가 숨어 있는 이유](longforms/qr03_diagonal_volume/README.md): 사용자 확정 108초·27컷, 단위 정육면체 변환·Q 부피 보존·R의 직교 높이·전단. `python scripts/render.py qr03_shorts` / `python scripts/render.py qr03_longform`. 미리보기는 --preview 추가.
+
+- [QR 4편 — 정규방정식과 QR의 수치 안정성](longforms/qr04_stable_least_squares/README.md): 사용자 확정 107초·28컷, 쇼츠·가로형 무음 자막 영상. `python scripts/render.py qr04_shorts` / `python scripts/render.py qr04_longform`. 미리보기 --preview.
+
+
+## Softmax Collapse — 106초 세로 쇼츠
+
+실제 소스: `episodes/softmax01_collapse/` (`scene.py`, `narration.md`, `brief.md`, `timing.json`, `captions.srt`, `tts_script.txt`). 사용자 제공 발화시간 기준, 27컷, 무음 영상.
+
+```powershell
+python scripts/render.py softmax01 --preview
+python scripts/render.py softmax01
+```
+
+출력: `exports/softmax01.mp4` (1080×1920, 30fps).
+
+- [현재 QR 기하학 4편 — QR은 왜 SVD처럼 대각화하지 않을까?](longforms/qr04_qr_vs_svd/README.md): 사용자 새 대본 108초·27컷. `python scripts/render.py qr04_shorts` / `python scripts/render.py qr04_longform`. 이전 107초 최소제곱 4편은 별도 폴더·출력으로 보존.
+
+- [QR 기하학 5편 최종편 — QR을 반복하면 왜 고윳값이 나타날까?](longforms/qr05_eigenvalue_iteration/README.md): 사용자 확정 124초·30컷. 실제 QR 반복·누적 기준 Pₖ·고윳값 보존·대각 수렴. `python scripts/render.py qr05_shorts` / `python scripts/render.py qr05_longform`. 미리보기 --preview.
+
+- [QR 기하학 — 마무리 영상](longforms/qr_series_closing/README.md): 사용자 요청 회고 대본·89초·25컷, 가로형만. `python scripts/render.py qr_closing_longform`. 무음·자막 영상, 미리보기 --preview.
+
+## 자연의 최적화 01
+
+[비눗막 · 174초 · 세로/가로](longforms/nature01_soap_film/README.md). python longforms/nature01_soap_film/build.py --preview / python longforms/nature01_soap_film/build.py. 음원 미제공, 문장 시각 기준 자막 무음 영상.
+
+## 작업 공간 정리
+
+렌더 작업을 종료한 뒤 PowerShell에서 `./scripts/clean_workspace.ps1`로 정리 대상 수와 용량을 확인하고, `./scripts/clean_workspace.ps1 -Apply`로 삭제한다. Python 캐시, `media/` 아래 Manim 부분 영상·Tex·texts 캐시, 루트 및 episodes/longforms의 렌더 로그를 정리한다. 완성 영상, 음원, 대본, 타이밍 자료, archive, 가상환경은 보존한다. 캐시 삭제 후 첫 렌더는 캐시를 다시 생성하므로 시간이 더 걸릴 수 있다.
+
+
+## 자연의 최적화 02
+
+[현수선과 중력 위치에너지 · 150초 · 세로/가로](longforms/nature02_catenary/README.md). python longforms/nature02_catenary/build.py --preview / python longforms/nature02_catenary/build.py. 음원 미제공, 문장 종료 시각 기준 자막 무음 영상.
+
+
+## 자연의 최적화 03
+
+[빛의 굴절과 이동 시간 · 149초 · 세로/가로](longforms/nature03_refraction/README.md). python longforms/nature03_refraction/build.py --preview / python longforms/nature03_refraction/build.py. 음원 미제공, 사용자 문장 종료 시각 기준 자막 무음 영상.
+
+
+## 자연의 최적화 04
+
+[최속강하선과 사이클로이드 · 165초 · 세로/가로](longforms/nature04_brachistochrone/README.md). `python longforms/nature04_brachistochrone/build.py --preview` / `python longforms/nature04_brachistochrone/build.py`. 사용자 문장 종료 시각, 26개 독립 씬, 자막 포함 무음 영상.
+
+## 자연의 최적화 05
+
+[최소작용 원리와 뉴턴의 운동법칙 · 162초 · 세로/가로](longforms/nature05_stationary_action/README.md). `python longforms/nature05_stationary_action/build.py --preview` / `python longforms/nature05_stationary_action/build.py`. 사용자 문장 종료 시각, 27개 독립 씬, 자막 포함 무음 영상.
+
+## 자연의 최적화 1~5편 통합 롱폼
+
+[음성 포함 통합본](longforms/nature_full_01_05/README.md): `nature_1.mp4`~`nature_5.mp4` 순서, 13분 35초, 1920×1080·30fps, 원본 영상·음성 보존 및 챕터 포함.
+
+## 내적 LEVEL 01
+[102초 쇼츠·롱폼 제작 자료](longforms/dot01_direction_measure/README.md). 실행: python longforms/dot01_direction_measure/build.py (--preview). 사용자 제공 문장 종료 시각 기준, 무음·자막 영상.
+
+
+## 내적 LEVEL 02 — 정사영
+[101초 쇼츠·롱폼 제작 자료](longforms/dot02_projection/README.md). 실행: python longforms/dot02_projection/build.py (--preview). 사용자 제공 문장 종료 시각 기준, 무음·자막 영상.
+
+
+## 내적 LEVEL 03 — 직교 잔차
+[101초 쇼츠·롱폼 제작 자료](longforms/dot03_orthogonal_residual/README.md). 실행: python longforms/dot03_orthogonal_residual/build.py (--preview). 정사영 제거·잔차 평행이동·내적0·성분 재구성, 무음 자막 영상.
+
+
+## 내적 LEVEL 04 — 직교정규기저와 좌표
+[137초 쇼츠·롱폼 제작 자료](longforms/dot04_orthonormal_coordinates/README.md). 실행: python longforms/dot04_orthonormal_coordinates/build.py (--preview). 고정 벡터·45도 기저 회전·음수 좌표·성분 재구성, 무음 자막 영상.
+
+## GPU 계층 구조 LEVEL 01 — Thread
+
+[152초 세로·가로 제작 자료](longforms/gpuh01_thread/README.md). 사용자 문장 종료 시각 기준, 16개 독립 씬, 무음 자막 영상. 실행: `python longforms/gpuh01_thread/build.py --preview` / `python longforms/gpuh01_thread/build.py`. CUDA 배열 덧셈은 RTX 3060에서 결과 검증 완료.
+
+## GPU 계층 구조 LEVEL 02 — Warp
+
+[167초 세로·가로 제작 자료](longforms/gpuh02_warp/README.md). 사용자 문장 종료 시각 기준, 20개 독립 씬, 고정 32 Lane·SIMT·분기 경로·활성 마스크, 무음 자막 영상. 실행: `python longforms/gpuh02_warp/build.py --preview` / `python longforms/gpuh02_warp/build.py`. CUDA 결과·소스 경로 참여 mask 검증 완료. 실제 compiler 변환과 경로 개념도를 구분한다.
+
+## GPU 계층 구조 LEVEL 03 — Block
+
+[178초 세로·가로 제작 자료](longforms/gpuh03_block/README.md). 사용자 문장 종료 시각 기준, 20개 독립 씬, 4 Warp·Shared Memory·Block 동기화·128→1 리덕션. 실행: `python longforms/gpuh03_block/build.py --preview` / `python longforms/gpuh03_block/build.py`. 원본 CUDA 출력8256과 각 단계의128개 Shared 슬롯을 GPU에서 검증. 음원 미제공으로 무음·자막 제작.
+
+## GPU 계층 구조 LEVEL 04 — SM
+
+[178초 세로·가로 제작 자료](longforms/gpuh04_sm/README.md). 사용자 문장 종료 시각 기준, 16개 독립 씬. 고정 GPU·SM·Block 지도에서 Warp 대기와 명령 발행을 연결하고 Latency Hiding·자원 제한·Occupancy를 설명한다. 실행: `python longforms/gpuh04_sm/build.py --preview` / `python longforms/gpuh04_sm/build.py`. CUDA 1,003개 출력 검증. 스케줄링과 최대32Warp 예시는 개념도이며 실측 trace·실제 사양이 아니다. 음원 미제공으로 무음·자막 제작.
+
+## GPU 계층 구조 LEVEL 05 — Grid
+
+[178초 세로·가로 제작 자료](longforms/gpuh05_grid/README.md). 사용자 종료 시각 기준18개 독립 씬. 논리 Grid12Block×128Thread와 물리 GPU의 SM 배치를 분리하고, 전역 인덱스·독립 Block·2D 이미지 타일을 연결한다. 실행: `python longforms/gpuh05_grid/build.py --preview` / `python longforms/gpuh05_grid/build.py`. CUDA 1536개 출력 및 별도2D 이미지 커널 검증. 배치 순서는 설명용 예시이며 음원 미제공으로 무음·자막 제작.
+
+## GPU 계층 구조 LEVEL 06 — Register
+
+[175초 세로·가로 제작 자료](longforms/gpuh06_register/README.md). 사용자 종료 시각 기준18개 독립 씬. Thread2의3+4=7을SM RegisterFile과 연결하고 Register Pressure·상주Warp·Spilling을 구분한다. 실행: `python longforms/gpuh06_register/build.py --preview` / `python longforms/gpuh06_register/build.py`. 실제CUDA1536개 출력,12Register/Thread·Spill0bytes 확인. 32/64Register와자원예산은별도가상예시. 음원미제공으로무음·전체자막.
+
+
+## 내적 LEVEL 05 — 그람–슈미트와 QR
+[153초 쇼츠·롱폼 제작 자료](longforms/dot05_gram_schmidt_qr/README.md). 실행: python longforms/dot05_gram_schmidt_qr/build.py (--preview). 정규화·정사영 제거·공간 보존·Q/R 구성과 원래 행렬 복원, 무음 자막 영상.
+
+
+## 내적 LEVEL 06 — 최소제곱과 직교 잔차
+[170초 쇼츠·롱폼 제작 자료](longforms/dot06_least_squares/README.md). 실행: python longforms/dot06_least_squares/build.py (--preview). 3차원 평면 위 거리 탐색·잔차 직교성·정규방정식·축약 QR, 무음 자막 영상.
+
+## 내적 LEVEL 07 — PCA와 최적 방향
+
+[149초 쇼츠·롱폼 제작 자료](longforms/dot07_pca_direction/README.md). 실행: `python longforms/dot07_pca_direction/build.py --preview` / `python longforms/dot07_pca_direction/build.py`. 같은16개 점의 중심화·정사영·잔차, 오차 최소와 분산 최대의 동치, 공분산 고유벡터. 무음 자막 영상.
+
+## 내적 LEVEL 08 — SVD와 방향별 행렬 작용
+
+[147초 쇼츠·롱폼 제작 자료](longforms/dot08_svd_direction/README.md). 실행: `python longforms/dot08_svd_direction/build.py --preview` / `python longforms/dot08_svd_direction/build.py`. Vᵀ의 내적 측정·Σ의 배율 적용·U의 출력 방향 결합으로(2,1)을(−1,6)으로 변환. 무음 자막 영상.
+
+## 내적 LEVEL 09 — Attention과 정보 결합
+
+[154초 쇼츠·롱폼 제작 자료](longforms/dot09_attention_mix/README.md). 실행: `python longforms/dot09_attention_mix/build.py --preview` / `python longforms/dot09_attention_mix/build.py`. Query–Key 점수3,2에서 스케일링·Softmax·별도Value가중합(2.68,0.66)까지. 정사영과의 역할 차이, 무음 자막 영상.
+
+## 내적 LEVEL 10 — 기울기와 경사하강법
+
+[169초 쇼츠·롱폼 제작 자료](longforms/dot10_gradient_descent/README.md). 실행: `python longforms/dot10_gradient_descent/build.py --preview` / `python longforms/dot10_gradient_descent/build.py`. 실제 손실곡면·등고선, 고정기울기와 회전방향, 방향미분 최소화, 학습률0.1·0.4 비교, 사용자 요청 시리즈 결론. 무음 자막 영상.
+
+## 내적 LEVEL 01–10 통합 롱폼
+
+[통합 제작 자료](longforms/dot_full_01_10/README.md). `exports/dot_long1.mp4`~`dot_long10.mp4`를 음성과 함께 순서대로 재인코딩 없이 연결. 출력 `exports/dot_full_01_10_longform.mp4`, 약23분33.5초. MP4챕터와 유튜브 설명 타임라인 포함. 실행: `python longforms/dot_full_01_10/combine.py`.
+
+
+- GPU LEVEL 07 Shared Memory: [제작 자료](longforms/gpuh07_shared_memory/README.md), 160초 가로·세로. `python longforms/gpuh07_shared_memory/build.py`.
+
+- [GPU LEVEL 08 — Global Memory & Coalescing](longforms/gpuh08_global_memory/README.md): 165초, 14개 독립 씬, 가로·세로. 32Lane의 정렬된 float32 접근을 고정 격자에서 비교하며 4→32 Sector로 변화. 실제 CUDA 출력 및 주소 모델 검증. `python longforms/gpuh08_global_memory/build.py`.
+
+- [GPU LEVEL 09 — L1 & L2 Cache](longforms/gpuh09_cache/README.md): 169초, 독립 씬14개, 가로·세로. 메모리 공간과 캐시 계층, L1/L2 Hit·Miss·L1 Bypass의 가정 경로, Unified L1/Shared 물리 자원의 개념 분할. `python longforms/gpuh09_cache/build.py`.
+
+- [GPU LEVEL 10 — Memory Controller & DRAM](longforms/gpuh10_dram/README.md): 164초, 독립 씬14개, 가로·세로. 논리 주소와 물리 저장 장치, Controller 요청·데이터 반환, DRAM Row 상태와 명령, GDDR/HBM 구조. `python longforms/gpuh10_dram/build.py`.
+
+- [GPU LEVEL 11 — 최종 통합편](longforms/gpuh11_integrated/README.md): 191초, 독립 씬16개, 가로형만. N512/Block128/Grid4의 vectorAdd에서 Block1 Thread5(i133)의 4+7=11을 끝까지 추적하며 논리 조직·SM 실행·데이터 공급을 연결. `python longforms/gpuh11_integrated/build.py`.
+
+- [GPU LEVEL 01–11 통합 롱폼](longforms/gpuh_full_01_11/README.md): 사용자 지정 `gpuh_1.mp4`~`gpuh_11.mp4` 음성 포함 파일을 순서대로 스트림 복사. 약31분46초, MP4 내장11챕터와 유튜브 구간 설명. `python longforms/gpuh_full_01_11/combine.py`.
+
+## 모든 것이 필요할까?
+
+- [01 — 최소 표현의 조건](longforms/minimal01_preserve/README.md): 154초, 15개 독립 씬, 세로 쇼츠·가로 롱폼. 무음·전체 발화 자막. 실행: python longforms/minimal01_preserve/build.py (--preview 미리보기).
+
+- [모든 것이 필요할까? 02 — 최소 유전체](longforms/minimal02_genome/README.md): 164초, 17개 독립 씬, 세로 쇼츠·가로 롱폼, 무음·전체 발화 자막. 실행: python longforms/minimal02_genome/build.py (--preview 미리보기).
+
+- [모든 것이 필요할까? 03 — 그래프 희소화](longforms/minimal03_sparsification/README.md): 163초, 독립 씬15개, 세로 쇼츠·가로 롱폼, 무음·자막. 실제 에너지 및 전칭 오차 검증. 실행: python longforms/minimal03_sparsification/build.py (--preview 미리보기).
+
+- [모든 것이 필요할까? 04 — 충분통계량](longforms/minimal04_sufficiency/README.md): 153초, 독립 씬15개, 세로 쇼츠·가로 롱폼, 무음·자막. 실제 상대 우도와 통계량 계산 검증. 실행: python longforms/minimal04_sufficiency/build.py (--preview 미리보기).
+
+
+충분통계량 4편의 현재 개정본(158초, 직관 실험): [제작 원본](longforms/minimal04_sufficiency/revisions/v2_intuition_158s/README.md)
+
+
+- [모든 것이 필요할까? 05 — 최소 실현](longforms/minimal05_realization/README.md): 사용자 발화 시각 기준 154초·16개 독립 씬·세로/가로. 실행: `python longforms/minimal05_realization/build.py --preview` 또는 `python longforms/minimal05_realization/build.py`.
+
+
+- [모든 것이 필요할까? 06 — 재규격화와 보편성](longforms/minimal06_universality/README.md):160초·14개 독립 씬·세로/가로. 실행: `python longforms/minimal06_universality/build.py --preview` 또는 `python longforms/minimal06_universality/build.py`.
+
+
+- [모든 것이 필요할까? 07 — 복권 가설](longforms/minimal07_lottery/README.md):170초·16개 독립 씬·세로/가로. 실행: `python longforms/minimal07_lottery/build.py --preview` 또는 `python longforms/minimal07_lottery/build.py`.
+
+
+- [01–07 통합 마무리 · 모든 것이 필요할까?](longforms/minimal01_07_finale/README.md): 사용자 확정163초, 14개 독립 씬, 16:9 롱폼만. 실행: `python longforms/minimal01_07_finale/build.py --preview` / `python longforms/minimal01_07_finale/build.py`. 음원 미제공, 무음·단일 트랙 자막.
+
+
+- [모든 것이 필요할까? 1–8 통합 롱폼](longforms/minimal_full_01_08/README.md): 사용자 지정 음성 포함 `minimal_1_long.mp4`–`minimal_8_long.mp4` 순차 결합. 21분49초,1080p30fps,8개 챕터와 유튜브 설명문. 실행: `python longforms/minimal_full_01_08/build.py`.
+
+- [최소 조건 2부 · 신경망 1편 — 내재 차원](longforms/minimal_nn01_intrinsic_dimension/README.md): 사용자 문장 종료 시각 기준 129초, 롱폼·쇼츠 두 버전, 1080p·60fps·무음·전체 문장 자막. 실행: `python longforms/minimal_nn01_intrinsic_dimension/build.py` (`--preview` 미리보기).
+
+- [최소 조건 2부 · 신경망 2편 — 신경망의 진짜 차원은 몇 개일까?](longforms/minimal_nn02_representation_dimension/README.md): 사용자 문장 종료 시각 기준 153초, 12개 독립 씬, 롱폼·쇼츠 1080p·60fps·무음·전체 문장 자막. 실행: `python longforms/minimal_nn02_representation_dimension/build.py` (`--preview` 미리보기).
+
+- [최소 조건 2부 · 신경망 3편 — IMPACT](longforms/minimal_nn03_impact/README.md): 사용자 확정156초·9개 독립 씬, 행렬 분해·활성화·기울기 중요도·기능 보존. 롱폼·쇼츠1080p·60fps·무음·자막. 실행: `python longforms/minimal_nn03_impact/build.py` (`--preview` 미리보기).
+
+- [인공지능은 어떻게 곱셈을 틀릴까?](episodes/mult01_error_parity/brief.md): 사용자 제공 대본·문장 종료 시각 기준 102초, 쇼츠 1080×1920·30fps·무음·전체 문장 자막. 십의 자리 오류의 홀짝 보존과 덧셈 선행 연구를 구분한다. 소스: `episodes/mult01_error_parity/scene.py`. 실행: `python scripts/render.py mult01 --preview` / `python scripts/render.py mult01`.
+
+## GPU 개론 08 — 레지스터와 데이터 경로
+
+`longforms/gpui08_register_datapath/` — 확정 153초, 가로·세로 별도 렌더.
+실행: `python longforms/gpui08_register_datapath/build.py --preview` 및 `python longforms/gpui08_register_datapath/build.py`.
+
+## GPU 개론 09 — 명령어와 제어 회로
+
+`longforms/gpui09_instruction_control/` — 확정141초, 가상8비트 명령어→해독→데이터 경로. 가로·세로별도렌더: `python longforms/gpui09_instruction_control/build.py --preview` 및 `python longforms/gpui09_instruction_control/build.py`.
+
+## GPU 개론 10 — 프로그램 실행과 PC
+
+`longforms/gpui10_program_execution/` — 확정165초, 명령어메모리·PC·인출/해독/실행·분기. 가로/세로별도렌더: `python longforms/gpui10_program_execution/build.py --preview` / `python longforms/gpui10_program_execution/build.py`.
+
+## GPU 개론 6~10편 합본
+
+음성 포함 지정 원본5개를연결: `python longforms/gpui_full_06_10/build.py`. 출력 `exports/gpui_6_10_long.mp4`.
+
+
+## 양자역학 EP.01 · 플랑크와 흑체복사
+
+[시리즈 공통 규격](quantum_series/README.md), [EP.01 제작·실행](quantum_series/episodes/ep01_planck/README.md). 사용자 확정86초·16문장, 세로1080×1920 / 가로1920×1080·30fps·무음·전체 문장 자막. 두 화면비 별도 배치, 4개 독립 씬, 연결 가능한 엔딩. `python scripts/render.py quantum01 --preview` / `python scripts/render.py quantum01`. 개별 실행: `quantum01_shorts`, `quantum01_longform`.
+
+
+## 양자역학 EP.02 · 광전효과와 아인슈타인
+
+[EP.02 제작·실행](quantum_series/episodes/ep02_photoelectric/README.md). 사용자 확정101초·22문장, 세로1080×1920 / 가로1920×1080·30fps·무음·전체 문장 자막. 같은 가상 금속에서 세기와 진동수를 독립적으로 비교하고, 5개 씬을 개별 렌더한다. `python scripts/render.py quantum02 --preview` / `python scripts/render.py quantum02`. 개별 비율: `quantum02_shorts`, `quantum02_longform`.
+
+
+## 양자역학 EP.03 · 금박 실험과 원자핵 발견
+
+[EP.03 제작·실행](quantum_series/episodes/ep03_rutherford/README.md). 사용자 확정105초·20문장, 세로1080×1920 / 가로1920×1080·30fps·무음·전체 문장 자막. 같은 에너지·전체 양전하에서 균일 구와 중심 쿨롱 산란을 비교하고, 6개 씬을 독립 렌더한다. `python scripts/render.py quantum03 --preview` / `python scripts/render.py quantum03`. 개별 비율: `quantum03_shorts`, `quantum03_longform`. 최종 엔딩 PNG도 별도 저장한다.

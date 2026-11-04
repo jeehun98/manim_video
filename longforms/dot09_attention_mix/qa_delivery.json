@@ -1,0 +1,24 @@
+[
+  {
+    "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\dot09_attention_mix_154s_shorts_final.mp4",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 4620,
+    "duration_seconds": 154,
+    "audio": false,
+    "full_decode": "passed",
+    "bytes": 2115715
+  },
+  {
+    "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\dot09_attention_mix_154s_longform_final.mp4",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "frames": 4620,
+    "duration_seconds": 154,
+    "audio": false,
+    "full_decode": "passed",
+    "bytes": 2058472
+  }
+]

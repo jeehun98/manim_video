@@ -1,0 +1,24 @@
+[
+  {
+    "layout": "shorts",
+    "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\evdsvd02_conditions_132s_shorts_final.mp4",
+    "duration": 132,
+    "frames": 3960,
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "decode_check": "passed",
+    "audio": false
+  },
+  {
+    "layout": "longform",
+    "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\evdsvd02_conditions_132s_longform_final.mp4",
+    "duration": 132,
+    "frames": 3960,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "decode_check": "passed",
+    "audio": false
+  }
+]

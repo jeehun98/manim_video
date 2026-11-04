@@ -1,0 +1,173 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_open",
+    "start": 0,
+    "end": 5,
+    "duration_seconds": 5,
+    "class": "Future01",
+    "title": "대결 기준 · 미래 예측"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_state",
+    "start": 5,
+    "end": 13,
+    "duration_seconds": 8,
+    "class": "Future02",
+    "title": "상태와 변화 규칙"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_steps",
+    "start": 13,
+    "end": 23,
+    "duration_seconds": 10,
+    "class": "Future03",
+    "title": "같은 변화를 반복하면?"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_directions",
+    "start": 23,
+    "end": 32,
+    "duration_seconds": 9,
+    "class": "Future04",
+    "title": "늘어나는 방향 · 줄어드는 방향"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_eigenvectors",
+    "start": 32,
+    "end": 42,
+    "duration_seconds": 10,
+    "class": "Future05",
+    "title": "같은 직선 위에 남는다"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_growth",
+    "start": 42,
+    "end": 47,
+    "duration_seconds": 5,
+    "class": "Future06",
+    "title": "고윳값 2 → 2ⁿ"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_decay",
+    "start": 47,
+    "end": 52,
+    "duration_seconds": 5,
+    "class": "Future07",
+    "title": "고윳값 0.5 → 0.5ⁿ"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_components",
+    "start": 52,
+    "end": 57,
+    "duration_seconds": 5,
+    "class": "Future08",
+    "title": "고유성분으로 나누면"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_trajectory",
+    "start": 57,
+    "end": 62,
+    "duration_seconds": 5,
+    "class": "Future09",
+    "title": "성분마다 다른 미래"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_evd",
+    "start": 62,
+    "end": 69,
+    "duration_seconds": 7,
+    "class": "Future10",
+    "title": "A = PDP⁻¹"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_cancel",
+    "start": 69,
+    "end": 74,
+    "duration_seconds": 5,
+    "class": "Future11",
+    "title": "중간의 기저 변환이 상쇄"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_powers",
+    "start": 74,
+    "end": 83,
+    "duration_seconds": 9,
+    "class": "Future12",
+    "title": "Aⁿ = PDⁿP⁻¹"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_svd",
+    "start": 83,
+    "end": 92,
+    "duration_seconds": 9,
+    "class": "Future13",
+    "title": "SVD · 한 번의 길이 변화"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_twosteps",
+    "start": 92,
+    "end": 98,
+    "duration_seconds": 6,
+    "class": "Future14",
+    "title": "첫 최대 확대 ≠ 매번 최대 확대"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15_mismatch",
+    "start": 98,
+    "end": 105,
+    "duration_seconds": 7,
+    "class": "Future15",
+    "title": "특이값의 제곱과 다르다"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16_structure",
+    "start": 105,
+    "end": 110,
+    "duration_seconds": 5,
+    "class": "Future16",
+    "title": "고유성분의 반복 변화를 드러낸다"
+  },
+  {
+    "id": "17",
+    "directory": "scenes/17_limits",
+    "start": 110,
+    "end": 116,
+    "duration_seconds": 6,
+    "class": "Future17",
+    "title": "대각화와 과도 현상의 한계"
+  },
+  {
+    "id": "18",
+    "directory": "scenes/18_verdict",
+    "start": 116,
+    "end": 126,
+    "duration_seconds": 10,
+    "class": "Future18",
+    "title": "ROUND 05 · EVD 승"
+  },
+  {
+    "id": "19",
+    "directory": "scenes/19_score",
+    "start": 126,
+    "end": 130,
+    "duration_seconds": 4,
+    "class": "Future19",
+    "title": "EVD 3 : 2 SVD"
+  }
+]

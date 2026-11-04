@@ -1,0 +1,54 @@
+{
+  "duration_seconds": 178,
+  "frames": 5340,
+  "cuda_validation": "original output and all 128 slots at all 8 snapshots match CPU model",
+  "checks": [
+    {
+      "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpuh03_block_178s_shorts_final.mp4",
+      "width": 1080,
+      "height": 1920,
+      "frames": 5340,
+      "fps": 30,
+      "seconds": "178.000000",
+      "codec": "h264",
+      "geometry_samples": 103,
+      "thread_and_shared_coordinates": "128 fixed thread slots and 128 fixed shared slots across 20 scenes",
+      "reduction_counts": [
+        64,
+        32,
+        16,
+        8,
+        4,
+        2,
+        1
+      ],
+      "all_barriers": 128,
+      "output": 8256,
+      "contact_sheet": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpuh03_qa_shorts_final.jpg"
+    },
+    {
+      "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpuh03_block_178s_longform_final.mp4",
+      "width": 1920,
+      "height": 1080,
+      "frames": 5340,
+      "fps": 30,
+      "seconds": "178.000000",
+      "codec": "h264",
+      "geometry_samples": 103,
+      "thread_and_shared_coordinates": "128 fixed thread slots and 128 fixed shared slots across 20 scenes",
+      "reduction_counts": [
+        64,
+        32,
+        16,
+        8,
+        4,
+        2,
+        1
+      ],
+      "all_barriers": 128,
+      "output": 8256,
+      "contact_sheet": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpuh03_qa_longform_final.jpg"
+    }
+  ],
+  "audio": "none; narration audio not supplied"
+}

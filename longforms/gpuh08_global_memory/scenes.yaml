@@ -1,0 +1,60 @@
+title: GPU LEVEL 08 Global Memory
+duration_seconds: 165
+timing_source: user_sentence_end_times
+scenes:
+  - id: "01"
+    directory: scenes/01_scene
+    duration_seconds: 15
+    class: Global01
+  - id: "02"
+    directory: scenes/02_scene
+    duration_seconds: 11
+    class: Global02
+  - id: "03"
+    directory: scenes/03_scene
+    duration_seconds: 15
+    class: Global03
+  - id: "04"
+    directory: scenes/04_scene
+    duration_seconds: 7
+    class: Global04
+  - id: "05"
+    directory: scenes/05_scene
+    duration_seconds: 17
+    class: Global05
+  - id: "06"
+    directory: scenes/06_scene
+    duration_seconds: 16
+    class: Global06
+  - id: "07"
+    directory: scenes/07_scene
+    duration_seconds: 11
+    class: Global07
+  - id: "08"
+    directory: scenes/08_scene
+    duration_seconds: 11
+    class: Global08
+  - id: "09"
+    directory: scenes/09_scene
+    duration_seconds: 6
+    class: Global09
+  - id: "10"
+    directory: scenes/10_scene
+    duration_seconds: 8
+    class: Global10
+  - id: "11"
+    directory: scenes/11_scene
+    duration_seconds: 10
+    class: Global11
+  - id: "12"
+    directory: scenes/12_scene
+    duration_seconds: 10
+    class: Global12
+  - id: "13"
+    directory: scenes/13_scene
+    duration_seconds: 12
+    class: Global13
+  - id: "14"
+    directory: scenes/14_scene
+    duration_seconds: 16
+    class: Global14

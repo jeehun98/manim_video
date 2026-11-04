@@ -1,0 +1,61 @@
+{
+  "cues": 39,
+  "duration_seconds": 170,
+  "A": [
+    [
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0
+    ]
+  ],
+  "Q": [
+    [
+      1.0,
+      0.0
+    ],
+    [
+      -0.0,
+      1.0
+    ],
+    [
+      -0.0,
+      -0.0
+    ]
+  ],
+  "R": [
+    [
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0
+    ]
+  ],
+  "optimal_coefficients": [
+    2.0,
+    3.0
+  ],
+  "projection": [
+    2.0,
+    3.0,
+    0.0
+  ],
+  "residual": [
+    0.0,
+    0.0,
+    4.0
+  ],
+  "minimum_distance": 4,
+  "minimum_squared_distance": 16,
+  "grid_candidates_checked": 1681,
+  "descent_samples": 101,
+  "full_column_rank": 2
+}

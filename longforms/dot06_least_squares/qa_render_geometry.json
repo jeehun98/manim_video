@@ -1,0 +1,17 @@
+{
+  "stream": {
+    "width": 1080,
+    "height": 1920,
+    "r_frame_rate": "30/1",
+    "duration": "170.000000",
+    "nb_frames": "5100"
+  },
+  "checks": {
+    "optimal_vertical_z_0.8": 6,
+    "optimal_vertical_z_2": 0,
+    "optimal_vertical_z_3.2": 41,
+    "nonoptimal_error_fraction_0.4": 17,
+    "nonoptimal_error_fraction_0.65": 93
+  },
+  "meaning": "Rendered residual follows candidate→target in 3D; optimal residual is parallel to z; exact expected orthographic screen positions."
+}

@@ -1,0 +1,18 @@
+{
+  "stable_states_hold": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "legal_single_transitions": 6,
+  "six_input_sequences": 1458,
+  "set_event_order": "Qbar=0 then Q=1",
+  "reset_event_order": "Q=0 then Qbar=1",
+  "illegal_input_excluded": true,
+  "volatile_storage": true
+}

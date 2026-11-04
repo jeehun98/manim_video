@@ -1,0 +1,24 @@
+{
+  "longform": {
+    "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui07_clock_135s_longform_final.mp4",
+    "sha256": "64774c67f4460d7e70777b5e137f56ccedc6f689f3919697340070c1aec255e0",
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "30/1",
+    "duration": "135.000000",
+    "nb_read_frames": "4050"
+  },
+  "shorts": {
+    "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui07_clock_135s_shorts_final.mp4",
+    "sha256": "6776a3f9542829ae6e01a298f044f2d4ad1f532a7b422e61f25fd60413312207",
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 1080,
+    "height": 1920,
+    "r_frame_rate": "30/1",
+    "duration": "135.000000",
+    "nb_read_frames": "4050"
+  }
+}

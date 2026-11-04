@@ -1,0 +1,37 @@
+[
+  {
+    "layout": "longform",
+    "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\qr03_diagonal_volume_108s_longform_final.mp4",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "frames": 3240,
+    "duration": 108,
+    "audio": "not supplied; silent",
+    "samples": [
+      2,
+      5,
+      10,
+      14,
+      18,
+      29,
+      33,
+      36,
+      40,
+      47,
+      52,
+      56,
+      61,
+      65,
+      69,
+      76,
+      82,
+      87,
+      91,
+      94,
+      98,
+      104,
+      107
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+PASS neighborRead<<<1,128>>> all128; B[5]=106 B[6]=107 B[127]=100
+PASS separate tiledGemm N4/T2 all16; selected 90 100 202 228
+PASS bankRead active4lanes stride1: 0 1 2 3; no timing claim
+PASS bankRead active4lanes stride32: 0 32 64 96; no timing claim
+PASS bankRead active4lanes stride0: 0 0 0 0; no timing claim
+Unsafe read animation is a conceptual hazard, not an executed race. Arrival order, capacity and bank service steps are illustrative, not hardware traces.

@@ -1,0 +1,9 @@
+{
+  "A_equals_QR": true,
+  "Q_orthonormal": true,
+  "positive_diagonal": true,
+  "prefix_spaces_preserved": true,
+  "continuous_timing": true,
+  "duration": 96,
+  "sentences": 23
+}

@@ -1,0 +1,42 @@
+duration_seconds: 137
+timing_source: user_sentence_end_times
+layouts:
+  shorts: [1080, 1920, 30]
+  longform: [1920, 1080, 30]
+scenes:
+  - id: "01"
+    directory: scenes/01_scene
+    class: Basis01
+    duration_seconds: 7
+  - id: "02"
+    directory: scenes/02_scene
+    class: Basis02
+    duration_seconds: 15
+  - id: "03"
+    directory: scenes/03_scene
+    class: Basis03
+    duration_seconds: 23
+  - id: "04"
+    directory: scenes/04_scene
+    class: Basis04
+    duration_seconds: 17
+  - id: "05"
+    directory: scenes/05_scene
+    class: Basis05
+    duration_seconds: 19
+  - id: "06"
+    directory: scenes/06_scene
+    class: Basis06
+    duration_seconds: 8
+  - id: "07"
+    directory: scenes/07_scene
+    class: Basis07
+    duration_seconds: 15
+  - id: "08"
+    directory: scenes/08_scene
+    class: Basis08
+    duration_seconds: 21
+  - id: "09"
+    directory: scenes/09_scene
+    class: Basis09
+    duration_seconds: 12

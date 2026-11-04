@@ -1,0 +1,108 @@
+id: gpuh03_block
+title: "스레드들은 어떻게 서로 협력할까?"
+video:
+  fps: 30
+  layouts:
+    shorts: [1080, 1920]
+    longform: [1920, 1080]
+scenes:
+  - id: "01"
+    directory: scenes/01_scene
+    class: Block01
+    duration_seconds: 12
+    transition: cut
+  - id: "02"
+    directory: scenes/02_scene
+    class: Block02
+    duration_seconds: 11
+    transition: cut
+  - id: "03"
+    directory: scenes/03_scene
+    class: Block03
+    duration_seconds: 11
+    transition: cut
+  - id: "04"
+    directory: scenes/04_scene
+    class: Block04
+    duration_seconds: 9
+    transition: cut
+  - id: "05"
+    directory: scenes/05_scene
+    class: Block05
+    duration_seconds: 13
+    transition: cut
+  - id: "06"
+    directory: scenes/06_scene
+    class: Block06
+    duration_seconds: 6
+    transition: cut
+  - id: "07"
+    directory: scenes/07_scene
+    class: Block07
+    duration_seconds: 11
+    transition: cut
+  - id: "08"
+    directory: scenes/08_scene
+    class: Block08
+    duration_seconds: 4
+    transition: cut
+  - id: "09"
+    directory: scenes/09_scene
+    class: Block09
+    duration_seconds: 12
+    transition: cut
+  - id: "10"
+    directory: scenes/10_scene
+    class: Block10
+    duration_seconds: 13
+    transition: cut
+  - id: "11"
+    directory: scenes/11_scene
+    class: Block11
+    duration_seconds: 6
+    transition: cut
+  - id: "12"
+    directory: scenes/12_scene
+    class: Block12
+    duration_seconds: 7
+    transition: cut
+  - id: "13"
+    directory: scenes/13_scene
+    class: Block13
+    duration_seconds: 8
+    transition: cut
+  - id: "14"
+    directory: scenes/14_scene
+    class: Block14
+    duration_seconds: 4
+    transition: cut
+  - id: "15"
+    directory: scenes/15_scene
+    class: Block15
+    duration_seconds: 8
+    transition: cut
+  - id: "16"
+    directory: scenes/16_scene
+    class: Block16
+    duration_seconds: 8
+    transition: cut
+  - id: "17"
+    directory: scenes/17_scene
+    class: Block17
+    duration_seconds: 5
+    transition: cut
+  - id: "18"
+    directory: scenes/18_scene
+    class: Block18
+    duration_seconds: 10
+    transition: cut
+  - id: "19"
+    directory: scenes/19_scene
+    class: Block19
+    duration_seconds: 11
+    transition: cut
+  - id: "20"
+    directory: scenes/20_scene
+    class: Block20
+    duration_seconds: 9
+    transition: cut

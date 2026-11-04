@@ -1,0 +1,72 @@
+title: EVD vs SVD — 고윳값과 특이값
+duration_seconds: 103
+ending_confirmed: true
+scenes:
+  - id: "01"
+    directory: scenes/01_open
+    class: ValuesOpen
+    duration_seconds: 6
+  - id: "02"
+    directory: scenes/02_square
+    class: ValuesSquare
+    duration_seconds: 8
+  - id: "03"
+    directory: scenes/03_eigenvalues
+    class: ValuesEigenvalues
+    duration_seconds: 9
+  - id: "04"
+    directory: scenes/04_eigenvector
+    class: ValuesEigenvector
+    duration_seconds: 7
+  - id: "05"
+    directory: scenes/05_meaning
+    class: ValuesMeaning
+    duration_seconds: 8
+  - id: "06"
+    directory: scenes/06_vertical
+    class: ValuesVertical
+    duration_seconds: 7
+  - id: "07"
+    directory: scenes/07_question
+    class: ValuesQuestion
+    duration_seconds: 7
+  - id: "08"
+    directory: scenes/08_circle
+    class: ValuesCircle
+    duration_seconds: 3
+  - id: "09"
+    directory: scenes/09_ellipse
+    class: ValuesEllipse
+    duration_seconds: 4
+  - id: "10"
+    directory: scenes/10_maximum
+    class: ValuesMaximum
+    duration_seconds: 6
+  - id: "11"
+    directory: scenes/11_minimum
+    class: ValuesMinimum
+    duration_seconds: 6
+  - id: "12"
+    directory: scenes/12_lengths
+    class: ValuesLengths
+    duration_seconds: 3
+  - id: "13"
+    directory: scenes/13_compare
+    class: ValuesCompare
+    duration_seconds: 6
+  - id: "14"
+    directory: scenes/14_eigenmeaning
+    class: ValuesEigenMeaning
+    duration_seconds: 5
+  - id: "15"
+    directory: scenes/15_singularmeaning
+    class: ValuesSingularMeaning
+    duration_seconds: 5
+  - id: "16"
+    directory: scenes/16_verdict
+    class: ValuesVerdict
+    duration_seconds: 8
+  - id: "17"
+    directory: scenes/17_score
+    class: ValuesScore
+    duration_seconds: 5

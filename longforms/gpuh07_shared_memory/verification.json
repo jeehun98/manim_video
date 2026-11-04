@@ -1,0 +1,24 @@
+{
+  "cues": 33,
+  "shots": 17,
+  "cuda": "all128 neighbor and16 GEMM verified",
+  "source_element_requests": {
+    "naive": 32,
+    "tiled": 16,
+    "measured_dram": false
+  },
+  "videos": [
+    {
+      "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpuh07_shared_memory_160s_shorts_final.mp4",
+      "duration": 160,
+      "frames": 4800,
+      "audio": false
+    },
+    {
+      "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpuh07_shared_memory_160s_longform_final.mp4",
+      "duration": 160,
+      "frames": 4800,
+      "audio": false
+    }
+  ]
+}

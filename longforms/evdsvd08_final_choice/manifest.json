@@ -1,0 +1,272 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_open",
+    "start": 0,
+    "end": 4,
+    "duration_seconds": 4,
+    "class": "FinalChoice01",
+    "title": "FINAL EPISODE"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_results",
+    "start": 4,
+    "end": 9,
+    "duration_seconds": 5,
+    "class": "FinalChoice02",
+    "title": "일곱 라운드 · 현재 3 : 4"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_question",
+    "start": 9,
+    "end": 13,
+    "duration_seconds": 4,
+    "class": "FinalChoice03",
+    "title": "점수가 높으면 더 좋은 분해일까?"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_same",
+    "start": 13,
+    "end": 20,
+    "duration_seconds": 7,
+    "class": "FinalChoice04",
+    "title": "같은 행렬 · 서로 다른 정보"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_eigen",
+    "start": 20,
+    "end": 26,
+    "duration_seconds": 6,
+    "class": "FinalChoice05",
+    "title": "EVD · 같은 직선 위의 방향"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_eigenvalues",
+    "start": 26,
+    "end": 31,
+    "duration_seconds": 5,
+    "class": "FinalChoice06",
+    "title": "고유방향에서의 배율"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_negative",
+    "start": 31,
+    "end": 34,
+    "duration_seconds": 3,
+    "class": "FinalChoice07",
+    "title": "고윳값은 음수가 될 수 있다"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_flip",
+    "start": 34,
+    "end": 40,
+    "duration_seconds": 6,
+    "class": "FinalChoice08",
+    "title": "−2 · 반전하면서 길이 두 배"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_sign_magnitude",
+    "start": 40,
+    "end": 46,
+    "duration_seconds": 6,
+    "class": "FinalChoice09",
+    "title": "부호와 크기의 역할"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_powers",
+    "start": 46,
+    "end": 56,
+    "duration_seconds": 10,
+    "class": "FinalChoice10",
+    "title": "반복하면 방향도 번갈아 바뀐다"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_svd",
+    "start": 56,
+    "end": 62,
+    "duration_seconds": 6,
+    "class": "FinalChoice11",
+    "title": "SVD · 직교하는 입력 방향"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_singularvalues",
+    "start": 62,
+    "end": 67,
+    "duration_seconds": 5,
+    "class": "FinalChoice12",
+    "title": "특이값은 길이 배율"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_nonnegative",
+    "start": 67,
+    "end": 69,
+    "duration_seconds": 2,
+    "class": "FinalChoice13",
+    "title": "특이값은 항상 0 이상"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_can_flip",
+    "start": 69,
+    "end": 75,
+    "duration_seconds": 6,
+    "class": "FinalChoice14",
+    "title": "그렇다면 반전은 어디에?"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15_input_output",
+    "start": 75,
+    "end": 80,
+    "duration_seconds": 5,
+    "class": "FinalChoice15",
+    "title": "입력과 출력의 단위방향"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16_svd_flip",
+    "start": 80,
+    "end": 86,
+    "duration_seconds": 6,
+    "class": "FinalChoice16",
+    "title": "같은 변환 · 다른 설명"
+  },
+  {
+    "id": "17",
+    "directory": "scenes/17_uses",
+    "start": 86,
+    "end": 93,
+    "duration_seconds": 7,
+    "class": "FinalChoice17",
+    "title": "최대 확대와 정보 소실"
+  },
+  {
+    "id": "18",
+    "directory": "scenes/18_approximation",
+    "start": 93,
+    "end": 98,
+    "duration_seconds": 5,
+    "class": "FinalChoice18",
+    "title": "정해진 랭크에서 최소 오차"
+  },
+  {
+    "id": "19",
+    "directory": "scenes/19_two_questions",
+    "start": 98,
+    "end": 102,
+    "duration_seconds": 4,
+    "class": "FinalChoice19",
+    "title": "서로 다른 질문에 답한다"
+  },
+  {
+    "id": "20",
+    "directory": "scenes/20_evd_question",
+    "start": 102,
+    "end": 107,
+    "duration_seconds": 5,
+    "class": "FinalChoice20",
+    "title": "EVD · 고유방향에서 어떤 변화?"
+  },
+  {
+    "id": "21",
+    "directory": "scenes/21_svd_question",
+    "start": 107,
+    "end": 113,
+    "duration_seconds": 6,
+    "class": "FinalChoice21",
+    "title": "SVD · 입력이 어떻게 출력으로?"
+  },
+  {
+    "id": "22",
+    "directory": "scenes/22_conditions",
+    "start": 113,
+    "end": 118,
+    "duration_seconds": 5,
+    "class": "FinalChoice22",
+    "title": "적용 가능한 행렬의 범위"
+  },
+  {
+    "id": "23",
+    "directory": "scenes/23_replace",
+    "start": 118,
+    "end": 122,
+    "duration_seconds": 4,
+    "class": "FinalChoice23",
+    "title": "더 넓게 적용돼도 대체는 아니다"
+  },
+  {
+    "id": "24",
+    "directory": "scenes/24_information",
+    "start": 122,
+    "end": 126,
+    "duration_seconds": 4,
+    "class": "FinalChoice24",
+    "title": "직접 드러내는 정보가 다르다"
+  },
+  {
+    "id": "25",
+    "directory": "scenes/25_winner_question",
+    "start": 126,
+    "end": 129,
+    "duration_seconds": 3,
+    "class": "FinalChoice25",
+    "title": "행렬 분해 월드컵 · 최종 승자는?"
+  },
+  {
+    "id": "26",
+    "directory": "scenes/26_score",
+    "start": 129,
+    "end": 132,
+    "duration_seconds": 3,
+    "class": "FinalChoice26",
+    "title": "FINAL SCORE · EVD 3 : 4 SVD"
+  },
+  {
+    "id": "27",
+    "directory": "scenes/27_champion",
+    "start": 132,
+    "end": 135,
+    "duration_seconds": 3,
+    "class": "FinalChoice27",
+    "title": "SVD · CHAMPION"
+  },
+  {
+    "id": "28",
+    "directory": "scenes/28_last_question",
+    "start": 135,
+    "end": 141,
+    "duration_seconds": 6,
+    "class": "FinalChoice28",
+    "title": "행렬의 어떤 성질을 알고 싶은가?"
+  },
+  {
+    "id": "29",
+    "directory": "scenes/29_message",
+    "start": 141,
+    "end": 146,
+    "duration_seconds": 5,
+    "class": "FinalChoice29",
+    "title": "분해는 질문에서 시작된다"
+  },
+  {
+    "id": "30",
+    "directory": "scenes/30_end",
+    "start": 146,
+    "end": 149,
+    "duration_seconds": 3,
+    "class": "FinalChoice30",
+    "title": "행렬을 이해하는 두 가지 관점"
+  }
+]

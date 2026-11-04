@@ -1,0 +1,274 @@
+{
+  "source": "사용자 제공 문장별 종료 시각",
+  "duration_seconds": 120,
+  "sentences": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 1,
+      "text": "여기 서로 다른 두 행렬이 있습니다."
+    },
+    {
+      "id": 2,
+      "start": 1,
+      "end": 7,
+      "text": "첫 번째 행렬에는 2와 1이 섞여 있고, 두 번째 행렬에는 대각선에 3과 1만 놓여 있습니다."
+    },
+    {
+      "id": 3,
+      "start": 7,
+      "end": 10,
+      "text": "두 행렬에 같은 좌표 숫자를 입력하면 서로 다른 결과가 나옵니다."
+    },
+    {
+      "id": 4,
+      "start": 10,
+      "end": 15,
+      "text": "그렇다면 이 두 행렬은 반드시 서로 다른 변환을 나타낼까요?"
+    },
+    {
+      "id": 5,
+      "start": 15,
+      "end": 20,
+      "text": "먼저 두 행렬을 모두 같은 수평·수직 좌표계에서 해석해 보겠습니다."
+    },
+    {
+      "id": 6,
+      "start": 20,
+      "end": 25,
+      "text": "첫 번째 행렬은 수평과 수직 방향의 성분을 서로 섞으며 공간을 변형합니다."
+    },
+    {
+      "id": 7,
+      "start": 25,
+      "end": 30,
+      "text": "반면 두 번째 행렬은 수평 방향으로 3배 늘리고, 수직 방향은 그대로 유지합니다."
+    },
+    {
+      "id": 8,
+      "start": 30,
+      "end": 31,
+      "text": "분명 서로 다른 모습입니다."
+    },
+    {
+      "id": 9,
+      "start": 31,
+      "end": 34,
+      "text": "그런데 한 가지를 바꿔보겠습니다."
+    },
+    {
+      "id": 10,
+      "start": 34,
+      "end": 37,
+      "text": "변환 자체가 아니라, 변환을 바라보는 좌표계입니다."
+    },
+    {
+      "id": 11,
+      "start": 37,
+      "end": 43,
+      "text": "우리는 보통 수평과 수직 방향을 좌표축으로 사용하지만, 반드시 그럴 필요는 없습니다."
+    },
+    {
+      "id": 12,
+      "start": 43,
+      "end": 49,
+      "text": "이번에는 오른쪽 위와 오른쪽 아래를 향하는 두 대각선 방향을 새로운 좌표축으로 선택하겠습니다."
+    },
+    {
+      "id": 13,
+      "start": 49,
+      "end": 53,
+      "text": "각 좌표축의 단위 눈금도 새로운 기준에 맞춰 바꿉니다."
+    },
+    {
+      "id": 14,
+      "start": 53,
+      "end": 59,
+      "text": "벡터가 움직인 것은 아닙니다. 같은 벡터를 나타내는 기준과 좌표 숫자만 달라졌습니다."
+    },
+    {
+      "id": 15,
+      "start": 59,
+      "end": 64,
+      "text": "표준 좌표에서 2, 1인 벡터는 새로운 좌표계에서 1.5, 0.5가 됩니다."
+    },
+    {
+      "id": 16,
+      "start": 64,
+      "end": 68,
+      "text": "이제 두 좌표계에서 각각의 행렬을 적용해 보겠습니다."
+    },
+    {
+      "id": 17,
+      "start": 68,
+      "end": 72,
+      "text": "첫 번째 행렬을 적용하면 표준 좌표에서 5, 4가 나옵니다."
+    },
+    {
+      "id": 18,
+      "start": 72,
+      "end": 77,
+      "text": "두 번째 행렬을 적용하면 새로운 좌표계에서 4.5, 0.5가 나옵니다."
+    },
+    {
+      "id": 19,
+      "start": 77,
+      "end": 79,
+      "text": "출력된 좌표 숫자는 서로 다릅니다."
+    },
+    {
+      "id": 20,
+      "start": 79,
+      "end": 85,
+      "text": "하지만 새로운 좌표축을 기준으로 결과를 그려보면, 두 화살표는 실제 공간에서 정확히 겹칩니다."
+    },
+    {
+      "id": 21,
+      "start": 85,
+      "end": 89,
+      "text": "서로 다른 숫자로 계산했지만, 같은 실제 벡터에 도달한 것입니다."
+    },
+    {
+      "id": 22,
+      "start": 89,
+      "end": 93,
+      "text": "그리고 이 일치는 지금 선택한 벡터에서만 일어나는 것이 아닙니다."
+    },
+    {
+      "id": 23,
+      "start": 93,
+      "end": 99,
+      "text": "어떤 벡터를 선택해도, 좌표를 올바르게 바꾸어 계산하면 같은 실제 결과에 도달합니다."
+    },
+    {
+      "id": 24,
+      "start": 99,
+      "end": 106,
+      "text": "첫 번째 행렬에서는 복잡하게 섞여 보이던 변환이, 새로운 좌표계에서는 두 방향의 독립적인 확대와 유지로 표현된 것입니다."
+    },
+    {
+      "id": 25,
+      "start": 106,
+      "end": 110,
+      "text": "두 좌표축은 바로 이 변환의 고유벡터 방향입니다."
+    },
+    {
+      "id": 26,
+      "start": 110,
+      "end": 115,
+      "text": "이처럼 서로 다른 기저에서 같은 선형변환을 표현하는 두 행렬은 닮음 관계에 있다고 합니다."
+    },
+    {
+      "id": 27,
+      "start": 115,
+      "end": 120,
+      "text": "행렬의 숫자는 변환의 작용과, 그 작용을 표현하는 좌표계를 함께 반영합니다."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "01",
+      "directory": "scenes/01",
+      "class": "Scene01",
+      "start": 0,
+      "end": 7,
+      "duration_seconds": 7
+    },
+    {
+      "id": "02",
+      "directory": "scenes/02",
+      "class": "Scene02",
+      "start": 7,
+      "end": 15,
+      "duration_seconds": 8
+    },
+    {
+      "id": "03",
+      "directory": "scenes/03",
+      "class": "Scene03",
+      "start": 15,
+      "end": 31,
+      "duration_seconds": 16
+    },
+    {
+      "id": "04",
+      "directory": "scenes/04",
+      "class": "Scene04",
+      "start": 31,
+      "end": 43,
+      "duration_seconds": 12
+    },
+    {
+      "id": "05",
+      "directory": "scenes/05",
+      "class": "Scene05",
+      "start": 43,
+      "end": 53,
+      "duration_seconds": 10
+    },
+    {
+      "id": "06",
+      "directory": "scenes/06",
+      "class": "Scene06",
+      "start": 53,
+      "end": 64,
+      "duration_seconds": 11
+    },
+    {
+      "id": "07",
+      "directory": "scenes/07",
+      "class": "Scene07",
+      "start": 64,
+      "end": 77,
+      "duration_seconds": 13
+    },
+    {
+      "id": "08",
+      "directory": "scenes/08",
+      "class": "Scene08",
+      "start": 77,
+      "end": 89,
+      "duration_seconds": 12
+    },
+    {
+      "id": "09",
+      "directory": "scenes/09",
+      "class": "Scene09",
+      "start": 89,
+      "end": 99,
+      "duration_seconds": 10
+    },
+    {
+      "id": "10",
+      "directory": "scenes/10",
+      "class": "Scene10",
+      "start": 99,
+      "end": 106,
+      "duration_seconds": 7
+    },
+    {
+      "id": "11",
+      "directory": "scenes/11",
+      "class": "Scene11",
+      "start": 106,
+      "end": 110,
+      "duration_seconds": 4
+    },
+    {
+      "id": "12",
+      "directory": "scenes/12",
+      "class": "Scene12",
+      "start": 110,
+      "end": 115,
+      "duration_seconds": 5
+    },
+    {
+      "id": "13",
+      "directory": "scenes/13",
+      "class": "Scene13",
+      "start": 115,
+      "end": 120,
+      "duration_seconds": 5
+    }
+  ]
+}

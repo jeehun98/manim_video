@@ -1,0 +1,74 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_signal",
+    "class": "Scene01",
+    "start": 0,
+    "end": 12,
+    "duration_seconds": 12,
+    "title": "전기 신호와 전압"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_levels",
+    "class": "Scene02",
+    "start": 12,
+    "end": 28,
+    "duration_seconds": 16,
+    "title": "전압에 의미 부여"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_noise",
+    "class": "Scene03",
+    "start": 28,
+    "end": 42,
+    "duration_seconds": 14,
+    "title": "잡음과 오인식"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_binary",
+    "class": "Scene04",
+    "start": 42,
+    "end": 61,
+    "duration_seconds": 19,
+    "title": "두 논리 상태의 발견"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_tradeoff",
+    "class": "Scene05",
+    "start": 61,
+    "end": 66,
+    "duration_seconds": 5,
+    "title": "표현력의 한계"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_combinations",
+    "class": "Scene06",
+    "start": 66,
+    "end": 81,
+    "duration_seconds": 15,
+    "title": "신호 조합 확장"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_bit",
+    "class": "Scene07",
+    "start": 81,
+    "end": 98,
+    "duration_seconds": 17,
+    "title": "비트의 도입"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_processing",
+    "class": "Scene08",
+    "start": 98,
+    "end": 113,
+    "duration_seconds": 15,
+    "title": "표현에서 계산으로"
+  }
+]

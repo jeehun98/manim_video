@@ -1,0 +1,45 @@
+{
+  "duration_seconds": 748.1,
+  "episodes": [
+    {
+      "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui_6_long.mp4",
+      "title": "논리 게이트는 어떻게 값을 기억할까?",
+      "start_seconds": 0.0,
+      "duration_seconds": 142.9,
+      "video_frames": 4287,
+      "audio_duration_seconds": 140.400658
+    },
+    {
+      "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui_7_long.mp4",
+      "title": "회로는 언제 값을 갱신할까?",
+      "start_seconds": 142.9,
+      "duration_seconds": 138.43333333333334,
+      "video_frames": 4153,
+      "audio_duration_seconds": 135.95068
+    },
+    {
+      "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui_8_long.mp4",
+      "title": "저장된 값은 어떻게 다시 계산에 사용될까?",
+      "start_seconds": 281.3333333333333,
+      "duration_seconds": 155.56666666666666,
+      "video_frames": 4667,
+      "audio_duration_seconds": 153.25068
+    },
+    {
+      "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui_9_long.mp4",
+      "title": "명령어는 어떻게 회로를 제어할까?",
+      "start_seconds": 436.9,
+      "duration_seconds": 143.43333333333334,
+      "video_frames": 4303,
+      "audio_duration_seconds": 141.000612
+    },
+    {
+      "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui_10_long.mp4",
+      "title": "컴퓨터는 어떻게 프로그램을 실행할까?",
+      "start_seconds": 580.3333333333334,
+      "duration_seconds": 167.76666666666668,
+      "video_frames": 5033,
+      "audio_duration_seconds": 165.150794
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+title: GPU 계층 구조 LEVEL 06 — Register
+duration_seconds: 175
+timing_source: user_sentence_end_times
+scenes:
+  - id: "01"
+    directory: scenes/01_scene
+    duration_seconds: 21
+    class: Register01
+  - id: "02"
+    directory: scenes/02_scene
+    duration_seconds: 11
+    class: Register02
+  - id: "03"
+    directory: scenes/03_scene
+    duration_seconds: 9
+    class: Register03
+  - id: "04"
+    directory: scenes/04_scene
+    duration_seconds: 5
+    class: Register04
+  - id: "05"
+    directory: scenes/05_scene
+    duration_seconds: 9
+    class: Register05
+  - id: "06"
+    directory: scenes/06_scene
+    duration_seconds: 9
+    class: Register06
+  - id: "07"
+    directory: scenes/07_scene
+    duration_seconds: 5
+    class: Register07
+  - id: "08"
+    directory: scenes/08_scene
+    duration_seconds: 10
+    class: Register08
+  - id: "09"
+    directory: scenes/09_scene
+    duration_seconds: 6
+    class: Register09
+  - id: "10"
+    directory: scenes/10_scene
+    duration_seconds: 10
+    class: Register10
+  - id: "11"
+    directory: scenes/11_scene
+    duration_seconds: 10
+    class: Register11
+  - id: "12"
+    directory: scenes/12_scene
+    duration_seconds: 9
+    class: Register12
+  - id: "13"
+    directory: scenes/13_scene
+    duration_seconds: 10
+    class: Register13
+  - id: "14"
+    directory: scenes/14_scene
+    duration_seconds: 13
+    class: Register14
+  - id: "15"
+    directory: scenes/15_scene
+    duration_seconds: 6
+    class: Register15
+  - id: "16"
+    directory: scenes/16_scene
+    duration_seconds: 15
+    class: Register16
+  - id: "17"
+    directory: scenes/17_scene
+    duration_seconds: 8
+    class: Register17
+  - id: "18"
+    directory: scenes/18_scene
+    duration_seconds: 9
+    class: Register18

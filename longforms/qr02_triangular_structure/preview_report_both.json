@@ -1,0 +1,20 @@
+[
+  {
+    "layout": "shorts",
+    "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\qr02_triangular_structure_98s_shorts_preview.mp4",
+    "width": 360,
+    "height": 640,
+    "r_frame_rate": "15/1",
+    "duration": "98.000000",
+    "nb_read_frames": "1470"
+  },
+  {
+    "layout": "longform",
+    "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\qr02_triangular_structure_98s_longform_preview.mp4",
+    "width": 640,
+    "height": 360,
+    "r_frame_rate": "15/1",
+    "duration": "98.000000",
+    "nb_read_frames": "1470"
+  }
+]

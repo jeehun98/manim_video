@@ -1,0 +1,22 @@
+[
+  {
+    "layout": "shorts",
+    "samples_seconds": [
+      0.1,
+      5.8,
+      11.8
+    ],
+    "checked_points": 12,
+    "max_centroid_displacement_pixels": 0.2576941016011038
+  },
+  {
+    "layout": "longform",
+    "samples_seconds": [
+      0.1,
+      5.8,
+      11.8
+    ],
+    "checked_points": 12,
+    "max_centroid_displacement_pixels": 0.4128993114493913
+  }
+]

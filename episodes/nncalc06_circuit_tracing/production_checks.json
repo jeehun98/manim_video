@@ -1,0 +1,32 @@
+{
+  "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\nncalc06.mp4",
+  "duration": 165.998047,
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "audio_streams": 0,
+  "timing_basis": "user_provided_cumulative_sentence_end_times",
+  "user_sentence_ends_verified": true,
+  "cues": 33,
+  "sections": 6,
+  "frames": 4980,
+  "narration_tts_consistent": true,
+  "caption_layout_verified": true,
+  "clt_current_and_later_layer_writes_verified": true,
+  "input_specific_attribution_graph": true,
+  "capital_branch_and_shortcut_present": true,
+  "measured_weights_claimed": false,
+  "original_model_intervention": true,
+  "intervention_input_unchanged": true,
+  "before_output": "Austin",
+  "after_output": "Sacramento",
+  "original_model_causality_fully_established": false,
+  "six_independent_sections": true,
+  "contact_sheets": [
+    "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\nncalc06\\qa\\final_sheet_1.jpg",
+    "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\nncalc06\\qa\\final_sheet_2.jpg",
+    "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\nncalc06\\qa\\final_sheet_3.jpg",
+    "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\nncalc06\\qa\\final_sheet_4.jpg",
+    "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\nncalc06\\qa\\final_sheet_5.jpg"
+  ]
+}

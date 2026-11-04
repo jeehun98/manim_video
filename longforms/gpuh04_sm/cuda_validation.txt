@@ -1,0 +1,4 @@
+PASS all 1003 outputs equal A[i]*2; launch 8 blocks x 128 threads
+GPU: NVIDIA GeForce RTX 3060; SM count 28; kernel registers/thread 10; static shared 0 bytes
+API theoretical active blocks/SM 12; warps 48; max warps 48; occupancy 1.000
+Animation uses a fictional 32-warp SM and illustrative issue order, not these device limits or a measured schedule.

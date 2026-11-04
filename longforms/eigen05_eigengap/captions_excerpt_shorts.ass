@@ -1,0 +1,43 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Malgun Gothic,60,&H00F7F3ED,&H00F7F3ED,&H00101A26,&H80000000,0,0,0,0,100,100,0,0,1,0,0,2,65,65,170,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:06.00,Default,,0,0,0,,데이터는 조금 달라졌는데\N주요 방향은 크게 바뀔까요?
+Dialogue: 0,0:00:06.00,0:00:10.00,Default,,0,0,0,,주성분 분석, PCA에서\N이런 현상이 나타날 수 있습니다.
+Dialogue: 0,0:00:10.00,0:00:13.00,Default,,0,0,0,,평면에 데이터 점들이\N놓여 있다고 생각해 보겠습니다.
+Dialogue: 0,0:00:13.00,0:00:20.00,Default,,0,0,0,,길쭉한 분포에서는\N가장 넓게 퍼진 방향이 뚜렷합니다.
+Dialogue: 0,0:00:20.00,0:00:23.00,Default,,0,0,0,,PCA는 이런 방향을 찾습니다.
+Dialogue: 0,0:00:23.00,0:00:29.00,Default,,0,0,0,,평균을 기준으로 위치를 읽고\N퍼짐을 공분산행렬에 담습니다.
+Dialogue: 0,0:00:29.00,0:00:34.00,Default,,0,0,0,,공분산행렬의 고유벡터로\N가장 크게 퍼진 방향을 찾습니다.
+Dialogue: 0,0:00:34.00,0:00:38.00,Default,,0,0,0,,가장 큰 고윳값의 고유벡터가\N첫 번째 주성분 방향입니다.
+Dialogue: 0,0:00:38.00,0:00:43.00,Default,,0,0,0,,분포가 원형에 가깝다면\N어떻게 될까요?
+Dialogue: 0,0:00:43.00,0:00:49.00,Default,,0,0,0,,두 방향의 퍼짐이 비슷해지면\N두 고윳값도 가까워집니다.
+Dialogue: 0,0:00:49.00,0:00:53.00,Default,,0,0,0,,가장 넓게 퍼진 방향을\N구분하기 어려워집니다.
+Dialogue: 0,0:00:53.00,0:00:58.00,Default,,0,0,0,,데이터 일부를 조금\N바꿔보겠습니다.
+Dialogue: 0,0:00:58.00,0:01:01.00,Default,,0,0,0,,전체적인 점들의 분포는\N거의 달라지지 않았습니다.
+Dialogue: 0,0:01:01.00,0:01:07.00,Default,,0,0,0,,PCA를 다시 계산하면\N첫 주성분 직선이 크게 회전합니다.
+Dialogue: 0,0:01:07.00,0:01:14.00,Default,,0,0,0,,길쭉한 분포는 비슷한 변화에도\N주성분이 비교적 안정적입니다.
+Dialogue: 0,0:01:14.00,0:01:16.00,Default,,0,0,0,,왜 이런 차이가 발생할까요?
+Dialogue: 0,0:01:16.00,0:01:21.00,Default,,0,0,0,,가장 큰 고윳값과\N두 번째 고윳값 사이의 간격입니다.
+Dialogue: 0,0:01:21.00,0:01:24.00,Default,,0,0,0,,이 간격이 아이겐갭,\NEigengap입니다.
+Dialogue: 0,0:01:24.00,0:01:28.00,Default,,0,0,0,,고윳값은 각 주성분 방향의\N분산을 나타냅니다.
+Dialogue: 0,0:01:28.00,0:01:31.00,Default,,0,0,0,,고윳값의 간격은\N무엇을 알려줄까요?
+Dialogue: 0,0:01:31.00,0:01:37.00,Default,,0,0,0,,간격이 크면 첫 주성분의 분산이\N다른 방향보다 뚜렷하게 큽니다.
+Dialogue: 0,0:01:37.00,0:01:45.00,Default,,0,0,0,,간격이 작으면 작은 변화에도\N주성분이 크게 바뀔 수 있습니다.
+Dialogue: 0,0:01:45.00,0:01:50.00,Default,,0,0,0,,모든 방향의 분산이 같다면\N어떤 방향으로 투영해도 같습니다.
+Dialogue: 0,0:01:50.00,0:01:53.00,Default,,0,0,0,,특별한 첫 번째 주성분을\N결정할 수 없습니다.
+Dialogue: 0,0:01:53.00,0:02:00.00,Default,,0,0,0,,아주 작은 변화에 따라\N특정 주성분 방향이 선택됩니다.
+Dialogue: 0,0:02:00.00,0:02:05.00,Default,,0,0,0,,데이터의 구조가 갑자기\N크게 바뀌었다는 뜻은 아닙니다.
+Dialogue: 0,0:02:05.00,0:02:11.00,Default,,0,0,0,,여러 방향의 퍼짐이 거의 같아서\N주성분 방향이 불안정했습니다.
+Dialogue: 0,0:02:11.00,0:02:16.00,Default,,0,0,0,,고윳값으로 각 주성분 방향의\N퍼짐을 알 수 있습니다.
+Dialogue: 0,0:02:16.00,0:02:22.00,Default,,0,0,0,,방향의 뚜렷함과 안정성을 보려면\N고윳값 하나만으로는 부족합니다.
+Dialogue: 0,0:02:22.00,0:02:26.00,Default,,0,0,0,,고윳값의 크기와 함께\N고윳값의 간격도 살펴봐야 합니다.

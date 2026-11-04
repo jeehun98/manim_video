@@ -1,0 +1,155 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_scene",
+    "title": "다른 Thread의 값이 필요하다면",
+    "start": 0,
+    "end": 14,
+    "duration_seconds": 14,
+    "class": "Shared01"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_scene",
+    "title": "Block 안에서 공유하는 저장 공간",
+    "start": 14,
+    "end": 27,
+    "duration_seconds": 13,
+    "class": "Shared02"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_scene",
+    "title": "선언한 배열이 SM 자원으로",
+    "start": 27,
+    "end": 40,
+    "duration_seconds": 13,
+    "class": "Shared03"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_scene",
+    "title": "서로 다른 위치에 쓰고 이웃 값 읽기",
+    "start": 40,
+    "end": 49,
+    "duration_seconds": 9,
+    "class": "Shared04"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_scene",
+    "title": "공유할 수 있는 범위는 같은 Block",
+    "start": 49,
+    "end": 54,
+    "duration_seconds": 5,
+    "class": "Shared05"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_scene",
+    "title": "아직 기록되지 않은 값을 읽는다면",
+    "start": 54,
+    "end": 62,
+    "duration_seconds": 8,
+    "class": "Shared06"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_scene",
+    "title": "도착을 기다린 뒤 안전하게 읽기",
+    "start": 62,
+    "end": 75,
+    "duration_seconds": 13,
+    "class": "Shared07"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_scene",
+    "title": "데이터 공유에서 재사용으로",
+    "start": 75,
+    "end": 84,
+    "duration_seconds": 9,
+    "class": "Shared08"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_scene",
+    "title": "여러 출력이 같은 입력을 사용",
+    "start": 84,
+    "end": 92,
+    "duration_seconds": 8,
+    "class": "Shared09"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_scene",
+    "title": "입력 Tile을 Shared에 가져오기",
+    "start": 92,
+    "end": 99,
+    "duration_seconds": 7,
+    "class": "Shared10"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_scene",
+    "title": "같은 Tile로 여러 출력 계산",
+    "start": 99,
+    "end": 109,
+    "duration_seconds": 10,
+    "class": "Shared11"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_scene",
+    "title": "Global 요청의 중복을 줄인다",
+    "start": 109,
+    "end": 113,
+    "duration_seconds": 4,
+    "class": "Shared12"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_scene",
+    "title": "Shared 사용량과 상주 Block",
+    "start": 113,
+    "end": 123,
+    "duration_seconds": 10,
+    "class": "Shared13"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_scene",
+    "title": "같은 Bank에 모이는 다른 주소",
+    "start": 123,
+    "end": 135,
+    "duration_seconds": 12,
+    "class": "Shared14"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15_scene",
+    "title": "재사용의 이점과 가능한 비용",
+    "start": 135,
+    "end": 144,
+    "duration_seconds": 9,
+    "class": "Shared15"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16_scene",
+    "title": "Register와 Shared의 사용 범위",
+    "start": 144,
+    "end": 152,
+    "duration_seconds": 8,
+    "class": "Shared16"
+  },
+  {
+    "id": "17",
+    "directory": "scenes/17_scene",
+    "title": "데이터 이동과 재사용이 만드는 성능",
+    "start": 152,
+    "end": 160,
+    "duration_seconds": 8,
+    "class": "Shared17"
+  }
+]

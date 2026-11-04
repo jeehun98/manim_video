@@ -1,0 +1,22 @@
+[
+  {
+    "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\dot02_projection_101s_shorts_preview.mp4",
+    "layout": "shorts",
+    "audio": "none; no narration audio supplied",
+    "width": 360,
+    "height": 640,
+    "r_frame_rate": "15/1",
+    "duration": "101.000000",
+    "nb_frames": "1515"
+  },
+  {
+    "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\dot02_projection_101s_longform_preview.mp4",
+    "layout": "longform",
+    "audio": "none; no narration audio supplied",
+    "width": 640,
+    "height": 360,
+    "r_frame_rate": "15/1",
+    "duration": "101.000000",
+    "nb_frames": "1515"
+  }
+]

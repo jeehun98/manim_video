@@ -1,0 +1,66 @@
+id: gpui01_binary_signals
+title: "컴퓨터는 왜 0과 1을 사용할까?"
+duration_seconds: 113
+video:
+  fps: 30
+  layouts:
+    longform: [1920, 1080]
+    shorts: [1080, 1920]
+audio: null
+scenes:
+  - id: "01"
+    directory: scenes/01_signal
+    class: Scene01
+    duration_seconds: 12
+    start_seconds: 0
+    end_seconds: 12
+    transition: cut
+  - id: "02"
+    directory: scenes/02_levels
+    class: Scene02
+    duration_seconds: 16
+    start_seconds: 12
+    end_seconds: 28
+    transition: cut
+  - id: "03"
+    directory: scenes/03_noise
+    class: Scene03
+    duration_seconds: 14
+    start_seconds: 28
+    end_seconds: 42
+    transition: cut
+  - id: "04"
+    directory: scenes/04_binary
+    class: Scene04
+    duration_seconds: 19
+    start_seconds: 42
+    end_seconds: 61
+    transition: cut
+  - id: "05"
+    directory: scenes/05_tradeoff
+    class: Scene05
+    duration_seconds: 5
+    start_seconds: 61
+    end_seconds: 66
+    transition: cut
+  - id: "06"
+    directory: scenes/06_combinations
+    class: Scene06
+    duration_seconds: 15
+    start_seconds: 66
+    end_seconds: 81
+    transition: cut
+  - id: "07"
+    directory: scenes/07_bit
+    class: Scene07
+    duration_seconds: 17
+    start_seconds: 81
+    end_seconds: 98
+    transition: cut
+  - id: "08"
+    directory: scenes/08_processing
+    class: Scene08
+    duration_seconds: 15
+    start_seconds: 98
+    end_seconds: 113
+    transition: cut

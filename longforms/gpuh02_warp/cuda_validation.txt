@@ -1,0 +1,5 @@
+PASS vectorAdd 32 outputs; lanes 0,1,6,31: 11 22 77 352
+PASS branchExample 32 outputs; lanes 0,15,16,31: 2 32 18 33
+PASS uniformExample all 32 take the true path
+PASS path membership masks: 0x0000FFFF 0xFFFF0000 (not instruction trace)
+PASS 1D lane indices: threadIdx.x=6 -> 6; threadIdx.x=38 -> 6

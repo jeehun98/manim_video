@@ -1,0 +1,18 @@
+{
+  "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\svd02_direction_map_154s_1080p30.mp4",
+  "duration_seconds": 154,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "decoded_frames": 4620,
+  "audio": "none; source audio not supplied",
+  "timing_source": "29 user-supplied sentence endpoints",
+  "checks": [
+    "monotonic frame timestamps",
+    "exact duration and frame count",
+    "all 20 independent scenes joined",
+    "15 final-video sample frames extracted"
+  ]
+}

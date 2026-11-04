@@ -1,0 +1,24 @@
+{
+  "longform": {
+    "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui09_instruction_141s_longform_final.mp4",
+    "sha256": "d5d1a788952f89ed0bff996592b03ecbd7ece6826f1f7baad240e8088922e84a",
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "30/1",
+    "duration": "141.000000",
+    "nb_read_frames": "4230"
+  },
+  "shorts": {
+    "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui09_instruction_141s_shorts_final.mp4",
+    "sha256": "8e1e76f3e02e158cffe189b99c8820ad688772bb1b2febedad50f5c28548f042",
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 1080,
+    "height": 1920,
+    "r_frame_rate": "30/1",
+    "duration": "141.000000",
+    "nb_read_frames": "4230"
+  }
+}

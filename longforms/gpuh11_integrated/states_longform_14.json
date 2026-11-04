@@ -1,0 +1,40 @@
+[
+  {
+    "kind": "identity",
+    "block": 1,
+    "thread": 5,
+    "warp": 0,
+    "lane": 5,
+    "i": 133,
+    "assumed_sm": 1,
+    "mapping_guaranteed": false,
+    "shared_used": false
+  },
+  {
+    "kind": "flow",
+    "time": 178.367,
+    "value": "B1",
+    "label": "Block 1 → SM 1 · 한 가지 가능한 배치 · 실제 SM 번호 보장 없음",
+    "shared_in_route": false
+  },
+  {
+    "kind": "mapping",
+    "block": 1,
+    "sm": 1,
+    "assumed": true
+  },
+  {
+    "kind": "flow",
+    "time": 178.733,
+    "value": 4,
+    "label": "같은 Thread · 같은 주소 · 데이터 공급",
+    "shared_in_route": false
+  },
+  {
+    "kind": "flow",
+    "time": 179.1,
+    "value": 11,
+    "label": "C[133]=11 · Global Store 요청",
+    "shared_in_route": false
+  }
+]

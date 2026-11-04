@@ -1,0 +1,39 @@
+id: quantum02
+title: 광전효과와 아인슈타인
+fps: 30
+duration_seconds: 101
+layouts:
+  shorts: [1080, 1920]
+  longform: [1920, 1080]
+timing_source: user_sentence_end_times
+scenes:
+  - id: 01_observation
+    directory: scenes/01_observation
+    class: ObservationChapter
+    duration_seconds: 16
+    start: 0
+    end: 16
+  - id: 02_waves
+    directory: scenes/02_waves
+    class: WavesChapter
+    duration_seconds: 23
+    start: 16
+    end: 39
+  - id: 03_quanta
+    directory: scenes/03_quanta
+    class: QuantaChapter
+    duration_seconds: 23
+    start: 39
+    end: 62
+  - id: 04_threshold
+    directory: scenes/04_threshold
+    class: ThresholdChapter
+    duration_seconds: 24
+    start: 62
+    end: 86
+  - id: 05_resolution
+    directory: scenes/05_resolution
+    class: ResolutionChapter
+    duration_seconds: 15
+    start: 86
+    end: 101

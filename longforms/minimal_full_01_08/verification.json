@@ -1,0 +1,289 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\minimal_1-8_long_full.mp4",
+  "total_frames": 39270,
+  "duration_seconds": 1309.0,
+  "video": {
+    "index": 0,
+    "codec_name": "h264",
+    "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+    "profile": "High",
+    "codec_type": "video",
+    "codec_tag_string": "avc1",
+    "codec_tag": "0x31637661",
+    "mime_codec_string": "avc1.640032",
+    "width": 1920,
+    "height": 1080,
+    "coded_width": 1920,
+    "coded_height": 1080,
+    "has_b_frames": 2,
+    "pix_fmt": "yuv420p",
+    "level": 50,
+    "chroma_location": "left",
+    "field_order": "progressive",
+    "is_avc": "true",
+    "nal_length_size": "4",
+    "id": "0x1",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "time_base": "1/15360",
+    "start_pts": 0,
+    "start_time": "0.000000",
+    "duration_ts": 20106240,
+    "duration": "1309.000000",
+    "bit_rate": "221292",
+    "bits_per_raw_sample": "8",
+    "nb_frames": "39270",
+    "extradata_size": 47,
+    "disposition": {
+      "default": 1,
+      "dub": 0,
+      "original": 0,
+      "comment": 0,
+      "lyrics": 0,
+      "karaoke": 0,
+      "forced": 0,
+      "hearing_impaired": 0,
+      "visual_impaired": 0,
+      "clean_effects": 0,
+      "attached_pic": 0,
+      "timed_thumbnails": 0,
+      "non_diegetic": 0,
+      "captions": 0,
+      "descriptions": 0,
+      "metadata": 0,
+      "dependent": 0,
+      "still_image": 0,
+      "multilayer": 0
+    },
+    "tags": {
+      "language": "und",
+      "handler_name": "VideoHandler",
+      "encoder": "Lavc63.1.101 libx264"
+    }
+  },
+  "audio": {
+    "index": 1,
+    "codec_name": "aac",
+    "codec_long_name": "AAC (Advanced Audio Coding)",
+    "profile": "LC",
+    "codec_type": "audio",
+    "codec_tag_string": "mp4a",
+    "codec_tag": "0x6134706d",
+    "mime_codec_string": "mp4a.40.2",
+    "sample_fmt": "fltp",
+    "sample_rate": "44100",
+    "channels": 1,
+    "channel_layout": "mono",
+    "bits_per_sample": 0,
+    "initial_padding": 1024,
+    "id": "0x2",
+    "r_frame_rate": "0/0",
+    "avg_frame_rate": "0/0",
+    "time_base": "1/44100",
+    "start_pts": 0,
+    "start_time": "0.000000",
+    "duration_ts": 57726900,
+    "duration": "1309.000000",
+    "bit_rate": "189046",
+    "nb_frames": "56375",
+    "extradata_size": 5,
+    "disposition": {
+      "default": 1,
+      "dub": 0,
+      "original": 0,
+      "comment": 0,
+      "lyrics": 0,
+      "karaoke": 0,
+      "forced": 0,
+      "hearing_impaired": 0,
+      "visual_impaired": 0,
+      "clean_effects": 0,
+      "attached_pic": 0,
+      "timed_thumbnails": 0,
+      "non_diegetic": 0,
+      "captions": 0,
+      "descriptions": 0,
+      "metadata": 0,
+      "dependent": 0,
+      "still_image": 0,
+      "multilayer": 0
+    },
+    "tags": {
+      "language": "und",
+      "handler_name": "SoundHandler"
+    }
+  },
+  "parts": [
+    {
+      "index": 1,
+      "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\minimal_1_long.mp4",
+      "start_frame": 0,
+      "frames": 4707,
+      "start_seconds": 0.0,
+      "duration_seconds": 156.9,
+      "title": "최소 표현 — 무엇을 남겨야 할까?",
+      "audio_seconds": 154.250816
+    },
+    {
+      "index": 2,
+      "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\minimal_2_long.mp4",
+      "start_frame": 4707,
+      "frames": 4997,
+      "start_seconds": 156.9,
+      "duration_seconds": 166.56666666666666,
+      "title": "최소 유전체 — 생명에 필요한 유전자는?",
+      "audio_seconds": 164.100748
+    },
+    {
+      "index": 3,
+      "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\minimal_3_long.mp4",
+      "start_frame": 9704,
+      "frames": 4967,
+      "start_seconds": 323.46666666666664,
+      "duration_seconds": 165.56666666666666,
+      "title": "그래프 희소화 — 연결을 줄여도 남는 성질",
+      "audio_seconds": 163.000816
+    },
+    {
+      "index": 4,
+      "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\minimal_4_long.mp4",
+      "start_frame": 14671,
+      "frames": 4831,
+      "start_seconds": 489.03333333333336,
+      "duration_seconds": 161.03333333333333,
+      "title": "충분통계량 — 데이터 대신 무엇을 기억할까?",
+      "audio_seconds": 158.600816
+    },
+    {
+      "index": 5,
+      "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\minimal_5_long.mp4",
+      "start_frame": 19502,
+      "frames": 4715,
+      "start_seconds": 650.0666666666667,
+      "duration_seconds": 157.16666666666666,
+      "title": "최소 실현 — 같은 동작, 더 적은 상태",
+      "audio_seconds": 154.650748
+    },
+    {
+      "index": 6,
+      "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\minimal_6_long.mp4",
+      "start_frame": 24217,
+      "frames": 4879,
+      "start_seconds": 807.2333333333333,
+      "duration_seconds": 162.63333333333333,
+      "title": "재규격화와 보편성 — 다른 구조, 같은 법칙",
+      "audio_seconds": 160.200748
+    },
+    {
+      "index": 7,
+      "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\minimal_7_long.mp4",
+      "start_frame": 29096,
+      "frames": 5201,
+      "start_seconds": 969.8666666666667,
+      "duration_seconds": 173.36666666666667,
+      "title": "복권 가설 — 큰 신경망 속 작은 신경망",
+      "audio_seconds": 170.850794
+    },
+    {
+      "index": 8,
+      "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\minimal_8_long.mp4",
+      "start_frame": 34297,
+      "frames": 4973,
+      "start_seconds": 1143.2333333333333,
+      "duration_seconds": 165.76666666666668,
+      "title": "통합 마무리 — 최소 구조를 찾는 세 가지 질문",
+      "audio_seconds": 163.300748
+    }
+  ],
+  "chapters": [
+    {
+      "id": 0,
+      "time_base": "1/11289600",
+      "start": 0,
+      "start_time": "0.000000",
+      "end": 1771338240,
+      "end_time": "156.900000",
+      "tags": {
+        "title": "최소 표현 — 무엇을 남겨야 할까?"
+      }
+    },
+    {
+      "id": 1,
+      "time_base": "1/11289600",
+      "start": 1771338240,
+      "start_time": "156.900000",
+      "end": 3651809280,
+      "end_time": "323.466667",
+      "tags": {
+        "title": "최소 유전체 — 생명에 필요한 유전자는?"
+      }
+    },
+    {
+      "id": 2,
+      "time_base": "1/11289600",
+      "start": 3651809280,
+      "start_time": "323.466667",
+      "end": 5520990720,
+      "end_time": "489.033333",
+      "tags": {
+        "title": "그래프 희소화 — 연결을 줄여도 남는 성질"
+      }
+    },
+    {
+      "id": 3,
+      "time_base": "1/11289600",
+      "start": 5520990720,
+      "start_time": "489.033333",
+      "end": 7338992640,
+      "end_time": "650.066667",
+      "tags": {
+        "title": "충분통계량 — 데이터 대신 무엇을 기억할까?"
+      }
+    },
+    {
+      "id": 4,
+      "time_base": "1/11289600",
+      "start": 7338992640,
+      "start_time": "650.066667",
+      "end": 9113341440,
+      "end_time": "807.233333",
+      "tags": {
+        "title": "최소 실현 — 같은 동작, 더 적은 상태"
+      }
+    },
+    {
+      "id": 5,
+      "time_base": "1/11289600",
+      "start": 9113341440,
+      "start_time": "807.233333",
+      "end": 10949406720,
+      "end_time": "969.866667",
+      "tags": {
+        "title": "재규격화와 보편성 — 다른 구조, 같은 법칙"
+      }
+    },
+    {
+      "id": 6,
+      "time_base": "1/11289600",
+      "start": 10949406720,
+      "start_time": "969.866667",
+      "end": 12906647040,
+      "end_time": "1143.233333",
+      "tags": {
+        "title": "복권 가설 — 큰 신경망 속 작은 신경망"
+      }
+    },
+    {
+      "id": 7,
+      "time_base": "1/11289600",
+      "start": 12906647040,
+      "start_time": "1143.233333",
+      "end": 14778086400,
+      "end_time": "1309.000000",
+      "tags": {
+        "title": "통합 마무리 — 최소 구조를 찾는 세 가지 질문"
+      }
+    }
+  ],
+  "full_video_and_audio_decode": "passed: ffmpeg exit 0, no decoder errors"
+}

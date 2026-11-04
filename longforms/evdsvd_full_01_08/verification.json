@@ -1,0 +1,15 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\evdsvd_long_1-8_full.mp4",
+  "duration_seconds": 1016.6,
+  "frames": 30498,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "audio": "AAC 48kHz mono; source narration retained, tails padded with silence",
+  "chapters": 8,
+  "full_decode": "passed",
+  "video_reencoded": false,
+  "description": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\evdsvd_long_1-8_youtube_description.txt"
+}

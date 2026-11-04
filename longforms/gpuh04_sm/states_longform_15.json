@@ -1,0 +1,196 @@
+[
+  {
+    "kind": "layout",
+    "time": 169,
+    "warp_centers": [
+      [
+        -3.77805037511194,
+        -0.6149253731343285,
+        0.0
+      ],
+      [
+        -3.769282444701492,
+        -0.9471641791044777,
+        0.0
+      ],
+      [
+        -3.7768529904104478,
+        -1.279402985074627,
+        0.0
+      ],
+      [
+        -3.77638948761194,
+        -1.611641791044776,
+        0.0
+      ]
+    ],
+    "resident_warps": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "kind": "warp_state",
+    "time": 169.0,
+    "warp": 0,
+    "state": "Wait: x",
+    "resident": true,
+    "center": [
+      -3.7780503751119405,
+      -0.6149253731343285,
+      0.0
+    ],
+    "active_code": [
+      "float x = A[i];"
+    ]
+  },
+  {
+    "kind": "warp_state",
+    "time": 169.0,
+    "warp": 1,
+    "state": "Issue Compute",
+    "resident": true,
+    "center": [
+      -3.7692824447014925,
+      -0.9471641791044777,
+      0.0
+    ],
+    "active_code": [
+      "float y = x * 2.0f;"
+    ]
+  },
+  {
+    "kind": "issue",
+    "time": 169.5667,
+    "warp": 1,
+    "operation": "Compute",
+    "resident_warps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "states": [
+      "Wait: x",
+      "Issue Compute",
+      "Ready",
+      "Ready"
+    ],
+    "illustrative": true
+  },
+  {
+    "kind": "warp_state",
+    "time": 172.0,
+    "warp": 1,
+    "state": "Ready",
+    "resident": true,
+    "center": [
+      -3.769282444701492,
+      -0.9471641791044777,
+      0.0
+    ],
+    "active_code": [
+      "float y = x * 2.0f;"
+    ]
+  },
+  {
+    "kind": "warp_state",
+    "time": 172.0,
+    "warp": 2,
+    "state": "Issue Compute",
+    "resident": true,
+    "center": [
+      -3.776852990410448,
+      -1.279402985074627,
+      0.0
+    ],
+    "active_code": [
+      "float y = x * 2.0f;"
+    ]
+  },
+  {
+    "kind": "issue",
+    "time": 172.5667,
+    "warp": 2,
+    "operation": "Compute",
+    "resident_warps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "states": [
+      "Wait: x",
+      "Ready",
+      "Issue Compute",
+      "Ready"
+    ],
+    "illustrative": true
+  },
+  {
+    "kind": "warp_state",
+    "time": 174.0,
+    "warp": 2,
+    "state": "Ready",
+    "resident": true,
+    "center": [
+      -3.7768529904104478,
+      -1.279402985074627,
+      0.0
+    ],
+    "active_code": [
+      "float y = x * 2.0f;"
+    ]
+  },
+  {
+    "kind": "warp_state",
+    "time": 174.0,
+    "warp": 0,
+    "state": "Ready: x 도착",
+    "resident": true,
+    "center": [
+      -3.77805037511194,
+      -0.6149253731343285,
+      0.0
+    ],
+    "active_code": [
+      "float y = x * 2.0f;"
+    ]
+  },
+  {
+    "kind": "warp_state",
+    "time": 175.0,
+    "warp": 0,
+    "state": "Issue Compute",
+    "resident": true,
+    "center": [
+      -3.77805037511194,
+      -0.6149253731343285,
+      0.0
+    ],
+    "active_code": [
+      "float y = x * 2.0f;"
+    ]
+  },
+  {
+    "kind": "issue",
+    "time": 175.5667,
+    "warp": 0,
+    "operation": "Compute",
+    "resident_warps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "states": [
+      "Issue Compute",
+      "Ready",
+      "Ready",
+      "Ready"
+    ],
+    "illustrative": true
+  }
+]

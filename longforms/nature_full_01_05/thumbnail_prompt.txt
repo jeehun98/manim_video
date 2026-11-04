@@ -1,0 +1,16 @@
+Use case: scientific-educational.
+Create a finished premium Korean mathematics/physics educational YouTube thumbnail, landscape 16:9, requested resolution 3840×2160.
+Deep navy and charcoal black continuous three-dimensional mathematical space, polished scientific documentary CGI combined with precise Manim-like geometry. Restrained teal, silver and gold accents. Strong visual hierarchy and legible even at small thumbnail size.
+
+Exact Korean headline in very large bold clean Korean Gothic typography near the top: "자연의 최적화".
+Exact supporting line: "서로 다른 법칙, 하나의 수학".
+Central hero mathematical expression, very large and impeccably sharp white: "δJ = 0". Greek lower-case delta δ, uppercase J, equals sign, numeral zero. Subtle restrained light, no neon. Keep a clear dark negative-space halo around the central equation for readability.
+
+Arrange FIVE distinct physical phenomena naturally around this central expression in ONE cohesive 3D space, with unified perspective and studio lighting, NOT five photographs or boxed collage:
+1. At upper left, a real translucent catenoid soap film spanning TWO parallel coaxial circular metal wire rings, neck smoothly pinched in the middle, radial profile r(z)=a cosh(z/a), delicate subtle iridescence and teal film. Rings share a common axis. Show the two rings and connected minimal surface clearly, not a sphere or cylinder.
+2. At lower left, a visibly linked silver metal chain suspended between two fixed supports, forming a smooth U-shaped CATENARY under gravity. Freely hanging chain, not a track, not a parabola.
+3. At upper right, one thin gold light ray entering clear water obliquely from air and refracting TOWARD the vertical normal at a flat horizontal air-water boundary. Only one incoming and one transmitted segment meeting at the boundary. Restrained transparent cutaway water volume, no decorative light beams.
+4. At lower right, a CYCLOID sliding track with one small metal bead, beginning high on its left with a nearly vertical steep initial descent, smoothly flattening toward a lower endpoint on its right. This is distinct from the U-shaped hanging chain. Correct downward cycloid geometry x=a(theta-sin theta), drop=a(1-cos theta), first descent arc. No rollercoaster loops.
+5. Along the lower central region, a small polished golden sphere on a concave-down ballistic PARABOLIC arc, visibly rising then falling in gravity. A fine sparse trajectory guide may show the arc; distinguish this projectile from the bead constrained to the track.
+
+Connect these phenomena to the central δJ = 0 using only thin restrained geometric guides and a few localized coordinate lines. Each physical object should be substantial and recognizable, not scattered miniatures. Unified elegant academic composition, crisp contours, high contrast, physically meaningful material details. No unnecessary formulas, no other symbols or text, no icons, no people, no watermark, no excessive particles, no neon glow, no decorative energy ribbons. Preserve exact requested Korean wording.

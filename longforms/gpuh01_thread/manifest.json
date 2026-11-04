@@ -1,0 +1,146 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_hook",
+    "title": "GPU에서 Thread로",
+    "start": 0,
+    "end": 8,
+    "duration_seconds": 8,
+    "class": "Thread01"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_scene",
+    "title": "논리적인 실행 문맥",
+    "start": 8,
+    "end": 16,
+    "duration_seconds": 8,
+    "class": "Thread02"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_scene",
+    "title": "같은 위치의 원소 더하기",
+    "start": 16,
+    "end": 29,
+    "duration_seconds": 13,
+    "class": "Thread03"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_scene",
+    "title": "반복문에서 Thread로",
+    "start": 29,
+    "end": 36,
+    "duration_seconds": 7,
+    "class": "Thread04"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_scene",
+    "title": "코드와 실행 문맥",
+    "start": 36,
+    "end": 48,
+    "duration_seconds": 12,
+    "class": "Thread05"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_scene",
+    "title": "Block 안의 네 Thread",
+    "start": 48,
+    "end": 55,
+    "duration_seconds": 7,
+    "class": "Thread06"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_scene",
+    "title": "서로 다른 데이터",
+    "start": 55,
+    "end": 62,
+    "duration_seconds": 7,
+    "class": "Thread07"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_scene",
+    "title": "하나의 코드, 네 실행",
+    "start": 62,
+    "end": 70,
+    "duration_seconds": 8,
+    "class": "Thread08"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_scene",
+    "title": "읽기 · 계산 · 저장",
+    "start": 70,
+    "end": 81,
+    "duration_seconds": 11,
+    "class": "Thread09"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_scene",
+    "title": "SM의 Register File",
+    "start": 81,
+    "end": 92,
+    "duration_seconds": 11,
+    "class": "Thread10"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_scene",
+    "title": "변수와 실제 자원",
+    "start": 92,
+    "end": 99,
+    "duration_seconds": 7,
+    "class": "Thread11"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_scene",
+    "title": "한 Thread, 여러 원소",
+    "start": 99,
+    "end": 109,
+    "duration_seconds": 10,
+    "class": "Thread12"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_scene",
+    "title": "Block 내부의 위치",
+    "start": 109,
+    "end": 121,
+    "duration_seconds": 12,
+    "class": "Thread13"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_scene",
+    "title": "전체 배열의 인덱스",
+    "start": 121,
+    "end": 128,
+    "duration_seconds": 7,
+    "class": "Thread14"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15_scene",
+    "title": "좌표는 논리적인 위치",
+    "start": 128,
+    "end": 140,
+    "duration_seconds": 12,
+    "class": "Thread15"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16_scene",
+    "title": "Thread가 맡는 계산",
+    "start": 140,
+    "end": 152,
+    "duration_seconds": 12,
+    "class": "Thread16"
+  }
+]

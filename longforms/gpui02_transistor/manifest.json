@@ -1,0 +1,92 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_need",
+    "class": "Scene01",
+    "start": 0,
+    "end": 16,
+    "duration_seconds": 16,
+    "title": "표현에서 신호 제어로"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_manual",
+    "class": "Scene02",
+    "start": 16,
+    "end": 28,
+    "duration_seconds": 12,
+    "title": "전류 경로를 여닫는 스위치"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_control",
+    "class": "Scene03",
+    "start": 28,
+    "end": 43,
+    "duration_seconds": 15,
+    "title": "손 대신 전기 신호로"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_field",
+    "class": "Scene04",
+    "start": 43,
+    "end": 62,
+    "duration_seconds": 19,
+    "title": "움직이지 않는 스위치"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_electronic",
+    "class": "Scene05",
+    "start": 62,
+    "end": 68,
+    "duration_seconds": 6,
+    "title": "접점 대신 전도성 변화"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_mosfet",
+    "class": "Scene06",
+    "start": 68,
+    "end": 92,
+    "duration_seconds": 24,
+    "title": "이 장치의 이름, MOSFET"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_output",
+    "class": "Scene07",
+    "start": 92,
+    "end": 109,
+    "duration_seconds": 17,
+    "title": "새로운 출력은 어디에서 올까?"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_inverter",
+    "class": "Scene08",
+    "start": 109,
+    "end": 120,
+    "duration_seconds": 11,
+    "title": "입력과 반대인 출력"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_physical",
+    "class": "Scene09",
+    "start": 120,
+    "end": 136,
+    "duration_seconds": 16,
+    "title": "연결 구조가 정하는 규칙"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_networks",
+    "class": "Scene10",
+    "start": 136,
+    "end": 142,
+    "duration_seconds": 6,
+    "title": "연결을 바꾸면 어떤 규칙이 될까?"
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "timing_source": "사용자 문장별 종료 시각27개",
+  "scenes": 14,
+  "caption_intervals": "all27 match user timing exactly",
+  "audio": "not supplied; silent",
+  "mathematics": {
+    "basis_path_samples": 202,
+    "minimum_determinant_bound": 0.8,
+    "eigenvalues": [
+      3,
+      1
+    ],
+    "trace": 4,
+    "determinant": 3,
+    "transformed_square_areas": [
+      3,
+      1
+    ],
+    "counterexample": "P^-1 I P = I != B"
+  },
+  "visual_qa": "18 preview timestamps per aspect ratio; corrected landscape spacing and matrix brackets; final captioned screenshots saved in media/eigen03_qa",
+  "outputs": [
+    {
+      "file": "exports\\eigen03_121s_shorts_final_captioned.mp4",
+      "full_decode": "pass",
+      "codec_type": "video",
+      "width": 1080,
+      "height": 1920,
+      "r_frame_rate": "30/1",
+      "duration": "121.000000",
+      "nb_read_frames": "3630"
+    },
+    {
+      "file": "exports\\eigen03_121s_longform_final_captioned.mp4",
+      "full_decode": "pass",
+      "codec_type": "video",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "30/1",
+      "duration": "121.000000",
+      "nb_read_frames": "3630"
+    }
+  ]
+}

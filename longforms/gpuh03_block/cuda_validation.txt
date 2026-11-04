@@ -1,0 +1,8 @@
+PASS blockSum<<<1,128>>> output[0]=8256
+PASS stride=64 count=64 s[0]=66; all 128 shared slots verified
+PASS stride=32 count=32 s[0]=196; all 128 shared slots verified
+PASS stride=16 count=16 s[0]=456; all 128 shared slots verified
+PASS stride=8 count=8 s[0]=976; all 128 shared slots verified
+PASS stride=4 count=4 s[0]=2016; all 128 shared slots verified
+PASS stride=2 count=2 s[0]=4096; all 128 shared slots verified
+PASS stride=1 count=1 s[0]=8256; all 128 shared slots verified

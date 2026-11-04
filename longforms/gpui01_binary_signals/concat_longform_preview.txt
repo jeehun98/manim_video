@@ -1,0 +1,8 @@
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/gpui01_binary_signals/scenes/01_signal/visual_longform_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/gpui01_binary_signals/scenes/02_levels/visual_longform_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/gpui01_binary_signals/scenes/03_noise/visual_longform_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/gpui01_binary_signals/scenes/04_binary/visual_longform_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/gpui01_binary_signals/scenes/05_tradeoff/visual_longform_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/gpui01_binary_signals/scenes/06_combinations/visual_longform_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/gpui01_binary_signals/scenes/07_bit/visual_longform_preview.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/gpui01_binary_signals/scenes/08_processing/visual_longform_preview.mp4'

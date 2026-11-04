@@ -1,0 +1,142 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_alu",
+    "class": "Scene01",
+    "start": 0,
+    "end": 11,
+    "duration_seconds": 11,
+    "title": "여러 단계의 계산을 하려면?",
+    "method": "alu"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_chain",
+    "class": "Scene02",
+    "start": 11,
+    "end": 31,
+    "duration_seconds": 20,
+    "title": "중간 결과는 다음 계산의 입력",
+    "method": "chain"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_reuse",
+    "class": "Scene03",
+    "start": 31,
+    "end": 42,
+    "duration_seconds": 11,
+    "title": "하나의 ALU를 반복해서 쓰려면",
+    "method": "reuse"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_combinational",
+    "class": "Scene04",
+    "start": 42,
+    "end": 56,
+    "duration_seconds": 14,
+    "title": "입력이 바뀌면 이전 결과는?",
+    "method": "combinational"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_feedback",
+    "class": "Scene05",
+    "start": 56,
+    "end": 71,
+    "duration_seconds": 15,
+    "title": "출력이 다시 입력으로 돌아간다면",
+    "method": "feedback"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_nor",
+    "class": "Scene06",
+    "start": 71,
+    "end": 79,
+    "duration_seconds": 8,
+    "title": "두 NOR 게이트를 교차 연결",
+    "method": "nor"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_sethold",
+    "class": "Scene07",
+    "start": 79,
+    "end": 90,
+    "duration_seconds": 11,
+    "title": "입력을 내려도 상태가 유지된다",
+    "method": "sethold"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_reset",
+    "class": "Scene08",
+    "start": 90,
+    "end": 95,
+    "duration_seconds": 5,
+    "title": "반대 상태 역시 유지된다",
+    "method": "reset"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_twostates",
+    "class": "Scene09",
+    "start": 95,
+    "end": 102,
+    "duration_seconds": 7,
+    "title": "같은 입력, 다른 상태",
+    "method": "twostates"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_bit",
+    "class": "Scene10",
+    "start": 102,
+    "end": 106,
+    "duration_seconds": 4,
+    "title": "두 안정 상태로 1비트 저장",
+    "method": "bit"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_controls",
+    "class": "Scene11",
+    "start": 106,
+    "end": 114,
+    "duration_seconds": 8,
+    "title": "Set · Hold · Reset",
+    "method": "controls"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_samegates",
+    "class": "Scene12",
+    "start": 114,
+    "end": 122,
+    "duration_seconds": 8,
+    "title": "같은 게이트, 새로운 연결 구조",
+    "method": "samegates"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_when",
+    "class": "Scene13",
+    "start": 122,
+    "end": 130,
+    "duration_seconds": 8,
+    "title": "새 값을 언제 기록할까?",
+    "method": "when"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_timing",
+    "class": "Scene14",
+    "start": 130,
+    "end": 140,
+    "duration_seconds": 10,
+    "title": "여러 회로의 갱신 시점",
+    "method": "timing"
+  }
+]
