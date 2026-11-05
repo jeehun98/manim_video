@@ -21,6 +21,48 @@
       "video": "exports/quantum03_longform.mp4",
       "script": "quantum_series/episodes/ep03_rutherford/script.json",
       "duration": 105
+    },
+    {
+      "id": "ep05_franck_hertz",
+      "title": "1914 · 프랑크–헤르츠 실험",
+      "video": "exports/quantum05_longform.mp4",
+      "script": "quantum_series/episodes/ep05_franck_hertz/script.json",
+      "duration": 122
+    },
+    {
+      "id": "ep06_de_broglie",
+      "title": "1924 · 드브로이의 물질파",
+      "video": "exports/quantum06_longform.mp4",
+      "script": "quantum_series/episodes/ep06_de_broglie/script.json",
+      "duration": 161
+    },
+    {
+      "id": "ep07_heisenberg",
+      "title": "1925 · 하이젠베르크의 행렬역학",
+      "video": "exports/quantum07_longform.mp4",
+      "script": "quantum_series/episodes/ep07_heisenberg/script.json",
+      "duration": 179
+    },
+    {
+      "id": "ep08_schrodinger",
+      "title": "1926 · 슈뢰딩거의 파동역학",
+      "video": "exports/quantum08_longform.mp4",
+      "script": "quantum_series/episodes/ep08_schrodinger/script.json",
+      "duration": 176
+    },
+    {
+      "id": "ep09_born",
+      "title": "1926 · 보른의 확률 해석",
+      "video": "exports/quantum09_longform.mp4",
+      "script": "quantum_series/episodes/ep09_born/script.json",
+      "duration": 178
+    },
+    {
+      "id": "ep10_davisson_germer",
+      "title": "1927 · 데이비슨–거머 실험",
+      "video": "exports/quantum10_longform.mp4",
+      "script": "quantum_series/episodes/ep10_davisson_germer/script.json",
+      "duration": 171
     }
   ],
   "planned_only": [

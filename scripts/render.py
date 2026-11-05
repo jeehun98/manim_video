@@ -283,6 +283,18 @@ EPISODES["mult01"] = ("episodes/mult01_error_parity/scene.py", "MultiplicationEr
 def main():
     p = argparse.ArgumentParser()
     quantum_projects = {
+        "quantum09": ("ep09_born", "both"), "quantum09_shorts": ("ep09_born", "shorts"),
+        "quantum09_longform": ("ep09_born", "longform"),
+        "quantum10": ("ep10_davisson_germer", "both"), "quantum10_shorts": ("ep10_davisson_germer", "shorts"),
+        "quantum10_longform": ("ep10_davisson_germer", "longform"),
+        "quantum08": ("ep08_schrodinger", "both"), "quantum08_shorts": ("ep08_schrodinger", "shorts"),
+        "quantum08_longform": ("ep08_schrodinger", "longform"),
+        "quantum07": ("ep07_heisenberg", "both"), "quantum07_shorts": ("ep07_heisenberg", "shorts"),
+        "quantum07_longform": ("ep07_heisenberg", "longform"),
+        "quantum06": ("ep06_de_broglie", "both"), "quantum06_shorts": ("ep06_de_broglie", "shorts"),
+        "quantum06_longform": ("ep06_de_broglie", "longform"),
+        "quantum05": ("ep05_franck_hertz", "both"), "quantum05_shorts": ("ep05_franck_hertz", "shorts"),
+        "quantum05_longform": ("ep05_franck_hertz", "longform"),
         "quantum01": ("ep01_planck", "both"), "quantum01_shorts": ("ep01_planck", "shorts"),
         "quantum01_longform": ("ep01_planck", "longform"),
         "quantum02": ("ep02_photoelectric", "both"), "quantum02_shorts": ("ep02_photoelectric", "shorts"),

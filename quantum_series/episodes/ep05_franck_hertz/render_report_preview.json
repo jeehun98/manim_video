@@ -1,0 +1,40 @@
+[
+  {
+    "layout": "shorts",
+    "ending": "standalone",
+    "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\quantum05_shorts_preview.mp4",
+    "duration": 122,
+    "frames": 3660,
+    "width": 360,
+    "height": 640,
+    "fps": 30,
+    "audio": "not supplied; silent video",
+    "clips": [
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum05\\shorts\\standalone\\preview\\videos\\scene\\640p30\\ApparatusChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum05\\shorts\\standalone\\preview\\videos\\scene\\640p30\\CurrentChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum05\\shorts\\standalone\\preview\\videos\\scene\\640p30\\CollisionChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum05\\shorts\\standalone\\preview\\videos\\scene\\640p30\\CollectionChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum05\\shorts\\standalone\\preview\\videos\\scene\\640p30\\LevelsChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum05\\shorts\\standalone\\preview\\videos\\scene\\640p30\\EmissionChapter.mp4"
+    ]
+  },
+  {
+    "layout": "longform",
+    "ending": "join",
+    "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\quantum05_longform_preview.mp4",
+    "duration": 122,
+    "frames": 3660,
+    "width": 640,
+    "height": 360,
+    "fps": 30,
+    "audio": "not supplied; silent video",
+    "clips": [
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum05\\longform\\join\\preview\\videos\\scene\\360p30\\ApparatusChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum05\\longform\\join\\preview\\videos\\scene\\360p30\\CurrentChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum05\\longform\\join\\preview\\videos\\scene\\360p30\\CollisionChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum05\\longform\\join\\preview\\videos\\scene\\360p30\\CollectionChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum05\\longform\\join\\preview\\videos\\scene\\360p30\\LevelsChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum05\\longform\\join\\preview\\videos\\scene\\360p30\\EmissionChapter.mp4"
+    ]
+  }
+]

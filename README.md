@@ -1654,3 +1654,28 @@ python scripts/render.py softmax01
 ## 양자역학 EP.03 · 금박 실험과 원자핵 발견
 
 [EP.03 제작·실행](quantum_series/episodes/ep03_rutherford/README.md). 사용자 확정105초·20문장, 세로1080×1920 / 가로1920×1080·30fps·무음·전체 문장 자막. 같은 에너지·전체 양전하에서 균일 구와 중심 쿨롱 산란을 비교하고, 6개 씬을 독립 렌더한다. `python scripts/render.py quantum03 --preview` / `python scripts/render.py quantum03`. 개별 비율: `quantum03_shorts`, `quantum03_longform`. 최종 엔딩 PNG도 별도 저장한다.
+
+## 양자역학 EP.05 · 프랑크–헤르츠 실험
+
+[EP.05 제작·실행](quantum_series/episodes/ep05_franck_hertz/README.md). 확정122초·24문장, 세로1080×1920 / 가로1920×1080·30fps·무음·전체 자막. 6개 독립 씬과 설명용 수송 모형. `python scripts/render.py quantum05 --preview` / `python scripts/render.py quantum05`. 개별 비율: `quantum05_shorts`, `quantum05_longform`.
+
+## 양자역학 EP.06 · 드브로이의 물질파
+
+[EP.06 제작·실행](quantum_series/episodes/ep06_de_broglie/README.md). 확정161초·31문장, 9:16/16:9·1080p·30fps·무음·전체 자막. 7개 독립 씬, 원형과 펼친 파동의 위상 비교. `python scripts/render.py quantum06 --preview` / `python scripts/render.py quantum06`.
+
+## 양자역학 EP.07 · 하이젠베르크의 행렬역학
+
+[EP.07 제작·실행](quantum_series/episodes/ep07_heisenberg/README.md). 확정179초·38문장, 9:16/16:9·1080p·30fps·무음·전체 자막. 8개 독립 씬. 상태 쌍, 행렬곱, AB·BA 비교. `python scripts/render.py quantum07 --preview` / `python scripts/render.py quantum07`.
+
+## 양자역학 EP.08 · 슈뢰딩거의 파동역학
+
+[EP.08 제작·실행](quantum_series/episodes/ep08_schrodinger/README.md). 확정176초·35문장, 9:16/16:9·1080p·30fps·무음·전체 자막. 8개 독립 씬. 고정단 정상파, 쿨롱 방정식과 수소 에너지, 파동함수와 측정의 질문. `python scripts/render.py quantum08 --preview` / `python scripts/render.py quantum08`.
+
+## 양자역학 EP.09 · 보른의 확률 해석
+
+[EP.09 제작·실행](quantum_series/episodes/ep09_born/README.md). 확정178초·40문장, 9:16/16:9·1080p·30fps·무음·전체 자막. 9개 독립 씬. 산란 진폭,3,000회 반복 검출과 히스토그램, 진폭 간섭. `python scripts/render.py quantum09 --preview` / `python scripts/render.py quantum09`.
+
+
+## 양자역학 EP.10 · 데이비슨–거머 실험
+
+[EP.10 제작·실행](quantum_series/episodes/ep10_davisson_germer/README.md). 확정171초·35문장, 9:16/16:9·1080p·30fps·무음·전체 자막. 9개 독립 씬. 결정 성장, 산란 전류, 위상합과 회절, 0.167 nm와 0.165 nm 비교. `python scripts/render.py quantum10 --preview` / `python scripts/render.py quantum10`.

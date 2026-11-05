@@ -1,0 +1,46 @@
+[
+  {
+    "layout": "shorts",
+    "ending": "standalone",
+    "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\quantum10_shorts_preview.mp4",
+    "duration": 171,
+    "frames": 5130,
+    "width": 360,
+    "height": 640,
+    "fps": 30,
+    "audio": "not supplied; silent video",
+    "clips": [
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum10\\shorts\\standalone\\preview\\videos\\scene\\640p30\\QuestionChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum10\\shorts\\standalone\\preview\\videos\\scene\\640p30\\ApparatusChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum10\\shorts\\standalone\\preview\\videos\\scene\\640p30\\AccidentChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum10\\shorts\\standalone\\preview\\videos\\scene\\640p30\\PeakChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum10\\shorts\\standalone\\preview\\videos\\scene\\640p30\\InterferenceChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum10\\shorts\\standalone\\preview\\videos\\scene\\640p30\\ScanChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum10\\shorts\\standalone\\preview\\videos\\scene\\640p30\\WavelengthChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum10\\shorts\\standalone\\preview\\videos\\scene\\640p30\\ThomsonChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum10\\shorts\\standalone\\preview\\videos\\scene\\640p30\\ConclusionChapter.mp4"
+    ]
+  },
+  {
+    "layout": "longform",
+    "ending": "join",
+    "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\quantum10_longform_preview.mp4",
+    "duration": 171,
+    "frames": 5130,
+    "width": 640,
+    "height": 360,
+    "fps": 30,
+    "audio": "not supplied; silent video",
+    "clips": [
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum10\\longform\\join\\preview\\videos\\scene\\360p30\\QuestionChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum10\\longform\\join\\preview\\videos\\scene\\360p30\\ApparatusChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum10\\longform\\join\\preview\\videos\\scene\\360p30\\AccidentChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum10\\longform\\join\\preview\\videos\\scene\\360p30\\PeakChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum10\\longform\\join\\preview\\videos\\scene\\360p30\\InterferenceChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum10\\longform\\join\\preview\\videos\\scene\\360p30\\ScanChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum10\\longform\\join\\preview\\videos\\scene\\360p30\\WavelengthChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum10\\longform\\join\\preview\\videos\\scene\\360p30\\ThomsonChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum10\\longform\\join\\preview\\videos\\scene\\360p30\\ConclusionChapter.mp4"
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "video_checks": [
+    {
+      "layout": "shorts",
+      "duration": 178,
+      "frames": 5340,
+      "fps": 30,
+      "silent": true,
+      "width": 1080,
+      "height": 1920,
+      "last_second_max_mean_pixel_delta": 0.05143518518518519,
+      "native_ending_png": true
+    },
+    {
+      "layout": "longform",
+      "duration": 178,
+      "frames": 5340,
+      "fps": 30,
+      "silent": true,
+      "width": 1920,
+      "height": 1080,
+      "last_second_max_mean_pixel_delta": 0.04710648148148148,
+      "native_ending_png": true
+    }
+  ],
+  "simulation_checks": [
+    "Born density normalization",
+    "same prefix sample sequence for all N",
+    "histogram counts and integral",
+    "all 3000 detections inside displayed region",
+    "seven angular probabilities normalized",
+    "two-output interference conservation",
+    "40 contiguous narration intervals"
+  ],
+  "seed": 1926,
+  "sample_count": 3000
+}
