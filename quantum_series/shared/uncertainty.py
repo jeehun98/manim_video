@@ -21,9 +21,9 @@ class PlaneWave(VGroup):
  def __init__(self,c,k=6,phase=0,amp=.5,color=BLUE):
   super().__init__();self.add(ParametricFunction(lambda x:c+p(x,amp*np.cos(k*x-phase)),t_range=[-2.9,2.9,.025],color=color))
 class WavePacket(VGroup):
- def __init__(self,c,sigma=.7,phase=0):
-  super().__init__();self.add(ParametricFunction(lambda x:c+p(x,float(np.real(psi(x,sigma)*np.exp(-1j*phase)))),t_range=[-2.9,2.9,.025],color=BLUE))
-  self.add(ParametricFunction(lambda x:c+p(x,float(abs(psi(x,sigma)))),t_range=[-2.9,2.9,.04],color=MUTED,stroke_opacity=.6,stroke_width=1))
+ def __init__(self,c,sigma=.7,phase=0,k0=6):
+  super().__init__();self.add(ParametricFunction(lambda x:c+p(x,float(np.real(psi(x,sigma,k0)*np.exp(-1j*phase)))),t_range=[-2.9,2.9,.025],color=BLUE))
+  self.add(ParametricFunction(lambda x:c+p(x,float(abs(psi(x,sigma,k0)))),t_range=[-2.9,2.9,.04],color=MUTED,stroke_opacity=.6,stroke_width=1))
 class Distribution(VGroup):
  def __init__(self,c,tracker,momentum=False):
   super().__init__();self.tracker=tracker;self.momentum=momentum;self.color=GOLD if momentum else GREEN

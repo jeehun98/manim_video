@@ -1,0 +1,34 @@
+{
+  "videos": [
+    {
+      "layout": "shorts",
+      "duration": 177,
+      "frames": 5310,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "full_decode": "pass",
+      "audio": "not supplied; silent",
+      "last_second_frames": 30,
+      "last_second_max_mean_pixel_delta": 0.0007638888888888889
+    },
+    {
+      "layout": "longform",
+      "duration": 177,
+      "frames": 5310,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "full_decode": "pass",
+      "audio": "not supplied; silent",
+      "last_second_frames": 30,
+      "last_second_max_mean_pixel_delta": 0.0002314814814814815
+    }
+  ],
+  "physics_report": "physics_report.json",
+  "visual_review": "Both aspect ratios: plane wave, superposition, coupled distributions, microscope, apparatus removal, commutator, free evolution, detection and ending."
+}

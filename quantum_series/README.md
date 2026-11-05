@@ -1,6 +1,6 @@
 # 양자역학 시리즈 작업 방식
 
-다른 로컬 환경의 Codex도 이 문서와 루트 `AGENTS.md`를 읽고 기존 방식으로 이어 작업한다. 최신 구현 예시는 `episodes/ep10_davisson_germer/`이며, 실제 파일과 사용자 지시를 우선한다.
+다른 로컬 환경의 Codex도 이 문서와 루트 `AGENTS.md`를 읽고 기존 방식으로 이어 작업한다. 최신 구현 예시는 `episodes/ep13_equivalence/`이며, 실제 파일과 사용자 지시를 우선한다.
 
 ## 제작 원칙
 
@@ -39,8 +39,10 @@ python scripts/render.py quantum03_shorts
 python scripts/render.py quantum03_longform
 ```
 
-`quantum01`, `quantum02`, `quantum05`, `quantum06`, `quantum07`, `quantum08`, `quantum09`, `quantum10`도 같은 형식이다. 한 씬만 수정할 때는 해당 편 `build.py`의 `--scene`을 사용한다. 나머지 중간 영상이 없으면 먼저 전체를 렌더한다. 기본 종료 모드는 쇼츠 `standalone`, 가로 `join`이며 대본과 길이는 둘 다 유지한다.
+`quantum01`, `quantum02`, `quantum05`, `quantum06`, `quantum07`, `quantum08`, `quantum09`, `quantum10`, `quantum11`, `quantum12`도 같은 형식이다. 한 씬만 수정할 때는 해당 편 `build.py`의 `--scene`을 사용한다. 나머지 중간 영상이 없으면 먼저 전체를 렌더한다. 기본 종료 모드는 쇼츠 `standalone`, 가로 `join`이며 대본과 길이는 둘 다 유지한다.
 
 완성본은 `exports/quantumNN_shorts.mp4`, `exports/quantumNN_longform.mp4`, 미리보기는 `_preview.mp4`다. EP.03은 각 `_ending.png`도 저장한다. `media/`, `exports/`, `.venv/`는 Git 제외 대상이므로 다른 환경에 없을 수 있다. 미커밋·미추적 소스까지 전달했는지 확인하고 가상환경은 새로 만든다.
 
-현재 EP.01은 86초, EP.02는 101초, EP.03은 105초까지 완성했다. EP.05는 122초, EP.06은 161초, EP.07은 179초, EP.08은 176초, EP.09는 178초, EP.10은 171초까지 완성했으며 EP.04는 미제작이다. 새 편의 렌더 ID는 `scripts/render.py`에 등록하고, 실제 완성된 가로판만 `longform/chapters.json`에 추가한다. 조립은 `python quantum_series/longform/assemble.py`로 실행한다. 세부 물리 조건과 실행 옵션은 각 편의 README를 참고한다.
+현재 EP.01은 86초, EP.02는 101초, EP.03은 105초까지 완성했다. EP.05는 122초, EP.06은 161초, EP.07은 179초, EP.08은 176초, EP.09는 178초, EP.10은 171초, EP.11은 177초, EP.12는 178초, EP.13은 롱폼 전용 221초까지 완성했으며 EP.04는 미제작이다. 새 편의 렌더 ID는 `scripts/render.py`에 등록하고, 실제 완성된 가로판만 `longform/chapters.json`에 추가한다. 조립은 `python quantum_series/longform/assemble.py`로 실행한다. 세부 물리 조건과 실행 옵션은 각 편의 README를 참고한다.
+
+EP.13 최종화는 가로 전용이다: `python scripts/render.py quantum13 --preview` / `python scripts/render.py quantum13`. 세로판 ID는 등록하지 않는다.

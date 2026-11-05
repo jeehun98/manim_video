@@ -1679,3 +1679,18 @@ python scripts/render.py softmax01
 ## 양자역학 EP.10 · 데이비슨–거머 실험
 
 [EP.10 제작·실행](quantum_series/episodes/ep10_davisson_germer/README.md). 확정171초·35문장, 9:16/16:9·1080p·30fps·무음·전체 자막. 9개 독립 씬. 결정 성장, 산란 전류, 위상합과 회절, 0.167 nm와 0.165 nm 비교. `python scripts/render.py quantum10 --preview` / `python scripts/render.py quantum10`.
+
+
+## 양자역학 EP.11 · 하이젠베르크의 불확정성 원리
+
+[EP.11 제작·실행](quantum_series/episodes/ep11_uncertainty/README.md). 확정177초·42문장, 9:16/16:9·1080p30·무음·전체 자막. 9개 독립 씬. 가우스 파동묶음의 위치·운동량 분포 연동, 감마선 현미경, 상태의 불확정성과 예측. `python scripts/render.py quantum11 --preview` / `python scripts/render.py quantum11`.
+
+
+## 양자역학 EP.12 · 보어의 상보성 원리
+
+[EP.12 제작·실행](quantum_series/episodes/ep12_complementarity/README.md). 확정178초·41문장, 9:16/16:9·1080p30·무음·전체 자막. 8개 독립 씬. 이중슬릿의 2000회 검출 누적, 경로 기록 상태와 간섭 가시도, 실험 조건의 상보성. `python scripts/render.py quantum12 --preview` / `python scripts/render.py quantum12`.
+
+
+## 양자역학 EP.13 · 서로 다른 두 이론의 연결과 첫 이야기의 완결
+
+[EP.13 제작·실행](quantum_series/episodes/ep13_equivalence/README.md). 롱폼 전용221초·45문장·11개 독립 씬, 1920×1080·30fps·무음·전체 자막. 무한정사각우물의 기저 전개, 연산자 행렬, 기저변환과 불변 예측, 역사 회고·종료 타이틀. `python scripts/render.py quantum13 --preview` / `python scripts/render.py quantum13`.

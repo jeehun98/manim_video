@@ -1,0 +1,64 @@
+{
+  "strategy": "shared computational components and newly drawn summaries; no claim of importing missing episode footage",
+  "items": [
+    {
+      "episodes": [
+        "ep01_planck"
+      ],
+      "source": "quantum_series/shared/components.py",
+      "kind": "Planck distribution reused"
+    },
+    {
+      "episodes": [
+        "ep02_photoelectric",
+        "ep03_rutherford"
+      ],
+      "kind": "new summary diagrams based on supplied narration"
+    },
+    {
+      "episodes": [
+        "ep04_bohr"
+      ],
+      "kind": "new hydrogen-level diagram",
+      "existing_episode_source": false
+    },
+    {
+      "episodes": [
+        "ep05_franck_hertz"
+      ],
+      "source": "quantum_series/shared/franck_hertz.py",
+      "kind": "Mercury Levels component reused"
+    },
+    {
+      "episodes": [
+        "ep06_de_broglie",
+        "ep07_heisenberg",
+        "ep08_schrodinger"
+      ],
+      "source": "quantum_series/shared/matrix_mechanics.py",
+      "kind": "MatrixGrid reused; other symbolic waves newly drawn"
+    },
+    {
+      "episodes": [
+        "ep09_born",
+        "ep11_uncertainty"
+      ],
+      "source": "quantum_series/shared/uncertainty.py",
+      "kind": "normalized Gaussian density reused"
+    },
+    {
+      "episodes": [
+        "ep10_davisson_germer"
+      ],
+      "source": "quantum_series/shared/diffraction.py",
+      "kind": "electron wavelength calculation reused"
+    },
+    {
+      "episodes": [
+        "ep12_complementarity"
+      ],
+      "source": "quantum_series/shared/complementarity.py",
+      "kind": "two-path probability reused"
+    }
+  ]
+}

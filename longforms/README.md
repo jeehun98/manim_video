@@ -1,5 +1,7 @@
 # 롱폼 제작 규격
 
+- [양자역학의 발견 1–13편 통합 롱폼](quantum_full_01_13/README.md): 사용자 지정 음성 포함 `quantum_long_1~13.mp4` 합본. 33분 27.100초, 1080p30, MP4 챕터와 유튜브 설명 포함. `python longforms/quantum_full_01_13/build.py`.
+
 - [GPU 개론 07 — 회로는 언제 값을 갱신할까?](gpui07_clock_timing/README.md): 확정135초·31문장·14씬, 가로/세로1080p30, 무음·전체 자막. `python longforms/gpui07_clock_timing/build.py --preview` / `python longforms/gpui07_clock_timing/build.py`.
 
 - [GPU 개론 06 — 논리 게이트는 어떻게 값을 기억할까?](gpui06_sr_latch/README.md): 확정140초·29문장·14씬, 가로/세로1080p30, 무음·전체 자막. `python longforms/gpui06_sr_latch/build.py --preview` / `python longforms/gpui06_sr_latch/build.py`.

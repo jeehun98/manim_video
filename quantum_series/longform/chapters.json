@@ -63,6 +63,27 @@
       "video": "exports/quantum10_longform.mp4",
       "script": "quantum_series/episodes/ep10_davisson_germer/script.json",
       "duration": 171
+    },
+    {
+      "id": "ep11_uncertainty",
+      "title": "1927 · 하이젠베르크의 불확정성 원리",
+      "video": "exports/quantum11_longform.mp4",
+      "script": "quantum_series/episodes/ep11_uncertainty/script.json",
+      "duration": 177
+    },
+    {
+      "id": "ep12_complementarity",
+      "title": "1927 · 보어의 상보성 원리",
+      "video": "exports/quantum12_longform.mp4",
+      "script": "quantum_series/episodes/ep12_complementarity/script.json",
+      "duration": 178
+    },
+    {
+      "id": "ep13_equivalence",
+      "title": "1926 · 두 이론의 연결과 첫 이야기의 완결",
+      "video": "exports/quantum13_longform.mp4",
+      "script": "quantum_series/episodes/ep13_equivalence/script.json",
+      "duration": 221
     }
   ],
   "planned_only": [

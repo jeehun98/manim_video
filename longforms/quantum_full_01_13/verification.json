@@ -1,0 +1,237 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\quantum_long_1_13_full.mp4",
+  "duration_seconds": 2007.1,
+  "frames": 60213,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": "30/1",
+  "audio_duration": "2007.100000",
+  "chapters": [
+    {
+      "id": 0,
+      "time_base": "1/1000",
+      "start": 0,
+      "start_time": "0.000000",
+      "end": 89100,
+      "end_time": "89.100000",
+      "tags": {
+        "title": "흑체복사와 플랑크의 에너지 양자"
+      }
+    },
+    {
+      "id": 1,
+      "time_base": "1/1000",
+      "start": 89100,
+      "start_time": "89.100000",
+      "end": 192533,
+      "end_time": "192.533000",
+      "tags": {
+        "title": "광전효과와 아인슈타인"
+      }
+    },
+    {
+      "id": 2,
+      "time_base": "1/1000",
+      "start": 192533,
+      "start_time": "192.533000",
+      "end": 300367,
+      "end_time": "300.367000",
+      "tags": {
+        "title": "러더퍼드의 금박 실험과 원자핵"
+      }
+    },
+    {
+      "id": 3,
+      "time_base": "1/1000",
+      "start": 300367,
+      "start_time": "300.367000",
+      "end": 416467,
+      "end_time": "416.467000",
+      "tags": {
+        "title": "보어 모형과 원자의 스펙트럼"
+      }
+    },
+    {
+      "id": 4,
+      "time_base": "1/1000",
+      "start": 416467,
+      "start_time": "416.467000",
+      "end": 541700,
+      "end_time": "541.700000",
+      "tags": {
+        "title": "프랑크–헤르츠 실험"
+      }
+    },
+    {
+      "id": 5,
+      "time_base": "1/1000",
+      "start": 541700,
+      "start_time": "541.700000",
+      "end": 705933,
+      "end_time": "705.933000",
+      "tags": {
+        "title": "드브로이의 물질파"
+      }
+    },
+    {
+      "id": 6,
+      "time_base": "1/1000",
+      "start": 705933,
+      "start_time": "705.933000",
+      "end": 887967,
+      "end_time": "887.967000",
+      "tags": {
+        "title": "하이젠베르크의 행렬역학"
+      }
+    },
+    {
+      "id": 7,
+      "time_base": "1/1000",
+      "start": 887967,
+      "start_time": "887.967000",
+      "end": 1066600,
+      "end_time": "1066.600000",
+      "tags": {
+        "title": "슈뢰딩거의 파동역학"
+      }
+    },
+    {
+      "id": 8,
+      "time_base": "1/1000",
+      "start": 1066600,
+      "start_time": "1066.600000",
+      "end": 1247967,
+      "end_time": "1247.967000",
+      "tags": {
+        "title": "보른의 확률 해석"
+      }
+    },
+    {
+      "id": 9,
+      "time_base": "1/1000",
+      "start": 1247967,
+      "start_time": "1247.967000",
+      "end": 1422000,
+      "end_time": "1422.000000",
+      "tags": {
+        "title": "데이비슨–거머의 전자 회절"
+      }
+    },
+    {
+      "id": 10,
+      "time_base": "1/1000",
+      "start": 1422000,
+      "start_time": "1422.000000",
+      "end": 1602367,
+      "end_time": "1602.367000",
+      "tags": {
+        "title": "하이젠베르크의 불확정성 원리"
+      }
+    },
+    {
+      "id": 11,
+      "time_base": "1/1000",
+      "start": 1602367,
+      "start_time": "1602.367000",
+      "end": 1783400,
+      "end_time": "1783.400000",
+      "tags": {
+        "title": "보어의 상보성 원리"
+      }
+    },
+    {
+      "id": 12,
+      "time_base": "1/1000",
+      "start": 1783400,
+      "start_time": "1783.400000",
+      "end": 2007100,
+      "end_time": "2007.100000",
+      "tags": {
+        "title": "행렬역학과 파동역학의 연결 · 첫 이야기의 완결"
+      }
+    }
+  ],
+  "source_comparisons": [
+    {
+      "episode": 1,
+      "frame_mean_absolute_pixel_difference": 0.0,
+      "audio_correlation": 0.9999927218018538,
+      "audio_lag_ms": 0.0
+    },
+    {
+      "episode": 2,
+      "frame_mean_absolute_pixel_difference": 0.0,
+      "audio_correlation": 0.9999515415777186,
+      "audio_lag_ms": 0.045351473922902494
+    },
+    {
+      "episode": 3,
+      "frame_mean_absolute_pixel_difference": 0.0,
+      "audio_correlation": 0.9999787421810449,
+      "audio_lag_ms": 0.022675736961451247
+    },
+    {
+      "episode": 4,
+      "frame_mean_absolute_pixel_difference": 0.0,
+      "audio_correlation": 0.9999788809886497,
+      "audio_lag_ms": 0.022675736961451247
+    },
+    {
+      "episode": 5,
+      "frame_mean_absolute_pixel_difference": 0.0,
+      "audio_correlation": 0.9999726806388581,
+      "audio_lag_ms": 0.022675736961451247
+    },
+    {
+      "episode": 6,
+      "frame_mean_absolute_pixel_difference": 0.0,
+      "audio_correlation": 0.9999730944919193,
+      "audio_lag_ms": 0.045351473922902494
+    },
+    {
+      "episode": 7,
+      "frame_mean_absolute_pixel_difference": 0.0,
+      "audio_correlation": 0.9999864295444018,
+      "audio_lag_ms": 0.045351473922902494
+    },
+    {
+      "episode": 8,
+      "frame_mean_absolute_pixel_difference": 0.0,
+      "audio_correlation": 0.9999765392134092,
+      "audio_lag_ms": 0.06802721088435373
+    },
+    {
+      "episode": 9,
+      "frame_mean_absolute_pixel_difference": 0.0,
+      "audio_correlation": 0.9999771969720052,
+      "audio_lag_ms": 0.06802721088435373
+    },
+    {
+      "episode": 10,
+      "frame_mean_absolute_pixel_difference": 0.0,
+      "audio_correlation": 0.9999811926340384,
+      "audio_lag_ms": 0.06802721088435373
+    },
+    {
+      "episode": 11,
+      "frame_mean_absolute_pixel_difference": 0.0,
+      "audio_correlation": 0.9999874787095,
+      "audio_lag_ms": 0.09070294784580499
+    },
+    {
+      "episode": 12,
+      "frame_mean_absolute_pixel_difference": 0.0,
+      "audio_correlation": 0.9999761416405473,
+      "audio_lag_ms": 0.11337868480725623
+    },
+    {
+      "episode": 13,
+      "frame_mean_absolute_pixel_difference": 0.0,
+      "audio_correlation": 0.9999781982819879,
+      "audio_lag_ms": 0.11337868480725623
+    }
+  ],
+  "full_decode": "pass; complete video and audio decoded with ffmpeg -v error"
+}

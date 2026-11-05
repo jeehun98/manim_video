@@ -1,0 +1,26 @@
+[
+  {
+    "layout": "longform",
+    "ending": "standalone",
+    "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\quantum13_longform.mp4",
+    "duration": 221,
+    "frames": 6630,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "audio": "not supplied; silent video",
+    "clips": [
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum13\\longform\\standalone\\final\\videos\\scene\\1080p30\\ContrastsChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum13\\longform\\standalone\\final\\videos\\scene\\1080p30\\EvidenceChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum13\\longform\\standalone\\final\\videos\\scene\\1080p30\\ExpansionChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum13\\longform\\standalone\\final\\videos\\scene\\1080p30\\OperatorsChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum13\\longform\\standalone\\final\\videos\\scene\\1080p30\\AlgebraChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum13\\longform\\standalone\\final\\videos\\scene\\1080p30\\FoundationsChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum13\\longform\\standalone\\final\\videos\\scene\\1080p30\\BasisChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum13\\longform\\standalone\\final\\videos\\scene\\1080p30\\OriginsChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum13\\longform\\standalone\\final\\videos\\scene\\1080p30\\WavesChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum13\\longform\\standalone\\final\\videos\\scene\\1080p30\\QuestionsChapter.mp4",
+      "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\quantum13\\longform\\standalone\\final\\videos\\scene\\1080p30\\ConclusionChapter.mp4"
+    ]
+  }
+]
