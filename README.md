@@ -1731,3 +1731,12 @@ python scripts/render.py softmax01
 ### 양자컴퓨터의 속도 · EP.02 (qcs02)
 
 [양자컴퓨터도 빠르지 못한 문제가 있다](longforms/qcs02_structure/README.md): 사용자 제공 161초·31문장·20씬, 가로·세로 1080 해상도·60fps, 무음·전체 자막. `py -3.12 scripts/render.py qcs02 --preview` / `py -3.12 scripts/render.py qcs02`.
+
+
+## 아이디어 노트 01 · 수식에 숨겨진 공통 구조
+
+- 실제 소스: `episodes/idea01_common_structure/` (`direction.py`, `scenes/01`–`07`, `narration.md`, `tts_script.txt`, `brief.md`, `timing.json`, `captions.srt`).
+- 사용자 제공 136초 문장 종료 시각, 9:16 1080×1920 60fps, 무음 및 내레이션 자막.
+- 최종 제작: `python scripts/render.py idea01`
+- 대표 씬 미리보기: `python episodes/idea01_common_structure/build.py --preview --scene 02 05`
+- 결과: `exports/idea01_short.mp4`. 대본/TTS 및 씬별 제작 기준은 위 소스 폴더에 보존.

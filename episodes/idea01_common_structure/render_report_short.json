@@ -1,0 +1,52 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\idea01_short.mp4",
+  "revision": "v1_136s",
+  "duration": 136,
+  "frames": 8160,
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "versioned_output": null,
+  "audio": "not supplied; silent",
+  "subtitles": "29 full narration sentences burned in; exact supplied boundaries",
+  "subtitle_audit": "all 29 sentences within one frame; safe band assertions passed",
+  "ending": "standalone",
+  "shots": [
+    {
+      "scene": "01",
+      "frames": 780,
+      "source_sha256": "39b5f7ec825d1b40e1ae4a34ac834e6331805e9288454cafe64f753d5c528c7e"
+    },
+    {
+      "scene": "02",
+      "frames": 1680,
+      "source_sha256": "b1c32f6c6e6f6d9b251ad11208013650d125a6a4ad1c467e6fafd44776a547ad"
+    },
+    {
+      "scene": "03",
+      "frames": 720,
+      "source_sha256": "e10fb60c9a00619798bfc7a7258932e0b983cbbdc126f213773db986af263dce"
+    },
+    {
+      "scene": "04",
+      "frames": 1560,
+      "source_sha256": "4fc7e42f5f30084276c45f12582952686d935cc4224b0a552d02708927215a40"
+    },
+    {
+      "scene": "05",
+      "frames": 1320,
+      "source_sha256": "84c4130fad4322ad9e74ab88dd5ea011d4583a5634c8b1e845edcf28b2dc10f7"
+    },
+    {
+      "scene": "06",
+      "frames": 1200,
+      "source_sha256": "0accbbeff522d8bbc23db1a9e1d42c48521278e91cae71ff086e48a46d1b9044"
+    },
+    {
+      "scene": "07",
+      "frames": 900,
+      "source_sha256": "1bff586804f37a4a8eaa224078b8ee6efd6a02e171f0e46c96654f95c7e4ecc9"
+    }
+  ],
+  "full_decode": "passed"
+}

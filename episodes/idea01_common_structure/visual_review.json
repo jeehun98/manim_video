@@ -1,0 +1,45 @@
+{
+  "revision": "v1_136s",
+  "preview": {
+    "scenes": [
+      "02",
+      "05"
+    ],
+    "checks": [
+      "fixed parabola during representation changes",
+      "larger formulas for portrait readability",
+      "roots, vertex and symmetry axis separated",
+      "common distribution pattern before its name"
+    ],
+    "evidence": [
+      "media/idea01_v1_136s/qa/updated02.png",
+      "media/idea01_v1_136s/qa/updated05.png"
+    ]
+  },
+  "final": {
+    "scenes": [
+      "01",
+      "03",
+      "04",
+      "06",
+      "07"
+    ],
+    "checks": [
+      "formula grid and minimum-expression question fit frame",
+      "one function with several representations",
+      "Fourier positive-frequency amplitude labelled as conceptual",
+      "Fourier derivative conditions shown",
+      "AI explicitly marked as imagined model",
+      "loss of relations under excessive compression",
+      "ending remains an open question; no separate end card"
+    ],
+    "evidence": [
+      "media/idea01_v1_136s/qa/final01.png",
+      "media/idea01_v1_136s/qa/final03.png",
+      "media/idea01_v1_136s/qa/final04.png",
+      "media/idea01_v1_136s/qa/final06.png",
+      "media/idea01_v1_136s/qa/final_end.png"
+    ]
+  },
+  "automatic_checks": "render_report_short.json: dimensions, exact frame count, duration, full decode, source hashes and all 29 sentence starts within one frame"
+}

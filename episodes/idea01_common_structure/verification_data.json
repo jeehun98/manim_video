@@ -1,0 +1,26 @@
+{
+  "quadratic_identity": "exact coefficients: [1,-6,8] in all forms; numerical cross-check passed",
+  "roots": [
+    2,
+    4
+  ],
+  "vertex": [
+    3,
+    -1
+  ],
+  "domain": "real numbers",
+  "matrix_distributivity": "compatible 2x3 and 3x4 matrices; passed",
+  "fourier_convention": "exp(-i omega t), derivative maps to i omega; periodic example interpreted as Fourier series/distribution",
+  "signal_components_hz": [
+    1,
+    3
+  ],
+  "positive_frequency_amplitudes": [
+    1,
+    0.5
+  ],
+  "sentences": 29,
+  "duration_seconds": 136,
+  "frames_at_60fps": 8160,
+  "timing_continuity": "passed"
+}
