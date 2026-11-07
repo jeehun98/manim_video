@@ -1,0 +1,28 @@
+{
+  "timing": "26 user sentence end times preserved; continuous 0–136 s",
+  "scenes": "11 independent Scene classes; continuous 4080 frames",
+  "physics": "lambda=71 pm, theta=60 deg; relativistic energy/momentum identity checked",
+  "visual_review": [
+    "hook",
+    "experiment",
+    "shift",
+    "energy",
+    "classical",
+    "mismatch",
+    "photon",
+    "billiards",
+    "collision",
+    "prediction",
+    "meaning"
+  ],
+  "notes": "Spectra conceptual; curve markers theoretical samples, not measured data; no TTS audio supplied.",
+  "caption_fix": {
+    "cause": "Cairo static background retained captions replaced by Scene updater",
+    "fix": "Persistent VGroup with time-based mobject updater",
+    "preview_frames_checked": 78,
+    "final_frames_checked": 78,
+    "maximum_final_glyph_mismatch_ratio": 0.0117,
+    "negative_control": "All 25 synthetic adjacent-caption overlaps rejected",
+    "report": "media/science22/caption_review/final/verification.json"
+  }
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_overview",
+    "class": "Scene01",
+    "start": 0,
+    "end": 9,
+    "duration_seconds": 9,
+    "title": "하나의 프로세서, 여러 회로",
+    "method": "overview"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_functions",
+    "class": "Scene02",
+    "start": 9,
+    "end": 22,
+    "duration_seconds": 13,
+    "title": "회로마다 하는 일이 다르다",
+    "method": "functions"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_independent",
+    "class": "Scene03",
+    "start": 22,
+    "end": 39,
+    "duration_seconds": 17,
+    "title": "서로 다른 회로는 함께 동작할 수 있다",
+    "method": "independent"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_concurrent",
+    "class": "Scene04",
+    "start": 39,
+    "end": 51,
+    "duration_seconds": 12,
+    "title": "같은 시간, 서로 다른 명령어",
+    "method": "concurrent"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_identity",
+    "class": "Scene05",
+    "start": 51,
+    "end": 68,
+    "duration_seconds": 17,
+    "title": "주소와 목적지도 구분해야 한다",
+    "method": "identity"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_overwrite",
+    "class": "Scene06",
+    "start": 68,
+    "end": 75,
+    "duration_seconds": 7,
+    "title": "같은 저장 장소를 덮어쓴다면?",
+    "method": "overwrite"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_insert",
+    "class": "Scene07",
+    "start": 75,
+    "end": 87,
+    "duration_seconds": 12,
+    "title": "단계 사이에 저장 회로를 추가한다",
+    "method": "insert"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_preserve",
+    "class": "Scene08",
+    "start": 87,
+    "end": 105,
+    "duration_seconds": 18,
+    "title": "앞선 명령어의 정보를 유지한다",
+    "method": "preserve"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_registers",
+    "class": "Scene09",
+    "start": 105,
+    "end": 111,
+    "duration_seconds": 6,
+    "title": "파이프라인 레지스터",
+    "method": "registers"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_execute",
+    "class": "Scene10",
+    "start": 111,
+    "end": 123,
+    "duration_seconds": 12,
+    "title": "서로 다른 단계에서 동시에 처리한다",
+    "method": "execute"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_throughput",
+    "class": "Scene11",
+    "start": 123,
+    "end": 133,
+    "duration_seconds": 10,
+    "title": "한 명령어의 시간과 전체 처리량",
+    "method": "throughput"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_dependency",
+    "class": "Scene12",
+    "start": 133,
+    "end": 148,
+    "duration_seconds": 15,
+    "title": "다음 명령어가 이전 결과를 필요로 한다면?",
+    "method": "dependency"
+  }
+]

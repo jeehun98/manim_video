@@ -1,0 +1,198 @@
+{
+  "id": "qcs02",
+  "title": "양자컴퓨터도 빠르지 못한 문제가 있다",
+  "video": {
+    "longform": [
+      1920,
+      1080
+    ],
+    "shorts": [
+      1080,
+      1920
+    ],
+    "fps": 60,
+    "duration_seconds": 161
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "class": "Shot01",
+      "start": 0,
+      "end": 7,
+      "title": "간섭으로 조회 횟수를 줄인다",
+      "directory": "scenes/01",
+      "duration_seconds": 7
+    },
+    {
+      "id": "02",
+      "class": "Shot02",
+      "start": 7,
+      "end": 12,
+      "title": "모든 문제에서 더 빠를까?",
+      "directory": "scenes/02",
+      "duration_seconds": 5
+    },
+    {
+      "id": "03",
+      "class": "Shot03",
+      "start": 12,
+      "end": 28,
+      "title": "그로버의 검색",
+      "directory": "scenes/03",
+      "duration_seconds": 16
+    },
+    {
+      "id": "04",
+      "class": "Shot04",
+      "start": 28,
+      "end": 47,
+      "title": "그로버보다 더 빠를 수 있을까?",
+      "directory": "scenes/04",
+      "duration_seconds": 19
+    },
+    {
+      "id": "05",
+      "class": "Shot05",
+      "start": 47,
+      "end": 60,
+      "title": "다른 문제, 쇼어 알고리즘",
+      "directory": "scenes/05",
+      "duration_seconds": 13
+    },
+    {
+      "id": "06",
+      "class": "Shot06",
+      "start": 60,
+      "end": 66,
+      "title": "인수분해를 주기 찾기로",
+      "directory": "scenes/06",
+      "duration_seconds": 6
+    },
+    {
+      "id": "07",
+      "class": "Shot07",
+      "start": 66,
+      "end": 76,
+      "title": "나머지가 만드는 반복 수열",
+      "directory": "scenes/07",
+      "duration_seconds": 10
+    },
+    {
+      "id": "08",
+      "class": "Shot08",
+      "start": 76,
+      "end": 78,
+      "title": "최소 양의 주기 r = 4",
+      "directory": "scenes/08",
+      "duration_seconds": 2
+    },
+    {
+      "id": "09",
+      "class": "Shot09",
+      "start": 78,
+      "end": 84,
+      "title": "주기가 알려주는 나눗셈 관계",
+      "directory": "scenes/09",
+      "duration_seconds": 6
+    },
+    {
+      "id": "10",
+      "class": "Shot10",
+      "start": 84,
+      "end": 90,
+      "title": "제곱의 차로 분해하기",
+      "directory": "scenes/10",
+      "duration_seconds": 6
+    },
+    {
+      "id": "11",
+      "class": "Shot11",
+      "start": 90,
+      "end": 99,
+      "title": "주기에서 인수 3과 5로",
+      "directory": "scenes/11",
+      "duration_seconds": 9
+    },
+    {
+      "id": "12",
+      "class": "Shot12",
+      "start": 99,
+      "end": 104,
+      "title": "찾아야 하는 것은 주기",
+      "directory": "scenes/12",
+      "duration_seconds": 5
+    },
+    {
+      "id": "13",
+      "class": "Shot13",
+      "start": 104,
+      "end": 106,
+      "title": "함수의 반복에서 입력 진폭으로",
+      "directory": "scenes/13",
+      "duration_seconds": 2
+    },
+    {
+      "id": "14",
+      "class": "Shot14",
+      "start": 106,
+      "end": 113,
+      "title": "QFT가 주기 정보를 드러낸다",
+      "directory": "scenes/14",
+      "duration_seconds": 7
+    },
+    {
+      "id": "15",
+      "class": "Shot15",
+      "start": 113,
+      "end": 119,
+      "title": "측정값에서 주기를 복원한다",
+      "directory": "scenes/15",
+      "duration_seconds": 6
+    },
+    {
+      "id": "16",
+      "class": "Shot16",
+      "start": 119,
+      "end": 124,
+      "title": "양자 계산과 고전 후처리",
+      "directory": "scenes/16",
+      "duration_seconds": 5
+    },
+    {
+      "id": "17",
+      "class": "Shot17",
+      "start": 124,
+      "end": 130,
+      "title": "같은 양자 원리, 다른 가속",
+      "directory": "scenes/17",
+      "duration_seconds": 6
+    },
+    {
+      "id": "18",
+      "class": "Shot18",
+      "start": 130,
+      "end": 142,
+      "title": "활용하는 문제 구조의 차이",
+      "directory": "scenes/18",
+      "duration_seconds": 12
+    },
+    {
+      "id": "19",
+      "class": "Shot19",
+      "start": 142,
+      "end": 154,
+      "title": "속도를 결정하는 문제의 구조",
+      "directory": "scenes/19",
+      "duration_seconds": 12
+    },
+    {
+      "id": "20",
+      "class": "Shot20",
+      "start": 154,
+      "end": 161,
+      "title": "무작위 입력에서도 빠를까?",
+      "directory": "scenes/20",
+      "duration_seconds": 7
+    }
+  ]
+}

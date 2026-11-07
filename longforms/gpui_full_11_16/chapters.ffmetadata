@@ -1,0 +1,32 @@
+;FFMETADATA1
+title=GPU 개론 3부 — 하나의 명령어에서 병렬 실행까지
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=176967
+title=레지스터에 없는 데이터는 어떻게 계산할까?
+[CHAPTER]
+TIMEBASE=1/1000
+START=176967
+END=340600
+title=명령어 실행 순서를 제어하는 FSM
+[CHAPTER]
+TIMEBASE=1/1000
+START=340600
+END=491700
+title=명령어의 실행 단계를 겹치는 파이프라인
+[CHAPTER]
+TIMEBASE=1/1000
+START=491700
+END=642267
+title=데이터 의존성 — Stall과 Forwarding
+[CHAPTER]
+TIMEBASE=1/1000
+START=642267
+END=786033
+title=계산 회로를 늘리는 다중 실행 유닛
+[CHAPTER]
+TIMEBASE=1/1000
+START=786033
+END=930000
+title=3부 마무리 — 하나의 명령어에서 병렬 실행까지

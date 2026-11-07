@@ -1,0 +1,58 @@
+{
+  "mathematics": [
+    {
+      "N": 4,
+      "iterations": 1,
+      "unitary": true,
+      "all_snapshots_normalized": true,
+      "target_probability": 1.0
+    },
+    {
+      "N": 64,
+      "iterations": 6,
+      "unitary": true,
+      "all_snapshots_normalized": true,
+      "target_probability": 0.996585680786799
+    }
+  ],
+  "timing": {
+    "sentences": 34,
+    "scenes": 18,
+    "duration": 178,
+    "frames": 10680,
+    "continuous": true,
+    "srt_matches": true
+  },
+  "visual_review": {
+    "layout": "shorts",
+    "resolution": [
+      360,
+      640
+    ],
+    "reviewed_shots": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "focus": "Korean and math readability, safe frame, wave addition, signed amplitude labels, search panel spacing, final question",
+    "burned_in_narration": false,
+    "external_subtitle_safe_band": "bottom below y=-5.3 reserved",
+    "contact_sheets": "media/qcs01/shorts/standalone/preview/qa/",
+    "final_resolution_review": "see final_qa.png; 12, 15 and final frame"
+  }
+}

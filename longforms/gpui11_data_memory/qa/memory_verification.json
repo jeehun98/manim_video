@@ -1,0 +1,71 @@
+{
+  "all_passed": true,
+  "writeback_cases": 512,
+  "register_write_cases": 512,
+  "memory_write_cases": 384,
+  "read_non_destructive": true,
+  "store_does_not_write_registers": true,
+  "invalid_response_does_not_write": true,
+  "trace": [
+    {
+      "command": "LOAD R1, [100]",
+      "regs": [
+        0,
+        5,
+        0,
+        0
+      ],
+      "memory": {
+        "100": 5,
+        "101": 3,
+        "102": 0,
+        "103": 0
+      }
+    },
+    {
+      "command": "LOAD R2, [101]",
+      "regs": [
+        0,
+        5,
+        3,
+        0
+      ],
+      "memory": {
+        "100": 5,
+        "101": 3,
+        "102": 0,
+        "103": 0
+      }
+    },
+    {
+      "command": "ADD R3, R1, R2",
+      "regs": [
+        0,
+        5,
+        3,
+        8
+      ],
+      "memory": {
+        "100": 5,
+        "101": 3,
+        "102": 0,
+        "103": 0
+      }
+    },
+    {
+      "command": "STORE R3, [102]",
+      "regs": [
+        0,
+        5,
+        3,
+        8
+      ],
+      "memory": {
+        "100": 5,
+        "101": 3,
+        "102": 8,
+        "103": 0
+      }
+    }
+  ]
+}

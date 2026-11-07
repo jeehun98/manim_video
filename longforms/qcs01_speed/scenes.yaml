@@ -1,0 +1,200 @@
+{
+  "id": "qcs01",
+  "title": "양자컴퓨터는 왜 빠를까?",
+  "video": {
+    "layouts": {
+      "longform": [
+        1920,
+        1080
+      ],
+      "shorts": [
+        1080,
+        1920
+      ]
+    },
+    "fps": 60,
+    "duration_seconds": 175
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "class": "Shot01",
+      "start": 0,
+      "end": 9,
+      "title": "0과 1로 표현하는 정보",
+      "directory": "scenes/01",
+      "duration_seconds": 9
+    },
+    {
+      "id": "02",
+      "class": "Shot02",
+      "start": 9,
+      "end": 16,
+      "title": "비트와 큐비트",
+      "directory": "scenes/02",
+      "duration_seconds": 7
+    },
+    {
+      "id": "03",
+      "class": "Shot03",
+      "start": 16,
+      "end": 21,
+      "title": "확률 진폭으로 표현하는 중첩",
+      "directory": "scenes/03",
+      "duration_seconds": 5
+    },
+    {
+      "id": "04",
+      "class": "Shot04",
+      "start": 21,
+      "end": 31,
+      "title": "큐비트가 늘어나면?",
+      "directory": "scenes/04",
+      "duration_seconds": 10
+    },
+    {
+      "id": "05",
+      "class": "Shot05",
+      "start": 31,
+      "end": 37,
+      "title": "20큐비트와 백만 개의 기저 상태",
+      "directory": "scenes/05",
+      "duration_seconds": 6
+    },
+    {
+      "id": "06",
+      "class": "Shot06",
+      "start": 37,
+      "end": 44,
+      "title": "동시에 계산하면 빠를까?",
+      "directory": "scenes/06",
+      "duration_seconds": 7
+    },
+    {
+      "id": "07",
+      "class": "Shot07",
+      "start": 44,
+      "end": 52,
+      "title": "측정하면 하나의 결과",
+      "directory": "scenes/07",
+      "duration_seconds": 8
+    },
+    {
+      "id": "08",
+      "class": "Shot08",
+      "start": 52,
+      "end": 59,
+      "title": "파동의 강화와 상쇄",
+      "directory": "scenes/08",
+      "duration_seconds": 7
+    },
+    {
+      "id": "09",
+      "class": "Shot09",
+      "start": 59,
+      "end": 65,
+      "title": "하나의 결과, 여러 기여",
+      "directory": "scenes/09",
+      "duration_seconds": 6
+    },
+    {
+      "id": "10",
+      "class": "Shot10",
+      "start": 65,
+      "end": 77,
+      "title": "진폭과 확률의 차이",
+      "directory": "scenes/10",
+      "duration_seconds": 12
+    },
+    {
+      "id": "11",
+      "class": "Shot11",
+      "start": 77,
+      "end": 86,
+      "title": "그로버: 네 후보 중 정답 찾기",
+      "directory": "scenes/11",
+      "duration_seconds": 9
+    },
+    {
+      "id": "12",
+      "class": "Shot12",
+      "start": 86,
+      "end": 91,
+      "title": "중첩된 후보 전체에 연산하기",
+      "directory": "scenes/12",
+      "duration_seconds": 5
+    },
+    {
+      "id": "13",
+      "class": "Shot13",
+      "start": 91,
+      "end": 93,
+      "title": "초기 진폭과 관측 확률",
+      "directory": "scenes/13",
+      "duration_seconds": 2
+    },
+    {
+      "id": "14",
+      "class": "Shot14",
+      "start": 93,
+      "end": 102,
+      "title": "오라클: 정답의 부호만 반전",
+      "directory": "scenes/14",
+      "duration_seconds": 9
+    },
+    {
+      "id": "15",
+      "class": "Shot15",
+      "start": 102,
+      "end": 109,
+      "title": "확산: 평균을 기준으로 반사",
+      "directory": "scenes/15",
+      "duration_seconds": 7
+    },
+    {
+      "id": "16",
+      "class": "Shot16",
+      "start": 109,
+      "end": 124,
+      "title": "25%에서 100%로",
+      "directory": "scenes/16",
+      "duration_seconds": 15
+    },
+    {
+      "id": "17",
+      "class": "Shot17",
+      "start": 124,
+      "end": 141,
+      "title": "정답을 구별하는 규칙",
+      "directory": "scenes/17",
+      "duration_seconds": 17
+    },
+    {
+      "id": "18",
+      "class": "Shot18",
+      "start": 141,
+      "end": 160,
+      "title": "검색 횟수의 차이",
+      "directory": "scenes/18",
+      "duration_seconds": 19
+    },
+    {
+      "id": "19",
+      "class": "Shot19",
+      "start": 160,
+      "end": 168,
+      "title": "중첩만으로 빠른 것은 아니다",
+      "directory": "scenes/19",
+      "duration_seconds": 8
+    },
+    {
+      "id": "20",
+      "class": "Shot20",
+      "start": 168,
+      "end": 175,
+      "title": "간섭으로 조회 횟수를 줄인다",
+      "directory": "scenes/20",
+      "duration_seconds": 7
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "revision": "v1_155s",
+  "preview": {
+    "status": "passed",
+    "shorts_reviewed": [
+      6,
+      8,
+      12,
+      15,
+      17
+    ],
+    "longform_reviewed": [
+      8,
+      12,
+      15,
+      17
+    ],
+    "checks": [
+      "superposed query is one state, not independent readouts",
+      "input/output perspective transition",
+      "illustrative absolute error .02",
+      "epsilon and delta distinguished",
+      "conditional classical query bound",
+      "caption safe bands"
+    ],
+    "evidence": [
+      "media/qcs03_v1_155s/qa/preview_shorts.png",
+      "media/qcs03_v1_155s/qa/preview_longform.png"
+    ]
+  },
+  "final": {
+    "status": "passed",
+    "both_layouts_scene_samples": [
+      1,
+      9,
+      10,
+      11,
+      14,
+      15,
+      18,
+      20
+    ],
+    "assembly_timestamps": [
+      108,
+      117,
+      138,
+      154.97
+    ],
+    "evidence": [
+      "media/qcs03_v1_155s/qa/final_first_shorts.png",
+      "media/qcs03_v1_155s/qa/final_first_longform.png",
+      "media/qcs03_v1_155s/qa/final_last_shorts.png",
+      "media/qcs03_v1_155s/qa/final_last_longform.png"
+    ],
+    "checks": [
+      "native final dimensions",
+      "sequence reuse and query model",
+      "YES/NO probabilities sum to 100%",
+      "unknown bits remain marked",
+      "growth graph calculated from T² and 2^T",
+      "epsilon and delta separate",
+      "conditional query-complexity scope",
+      "final question intact",
+      "caption legibility and safe band"
+    ]
+  }
+}

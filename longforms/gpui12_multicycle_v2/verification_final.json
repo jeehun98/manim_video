@@ -1,0 +1,24 @@
+{
+  "longform": {
+    "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui12_multicycle_161s_longform_final.mp4",
+    "sha256": "93a22b4d2a04271e4f23997f0eb31ef48275f2e75addd9e7c9c4ec18ed4f4601",
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "30/1",
+    "duration": "161.000000",
+    "nb_read_frames": "4830"
+  },
+  "shorts": {
+    "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui12_multicycle_161s_shorts_final.mp4",
+    "sha256": "a68243be4e48817386c4a7784fefb24a6456183ec85ee32fe305fdd45bbc3178",
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 1080,
+    "height": 1920,
+    "r_frame_rate": "30/1",
+    "duration": "161.000000",
+    "nb_read_frames": "4830"
+  }
+}

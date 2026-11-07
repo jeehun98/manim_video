@@ -1,0 +1,18 @@
+{
+  "longform": {
+    "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui12_multicycle_153s_longform_preview.mp4",
+    "width": 640,
+    "height": 360,
+    "r_frame_rate": "15/1",
+    "duration": "153.000000",
+    "nb_read_frames": "2295"
+  },
+  "shorts": {
+    "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui12_multicycle_153s_shorts_preview.mp4",
+    "width": 360,
+    "height": 640,
+    "r_frame_rate": "15/1",
+    "duration": "153.000000",
+    "nb_read_frames": "2295"
+  }
+}

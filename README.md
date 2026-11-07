@@ -1,5 +1,7 @@
 # Manim 교육 영상 프로젝트
 
+- [양자컴퓨터 03 — 무작위 데이터에서도 양자컴퓨터는 압도적으로 빠를까?](longforms/qcs03_random/README.md): 확정155초·28문장·20씬, 가로·세로1080p60, 무음·전체 자막. `py -3.12 scripts/render.py qcs03`.
+
 - [GPU 개론 07 — 회로는 언제 값을 갱신할까?](longforms/gpui07_clock_timing/README.md): 확정135초·31문장·14씬, 가로/세로1080p30, 무음·전체 자막. `python longforms/gpui07_clock_timing/build.py --preview` / `python longforms/gpui07_clock_timing/build.py`.
 
 - [GPU 개론 06 — 논리 게이트는 어떻게 값을 기억할까?](longforms/gpui06_sr_latch/README.md): 확정140초·29문장·14씬, 가로/세로1080p30, 무음·전체 자막. `python longforms/gpui06_sr_latch/build.py --preview` / `python longforms/gpui06_sr_latch/build.py`.
@@ -1484,6 +1486,8 @@ python scripts/render.py softmax01
 
 렌더 작업을 종료한 뒤 PowerShell에서 `./scripts/clean_workspace.ps1`로 정리 대상 수와 용량을 확인하고, `./scripts/clean_workspace.ps1 -Apply`로 삭제한다. Python 캐시, `media/` 아래 Manim 부분 영상·Tex·texts 캐시, 루트 및 episodes/longforms의 렌더 로그를 정리한다. 완성 영상, 음원, 대본, 타이밍 자료, archive, 가상환경은 보존한다. 캐시 삭제 후 첫 렌더는 캐시를 다시 생성하므로 시간이 더 걸릴 수 있다.
 
+원본 중심으로 정리하려면 `./scripts/clean_workspace.ps1 -Generated`로 먼저 확인하고 `./scripts/clean_workspace.ps1 -Generated -Apply`로 실행한다. 이 모드는 모든 `media/` 폴더, 완성·씬별 영상, 검수 이미지, 렌더 보고서·상태·배치 자료, concat 목록, 생성 ASS 자막, 대응 CUDA 소스가 있는 실행 파일 및 생성 코드가 확인된 수치 데이터를 추가 삭제한다. 코드·대본·spec·실제 발화시간·SRT·원본 이미지·음원은 유지한다. `exports/`의 음원과 이름이 같은 영상은 입력 컨테이너일 수 있어 유지한다. 수치 데이터가 삭제된 프로젝트는 해당 `prepare.py`, `data_model.py`, `physics.py`, `prepare_assets.py` 등을 먼저 실행하고 다시 렌더한다. `.git`, archive, 설치 환경은 정리 범위에서 제외한다.
+
 
 ## 자연의 최적화 02
 
@@ -1694,3 +1698,36 @@ python scripts/render.py softmax01
 ## 양자역학 EP.13 · 서로 다른 두 이론의 연결과 첫 이야기의 완결
 
 [EP.13 제작·실행](quantum_series/episodes/ep13_equivalence/README.md). 롱폼 전용221초·45문장·11개 독립 씬, 1920×1080·30fps·무음·전체 자막. 무한정사각우물의 기저 전개, 연산자 행렬, 기저변환과 불변 예측, 역사 회고·종료 타이틀. `python scripts/render.py quantum13 --preview` / `python scripts/render.py quantum13`.
+
+## GPU 개론 11 — 데이터 메모리와 Load/Store
+
+`longforms/gpui11_data_memory/` — 확정174초·37문장·14개독립씬. 가로/세로별도렌더: `python longforms/gpui11_data_memory/build.py --preview` / `python longforms/gpui11_data_memory/build.py`.
+
+- GPU 개론 12: `python longforms/gpui12_multicycle_v2/build.py` — 확정161초, 9:16/16:9, 자막 포함 무음. 소스: `longforms/gpui12_multicycle_v2/`.
+
+- GPU 개론13 · 명령어 파이프라인: 확정148초·29문장·12씬, 가로/세로1080p30, 자막포함·무음. `python longforms/gpui13_pipeline/build.py`. 소스 `longforms/gpui13_pipeline/`.
+
+- GPU 개론14 · 데이터 의존성 제어: 확정147초·33문장·12씬, 가로/세로1080p30, 자막포함·무음. `python longforms/gpui14_hazards/build.py`. 소스 `longforms/gpui14_hazards/`.
+
+- GPU 개론15 · 다중 실행 유닛: 확정141초·26문장·12씬, 가로/세로1080p30·자막포함·무음. `python longforms/gpui15_execution_units/build.py`. 소스 `longforms/gpui15_execution_units/`.
+
+- GPU 개론3부 마무리 · 하나의 명령어에서 병렬 실행까지: 확정141초·28문장·13씬, 11~15편 연결 에필로그/독립영상, 가로·세로1080p30·자막포함·무음. `python longforms/gpui_part3_epilogue/build.py`.
+
+- GPU 개론3부 통합(11~16): 사용자지정음성포함 `gpui_long_11.mp4`~`gpui_long_16.mp4`를결합한15분30초·1080p30합본. MP4챕터6개/유튜브설명포함. `python longforms/gpui_full_11_16/build.py`. 출력 `exports/gpui_11_16_long.mp4`.
+
+
+### 과학 한조각 · 콤프턴 효과 (science22)
+
+실제 소스: `episodes/science22_compton/scene.py`, 대본·발화시간: `script.json`, `narration.md`, `timing.json`. 136초 세로 쇼츠, 1080×1920, 30fps. 음원 미제공으로 자막 포함 무음본.
+
+`python scripts/render.py science22 --preview` / `python scripts/render.py science22`
+
+결과: `exports/science22_compton.mp4`. 씬별 재렌더는 `python episodes/science22_compton/build.py --scene <씬 ID>`. 전체 조립 시 소스 해시가 일치하는 씬만 재사용한다.
+
+### 양자컴퓨터의 속도 · EP.01 (qcs01)
+
+실제 소스: longforms/qcs01_speed/. 사용자 확정 대본·종료 시각 기준 175초, 20씬. 가로 1920×1080 / 세로 1080×1920, 60fps, 무음·전체 내레이션 자막. 실행: py -3.12 scripts/render.py qcs01 --preview / py -3.12 scripts/render.py qcs01. 결과: exports/qcs01_long.mp4 및 exports/qcs01_short.mp4.
+
+### 양자컴퓨터의 속도 · EP.02 (qcs02)
+
+[양자컴퓨터도 빠르지 못한 문제가 있다](longforms/qcs02_structure/README.md): 사용자 제공 161초·31문장·20씬, 가로·세로 1080 해상도·60fps, 무음·전체 자막. `py -3.12 scripts/render.py qcs02 --preview` / `py -3.12 scripts/render.py qcs02`.

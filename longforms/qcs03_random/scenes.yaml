@@ -1,0 +1,198 @@
+{
+  "id": "qcs03",
+  "title": "무작위 데이터에서도 양자컴퓨터는 압도적으로 빠를까?",
+  "video": {
+    "longform": [
+      1920,
+      1080
+    ],
+    "shorts": [
+      1080,
+      1920
+    ],
+    "fps": 60,
+    "duration_seconds": 155
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "class": "Shot01",
+      "start": 0,
+      "end": 10,
+      "title": "속도 향상과 문제의 구조",
+      "directory": "scenes/01",
+      "duration_seconds": 10
+    },
+    {
+      "id": "02",
+      "class": "Shot02",
+      "start": 10,
+      "end": 15,
+      "title": "무작위 데이터에서도 빠를까?",
+      "directory": "scenes/02",
+      "duration_seconds": 5
+    },
+    {
+      "id": "03",
+      "class": "Shot03",
+      "start": 15,
+      "end": 21,
+      "title": "2008년, 새로운 수학적 질문",
+      "directory": "scenes/03",
+      "duration_seconds": 6
+    },
+    {
+      "id": "04",
+      "class": "Shot04",
+      "start": 21,
+      "end": 26,
+      "title": "수많은 비트로 이루어진 입력",
+      "directory": "scenes/04",
+      "duration_seconds": 5
+    },
+    {
+      "id": "05",
+      "class": "Shot05",
+      "start": 26,
+      "end": 31,
+      "title": "고전 조회: 특정 위치의 비트",
+      "directory": "scenes/05",
+      "duration_seconds": 5
+    },
+    {
+      "id": "06",
+      "class": "Shot06",
+      "start": 31,
+      "end": 41,
+      "title": "양자 조회: 중첩된 위치에 연산",
+      "directory": "scenes/06",
+      "duration_seconds": 10
+    },
+    {
+      "id": "07",
+      "class": "Shot07",
+      "start": 41,
+      "end": 52,
+      "title": "입력이 무작위라면?",
+      "directory": "scenes/07",
+      "duration_seconds": 11
+    },
+    {
+      "id": "08",
+      "class": "Shot08",
+      "start": 52,
+      "end": 64,
+      "title": "계산의 속도에서 예측의 문제로",
+      "directory": "scenes/08",
+      "duration_seconds": 12
+    },
+    {
+      "id": "09",
+      "class": "Shot09",
+      "start": 64,
+      "end": 71,
+      "title": "예 또는 아니오를 출력한다면",
+      "directory": "scenes/09",
+      "duration_seconds": 7
+    },
+    {
+      "id": "10",
+      "class": "Shot10",
+      "start": 71,
+      "end": 79,
+      "title": "입력마다 달라지는 출력 확률",
+      "directory": "scenes/10",
+      "duration_seconds": 8
+    },
+    {
+      "id": "11",
+      "class": "Shot11",
+      "start": 79,
+      "end": 86,
+      "title": "일부 비트만 읽어 예측할 수 있을까?",
+      "directory": "scenes/11",
+      "duration_seconds": 7
+    },
+    {
+      "id": "12",
+      "class": "Shot12",
+      "start": 86,
+      "end": 95,
+      "title": "내부 계산 대신 출력 확률을 근사",
+      "directory": "scenes/12",
+      "duration_seconds": 9
+    },
+    {
+      "id": "13",
+      "class": "Shot13",
+      "start": 95,
+      "end": 105,
+      "title": "T번 조회와 다항식 수준의 조회",
+      "directory": "scenes/13",
+      "duration_seconds": 10
+    },
+    {
+      "id": "14",
+      "class": "Shot14",
+      "start": 105,
+      "end": 109,
+      "title": "다항식과 지수식의 성장",
+      "directory": "scenes/14",
+      "duration_seconds": 4
+    },
+    {
+      "id": "15",
+      "class": "Shot15",
+      "start": 109,
+      "end": 119,
+      "title": "입력 대부분과 작은 오차",
+      "directory": "scenes/15",
+      "duration_seconds": 10
+    },
+    {
+      "id": "16",
+      "class": "Shot16",
+      "start": 119,
+      "end": 125,
+      "title": "출력 확률을 다항식으로 바라보다",
+      "directory": "scenes/16",
+      "duration_seconds": 6
+    },
+    {
+      "id": "17",
+      "class": "Shot17",
+      "start": 125,
+      "end": 135,
+      "title": "추측이 성립한다면 가능한 근사",
+      "directory": "scenes/17",
+      "duration_seconds": 10
+    },
+    {
+      "id": "18",
+      "class": "Shot18",
+      "start": 135,
+      "end": 140,
+      "title": "지수적인 조회 가속에 대한 제약",
+      "directory": "scenes/18",
+      "duration_seconds": 5
+    },
+    {
+      "id": "19",
+      "class": "Shot19",
+      "start": 140,
+      "end": 144,
+      "title": "오랫동안 남았던 수학적 추측",
+      "directory": "scenes/19",
+      "duration_seconds": 4
+    },
+    {
+      "id": "20",
+      "class": "Shot20",
+      "start": 144,
+      "end": 155,
+      "title": "일부 입력으로 결과를 예측하려면?",
+      "directory": "scenes/20",
+      "duration_seconds": 11
+    }
+  ]
+}

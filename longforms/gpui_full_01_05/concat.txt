@@ -1,5 +1,0 @@
-file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/gpui_1_long.mp4'
-file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/gpui_2_long.mp4'
-file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/gpui_3_long.mp4'
-file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/gpui_4_long.mp4'
-file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/gpui_5_long.mp4'

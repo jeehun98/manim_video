@@ -1,0 +1,82 @@
+{
+  "preview": {
+    "longform": [
+      640,
+      360
+    ],
+    "shorts": [
+      360,
+      640
+    ],
+    "reviewed_landscape_shots": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "portrait_focus": [
+      4,
+      6,
+      12,
+      15,
+      16,
+      18
+    ],
+    "captioned": true,
+    "checks": [
+      "Korean and formula readability",
+      "body/subtitle separation",
+      "corrected measurement frame spacing",
+      "native side by side comparisons",
+      "longest narration blocks",
+      "ending question"
+    ],
+    "evidence": "media/qcs01_captioned/qa/approved_preview.png"
+  },
+  "final": {
+    "status": "passed",
+    "longform_resolution": [
+      1920,
+      1080
+    ],
+    "shorts_resolution": [
+      1080,
+      1920
+    ],
+    "longform_seconds": [
+      59,
+      109.5,
+      141,
+      177.98
+    ],
+    "shorts_seconds": [
+      151,
+      177.98
+    ],
+    "checks": [
+      "subtitle readability and safe band",
+      "signed amplitude labels",
+      "measurement frame spacing",
+      "native comparison layout",
+      "complete final question"
+    ],
+    "evidence": [
+      "media/qcs01_captioned/qa/final_long_qa.png",
+      "media/qcs01_captioned/qa/final_short_qa.png"
+    ]
+  }
+}

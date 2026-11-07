@@ -1,0 +1,24 @@
+{
+  "longform": {
+    "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui_part3_epilogue_141s_longform_final.mp4",
+    "sha256": "d9e3ff7e03fdf75cbf62d6bdd8849252572b1db4ded512c62165d8924bb6f61e",
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "30/1",
+    "duration": "141.000000",
+    "nb_read_frames": "4230"
+  },
+  "shorts": {
+    "path": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui_part3_epilogue_141s_shorts_final.mp4",
+    "sha256": "9c951fde48c4d3613bda29131d5d567060a82a42a751b09b7ac36e4f53eff314",
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 1080,
+    "height": 1920,
+    "r_frame_rate": "30/1",
+    "duration": "141.000000",
+    "nb_read_frames": "4230"
+  }
+}

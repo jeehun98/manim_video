@@ -339,9 +339,29 @@ def main():
         "evdsvd08_shorts": ("evdsvd08_final_choice", "shorts"),
         "evdsvd08_longform": ("evdsvd08_final_choice", "longform"),
     }
-    p.add_argument("episode", choices=[*EPISODES, *projects, *quantum_projects])
+    p.add_argument("episode", choices=[*EPISODES, *projects, *quantum_projects, "science22", "qcs01", "qcs02", "qcs03"])
     p.add_argument("--preview", action="store_true")
     a = p.parse_args()
+    if a.episode == "qcs03":
+        command = [sys.executable, str(ROOT / "longforms/qcs03_random/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "qcs02":
+        command = [sys.executable, str(ROOT / "longforms/qcs02_structure/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "qcs01":
+        command = [sys.executable, str(ROOT / "longforms/qcs01_speed/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "science22":
+        command = [sys.executable, str(ROOT / "episodes/science22_compton/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
     if a.episode in quantum_projects:
         quantum_project, quantum_layout = quantum_projects[a.episode]
         command = [sys.executable, str(ROOT / "quantum_series" / "episodes" / quantum_project / "build.py"),

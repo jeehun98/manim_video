@@ -1,0 +1,44 @@
+{
+  "duration": 161,
+  "fps": 60,
+  "frames": 9660,
+  "sentences": 31,
+  "scenes": 20,
+  "srt_matches": true,
+  "sequence": [
+    1,
+    2,
+    4,
+    8,
+    1,
+    2,
+    4,
+    8
+  ],
+  "minimal_order": 4,
+  "factors": [
+    3,
+    5
+  ],
+  "qft_unitary": true,
+  "qft_probabilities": [
+    0.2499999999999999,
+    0.0,
+    0.2499999999999999,
+    0.0,
+    0.2499999999999999,
+    0.0,
+    0.2499999999999999,
+    0.0
+  ],
+  "measurement_successes": [
+    2,
+    6
+  ],
+  "measurement_inconclusive": [
+    0,
+    4
+  ],
+  "model_scope": "Q=8 conditional input-register illustration; actual Shor uses a larger register and continued fractions",
+  "grover_scope": "one marked item, black-box unstructured search, bounded-error oracle queries"
+}

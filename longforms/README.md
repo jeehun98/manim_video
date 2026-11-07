@@ -1,5 +1,7 @@
 # 롱폼 제작 규격
 
+- [양자컴퓨터 03 — 무작위 데이터에서도 양자컴퓨터는 압도적으로 빠를까?](qcs03_random/README.md): 확정155초·28문장·20씬, 가로·세로1080p60, 무음·전체 자막. `py -3.12 scripts/render.py qcs03`.
+
 - [양자역학의 발견 1–13편 통합 롱폼](quantum_full_01_13/README.md): 사용자 지정 음성 포함 `quantum_long_1~13.mp4` 합본. 33분 27.100초, 1080p30, MP4 챕터와 유튜브 설명 포함. `python longforms/quantum_full_01_13/build.py`.
 
 - [GPU 개론 07 — 회로는 언제 값을 갱신할까?](gpui07_clock_timing/README.md): 확정135초·31문장·14씬, 가로/세로1080p30, 무음·전체 자막. `python longforms/gpui07_clock_timing/build.py --preview` / `python longforms/gpui07_clock_timing/build.py`.
@@ -274,3 +276,25 @@ longforms/<ID>_<slug>/
 - [GPU 개론 10 — 컴퓨터는 어떻게 프로그램을 실행할까?](gpui10_program_execution/README.md): 확정165초·35문장·15씬, 가로/세로1080p30, 무음·전체자막. `python longforms/gpui10_program_execution/build.py`.
 
 - [GPU 개론 6~10편 통합 롱폼](gpui_full_06_10/README.md): 사용자 지정 음성 포함 `gpui_6_long.mp4`~`gpui_10_long.mp4` 합본. `python longforms/gpui_full_06_10/build.py`.
+
+- [GPU 개론 11 — 레지스터에 없는 데이터는 어떻게 계산할까?](gpui11_data_memory/README.md): 확정174초·37문장·14씬, 가로/세로1080p30, 무음·전체자막. `python longforms/gpui11_data_memory/build.py`.
+
+- GPU 개론 12: `python longforms/gpui12_multicycle_v2/build.py` — 확정161초, 9:16/16:9, 자막 포함 무음. 소스: `longforms/gpui12_multicycle_v2/`.
+
+- GPU 개론13 · 명령어 파이프라인: 확정148초·29문장·12씬, 가로/세로1080p30, 자막포함·무음. `python longforms/gpui13_pipeline/build.py`. 소스 `longforms/gpui13_pipeline/`.
+
+- GPU 개론14 · 데이터 의존성 제어: 확정147초·33문장·12씬, 가로/세로1080p30, 자막포함·무음. `python longforms/gpui14_hazards/build.py`. 소스 `longforms/gpui14_hazards/`.
+
+- GPU 개론15 · 다중 실행 유닛: 확정141초·26문장·12씬, 가로/세로1080p30·자막포함·무음. `python longforms/gpui15_execution_units/build.py`. 소스 `longforms/gpui15_execution_units/`.
+
+- GPU 개론3부 마무리 · 하나의 명령어에서 병렬 실행까지: 확정141초·28문장·13씬, 11~15편 연결 에필로그/독립영상, 가로·세로1080p30·자막포함·무음. `python longforms/gpui_part3_epilogue/build.py`.
+
+- GPU 개론3부 통합(11~16): 사용자지정음성포함 `gpui_long_11.mp4`~`gpui_long_16.mp4`를결합한15분30초·1080p30합본. MP4챕터6개/유튜브설명포함. `python longforms/gpui_full_11_16/build.py`. 출력 `exports/gpui_11_16_long.mp4`.
+
+## 양자컴퓨터의 속도
+
+- [EP.01 — 양자컴퓨터는 왜 빠를까?](qcs01_speed/README.md): 사용자 확정 175초·34문장·20씬. 가로·세로 1080p60, 무음·전체 내레이션 자막. `py -3.12 longforms/qcs01_speed/build.py --preview` / `py -3.12 longforms/qcs01_speed/build.py`.
+
+### 양자컴퓨터의 속도 · EP.02 (qcs02)
+
+[양자컴퓨터도 빠르지 못한 문제가 있다](qcs02_structure/README.md): 사용자 제공 161초·31문장·20씬, 가로·세로 1080 해상도·60fps, 무음·전체 자막. `py -3.12 scripts/render.py qcs02 --preview` / `py -3.12 scripts/render.py qcs02`.

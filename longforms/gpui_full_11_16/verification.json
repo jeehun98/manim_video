@@ -1,0 +1,84 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui_11_16_long.mp4",
+  "video_frames": "27900",
+  "video_duration": "930.000000",
+  "audio_duration": "930.000000",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": "30/1",
+  "chapters": [
+    {
+      "id": 0,
+      "time_base": "1/11289600",
+      "start": 0,
+      "start_time": "0.000000",
+      "end": 1997886643,
+      "end_time": "176.967000",
+      "tags": {
+        "title": "레지스터에 없는 데이터는 어떻게 계산할까?"
+      }
+    },
+    {
+      "id": 1,
+      "time_base": "1/11289600",
+      "start": 1997886643,
+      "start_time": "176.967000",
+      "end": 3845237760,
+      "end_time": "340.600000",
+      "tags": {
+        "title": "명령어 실행 순서를 제어하는 FSM"
+      }
+    },
+    {
+      "id": 2,
+      "time_base": "1/11289600",
+      "start": 3845237760,
+      "start_time": "340.600000",
+      "end": 5551096320,
+      "end_time": "491.700000",
+      "tags": {
+        "title": "명령어의 실행 단계를 겹치는 파이프라인"
+      }
+    },
+    {
+      "id": 3,
+      "time_base": "1/11289600",
+      "start": 5551096320,
+      "start_time": "491.700000",
+      "end": 7250937523,
+      "end_time": "642.267000",
+      "tags": {
+        "title": "데이터 의존성 — Stall과 Forwarding"
+      }
+    },
+    {
+      "id": 4,
+      "time_base": "1/11289600",
+      "start": 7250937523,
+      "start_time": "642.267000",
+      "end": 8873998157,
+      "end_time": "786.033000",
+      "tags": {
+        "title": "계산 회로를 늘리는 다중 실행 유닛"
+      }
+    },
+    {
+      "id": 5,
+      "time_base": "1/11289600",
+      "start": 8873998157,
+      "start_time": "786.033000",
+      "end": 10499328000,
+      "end_time": "930.000000",
+      "tags": {
+        "title": "3부 마무리 — 하나의 명령어에서 병렬 실행까지"
+      }
+    }
+  ],
+  "video_encoding": "stream copy",
+  "audio": "AAC; per-episode silence padding preserves video boundaries",
+  "full_decode": "passed: ffmpeg -xerror",
+  "sha256": "4b10d185afccab73203b09f8aee77192c5f2eb482d8f67fef3f5db58c8b0a5ac",
+  "file_size_bytes": 52370628
+}

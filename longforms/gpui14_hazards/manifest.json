@@ -1,0 +1,122 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_intro",
+    "class": "Scene01",
+    "start": 0,
+    "end": 9,
+    "duration_seconds": 9,
+    "title": "앞선 결과를 다음 명령어가 사용한다면?",
+    "method": "intro"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_load_goal",
+    "class": "Scene02",
+    "start": 9,
+    "end": 18,
+    "duration_seconds": 9,
+    "title": "필요한 값은 5, 기존 값은 0",
+    "method": "load_goal"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_old_input",
+    "class": "Scene03",
+    "start": 18,
+    "end": 31,
+    "duration_seconds": 13,
+    "title": "계산 회로보다 입력 시점의 문제",
+    "method": "old_input"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_compare",
+    "class": "Scene04",
+    "start": 31,
+    "end": 48,
+    "duration_seconds": 17,
+    "title": "레지스터 번호와 준비 시점을 비교한다",
+    "method": "compare"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_stall",
+    "class": "Scene05",
+    "start": 48,
+    "end": 62,
+    "duration_seconds": 14,
+    "title": "뒤따르는 명령어만 잠시 기다린다",
+    "method": "stall"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_alu_example",
+    "class": "Scene06",
+    "start": 62,
+    "end": 73,
+    "duration_seconds": 11,
+    "title": "결과가 이미 만들어졌다면?",
+    "method": "alu_example"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_bypass_path",
+    "class": "Scene07",
+    "start": 73,
+    "end": 91,
+    "duration_seconds": 18,
+    "title": "준비된 결과에서 입력으로 경로를 추가한다",
+    "method": "bypass_path"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_mux",
+    "class": "Scene08",
+    "start": 91,
+    "end": 106,
+    "duration_seconds": 15,
+    "title": "준비된 결과를 MUX로 선택한다",
+    "method": "mux"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_load_limit",
+    "class": "Scene09",
+    "start": 106,
+    "end": 124,
+    "duration_seconds": 18,
+    "title": "주소가 있어도 데이터는 없을 수 있다",
+    "method": "load_limit"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_wait_forward",
+    "class": "Scene10",
+    "start": 124,
+    "end": 131,
+    "duration_seconds": 7,
+    "title": "기다린 뒤 준비된 값을 전달한다",
+    "method": "wait_forward"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_integrate",
+    "class": "Scene11",
+    "start": 131,
+    "end": 137,
+    "duration_seconds": 6,
+    "title": "필요한 시점에 맞춰 실행을 제어한다",
+    "method": "integrate"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_independent",
+    "class": "Scene12",
+    "start": 137,
+    "end": 147,
+    "duration_seconds": 10,
+    "title": "서로 독립적인 계산이라면?",
+    "method": "independent"
+  }
+]
