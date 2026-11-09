@@ -339,9 +339,49 @@ def main():
         "evdsvd08_shorts": ("evdsvd08_final_choice", "shorts"),
         "evdsvd08_longform": ("evdsvd08_final_choice", "longform"),
     }
-    p.add_argument("episode", choices=[*EPISODES, *projects, *quantum_projects, "science22", "qcs01", "qcs02", "qcs03", "idea01"])
+    p.add_argument("episode", choices=[*EPISODES, *projects, *quantum_projects, "science22", "qcs01", "qcs02", "qcs03", "idea01", "idea02", "expression01", "aiwork01", "sgd01", "euler01", "godel01", "basis01", "qtier01"])
     p.add_argument("--preview", action="store_true")
     a = p.parse_args()
+    if a.episode == "qtier01":
+        command = [sys.executable, str(ROOT / "episodes/qtier01_experiments/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "basis01":
+        command = [sys.executable, str(ROOT / "episodes/basis01_fourier_heat/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "godel01":
+        command = [sys.executable, str(ROOT / "episodes/godel01_proof_limits/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "euler01":
+        command = [sys.executable, str(ROOT / "episodes/euler01_rotation_waves/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "sgd01":
+        command = [sys.executable, str(ROOT / "episodes/sgd01_sampling_noise/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "aiwork01":
+        command = [sys.executable, str(ROOT / "episodes/aiwork01_training_inference/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "expression01":
+        command = [sys.executable, str(ROOT / "episodes/expression01_sentence_meaning/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "idea02":
+        command = [sys.executable, str(ROOT / "episodes/idea02_language_thought/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
     if a.episode == "idea01":
         command = [sys.executable, str(ROOT / "episodes/idea01_common_structure/build.py")]
         if a.preview: command.append("--preview")

@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "preview_scenes": [
+    "03",
+    "05",
+    "08",
+    "09",
+    "10"
+  ],
+  "final_scenes": [
+    "05",
+    "07",
+    "08",
+    "09",
+    "10",
+    "12",
+    "13"
+  ],
+  "checked": [
+    "identical curve before/after displacement-temperature axis relabel",
+    "curvature sign and temperature change",
+    "derivative frequency preserved",
+    "single mode decay versus initial curve",
+    "normalised modal display distinguished from true weighted sum",
+    "subtitle and frame clearance",
+    "basis not unique; function space and boundary dependence"
+  ],
+  "source_hash_check": "All 13 final scene hashes match current inputs"
+}

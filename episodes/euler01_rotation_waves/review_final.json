@@ -1,0 +1,95 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\euler01.mp4",
+  "duration": 139,
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "frames": 8340,
+  "audio": "not supplied; silent",
+  "sentences": 36,
+  "shots": [
+    {
+      "scene": 1,
+      "frames": 600,
+      "sha256": "64faea893cbf0da4160983c047c93383965698f0b58b74b7761496bd210f3ba8"
+    },
+    {
+      "scene": 2,
+      "frames": 540,
+      "sha256": "0c45ca76e4e21b31bdbebb515dfe48232a48f420e8def13a82617076cc402d16"
+    },
+    {
+      "scene": 3,
+      "frames": 540,
+      "sha256": "0dce4e48952c3559cdecdb4247eae36eba8a210f4ebc11ef14823aef63080f73"
+    },
+    {
+      "scene": 4,
+      "frames": 720,
+      "sha256": "9b2bc5fcabdb02840541fed6cc6a37fcf63ead227e3f199135e0b7c2760c9b59"
+    },
+    {
+      "scene": 5,
+      "frames": 540,
+      "sha256": "2274745c5b59538431bb04d15dc3d488d975bd813f893595e8be98a69c99b5cd"
+    },
+    {
+      "scene": 6,
+      "frames": 900,
+      "sha256": "7ed0b986347fb17da9595991183dfe5487f8547e31505f1f055e92e0f5978499"
+    },
+    {
+      "scene": 7,
+      "frames": 540,
+      "sha256": "01e2e2b791dabb1c7f63d464b9ac398e1b0f654efa522b472692ef40795ca45e"
+    },
+    {
+      "scene": 8,
+      "frames": 480,
+      "sha256": "a0d0cdb6cf51a0b94422069cc92ae1efc1e5654c9b8d509e90d90bbb7a17a60f"
+    },
+    {
+      "scene": 9,
+      "frames": 720,
+      "sha256": "5342974ff01d77b42af6c391c6e7824d165cc717b4f47369cabb14b13448ae99"
+    },
+    {
+      "scene": 10,
+      "frames": 660,
+      "sha256": "493359d6b37edfd462339a5205cb08226cf472178a54337ddfd128c2379e3d82"
+    },
+    {
+      "scene": 11,
+      "frames": 720,
+      "sha256": "1372ef9c09142feb223c8fbb2256ecd164257123825e1445cf82d1c3912e44aa"
+    },
+    {
+      "scene": 12,
+      "frames": 1380,
+      "sha256": "eddfac6a65e1769df7b895c6d1678cf917760825c392c45b2b979e1aa9c4426e"
+    }
+  ],
+  "checks": "clip frames, caption boundaries, continuous timing, resolution, FPS, complete video decode",
+  "source_hashes_verified": true,
+  "visual_review": "passed; final wave fade corrected and rechecked",
+  "visual_review_seconds": [
+    3,
+    16,
+    24,
+    37,
+    47.5,
+    60,
+    70,
+    76,
+    89,
+    100,
+    111,
+    124,
+    132,
+    137
+  ],
+  "layout_checks": "12 timelines and 36 full narration captions; frame bounds, header and caption safe zones, Korean font",
+  "numerical_checks": "8341 time samples: unit norm, Euler equality, initial values, periodicity; 121 actual Manim geometry samples: sine height and cosine value agree with rotating point",
+  "phase_source": "theta(t)=2*pi*t/10, shared absolute narration time",
+  "audio_note": "Audio not supplied; silent with burned-in full narration captions."
+}

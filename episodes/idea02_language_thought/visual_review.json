@@ -1,0 +1,44 @@
+{
+  "revision": "v1_160s",
+  "status": "passed",
+  "preview": {
+    "scenes": [
+      "05",
+      "07"
+    ],
+    "evidence": "media/idea02_v1_160s/qa/updated_preview.png",
+    "checks": [
+      "separate trained probe versus original model output",
+      "decoded information does not imply stored completed answer",
+      "two derivative routes stay separate and labels do not overlap arrows"
+    ]
+  },
+  "final": {
+    "scenes": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "06",
+      "08",
+      "09"
+    ],
+    "evidence": [
+      "media/idea02_v1_160s/qa/final_intro_derivative.png",
+      "media/idea02_v1_160s/qa/final_generalization_research.png",
+      "media/idea02_v1_160s/qa/final_internal_calculation.png",
+      "media/idea02_v1_160s/qa/final_evaluation.png"
+    ],
+    "checks": [
+      "true tangent slope for x squared",
+      "derivative law conditions and composition evaluation",
+      "research sources and conceptual example labels",
+      "intermediate text feeds subsequent context",
+      "helpfulness and necessity are distinct questions",
+      "no superiority claim for relation-based representation",
+      "both explanation accuracy and generalization in ending",
+      "subtitle separation and frame boundaries"
+    ]
+  },
+  "automated_verification": "render_report_short.json: 160s,9600frames,1080x1920,60fps,27 sentence boundaries within one frame,source hashes and full decode passed"
+}

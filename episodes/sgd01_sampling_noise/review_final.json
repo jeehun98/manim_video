@@ -1,0 +1,96 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\sgd01.mp4",
+  "duration": 166,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 4980,
+  "audio": "not supplied; silent",
+  "sentences": 33,
+  "shots": [
+    {
+      "scene": 1,
+      "frames": 540,
+      "sha256": "6436d7b8e1c9d59c93fe5c5700b9e74fe09847904f6b4ff9cb5fb5694403029d"
+    },
+    {
+      "scene": 2,
+      "frames": 360,
+      "sha256": "5435d2640b8b495373aeac4a7d5acfb2a171655608da0525b7cc504d1a2aeb12"
+    },
+    {
+      "scene": 3,
+      "frames": 270,
+      "sha256": "cee7c6e63fc6403e9798cb30f69162387ac03f6fac8fa322d27e4c10714af853"
+    },
+    {
+      "scene": 4,
+      "frames": 450,
+      "sha256": "5e0c6c5f7d4cf63bd59adae24461d9400fae7212b5d0f1c6f565dc1b1754ee6d"
+    },
+    {
+      "scene": 5,
+      "frames": 450,
+      "sha256": "542e8973477fcf91b0960487349b6a5b4f5506c25c69e8d9bae09a5a54713025"
+    },
+    {
+      "scene": 6,
+      "frames": 360,
+      "sha256": "1d166b7c57bc197c51afa604e4cd620be5006fefa71be774593d9889b8b18d05"
+    },
+    {
+      "scene": 7,
+      "frames": 420,
+      "sha256": "7229dd1eb82f1a516979a7b9e3ccd3e9614522bd73f0b235e6d1abd390b98341"
+    },
+    {
+      "scene": 8,
+      "frames": 390,
+      "sha256": "5ddeab8b8fb51b8aa1132c28c9d4917984f01c4b8ebff01713862c322a70296b"
+    },
+    {
+      "scene": 9,
+      "frames": 630,
+      "sha256": "efe51d3854733cdd3dfa1c171a15513050a170d0e023679325356ca6ac995d64"
+    },
+    {
+      "scene": 10,
+      "frames": 180,
+      "sha256": "7101c55b2e6dcbbc15dca3133c3e796f3e76ffffe96b61090ba4fd3e411606a4"
+    },
+    {
+      "scene": 11,
+      "frames": 330,
+      "sha256": "9fc1787f0224f7edf2ee7446a2c5c39348487566dec2ae2a40b5c36aa173cf1d"
+    },
+    {
+      "scene": 12,
+      "frames": 600,
+      "sha256": "73d9baf1889997c94607d6f70ec89ca409fcc0573091cd2dff23ac6786566f02"
+    }
+  ],
+  "checks": "clip frames, caption boundaries, continuous timing, resolution, FPS, complete video decode",
+  "source_hashes_verified": true,
+  "visual_review": "passed",
+  "visual_review_seconds": [
+    4,
+    10.5,
+    23.5,
+    37,
+    43.3,
+    50.5,
+    57.8,
+    62,
+    74,
+    93,
+    104,
+    120,
+    133,
+    144,
+    149,
+    164
+  ],
+  "layout_checks": "12 shot timelines and 33 captions; font, frame bounds, header and caption safe zones",
+  "numerical_checks": "math_model.validate passed: opposing gradients, update signs and recomputation, fixed mean, covariance scaling, empirical batch variance decrease, computed toy GD/SGD trajectories",
+  "audio_note": "No TTS audio provided; narration is burned in as captions."
+}

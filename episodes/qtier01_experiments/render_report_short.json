@@ -1,0 +1,69 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\qtier01_short.mp4",
+  "revision": "v1_167s",
+  "duration": 167,
+  "frames": 10020,
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "versioned_output": null,
+  "audio": "not supplied; silent",
+  "subtitles": "40 full narration sentences burned in; exact supplied boundaries",
+  "subtitle_audit": "all 40 sentences within one frame; safe band assertions passed",
+  "ending": "standalone",
+  "shots": [
+    {
+      "scene": "01",
+      "frames": 300,
+      "source_sha256": "96b5c57f700c0053d4abfa6fbe50d066745c6dbbf25317ecf8f709d64a96c12a"
+    },
+    {
+      "scene": "02",
+      "frames": 1140,
+      "source_sha256": "acd117e0d0aafea895a70f9f7a779115428e4d2f7c8fa04a557f30dd2a8fc49c"
+    },
+    {
+      "scene": "03",
+      "frames": 1020,
+      "source_sha256": "0bd5e1bbe96a4af03ecc7174be4dbd24054eee36722a6bea8357c3d69ea36f8c"
+    },
+    {
+      "scene": "04",
+      "frames": 960,
+      "source_sha256": "84091d7e974ef2c3295961e6301d51ba1c9fbe2875cd4284ec1084a074d47cb5"
+    },
+    {
+      "scene": "05",
+      "frames": 840,
+      "source_sha256": "5a6c15f9f3d76ff764f49d551bd6089b00e27c98782953b5bb6f5da53273d744"
+    },
+    {
+      "scene": "06",
+      "frames": 900,
+      "source_sha256": "9b224bb3e2aad5d8c6ef5cfc5ba3c53c450d2db39b388c443b05f20367427b16"
+    },
+    {
+      "scene": "07",
+      "frames": 1020,
+      "source_sha256": "bd7ec73e8cc5901339bf4e7c9b7e2603a335dfd1af73354b564f0a0e043b70a5"
+    },
+    {
+      "scene": "08",
+      "frames": 1140,
+      "source_sha256": "96ca095b80de213fb3c594b92f994d3aebe9223c5ed438336520791810352e15"
+    },
+    {
+      "scene": "09",
+      "frames": 1440,
+      "source_sha256": "0ae27857ebc99190936ef13f5d9dcafb66c37c6be8d738ace6b15d211462963c"
+    },
+    {
+      "scene": "10",
+      "frames": 1260,
+      "source_sha256": "3c655cfdb83726b491c8270184aa9f9cdaccfe4f015b736fa75775b1fff24b83"
+    }
+  ],
+  "full_decode": "passed",
+  "geometry": "frame boundaries checked throughout; stage clears subtitle band; transferring thumbnails pass behind opaque subtitle panel",
+  "timing": "40 exact user-supplied sentence ends; 10 scenes; no gaps or overlaps"
+}

@@ -1740,3 +1740,66 @@ python scripts/render.py softmax01
 - 최종 제작: `python scripts/render.py idea01`
 - 대표 씬 미리보기: `python episodes/idea01_common_structure/build.py --preview --scene 02 05`
 - 결과: `exports/idea01_short.mp4`. 대본/TTS 및 씬별 제작 기준은 위 소스 폴더에 보존.
+
+
+## 아이디어 노트 02 · AI는 반드시 언어로 생각해야 할까?
+
+- 소스: `episodes/idea02_language_thought/`의 `direction.py`, `scenes/01`–`09`, `narration.md`, `tts_script.txt`, `brief.md`, `timing.json`, `captions.srt`.
+- 사용자 제공 160초·27문장, 1080×1920 60fps. 음원 미제공으로 무음·전체 내레이션 자막.
+- 제작: `python scripts/render.py idea02`
+- 대표 씬 확인: `python episodes/idea02_language_thought/build.py --preview --scene 05 07`
+- 결과: `exports/idea02_short.mp4`. 연구 결과와 IDEA/CONCEPT 사고 실험을 구분.
+
+
+## 표현은 무엇을 전달하는가? 01 · 같은 문장인데 왜 다른 의미가 만들어질까?
+
+- 현재 v2: 확정37문장·168초·60fps,직시·베이즈 추론·엔트로피를 추가한 수정본.
+- 소스: `episodes/expression01_sentence_meaning/` (`direction.py`,`visuals.py`,`probability_model.py`,`scenes/01`–`14`,`narration.md`,`tts_script.txt`,`timing.json`,`captions.srt`).
+- 세로1080×1920/가로1920×1080은 같은 로직과 별도 레이아웃. 음원 미제공으로 무음·전체 내레이션 자막.
+- 제작: `python scripts/render.py expression01`
+- 대표씬: `python episodes/expression01_sentence_meaning/build.py --preview --scene 05 07 10`
+- 현재 결과: `exports/expression01_short.mp4`,`exports/expression01_long.mp4`.
+- 이전127초 소스·검사자료: `episodes/expression01_sentence_meaning/revisions/v1_127s/`. 이전 완성영상: `exports/expression01_short_v1_127s.mp4`,`exports/expression01_long_v1_127s.mp4`.
+- 막대분포와 엔트로피는 설명용 가상수치이며 실제 인간 이해 실험데이터가 아니다. 조건부 엔트로피의 평균 성질과 특정 문맥의 효과를 구분한다.
+
+## 과학 한조각 · 학습과 추론, GPU가 해결하는 서로 다른 문제
+
+- 소스: `episodes/aiwork01_training_inference/` (`scene.py`, `build.py`, `brief.md`, `narration.md`, `tts_script.txt`, `timing.json`, `captions.srt`).
+- 사용자 확정 30문장·종료 시각 기준 161초, 세로 1080×1920, 30fps. TTS 음원 미제공으로 무음이며 전체 내레이션 자막 포함.
+- 최종 제작: `python scripts/render.py aiwork01`. 결과: `exports/aiwork01.mp4`.
+- 대표 씬 확인: `python episodes/aiwork01_training_inference/build.py --preview --scene 2 6 8`.
+- 레이아웃·타이밍 검사: `python episodes/aiwork01_training_inference/check_layout.py`.
+- 11개 Shot을 독립 렌더하고 입력 해시가 일치하는 결과만 재사용한다. 학습·추론의 동일 가중치 도식, 요청별 KV Cache, Prefill/Decode, 메모리 병목을 시각화한다.
+
+## 과학 한조각 · SGD의 잡음은 단순한 오차일까?
+
+- 소스: `episodes/sgd01_sampling_noise/` (`scene.py`, `math_model.py`, `build.py`, `brief.md`, `narration.md`, `tts_script.txt`, `timing.json`, `captions.srt`).
+- 사용자 확정 33문장·종료 시각 기준 166초, 1080×1920, 30fps. 음원 미제공으로 무음·전체 내레이션 자막 포함.
+- 제작: `python scripts/render.py sgd01`. 결과: `exports/sgd01.mp4`.
+- 대표 씬: `python episodes/sgd01_sampling_noise/build.py --preview --scene 5 8 9`.
+- 수학·레이아웃·타이밍 검사: `python episodes/sgd01_sampling_noise/check_layout.py`.
+- 12개 Shot 독립 렌더·입력 해시 검사. 기울기 상쇄, 반대 방향 업데이트, 비등방 공분산, 동일 데이터의 배치 크기 비교, 장난감 손실함수의 실제 GD/SGD 경로를 시각화한다.
+
+## 수학 한 조각 · 원을 도는 점에서 어떻게 파도가 나올까?
+
+- 소스: `episodes/euler01_rotation_waves/` (`scene.py`, `motion.py`, `build.py`, `brief.md`, `narration.md`, `tts_script.txt`, `timing.json`, `captions.srt`).
+- 사용자 확정 36문장·문장 종료 시각 기준 139초. 세로 1080×1920, 60fps. 음원 미제공으로 무음·전체 내레이션 자막 포함.
+- 제작: `python scripts/render.py euler01`. 결과: `exports/euler01.mp4`.
+- 대표 씬: `python episodes/euler01_rotation_waves/build.py --preview --scene 2 3 11`.
+- 위상·레이아웃·타이밍 검사: `python episodes/euler01_rotation_waves/check_layout.py`.
+- 하나의 전역 시간·각도로 회전점과 사인/코사인 기록을 동기화한다. 복소평면과 오일러 공식의 기하학적 의미를 설명하며 증명은 다루지 않는다.
+
+
+## 괴델과 AI의 수학적 증명
+
+- [AI는 모든 수학적 진리를 증명할 수 있을까?](episodes/godel01_proof_limits/README.md): 사용자 제공 41문장·175초, 10개 독립 씬. 9:16, 1080×1920, 60fps, 무음·전체 자막. 실행: `py -3.12 scripts/render.py godel01`. 확정 대본·콘티·타이밍·장면별 소스는 해당 폴더에 보관.
+
+
+## 수학의 기본 요소 — 후보 01
+
+- [사인과 코사인 · 푸리에 급수](episodes/basis01_fourier_heat/README.md): 확정 34문장·175초·13개 독립 씬. 9:16,1080×1920,60fps,무음·전체 자막. `py -3.12 scripts/render.py basis01`. 줄의 진동→온도 편차→성분별 열확산을 동일한 곡선과 정확한 사인 모드 해로 연결.
+
+
+## 양자역학 실험 티어리스트
+
+- [9개 실험·S/A/B/C](episodes/qtier01_experiments/README.md): 확정40문장·167초·9:16·1080×1920·60fps·무음·전체 자막. 첨부 레이아웃의 누적 티어보드와 9개 벡터 실험. `py -3.12 scripts/render.py qtier01`.

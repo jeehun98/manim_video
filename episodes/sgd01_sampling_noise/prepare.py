@@ -1,0 +1,59 @@
+"""Approved narration; supplied end times take priority over storyboard estimates."""
+import json
+import shutil
+from pathlib import Path
+
+HERE=Path(__file__).resolve().parent
+LINES='''5|인공지능을 학습시킬 때, 왜 전체 데이터가 아닌 일부 데이터만 사용하는 걸까요?
+7|가장 일반적인 이유는 계산 효율입니다.
+12|신경망은 손실함수의 기울기를 계산하고, 그 반대 방향으로 가중치를 수정합니다.
+18|하지만 데이터가 수백만 개라면, 매번 모든 데이터를 계산하는 데 막대한 시간이 필요합니다.
+25|그래서 일부 데이터를 무작위로 선택하고, 그 데이터들의 기울기를 평균해 가중치를 수정합니다.
+30|이것이 미니배치를 사용하는 확률적 경사하강법, SGD의 기본 아이디어입니다.
+33|그런데 이 방식은 계산량을 줄이는 데서 끝나지 않습니다.
+39|같은 가중치에서도 어떤 데이터를 선택했느냐에 따라, 계산되는 기울기가 달라지기 때문입니다.
+45|예를 들어 지금 위치에서 두 데이터의 기울기가 크기는 같고, 방향은 정반대라고 생각해 보겠습니다.
+49|전체 데이터를 평균하면 두 기울기가 상쇄되어 0이 됩니다.
+54|이 위치에서 전체 기울기만 사용하는 경사하강법은 가중치를 바꾸지 않습니다.
+58|하지만 둘 중 하나만 선택하면 기울기는 0이 아닙니다.
+63|전체 기울기가 0인 위치에서도, SGD의 개별 업데이트는 가중치를 움직일 수 있는 것입니다.
+69|물론 전체 기울기가 0이라는 사실만으로 좋은 최소점이라고 판단할 수는 없습니다.
+75|이처럼 미니배치 기울기와 전체 기울기 사이에 생기는 차이를, 기울기 추정의 잡음이라고 부릅니다.
+78|여기서 잡음은 계산이 잘못되었다는 뜻이 아닙니다.
+81|어떤 데이터를 뽑았느냐에 따라 생기는 변동입니다.
+85|그리고 이 변동은 아무 방향으로나 똑같이 나타나지 않습니다.
+90|현재 가중치에서 각 데이터가 만드는 기울기에는 저마다의 방향과 크기가 있습니다.
+95|데이터들의 기울기가 서로 비슷하다면, 어떤 미니배치를 선택해도 결과가 비슷합니다.
+101|반대로 특정 방향에서 차이가 크다면, 그 방향으로 기울기가 더 크게 흔들릴 수 있습니다.
+108|무작위인 것은 데이터의 선택이지만, 그 선택이 만드는 흔들림에는 데이터와 모델의 구조가 반영되는 것입니다.
+112|그렇다면 한 번에 선택하는 데이터의 수를 늘리면 어떻게 될까요?
+116|더 많은 기울기를 평균하면서 개별 데이터의 차이가 상쇄됩니다.
+123|같은 가중치에서 무작위로 샘플링한다면, 일반적으로 미니배치가 커질수록 기울기 추정의 변동은 줄어듭니다.
+129|배치 크기는 계산 효율뿐 아니라, 학습 과정의 확률성에도 영향을 주는 변수인 것입니다.
+135|이러한 확률성은 신경망이 어떤 경로로 이동하고, 어떤 해 주변에 도달하는지에도 영향을 줄 수 있습니다.
+140|이를 수학적으로 근사해 이해하는 방법 중 하나가 확률미분방정식, SDE입니다.
+146|전체 기울기를 따르는 움직임에, 데이터 샘플링으로 생기는 확률적 움직임이 더해진 것으로 보는 것입니다.
+151|물론 잡음이 크다고 항상 더 좋은 결과를 얻는 것은 아닙니다.
+155|중요한 것은 이 잡음이 단순히 제거해야 할 오차만은 아니라는 사실입니다.
+160|SGD는 계산량을 줄이기 위해 일부 데이터를 사용하는 방법입니다.
+166|하지만 그 선택에서 생기는 확률성은, 학습의 경로와 도달하는 결과까지 바꿀 수 있습니다.'''
+
+def stamp(t):return f'00:{t//60:02}:{t%60:02},000'
+
+def main():
+    start=0;segments=[]
+    for line in LINES.splitlines():
+        end,content=line.split('|',1);end=int(end)
+        segments.append(dict(id=len(segments)+1,start=start,end=end,text=content));start=end
+    bounds=[0,18,30,39,54,69,81,95,108,129,135,146,166]
+    titles=['왜 일부 데이터만 사용할까?','선택한 기울기를 평균한다','같은 가중치, 다른 기울기','전체 기울기가 0이라면?','그런데 SGD는 움직일 수 있다','잡음 = 전체 기울기와의 차이','각 데이터가 만드는 기울기','잡음에도 방향과 구조가 있다','배치 크기가 잡음을 바꾼다','샘플링이 바꾸는 학습 경로','확률적 움직임으로 근사한다','잡음은 단순한 오차일까?']
+    scenes=[dict(id=i+1,start=a,end=b,title=titles[i],cls=f'Shot{i+1:02}') for i,(a,b) in enumerate(zip(bounds,bounds[1:]))]
+    data=dict(duration=166,fps=30,audio=None,timing_source='user supplied sentence ends',segments=segments,scenes=scenes)
+    (HERE/'timing.json').write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8')
+    (HERE/'narration.md').write_text('# SGD의 잡음은 단순한 오차일까?\n\n사용자 확정 33문장 · 문장 종료 시각 기준 166초. 줄바꿈으로 분리된 “줄어듭니다”만 복원.\n\n'+'\n\n'.join(f'[{s["start"]:03}–{s["end"]:03}s] {s["text"]}' for s in segments)+'\n',encoding='utf-8')
+    paragraphs=['\n'.join(s['text'].replace('SGD','에스지디').replace('SDE','에스디이') for s in segments if shot['start']<=s['start']<shot['end']) for shot in scenes]
+    (HERE/'tts_script.txt').write_text('\n\n'.join(paragraphs)+'\n',encoding='utf-8')
+    (HERE/'captions.srt').write_text('\n\n'.join(f'{s["id"]}\n{stamp(s["start"])} --> {stamp(s["end"])}\n{s["text"]}' for s in segments)+'\n',encoding='utf-8')
+    shutil.copyfile(Path('C:/Users/as042/.codex/attachments/54b3249f-51ea-4cc4-bf67-06e4c86e8bb5/붙여넣은 텍스트.txt'),HERE/'storyboard_original.md')
+
+if __name__=='__main__':main()

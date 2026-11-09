@@ -1,0 +1,39 @@
+{
+  "timing": "40 exact sentence ends; continuous 0–167s",
+  "tiers": {
+    "S": [
+      "전자 이중슬릿",
+      "벨 부등식"
+    ],
+    "A": [
+      "광전효과",
+      "슈테른–게를라흐",
+      "전자 회절"
+    ],
+    "B": [
+      "프랑크–헤르츠",
+      "콤프턴 산란"
+    ],
+    "C": [
+      "흑체복사",
+      "양자 지우개"
+    ]
+  },
+  "CHSH_local_bound": 2,
+  "CHSH_quantum_theory": 2.8284271247461903,
+  "CHSH_display": "theoretical illustration, not 1972 measured data",
+  "eraser_complementary_conditionals_sum_to_unfringed_total": "passed",
+  "Compton_energy_momentum_conservation": "passed",
+  "Compton_scattered_energy_ratio": 0.6666666666666666,
+  "historical_distinctions": [
+    "1900 Planck hypothesis, 1905 Einstein explanation",
+    "1961 electron double slit; later single-electron buildup distinguished",
+    "1972 Freedman–Clauser; no claim all loopholes closed",
+    "1992 polarization quantum eraser; conditional results distinguished"
+  ],
+  "sources": [
+    "https://doi.org/10.1103/PhysRevA.45.7729",
+    "https://doi.org/10.1103/PhysRevLett.28.938",
+    "https://www.unicamp.br/~chibeni/textosdidaticos/jonsson-electron-diffraction-ajp-1974.pdf"
+  ]
+}
