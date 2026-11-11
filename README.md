@@ -1803,3 +1803,29 @@ python scripts/render.py softmax01
 ## 양자역학 실험 티어리스트
 
 - [9개 실험·S/A/B/C](episodes/qtier01_experiments/README.md): 확정40문장·167초·9:16·1080×1920·60fps·무음·전체 자막. 첨부 레이아웃의 누적 티어보드와 9개 벡터 실험. `py -3.12 scripts/render.py qtier01`.
+
+
+## 라그랑주 승수법 — 제약의 가치
+
+- [직사각형 최적화와 λ=2.5](episodes/lagrange01_constraint_value/README.md): 확정38문장·160초·10씬·9:16·1080×1920·60fps·무음·전체 자막. `py -3.12 scripts/render.py lagrange01`. 등고선 접점→기울기 벡터 배율→최적값의 민감도를 하나의 예제로 연결.
+
+
+## 르장드르 변환 — 접선의 정보
+
+- [점의 정보에서 접선의 정보로](episodes/legendre01_tangent_duality/README.md): 확정35문장·157초·12씬·9:16·1080×1920·60fps·무음·전체 자막. `py -3.12 scripts/render.py legendre01`. 접선의 기울기·절편을 기록해 볼록 켤레를 만들고 실제 역대응으로 원래 포물선을 복원.
+
+
+## 복소수 곱셈과 복소미분 (complex01)
+
+실제 소스: `episodes/complex01_rotation_derivative/` · 151초 · 9:16 · 1080×1920 · 60fps · 무음·전체자막.
+
+`py -3.12 scripts/render.py complex01` → `exports/complex01_short.mp4`.
+
+## 서로 다른 문제, 같은 수학 01
+
+- [가장 가까운 점과 가장 그럴듯한 답은 왜 같을까?](episodes/samemath01_least_squares/README.md): 사용자 제공 30문장·160초·9:16/16:9·30fps·무음·전체 자막. `python scripts/render.py samemath01`로 쇼츠와 롱폼을 렌더한다.
+- [열의 확산과 브라운 운동은 왜 같은 방정식을 따를까?](episodes/samemath02_heat_brownian/README.md): 사용자 제공 34문장·177초·9:16/16:9·30fps·무음·전체 자막. `python scripts/render.py samemath02`로 쇼츠와 롱폼을 렌더한다.
+- [분산 최대화와 복원 오차 최소화는 왜 같은 방향을 고를까?](episodes/samemath03_pca/README.md): 사용자 제공 32문장·151초·9:16/16:9·30fps·무음·전체 자막. `python scripts/render.py samemath03`으로 쇼츠와 롱폼을 렌더한다.
+
+
+- [서로 다른 자연현상에서 똑같은 원이 나타나는 이유](episodes/circle01_shared_dynamics/README.md): 사용자 대본 149초, 세로 1080×1920·30fps·무음·전체 자막, 독립 씬 9개. `py -3.12 scripts/render.py circle01`.

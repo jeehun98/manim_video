@@ -1,0 +1,69 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\lagrange01_short.mp4",
+  "revision": "v1_160s",
+  "duration": 160,
+  "frames": 9600,
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "versioned_output": null,
+  "audio": "not supplied; silent",
+  "subtitles": "38 full narration sentences burned in; exact supplied boundaries",
+  "subtitle_audit": "all 38 sentences within one frame; safe band assertions passed",
+  "ending": "standalone",
+  "shots": [
+    {
+      "scene": "01",
+      "frames": 780,
+      "source_sha256": "6efe29a5dc608819112ef4ace540831faa7c7a877b365cf35a3990baf5651dbe"
+    },
+    {
+      "scene": "02",
+      "frames": 780,
+      "source_sha256": "875b5d12b70e7bb05547b74a226a779f06f2a83eeb3871ba439ef8eef8a3644b"
+    },
+    {
+      "scene": "03",
+      "frames": 660,
+      "source_sha256": "9b7975360e08c301a07960d48b8d01e032dfcfda1707295c42d72d03e29f963a"
+    },
+    {
+      "scene": "04",
+      "frames": 1260,
+      "source_sha256": "2f34404119b8212aef50c13912ae42aaef18c63ac5a94d95c96b4a34c3e88913"
+    },
+    {
+      "scene": "05",
+      "frames": 600,
+      "source_sha256": "1244731f2fd64f41241705fe3e29dc4f3df9c0d79049e5631ea7aecc73870529"
+    },
+    {
+      "scene": "06",
+      "frames": 1260,
+      "source_sha256": "698d1740566b0aff519fe6f4810bed2e3bd9367dae814a7f936f8fa45cca4e8c"
+    },
+    {
+      "scene": "07",
+      "frames": 1440,
+      "source_sha256": "2305f3f86434a778e68745698df54094c45407dc2084c1a9984bc834e5ec3e9a"
+    },
+    {
+      "scene": "08",
+      "frames": 1080,
+      "source_sha256": "31195c86ee58911afeb9eeebddf5f04d3841494062d5f8fc04f9ed49443e4038"
+    },
+    {
+      "scene": "09",
+      "frames": 900,
+      "source_sha256": "4d55b4ae8bec70ac60863d056af4531b050d69c1044350162e241d0e4d7e9c28"
+    },
+    {
+      "scene": "10",
+      "frames": 840,
+      "source_sha256": "107f91f4300e6f140c552c9d1ad14b4fce8f7ad2f7f52b1d8db724c1d7b06635"
+    }
+  ],
+  "full_decode": "passed",
+  "geometry": "every rendered animation frame checked for frame boundaries and subtitle band clearance",
+  "timing": "38 exact user-supplied sentence ends; 10 scenes; no gaps or overlaps"
+}

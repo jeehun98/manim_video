@@ -1,0 +1,36 @@
+{
+  "source_text_and_38_end_times": "exact",
+  "continuity": "0–160s; 10 scenes; no gaps or overlaps",
+  "maximum_identity": "A=25−(x−5)² ≤25",
+  "optimum": [
+    5,
+    5
+  ],
+  "gradient_f": [
+    5.0,
+    5.0
+  ],
+  "gradient_g": [
+    2.0,
+    2.0
+  ],
+  "lambda_at_P20": 2.5,
+  "tangency_slopes": [
+    -1,
+    -1
+  ],
+  "tangent_second_derivative": -2,
+  "axes_equal_scale": "passed",
+  "sampled_level_curve_includes_exact_contact": "passed",
+  "P_new": 20.1,
+  "side_new": 5.025,
+  "A_new": 25.250625,
+  "delta_A": 0.250625,
+  "finite_difference_ratio": 2.50625,
+  "instantaneous_ratio": 2.5,
+  "normalization": "g=2x+2y=P; L=f−λ(g−P)",
+  "sources": [
+    "https://math.mit.edu/~djk/18_022/chapter04/section03.html",
+    "https://faculty.arts.ubc.ca/pschrimpf/526/optimization-526.pdf"
+  ]
+}

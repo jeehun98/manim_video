@@ -1,0 +1,57 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\circle01_shared_dynamics.mp4",
+  "duration": 149,
+  "frames": 4470,
+  "width": 1080,
+  "height": 1920,
+  "audio": "not supplied; silent",
+  "text_bounds": "checked at animation endpoints",
+  "full_decode": "passed",
+  "scenes": [
+    {
+      "scene": "geometry",
+      "frames": 840,
+      "duration": 28
+    },
+    {
+      "scene": "rule",
+      "frames": 660,
+      "duration": 22
+    },
+    {
+      "scene": "spring",
+      "frames": 600,
+      "duration": 20
+    },
+    {
+      "scene": "phase",
+      "frames": 420,
+      "duration": 14
+    },
+    {
+      "scene": "circuit",
+      "frames": 570,
+      "duration": 19
+    },
+    {
+      "scene": "electric",
+      "frames": 360,
+      "duration": 12
+    },
+    {
+      "scene": "merge",
+      "frames": 330,
+      "duration": 11
+    },
+    {
+      "scene": "invariant",
+      "frames": 210,
+      "duration": 7
+    },
+    {
+      "scene": "ending",
+      "frames": 480,
+      "duration": 16
+    }
+  ]
+}

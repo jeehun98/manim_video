@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "samples": 100,
+  "checks": [
+    "iz=(-y,x)",
+    "(1+i)z=(x-y,x+y)",
+    "length multiplier sqrt2",
+    "z² exact remainder h²",
+    "commuting complex multiplication with i",
+    "finite-difference CR at 1+i",
+    "equal physical unit scales asserted in every plane",
+    "normalized exact change equals (ch+h²)/|h|",
+    "animated interpolation has exact angle pi*t/4 and scale sqrt2**t"
+  ],
+  "limits": [
+    "Derivative is a limit over all paths",
+    "Cauchy–Riemann converse requires real total differentiability",
+    "Zero derivative has no rotation angle"
+  ]
+}

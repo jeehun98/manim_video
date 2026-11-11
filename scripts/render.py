@@ -280,6 +280,8 @@ EPISODES["softmax01"] = ("episodes/softmax01_collapse/scene.py", "SoftmaxCollaps
 
 EPISODES["mult01"] = ("episodes/mult01_error_parity/scene.py", "MultiplicationErrorParity")
 
+EPISODES["circle01"] = ("episodes/circle01_shared_dynamics/scene.py", "CircleGeometry")
+
 def main():
     p = argparse.ArgumentParser()
     quantum_projects = {
@@ -339,9 +341,39 @@ def main():
         "evdsvd08_shorts": ("evdsvd08_final_choice", "shorts"),
         "evdsvd08_longform": ("evdsvd08_final_choice", "longform"),
     }
-    p.add_argument("episode", choices=[*EPISODES, *projects, *quantum_projects, "science22", "qcs01", "qcs02", "qcs03", "idea01", "idea02", "expression01", "aiwork01", "sgd01", "euler01", "godel01", "basis01", "qtier01"])
+    p.add_argument("episode", choices=[*EPISODES, *projects, *quantum_projects, "science22", "qcs01", "qcs02", "qcs03", "idea01", "idea02", "expression01", "aiwork01", "sgd01", "euler01", "godel01", "basis01", "qtier01", "lagrange01", "legendre01", "complex01", "samemath01", "samemath02", "samemath03"])
     p.add_argument("--preview", action="store_true")
     a = p.parse_args()
+    if a.episode == "samemath03":
+        command = [sys.executable, str(ROOT / "episodes/samemath03_pca/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "samemath02":
+        command = [sys.executable, str(ROOT / "episodes/samemath02_heat_brownian/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "samemath01":
+        command = [sys.executable, str(ROOT / "episodes/samemath01_least_squares/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "complex01":
+        command = [sys.executable, str(ROOT / "episodes/complex01_rotation_derivative/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "legendre01":
+        command = [sys.executable, str(ROOT / "episodes/legendre01_tangent_duality/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "lagrange01":
+        command = [sys.executable, str(ROOT / "episodes/lagrange01_constraint_value/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
     if a.episode == "qtier01":
         command = [sys.executable, str(ROOT / "episodes/qtier01_experiments/build.py")]
         if a.preview: command.append("--preview")
@@ -399,6 +431,11 @@ def main():
         return
     if a.episode == "qcs01":
         command = [sys.executable, str(ROOT / "longforms/qcs01_speed/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "circle01":
+        command = [sys.executable, str(ROOT / "episodes/circle01_shared_dynamics/build.py")]
         if a.preview: command.append("--preview")
         subprocess.run(command, cwd=ROOT, check=True)
         return
