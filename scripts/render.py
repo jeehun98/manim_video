@@ -341,9 +341,19 @@ def main():
         "evdsvd08_shorts": ("evdsvd08_final_choice", "shorts"),
         "evdsvd08_longform": ("evdsvd08_final_choice", "longform"),
     }
-    p.add_argument("episode", choices=[*EPISODES, *projects, *quantum_projects, "science22", "qcs01", "qcs02", "qcs03", "idea01", "idea02", "expression01", "aiwork01", "sgd01", "euler01", "godel01", "basis01", "qtier01", "lagrange01", "legendre01", "complex01", "samemath01", "samemath02", "samemath03"])
+    p.add_argument("episode", choices=[*EPISODES, *projects, *quantum_projects, "science22", "qcs01", "qcs02", "qcs03", "idea01", "idea02", "expression01", "aiwork01", "sgd01", "euler01", "eulerh01", "godel01", "basis01", "qtier01", "lagrange01", "legendre01", "complex01", "samemath01", "samemath02", "samemath03", "cone01"])
     p.add_argument("--preview", action="store_true")
     a = p.parse_args()
+    if a.episode == "cone01":
+        command = [sys.executable, str(ROOT / "episodes/cone01_conic_orbits/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "eulerh01":
+        command = [sys.executable, str(ROOT / "episodes/euler01_homology/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
     if a.episode == "samemath03":
         command = [sys.executable, str(ROOT / "episodes/samemath03_pca/build.py")]
         if a.preview: command.append("--preview")
