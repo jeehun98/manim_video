@@ -1,0 +1,5 @@
+Precise text-only edit to supplied thumbnail. Preserve the entire image exactly, including 16:9 canvas, navy grid, left Korean title and subtitle, date, all diagrams, mathematical formulas, colors, spacing and sizes. Replace ONLY these three Korean labels:
+1. Bottom right caption "하나의 양자역학" becomes exact English "Equivalence of Wave and Matrix Mechanics". Center below the large wave ↔ matrix illustration. Use clean white professional type, fit in right half with comfortable margins; two balanced lines permitted: "Equivalence of Wave" then "and Matrix Mechanics". Keep legible and understated.
+2. Small label "전자 회절" above crystal diffraction icon becomes "Electron Diffraction", suitably smaller to fit its column without colliding with nearby labels.
+3. Small label "상보성" above double-slit icon becomes "Complementarity", sized to fit column.
+All other text including Korean "원자핵" stays unchanged. No new elements. No rearrangement. Preserve mathematical accuracy, flat academic documentary style, no glow or decoration.

@@ -1,0 +1,33 @@
+{
+  "video_checks": [
+    {
+      "layout": "shorts",
+      "duration": 179,
+      "frames": 5370,
+      "fps": 30,
+      "silent": true,
+      "width": 1080,
+      "height": 1920,
+      "last_second_max_mean_pixel_delta": 0.016689814814814814,
+      "native_ending_png": true
+    },
+    {
+      "layout": "longform",
+      "duration": 179,
+      "frames": 5370,
+      "fps": 30,
+      "silent": true,
+      "width": 1920,
+      "height": 1080,
+      "last_second_max_mean_pixel_delta": 0.023796296296296298,
+      "native_ending_png": true
+    }
+  ],
+  "mathematical_checks": [
+    "AB and BA exact numeric products",
+    "complex-valued intermediate-index sum",
+    "finite commutator trace",
+    "illustrative transition frequencies",
+    "38 contiguous narration intervals"
+  ]
+}

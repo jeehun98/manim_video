@@ -1,8 +1,0 @@
-[
-  {
-    "time": 60.4,
-    "kind": "flow",
-    "value": "A[5]",
-    "label": "Thread 5의 Global 주소 읽기 요청 · A[5]"
-  }
-]

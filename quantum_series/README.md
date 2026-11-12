@@ -1,14 +1,6 @@
 # 양자역학 시리즈 작업 방식
 
-## 다음 편부터 적용할 사용량 절감 방식
-
-루트 `AGENTS.md`의 「제작 사용량 절감」 합의를 따른다. 공통 빌더·자막·검수 도구를 우선 재사용하고, 새 도구가 필요하면 다음 편에 필요한 범위부터 공통화한다. 현재 편별 도구가 모두 공통화된 상태는 아니다.
-
-작업 범위의 파일만 읽고, 두 비율의 대표 프레임 검사 → 전체 미리보기 → 변경 씬만 재렌더 → 최종 렌더·검수 순서로 진행한다. 시각 검수는 작은 contact sheet부터 확인하고 필요한 프레임만 확대한다. 렌더와 기계적 검사를 스크립트로 묶어 반복적인 상태 조회를 줄인다. 변경 없는 파일의 통과한 검사는 반복하지 않는다.
-
-편마다 새 채팅을 권장하되, 대본·종료 시각·연출·실행 명령·남은 작업은 파일로 인계한다. 확정 대본과 발화시간, 물리적 정확성, 두 화면비와 최종 파일의 검수 기준은 유지한다.
-
-다른 로컬 환경의 Codex도 이 문서와 루트 `AGENTS.md`를 읽고 기존 방식으로 이어 작업한다. 최신 구현 예시는 `episodes/ep04_bohr/`이며, 실제 파일과 사용자 지시를 우선한다.
+다른 로컬 환경의 Codex도 이 문서와 루트 `AGENTS.md`를 읽고 기존 방식으로 이어 작업한다. 최신 구현 예시는 `episodes/ep13_equivalence/`이며, 실제 파일과 사용자 지시를 우선한다.
 
 ## 제작 원칙
 
@@ -29,7 +21,7 @@
 
 - 편별 소스는 `episodes/<episode>/`, 공통 도형·물리 계산은 `shared/`, 챕터 조립은 `longform/`에 둔다.
 - `script.json`이 확정 대본·문장 시각의 원본이다. `brief.md`, `narration.md`, `tts_script.txt`, 씬별 `spec.md`를 먼저 작성한다. **씬 하나 = 주장 하나 = 독립적으로 렌더·교체 가능한 영상**으로 만든다.
-- EP.03·04의 `direction.py`는 애니메이션, `layouts.py`는 배치, 편별 물리 모듈과 공통 모듈은 계산, `scenes/*/scene.py`는 독립 진입점이다.
+- EP.03의 `direction.py`는 애니메이션, `layouts.py`는 배치, `physics_model.py`와 공통 모듈은 계산, `scenes/*/scene.py`는 독립 진입점이다.
 - `to(target)`과 기존 빌더의 프레임 처리를 재사용한다. Manim의 `--disable_caching`과 씬별 프레임 검사를 유지하며, 시간 초과는 해당 구간의 연출을 줄여 해결한다.
 - 그래프·경로는 가능한 한 실제 식으로 계산한다. 실측과 이론값, 개념도와 실제 축척, 당시 가설과 현대 해석을 구분한다. 물리 조건·출처·생략한 가정은 편별 README에 기록한다.
 - 두 비율의 미리보기에서 주요 장면·자막·마지막 프레임을 확인한 뒤 최종 렌더한다. 길이·해상도·30fps·정확한 프레임 수·전체 디코딩을 검사하고 실제 수행한 검수만 기록한다.
@@ -41,14 +33,16 @@
 저장소 루트에서 아래 명령을 실행한다. `python`은 Manim을 설치한 Python이어야 한다.
 
 ```powershell
-python scripts/render.py quantum04 --preview
-python scripts/render.py quantum04
-python scripts/render.py quantum04_shorts
-python scripts/render.py quantum04_longform
+python scripts/render.py quantum03 --preview
+python scripts/render.py quantum03
+python scripts/render.py quantum03_shorts
+python scripts/render.py quantum03_longform
 ```
 
-`quantum01`, `quantum02`, `quantum03`도 같은 형식이다. 한 씬만 수정할 때는 해당 편 `build.py`의 `--scene`을 사용한다. 나머지 중간 영상이 없으면 먼저 전체를 렌더한다. 기본 종료 모드는 쇼츠 `standalone`, 가로 `join`이며 대본과 길이는 둘 다 유지한다.
+`quantum01`, `quantum02`, `quantum03`, `quantum04`, `quantum05`, `quantum06`, `quantum07`, `quantum08`, `quantum09`, `quantum10`, `quantum11`, `quantum12`도 같은 형식이다. 한 씬만 수정할 때는 해당 편 `build.py`의 `--scene`을 사용한다. 나머지 중간 영상이 없으면 먼저 전체를 렌더한다. 기본 종료 모드는 쇼츠 `standalone`, 가로 `join`이며 대본과 길이는 둘 다 유지한다.
 
-완성본은 `exports/quantumNN_shorts.mp4`, `exports/quantumNN_longform.mp4`, 미리보기는 `_preview.mp4`다. EP.03과 EP.04는 각 `_ending.png`도 저장한다. `media/`, `exports/`, `.venv/`는 Git 제외 대상이므로 다른 환경에 없을 수 있다. 미커밋·미추적 소스까지 전달했는지 확인하고 가상환경은 새로 만든다.
+완성본은 `exports/quantumNN_shorts.mp4`, `exports/quantumNN_longform.mp4`, 미리보기는 `_preview.mp4`다. EP.03은 각 `_ending.png`도 저장한다. `media/`, `exports/`, `.venv/`는 Git 제외 대상이므로 다른 환경에 없을 수 있다. 미커밋·미추적 소스까지 전달했는지 확인하고 가상환경은 새로 만든다.
 
-현재 EP.01은 86초, EP.02는 101초, EP.03은 105초, EP.04는 113초까지 완성했다. EP.04는 새 로컬의 Python 3.12.14 / Manim 0.21.0 / Malgun Gothic으로 두 비율을 렌더했다. 새 편의 렌더 ID는 `scripts/render.py`에 등록하고, 실제 완성된 가로판만 `longform/chapters.json`에 추가한다. 조립은 `python quantum_series/longform/assemble.py`로 실행한다. 세부 물리 조건과 실행 옵션은 각 편의 README를 참고한다.
+현재 EP.01은 86초, EP.02는 101초, EP.03은 105초까지 완성했다. EP.05는 122초, EP.06은 161초, EP.07은 179초, EP.08은 176초, EP.09는 178초, EP.10은 171초, EP.11은 177초, EP.12는 178초, EP.13은 롱폼 전용 221초까지 완성했으며 EP.04(보어)는 113초로 완성했다. 새 편의 렌더 ID는 `scripts/render.py`에 등록하고, 실제 완성된 가로판만 `longform/chapters.json`에 추가한다. 조립은 `python quantum_series/longform/assemble.py`로 실행한다. 세부 물리 조건과 실행 옵션은 각 편의 README를 참고한다.
+
+EP.13 최종화는 가로 전용이다: `python scripts/render.py quantum13 --preview` / `python scripts/render.py quantum13`. 세로판 ID는 등록하지 않는다.

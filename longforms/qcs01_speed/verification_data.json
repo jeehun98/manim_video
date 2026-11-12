@@ -1,0 +1,42 @@
+{
+  "mathematics": [
+    {
+      "N": 4,
+      "iterations": 1,
+      "unitary": true,
+      "all_snapshots_normalized": true,
+      "target_probability": 1.0
+    },
+    {
+      "N": 64,
+      "iterations": 6,
+      "unitary": true,
+      "all_snapshots_normalized": true,
+      "target_probability": 0.996585680786799
+    }
+  ],
+  "oracle_phase": {
+    "samples": 121,
+    "normalized": true,
+    "probabilities_constant": true
+  },
+  "reflection": {
+    "mean": 0.25,
+    "result": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "equal_opposite_distances": true,
+    "animated_points": "geometric construction, not intermediate computational states"
+  },
+  "timing": {
+    "sentences": 34,
+    "scenes": 20,
+    "duration": 175,
+    "frames": 10500,
+    "continuous": true,
+    "srt_matches": true
+  }
+}

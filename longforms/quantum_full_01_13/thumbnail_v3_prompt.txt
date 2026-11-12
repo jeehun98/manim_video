@@ -1,0 +1,17 @@
+Edit this thumbnail. Preserve the left half EXACTLY: Korean title '양자역학의 발견', subtitle '양자역학은 어떻게 탄생했을까?', eyebrow QUANTUM MECHANICS, date 1900 — 1927, sizes, positions, white/cyan contrast. Preserve 16:9 composition, deep navy fine grid background and restrained academic documentary style.
+Change ONLY the right-side illustration area. Remove the large interference-dot screen and its E=hν headline to make room for an ordered visual index of ALL 13 episodes. Use a clean airy arrangement of tiny, precise cyan/white/gold flat scientific diagrams in FOUR horizontal rows: four icons in row 1, four icons in row 2, four icons in row 3, then one concluding icon centered in row 4. Reading order MUST be left-to-right, then top-to-bottom. Place unobtrusive small episode numbers 01 through 13 above each icon, no other labels, no boxes, no connecting arrows between icons. Right artwork bounded approximately x=52–94%, y=22–81%; generous margins and visible gaps between rows and columns, never crowd the title. Each icon must be minimalist, about 70–100 pixels wide, few strokes, no detailed tiny text.
+Exact ordered content:
+01 blackbody radiation: a heated short gold bar beside one smooth peaked cyan spectrum curve.
+02 photoelectric effect: a light arrow striking a metal plate, a single small electron dot escaping.
+03 Rutherford scattering: one tiny gold nucleus with an incident straight ray and a strongly deflected ray; NO orbital rings.
+04 Bohr energy quantization: three horizontal energy levels and one short vertical transition arrow; NO atom orbit icon.
+05 Franck–Hertz: a small current-versus-voltage curve with three successive dips.
+06 de Broglie matter wave: a localized oscillating wave packet, mathematical graph, not a particle path.
+07 matrix mechanics: small clean bracketed 3-by-3 symbolic matrix, use simple dots or a few x entries.
+08 Schrödinger wave mechanics: three distinct standing-wave shapes between fixed endpoints.
+09 Born probability: smooth bell-shaped probability density with a few localized detected dots beneath it.
+10 Davisson–Germer diffraction: a small regular crystal-dot lattice with one incident and two diffracted rays.
+11 uncertainty: paired narrow and broad bell-shaped distributions, one cyan and one gold.
+12 complementarity: two narrow slit marks and a tiny banded interference screen, distinct diagrams not a literal classical trajectory.
+13 equivalence: a small wavefunction on the left and a coefficient column vector on the right separated by a simple equals sign, summarizing two representations of the same state.
+Do not add portraits, orbiting atom models, glow, 3D, dramatic lighting, decorative particles, large equations, additional slogans, or random scientific symbols. The diagram index must remain secondary to the main title. Quiet flat vector-like precise scientific illustration. Keep open navy space visible around and between every diagram. Korean text on left unchanged and perfectly spelled.

@@ -1,0 +1,20 @@
+{
+  "videos": [
+    {
+      "layout": "longform",
+      "duration": 221,
+      "frames": 6630,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "full_decode": "pass",
+      "audio": "not supplied; silent",
+      "last_second_frames": 30,
+      "last_second_max_mean_pixel_delta": 0.0007407407407407407
+    }
+  ],
+  "physics_report": "physics_report.json",
+  "visual_review": "Longform: basis expansion, operator matrix, expectation, unitary basis change, historical summaries and ending."
+}

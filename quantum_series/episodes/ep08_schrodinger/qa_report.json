@@ -1,0 +1,36 @@
+{
+  "video_checks": [
+    {
+      "layout": "shorts",
+      "duration": 176,
+      "frames": 5280,
+      "fps": 30,
+      "silent": true,
+      "width": 1080,
+      "height": 1920,
+      "last_second_max_mean_pixel_delta": 0.032824074074074075,
+      "native_ending_png": true
+    },
+    {
+      "layout": "longform",
+      "duration": 176,
+      "frames": 5280,
+      "fps": 30,
+      "silent": true,
+      "width": 1920,
+      "height": 1080,
+      "last_second_max_mean_pixel_delta": 0.017060185185185185,
+      "native_ending_png": true
+    }
+  ],
+  "physics_checks": [
+    "fixed-end integer string modes",
+    "noninteger end mismatch",
+    "radial hydrogen eigenvalues within 0.002 eV",
+    "radial eigenvector normalization",
+    "2s/2p degeneracy",
+    "analytic 1s origin and 2s node",
+    "stationary global phase modulus",
+    "35 contiguous narration intervals"
+  ]
+}

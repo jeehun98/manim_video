@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "representative_preview_scenes": [
+    "02",
+    "05",
+    "06",
+    "07",
+    "08"
+  ],
+  "final_review_scenes": [
+    "01",
+    "03",
+    "07",
+    "08",
+    "09",
+    "10"
+  ],
+  "corrected": "Scene 07 proof-number p removed before contradiction card appears",
+  "verified": "Formula legibility, proof/sentence distinction, G versus Rosser conclusion, subtitle clearance, final conditions",
+  "source_hash_check": "All 10 final scene hashes match current inputs",
+  "audio": "Not supplied; silent"
+}

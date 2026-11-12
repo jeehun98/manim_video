@@ -1,0 +1,60 @@
+{
+  "revision": "v1_127s",
+  "status": "passed",
+  "preview": {
+    "scenes": [
+      "02",
+      "06"
+    ],
+    "layouts": [
+      "shorts",
+      "longform"
+    ],
+    "checks": [
+      "identical utterance before and after context",
+      "book gesture and destination",
+      "one shared place versus multiple candidates",
+      "native portrait stacked candidates and landscape horizontal candidates"
+    ],
+    "evidence": [
+      "media/expression01_v1_127s/qa/preview_shorts.png",
+      "media/expression01_v1_127s/qa/updated_long06.png"
+    ]
+  },
+  "final": {
+    "layouts": [
+      "shorts",
+      "longform"
+    ],
+    "scenes": [
+      "01",
+      "03",
+      "04",
+      "05",
+      "07",
+      "08",
+      "09",
+      "10"
+    ],
+    "checks": [
+      "sentence and context are separate inputs to interpretation",
+      "context arrows do not cover labels",
+      "word roles distinguished from specific referents",
+      "compression marked as analogy and shared information remains",
+      "opaque sentence panel keeps background network readable",
+      "different experience networks pose a question without claiming different meanings are inevitable",
+      "no frame exits or subtitle band overlap at animation boundaries"
+    ],
+    "evidence": [
+      "media/expression01_v1_127s/qa/final_intro_shorts.png",
+      "media/expression01_v1_127s/qa/final_intro_longform.png",
+      "media/expression01_v1_127s/qa/final_context_shorts.png",
+      "media/expression01_v1_127s/qa/final_context_longform.png",
+      "media/expression01_v1_127s/qa/final_meaning_shorts.png",
+      "media/expression01_v1_127s/qa/final_meaning_longform.png",
+      "media/expression01_v1_127s/qa/final_ending_shorts.png",
+      "media/expression01_v1_127s/qa/final_ending_longform.png"
+    ]
+  },
+  "automatic_verification": "render_report_short.json and render_report_long.json:127s,7620frames,60fps,30 sentence boundaries within one frame,source hashes and full decode passed"
+}

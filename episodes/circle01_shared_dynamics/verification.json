@@ -1,0 +1,21 @@
+{
+  "model": "x=A cos(ωt), v=−Aω sin(ωt); q=Q cos(ωt), I=−Qω sin(ωt)",
+  "max_squared_radius_error": 2.6645352591003757e-15,
+  "samples": 1001,
+  "coordinates": "(x,−v/ω); (q,−I/ω)",
+  "normalized_rule": "dX/dτ=−Y, dY/dτ=X",
+  "derivative_of_squared_radius": "−2XY+2XY=0",
+  "duration": 149,
+  "sentences": 34,
+  "source_fingerprint": "992ba121ce0eccfaaa358e80cc82b0dae091a23ad4c57f33371c035a7ba13610",
+  "all_scene_caches_match_current_sources": true,
+  "visual_review": [
+    "phase scaling and synchronization",
+    "LC circuit and signed current",
+    "squared component bar",
+    "circle merge",
+    "invariant cancellation",
+    "final frame"
+  ],
+  "captions": "persistent glyph replacement; overlap corrected and visually checked"
+}

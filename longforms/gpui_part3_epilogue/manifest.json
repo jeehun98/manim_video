@@ -1,0 +1,132 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_basic",
+    "class": "Scene01",
+    "start": 0,
+    "end": 9,
+    "duration_seconds": 9,
+    "title": "하나의 명령어를 실행하는 기본 구조",
+    "method": "basic"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_memory",
+    "class": "Scene02",
+    "start": 9,
+    "end": 22,
+    "duration_seconds": 13,
+    "title": "메모리에서 가져와 계산하고 다시 저장한다",
+    "method": "memory"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_sequence",
+    "class": "Scene03",
+    "start": 22,
+    "end": 41,
+    "duration_seconds": 19,
+    "title": "실행 순서를 기억하고 제어한다",
+    "method": "sequence"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_simultaneous",
+    "class": "Scene04",
+    "start": 41,
+    "end": 54,
+    "duration_seconds": 13,
+    "title": "서로 다른 회로를 같은 시간에 사용한다",
+    "method": "simultaneous"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_pipeline",
+    "class": "Scene05",
+    "start": 54,
+    "end": 67,
+    "duration_seconds": 13,
+    "title": "단계마다 정보를 따로 보관한다",
+    "method": "pipeline"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_dependency",
+    "class": "Scene06",
+    "start": 67,
+    "end": 76,
+    "duration_seconds": 9,
+    "title": "필요한 값이 아직 준비되지 않았다면?",
+    "method": "dependency"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_stall",
+    "class": "Scene07",
+    "start": 76,
+    "end": 82,
+    "duration_seconds": 6,
+    "title": "앞선 명령어는 진행하고 다음 명령어는 기다린다",
+    "method": "stall"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_forward",
+    "class": "Scene08",
+    "start": 82,
+    "end": 94,
+    "duration_seconds": 12,
+    "title": "이미 만들어진 결과는 직접 전달한다",
+    "method": "forward"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_single",
+    "class": "Scene09",
+    "start": 94,
+    "end": 104,
+    "duration_seconds": 10,
+    "title": "독립적인 계산도 ALU 하나를 번갈아 쓴다",
+    "method": "single"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_multiple",
+    "class": "Scene10",
+    "start": 104,
+    "end": 114,
+    "duration_seconds": 10,
+    "title": "두 번째 ALU와 데이터 경로를 추가한다",
+    "method": "multiple"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_cumulative",
+    "class": "Scene11",
+    "start": 114,
+    "end": 123,
+    "duration_seconds": 9,
+    "title": "하나의 프로세서에 누적된 다섯 번의 확장",
+    "method": "cumulative"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_limits",
+    "class": "Scene12",
+    "start": 123,
+    "end": 136,
+    "duration_seconds": 13,
+    "title": "계산 회로의 수만으로 성능이 정해질까?",
+    "method": "limits"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_ending",
+    "class": "Scene13",
+    "start": 136,
+    "end": 141,
+    "duration_seconds": 5,
+    "title": "의존성과 데이터 공급이 만드는 다음 질문",
+    "method": "ending"
+  }
+]

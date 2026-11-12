@@ -19,3 +19,11 @@ longforms/**/longform_final.mp4
 .mypy_cache/
 .ruff_cache/
 *.log
+
+# Rebuilt scene videos and layout-specific subtitle outputs
+longforms/**/*.mp4
+episodes/**/*.mp4
+quantum_series/**/*.mp4
+captions*.ass
+**/qa/**/*.png
+**/qa/**/*.jpg

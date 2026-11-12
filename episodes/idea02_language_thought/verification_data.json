@@ -1,0 +1,15 @@
+{
+  "derivative_examples": "symbolic identities passed",
+  "tangent": "f(x)=x^2, slope=2x, endpoints at x±0.5 and y±x",
+  "addition_example": 633,
+  "equation_solution": 4,
+  "illustrations": "word problems, vectors and candidates are conceptual; no invented empirical accuracy",
+  "sources_previously_verified": [
+    "https://arxiv.org/abs/2410.05229",
+    "https://aclanthology.org/2025.emnlp-main.411/"
+  ],
+  "sentences": 27,
+  "duration": 160,
+  "frames": 9600,
+  "timing_continuity": "passed"
+}

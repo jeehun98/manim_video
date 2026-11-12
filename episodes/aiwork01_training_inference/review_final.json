@@ -1,0 +1,85 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\aiwork01.mp4",
+  "duration": 161,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 4830,
+  "audio": "not supplied; silent",
+  "sentences": 30,
+  "shots": [
+    {
+      "scene": 1,
+      "frames": 270,
+      "sha256": "7c37b3a8bff7218f90b7bfb8b5866437ac43605869ca2a55efe46f0bb66666a1"
+    },
+    {
+      "scene": 2,
+      "frames": 690,
+      "sha256": "fad38d95b389bb9cb45a64f77e0d7c24a9714741525e2f89104232c966267914"
+    },
+    {
+      "scene": 3,
+      "frames": 690,
+      "sha256": "3693c4bb26c3159e2215d376b61957eceb2476f95255dd5c97b62ec3692992e7"
+    },
+    {
+      "scene": 4,
+      "frames": 330,
+      "sha256": "364621657c012a762479c23d60f3163d9cc3046625ff29eef68f2de6ef6e4d8b"
+    },
+    {
+      "scene": 5,
+      "frames": 270,
+      "sha256": "c5b0eb7bd5ed360de378c9078b02b821d3ac4985b244dfb753a00771bc40d47e"
+    },
+    {
+      "scene": 6,
+      "frames": 390,
+      "sha256": "a5a40551a75b6d677f0093aed8d261ad56f993568c7f642b33331b0efb4b1b52"
+    },
+    {
+      "scene": 7,
+      "frames": 480,
+      "sha256": "3df4999429b44446411b410a30ff323d9063d10d2af8907bdfd9544ac1ba5272"
+    },
+    {
+      "scene": 8,
+      "frames": 420,
+      "sha256": "5c9e27f6ecb8af6f47d87654adb74b2ab133389fe5d293f9f0e8eb3e29aca701"
+    },
+    {
+      "scene": 9,
+      "frames": 150,
+      "sha256": "e45b8f195e95953d498b8f191f4346aa9dbad009f28974df6d19ed9ea10288a5"
+    },
+    {
+      "scene": 10,
+      "frames": 450,
+      "sha256": "531e2f0eb6541a8a6476445c3119428fdde57d7a14be483430ec0f55337c5357"
+    },
+    {
+      "scene": 11,
+      "frames": 690,
+      "sha256": "1587fd65a69bb4326bc210a07d78a6b4b1a28309597b4c0ef8aac4cc856e000a"
+    }
+  ],
+  "checks": "clip frames, caption boundaries, continuous timing, resolution, FPS, complete video decode",
+  "source_hashes_verified": true,
+  "visual_review_seconds": [
+    7.8,
+    29.2,
+    52,
+    64,
+    86.8,
+    95.2,
+    102.8,
+    116.5,
+    122,
+    131,
+    137,
+    159
+  ],
+  "layout_checks": "all 11 shots: frame bounds, content/header separation, caption safe zone; all 30 captions fit",
+  "visual_review": "passed; HBM and conclusion revised and rechecked"
+}

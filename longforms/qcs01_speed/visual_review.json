@@ -1,0 +1,87 @@
+{
+  "revision": "v2_175s",
+  "preview": {
+    "longform_reviewed_shots": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "shorts_focus": [
+      10,
+      13,
+      14,
+      15,
+      16,
+      17,
+      20
+    ],
+    "checks": [
+      "new narration matches visuals",
+      "signed amplitudes and independent probabilities",
+      "mean 0.25 and equal-distance reflection",
+      "complex phase and constant probabilities",
+      "oracle rule and finite optimal repetitions",
+      "caption safe band",
+      "new conclusion without next question"
+    ],
+    "evidence": [
+      "media/qcs01_v2_175s/longform/standalone/preview/qa/core.png",
+      "media/qcs01_v2_175s/longform/standalone/preview/qa/early.png",
+      "media/qcs01_v2_175s/longform/standalone/preview/qa/ending.png",
+      "media/qcs01_v2_175s/shorts/standalone/preview/qa/core.png"
+    ]
+  },
+  "final": {
+    "status": "passed",
+    "longform_resolution": [
+      1920,
+      1080
+    ],
+    "shorts_resolution": [
+      1080,
+      1920
+    ],
+    "longform_seconds": [
+      98,
+      105.2,
+      117.9,
+      173.7
+    ],
+    "shorts_seconds": [
+      57,
+      105.2,
+      156,
+      174.97
+    ],
+    "checks": [
+      "oracle probabilities remain 25%",
+      "mean reflection is explicitly a geometric construction",
+      "post-diffusion explanation switches with the state",
+      "caption and body separation",
+      "native wave comparison layout",
+      "new conclusion and full final narration"
+    ],
+    "evidence": [
+      "media/qcs01_v2_175s/qa/final_long_qa.png",
+      "media/qcs01_v2_175s/qa/final_short_qa.png"
+    ],
+    "scene16_note_correction": "rerendered only scene 16 in both layouts, then reassembled and fully decoded"
+  }
+}

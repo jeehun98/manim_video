@@ -1,0 +1,14 @@
+{
+  "narration": "35 exact sentences and supplied ends",
+  "continuity": "0–157s; 12 scenes",
+  "contact_and_intercept": "Y=2aX−a²; p=2a; b=−a²; passed",
+  "Fenchel_Young_identity": "x²+p²/4−px=(x−p/2)² ≥0",
+  "conjugate": "sup_x(px−x²)=p²/4 at x=p/2",
+  "biconjugate": "sup_p(xp−p²/4)=x² at p=2x",
+  "forward_inverse_mapping": "passed for 81 sampled contacts",
+  "tangent_clipping": "correct equation and both endpoint bounds; passed",
+  "full_graph_axis_equal_units": "passed",
+  "condition": "example smooth strictly convex; general f**=f for proper closed convex functions",
+  "thermodynamic_sign": "F=U−TS is minus the S-conjugate of U at fixed V",
+  "source": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf, section 3.3"
+}

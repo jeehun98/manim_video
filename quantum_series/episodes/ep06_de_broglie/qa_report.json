@@ -1,0 +1,33 @@
+{
+  "video_checks": [
+    {
+      "layout": "shorts",
+      "duration": 161,
+      "frames": 4830,
+      "fps": 30,
+      "silent": true,
+      "width": 1080,
+      "height": 1920,
+      "last_second_max_mean_pixel_delta": 0.07023148148148148,
+      "native_ending_png": true
+    },
+    {
+      "layout": "longform",
+      "duration": 161,
+      "frames": 4830,
+      "fps": 30,
+      "silent": true,
+      "width": 1920,
+      "height": 1080,
+      "last_second_max_mean_pixel_delta": 0.06717592592592593,
+      "native_ending_png": true
+    }
+  ],
+  "physics_checks": [
+    "inverse wavelength",
+    "complex phase matching",
+    "equal-real-value counterexample",
+    "ring seam",
+    "angular momentum condition"
+  ]
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_hook",
+    "class": "Scene01",
+    "start": 0,
+    "end": 15,
+    "duration_seconds": 15,
+    "title": "계산할 숫자는 어디에 있을까?",
+    "method": "hook"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_capacity",
+    "class": "Scene02",
+    "start": 15,
+    "end": 30,
+    "duration_seconds": 15,
+    "title": "모든 데이터를 레지스터에 담을 수 없다",
+    "method": "capacity"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_locations",
+    "class": "Scene03",
+    "start": 30,
+    "end": 43,
+    "duration_seconds": 13,
+    "title": "필요한 값의 위치를 고르려면?",
+    "method": "locations"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_address",
+    "class": "Scene04",
+    "start": 43,
+    "end": 57,
+    "duration_seconds": 14,
+    "title": "주소로 고르는 데이터 메모리",
+    "method": "address"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_connection",
+    "class": "Scene05",
+    "start": 57,
+    "end": 71,
+    "duration_seconds": 14,
+    "title": "읽어 온 값을 계산에 사용하려면?",
+    "method": "connection"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_candidates",
+    "class": "Scene06",
+    "start": 71,
+    "end": 80,
+    "duration_seconds": 9,
+    "title": "레지스터로 돌아오는 두 결과",
+    "method": "candidates"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_writeback",
+    "class": "Scene07",
+    "start": 80,
+    "end": 93,
+    "duration_seconds": 13,
+    "title": "쓰기 입력에 MUX를 추가한다",
+    "method": "writeback"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_controls",
+    "class": "Scene08",
+    "start": 93,
+    "end": 109,
+    "duration_seconds": 16,
+    "title": "새 데이터 이동도 명령어로 지정한다",
+    "method": "controls"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_load",
+    "class": "Scene09",
+    "start": 109,
+    "end": 116,
+    "duration_seconds": 7,
+    "title": "Load : Memory → Register",
+    "method": "load"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_store",
+    "class": "Scene10",
+    "start": 116,
+    "end": 132,
+    "duration_seconds": 16,
+    "title": "Store : Register → Memory",
+    "method": "store"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_program",
+    "class": "Scene11",
+    "start": 132,
+    "end": 143,
+    "duration_seconds": 11,
+    "title": "읽기 → 더하기 → 다시 저장",
+    "method": "program"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_expanded",
+    "class": "Scene12",
+    "start": 143,
+    "end": 153,
+    "duration_seconds": 10,
+    "title": "계산할 수 있는 데이터의 범위가 넓어진다",
+    "method": "expanded"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_latency",
+    "class": "Scene13",
+    "start": 153,
+    "end": 168,
+    "duration_seconds": 15,
+    "title": "데이터를 기다리는 동안 무엇을 기억할까?",
+    "method": "latency"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_state",
+    "class": "Scene14",
+    "start": 168,
+    "end": 174,
+    "duration_seconds": 6,
+    "title": "명령 실행 중 유지해야 할 정보",
+    "method": "state"
+  }
+]

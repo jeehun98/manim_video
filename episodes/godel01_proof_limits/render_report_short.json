@@ -1,0 +1,69 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\godel01_short.mp4",
+  "revision": "v1_175s",
+  "duration": 175,
+  "frames": 10500,
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "versioned_output": null,
+  "audio": "not supplied; silent",
+  "subtitles": "41 full narration sentences burned in; exact supplied boundaries",
+  "subtitle_audit": "all 41 sentences within one frame; safe band assertions passed",
+  "ending": "standalone",
+  "shots": [
+    {
+      "scene": "01",
+      "frames": 960,
+      "source_sha256": "b696921fa1cc5c3ca5b012c2fb81f9950cb576791e680bdc6bbde5e5499e02a3"
+    },
+    {
+      "scene": "02",
+      "frames": 1020,
+      "source_sha256": "a152b35ca8dff8cfbe193d27121f27c4b0d6f3f63167a6826ebd97b86b590f96"
+    },
+    {
+      "scene": "03",
+      "frames": 1080,
+      "source_sha256": "6eada7208bb773bb06a7b452258d1c7f41949408521b625a5deb8942322493f9"
+    },
+    {
+      "scene": "04",
+      "frames": 960,
+      "source_sha256": "a18b904345928a0ae5d30ccf0113e72f37cc0d49125fbf29c21656951774359e"
+    },
+    {
+      "scene": "05",
+      "frames": 1140,
+      "source_sha256": "87553f28b5f96077e3af683484466a9beba0fc8cf98834bfd63b3cf707333875"
+    },
+    {
+      "scene": "06",
+      "frames": 780,
+      "source_sha256": "bde6d387063c84fe529963bb5f80fd447b4d26f7a1cb9103f02962a536abf1d9"
+    },
+    {
+      "scene": "07",
+      "frames": 1140,
+      "source_sha256": "9db304c26abb9176e5d97f864dcccc8be14170e40240a17c77a25f9b76b614d5"
+    },
+    {
+      "scene": "08",
+      "frames": 1140,
+      "source_sha256": "143c9082297af37d34d082d0d32085139bb10d12466a4ea56f13a9459ba91b05"
+    },
+    {
+      "scene": "09",
+      "frames": 1080,
+      "source_sha256": "f31d157e8ba903072b1c1f6b2a4d6e7b2262f9f15cba9832ca49e6f9d0c244b6"
+    },
+    {
+      "scene": "10",
+      "frames": 1200,
+      "source_sha256": "61c8419244b555598cf64e9695188008b77340f513d66a1b48740280dbf6e6da"
+    }
+  ],
+  "full_decode": "passed",
+  "geometry": "Every rendered animation frame asserted within frame and outside subtitle band",
+  "timing": "41 supplied end times and source narration preserved exactly; continuous 0–175s"
+}

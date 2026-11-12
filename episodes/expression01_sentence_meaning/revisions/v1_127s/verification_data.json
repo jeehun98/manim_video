@@ -1,0 +1,12 @@
+{
+  "sentences": 30,
+  "duration": 127,
+  "frames": 7620,
+  "timing_continuity": "passed",
+  "utterance_invariance": "shared utterance() constructor reused without replacing its words during book movement",
+  "shared_place_comparison": "same place_sentence() and one/multiple shared records",
+  "interpretation": "sentence and external context remain separate inputs",
+  "compression": "analogy only; shared information persists and exact recovery is not claimed",
+  "native_layouts": "independent x/y positions, widths, candidate stacking for portrait versus landscape; not a cropped or stretched video",
+  "audio": "not supplied; silent"
+}

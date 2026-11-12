@@ -280,9 +280,29 @@ EPISODES["softmax01"] = ("episodes/softmax01_collapse/scene.py", "SoftmaxCollaps
 
 EPISODES["mult01"] = ("episodes/mult01_error_parity/scene.py", "MultiplicationErrorParity")
 
+EPISODES["circle01"] = ("episodes/circle01_shared_dynamics/scene.py", "CircleGeometry")
+
 def main():
     p = argparse.ArgumentParser()
     quantum_projects = {
+        "quantum09": ("ep09_born", "both"), "quantum09_shorts": ("ep09_born", "shorts"),
+        "quantum09_longform": ("ep09_born", "longform"),
+        "quantum10": ("ep10_davisson_germer", "both"), "quantum10_shorts": ("ep10_davisson_germer", "shorts"),
+        "quantum10_longform": ("ep10_davisson_germer", "longform"),
+        "quantum11": ("ep11_uncertainty", "both"), "quantum11_shorts": ("ep11_uncertainty", "shorts"),
+        "quantum11_longform": ("ep11_uncertainty", "longform"),
+        "quantum12": ("ep12_complementarity", "both"), "quantum12_shorts": ("ep12_complementarity", "shorts"),
+        "quantum12_longform": ("ep12_complementarity", "longform"),
+        "quantum13": ("ep13_equivalence", "longform"),
+        "quantum13_longform": ("ep13_equivalence", "longform"),
+        "quantum08": ("ep08_schrodinger", "both"), "quantum08_shorts": ("ep08_schrodinger", "shorts"),
+        "quantum08_longform": ("ep08_schrodinger", "longform"),
+        "quantum07": ("ep07_heisenberg", "both"), "quantum07_shorts": ("ep07_heisenberg", "shorts"),
+        "quantum07_longform": ("ep07_heisenberg", "longform"),
+        "quantum06": ("ep06_de_broglie", "both"), "quantum06_shorts": ("ep06_de_broglie", "shorts"),
+        "quantum06_longform": ("ep06_de_broglie", "longform"),
+        "quantum05": ("ep05_franck_hertz", "both"), "quantum05_shorts": ("ep05_franck_hertz", "shorts"),
+        "quantum05_longform": ("ep05_franck_hertz", "longform"),
         "quantum01": ("ep01_planck", "both"), "quantum01_shorts": ("ep01_planck", "shorts"),
         "quantum01_longform": ("ep01_planck", "longform"),
         "quantum02": ("ep02_photoelectric", "both"), "quantum02_shorts": ("ep02_photoelectric", "shorts"),
@@ -325,9 +345,119 @@ def main():
         "evdsvd08_shorts": ("evdsvd08_final_choice", "shorts"),
         "evdsvd08_longform": ("evdsvd08_final_choice", "longform"),
     }
-    p.add_argument("episode", choices=[*EPISODES, *projects, *quantum_projects])
+    p.add_argument("episode", choices=[*EPISODES, *projects, *quantum_projects, "science22", "qcs01", "qcs02", "qcs03", "idea01", "idea02", "expression01", "aiwork01", "sgd01", "euler01", "eulerh01", "godel01", "basis01", "qtier01", "lagrange01", "legendre01", "complex01", "samemath01", "samemath02", "samemath03", "cone01"])
     p.add_argument("--preview", action="store_true")
     a = p.parse_args()
+    if a.episode == "cone01":
+        command = [sys.executable, str(ROOT / "episodes/cone01_conic_orbits/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "eulerh01":
+        command = [sys.executable, str(ROOT / "episodes/euler01_homology/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "samemath03":
+        command = [sys.executable, str(ROOT / "episodes/samemath03_pca/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "samemath02":
+        command = [sys.executable, str(ROOT / "episodes/samemath02_heat_brownian/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "samemath01":
+        command = [sys.executable, str(ROOT / "episodes/samemath01_least_squares/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "complex01":
+        command = [sys.executable, str(ROOT / "episodes/complex01_rotation_derivative/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "legendre01":
+        command = [sys.executable, str(ROOT / "episodes/legendre01_tangent_duality/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "lagrange01":
+        command = [sys.executable, str(ROOT / "episodes/lagrange01_constraint_value/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "qtier01":
+        command = [sys.executable, str(ROOT / "episodes/qtier01_experiments/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "basis01":
+        command = [sys.executable, str(ROOT / "episodes/basis01_fourier_heat/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "godel01":
+        command = [sys.executable, str(ROOT / "episodes/godel01_proof_limits/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "euler01":
+        command = [sys.executable, str(ROOT / "episodes/euler01_rotation_waves/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "sgd01":
+        command = [sys.executable, str(ROOT / "episodes/sgd01_sampling_noise/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "aiwork01":
+        command = [sys.executable, str(ROOT / "episodes/aiwork01_training_inference/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "expression01":
+        command = [sys.executable, str(ROOT / "episodes/expression01_sentence_meaning/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "idea02":
+        command = [sys.executable, str(ROOT / "episodes/idea02_language_thought/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "idea01":
+        command = [sys.executable, str(ROOT / "episodes/idea01_common_structure/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "qcs03":
+        command = [sys.executable, str(ROOT / "longforms/qcs03_random/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "qcs02":
+        command = [sys.executable, str(ROOT / "longforms/qcs02_structure/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "qcs01":
+        command = [sys.executable, str(ROOT / "longforms/qcs01_speed/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "circle01":
+        command = [sys.executable, str(ROOT / "episodes/circle01_shared_dynamics/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "science22":
+        command = [sys.executable, str(ROOT / "episodes/science22_compton/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
     if a.episode in quantum_projects:
         quantum_project, quantum_layout = quantum_projects[a.episode]
         command = [sys.executable, str(ROOT / "quantum_series" / "episodes" / quantum_project / "build.py"),

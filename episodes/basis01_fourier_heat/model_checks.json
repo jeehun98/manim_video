@@ -1,0 +1,32 @@
+{
+  "heat_equation_finite_difference_max_residual": 1.208921851514333e-08,
+  "fixed_endpoint_boundary": "passed",
+  "nonnegative_temperature_excess": "passed",
+  "decreasing_energy": [
+    1.6689710972195777,
+    1.3416769667036677,
+    1.1067418685804193,
+    0.7666689941717666,
+    0.25967727875134683
+  ],
+  "modal_remaining_fractions_at_t2": [
+    0.697676326071031,
+    0.23692775868212176,
+    0.039163895098987066
+  ],
+  "source_text_and_all_34_end_times": "exact match",
+  "scene_and_caption_continuity": "0–175s; passed",
+  "model": {
+    "L": "pi",
+    "alpha": 0.18,
+    "coefficients": [
+      1.0,
+      0.15,
+      -0.2
+    ]
+  },
+  "sources": [
+    "https://math.mit.edu/~gs/cse/websections/cse41.pdf",
+    "https://bmild.github.io/fourfeat/"
+  ]
+}

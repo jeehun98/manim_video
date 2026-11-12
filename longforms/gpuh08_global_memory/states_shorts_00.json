@@ -1,8 +1,0 @@
-[
-  {
-    "time": 12.4,
-    "kind": "flow",
-    "value": "주소",
-    "label": "Global Memory · GPU 전체에서 접근하는 주소 공간"
-  }
-]

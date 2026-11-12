@@ -1,0 +1,11 @@
+# GPU 개론14 · 데이터 의존성 제어
+
+33문장·147초·12씬. 가로/세로1080p30·자막포함·무음.
+
+`python longforms/gpui14_hazards/build.py --preview`
+
+`python longforms/gpui14_hazards/build.py`
+
+`python longforms/gpui14_hazards/verify_exports.py`
+
+5단계IF/ID/EX/MEM/WB교육용구조. 초기LOAD100=5,R1=0,R2=3;별도ALU예시ADD R3,R1,R2/SUB R4,R3,R5에서R1=5,R2=3,R5=2,R3=0. 단일ALU를서로다른클럭에재사용. 에지에서저장갱신. Stall시A진행,B의PC/IFID유지,IDEX무효버블부작용없음. 번호일치뿐아니라유효쓰기·소스사용·사용시점준비여부포함. 준비된가장가까운선행결과선택,Load주소100을데이터5로오인해forward하지않음. MEM읽기1주기가정시Load-use한번대기,실제지연은가변. ALU결과EXMEM,Load결과MEMWB이후전달. 잘못된결과를레지스터파일에확정하지않음. 하단단일자막분리,두화면비별도배치. 원문33문장147초엄수,추가예고/엔드카드없음.

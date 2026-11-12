@@ -1,149 +1,137 @@
-"""Six independent claims sharing fixed electrode geometry and exact sentence timing."""
-import json,os
+"""Responsive Franck–Hertz documentary; each class is one replaceable claim."""
+import json
 from pathlib import Path
+import numpy as np
 from manim import *
-from quantum_series.shared.theme import configure,text,p,INK,MUTED,GOLD
-from quantum_series.shared.chapter_scene import ChapterScene
-from quantum_series.shared.bohr import BohrAtom
-from quantum_series.episodes.ep05_franck_hertz.layouts import AspectLayout
-from quantum_series.episodes.ep05_franck_hertz.apparatus import *
-from quantum_series.episodes.ep05_franck_hertz.experiment_model import *
-HERE=Path(__file__).resolve().parent
-DATA=json.loads((HERE/'script.json').read_text(encoding='utf-8'))
-L=AspectLayout(configure().portrait)
-class FHScene(ChapterScene):
-    script=DATA;layout=L;brand='양자역학의 발견  /  1914 · Franck–Hertz'
-    def tube(self):
-        tube=FranckHertzTube(self.L.tube);self.show(tube);return tube
-    def stream(self,tube,count=4,blocked=0,run_time=2):
-        dots=VGroup(*[tube.electron((i-(count-1)/2)*.15) for i in range(count)])
-        self.body.add(dots);self.add(dots)
-        animations=[]
-        for i,dot in enumerate(dots):
-            y=dot.get_y();x0=tube.cathode[0]+.12;xg=tube.grid[0];xc=tube.collector[0]
-            # In the retarding gap the x(t) parabola decelerates; blocked electrons turn before the collector.
-            def travel(obj,a,i=i,y=y,x0=x0,xg=xg,xc=xc):
-                if a<.65:x=x0+(xg-x0)*(a/.65)**1.4
-                else:
-                    q=(a-.65)/.35
-                    x=xg+((xc-xg)*(.5*4*q*(1-q)) if i<blocked else (xc-xg)*(1-(1-q)**1.4))
-                obj.move_to(p(x,y))
-            animations.append(UpdateFromAlphaFunc(dot,travel))
-        self.play(*animations,run_time=run_time,rate_func=linear)
-        self.play(FadeOut(dots),run_time=.15);self.body.remove(dots)
-    def plot(self):
-        graph=CurrentVoltagePlot(self.L.plot);self.show(graph);return graph
-    def trace(self,graph,lo,hi,seconds=1.4):
-        curve=graph.curve(lo,hi);dot=Dot(graph.point(lo),radius=.06,color=ELECTRON)
-        self.body.add(curve,dot);self.add(dot)
-        self.play(Create(curve),UpdateFromAlphaFunc(dot,lambda d,a:d.move_to(graph.point(lo+(hi-lo)*a))),run_time=seconds,rate_func=linear)
-        self.remove(dot);self.body.remove(dot)
-    def delta_label(self,y=None):
-        return text('ΔE ≈ 4.9 eV',0 if self.L.portrait else 3.6,(-3.1 if self.L.portrait else -1.65) if y is None else y,30,GOLD)
-class VoltageQuestionDirection(FHScene):
-    def construct(self):
-        self.cue(0);c=self.L.zoom
-        dot=Dot(c+LEFT*2,radius=.08,color=ELECTRON);bar=energy_bar(1,self.L.info)
-        self.show(dot,bar,text('ΔK = eΔU',c[0],c[1]+1.1,30,GOLD),self.note('에너지는 eV, 가속 전위차는 V로 구분'))
-        self.play(dot.animate.move_to(c+RIGHT*1.7),Transform(bar,energy_bar(4.5,self.L.info)),run_time=1.3,rate_func=rate_functions.ease_in_quad)
-        self.to(3);self.cue(1);self.clear_body()
-        graph=self.plot();expected=DashedVMobject(graph.axes.plot(lambda u:.05+.06*u,x_range=[0,18],color=MUTED),num_dashes=40)
-        self.show(expected,text('예상',*(self.L.plot+p(-1,0))[:2],size=24,color=MUTED));self.to(6)
-class ApparatusDirection(FHScene):
-    offset=6
-    def construct(self):
-        self.cue(2);tube=self.tube()
-        name=text('James Franck · Gustav Hertz',0 if self.L.portrait else 3.6,-1.7 if self.L.portrait else .2,26,GOLD,width=6)
-        self.show(name,self.note('수은 증기 실험관 · 전극과 입자의 크기는 개념도'));self.to(12)
-        self.cue(3);self.stream(tube,5,run_time=2.5);self.to(17)
-        self.cue(4);self.play(FadeOut(name),run_time=.2)
-        self.show(self.info('검출부에 도달한 전자\n→ 검출 전류',ELECTRON))
-        for i in range(2):
-            self.stream(tube,4,run_time=1.6);self.play(Flash(tube.collector,color=ELECTRON,flash_radius=.18),run_time=.3)
-        self.to(24)
-class CurrentDropsDirection(FHScene):
-    offset=24
-    def construct(self):
-        self.cue(5);tube=self.tube();graph=self.plot();self.show(self.note('전류–전압 형태를 설명하는 개념도 · 실측 데이터 아님'),run_time=.2)
-        self.trace(graph,0,4.8,1.2);self.to(27)
-        self.cue(6);self.trace(graph,4.8,6,1.5);self.show(text('U ↑    I ↓',self.L.tube[0],self.L.tube[1],26,LOSS));self.to(31)
-        self.cue(7);self.trace(graph,6,10.9,2.6);self.to(36)
-        self.cue(8);self.trace(graph,10.9,18,1.3);self.show(graph.intervals(),run_time=.3);self.to(40)
-        self.cue(9);self.show(text('?',*graph.point(10.9)[:2],size=40,color=GOLD),run_time=.3);self.to(42)
-class ExcitationCollisionDirection(FHScene):
-    offset=42
-    def construct(self):
-        self.cue(10);c=self.L.zoom;atom=MercuryAtom(c,.65);electron=Dot(c+LEFT*2.2,radius=.09,color=ELECTRON)
-        levels=MercuryEnergyLevels(self.L.levels,width=3.4,gap=1.45)
-        gauge_center=p(0,3.7) if self.L.portrait else p(-3.5,1.45)
-        gauge=energy_bar(3,gauge_center)
-        self.show(atom,electron,levels,gauge,self.note('수은의 대표 들뜸 · 내부 상태 변화이며 원자의 공간 이동 아님'))
-        self.play(electron.animate.move_to(c+LEFT*.8),run_time=1.3,rate_func=linear);self.to(46)
-        self.cue(11);self.play(electron.animate.move_to(c+p(.9,.4)),run_time=1.3,rate_func=linear)
-        no=text('3.0 eV < 4.9 eV · 들뜸 없음',0 if self.L.portrait else 3.6,-3 if self.L.portrait else -1.65,24,ELECTRON)
-        self.show(no);self.to(52)
-        self.cue(12);self.play(electron.animate.move_to(c+LEFT*.85),Transform(gauge,energy_bar(4.9,gauge_center)),FadeOut(no),run_time=1.4)
-        delta=self.delta_label();self.show(delta);self.to(57)
-        self.cue(13);self.play(Transform(gauge,energy_bar(5.2,gauge_center)),run_time=.5)
-        self.play(electron.animate.move_to(c+LEFT*.1),run_time=.7,rate_func=linear)
-        up=levels.transition();state=Dot(levels.low,radius=.09,color=GOLD)
-        self.show(state);self.play(GrowArrow(up),Indicate(atom,color=GOLD),run_time=.7);self.body.add(up)
-        self.play(state.animate.move_to(levels.high),Transform(gauge,energy_bar(.3,gauge_center)),run_time=.7)
-        self.show(text('전자 → 수은 내부 에너지',c[0],c[1]-1.15,22,GOLD));self.to(64)
-        self.cue(14);self.play(Indicate(gauge,color=LOSS),run_time=.5)
-        self.show(text('5.2 − 4.9 = 0.3 eV',0 if self.L.portrait else -3.5,3.0 if self.L.portrait else -1.3,24,LOSS),run_time=.2)
-        # v scales with sqrt(K): 0.3 / 5.2 eV gives speed ratio about 0.24.
-        self.play(electron.animate.move_to(c+RIGHT*.45),run_time=1.5,rate_func=linear);self.to(67)
-class RetardingDetectionDirection(FHScene):
-    offset=67
-    def construct(self):
-        self.cue(15);tube=self.tube()
-        gap=Rectangle(width=1.05,height=1.65,color=RETARD,fill_color=RETARD,fill_opacity=.08).move_to((tube.grid+tube.collector)/2)
-        self.show(gap,self.note('감속 전위차는 전기적 장벽 · 실제 금속 벽 아님'))
-        barrier=VGroup(Line(p(-2,-1.3),p(-.5,-1.3),color=MUTED),Line(p(-.5,-1.3),p(.5,-.5),color=RETARD),Line(p(.5,-.5),p(2,-.5),color=RETARD)) if self.L.portrait else VGroup(Line(p(1,1),p(3,1),color=MUTED),Line(p(3,1),p(4,1.8),color=RETARD),Line(p(4,1.8),p(6,1.8),color=RETARD))
-        self.show(barrier,self.info('검출부 앞 감속 전위차\n예: Uᵣ = 0.8 V',RETARD));self.to(73)
-        self.cue(16);self.play(FadeOut(barrier),FadeOut(self.body[-1]),run_time=.25)
-        self.show(self.info('충돌 후 K = 0.3 eV\n장벽 0.8 eV보다 작으면 반전',LOSS))
-        self.stream(tube,6,blocked=4,run_time=2.7)
-        self.show(text('도달 비율 감소 · 전류는 0이 아님',0 if self.L.portrait else 3.6,-1.55 if self.L.portrait else -1.5,23,ELECTRON));self.to(80)
-        self.cue(17);self.clear_body();tube=self.tube()
-        self.show(self.note('재가속은 음극–격자 구간에서만 · 경로·충돌 횟수는 대표 사례'))
-        dot=tube.electron();self.show(dot)
-        # Two separated inelastic events before the grid; accelerate only in the remaining positive-voltage region.
-        for x in [-1.2,.8]:
-            at=tube.origin+p(x,0)
-            self.play(dot.animate.move_to(at),run_time=.7,rate_func=rate_functions.ease_in_quad)
-            self.play(Flash(at,color=GOLD,flash_radius=.22),run_time=.3)
-            self.play(dot.animate.shift(RIGHT*.12),run_time=.4,rate_func=linear)
-        self.play(dot.animate.move_to(tube.grid),run_time=.7,rate_func=rate_functions.ease_in_quad)
-        self.play(dot.animate.move_to(tube.collector),run_time=.65,rate_func=rate_functions.ease_out_quad)
-        self.show(self.info('가속 → 들뜸 → 재가속\n다른 원자와 다시 충돌 가능',GOLD));self.to(87)
-        self.cue(18);self.clear_body();graph=self.plot();self.show(graph.curve(),graph.intervals(),self.note('충돌 위치·횟수는 전자마다 다름 · 설명용 전류 곡선'))
-        self.show(text('반복되는 에너지 전달',0 if self.L.portrait else -3.5,2.1 if self.L.portrait else .3,26,GOLD));self.to(91)
-class DiscreteStatesDirection(FHScene):
-    offset=91
-    def construct(self):
-        self.cue(19);c=self.L.zoom
-        levels=MercuryEnergyLevels(c,width=3.7,gap=1.65);self.show(levels,self.delta_label(),self.note('수은의 대표 내부 전자 상태 두 개를 표시 · 다른 준위·탄성 충돌은 생략'))
-        arrow=levels.transition();self.play(GrowArrow(arrow),run_time=.7);self.body.add(arrow)
-        self.show(self.info('ΔU ≈ 4.9 V\n전자 한 개: eΔU ≈ 4.9 eV',GOLD).shift(UP*1.6 if self.L.portrait else ORIGIN));self.to(101)
-        self.cue(20);self.clear_body();a,b=self.L.comparison
-        bohr=BohrAtom(a).scale(.53,about_point=a);hg=MercuryEnergyLevels(b,width=3.5,gap=1.3)
-        self.show(bohr,hg,text('수소 · 보어의 역사적 모형',a[0],a[1]-1.65,21,MUTED),text('수은 · 대표 상태 차이',b[0],b[1]-1.65,21,MUTED),self.note('수소와 수은은 서로 다른 원자 · 동일한 준위 간격을 뜻하지 않음'))
-        self.to(105);self.cue(21);self.clear_body()
-        c=self.L.zoom;levels=MercuryEnergyLevels(c,width=3.7,gap=1.65);state=Dot(levels.high,radius=.09,color=GOLD)
-        self.show(levels,state,self.note('자외선은 눈에 보이지 않음 · 보라색 파동은 식별용'))
-        down=levels.transition(False);self.play(GrowArrow(down),run_time=.6);self.body.add(down)
-        self.play(state.animate.move_to(levels.low),run_time=.8)
-        wavecenter=p(.6,-1.5) if self.L.portrait else p(2.6,.4)
-        self.show(uv_wave(wavecenter),self.delta_label())
-        self.show(text('약 254 nm · 자외선 (UV)',0 if self.L.portrait else 3.6,-2.5 if self.L.portrait else -.7,27,UV));self.to(113)
-        self.cue(22);self.clear_body();a,b=self.L.comparison
-        upview=MercuryEnergyLevels(a,3.5,1.35);downview=MercuryEnergyLevels(b,3.5,1.35)
-        self.show(upview,downview);arrows=VGroup(upview.transition(True),downview.transition(False));self.play(*[GrowArrow(ar) for ar in arrows],run_time=.65);self.body.add(arrows)
-        self.show(text('충돌로 에너지 흡수',a[0],a[1]-1.25,23,ELECTRON),text('빛으로 에너지 방출',b[0],b[1]-1.25,23,UV),self.delta_label(-3.1 if self.L.portrait else -2.05))
-        self.to(119);self.cue(23);self.clear_body()
-        levels=MercuryEnergyLevels(self.L.zoom,width=4.2,gap=1.8)
-        self.show(levels,self.info('왜 이 상태들만?',GOLD),self.note('불연속적인 내부 상태 · 허용되는 에너지의 근본적인 이유는?'),run_time=.4)
-        if os.environ.get('QUANTUM_ENDING')=='standalone':self.play(levels.animate.set_stroke(opacity=.6),run_time=.3)
-        self.to(121);self.to(122)
+from quantum_series.shared.theme import text,p,configure,INK,MUTED,GOLD,BG
+from quantum_series.shared.franck_hertz import Tube,Levels
+from quantum_series.episodes.ep05_franck_hertz.layouts import FranckHertzLayout
+from quantum_series.episodes.ep05_franck_hertz.experiment_model import current_curve,MODEL,ElectronState
+D=json.loads(Path(__file__).with_name('script.json').read_text(encoding='utf-8'))
+L=FranckHertzLayout(configure().portrait)
+CYAN='#43C5F4';HG='#D6A25B';RED='#F18A54';UV='#B28CFF';GREEN='#4DB6AC'
+def wrap(s,n):
+ lines=[];line=''
+ for w in s.split():
+  if len(line+' '+w)>n and line:lines.append(line);line=w
+  else:line=(line+' '+w).strip()
+ return '\n'.join(lines+[line])
+class Plot(VGroup):
+ def __init__(self,L):
+  super().__init__();self.ax=Axes(x_range=[0,20,5],y_range=[0,1,.25],x_length=L.plot_width,y_length=L.plot_height,tips=False,axis_config={'color':MUTED,'stroke_width':1.5}).move_to(L.plot_center)
+  self.add(self.ax)
+  for u in [0,5,10,15,20]:self.add(text(str(u),*self.ax.c2p(u,0)[:2]+[0,-.23],size=16,color=MUTED))
+  self.add(text('가속 전압 U (V)',*self.ax.c2p(10,0)[:2]+[0,-.63],size=20))
+  self.add(text('검출 전류 · 상대값',*self.ax.c2p(10,1)[:2]+[0,.35],size=20))
+  self.add(text('설명용 수송 모형 · 실측 자료 아님',*self.ax.c2p(10,0)[:2]+[0,-1.0],size=15,color=MUTED))
+  self.data=current_curve()
+ def curve(self,end=20):
+  xs=np.linspace(0,max(end,.001),max(2,int(end*16)));ys=np.interp(xs,self.data['voltage'],self.data['current'])
+  return VMobject(color=CYAN,stroke_width=3).set_points_as_corners([self.ax.c2p(x,y) for x,y in zip(xs,ys)])
+class FH(Scene):
+ offset=0
+ def setup(self):
+  self.L=L;self.caption=None;self.heading=None
+  self.add(text('양자역학의 발견   /   1914 · 프랑크–헤르츠',0 if L.portrait else -3.7,L.brand_y,17,MUTED))
+ def to(self,t):
+  rem=t-self.offset-self.time
+  if rem<-.018:raise RuntimeError(f'Overrun {self.offset+self.time} > {t}')
+  frames=round(rem*30)
+  if frames:self.wait((frames+1e-5)/30)
+ def cue(self,i):
+  s=D['sentences'][i];self.to(s['start'])
+  if self.caption:self.remove(self.caption)
+  self.caption=text(wrap(s['text'],26 if L.portrait else 62),y=L.caption_y,size=24 if L.portrait else 25,width=7.6 if L.portrait else 14.1);self.add(self.caption)
+  h=text(s['heading'],y=L.heading_y,size=32,width=L.body_width)
+  if self.heading:self.play(Transform(self.heading,h),run_time=.25)
+  else:self.heading=h;self.play(FadeIn(h),run_time=.3)
+ def note(self,s,color=MUTED):return text(s,y=-3.65 if L.portrait else -2.85,size=18,color=color,width=L.body_width)
+ def tube(self):
+  t=Tube(L);self.add(t);return t
+ def travel(self,t,start=0,end=1.22,y=0,duration=1.3,color=CYAN):
+  a=t.at(start,y);b=t.at(end,y) if end<=1 else t.collector(y)
+  e=Dot(a,radius=.075,color=color);self.add(e);self.play(e.animate.move_to(b),run_time=duration,rate_func=linear);return e
+ def graph(self,full=True):
+  g=Plot(L);self.add(g)
+  if full:self.add(g.curve())
+  return g
+ def energy(self,value,center=None):
+  c=L.energy_center if center is None else center
+  group=VGroup(Rectangle(width=2.7,height=.22,color=MUTED,stroke_width=1).move_to(c))
+  bar=Rectangle(width=max(.01,2.7*value/6),height=.18,stroke_width=0,fill_color=CYAN,fill_opacity=1).move_to(c+p(-1.35+max(.01,2.7*value/6)/2,0))
+  group.add(bar)
+  group.add(text(f'K = {value:.1f} eV',c[0],c[1]-.38,23,CYAN))
+  return group
+class ApparatusDirection(FH):
+ offset=0
+ def construct(self):
+  self.cue(0);t=self.tube();label=self.note('가속 전압 U → 운동에너지 증가 ΔK = eU',CYAN);self.add(label)
+  e=self.travel(t,duration=1.4);self.to(3)
+  self.cue(1);g=self.graph(False);expect=DashedVMobject(Line(g.ax.c2p(0,0),g.ax.c2p(19,.88),color=MUTED),num_dashes=20);self.play(Create(expect),run_time=1);self.add(text('예상',*g.ax.c2p(15,.8)[:2],size=20,color=MUTED));self.to(6)
+  self.cue(2);self.remove(e);self.play(Indicate(t),run_time=1);self.to(12)
+  self.cue(3)
+  for y in [-.15,.15]:
+   e=self.travel(t,y=y,duration=1.5);self.remove(e)
+  self.to(17);self.cue(4);self.remove(label);signal=self.note('측정 대상: 검출부에 도달한 전자',CYAN);self.add(signal)
+  for y in [-.15,0,.15]:
+   e=self.travel(t,y=y,duration=1.1);self.play(Flash(t.collector(y),color=CYAN,flash_radius=.18),run_time=.25);self.remove(e)
+  self.to(24)
+class CurrentDirection(FH):
+ offset=24
+ def construct(self):
+  self.cue(5);self.tube();g=self.graph(False);curve=g.curve(.01);self.add(curve)
+  def grow(end,duration):self.play(Transform(curve,g.curve(end)),run_time=duration,rate_func=linear)
+  grow(5.3,1.8);self.to(27);self.cue(6);grow(6.6,2.2);self.to(31);self.cue(7);grow(12.2,3.1);self.to(36);self.cue(8);grow(19.5,1.2)
+  mins=g.data['voltage'][g.data['minima_indices']]
+  for a,b in zip(mins[:-1],mins[1:]):
+   y=.88;self.add(DoubleArrow(g.ax.c2p(a,y),g.ax.c2p(b,y),buff=0,color=GOLD,stroke_width=2),text('≈4.9 V',*g.ax.c2p((a+b)/2,y)[:2]+[0,.23],size=18,color=GOLD))
+  self.add(self.note('첫 감소의 절대 전압은 접촉 전위 등에 따라 달라짐'))
+  self.to(40);self.cue(9);self.play(Indicate(curve,color=GOLD),run_time=.8);self.to(42)
+class CollisionDirection(FH):
+ offset=42
+ def construct(self):
+  self.cue(10);self.tube();c=L.atom_center;atom=Circle(radius=.48,color=HG,fill_color=HG,fill_opacity=.18).move_to(c);label=text('Hg',c[0],c[1],26,HG);lv=Levels(L.level_center);self.add(atom,label,lv,self.note('실험 원리의 현대적 해석 · 원자 위치와 내부 상태는 구분'))
+  self.to(45);self.cue(11);bar=self.energy(3);self.add(bar);e=Dot(c+p(-1.35,0),radius=.08,color=CYAN);self.add(e);self.play(e.animate.move_to(c+p(-.5,0)),run_time=1);self.play(e.animate.move_to(c+p(-1.1,.3)),run_time=1.2);ground_note=text('내부 들뜸 없음',c[0],c[1]+.95,21,MUTED);self.add(ground_note);self.to(52)
+  self.cue(12);self.play(Transform(bar,self.energy(4.9)),run_time=1.3);self.play(Indicate(lv,color=GOLD),run_time=.8);self.to(57)
+  self.cue(13);self.remove(e,ground_note);e=Dot(c+p(-1.4,0),radius=.08,color=CYAN);self.add(e);self.play(Transform(bar,self.energy(5.2)),run_time=.5);self.play(e.animate.move_to(c+p(-.48,0)),run_time=.7)
+  self.play(lv.marker.animate.move_to(lv.high),atom.animate.set_stroke(GOLD,width=4),Transform(bar,self.energy(.3)),run_time=1.3)
+  self.play(e.animate.move_to(c+p(.65,0)),run_time=1.5,rate_func=linear);self.to(64)
+  self.cue(14);self.play(e.animate.shift(RIGHT*.45),run_time=1.4,rate_func=linear);self.add(text('5.2 − 4.9 = 0.3 eV',c[0],c[1]-2.45,22,CYAN,width=3.3));self.to(67)
+class CollectionDirection(FH):
+ offset=67
+ def construct(self):
+  self.cue(15);t=self.tube();g=self.graph();self.add(self.note('감속 전위차 · 실제 벽이 아님',RED));arrow=Arrow(t.collector()+p(-.1,-.3),t.at(1)+p(.05,-.3),buff=0,color=RED);self.add(arrow);self.to(73)
+  self.cue(16);collision_atom=Circle(radius=.14,color=HG).move_to(t.at(.96));self.add(collision_atom);e=Dot(t.at(.96),radius=.085,color=CYAN);self.add(e)
+  self.play(Flash(t.at(.96),color=GOLD,flash_radius=.2),run_time=.4);self.play(e.animate.move_to(t.at(1)),run_time=.6)
+  state=ElectronState().accelerate(.96,6.6125);state,_=state.collide();state=state.accelerate(1,6.6125);turn_state,_=state.enter_retarding_region(1.22);turn=t.at(turn_state.x);self.play(e.animate.move_to(turn),run_time=1.1,rate_func=rate_functions.ease_out_sine);self.play(e.animate.move_to(t.at(.94)),run_time=1.1,rate_func=rate_functions.ease_in_sine);self.remove(e)
+  e=self.travel(t,y=.3,duration=1.2);self.play(Flash(t.collector(.3),color=CYAN,flash_radius=.16),run_time=.3);self.remove(e);self.to(80)
+  self.cue(17);e=Dot(t.at(0,-.15),radius=.08,color=CYAN);self.add(e)
+  for x in [.49,.97]:
+   self.add(Circle(radius=.14,color=HG).move_to(t.at(x,-.15)))
+   self.play(e.animate.move_to(t.at(x,-.15)),run_time=.9,rate_func=linear);self.play(Flash(t.at(x,-.15),color=GOLD,flash_radius=.2),run_time=.3)
+  self.play(e.animate.move_to(t.at(1,-.15)),run_time=.5);self.play(e.animate.move_to(t.at(1,-.15)+p(.65,0)),run_time=.8);self.play(e.animate.shift(LEFT*.3),run_time=.5);self.remove(e)
+  self.add(text('격자 이전: 재가속과 여러 번의 들뜸 충돌',*(L.tube_center[:2]+[0,-1.85]),size=20,color=GOLD,width=6.4));self.to(87)
+  self.cue(18);self.play(Indicate(g,color=GOLD),run_time=1.1);self.to(91)
+class LevelsDirection(FH):
+ offset=91
+ def construct(self):
+  self.cue(19);xs=L.pair_columns;y=.65 if L.portrait else .35
+  lv=Levels(p(xs[1],y),2.65);self.add(lv,text('수은 원자의 내부 에너지',xs[1],y+1.8,23,HG,width=3.3))
+  values=VGroup(text('전압의 간격',xs[0],y+1.5,24),text('ΔU ≈ 4.9 V',xs[0],y+.85,28,CYAN),text('ΔK = eΔU',xs[0],y,26,MUTED),text('ΔE ≈ 4.9 eV',xs[0],y-.85,27,GOLD))
+  self.add(values,self.note('특정한 내부 상태 전이의 에너지 · 모든 충돌 에너지 교환이 같은 것은 아님'))
+  self.play(lv.marker.animate.move_to(lv.high),run_time=1.5);self.to(101)
+  self.cue(20);self.play(FadeOut(values),run_time=.4)
+  h=VGroup(text('수소 · 보어 모형',xs[0],y+1.8,24,CYAN,width=3.3))
+  for yy,label in [(-.8,'n=1'),(.3,'n=2'),(.75,'n=3')]:h.add(Line(p(xs[0]-1.2,y+yy),p(xs[0]+1.2,y+yy),color=CYAN),text(label,xs[0]-1.5,y+yy,17,CYAN))
+  self.add(h);self.to(105)
+class EmissionDirection(FH):
+ offset=105
+ def construct(self):
+  self.cue(21);xs=L.pair_columns;y=.5 if L.portrait else .3
+  left=Levels(p(xs[0],y),2.5);right=Levels(p(xs[1],y),2.5);right.marker.move_to(right.high)
+  self.add(left,right,text('에너지 흡수',xs[0],y+1.75,26,CYAN),text('빛 방출',xs[1],y+1.75,26,UV))
+  self.play(right.marker.animate.move_to(right.low),run_time=1.2)
+  wave=ParametricFunction(lambda t:p(xs[1]+t,y-1.45+.15*np.sin(12*t)),t_range=[-1.25,1.25],color=UV)
+  self.play(Create(wave),run_time=1.1);self.add(text('자외선 UV · 253.7 nm',xs[1],y-2.0,21,UV,width=3.5),self.note('빛의 색은 식별용 · 253.7 nm는 가시광선이 아님',UV));self.to(113)
+  self.cue(22);self.play(left.marker.animate.move_to(left.high),run_time=1.2);self.add(text('같은 내부 에너지 차이  ΔE ≈ 4.9 eV',y=3.25 if L.portrait else -2.1,size=26,color=GOLD,width=L.body_width));self.to(119)
+  self.cue(23);self.play(Indicate(VGroup(left,right),color=GOLD),run_time=.8);self.to(121);self.to(122)

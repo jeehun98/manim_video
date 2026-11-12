@@ -1,0 +1,71 @@
+{
+  "revision": "v2_168s",
+  "status": "passed",
+  "previous_revision": "v1_127s; sources/reports under revisions/v1_127s and completed videos under exports/*_v1_127s.mp4",
+  "preview": {
+    "layouts": [
+      "shorts",
+      "longform"
+    ],
+    "scenes": [
+      "05",
+      "07",
+      "10"
+    ],
+    "checks": [
+      "normalized interpolation on one persistent chart",
+      "same sentence branches into two interpretations",
+      "entropy readout follows the displayed distribution:2.00 to0.82 bit",
+      "no empirical measurement claim",
+      "specific context caveat retained"
+    ],
+    "evidence": [
+      "media/expression01_v2_168s/qa/preview_examples_shorts.png",
+      "media/expression01_v2_168s/qa/preview_examples_longform.png",
+      "media/expression01_v2_168s/qa/preview_entropy_shorts.png",
+      "media/expression01_v2_168s/qa/preview_entropy_longform.png"
+    ]
+  },
+  "final": {
+    "layouts": [
+      "shorts",
+      "longform"
+    ],
+    "scenes": [
+      "03",
+      "04",
+      "06",
+      "08",
+      "09",
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "checks": [
+      "deixis tied to contextual referents",
+      "shared linguistic conventions constrain interpretation",
+      "neutral food illustration",
+      "illustrative profiles not equated with memories",
+      "length distinguished from Shannon information",
+      "speed variables and units are explicit but little remains unspecified",
+      "real and vector addition distinguished",
+      "frame bounds and subtitle safety checked at animation boundaries"
+    ],
+    "evidence": [
+      "media/expression01_v2_168s/qa/final_intro_shorts.png",
+      "media/expression01_v2_168s/qa/final_intro_longform.png",
+      "media/expression01_v2_168s/qa/final_food_shorts.png",
+      "media/expression01_v2_168s/qa/final_food_longform.png",
+      "media/expression01_v2_168s/qa/final_prior_shorts.png",
+      "media/expression01_v2_168s/qa/final_prior_longform.png",
+      "media/expression01_v2_168s/qa/final_constraints_shorts.png",
+      "media/expression01_v2_168s/qa/final_constraints_longform.png",
+      "media/expression01_v2_168s/qa/final_relevance_shorts.png",
+      "media/expression01_v2_168s/qa/final_relevance_longform.png",
+      "media/expression01_v2_168s/qa/final_ending_shorts.png",
+      "media/expression01_v2_168s/qa/final_ending_longform.png"
+    ]
+  },
+  "automatic_verification": "render_report_short.json and render_report_long.json:168sec,10080frames,60fps,37 sentence boundaries within one frame,source hashes and full decode passed"
+}

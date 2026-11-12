@@ -1,0 +1,117 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\qcs03_short.mp4",
+  "revision": "v1_155s",
+  "duration": 155,
+  "frames": 9300,
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "versioned_output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\qcs03_short_v1_155s.mp4",
+  "audio": "not supplied; silent",
+  "subtitles": "28 full narration sentences burned in; exact supplied boundaries",
+  "subtitle_audit": "all 28 sentences within one frame; safe band assertions passed",
+  "ending": "standalone",
+  "shots": [
+    {
+      "scene": "01",
+      "frames": 600,
+      "source_sha256": "9ea5a445b116e0f19b555f4bb8f9a7cd82a471f2e6ec8845167be81921e37d63"
+    },
+    {
+      "scene": "02",
+      "frames": 300,
+      "source_sha256": "585fd2206494c61cb7e69c4e4bd1e2de97125e4708a65e4758b763947ab9d307"
+    },
+    {
+      "scene": "03",
+      "frames": 360,
+      "source_sha256": "c6709adda2e71f5966acb07f42ab201f7610d47e3a28f37176ef09cc36da6cc7"
+    },
+    {
+      "scene": "04",
+      "frames": 300,
+      "source_sha256": "8b66860f455fe5fc90245c547041a2489e1f71d34e8139e02d082dff2b3f91b4"
+    },
+    {
+      "scene": "05",
+      "frames": 300,
+      "source_sha256": "72eab2cea113cceff133866b7c9e96b1fd8aebda5c5ebd371b2a79d15d1cfbcc"
+    },
+    {
+      "scene": "06",
+      "frames": 600,
+      "source_sha256": "811ed8f160da1d7434786766d580f418b7ce035d70942c088e1a1eb050ad6fd4"
+    },
+    {
+      "scene": "07",
+      "frames": 660,
+      "source_sha256": "54a24d1768f05f0cc41337b5c514bfbf7f368b6494b3ccd8d17b1cdc3b10a805"
+    },
+    {
+      "scene": "08",
+      "frames": 720,
+      "source_sha256": "11f59af911462784260292eb9a6c959eea96440e0cd5fe3f33d6acfe72ee79be"
+    },
+    {
+      "scene": "09",
+      "frames": 420,
+      "source_sha256": "4244285445d51d1b6ccd79ce75afc8c2c95df308928c54b89e2c36360d984ca2"
+    },
+    {
+      "scene": "10",
+      "frames": 480,
+      "source_sha256": "f3d8af2ac46196b704c37ea7160060478d76963ffed993b3adb1fe4cf22beb0a"
+    },
+    {
+      "scene": "11",
+      "frames": 420,
+      "source_sha256": "89a49c9077ac2ae77e772867553acf06d484c2a458235f07836b14d9be612057"
+    },
+    {
+      "scene": "12",
+      "frames": 540,
+      "source_sha256": "a330d6cfc72aaf59056b81a32a62ccfc1c1c89a0c59ade08b2785786ccf4666b"
+    },
+    {
+      "scene": "13",
+      "frames": 600,
+      "source_sha256": "ef30cc1bf7ddfa7ccc96bb09709eca17076dff5977cc3a9706ee7032e803b530"
+    },
+    {
+      "scene": "14",
+      "frames": 240,
+      "source_sha256": "7d24cd8e8b427cd36708b69dc85cf4071e206a3623faa83ac3330e3b0a924a49"
+    },
+    {
+      "scene": "15",
+      "frames": 600,
+      "source_sha256": "18b4aaba82cfbf6ec10ed65b09bac4f800273deb209820ce82c39dd92be8db7e"
+    },
+    {
+      "scene": "16",
+      "frames": 360,
+      "source_sha256": "a164a1a4528e0415b00d8e5505e8e0d8b8ef40366da445abbf3d144318a2506d"
+    },
+    {
+      "scene": "17",
+      "frames": 600,
+      "source_sha256": "86c2d9f15de17999e684720cb336e4c96e297e662c0f2359d949cc17f68be8dc"
+    },
+    {
+      "scene": "18",
+      "frames": 300,
+      "source_sha256": "3e263e096d203c66edabfa22fb7279c56318ccdfa7866e4c3480ddf2417082a4"
+    },
+    {
+      "scene": "19",
+      "frames": 240,
+      "source_sha256": "8d31d11761a3553fe9dfa2b110a3eea02f66f2a220efb0fb5c60741eba42a2d4"
+    },
+    {
+      "scene": "20",
+      "frames": 660,
+      "source_sha256": "dbb7ff04fd944e381835602e7ff3e4639eb37115b98a23fc49470d4e4d576c07"
+    }
+  ],
+  "full_decode": "passed"
+}

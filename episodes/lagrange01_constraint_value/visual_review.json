@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "preview_scenes": [
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+  ],
+  "final_review_scenes": [
+    "02",
+    "03",
+    "07",
+    "08",
+    "09",
+    "10"
+  ],
+  "checked": [
+    "exact contour tangency at 5,5",
+    "open level curves remain unfilled",
+    "same origin and equal coordinate scaling for gradients",
+    "fixed original gradient g while lambda scales separate vector",
+    "actual 0.5% side growth without exaggeration",
+    "finite quotient 2.50625 versus derivative 2.5",
+    "all 38 caption boundaries",
+    "frame and subtitle-band clearance"
+  ],
+  "source_hash_check": "all 10 final scene hashes match current inputs",
+  "audio": "not supplied; silent"
+}

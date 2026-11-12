@@ -1,0 +1,53 @@
+{
+  "duration_seconds": 930.0,
+  "episodes": [
+    {
+      "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui_long_11.mp4",
+      "title": "레지스터에 없는 데이터는 어떻게 계산할까?",
+      "start_seconds": 0.0,
+      "duration_seconds": 176.96666666666667,
+      "video_frames": 5309,
+      "audio_duration_seconds": 174.600839
+    },
+    {
+      "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui_long_12.mp4",
+      "title": "명령어 실행 순서를 제어하는 FSM",
+      "start_seconds": 176.96666666666667,
+      "duration_seconds": 163.63333333333333,
+      "video_frames": 4909,
+      "audio_duration_seconds": 161.050771
+    },
+    {
+      "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui_long_13.mp4",
+      "title": "명령어의 실행 단계를 겹치는 파이프라인",
+      "start_seconds": 340.6,
+      "duration_seconds": 151.1,
+      "video_frames": 4533,
+      "audio_duration_seconds": 148.600658
+    },
+    {
+      "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui_long_14.mp4",
+      "title": "데이터 의존성 — Stall과 Forwarding",
+      "start_seconds": 491.7,
+      "duration_seconds": 150.56666666666666,
+      "video_frames": 4517,
+      "audio_duration_seconds": 148.000748
+    },
+    {
+      "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui_long_15.mp4",
+      "title": "계산 회로를 늘리는 다중 실행 유닛",
+      "start_seconds": 642.2666666666667,
+      "duration_seconds": 143.76666666666668,
+      "video_frames": 4313,
+      "audio_duration_seconds": 141.10059
+    },
+    {
+      "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\gpui_long_16.mp4",
+      "title": "3부 마무리 — 하나의 명령어에서 병렬 실행까지",
+      "start_seconds": 786.0333333333333,
+      "duration_seconds": 143.96666666666667,
+      "video_frames": 4319,
+      "audio_duration_seconds": 141.400635
+    }
+  ]
+}

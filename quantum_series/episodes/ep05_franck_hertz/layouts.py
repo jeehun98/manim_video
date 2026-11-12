@@ -1,16 +1,24 @@
+"""Responsive positions; tube stays fixed across apparatus, graph and collection chapters."""
 from dataclasses import dataclass
 from quantum_series.shared.theme import Layout,p
+
 @dataclass(frozen=True)
-class AspectLayout(Layout):
+class FranckHertzLayout(Layout):
     @property
-    def tube(self):return p(0,2.3) if self.portrait else p(-3.7,.4)
+    def tube_center(self):return p(0,2.55) if self.portrait else p(-3.8,.35)
     @property
-    def plot(self):return p(0,-1.5) if self.portrait else p(3.65,.2)
+    def tube_scale(self):return 1.02 if self.portrait else 1.0
     @property
-    def zoom(self):return p(0,1.5) if self.portrait else p(-3.5,.3)
+    def plot_center(self):return p(0,-.8) if self.portrait else p(3.65,.1)
     @property
-    def levels(self):return p(0,-1.1) if self.portrait else p(3.6,.2)
+    def plot_width(self):return 6.5 if self.portrait else 6.1
     @property
-    def info(self):return p(0,-2.8) if self.portrait else p(3.65,.1)
+    def plot_height(self):return 2.35 if self.portrait else 3.25
     @property
-    def comparison(self):return [p(0,2),p(0,-.7)] if self.portrait else [p(-3.7,.3),p(3.7,.3)]
+    def atom_center(self):return p(-1.65,-.65) if self.portrait else p(1.15,.25)
+    @property
+    def level_center(self):return p(1.95,-.65) if self.portrait else p(5.15,.25)
+    @property
+    def energy_center(self):return p(-1.65,-2.05) if self.portrait else p(1.15,-1.65)
+    @property
+    def pair_columns(self):return [-1.95,1.95] if self.portrait else [-3.7,3.7]

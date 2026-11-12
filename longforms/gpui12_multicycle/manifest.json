@@ -1,0 +1,122 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_request",
+    "class": "Scene01",
+    "start": 0,
+    "end": 16,
+    "duration_seconds": 16,
+    "title": "하나의 읽기 요청",
+    "method": "request"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_pending",
+    "class": "Scene02",
+    "start": 16,
+    "end": 33,
+    "duration_seconds": 17,
+    "title": "결과를 기다리는 동안",
+    "method": "pending"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_changing",
+    "class": "Scene03",
+    "start": 33,
+    "end": 43,
+    "duration_seconds": 10,
+    "title": "입력이 달라진다면?",
+    "method": "changing"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_instruction",
+    "class": "Scene04",
+    "start": 43,
+    "end": 61,
+    "duration_seconds": 18,
+    "title": "명령어를 따로 보관한다",
+    "method": "instruction"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_intermediate",
+    "class": "Scene05",
+    "start": 61,
+    "end": 72,
+    "duration_seconds": 11,
+    "title": "중간 계산값도 유지한다",
+    "method": "intermediate"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_order",
+    "class": "Scene06",
+    "start": 72,
+    "end": 88,
+    "duration_seconds": 16,
+    "title": "저장과 실행 순서는 다르다",
+    "method": "order"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_steps",
+    "class": "Scene07",
+    "start": 88,
+    "end": 102,
+    "duration_seconds": 14,
+    "title": "하나의 명령어, 네 가지 상태",
+    "method": "steps"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_control",
+    "class": "Scene08",
+    "start": 102,
+    "end": 112,
+    "duration_seconds": 10,
+    "title": "상태를 저장하고 제어한다",
+    "method": "control"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_fsm",
+    "class": "Scene09",
+    "start": 112,
+    "end": 119,
+    "duration_seconds": 7,
+    "title": "유한 상태 기계 · FSM",
+    "method": "fsm"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_cycles",
+    "class": "Scene10",
+    "start": 119,
+    "end": 134,
+    "duration_seconds": 15,
+    "title": "여러 클럭에 나누어 실행한다",
+    "method": "cycles"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_idle",
+    "class": "Scene11",
+    "start": 134,
+    "end": 147,
+    "duration_seconds": 13,
+    "title": "사용되지 않는 실행 자원",
+    "method": "idle"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_possibility",
+    "class": "Scene12",
+    "start": 147,
+    "end": 153,
+    "duration_seconds": 6,
+    "title": "실행을 겹칠 수 있을까?",
+    "method": "possibility"
+  }
+]

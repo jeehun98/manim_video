@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "reviewed": "representative previews 04 07 10 11 12 and final frames 01 02 06 07 08 09 10 11 12 13",
+  "changes": "Same physical axis units; actual polar interpolation. Normalize both local changes by common 1/|h| for readable error convergence. Output point retained inside plot.",
+  "all_final_source_hashes": "matched",
+  "automatic_checks": "every rendered animation frame checked for frame boundaries and subtitle band clearance",
+  "audio": "not supplied; silent"
+}

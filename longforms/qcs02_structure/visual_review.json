@@ -1,0 +1,80 @@
+{
+  "revision": "v1_161s",
+  "preview": {
+    "longform_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "shorts_focus": [
+      7,
+      8,
+      10,
+      11,
+      14,
+      15
+    ],
+    "checks": [
+      "oracle lower-bound scope",
+      "modular sequence and period",
+      "factorization steps and gcd",
+      "conditional input register before QFT",
+      "normalized Fourier peaks",
+      "measurement success case",
+      "comparison of different problem structures",
+      "caption safe band",
+      "final question"
+    ],
+    "evidence": [
+      "media/qcs02_v1_161s/longform/standalone/preview/qa/remaining.png",
+      "media/qcs02_v1_161s/longform/standalone/preview/qa/core.png",
+      "media/qcs02_v1_161s/longform/standalone/preview/qa/corrected.png",
+      "media/qcs02_v1_161s/shorts/standalone/preview/qa/core.png"
+    ]
+  },
+  "final": {
+    "status": "passed",
+    "longform_timestamps": [
+      96,
+      107,
+      110.5,
+      117.5
+    ],
+    "shorts_timestamps": [
+      74,
+      110.5,
+      138,
+      160.97
+    ],
+    "evidence": [
+      "media/qcs02_v1_161s/qa/final_long_qa.png",
+      "media/qcs02_v1_161s/qa/final_short_qa.png"
+    ],
+    "checks": [
+      "native final dimensions",
+      "legible formulas and modular sequence",
+      "input amplitudes and QFT peaks",
+      "candidate period validation",
+      "native comparison layout",
+      "caption safe band",
+      "final question intact"
+    ]
+  }
+}

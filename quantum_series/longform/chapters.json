@@ -28,6 +28,69 @@
       "video": "exports/quantum04_longform.mp4",
       "script": "quantum_series/episodes/ep04_bohr/script.json",
       "duration": 113
+    },
+    {
+      "id": "ep05_franck_hertz",
+      "title": "1914 · 프랑크–헤르츠 실험",
+      "video": "exports/quantum05_longform.mp4",
+      "script": "quantum_series/episodes/ep05_franck_hertz/script.json",
+      "duration": 122
+    },
+    {
+      "id": "ep06_de_broglie",
+      "title": "1924 · 드브로이의 물질파",
+      "video": "exports/quantum06_longform.mp4",
+      "script": "quantum_series/episodes/ep06_de_broglie/script.json",
+      "duration": 161
+    },
+    {
+      "id": "ep07_heisenberg",
+      "title": "1925 · 하이젠베르크의 행렬역학",
+      "video": "exports/quantum07_longform.mp4",
+      "script": "quantum_series/episodes/ep07_heisenberg/script.json",
+      "duration": 179
+    },
+    {
+      "id": "ep08_schrodinger",
+      "title": "1926 · 슈뢰딩거의 파동역학",
+      "video": "exports/quantum08_longform.mp4",
+      "script": "quantum_series/episodes/ep08_schrodinger/script.json",
+      "duration": 176
+    },
+    {
+      "id": "ep09_born",
+      "title": "1926 · 보른의 확률 해석",
+      "video": "exports/quantum09_longform.mp4",
+      "script": "quantum_series/episodes/ep09_born/script.json",
+      "duration": 178
+    },
+    {
+      "id": "ep10_davisson_germer",
+      "title": "1927 · 데이비슨–거머 실험",
+      "video": "exports/quantum10_longform.mp4",
+      "script": "quantum_series/episodes/ep10_davisson_germer/script.json",
+      "duration": 171
+    },
+    {
+      "id": "ep11_uncertainty",
+      "title": "1927 · 하이젠베르크의 불확정성 원리",
+      "video": "exports/quantum11_longform.mp4",
+      "script": "quantum_series/episodes/ep11_uncertainty/script.json",
+      "duration": 177
+    },
+    {
+      "id": "ep12_complementarity",
+      "title": "1927 · 보어의 상보성 원리",
+      "video": "exports/quantum12_longform.mp4",
+      "script": "quantum_series/episodes/ep12_complementarity/script.json",
+      "duration": 178
+    },
+    {
+      "id": "ep13_equivalence",
+      "title": "1926 · 두 이론의 연결과 첫 이야기의 완결",
+      "video": "exports/quantum13_longform.mp4",
+      "script": "quantum_series/episodes/ep13_equivalence/script.json",
+      "duration": 221
     }
   ],
   "planned_only": []

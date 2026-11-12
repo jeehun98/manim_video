@@ -1,5 +1,7 @@
 # Manim 교육 영상 프로젝트
 
+- [양자컴퓨터 03 — 무작위 데이터에서도 양자컴퓨터는 압도적으로 빠를까?](longforms/qcs03_random/README.md): 확정155초·28문장·20씬, 가로·세로1080p60, 무음·전체 자막. `py -3.12 scripts/render.py qcs03`.
+
 - [GPU 개론 07 — 회로는 언제 값을 갱신할까?](longforms/gpui07_clock_timing/README.md): 확정135초·31문장·14씬, 가로/세로1080p30, 무음·전체 자막. `python longforms/gpui07_clock_timing/build.py --preview` / `python longforms/gpui07_clock_timing/build.py`.
 
 - [GPU 개론 06 — 논리 게이트는 어떻게 값을 기억할까?](longforms/gpui06_sr_latch/README.md): 확정140초·29문장·14씬, 가로/세로1080p30, 무음·전체 자막. `python longforms/gpui06_sr_latch/build.py --preview` / `python longforms/gpui06_sr_latch/build.py`.
@@ -1484,6 +1486,8 @@ python scripts/render.py softmax01
 
 렌더 작업을 종료한 뒤 PowerShell에서 `./scripts/clean_workspace.ps1`로 정리 대상 수와 용량을 확인하고, `./scripts/clean_workspace.ps1 -Apply`로 삭제한다. Python 캐시, `media/` 아래 Manim 부분 영상·Tex·texts 캐시, 루트 및 episodes/longforms의 렌더 로그를 정리한다. 완성 영상, 음원, 대본, 타이밍 자료, archive, 가상환경은 보존한다. 캐시 삭제 후 첫 렌더는 캐시를 다시 생성하므로 시간이 더 걸릴 수 있다.
 
+원본 중심으로 정리하려면 `./scripts/clean_workspace.ps1 -Generated`로 먼저 확인하고 `./scripts/clean_workspace.ps1 -Generated -Apply`로 실행한다. 이 모드는 모든 `media/` 폴더, 완성·씬별 영상, 검수 이미지, 렌더 보고서·상태·배치 자료, concat 목록, 생성 ASS 자막, 대응 CUDA 소스가 있는 실행 파일 및 생성 코드가 확인된 수치 데이터를 추가 삭제한다. 코드·대본·spec·실제 발화시간·SRT·원본 이미지·음원은 유지한다. `exports/`의 음원과 이름이 같은 영상은 입력 컨테이너일 수 있어 유지한다. 수치 데이터가 삭제된 프로젝트는 해당 `prepare.py`, `data_model.py`, `physics.py`, `prepare_assets.py` 등을 먼저 실행하고 다시 렌더한다. `.git`, archive, 설치 환경은 정리 범위에서 제외한다.
+
 
 ## 자연의 최적화 02
 
@@ -1659,3 +1663,176 @@ python scripts/render.py softmax01
 ## 양자역학 EP.04 · 보어 모형과 원자의 안정성
 
 [EP.04 제작·실행](quantum_series/episodes/ep04_bohr/README.md). 사용자 확정 113초·23문장, 세로 1080×1920 / 가로 1920×1080·30fps·무음·전체 문장 자막. 고전적인 복사 궤도 모형의 모순, 보어의 비복사 정상상태 가정, 수소의 준위 전이와 선 스펙트럼을 6개 독립 씬으로 구성한다. `.venv/Scripts/python.exe scripts/render.py quantum04 --preview` / `.venv/Scripts/python.exe scripts/render.py quantum04`. 개별 비율: `quantum04_shorts`, `quantum04_longform`. 각 엔딩 PNG를 별도 저장한다.
+
+## 양자역학 EP.05 · 프랑크–헤르츠 실험
+
+[EP.05 제작·실행](quantum_series/episodes/ep05_franck_hertz/README.md). 확정122초·24문장, 세로1080×1920 / 가로1920×1080·30fps·무음·전체 자막. 6개 독립 씬과 설명용 수송 모형. `python scripts/render.py quantum05 --preview` / `python scripts/render.py quantum05`. 개별 비율: `quantum05_shorts`, `quantum05_longform`.
+
+## 양자역학 EP.06 · 드브로이의 물질파
+
+[EP.06 제작·실행](quantum_series/episodes/ep06_de_broglie/README.md). 확정161초·31문장, 9:16/16:9·1080p·30fps·무음·전체 자막. 7개 독립 씬, 원형과 펼친 파동의 위상 비교. `python scripts/render.py quantum06 --preview` / `python scripts/render.py quantum06`.
+
+## 양자역학 EP.07 · 하이젠베르크의 행렬역학
+
+[EP.07 제작·실행](quantum_series/episodes/ep07_heisenberg/README.md). 확정179초·38문장, 9:16/16:9·1080p·30fps·무음·전체 자막. 8개 독립 씬. 상태 쌍, 행렬곱, AB·BA 비교. `python scripts/render.py quantum07 --preview` / `python scripts/render.py quantum07`.
+
+## 양자역학 EP.08 · 슈뢰딩거의 파동역학
+
+[EP.08 제작·실행](quantum_series/episodes/ep08_schrodinger/README.md). 확정176초·35문장, 9:16/16:9·1080p·30fps·무음·전체 자막. 8개 독립 씬. 고정단 정상파, 쿨롱 방정식과 수소 에너지, 파동함수와 측정의 질문. `python scripts/render.py quantum08 --preview` / `python scripts/render.py quantum08`.
+
+## 양자역학 EP.09 · 보른의 확률 해석
+
+[EP.09 제작·실행](quantum_series/episodes/ep09_born/README.md). 확정178초·40문장, 9:16/16:9·1080p·30fps·무음·전체 자막. 9개 독립 씬. 산란 진폭,3,000회 반복 검출과 히스토그램, 진폭 간섭. `python scripts/render.py quantum09 --preview` / `python scripts/render.py quantum09`.
+
+
+## 양자역학 EP.10 · 데이비슨–거머 실험
+
+[EP.10 제작·실행](quantum_series/episodes/ep10_davisson_germer/README.md). 확정171초·35문장, 9:16/16:9·1080p·30fps·무음·전체 자막. 9개 독립 씬. 결정 성장, 산란 전류, 위상합과 회절, 0.167 nm와 0.165 nm 비교. `python scripts/render.py quantum10 --preview` / `python scripts/render.py quantum10`.
+
+
+## 양자역학 EP.11 · 하이젠베르크의 불확정성 원리
+
+[EP.11 제작·실행](quantum_series/episodes/ep11_uncertainty/README.md). 확정177초·42문장, 9:16/16:9·1080p30·무음·전체 자막. 9개 독립 씬. 가우스 파동묶음의 위치·운동량 분포 연동, 감마선 현미경, 상태의 불확정성과 예측. `python scripts/render.py quantum11 --preview` / `python scripts/render.py quantum11`.
+
+
+## 양자역학 EP.12 · 보어의 상보성 원리
+
+[EP.12 제작·실행](quantum_series/episodes/ep12_complementarity/README.md). 확정178초·41문장, 9:16/16:9·1080p30·무음·전체 자막. 8개 독립 씬. 이중슬릿의 2000회 검출 누적, 경로 기록 상태와 간섭 가시도, 실험 조건의 상보성. `python scripts/render.py quantum12 --preview` / `python scripts/render.py quantum12`.
+
+
+## 양자역학 EP.13 · 서로 다른 두 이론의 연결과 첫 이야기의 완결
+
+[EP.13 제작·실행](quantum_series/episodes/ep13_equivalence/README.md). 롱폼 전용221초·45문장·11개 독립 씬, 1920×1080·30fps·무음·전체 자막. 무한정사각우물의 기저 전개, 연산자 행렬, 기저변환과 불변 예측, 역사 회고·종료 타이틀. `python scripts/render.py quantum13 --preview` / `python scripts/render.py quantum13`.
+
+## GPU 개론 11 — 데이터 메모리와 Load/Store
+
+`longforms/gpui11_data_memory/` — 확정174초·37문장·14개독립씬. 가로/세로별도렌더: `python longforms/gpui11_data_memory/build.py --preview` / `python longforms/gpui11_data_memory/build.py`.
+
+- GPU 개론 12: `python longforms/gpui12_multicycle_v2/build.py` — 확정161초, 9:16/16:9, 자막 포함 무음. 소스: `longforms/gpui12_multicycle_v2/`.
+
+- GPU 개론13 · 명령어 파이프라인: 확정148초·29문장·12씬, 가로/세로1080p30, 자막포함·무음. `python longforms/gpui13_pipeline/build.py`. 소스 `longforms/gpui13_pipeline/`.
+
+- GPU 개론14 · 데이터 의존성 제어: 확정147초·33문장·12씬, 가로/세로1080p30, 자막포함·무음. `python longforms/gpui14_hazards/build.py`. 소스 `longforms/gpui14_hazards/`.
+
+- GPU 개론15 · 다중 실행 유닛: 확정141초·26문장·12씬, 가로/세로1080p30·자막포함·무음. `python longforms/gpui15_execution_units/build.py`. 소스 `longforms/gpui15_execution_units/`.
+
+- GPU 개론3부 마무리 · 하나의 명령어에서 병렬 실행까지: 확정141초·28문장·13씬, 11~15편 연결 에필로그/독립영상, 가로·세로1080p30·자막포함·무음. `python longforms/gpui_part3_epilogue/build.py`.
+
+- GPU 개론3부 통합(11~16): 사용자지정음성포함 `gpui_long_11.mp4`~`gpui_long_16.mp4`를결합한15분30초·1080p30합본. MP4챕터6개/유튜브설명포함. `python longforms/gpui_full_11_16/build.py`. 출력 `exports/gpui_11_16_long.mp4`.
+
+
+### 과학 한조각 · 콤프턴 효과 (science22)
+
+실제 소스: `episodes/science22_compton/scene.py`, 대본·발화시간: `script.json`, `narration.md`, `timing.json`. 136초 세로 쇼츠, 1080×1920, 30fps. 음원 미제공으로 자막 포함 무음본.
+
+`python scripts/render.py science22 --preview` / `python scripts/render.py science22`
+
+결과: `exports/science22_compton.mp4`. 씬별 재렌더는 `python episodes/science22_compton/build.py --scene <씬 ID>`. 전체 조립 시 소스 해시가 일치하는 씬만 재사용한다.
+
+### 양자컴퓨터의 속도 · EP.01 (qcs01)
+
+실제 소스: longforms/qcs01_speed/. 사용자 확정 대본·종료 시각 기준 175초, 20씬. 가로 1920×1080 / 세로 1080×1920, 60fps, 무음·전체 내레이션 자막. 실행: py -3.12 scripts/render.py qcs01 --preview / py -3.12 scripts/render.py qcs01. 결과: exports/qcs01_long.mp4 및 exports/qcs01_short.mp4.
+
+### 양자컴퓨터의 속도 · EP.02 (qcs02)
+
+[양자컴퓨터도 빠르지 못한 문제가 있다](longforms/qcs02_structure/README.md): 사용자 제공 161초·31문장·20씬, 가로·세로 1080 해상도·60fps, 무음·전체 자막. `py -3.12 scripts/render.py qcs02 --preview` / `py -3.12 scripts/render.py qcs02`.
+
+
+## 아이디어 노트 01 · 수식에 숨겨진 공통 구조
+
+- 실제 소스: `episodes/idea01_common_structure/` (`direction.py`, `scenes/01`–`07`, `narration.md`, `tts_script.txt`, `brief.md`, `timing.json`, `captions.srt`).
+- 사용자 제공 136초 문장 종료 시각, 9:16 1080×1920 60fps, 무음 및 내레이션 자막.
+- 최종 제작: `python scripts/render.py idea01`
+- 대표 씬 미리보기: `python episodes/idea01_common_structure/build.py --preview --scene 02 05`
+- 결과: `exports/idea01_short.mp4`. 대본/TTS 및 씬별 제작 기준은 위 소스 폴더에 보존.
+
+
+## 아이디어 노트 02 · AI는 반드시 언어로 생각해야 할까?
+
+- 소스: `episodes/idea02_language_thought/`의 `direction.py`, `scenes/01`–`09`, `narration.md`, `tts_script.txt`, `brief.md`, `timing.json`, `captions.srt`.
+- 사용자 제공 160초·27문장, 1080×1920 60fps. 음원 미제공으로 무음·전체 내레이션 자막.
+- 제작: `python scripts/render.py idea02`
+- 대표 씬 확인: `python episodes/idea02_language_thought/build.py --preview --scene 05 07`
+- 결과: `exports/idea02_short.mp4`. 연구 결과와 IDEA/CONCEPT 사고 실험을 구분.
+
+
+## 표현은 무엇을 전달하는가? 01 · 같은 문장인데 왜 다른 의미가 만들어질까?
+
+- 현재 v2: 확정37문장·168초·60fps,직시·베이즈 추론·엔트로피를 추가한 수정본.
+- 소스: `episodes/expression01_sentence_meaning/` (`direction.py`,`visuals.py`,`probability_model.py`,`scenes/01`–`14`,`narration.md`,`tts_script.txt`,`timing.json`,`captions.srt`).
+- 세로1080×1920/가로1920×1080은 같은 로직과 별도 레이아웃. 음원 미제공으로 무음·전체 내레이션 자막.
+- 제작: `python scripts/render.py expression01`
+- 대표씬: `python episodes/expression01_sentence_meaning/build.py --preview --scene 05 07 10`
+- 현재 결과: `exports/expression01_short.mp4`,`exports/expression01_long.mp4`.
+- 이전127초 소스·검사자료: `episodes/expression01_sentence_meaning/revisions/v1_127s/`. 이전 완성영상: `exports/expression01_short_v1_127s.mp4`,`exports/expression01_long_v1_127s.mp4`.
+- 막대분포와 엔트로피는 설명용 가상수치이며 실제 인간 이해 실험데이터가 아니다. 조건부 엔트로피의 평균 성질과 특정 문맥의 효과를 구분한다.
+
+## 과학 한조각 · 학습과 추론, GPU가 해결하는 서로 다른 문제
+
+- 소스: `episodes/aiwork01_training_inference/` (`scene.py`, `build.py`, `brief.md`, `narration.md`, `tts_script.txt`, `timing.json`, `captions.srt`).
+- 사용자 확정 30문장·종료 시각 기준 161초, 세로 1080×1920, 30fps. TTS 음원 미제공으로 무음이며 전체 내레이션 자막 포함.
+- 최종 제작: `python scripts/render.py aiwork01`. 결과: `exports/aiwork01.mp4`.
+- 대표 씬 확인: `python episodes/aiwork01_training_inference/build.py --preview --scene 2 6 8`.
+- 레이아웃·타이밍 검사: `python episodes/aiwork01_training_inference/check_layout.py`.
+- 11개 Shot을 독립 렌더하고 입력 해시가 일치하는 결과만 재사용한다. 학습·추론의 동일 가중치 도식, 요청별 KV Cache, Prefill/Decode, 메모리 병목을 시각화한다.
+
+## 과학 한조각 · SGD의 잡음은 단순한 오차일까?
+
+- 소스: `episodes/sgd01_sampling_noise/` (`scene.py`, `math_model.py`, `build.py`, `brief.md`, `narration.md`, `tts_script.txt`, `timing.json`, `captions.srt`).
+- 사용자 확정 33문장·종료 시각 기준 166초, 1080×1920, 30fps. 음원 미제공으로 무음·전체 내레이션 자막 포함.
+- 제작: `python scripts/render.py sgd01`. 결과: `exports/sgd01.mp4`.
+- 대표 씬: `python episodes/sgd01_sampling_noise/build.py --preview --scene 5 8 9`.
+- 수학·레이아웃·타이밍 검사: `python episodes/sgd01_sampling_noise/check_layout.py`.
+- 12개 Shot 독립 렌더·입력 해시 검사. 기울기 상쇄, 반대 방향 업데이트, 비등방 공분산, 동일 데이터의 배치 크기 비교, 장난감 손실함수의 실제 GD/SGD 경로를 시각화한다.
+
+## 수학 한 조각 · 원을 도는 점에서 어떻게 파도가 나올까?
+
+- 소스: `episodes/euler01_rotation_waves/` (`scene.py`, `motion.py`, `build.py`, `brief.md`, `narration.md`, `tts_script.txt`, `timing.json`, `captions.srt`).
+- 사용자 확정 36문장·문장 종료 시각 기준 139초. 세로 1080×1920, 60fps. 음원 미제공으로 무음·전체 내레이션 자막 포함.
+- 제작: `python scripts/render.py euler01`. 결과: `exports/euler01.mp4`.
+- 대표 씬: `python episodes/euler01_rotation_waves/build.py --preview --scene 2 3 11`.
+- 위상·레이아웃·타이밍 검사: `python episodes/euler01_rotation_waves/check_layout.py`.
+- 하나의 전역 시간·각도로 회전점과 사인/코사인 기록을 동기화한다. 복소평면과 오일러 공식의 기하학적 의미를 설명하며 증명은 다루지 않는다.
+
+
+## 괴델과 AI의 수학적 증명
+
+- [AI는 모든 수학적 진리를 증명할 수 있을까?](episodes/godel01_proof_limits/README.md): 사용자 제공 41문장·175초, 10개 독립 씬. 9:16, 1080×1920, 60fps, 무음·전체 자막. 실행: `py -3.12 scripts/render.py godel01`. 확정 대본·콘티·타이밍·장면별 소스는 해당 폴더에 보관.
+
+
+## 수학의 기본 요소 — 후보 01
+
+- [사인과 코사인 · 푸리에 급수](episodes/basis01_fourier_heat/README.md): 확정 34문장·175초·13개 독립 씬. 9:16,1080×1920,60fps,무음·전체 자막. `py -3.12 scripts/render.py basis01`. 줄의 진동→온도 편차→성분별 열확산을 동일한 곡선과 정확한 사인 모드 해로 연결.
+
+
+## 양자역학 실험 티어리스트
+
+- [9개 실험·S/A/B/C](episodes/qtier01_experiments/README.md): 확정40문장·167초·9:16·1080×1920·60fps·무음·전체 자막. 첨부 레이아웃의 누적 티어보드와 9개 벡터 실험. `py -3.12 scripts/render.py qtier01`.
+
+
+## 라그랑주 승수법 — 제약의 가치
+
+- [직사각형 최적화와 λ=2.5](episodes/lagrange01_constraint_value/README.md): 확정38문장·160초·10씬·9:16·1080×1920·60fps·무음·전체 자막. `py -3.12 scripts/render.py lagrange01`. 등고선 접점→기울기 벡터 배율→최적값의 민감도를 하나의 예제로 연결.
+
+
+## 르장드르 변환 — 접선의 정보
+
+- [점의 정보에서 접선의 정보로](episodes/legendre01_tangent_duality/README.md): 확정35문장·157초·12씬·9:16·1080×1920·60fps·무음·전체 자막. `py -3.12 scripts/render.py legendre01`. 접선의 기울기·절편을 기록해 볼록 켤레를 만들고 실제 역대응으로 원래 포물선을 복원.
+
+
+## 복소수 곱셈과 복소미분 (complex01)
+
+실제 소스: `episodes/complex01_rotation_derivative/` · 151초 · 9:16 · 1080×1920 · 60fps · 무음·전체자막.
+
+`py -3.12 scripts/render.py complex01` → `exports/complex01_short.mp4`.
+
+## 서로 다른 문제, 같은 수학 01
+
+- [가장 가까운 점과 가장 그럴듯한 답은 왜 같을까?](episodes/samemath01_least_squares/README.md): 사용자 제공 30문장·160초·9:16/16:9·30fps·무음·전체 자막. `python scripts/render.py samemath01`로 쇼츠와 롱폼을 렌더한다.
+- [열의 확산과 브라운 운동은 왜 같은 방정식을 따를까?](episodes/samemath02_heat_brownian/README.md): 사용자 제공 34문장·177초·9:16/16:9·30fps·무음·전체 자막. `python scripts/render.py samemath02`로 쇼츠와 롱폼을 렌더한다.
+- [분산 최대화와 복원 오차 최소화는 왜 같은 방향을 고를까?](episodes/samemath03_pca/README.md): 사용자 제공 32문장·151초·9:16/16:9·30fps·무음·전체 자막. `python scripts/render.py samemath03`으로 쇼츠와 롱폼을 렌더한다.
+- [가장 완벽한 도형, 원뿔 — 우주의 궤도를 설명하는 기하학](episodes/cone01_conic_orbits/README.md): 사용자 제공 40문장·177초·9:16·30fps·무음·전체 자막. `python scripts/render.py cone01`로 쇼츠를 렌더한다.
+- [왜 꼭짓점에서 모서리를 빼고, 면을 더할까? — 오일러 공식과 호몰로지](episodes/euler01_homology/README.md): 사용자 제공 39문장·173초·9:16·30fps·무음·전체 자막. `python scripts/render.py eulerh01`로 쇼츠를 렌더한다.
+
+
+- [서로 다른 자연현상에서 똑같은 원이 나타나는 이유](episodes/circle01_shared_dynamics/README.md): 사용자 대본 149초, 세로 1080×1920·30fps·무음·전체 자막, 독립 씬 9개. `py -3.12 scripts/render.py circle01`.

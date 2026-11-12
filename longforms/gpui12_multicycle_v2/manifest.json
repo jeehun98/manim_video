@@ -1,0 +1,112 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_question",
+    "class": "Scene01",
+    "start": 0,
+    "end": 14,
+    "duration_seconds": 14,
+    "title": "회로는 어떤 순서로 동작할까?",
+    "method": "question"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_load",
+    "class": "Scene02",
+    "start": 14,
+    "end": 31,
+    "duration_seconds": 17,
+    "title": "하나의 LOAD를 따라가 본다",
+    "method": "load"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_devices",
+    "class": "Scene03",
+    "start": 31,
+    "end": 46,
+    "duration_seconds": 15,
+    "title": "단계마다 사용하는 장치가 다르다",
+    "method": "devices"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_clocks",
+    "class": "Scene04",
+    "start": 46,
+    "end": 62,
+    "duration_seconds": 16,
+    "title": "서로 다른 클럭에 나누면?",
+    "method": "clocks"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_remember",
+    "class": "Scene05",
+    "start": 62,
+    "end": 77,
+    "duration_seconds": 15,
+    "title": "현재 단계도 기억해야 한다",
+    "method": "remember"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_state",
+    "class": "Scene06",
+    "start": 77,
+    "end": 90,
+    "duration_seconds": 13,
+    "title": "상태값으로 실행 단계를 구분한다",
+    "method": "state"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_logic",
+    "class": "Scene07",
+    "start": 90,
+    "end": 105,
+    "duration_seconds": 15,
+    "title": "저장된 상태를 동작으로 바꾼다",
+    "method": "logic"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_fsm",
+    "class": "Scene08",
+    "start": 105,
+    "end": 114,
+    "duration_seconds": 9,
+    "title": "유한 상태 기계 · FSM",
+    "method": "fsm"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_storage",
+    "class": "Scene09",
+    "start": 114,
+    "end": 133,
+    "duration_seconds": 19,
+    "title": "다음 단계까지 정보를 유지한다",
+    "method": "storage"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_complete",
+    "class": "Scene10",
+    "start": 133,
+    "end": 143,
+    "duration_seconds": 10,
+    "title": "하나의 명령어를 여러 클럭에",
+    "method": "complete"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_overlap",
+    "class": "Scene11",
+    "start": 143,
+    "end": 161,
+    "duration_seconds": 18,
+    "title": "비어 있는 인출 경로를 활용한다면?",
+    "method": "overlap"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "preview_scenes": [
+    "01",
+    "03",
+    "05",
+    "06",
+    "07",
+    "09"
+  ],
+  "final_scenes": [
+    "01",
+    "03",
+    "05",
+    "06",
+    "09",
+    "11",
+    "12"
+  ],
+  "checks": [
+    "contact always on original parabola",
+    "tangent and y-axis intercept update from same variable",
+    "p and minus-intercept recorded at exact conjugate coordinates",
+    "new curve formed from recorded points",
+    "inverse uses derivative of conjugate and records original points",
+    "moving-contact footnote uses general p=2x,b=−x²",
+    "proper closed convex condition distinguished from smooth example",
+    "thermodynamic negative-conjugate convention shown",
+    "35 exact supplied caption boundaries and safe geometry"
+  ],
+  "source_hash_check": "all 12 final scene hashes match current inputs",
+  "audio": "not supplied; silent"
+}

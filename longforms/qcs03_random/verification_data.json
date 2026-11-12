@@ -1,0 +1,15 @@
+{
+  "oracle_basis_cases": 128,
+  "oracle_unitarity_and_superposition": "passed",
+  "probabilities": "normalized illustrative examples, not circuit measurements",
+  "approximation_error": 0.02,
+  "growth_T10": [
+    100,
+    1024
+  ],
+  "sentences": 28,
+  "duration": 155,
+  "frames": 9300,
+  "scope": "uniform Boolean inputs; acceptance-probability approximation; query complexity only",
+  "status": "passed"
+}
