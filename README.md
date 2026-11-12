@@ -1654,3 +1654,8 @@ python scripts/render.py softmax01
 ## 양자역학 EP.03 · 금박 실험과 원자핵 발견
 
 [EP.03 제작·실행](quantum_series/episodes/ep03_rutherford/README.md). 사용자 확정105초·20문장, 세로1080×1920 / 가로1920×1080·30fps·무음·전체 문장 자막. 같은 에너지·전체 양전하에서 균일 구와 중심 쿨롱 산란을 비교하고, 6개 씬을 독립 렌더한다. `python scripts/render.py quantum03 --preview` / `python scripts/render.py quantum03`. 개별 비율: `quantum03_shorts`, `quantum03_longform`. 최종 엔딩 PNG도 별도 저장한다.
+
+
+## 양자역학 EP.04 · 보어 모형과 원자의 안정성
+
+[EP.04 제작·실행](quantum_series/episodes/ep04_bohr/README.md). 사용자 확정 113초·23문장, 세로 1080×1920 / 가로 1920×1080·30fps·무음·전체 문장 자막. 고전적인 복사 궤도 모형의 모순, 보어의 비복사 정상상태 가정, 수소의 준위 전이와 선 스펙트럼을 6개 독립 씬으로 구성한다. `.venv/Scripts/python.exe scripts/render.py quantum04 --preview` / `.venv/Scripts/python.exe scripts/render.py quantum04`. 개별 비율: `quantum04_shorts`, `quantum04_longform`. 각 엔딩 PNG를 별도 저장한다.

@@ -1,0 +1,11 @@
+{
+  "energy_conservation": "5.2 - 4.9 = 0.3 eV: passed",
+  "subthreshold": "3.0 eV cannot cause the selected 4.9 eV excitation: passed",
+  "barrier": "0.3 eV below illustrative 0.8 V barrier: not collected",
+  "reacceleration": "remaining accelerating region can restore collection: passed",
+  "repeated_collisions": "separate acceleration steps permit two 4.9 eV losses: passed",
+  "curve": "schematic minima spacing 4.9 V with positive nonzero minima: passed",
+  "uv_energy_eV": 4.887039747733543,
+  "speed_ratio": 0.24019223070763068,
+  "caption_bounds": "24 captions and headings fit both frames"
+}

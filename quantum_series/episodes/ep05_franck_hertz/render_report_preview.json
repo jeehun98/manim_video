@@ -1,0 +1,42 @@
+[
+  {
+    "layout": "shorts",
+    "ending": "standalone",
+    "output": "C:\\Users\\owner\\Desktop\\manim_video\\exports\\quantum05_shorts_preview.mp4",
+    "duration": 122,
+    "frames": 3660,
+    "width": 360,
+    "height": 640,
+    "fps": 30,
+    "audio": "not supplied; silent video",
+    "clips": [
+      "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum05\\shorts\\standalone\\preview\\videos\\scene\\640p30\\VoltageQuestion.mp4",
+      "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum05\\shorts\\standalone\\preview\\videos\\scene\\640p30\\Apparatus.mp4",
+      "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum05\\shorts\\standalone\\preview\\videos\\scene\\640p30\\CurrentDrops.mp4",
+      "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum05\\shorts\\standalone\\preview\\videos\\scene\\640p30\\ExcitationCollision.mp4",
+      "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum05\\shorts\\standalone\\preview\\videos\\scene\\640p30\\RetardingDetection.mp4",
+      "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum05\\shorts\\standalone\\preview\\videos\\scene\\640p30\\DiscreteStates.mp4"
+    ],
+    "full_decode": "passed"
+  },
+  {
+    "layout": "longform",
+    "ending": "join",
+    "output": "C:\\Users\\owner\\Desktop\\manim_video\\exports\\quantum05_longform_preview.mp4",
+    "duration": 122,
+    "frames": 3660,
+    "width": 640,
+    "height": 360,
+    "fps": 30,
+    "audio": "not supplied; silent video",
+    "clips": [
+      "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum05\\longform\\join\\preview\\videos\\scene\\360p30\\VoltageQuestion.mp4",
+      "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum05\\longform\\join\\preview\\videos\\scene\\360p30\\Apparatus.mp4",
+      "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum05\\longform\\join\\preview\\videos\\scene\\360p30\\CurrentDrops.mp4",
+      "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum05\\longform\\join\\preview\\videos\\scene\\360p30\\ExcitationCollision.mp4",
+      "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum05\\longform\\join\\preview\\videos\\scene\\360p30\\RetardingDetection.mp4",
+      "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum05\\longform\\join\\preview\\videos\\scene\\360p30\\DiscreteStates.mp4"
+    ],
+    "full_decode": "passed"
+  }
+]

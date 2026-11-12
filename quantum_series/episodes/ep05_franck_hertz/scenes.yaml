@@ -1,0 +1,41 @@
+episode: quantum05
+duration: 122
+fps: 30
+audio: null
+scenes:
+  - id: 01_question
+    class: VoltageQuestion
+    start: 0
+    end: 6
+    source: scenes/01_question/scene.py
+    claim: "전압 증가가 검출 전류의 지속적인 증가를 보장할까?"
+  - id: 02_apparatus
+    class: Apparatus
+    start: 6
+    end: 24
+    source: scenes/02_apparatus/scene.py
+    claim: "검출 전류는 수은 증기를 지나 검출부에 도달한 전자의 흐름이다."
+  - id: 03_observation
+    class: CurrentDrops
+    start: 24
+    end: 42
+    source: scenes/03_observation/scene.py
+    claim: "전압이 증가하는 동안 전류 감소가 약 4.9V 간격으로 반복된다."
+  - id: 04_collision
+    class: ExcitationCollision
+    start: 42
+    end: 67
+    source: scenes/04_collision/scene.py
+    claim: "수은 원자를 들뜨게 한 전자는 약 4.9eV의 운동에너지를 잃는다."
+  - id: 05_detection
+    class: RetardingDetection
+    start: 67
+    end: 91
+    source: scenes/05_detection/scene.py
+    claim: "충돌 후 감속 구간을 넘지 못하는 전자가 늘어 검출 전류가 감소한다."
+  - id: 06_states
+    class: DiscreteStates
+    start: 91
+    end: 122
+    source: scenes/06_states/scene.py
+    claim: "충돌로 들뜨는 에너지와 자외선 방출 에너지는 같은 내부 상태 차이와 연결된다."

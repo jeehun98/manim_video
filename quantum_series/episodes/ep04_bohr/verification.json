@@ -1,0 +1,85 @@
+{
+  "videos": [
+    {
+      "layout": "shorts",
+      "ending": "standalone",
+      "output": "C:\\Users\\owner\\Desktop\\manim_video\\exports\\quantum04_shorts.mp4",
+      "duration": 113,
+      "frames": 3390,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "audio": "not supplied; silent video",
+      "clips": [
+        "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum04\\shorts\\standalone\\final\\videos\\scene\\1920p30\\ChargeQuestion.mp4",
+        "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum04\\shorts\\standalone\\final\\videos\\scene\\1920p30\\ClassicalFailure.mp4",
+        "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum04\\shorts\\standalone\\final\\videos\\scene\\1920p30\\BohrPostulates.mp4",
+        "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum04\\shorts\\standalone\\final\\videos\\scene\\1920p30\\HydrogenObservation.mp4",
+        "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum04\\shorts\\standalone\\final\\videos\\scene\\1920p30\\EnergyTransitions.mp4",
+        "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum04\\shorts\\standalone\\final\\videos\\scene\\1920p30\\OpenQuestion.mp4"
+      ],
+      "full_decode": "passed",
+      "ending_frame": "exports\\quantum04_shorts_ending.png",
+      "last_second_mean_pixel_difference": 0.0031000835905349794
+    },
+    {
+      "layout": "longform",
+      "ending": "join",
+      "output": "C:\\Users\\owner\\Desktop\\manim_video\\exports\\quantum04_longform.mp4",
+      "duration": 113,
+      "frames": 3390,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "audio": "not supplied; silent video",
+      "clips": [
+        "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum04\\longform\\join\\final\\videos\\scene\\1080p30\\ChargeQuestion.mp4",
+        "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum04\\longform\\join\\final\\videos\\scene\\1080p30\\ClassicalFailure.mp4",
+        "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum04\\longform\\join\\final\\videos\\scene\\1080p30\\BohrPostulates.mp4",
+        "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum04\\longform\\join\\final\\videos\\scene\\1080p30\\HydrogenObservation.mp4",
+        "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum04\\longform\\join\\final\\videos\\scene\\1080p30\\EnergyTransitions.mp4",
+        "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum04\\longform\\join\\final\\videos\\scene\\1080p30\\OpenQuestion.mp4"
+      ],
+      "full_decode": "passed",
+      "ending_frame": "exports\\quantum04_longform_ending.png",
+      "last_second_mean_pixel_difference": 0.002514306841563786
+    }
+  ],
+  "timing": "all 23 user sentence end times retained; 113 seconds / 3390 frames per deliverable",
+  "layout": [
+    "both preview contact sheets visually reviewed",
+    "final shorts 19/49/81/93/112-second frames reviewed",
+    "final longform 18 keyframes and full-resolution transition frame reviewed",
+    "all full captions and headings inside both frames",
+    "orbit emphasis remains below longform heading"
+  ],
+  "physics": {
+    "level_spacing": "monotonic energies with decreasing gaps: passed",
+    "wavelengths": {
+      "3": {
+        "energy_eV": -1.5109207777777778,
+        "vacuum_nm": 656.4696189159708,
+        "representative_air_nm": 656.28
+      },
+      "4": {
+        "energy_eV": -0.8498929375,
+        "vacuum_nm": 486.273791789608,
+        "representative_air_nm": 486.13
+      },
+      "5": {
+        "energy_eV": -0.5439314799999999,
+        "vacuum_nm": 434.1730283835786,
+        "representative_air_nm": 434.05
+      },
+      "6": {
+        "energy_eV": -0.37773019444444444,
+        "vacuum_nm": 410.2935118224817,
+        "representative_air_nm": 410.17
+      }
+    },
+    "comparison": "vacuum calculation vs representative air wavelengths; difference <0.25 nm",
+    "caption_bounds": "23 captions and headings inside both aspect-ratio frames"
+  },
+  "assembly": "EP.04 added to chapter index; combined 405-second video not generated",
+  "audio": "not supplied; silent videos with burned-in full sentence captions"
+}
