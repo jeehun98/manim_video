@@ -1828,6 +1828,15 @@ python scripts/render.py softmax01
 - [분산 최대화와 복원 오차 최소화는 왜 같은 방향을 고를까?](episodes/samemath03_pca/README.md): 사용자 제공 32문장·151초·9:16/16:9·30fps·무음·전체 자막. `python scripts/render.py samemath03`으로 쇼츠와 롱폼을 렌더한다.
 - [가장 완벽한 도형, 원뿔 — 우주의 궤도를 설명하는 기하학](episodes/cone01_conic_orbits/README.md): 사용자 제공 40문장·177초·9:16·30fps·무음·전체 자막. `python scripts/render.py cone01`로 쇼츠를 렌더한다.
 - [왜 꼭짓점에서 모서리를 빼고, 면을 더할까? — 오일러 공식과 호몰로지](episodes/euler01_homology/README.md): 사용자 제공 39문장·173초·9:16·30fps·무음·전체 자막. `python scripts/render.py eulerh01`로 쇼츠를 렌더한다.
+- [정규분포에 원주율 π가 등장하는 이유](episodes/gausspi01_normalization/README.md): 사용자 제공 38문장·177초·9:16·30fps·무음·전체 자막. `python scripts/render.py gausspi01`로 쇼츠를 렌더한다.
+- [규제의 정의가 바꾸는 최적해](episodes/reggeom01_lp_geometry/README.md): 사용자 제공 39문장·176초·가로 16:9 / 쇼츠용 세로 9:16·30fps·무음·전체 자막. `python scripts/render.py reggeom01` 또는 `python scripts/render.py reggeom01v`로 렌더한다.
+- [로피탈의 정리 — 왜 따로 미분해도 될까?](episodes/lhopital01_relative_change/README.md): 사용자 제공 34문장·179초·쇼츠용 9:16·30fps·무음·전체 자막. `python scripts/render.py lhopital01`로 12개 독립 씬을 렌더·조립한다.
 
 
 - [서로 다른 자연현상에서 똑같은 원이 나타나는 이유](episodes/circle01_shared_dynamics/README.md): 사용자 대본 149초, 세로 1080×1920·30fps·무음·전체 자막, 독립 씬 9개. `py -3.12 scripts/render.py circle01`.
+
+### 뉴턴법 쇼츠 (156초)
+
+- 소스: `episodes/newton01_local_linear/scene.py`
+- 렌더: `python scripts/render.py newton01`
+- 출력: `exports/newton01_short.mp4` (1080×1920, 30fps, 무음)

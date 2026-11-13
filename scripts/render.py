@@ -3,6 +3,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 EPISODES = {"20": ("episodes/20_softmax_attention_finale/scene.py", "SoftmaxAttentionFinale"), "19": ("episodes/19_softmax_entropy/scene.py", "SoftmaxEntropy"), "18": ("episodes/18_softmax_lse/scene.py", "SoftmaxLSE"), "17": ("episodes/17_softmax_sigmoid/scene.py", "SoftmaxSigmoid"), "16": ("episodes/16_softmax_jacobian/scene.py", "SoftmaxJacobian"), "15": ("episodes/15_softmax_temperature/scene.py", "SoftmaxTemperature"), "14": ("episodes/14_softmax_ratio/scene.py", "SoftmaxRatio"), "13": ("episodes/13_softmax_shift/scene.py", "SoftmaxShift"), "12": ("episodes/12_softmax_intro/scene.py", "SoftmaxIntroduction"), "11": ("episodes/11_sigmoid_finale/scene.py", "SigmoidFinale"), "10": ("episodes/10_sigmoid_cdf/scene.py", "SigmoidCDF"), "09": ("episodes/09_sigmoid_distribution/scene.py", "SigmoidDistribution"), "08": ("episodes/08_sigmoid_saturation/scene.py", "SigmoidSaturation"), "07": ("episodes/07_sigmoid_derivative/scene.py", "SigmoidDerivative"), "06": ("episodes/06_sigmoid_intro/scene.py", "SigmoidIntroduction"), "05": ("episodes/05_computation_simplification/scene.py", "ComputationSimplification"), "04": ("episodes/04_irreversibility/scene.py", "Irreversibility"), "03": ("episodes/03_relu_change_magnitude/scene.py", "ReLUChangeMagnitude"), "01": ("episodes/01_relu/scene.py", "ReLUIntroduction"), "02": ("episodes/02_relu_information_loss/scene.py", "ReLUInformationLoss"), "legacy": ("archive/relu_short.py", "ReLUShort")}
 EPISODES["gpu01"] = ("episodes/gpu01_formula_to_gpu/scene.py", "FormulaToGPU")
+EPISODES["reggeom01"] = ("episodes/reggeom01_lp_geometry/animation.py", "RegularizationExplained")
+EPISODES["reggeom01v"] = ("episodes/reggeom01_lp_geometry/animation.py", "RegularizationExplained")
+EPISODES["newton01"] = ("episodes/newton01_local_linear/scene.py", "NW01Intro")
+EPISODES["lhopital01"] = ("episodes/lhopital01_relative_change/scene.py", "LH01Intro")
 EPISODES["gpu02"] = ("episodes/gpu02_warp/scene.py", "WarpIntroduction")
 EPISODES["gpu03"] = ("episodes/gpu03_memory_access/scene.py", "MemoryAccessIntroduction")
 
@@ -341,7 +345,7 @@ def main():
         "evdsvd08_shorts": ("evdsvd08_final_choice", "shorts"),
         "evdsvd08_longform": ("evdsvd08_final_choice", "longform"),
     }
-    p.add_argument("episode", choices=[*EPISODES, *projects, *quantum_projects, "science22", "qcs01", "qcs02", "qcs03", "idea01", "idea02", "expression01", "aiwork01", "sgd01", "euler01", "eulerh01", "godel01", "basis01", "qtier01", "lagrange01", "legendre01", "complex01", "samemath01", "samemath02", "samemath03", "cone01"])
+    p.add_argument("episode", choices=[*EPISODES, *projects, *quantum_projects, "science22", "qcs01", "qcs02", "qcs03", "idea01", "idea02", "expression01", "aiwork01", "sgd01", "euler01", "eulerh01", "gausspi01", "godel01", "basis01", "qtier01", "lagrange01", "legendre01", "complex01", "samemath01", "samemath02", "samemath03", "cone01"])
     p.add_argument("--preview", action="store_true")
     a = p.parse_args()
     if a.episode == "cone01":
@@ -351,6 +355,21 @@ def main():
         return
     if a.episode == "eulerh01":
         command = [sys.executable, str(ROOT / "episodes/euler01_homology/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "newton01":
+        command = [sys.executable, str(ROOT / "episodes/newton01_local_linear/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "lhopital01":
+        command = [sys.executable, str(ROOT / "episodes/lhopital01_relative_change/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "gausspi01":
+        command = [sys.executable, str(ROOT / "episodes/gausspi01_normalization/build.py")]
         if a.preview: command.append("--preview")
         subprocess.run(command, cwd=ROOT, check=True)
         return
@@ -471,7 +490,9 @@ def main():
         return
     source, scene = EPISODES[a.episode]
     env = os.environ.copy()
-    if a.episode in ("nncalc01", "nncalc02", "nncalc03", "nncalc04", "nncalc05", "nncalc06", "nncalc07", "nncalc08"):
+    if a.episode == "reggeom01v":
+        env.update(VIDEO_LAYOUT="portrait")
+    if a.episode in ("nncalc01", "nncalc02", "nncalc03", "nncalc04", "nncalc05", "nncalc06", "nncalc07", "nncalc08", "reggeom01"):
         env.update(VIDEO_WIDTH="640" if a.preview else "1920", VIDEO_HEIGHT="360" if a.preview else "1080")
     else:
         env.update(VIDEO_WIDTH="360" if a.preview else "1080", VIDEO_HEIGHT="640" if a.preview else "1920")
@@ -481,7 +502,7 @@ def main():
     output = ROOT / "exports" / (a.episode + ("_preview" if a.preview else "") + ".mp4")
     output.parent.mkdir(exist_ok=True)
     shutil.copy2(latest, output)
-    if a.episode == "mult01":
+    if a.episode in ("mult01", "reggeom01", "reggeom01v"):
         # Manim's partial-clip concatenation can introduce millisecond PTS drift.
         # Assign all 3060 frames their exact 30fps presentation timestamps.
         normalized = output.with_name(output.stem + "_cfr.mp4")
