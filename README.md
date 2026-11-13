@@ -1845,3 +1845,9 @@ python scripts/render.py softmax01
 - 소스: `episodes/newton01_local_linear/scene.py`
 - 렌더: `python scripts/render.py newton01`
 - 출력: `exports/newton01_short.mp4` (1080×1920, 30fps, 무음)
+
+### 판별식에 숨겨진 기하학 쇼츠 (175초)
+
+- 소스: `episodes/discriminant01_geometry/scene.py`
+- 렌더: `python scripts/render.py discriminant01`
+- 출력: `exports/discriminant01_short.mp4` (1080×1920, 30fps, 무음)

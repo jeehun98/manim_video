@@ -5,6 +5,7 @@ EPISODES = {"20": ("episodes/20_softmax_attention_finale/scene.py", "SoftmaxAtte
 EPISODES["gpu01"] = ("episodes/gpu01_formula_to_gpu/scene.py", "FormulaToGPU")
 EPISODES["reggeom01"] = ("episodes/reggeom01_lp_geometry/animation.py", "RegularizationExplained")
 EPISODES["reggeom01v"] = ("episodes/reggeom01_lp_geometry/animation.py", "RegularizationExplained")
+EPISODES["discriminant01"] = ("episodes/discriminant01_geometry/scene.py", "DG01Intro")
 EPISODES["newton01"] = ("episodes/newton01_local_linear/scene.py", "NW01Intro")
 EPISODES["lhopital01"] = ("episodes/lhopital01_relative_change/scene.py", "LH01Intro")
 EPISODES["gpu02"] = ("episodes/gpu02_warp/scene.py", "WarpIntroduction")
@@ -359,6 +360,11 @@ def main():
         return
     if a.episode == "eulerh01":
         command = [sys.executable, str(ROOT / "episodes/euler01_homology/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "discriminant01":
+        command = [sys.executable, str(ROOT / "episodes/discriminant01_geometry/build.py")]
         if a.preview: command.append("--preview")
         subprocess.run(command, cwd=ROOT, check=True)
         return
