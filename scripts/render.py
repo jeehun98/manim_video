@@ -313,6 +313,10 @@ def main():
         "quantum02_longform": ("ep02_photoelectric", "longform"),
         "quantum03": ("ep03_rutherford", "both"), "quantum03_shorts": ("ep03_rutherford", "shorts"),
         "quantum03_longform": ("ep03_rutherford", "longform"),
+        "quantum04": ("ep04_bohr", "both"), "quantum04_shorts": ("ep04_bohr", "shorts"),
+        "quantum04_longform": ("ep04_bohr", "longform"),
+        "quantum05": ("ep05_franck_hertz", "both"), "quantum05_shorts": ("ep05_franck_hertz", "shorts"),
+        "quantum05_longform": ("ep05_franck_hertz", "longform"),
     }
     projects = {
         "qr01_shorts": ("qr01_new_directions", "shorts"),

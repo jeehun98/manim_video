@@ -1,0 +1,54 @@
+# Independent scene index; all durations use user sentence-end timestamps.
+episode: quantum04
+duration: 113
+fps: 30
+audio: null
+scenes:
+  - id: 01_question
+    class: ChargeQuestion
+    start: 0
+    end: 7
+    duration: 7
+    source: scenes/01_question/scene.py
+    spec: scenes/01_question/spec.md
+    claim: "인력과 안정성은 함께 설명되어야 한다."
+  - id: 02_classical
+    class: ClassicalFailure
+    start: 7
+    end: 34
+    duration: 27
+    source: scenes/02_classical/scene.py
+    spec: scenes/02_classical/spec.md
+    claim: "고전적 복사 궤도 모형은 원자의 안정성과 모순된다."
+  - id: 03_postulates
+    class: BohrPostulates
+    start: 34
+    end: 55
+    duration: 21
+    source: scenes/03_postulates/scene.py
+    spec: scenes/03_postulates/spec.md
+    claim: "보어는 특정 궤도와 복사하지 않는 정상상태를 가정했다."
+  - id: 04_spectrum
+    class: HydrogenObservation
+    start: 55
+    end: 71
+    duration: 16
+    source: scenes/04_spectrum/scene.py
+    spec: scenes/04_spectrum/spec.md
+    claim: "수소의 가시광 방출은 연속 띠가 아닌 선 스펙트럼이다."
+  - id: 05_transitions
+    class: EnergyTransitions
+    start: 71
+    end: 95
+    duration: 24
+    source: scenes/05_transitions/scene.py
+    spec: scenes/05_transitions/spec.md
+    claim: "허용 상태의 에너지 차이는 수소의 방출 파장을 설명한다."
+  - id: 06_question
+    class: OpenQuestion
+    start: 95
+    end: 113
+    duration: 18
+    source: scenes/06_question/scene.py
+    spec: scenes/06_question/spec.md
+    claim: "허용 상태의 근본적인 이유는 보어의 가정만으로 설명되지 않는다."

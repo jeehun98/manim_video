@@ -23,6 +23,13 @@
       "duration": 105
     },
     {
+      "id": "ep04_bohr",
+      "title": "1913 · 보어 모형과 원자의 안정성",
+      "video": "exports/quantum04_longform.mp4",
+      "script": "quantum_series/episodes/ep04_bohr/script.json",
+      "duration": 113
+    },
+    {
       "id": "ep05_franck_hertz",
       "title": "1914 · 프랑크–헤르츠 실험",
       "video": "exports/quantum05_longform.mp4",
@@ -86,12 +93,5 @@
       "duration": 221
     }
   ],
-  "planned_only": [
-    {
-      "id": "ep04_bohr",
-      "year": 1913,
-      "topic": "보어 모형",
-      "status": "미제작"
-    }
-  ]
+  "planned_only": []
 }

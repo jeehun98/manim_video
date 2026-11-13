@@ -1,0 +1,27 @@
+{
+  "level_spacing": "monotonic energies with decreasing gaps: passed",
+  "wavelengths": {
+    "3": {
+      "energy_eV": -1.5109207777777778,
+      "vacuum_nm": 656.4696189159708,
+      "representative_air_nm": 656.28
+    },
+    "4": {
+      "energy_eV": -0.8498929375,
+      "vacuum_nm": 486.273791789608,
+      "representative_air_nm": 486.13
+    },
+    "5": {
+      "energy_eV": -0.5439314799999999,
+      "vacuum_nm": 434.1730283835786,
+      "representative_air_nm": 434.05
+    },
+    "6": {
+      "energy_eV": -0.37773019444444444,
+      "vacuum_nm": 410.2935118224817,
+      "representative_air_nm": 410.17
+    }
+  },
+  "comparison": "vacuum calculation vs representative air wavelengths; difference <0.25 nm",
+  "caption_bounds": "23 captions and headings inside both aspect-ratio frames"
+}

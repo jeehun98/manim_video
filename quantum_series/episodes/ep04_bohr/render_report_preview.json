@@ -1,0 +1,21 @@
+[
+  {
+    "layout": "longform",
+    "ending": "join",
+    "output": "C:\\Users\\owner\\Desktop\\manim_video\\exports\\quantum04_longform_preview.mp4",
+    "duration": 113,
+    "frames": 3390,
+    "width": 640,
+    "height": 360,
+    "fps": 30,
+    "audio": "not supplied; silent video",
+    "clips": [
+      "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum04\\longform\\join\\preview\\videos\\scene\\360p30\\ChargeQuestion.mp4",
+      "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum04\\longform\\join\\preview\\videos\\scene\\360p30\\ClassicalFailure.mp4",
+      "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum04\\longform\\join\\preview\\videos\\scene\\360p30\\BohrPostulates.mp4",
+      "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum04\\longform\\join\\preview\\videos\\scene\\360p30\\HydrogenObservation.mp4",
+      "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum04\\longform\\join\\preview\\videos\\scene\\360p30\\EnergyTransitions.mp4",
+      "C:\\Users\\owner\\Desktop\\manim_video\\media\\quantum04\\longform\\join\\preview\\videos\\scene\\360p30\\OpenQuestion.mp4"
+    ]
+  }
+]
