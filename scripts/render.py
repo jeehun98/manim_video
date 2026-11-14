@@ -2,6 +2,10 @@ import argparse, os, shutil, subprocess, sys
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 EPISODES = {"20": ("episodes/20_softmax_attention_finale/scene.py", "SoftmaxAttentionFinale"), "19": ("episodes/19_softmax_entropy/scene.py", "SoftmaxEntropy"), "18": ("episodes/18_softmax_lse/scene.py", "SoftmaxLSE"), "17": ("episodes/17_softmax_sigmoid/scene.py", "SoftmaxSigmoid"), "16": ("episodes/16_softmax_jacobian/scene.py", "SoftmaxJacobian"), "15": ("episodes/15_softmax_temperature/scene.py", "SoftmaxTemperature"), "14": ("episodes/14_softmax_ratio/scene.py", "SoftmaxRatio"), "13": ("episodes/13_softmax_shift/scene.py", "SoftmaxShift"), "12": ("episodes/12_softmax_intro/scene.py", "SoftmaxIntroduction"), "11": ("episodes/11_sigmoid_finale/scene.py", "SigmoidFinale"), "10": ("episodes/10_sigmoid_cdf/scene.py", "SigmoidCDF"), "09": ("episodes/09_sigmoid_distribution/scene.py", "SigmoidDistribution"), "08": ("episodes/08_sigmoid_saturation/scene.py", "SigmoidSaturation"), "07": ("episodes/07_sigmoid_derivative/scene.py", "SigmoidDerivative"), "06": ("episodes/06_sigmoid_intro/scene.py", "SigmoidIntroduction"), "05": ("episodes/05_computation_simplification/scene.py", "ComputationSimplification"), "04": ("episodes/04_irreversibility/scene.py", "Irreversibility"), "03": ("episodes/03_relu_change_magnitude/scene.py", "ReLUChangeMagnitude"), "01": ("episodes/01_relu/scene.py", "ReLUIntroduction"), "02": ("episodes/02_relu_information_loss/scene.py", "ReLUInformationLoss"), "legacy": ("archive/relu_short.py", "ReLUShort")}
+EPISODES["conv01"] = ("episodes/conv01_fourier_basis/scenes/01/scene.py", "Shot01")
+EPISODES["egeom01"] = ("episodes/egeom01_area_inverse/scene.py", "EAreaGeometry")
+EPISODES["log01"] = ("episodes/log01_ratio_area/scene.py", "LogRatioGeometry")
+EPISODES["trig01"] = ("episodes/trig01_rotation_addition/scene.py", "TrigAdditionGeometry")
 EPISODES["gpu01"] = ("episodes/gpu01_formula_to_gpu/scene.py", "FormulaToGPU")
 EPISODES["reggeom01"] = ("episodes/reggeom01_lp_geometry/animation.py", "RegularizationExplained")
 EPISODES["reggeom01v"] = ("episodes/reggeom01_lp_geometry/animation.py", "RegularizationExplained")
@@ -395,6 +399,26 @@ def main():
         return
     if a.episode == "samemath01":
         command = [sys.executable, str(ROOT / "episodes/samemath01_least_squares/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "conv01":
+        command = [sys.executable, str(ROOT / "episodes/conv01_fourier_basis/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "egeom01":
+        command = [sys.executable, str(ROOT / "episodes/egeom01_area_inverse/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "log01":
+        command = [sys.executable, str(ROOT / "episodes/log01_ratio_area/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "trig01":
+        command = [sys.executable, str(ROOT / "episodes/trig01_rotation_addition/build.py")]
         if a.preview: command.append("--preview")
         subprocess.run(command, cwd=ROOT, check=True)
         return

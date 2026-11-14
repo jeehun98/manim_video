@@ -1,0 +1,14 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\log01_short.mp4",
+  "duration": 158,
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "frames": 9480,
+  "audio": "not supplied; silent",
+  "sha256": "432b1b65692a07e7394393acf292379ccd45c29439c3d302405ef3efbf2cd8e9",
+  "caption_boundaries": "34 supplied sentence ends; within 1 frame",
+  "geometry": "frame and caption band checks on every frame",
+  "math": "log spacing, exact 1 percent, local approximation, area-preserving scale, integral additivity passed",
+  "decode": "passed"
+}

@@ -1,0 +1,16 @@
+{
+  "representative_scenes": [
+    "49–75 s: component rotation and head-to-tail sum",
+    "95–110 s: basis columns and matrix"
+  ],
+  "reviewed_images": [
+    "media/trig01/negative_review.png",
+    "media/trig01/matrix_review.png"
+  ],
+  "result": "negative x points left; columns match rotated basis; subtitles separate; no clipping",
+  "final_review": [
+    "141 s: Euler identity, unchanged coordinate system, clear projections",
+    "175 s: single vector and conclusion; no leftover basis arrows"
+  ],
+  "final_result": "passed"
+}

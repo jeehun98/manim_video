@@ -1,0 +1,14 @@
+{
+  "source_sha256": "54718489ff032926a40574cf103817458ccd82148a69d5bd9bbe4a36b3a51311",
+  "moving_average": "valid samples exact",
+  "delay_phase_radians": -0.7853981633974483,
+  "eigenfunction_error": 2.5918417478740242e-15,
+  "fft_error": 4.151410388520268e-16,
+  "diagonalization_error": 2.375785005596054e-15,
+  "gains": [
+    0.9829629131445342,
+    0.8535533905932737,
+    0.5
+  ],
+  "boundaries": "valid average; zero-extended general example; periodic DFT explicitly distinguished"
+}

@@ -1851,3 +1851,39 @@ python scripts/render.py softmax01
 - 소스: `episodes/discriminant01_geometry/scene.py`
 - 렌더: `python scripts/render.py discriminant01`
 - 출력: `exports/discriminant01_short.mp4` (1080×1920, 30fps, 무음)
+
+
+### trig01 — 삼각함수 덧셈정리의 기하학
+
+- 실제 소스: `episodes/trig01_rotation_addition/scene.py`, `build.py`, `timing.json`, `captions.srt`
+- 176초 · 쇼츠 1080×1920 · 60fps · 음원 미제공으로 무음
+- 제작: `python scripts/render.py trig01`
+- 전체 미리보기(필요 시): `python scripts/render.py trig01 --preview`
+- 결과: `exports/trig01_short.mp4`
+
+
+### log01 — 로그는 왜 곱셈을 덧셈으로 바꿀까?
+
+- 실제 소스: `episodes/log01_ratio_area/scene.py`, `build.py`, `timing.json`, `captions.srt`
+- 158초 · 쇼츠 1080×1920 · 60fps · 음원 미제공으로 무음
+- 제작: `python scripts/render.py log01`
+- 전체 미리보기(필요 시): `python scripts/render.py log01 --preview`
+- 결과: `exports/log01_short.mp4`
+
+
+### egeom01 — 자연상수 e는 왜 등장할까?
+
+- 실제 소스: `episodes/egeom01_area_inverse/scene.py`, `build.py`, `timing.json`, `captions.srt`
+- 159초 · 쇼츠 1080×1920 · 60fps · 음원 미제공으로 무음
+- 제작: `python scripts/render.py egeom01`
+- 전체 미리보기(필요 시): `python scripts/render.py egeom01 --preview`
+- 결과: `exports/egeom01_short.mp4`
+
+
+### conv01 — 합성곱이 곱셈으로 바뀌는 이유
+
+- 실제 소스: `episodes/conv01_fourier_basis/direction.py`, `model.py`, `scenes/`, `build.py`, `timing.json`, `captions.srt`
+- 163초 · 쇼츠 1080×1920 · 60fps · 음원 미제공으로 무음
+- 제작: `python scripts/render.py conv01`
+- 대표 씬 확인: `python episodes/conv01_fourier_basis/build.py --preview --scene 06 09 12 15`
+- 결과: `exports/conv01_short.mp4`

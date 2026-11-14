@@ -1,0 +1,8 @@
+{
+  "samples": 200,
+  "max_component_error": 2.220446049250313e-16,
+  "unit_length": true,
+  "matrix_order": "R(beta) R(alpha)",
+  "negative_x_example": true,
+  "complex_equivalence": true
+}

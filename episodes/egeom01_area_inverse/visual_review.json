@@ -1,0 +1,23 @@
+{
+  "representative_scenes": [
+    "63–83: accumulated area reaches 1 exactly at e",
+    "83–101: area maps to logarithm, boundary height maps to slope",
+    "101–139: data-coordinate swap, reciprocal slopes, E(1)=e"
+  ],
+  "images": [
+    "media/egeom01/discovery_preview.png",
+    "media/egeom01/accumulation_preview.png",
+    "media/egeom01/height_slope_preview.png",
+    "media/egeom01/inverse_preview.png",
+    "media/egeom01/slope_preview.png",
+    "media/egeom01/paired_preview.png"
+  ],
+  "result": "passed; duplicate brand removed and confirmed in final representative; equations and narration separated; reflection uses equal coordinate units",
+  "final_review": [
+    "55 s: varying C/x curve has no stale reference point",
+    "79 s: area 1 at e",
+    "118 s: logarithm and inverse tangents",
+    "158 s: final e identity and complete narration"
+  ],
+  "final_result": "passed"
+}

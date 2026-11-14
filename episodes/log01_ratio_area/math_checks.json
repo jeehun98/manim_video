@@ -1,0 +1,11 @@
+{
+  "scale_frames_checked": 202,
+  "max_polygon_area_error": 2.842170943040401e-14,
+  "boundary": "all sampled upper points satisfy y=1/x",
+  "spacing": "passed",
+  "relative_change": "exactly 1 percent",
+  "approximation": "ln(1.01) approx 0.01, not equality",
+  "composition_samples": 200,
+  "intervals": "[1,2] and [2,6] share exactly x=2",
+  "positive_domain": true
+}

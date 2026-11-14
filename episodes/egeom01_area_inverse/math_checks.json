@@ -1,0 +1,12 @@
+{
+  "e_from_area_root": 2.718281828459046,
+  "area_at_root": 1.0000000000000002,
+  "inverse_samples": 81,
+  "max_exponential_derivative_error": 1.8567991588724908e-10,
+  "coordinate_swap": "passed",
+  "inverse_tangent_reciprocity": "passed",
+  "normalization": "f(1)=1; E(0)=1",
+  "equal_axis_units": "asserted in render",
+  "area_scaling": "inherited unchanged region() and scale_region() from log01; previous checks reused",
+  "shared_source_sha256": "2a57cb59a7bc797060f19859a8a8447a6ab3431af279b680956c107d6ac73d4f"
+}

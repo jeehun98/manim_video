@@ -1,0 +1,22 @@
+{
+  "representative_scenes": [
+    "11–33: linear to logarithmic scale",
+    "68–92: derivative, local approximation, Riemann sum",
+    "98–138: area-preserving deformation and adjacent area sum"
+  ],
+  "images": [
+    "media/log01/linear_preview.png",
+    "media/log01/logscale_preview.png",
+    "media/log01/calculus_preview.png",
+    "media/log01/riemann_preview.png",
+    "media/log01/area_preview.png",
+    "media/log01/addition_preview.png"
+  ],
+  "result": "passed; labels and equations separated from narration band; x label aligned to actual axis in final source",
+  "final_review": [
+    "44 s: equal log distances on shared base-10 scale",
+    "106 s: [1,2] and [2,4] areas under the same curve",
+    "157 s: adjacent areas, final identity, positive-domain note"
+  ],
+  "final_result": "passed"
+}

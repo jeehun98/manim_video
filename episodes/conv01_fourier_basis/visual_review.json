@@ -1,0 +1,27 @@
+{
+  "representative_scenes": [
+    "01: image blur and filtered audio example",
+    "02: actual valid moving average",
+    "06–08: clockwise delay, factorization, weighted waves",
+    "09: complex coefficient head-to-tail sum",
+    "12: one-sided amplitude and phase",
+    "15: circular convolution matrix diagonalization"
+  ],
+  "images": [
+    "media/conv01/review_01.png",
+    "media/conv01/review_02.png",
+    "media/conv01/review_06.png",
+    "media/conv01/review_07.png",
+    "media/conv01/review_08.png",
+    "media/conv01/review_09.png",
+    "media/conv01/review_12.png",
+    "media/conv01/review_15.png"
+  ],
+  "result": "passed; wave ghost fills removed; subtitles and formula bands separated; amplitude and phase both displayed",
+  "final_review": [
+    "110 s: same frequency, computed magnitude 0.854 and phase −45 degrees",
+    "145 s: direct convolution and FFT/IFFT paths coincide",
+    "161 s: conclusion, subtitle and formula spacing"
+  ],
+  "final_result": "passed"
+}

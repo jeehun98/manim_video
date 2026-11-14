@@ -1,0 +1,14 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\trig01_short.mp4",
+  "duration": 176,
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "frames": 10560,
+  "audio": "not supplied; silent",
+  "sha256": "1fac0fe9004b6a643604b7664075518a201b73b4e933a50ffbe849334f5fd52c",
+  "caption_boundaries": "33 supplied sentence ends; within 1 frame",
+  "geometry": "frame and caption band checks on every frame",
+  "math": "component sum, negative x, matrix composition, complex multiplication passed",
+  "decode": "passed"
+}

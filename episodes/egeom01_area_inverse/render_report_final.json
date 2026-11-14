@@ -1,0 +1,24 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\egeom01_short.mp4",
+  "duration": 159,
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "frames": 9540,
+  "audio": "not supplied; silent",
+  "sha256": "e1186251685794bcc3b905d522a5b2eacc5e19b4733d598fe23d96f64d2bc1ba",
+  "caption_boundaries": "34 supplied sentence ends; within 1 frame",
+  "geometry": "frame and caption band checks on every frame",
+  "math": "e from area root, normalization, reciprocal slope, coordinate swap, exponential derivative passed",
+  "decode": "passed",
+  "section_replacement": {
+    "replaced_seconds": [
+      53,
+      63
+    ],
+    "frames": 600,
+    "boundary_mean_absolute_pixel_error": 0.02303562242798354,
+    "caption_boundaries": "53 and 58 seconds passed",
+    "reuse": "unchanged 0–53 and 63–159 seconds; same layout, timing, narration and animation methods"
+  }
+}
