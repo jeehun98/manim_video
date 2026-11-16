@@ -2157,3 +2157,8 @@ python scripts/render.py benford01
 ```
 
 최종 결과: `exports/benford01_short.mp4`. 대표 씬: `python episodes/benford01_log_intervals/build.py --preview --scene 05 10 12 14 18 19`.
+
+### 대칭과 군
+
+- [대칭은 좌우가 같다는 뜻이 아니다](episodes/symmetry01_group/brief.md) · 147초, 세로 1080×1920, 60fps, 무음 및 별도 SRT.
+- 렌더는 `python scripts/render.py symmetry01`로 실행한다. `--preview`를 붙이면 저해상도 미리보기를 만든다. 최종 출력은 `exports/symmetry01_short.mp4`다.
