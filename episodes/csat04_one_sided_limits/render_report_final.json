@@ -1,0 +1,70 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat04.mp4",
+  "duration": "123.000000",
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "frames": "3690",
+  "audio": "not supplied; silent",
+  "decode": "passed",
+  "sha256": "a57589f7e11b90b498656f130a54c7d745a0ea0400f6910a4d05bab34d3d2c5e",
+  "sentences": 27,
+  "caption_timing": "supplied starts/ends; 30 fps boundaries",
+  "geometry": "per-frame content bounds and caption band assertions",
+  "math": "left(-1)=-1; right(1)=1; sum=0; f(-1)=1; f(1)=0; right(-1)=2",
+  "input_sha256": {
+    "scene.py": "bc8dbddd84f250911896e941f9c56b984da52827ee3c388b8b108a2c40d94ca9",
+    "timing.json": "cdcc79530d9a6dd2050909c05ea53fccf81db91159a680d07f4a3a4fe8830a1a",
+    "graph_data.json": "8e23b8e7eb70d41999049aa057c469a416b0546472bc691b8d2b8f09ae369e53",
+    "build.py": "270ce268ea56c6403bfd209080c19661a4d984760428c234c41eb185885ce5c2"
+  },
+  "source_pdf_sha256": "6812412952c426b2cd43b8a9a0eef92cb707811bd9264b525f583c7fc27d160a",
+  "source_url": "https://wdown.ebsi.co.kr/W61001/01exam/20260604/go3/math_main_mun_KKD67VZI.pdf",
+  "shot_frames": [
+    180,
+    150,
+    390,
+    360,
+    330,
+    330,
+    150,
+    330,
+    180,
+    180,
+    120,
+    240,
+    270,
+    240,
+    150,
+    90
+  ],
+  "visual_review": "original graph, open/closed endpoints, left/right approach, function-value comparison and two-sided nonexistence checked",
+  "graph": "central branch traced from original raster; no analytic formula assumed; all endpoint coordinates checked",
+  "previous_video_sha256": "cd2255df1fcc348cd9ae5a000f2b6240868deaf3d9bc5765474493c2d385a791",
+  "problem_card": {
+    "enabled": true,
+    "header_mae_start_middle_end": [
+      1.9367717978395063,
+      1.894206211419753,
+      1.8941657021604938
+    ],
+    "layout": {
+      "card": [
+        0,
+        0,
+        1920,
+        180
+      ],
+      "lesson": [
+        160,
+        180,
+        1600,
+        900
+      ],
+      "scale": "uniform 5/6; no crop"
+    },
+    "source": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\episodes\\csat_series\\problem_cards\\problems.json",
+    "card_sha256": "4eacf71eccefb665a2aba0d9ffa278db2291a3b55f2afc8d6a684eb5bc2d211c",
+    "original_backup": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\problem_card_originals\\csat04.mp4"
+  }
+}

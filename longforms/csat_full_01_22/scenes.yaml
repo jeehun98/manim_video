@@ -1,0 +1,91 @@
+fps: 30
+resolution: [1920, 1080]
+chapters:
+  - number: 1
+    video: exports/csat01.mp4
+    audio: exports/수능_1.mp3
+    output: exports/csat_voiced/csat01_voiced.mp4
+  - number: 2
+    video: exports/csat02.mp4
+    audio: exports/수능_2.mp3
+    output: exports/csat_voiced/csat02_voiced.mp4
+  - number: 3
+    video: exports/csat03.mp4
+    audio: exports/수능_3.mp3
+    output: exports/csat_voiced/csat03_voiced.mp4
+  - number: 4
+    video: exports/csat04.mp4
+    audio: exports/수능_4.mp3
+    output: exports/csat_voiced/csat04_voiced.mp4
+  - number: 5
+    video: exports/csat05.mp4
+    audio: exports/수능_5.mp3
+    output: exports/csat_voiced/csat05_voiced.mp4
+  - number: 6
+    video: exports/csat06.mp4
+    audio: exports/수능_6.mp3
+    output: exports/csat_voiced/csat06_voiced.mp4
+  - number: 7
+    video: exports/csat07.mp4
+    audio: exports/수능_7.mp3
+    output: exports/csat_voiced/csat07_voiced.mp4
+  - number: 8
+    video: exports/csat08.mp4
+    audio: exports/수능_8.mp3
+    output: exports/csat_voiced/csat08_voiced.mp4
+  - number: 9
+    video: exports/csat09.mp4
+    audio: exports/수능_9.mp3
+    output: exports/csat_voiced/csat09_voiced.mp4
+  - number: 10
+    video: exports/csat10.mp4
+    audio: exports/수능_10.mp3
+    output: exports/csat_voiced/csat10_voiced.mp4
+  - number: 11
+    video: exports/csat11.mp4
+    audio: exports/수능_11.mp3
+    output: exports/csat_voiced/csat11_voiced.mp4
+  - number: 12
+    video: exports/csat12.mp4
+    audio: exports/수능_12.mp3
+    output: exports/csat_voiced/csat12_voiced.mp4
+  - number: 13
+    video: exports/csat13.mp4
+    audio: exports/수능_13.mp3
+    output: exports/csat_voiced/csat13_voiced.mp4
+  - number: 14
+    video: exports/csat14.mp4
+    audio: exports/수능_14.mp3
+    output: exports/csat_voiced/csat14_voiced.mp4
+  - number: 15
+    video: exports/csat15.mp4
+    audio: exports/수능_15.mp3
+    output: exports/csat_voiced/csat15_voiced.mp4
+  - number: 16
+    video: exports/csat16.mp4
+    audio: exports/수능_16.mp3
+    output: exports/csat_voiced/csat16_voiced.mp4
+  - number: 17
+    video: exports/csat17.mp4
+    audio: exports/수능_17.mp3
+    output: exports/csat_voiced/csat17_voiced.mp4
+  - number: 18
+    video: exports/csat18.mp4
+    audio: exports/수능_18.mp3
+    output: exports/csat_voiced/csat18_voiced.mp4
+  - number: 19
+    video: exports/csat19.mp4
+    audio: exports/수능_19.mp3
+    output: exports/csat_voiced/csat19_voiced.mp4
+  - number: 20
+    video: exports/csat20.mp4
+    audio: exports/수능_20.mp3
+    output: exports/csat_voiced/csat20_voiced.mp4
+  - number: 21
+    video: exports/csat21.mp4
+    audio: exports/수능_21.mp3
+    output: exports/csat_voiced/csat21_voiced.mp4
+  - number: 22
+    video: exports/csat22.mp4
+    audio: exports/수능_22.mp3
+    output: exports/csat_voiced/csat22_voiced.mp4

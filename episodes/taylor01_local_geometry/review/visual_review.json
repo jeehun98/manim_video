@@ -1,0 +1,31 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\taylor01_short.mp4",
+  "video_sha256": "e7caf33bbc0d02f94d768648eeb0333375d678c4c3d38e77344f2a4d8617c249",
+  "checked_final_scenes": [
+    "01",
+    "02",
+    "04",
+    "07",
+    "08",
+    "09",
+    "12",
+    "14"
+  ],
+  "checked_representative_previews": [
+    "03",
+    "05",
+    "08",
+    "10",
+    "12",
+    "13"
+  ],
+  "result": "passed",
+  "checks": [
+    "same original sine curve; a=1 then a=0",
+    "factorial and derivative-at-center formulas",
+    "local zoom and absolute error figures",
+    "finite approximation versus infinite series distinction",
+    "captions readable; no frame or subtitle band intrusion"
+  ],
+  "legend_correction": "Scene 02 labels alternatives as possible curves; only changed scene rerendered"
+}

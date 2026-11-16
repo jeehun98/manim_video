@@ -1,0 +1,81 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat18.mp4",
+  "duration": "191.000000",
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "frames": "5730",
+  "audio": "not supplied; silent",
+  "decode": "passed",
+  "sha256": "b351444505a8de79ec5d2f9be33cfaaba8aaf1e1a03b6dc257c5bbb327546b70",
+  "sentences": 43,
+  "caption_timing": "supplied starts/ends; 30 fps boundaries",
+  "geometry": "per-frame content bounds and caption band assertions",
+  "math": "a6=5,a5-a2=-6=3d;d=-2;a1=15;terms15,13,11,9,7,5;an=17-2n;slope=-6/3=-2",
+  "input_sha256": {
+    "scene.py": "4048eb1610dcd7168f11235f96c151efc4a765e13ae6016207f6b4f1045e80ea",
+    "timing.json": "5640d9ca270fcc17d7ca2e23bd4e7a3f8faeed66cababb1d02aa6adf02830f4f",
+    "build.py": "667922066ab65cb169a3de15657b357db07b9cacb3730dc6d3acf6763d619501"
+  },
+  "shot_frames": [
+    180,
+    210,
+    330,
+    210,
+    150,
+    270,
+    180,
+    300,
+    240,
+    210,
+    150,
+    240,
+    210,
+    90,
+    330,
+    120,
+    180,
+    60,
+    90,
+    300,
+    210,
+    120,
+    210,
+    150,
+    90,
+    360,
+    180,
+    270,
+    90
+  ],
+  "visual_review": "Preview05,08,12,13,26,28 and final08,10,12,13,15,17,24,26 reviewed: correct three/five step counts, reverse +2 arrows, total decrease10, six actual terms, original conditions, discrete sequence points and helper line, slope triangles, captions and layout passed.",
+  "symbolic_validation": "SymPy solved A+5d=5 and3d=-6 -> A=15,d=-2. Terms15,13,11,9,7,5 satisfy a6=5,a5=a2-6. General term17-2n and slope(7-13)/(5-2)=-2.",
+  "caption_clarification": "89–94s supplied TTS preserved; caption explicitly states 10만큼 작습니다 to avoid confusing 십이 작습니다 with twelve.",
+  "previous_video_sha256": "7e9efe5dbff2924dbe0a5b7a7a520288a9c92740e1eefd151146fd8215bc0ca9",
+  "problem_card": {
+    "enabled": true,
+    "header_mae_start_middle_end": [
+      1.7188792438271605,
+      1.6870032793209877,
+      1.7002324459876543
+    ],
+    "layout": {
+      "card": [
+        0,
+        0,
+        1920,
+        180
+      ],
+      "lesson": [
+        160,
+        180,
+        1600,
+        900
+      ],
+      "scale": "uniform 5/6; no crop"
+    },
+    "source": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\episodes\\csat_series\\problem_cards\\problems.json",
+    "card_sha256": "800e5476454c892498c6bef6f2e29aab0f9a221981a9febf93809f8001252c81",
+    "original_backup": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\problem_card_originals\\csat18.mp4"
+  }
+}

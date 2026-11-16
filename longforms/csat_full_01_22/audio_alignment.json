@@ -1,0 +1,116 @@
+{
+  "all22passed": true,
+  "chapters": [
+    {
+      "number": 1,
+      "correlation": 0.9860622250384466,
+      "offset_seconds": 0.0213125
+    },
+    {
+      "number": 2,
+      "correlation": 0.9665608164683038,
+      "offset_seconds": 0.0213125
+    },
+    {
+      "number": 3,
+      "correlation": 0.9740715493185054,
+      "offset_seconds": 0.0213125
+    },
+    {
+      "number": 4,
+      "correlation": 0.9746933174792843,
+      "offset_seconds": 0.0213125
+    },
+    {
+      "number": 5,
+      "correlation": 0.9806414539805723,
+      "offset_seconds": 0.0213125
+    },
+    {
+      "number": 6,
+      "correlation": 0.9808925791914959,
+      "offset_seconds": 0.0213125
+    },
+    {
+      "number": 7,
+      "correlation": 0.9683952038750459,
+      "offset_seconds": 0.0213125
+    },
+    {
+      "number": 8,
+      "correlation": 0.9893498708358802,
+      "offset_seconds": 0.0213125
+    },
+    {
+      "number": 9,
+      "correlation": 0.9916697505214438,
+      "offset_seconds": 0.0213125
+    },
+    {
+      "number": 10,
+      "correlation": 0.9827000054150494,
+      "offset_seconds": 0.0213125
+    },
+    {
+      "number": 11,
+      "correlation": 0.9719155738811003,
+      "offset_seconds": 0.0213125
+    },
+    {
+      "number": 12,
+      "correlation": 0.987178509936425,
+      "offset_seconds": 0.0213125
+    },
+    {
+      "number": 13,
+      "correlation": 0.9923380774362947,
+      "offset_seconds": 0.0213125
+    },
+    {
+      "number": 14,
+      "correlation": 0.986002112519415,
+      "offset_seconds": 0.0213125
+    },
+    {
+      "number": 15,
+      "correlation": 0.9821868213774197,
+      "offset_seconds": 0.0213125
+    },
+    {
+      "number": 16,
+      "correlation": 0.9814588286729421,
+      "offset_seconds": 0.0213125
+    },
+    {
+      "number": 17,
+      "correlation": 0.9794617418985623,
+      "offset_seconds": 0.0213125
+    },
+    {
+      "number": 18,
+      "correlation": 0.9838061883549543,
+      "offset_seconds": 0.0213125
+    },
+    {
+      "number": 19,
+      "correlation": 0.9834112595505886,
+      "offset_seconds": 0.0213125
+    },
+    {
+      "number": 20,
+      "correlation": 0.9915814451101027,
+      "offset_seconds": 0.0213125
+    },
+    {
+      "number": 21,
+      "correlation": 0.9689641075472553,
+      "offset_seconds": 0.0213125
+    },
+    {
+      "number": 22,
+      "correlation": 0.9900350753770244,
+      "offset_seconds": 0.0213125
+    }
+  ],
+  "chapter_metadata": "22 exact starts verified"
+}

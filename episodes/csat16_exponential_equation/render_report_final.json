@@ -1,0 +1,75 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat16.mp4",
+  "duration": "160.000000",
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "frames": "4800",
+  "audio": "not supplied; silent",
+  "decode": "passed",
+  "sha256": "b4bd902e0511779db4c6ea76802b52cb8b97fc65a6f59a1ca3b47eb0fcf7ef5c",
+  "sentences": 39,
+  "caption_timing": "supplied starts/ends; 30 fps boundaries",
+  "geometry": "per-frame content bounds and caption band assertions",
+  "math": "1/9=3^-2;(3^-2)^x=3^-2x;3^(x-6)=3^-2x => x-6=-2x => x=2;both sides=1/81;injective for base>0,base!=1",
+  "input_sha256": {
+    "scene.py": "9a093500720b048ac3cd42537d5d39484207738ecf2e2848dcb23fac4f778758",
+    "timing.json": "db798ece2bbd1889078d1450ff063a0f427a4a18d9bd21f9b26103c191616215",
+    "build.py": "245ec46d877b7cee1acab5bb86dbdfba55b78ce6af57bf2300f671e8dd47f324"
+  },
+  "shot_frames": [
+    210,
+    150,
+    330,
+    180,
+    180,
+    210,
+    210,
+    150,
+    240,
+    90,
+    360,
+    150,
+    150,
+    120,
+    240,
+    300,
+    210,
+    330,
+    210,
+    360,
+    180,
+    150,
+    90
+  ],
+  "visual_review": "Preview08,12,13,20,17 and final06,08,09,12,13,15,17,20 reviewed. Verification Shot17 spacing corrected and rerendered. Negative-exponent reciprocal, outer exponent x, product of exponents, true exponential graph, unique horizontal intersection, base conditions/counterexample, captions and layout passed.",
+  "symbolic_validation": "SymPy: x-6=-2x has sole root2; 3^(2-6)=(1/9)^2=1/81. Exponential base3>0 and !=1 implies injectivity. Negative-power generalization uses a>0 for real powers, reciprocal a^-1 uses a!=0.",
+  "render_reuse": "Only Shot17 layout changed following final visual review; rerendered17 and reassembled unchanged other22 shots.",
+  "previous_video_sha256": "fe254664ecd7caffccf227db1e4d02193269d022b46f6b62abcb79be7ae4f107",
+  "problem_card": {
+    "enabled": true,
+    "header_mae_start_middle_end": [
+      1.7130217978395061,
+      1.6793412422839507,
+      1.7077652391975309
+    ],
+    "layout": {
+      "card": [
+        0,
+        0,
+        1920,
+        180
+      ],
+      "lesson": [
+        160,
+        180,
+        1600,
+        900
+      ],
+      "scale": "uniform 5/6; no crop"
+    },
+    "source": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\episodes\\csat_series\\problem_cards\\problems.json",
+    "card_sha256": "61a017aa6f2e2c1dcddd22b94097d43d7f696a0e9a93208c2b3c01bf0dc52c1b",
+    "original_backup": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\problem_card_originals\\csat16.mp4"
+  }
+}

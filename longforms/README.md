@@ -1,5 +1,21 @@
 # 롱폼 제작 규격
 
+- [오일러 항등식 — 음성 포함 7편 통합 롱폼](euler_identity/full_01_07/README.md): 사용자 지정 MP4·MP3 7쌍 결합, 17분 6.967초, 1080p60, 음성 및 MP4 챕터 포함. `py -3.12 longforms/euler_identity/full_01_07/build.py`.
+
+- [오일러 항등식 — 6장 · 다섯 숫자가 하나로 연결되는 순간](euler_identity/chapter_06/README.md): 사용자 제공 36문장·143초, 16:9 1080p60 전용, 무음·전체 자막. `py -3.12 longforms/euler_identity/chapter_06/build.py`.
+
+- [오일러 항등식 — 5장 · 지수함수가 회전이 되는 순간](euler_identity/chapter_05/README.md): 사용자 제공 49문장·224초, 16:9 1080p60 전용, 무음·전체 자막. `py -3.12 longforms/euler_identity/chapter_05/build.py`.
+
+- [오일러 항등식 — 4장 · e, 반복 곱셈에서 연속적인 변화로](euler_identity/chapter_04/README.md): 사용자 제공 46문장·202초, 16:9 1080p30 전용, 무음·전체 자막. `py -3.12 longforms/euler_identity/chapter_04/build.py`.
+
+- [오일러 항등식 — 3장 · i, 허수와 회전](euler_identity/chapter_03/README.md): 사용자 제공 40문장·171초, 16:9 1080p30 전용, 무음·전체 자막. `py -3.12 longforms/euler_identity/chapter_03/build.py`.
+
+- [오일러 항등식 — 2장 · π, 모든 원에서 발견되는 하나의 비율](euler_identity/chapter_02/README.md): 사용자 제공 35문장·142초, 16:9 1080p30 전용, 무음·전체 자막. `py -3.12 longforms/euler_identity/chapter_02/build.py`.
+
+- [오일러 항등식 — 1장 · 0과 1, 수학의 기준점](euler_identity/chapter_01/README.md): 사용자 제공 21문장·83초, 16:9 1080p30 전용, 무음·전체 자막. `py -3.12 longforms/euler_identity/chapter_01/build.py`.
+
+- [오일러 항등식 — 0장 도입](euler_identity/chapter_00/README.md): 사용자 제공 18문장·58초, 16:9 1080p30 전용, 무음·전체 자막. `py -3.12 longforms/euler_identity/chapter_00/build.py`.
+
 - [양자컴퓨터 03 — 무작위 데이터에서도 양자컴퓨터는 압도적으로 빠를까?](qcs03_random/README.md): 확정155초·28문장·20씬, 가로·세로1080p60, 무음·전체 자막. `py -3.12 scripts/render.py qcs03`.
 
 - [양자역학의 발견 1–13편 통합 롱폼](quantum_full_01_13/README.md): 사용자 지정 음성 포함 `quantum_long_1~13.mp4` 합본. 33분 27.100초, 1080p30, MP4 챕터와 유튜브 설명 포함. `python longforms/quantum_full_01_13/build.py`.
@@ -298,3 +314,6 @@ longforms/<ID>_<slug>/
 ### 양자컴퓨터의 속도 · EP.02 (qcs02)
 
 [양자컴퓨터도 빠르지 못한 문제가 있다](qcs02_structure/README.md): 사용자 제공 161초·31문장·20씬, 가로·세로 1080 해상도·60fps, 무음·전체 자막. `py -3.12 scripts/render.py qcs02 --preview` / `py -3.12 scripts/render.py qcs02`.
+
+
+- [수능 수학 공통 1–22번 음성 포함 롱폼](csat_full_01_22/README.md): 문제 정보 카드가 있는 csat01~22.mp4와 수능_1~22.mp3를 번호별 결합 후 통합. 1080p30,22개 챕터. 실행: `python longforms/csat_full_01_22/build.py`.

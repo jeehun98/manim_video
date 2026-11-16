@@ -1,0 +1,525 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat_full_01_22_longform.mp4",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "지수법칙",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat01.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\수능_1.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat_voiced\\csat01_voiced.mp4",
+      "source_video_duration": 82.0,
+      "source_audio_duration": 81.850408,
+      "duration": 82.0,
+      "frames": 2460,
+      "hold_seconds": 0.0,
+      "start_seconds": 0.0
+    },
+    {
+      "number": 2,
+      "title": "미분계수",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat02.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\수능_2.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat_voiced\\csat02_voiced.mp4",
+      "source_video_duration": 124.0,
+      "source_audio_duration": 124.950522,
+      "duration": 124.96666666666667,
+      "frames": 3749,
+      "hold_seconds": 0.9666666666666686,
+      "start_seconds": 82.0
+    },
+    {
+      "number": 3,
+      "title": "수열의 합",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat03.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\수능_3.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat_voiced\\csat03_voiced.mp4",
+      "source_video_duration": 109.0,
+      "source_audio_duration": 109.200476,
+      "duration": 109.23333333333333,
+      "frames": 3277,
+      "hold_seconds": 0.23333333333333428,
+      "start_seconds": 206.96666666666667
+    },
+    {
+      "number": 4,
+      "title": "좌극한 · 우극한",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat04.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\수능_4.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat_voiced\\csat04_voiced.mp4",
+      "source_video_duration": 123.0,
+      "source_audio_duration": 123.300612,
+      "duration": 123.33333333333333,
+      "frames": 3700,
+      "hold_seconds": 0.3333333333333286,
+      "start_seconds": 316.2
+    },
+    {
+      "number": 5,
+      "title": "곱의 미분법",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat05.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\수능_5.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat_voiced\\csat05_voiced.mp4",
+      "source_video_duration": 145.0,
+      "source_audio_duration": 145.300635,
+      "duration": 145.33333333333334,
+      "frames": 4360,
+      "hold_seconds": 0.3333333333333428,
+      "start_seconds": 439.53333333333336
+    },
+    {
+      "number": 6,
+      "title": "삼각함수의 부호",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat06.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\수능_6.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat_voiced\\csat06_voiced.mp4",
+      "source_video_duration": 142.0,
+      "source_audio_duration": 142.900658,
+      "duration": 142.93333333333334,
+      "frames": 4288,
+      "hold_seconds": 0.9333333333333371,
+      "start_seconds": 584.8666666666667
+    },
+    {
+      "number": 7,
+      "title": "극대와 극소",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat07.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\수능_7.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat_voiced\\csat07_voiced.mp4",
+      "source_video_duration": 156.0,
+      "source_audio_duration": 156.400726,
+      "duration": 156.43333333333334,
+      "frames": 4693,
+      "hold_seconds": 0.4333333333333371,
+      "start_seconds": 727.8
+    },
+    {
+      "number": 8,
+      "title": "코사인법칙",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat08.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\수능_8.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat_voiced\\csat08_voiced.mp4",
+      "source_video_duration": 138.0,
+      "source_audio_duration": 138.950612,
+      "duration": 138.96666666666667,
+      "frames": 4169,
+      "hold_seconds": 0.9666666666666686,
+      "start_seconds": 884.2333333333333
+    },
+    {
+      "number": 9,
+      "title": "속도와 위치",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat09.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\수능_9.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat_voiced\\csat09_voiced.mp4",
+      "source_video_duration": 164.0,
+      "source_audio_duration": 164.800748,
+      "duration": 164.83333333333334,
+      "frames": 4945,
+      "hold_seconds": 0.8333333333333428,
+      "start_seconds": 1023.2
+    },
+    {
+      "number": 10,
+      "title": "로그의 밑변환",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat10.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\수능_10.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat_voiced\\csat10_voiced.mp4",
+      "source_video_duration": 177.0,
+      "source_audio_duration": 177.300884,
+      "duration": 177.33333333333334,
+      "frames": 5320,
+      "hold_seconds": 0.3333333333333428,
+      "start_seconds": 1188.0333333333333
+    },
+    {
+      "number": 11,
+      "title": "극한의 존재 조건",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat11.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\수능_11.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat_voiced\\csat11_voiced.mp4",
+      "source_video_duration": 200.0,
+      "source_audio_duration": 200.650998,
+      "duration": 200.66666666666666,
+      "frames": 6020,
+      "hold_seconds": 0.6666666666666572,
+      "start_seconds": 1365.3666666666666
+    },
+    {
+      "number": 12,
+      "title": "등비수열",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat12.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\수능_12.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat_voiced\\csat12_voiced.mp4",
+      "source_video_duration": 215.0,
+      "source_audio_duration": 215.851111,
+      "duration": 215.86666666666667,
+      "frames": 6476,
+      "hold_seconds": 0.8666666666666742,
+      "start_seconds": 1566.0333333333333
+    },
+    {
+      "number": 13,
+      "title": "넓이와 미분",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat13.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\수능_13.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat_voiced\\csat13_voiced.mp4",
+      "source_video_duration": 242.0,
+      "source_audio_duration": 242.751247,
+      "duration": 242.76666666666668,
+      "frames": 7283,
+      "hold_seconds": 0.7666666666666799,
+      "start_seconds": 1781.9
+    },
+    {
+      "number": 14,
+      "title": "코사인 방정식",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat14.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\수능_14.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat_voiced\\csat14_voiced.mp4",
+      "source_video_duration": 255.0,
+      "source_audio_duration": 255.901315,
+      "duration": 255.93333333333334,
+      "frames": 7678,
+      "hold_seconds": 0.9333333333333371,
+      "start_seconds": 2024.6666666666667
+    },
+    {
+      "number": 15,
+      "title": "절댓값 적분",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat15.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\수능_15.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat_voiced\\csat15_voiced.mp4",
+      "source_video_duration": 339.0,
+      "source_audio_duration": 339.301701,
+      "duration": 339.3333333333333,
+      "frames": 10180,
+      "hold_seconds": 0.3333333333333144,
+      "start_seconds": 2280.6
+    },
+    {
+      "number": 16,
+      "title": "지수방정식",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat16.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\수능_16.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat_voiced\\csat16_voiced.mp4",
+      "source_video_duration": 160.0,
+      "source_audio_duration": 160.800884,
+      "duration": 160.83333333333334,
+      "frames": 4825,
+      "hold_seconds": 0.8333333333333428,
+      "start_seconds": 2619.9333333333334
+    },
+    {
+      "number": 17,
+      "title": "도함수와 적분",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat17.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\수능_17.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat_voiced\\csat17_voiced.mp4",
+      "source_video_duration": 187.0,
+      "source_audio_duration": 187.551066,
+      "duration": 187.56666666666666,
+      "frames": 5627,
+      "hold_seconds": 0.5666666666666629,
+      "start_seconds": 2780.766666666667
+    },
+    {
+      "number": 18,
+      "title": "등차수열",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat18.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\수능_18.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat_voiced\\csat18_voiced.mp4",
+      "source_video_duration": 191.0,
+      "source_audio_duration": 191.150975,
+      "duration": 191.16666666666666,
+      "frames": 5735,
+      "hold_seconds": 0.1666666666666572,
+      "start_seconds": 2968.3333333333335
+    },
+    {
+      "number": 19,
+      "title": "접선의 방정식",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat19.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\수능_19.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat_voiced\\csat19_voiced.mp4",
+      "source_video_duration": 202.0,
+      "source_audio_duration": 202.251088,
+      "duration": 202.26666666666668,
+      "frames": 6068,
+      "hold_seconds": 0.26666666666667993,
+      "start_seconds": 3159.5
+    },
+    {
+      "number": 20,
+      "title": "지수·로그 교점",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat20.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\수능_20.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat_voiced\\csat20_voiced.mp4",
+      "source_video_duration": 345.0,
+      "source_audio_duration": 345.551859,
+      "duration": 345.56666666666666,
+      "frames": 10367,
+      "hold_seconds": 0.5666666666666629,
+      "start_seconds": 3361.766666666667
+    },
+    {
+      "number": 21,
+      "title": "가장 큰 실근",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat21.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\수능_21.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat_voiced\\csat21_voiced.mp4",
+      "source_video_duration": 165.0,
+      "source_audio_duration": 165.400884,
+      "duration": 165.43333333333334,
+      "frames": 4963,
+      "hold_seconds": 0.4333333333333371,
+      "start_seconds": 3707.3333333333335
+    },
+    {
+      "number": 22,
+      "title": "수열의 생성 규칙",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat22.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\수능_22.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat_voiced\\csat22_voiced.mp4",
+      "source_video_duration": 170.0,
+      "source_audio_duration": 170.100839,
+      "duration": 170.13333333333333,
+      "frames": 5104,
+      "hold_seconds": 0.13333333333332575,
+      "start_seconds": 3872.766666666667
+    }
+  ],
+  "duration_seconds": 4042.9,
+  "video_frames": 121287,
+  "video": {
+    "index": 0,
+    "codec_name": "h264",
+    "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+    "profile": "High",
+    "codec_type": "video",
+    "codec_tag_string": "avc1",
+    "codec_tag": "0x31637661",
+    "mime_codec_string": "avc1.640028",
+    "width": 1920,
+    "height": 1080,
+    "coded_width": 1920,
+    "coded_height": 1080,
+    "has_b_frames": 2,
+    "sample_aspect_ratio": "1:1",
+    "display_aspect_ratio": "16:9",
+    "pix_fmt": "yuv420p",
+    "level": 40,
+    "chroma_location": "left",
+    "field_order": "progressive",
+    "is_avc": "true",
+    "nal_length_size": "4",
+    "id": "0x1",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "time_base": "1/30000",
+    "start_pts": 640,
+    "start_time": "0.021333",
+    "duration_ts": 121287000,
+    "duration": "4042.900000",
+    "bit_rate": "141031",
+    "bits_per_raw_sample": "8",
+    "nb_frames": "121287",
+    "extradata_size": 47,
+    "disposition": {
+      "default": 1,
+      "dub": 0,
+      "original": 0,
+      "comment": 0,
+      "lyrics": 0,
+      "karaoke": 0,
+      "forced": 0,
+      "hearing_impaired": 0,
+      "visual_impaired": 0,
+      "clean_effects": 0,
+      "attached_pic": 0,
+      "timed_thumbnails": 0,
+      "non_diegetic": 0,
+      "captions": 0,
+      "descriptions": 0,
+      "metadata": 0,
+      "dependent": 0,
+      "still_image": 0,
+      "multilayer": 0
+    },
+    "tags": {
+      "language": "und",
+      "handler_name": "VideoHandler",
+      "encoder": "Lavc63.1.101 libx264"
+    }
+  },
+  "audio": {
+    "index": 1,
+    "codec_name": "aac",
+    "codec_long_name": "AAC (Advanced Audio Coding)",
+    "profile": "LC",
+    "codec_type": "audio",
+    "codec_tag_string": "mp4a",
+    "codec_tag": "0x6134706d",
+    "mime_codec_string": "mp4a.40.2",
+    "sample_fmt": "fltp",
+    "sample_rate": "48000",
+    "channels": 1,
+    "channel_layout": "mono",
+    "bits_per_sample": 0,
+    "initial_padding": 1024,
+    "id": "0x2",
+    "r_frame_rate": "0/0",
+    "avg_frame_rate": "0/0",
+    "time_base": "1/48000",
+    "start_pts": 0,
+    "start_time": "0.000000",
+    "duration_ts": 194059200,
+    "duration": "4042.900000",
+    "bit_rate": "199194",
+    "nb_frames": "189512",
+    "extradata_size": 5,
+    "disposition": {
+      "default": 1,
+      "dub": 0,
+      "original": 0,
+      "comment": 0,
+      "lyrics": 0,
+      "karaoke": 0,
+      "forced": 0,
+      "hearing_impaired": 0,
+      "visual_impaired": 0,
+      "clean_effects": 0,
+      "attached_pic": 0,
+      "timed_thumbnails": 0,
+      "non_diegetic": 0,
+      "captions": 0,
+      "descriptions": 0,
+      "metadata": 0,
+      "dependent": 0,
+      "still_image": 0,
+      "multilayer": 0
+    },
+    "tags": {
+      "language": "und",
+      "handler_name": "SoundHandler"
+    }
+  },
+  "decode_check_passed": true,
+  "method": "pair csat01..22 with 수능_1..22; clone last frame for full voice;1080p30;22 chapters",
+  "audio_alignment": {
+    "all22passed": true,
+    "chapters": [
+      {
+        "number": 1,
+        "correlation": 0.9860622250384466,
+        "offset_seconds": 0.0213125
+      },
+      {
+        "number": 2,
+        "correlation": 0.9665608164683038,
+        "offset_seconds": 0.0213125
+      },
+      {
+        "number": 3,
+        "correlation": 0.9740715493185054,
+        "offset_seconds": 0.0213125
+      },
+      {
+        "number": 4,
+        "correlation": 0.9746933174792843,
+        "offset_seconds": 0.0213125
+      },
+      {
+        "number": 5,
+        "correlation": 0.9806414539805723,
+        "offset_seconds": 0.0213125
+      },
+      {
+        "number": 6,
+        "correlation": 0.9808925791914959,
+        "offset_seconds": 0.0213125
+      },
+      {
+        "number": 7,
+        "correlation": 0.9683952038750459,
+        "offset_seconds": 0.0213125
+      },
+      {
+        "number": 8,
+        "correlation": 0.9893498708358802,
+        "offset_seconds": 0.0213125
+      },
+      {
+        "number": 9,
+        "correlation": 0.9916697505214438,
+        "offset_seconds": 0.0213125
+      },
+      {
+        "number": 10,
+        "correlation": 0.9827000054150494,
+        "offset_seconds": 0.0213125
+      },
+      {
+        "number": 11,
+        "correlation": 0.9719155738811003,
+        "offset_seconds": 0.0213125
+      },
+      {
+        "number": 12,
+        "correlation": 0.987178509936425,
+        "offset_seconds": 0.0213125
+      },
+      {
+        "number": 13,
+        "correlation": 0.9923380774362947,
+        "offset_seconds": 0.0213125
+      },
+      {
+        "number": 14,
+        "correlation": 0.986002112519415,
+        "offset_seconds": 0.0213125
+      },
+      {
+        "number": 15,
+        "correlation": 0.9821868213774197,
+        "offset_seconds": 0.0213125
+      },
+      {
+        "number": 16,
+        "correlation": 0.9814588286729421,
+        "offset_seconds": 0.0213125
+      },
+      {
+        "number": 17,
+        "correlation": 0.9794617418985623,
+        "offset_seconds": 0.0213125
+      },
+      {
+        "number": 18,
+        "correlation": 0.9838061883549543,
+        "offset_seconds": 0.0213125
+      },
+      {
+        "number": 19,
+        "correlation": 0.9834112595505886,
+        "offset_seconds": 0.0213125
+      },
+      {
+        "number": 20,
+        "correlation": 0.9915814451101027,
+        "offset_seconds": 0.0213125
+      },
+      {
+        "number": 21,
+        "correlation": 0.9689641075472553,
+        "offset_seconds": 0.0213125
+      },
+      {
+        "number": 22,
+        "correlation": 0.9900350753770244,
+        "offset_seconds": 0.0213125
+      }
+    ],
+    "chapter_metadata": "22 exact starts verified"
+  },
+  "sha256": "7f32f84f6c2b56bcd977ba021b5c003633128ada5299ce262be782c28c1627b6"
+}

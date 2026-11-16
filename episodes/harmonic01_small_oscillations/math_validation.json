@@ -1,0 +1,12 @@
+{
+  "sha256": "13d5f0b54778bb36fdf290019772eebdb59a029d464334f1cd6ba9bf9522c864",
+  "status": "passed",
+  "checks": [
+    "exact potential derivative and restoring force signs",
+    "nondegenerate minimum Vprime(0)=0 Vsecond(0)=1",
+    "normalized small-displacement quadratic limit",
+    "analytic motion solves m qddot=-k q and conserves energy",
+    "LC electric plus magnetic energy constant",
+    "small-angle condition; reduced mass relation"
+  ]
+}

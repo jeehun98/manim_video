@@ -1,0 +1,73 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat09.mp4",
+  "duration": "164.000000",
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "frames": "4920",
+  "audio": "not supplied; silent",
+  "decode": "passed",
+  "sha256": "69a4f1b951fb603a508b6fccc7d761672f74f19dbcf4e11dcd3385e7dc9896ad",
+  "sentences": 33,
+  "caption_timing": "supplied starts/ends; 30 fps boundaries",
+  "geometry": "per-frame content bounds and caption band assertions",
+  "math": "integral=k^3/3-k^2; roots=0,3; p2=2/3,q2=2; p3=q3=9/2; signed area=-4/3+4/3",
+  "input_sha256": {
+    "scene.py": "870be2b023a94b79c661ac8424857c09a0febde92b6fe3787061bcb022b4d869",
+    "timing.json": "1089164a49eef8670cc0ea7e9498fb54ba96d87214bdbe62ca9e7784582d33a9",
+    "build.py": "d25b0a1c966b45490d92720e63d19dc9c83924173fa1eafa030adbbe071ed114"
+  },
+  "shot_frames": [
+    270,
+    330,
+    270,
+    180,
+    150,
+    300,
+    150,
+    240,
+    210,
+    180,
+    240,
+    90,
+    300,
+    90,
+    210,
+    150,
+    210,
+    180,
+    240,
+    360,
+    300,
+    180,
+    90
+  ],
+  "visual_review": "Final representative shots 05,07,09,12,18,19,20,21 reviewed: formulas, signed areas, t=2 and t=3 positions, negative velocity, captions and layout passed.",
+  "previous_video_sha256": "20045746c3202ef61e61c1dfcb5f5cef31d700699a58e5e34f239e3332c15210",
+  "problem_card": {
+    "enabled": true,
+    "header_mae_start_middle_end": [
+      1.8075395447530864,
+      1.7726591435185186,
+      1.7896624228395062
+    ],
+    "layout": {
+      "card": [
+        0,
+        0,
+        1920,
+        180
+      ],
+      "lesson": [
+        160,
+        180,
+        1600,
+        900
+      ],
+      "scale": "uniform 5/6; no crop"
+    },
+    "source": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\episodes\\csat_series\\problem_cards\\problems.json",
+    "card_sha256": "c3557251119e40951c2d4405f2078c96369a9ecaaa935cb3ef959ac764db4255",
+    "original_backup": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\problem_card_originals\\csat09.mp4"
+  }
+}

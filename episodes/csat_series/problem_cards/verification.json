@@ -1,0 +1,249 @@
+{
+  "episodes": [
+    {
+      "episode": "csat01",
+      "duration": 82.0,
+      "frames": 2460,
+      "header_mae": [
+        1.7867168209876543,
+        1.7515885416666668,
+        1.7515885416666668
+      ],
+      "video_sha256": "fe74fcfe86cc7c109b7d312b79aa8c5b37dac3895ef2d53527d6a1a7ab06e9f9"
+    },
+    {
+      "episode": "csat02",
+      "duration": 124.0,
+      "frames": 3720,
+      "header_mae": [
+        1.8114920910493828,
+        1.7742148919753087,
+        1.7913483796296297
+      ],
+      "video_sha256": "54c0010ef503b863f6b0636be21d346874903d6eedaf775d119bd8e559e0dff9"
+    },
+    {
+      "episode": "csat03",
+      "duration": 109.0,
+      "frames": 3270,
+      "header_mae": [
+        1.7340219907407408,
+        1.7036197916666667,
+        1.7059365354938272
+      ],
+      "video_sha256": "288e20fa0fc93388664a09c5d94b620d58a42797b76fa6a4ceb434bddd8d894a"
+    },
+    {
+      "episode": "csat04",
+      "duration": 123.0,
+      "frames": 3690,
+      "header_mae": [
+        1.9367717978395063,
+        1.894206211419753,
+        1.8941657021604938
+      ],
+      "video_sha256": "a57589f7e11b90b498656f130a54c7d745a0ea0400f6910a4d05bab34d3d2c5e"
+    },
+    {
+      "episode": "csat05",
+      "duration": 145.0,
+      "frames": 4350,
+      "header_mae": [
+        1.750408950617284,
+        1.7185734953703704,
+        1.7185734953703704
+      ],
+      "video_sha256": "c699b0fca0c6dd39a1240a9d5549722e77fd175a13c2aca7fd3afc857b7ae484"
+    },
+    {
+      "episode": "csat06",
+      "duration": 142.0,
+      "frames": 4260,
+      "header_mae": [
+        1.7546344521604937,
+        1.7156394675925926,
+        1.7444666280864198
+      ],
+      "video_sha256": "1d0826e80b86aa2f7d1294fe2dcd6f4e2b4a078df6f549ac2ab7a6072d71dcab"
+    },
+    {
+      "episode": "csat07",
+      "duration": 156.0,
+      "frames": 4680,
+      "header_mae": [
+        1.8318557098765431,
+        1.783107638888889,
+        1.7830420524691357
+      ],
+      "video_sha256": "3f0428ab7d212a2be89366d88bae46cdfa49af6356a6c1576b2fcc98e36fa690"
+    },
+    {
+      "episode": "csat08",
+      "duration": 138.0,
+      "frames": 4140,
+      "header_mae": [
+        1.7542390046296297,
+        1.7122868441358026,
+        1.727404513888889
+      ],
+      "video_sha256": "b0a377d96ab8a0001740f7ca45bcb84df396f72ee7b9717a8f5bb29a863db3a7"
+    },
+    {
+      "episode": "csat09",
+      "duration": 164.0,
+      "frames": 4920,
+      "header_mae": [
+        1.8075395447530864,
+        1.7726591435185186,
+        1.7896624228395062
+      ],
+      "video_sha256": "69a4f1b951fb603a508b6fccc7d761672f74f19dbcf4e11dcd3385e7dc9896ad"
+    },
+    {
+      "episode": "csat10",
+      "duration": 177.0,
+      "frames": 5310,
+      "header_mae": [
+        1.7499421296296296,
+        1.7081278935185185,
+        1.7087085262345678
+      ],
+      "video_sha256": "c6e13c6926cbf45e182c7b876281ce16481c3d7e2c1fe36d9feb129164a37913"
+    },
+    {
+      "episode": "csat11",
+      "duration": 200.0,
+      "frames": 6000,
+      "header_mae": [
+        1.7595216049382716,
+        1.7125877700617285,
+        1.7110908564814815
+      ],
+      "video_sha256": "dcc917458ae3f01a7ce14f861f0a6db3bf6bf9855a639316c51f247ecf05fe50"
+    },
+    {
+      "episode": "csat12",
+      "duration": 215.0,
+      "frames": 6450,
+      "header_mae": [
+        1.7621576003086419,
+        1.7158150077160494,
+        1.7156462191358024
+      ],
+      "video_sha256": "ff915469227197789e5c91327529636a75533fa4dad14e7ef52d6e70c8c37c7a"
+    },
+    {
+      "episode": "csat13",
+      "duration": 242.0,
+      "frames": 7260,
+      "header_mae": [
+        1.8635368441358025,
+        1.8235474537037037,
+        1.8317698688271604
+      ],
+      "video_sha256": "db97020633f7abd529bbaabc99c223bcbde49b7d700a86a6401656a03e8735b9"
+    },
+    {
+      "episode": "csat14",
+      "duration": 255.0,
+      "frames": 7650,
+      "header_mae": [
+        1.757356288580247,
+        1.7106770833333333,
+        1.7107918595679013
+      ],
+      "video_sha256": "8dbed0e40505c9c98e25ab57608c871fd0b96f4f70f5df1cf0ec589f4a9a0e18"
+    },
+    {
+      "episode": "csat15",
+      "duration": 339.0,
+      "frames": 10170,
+      "header_mae": [
+        1.7513551311728395,
+        1.718389274691358,
+        1.719518711419753
+      ],
+      "video_sha256": "a1ae176c885dcd2c91e7482415067d68bdeb8999401f2efc27a24954badd700e"
+    },
+    {
+      "episode": "csat16",
+      "duration": 160.0,
+      "frames": 4800,
+      "header_mae": [
+        1.7130217978395061,
+        1.6793412422839507,
+        1.7077652391975309
+      ],
+      "video_sha256": "b4bd902e0511779db4c6ea76802b52cb8b97fc65a6f59a1ca3b47eb0fcf7ef5c"
+    },
+    {
+      "episode": "csat17",
+      "duration": 187.0,
+      "frames": 5610,
+      "header_mae": [
+        1.742962962962963,
+        1.7068180941358024,
+        1.7566550925925926
+      ],
+      "video_sha256": "bc2996f8749527d1ebab6cc3b6c64d55df8d90b158d011fd41ba15a1728f3207"
+    },
+    {
+      "episode": "csat18",
+      "duration": 191.0,
+      "frames": 5730,
+      "header_mae": [
+        1.7188792438271605,
+        1.6870032793209877,
+        1.7002324459876543
+      ],
+      "video_sha256": "b351444505a8de79ec5d2f9be33cfaaba8aaf1e1a03b6dc257c5bbb327546b70"
+    },
+    {
+      "episode": "csat19",
+      "duration": 202.0,
+      "frames": 6060,
+      "header_mae": [
+        1.889548611111111,
+        1.8471412037037036,
+        1.8794135802469136
+      ],
+      "video_sha256": "f6153af39f4a78a0d7aea0caebad82eb8c320fe3320d848cd0a9acf679426d04"
+    },
+    {
+      "episode": "csat20",
+      "duration": 345.0,
+      "frames": 10350,
+      "header_mae": [
+        1.7899710648148148,
+        1.7519810956790123,
+        1.7519810956790123
+      ],
+      "video_sha256": "ee1ed56d49bb035a3130d2fd6a8bd4041e1e4a3b8ff16e63b3f004a5e2e7fdb0"
+    },
+    {
+      "episode": "csat21",
+      "duration": 165.0,
+      "frames": 4950,
+      "header_mae": [
+        1.779507137345679,
+        1.732548225308642,
+        1.7323958333333334
+      ],
+      "video_sha256": "2c9493453330ac915bcebb0fe725535f8411a581ec6cb5dcd79a38c409cac5be"
+    },
+    {
+      "episode": "csat22",
+      "duration": 170.0,
+      "frames": 5100,
+      "header_mae": [
+        1.8671836419753087,
+        1.8115721450617284,
+        1.8115721450617284
+      ],
+      "video_sha256": "4a1d75ce2777933a9f9328286a57d940b224f44becc4545ba1b59344f509672e"
+    }
+  ],
+  "all_22_passed": true,
+  "checks": "full decode, exact original duration and frame count,1920x1080,30fps,reference card at start/middle/end,source syntax",
+  "visual_review": "all22 card strips; composite04,15,22; encoded representative frames"
+}

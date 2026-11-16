@@ -1,0 +1,86 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat13.mp4",
+  "duration": "242.000000",
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "frames": "7260",
+  "audio": "not supplied; silent",
+  "decode": "passed",
+  "sha256": "db97020633f7abd529bbaabc99c223bcbde49b7d700a86a6401656a03e8735b9",
+  "sentences": 55,
+  "caption_timing": "supplied starts/ends; 30 fps boundaries",
+  "geometry": "per-frame content bounds and caption band assertions",
+  "math": "a=2; h=(x-1)^2+1; S3=6; reflection x->2-x; integrals[-2,2]=[0,4]=40/3; false,true,true",
+  "input_sha256": {
+    "scene.py": "d021db1176a428f08af7f51ade86f236c65b691d3fbd4bb99a745b367c9b8261",
+    "timing.json": "8550b47d0998afb89f74138e829897fe95204399901d05f810fa039313ae35c6",
+    "build.py": "c1a42b691dfbf620fa0a6d5cc6ab34c5ecb5949cdc15812aa29e19f47f9e8c5b"
+  },
+  "shot_frames": [
+    300,
+    180,
+    270,
+    210,
+    300,
+    360,
+    210,
+    150,
+    180,
+    240,
+    90,
+    300,
+    150,
+    240,
+    210,
+    240,
+    240,
+    240,
+    120,
+    270,
+    210,
+    120,
+    150,
+    150,
+    300,
+    210,
+    240,
+    270,
+    150,
+    240,
+    150,
+    300,
+    270
+  ],
+  "visual_review": "Preview 05,06,21,24,33 and final 05,06,14,15,21,24,26 reviewed. Notes moved clear of graph tick labels. Exact reflection of h area verified; original f,g are labelled illustrations. End fade fixed and rerendered.",
+  "symbolic_validation": "SymPy: a=2; h=(x-1)^2+1>0; integral0..3=6; integral-2..2=integral0..4=40/3; expand(h(2-x)-h(x))=0. Claims false,true,true, answer5.",
+  "caption_correction": "98–106s: original pronunciation text preserved; caption corrects typo to integral of constant 2 equals 2t.",
+  "render_reuse": "Shots01..32 unchanged visually and temporally. Replaced bound h method with mathematically identical static function to prevent Manim deepcopy of Scene in Shot33 FadeOut; rerendered Shot33 and reassembled all shots.",
+  "previous_video_sha256": "84cf021a1c1c4959dd4a8b9e06f2f017ca1d83c7d50374a163f184b5bb0d7172",
+  "problem_card": {
+    "enabled": true,
+    "header_mae_start_middle_end": [
+      1.8635368441358025,
+      1.8235474537037037,
+      1.8317698688271604
+    ],
+    "layout": {
+      "card": [
+        0,
+        0,
+        1920,
+        180
+      ],
+      "lesson": [
+        160,
+        180,
+        1600,
+        900
+      ],
+      "scale": "uniform 5/6; no crop"
+    },
+    "source": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\episodes\\csat_series\\problem_cards\\problems.json",
+    "card_sha256": "5214b1476e651151f65f14284c9a93979c144f5e5e2e4de8083532fd8b00f0ad",
+    "original_backup": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\problem_card_originals\\csat13.mp4"
+  }
+}

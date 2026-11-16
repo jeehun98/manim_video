@@ -1,0 +1,29 @@
+{
+  "sha256": "2871416aecbe468523c6274e546af766072bd6afc3b0853550d83c81ff71f06d",
+  "status": "passed",
+  "growth_times_days": {
+    "1_to_2": 7.272540897341713,
+    "9_to_10": 1.1054487136015807,
+    "1_to_10": 24.158857928096783
+  },
+  "probabilities": [
+    0.3010299956639812,
+    0.17609125905568124,
+    0.12493873660829993,
+    0.09691001300805642,
+    0.07918124604762482,
+    0.06694678963061322,
+    0.05799194697768673,
+    0.05115252244738129,
+    0.04575749056067514
+  ],
+  "checks": [
+    "positive digit probabilities telescope to one",
+    "daily growth values and continuous first passage times",
+    "same ratio at every decade",
+    "leading significant digit ignores leading zeroes",
+    "continuous time occupancy over complete log cycles",
+    "log-fraction-uniform synthetic data approximates theory",
+    "wide-spread counterexample concentrated on leading digit four"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat05.mp4",
+  "duration": "145.000000",
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "frames": "4350",
+  "audio": "not supplied; silent",
+  "decode": "passed",
+  "sha256": "c699b0fca0c6dd39a1240a9d5549722e77fd175a13c2aca7fd3afc857b7ae484",
+  "sentences": 28,
+  "caption_timing": "supplied starts/ends; 30 fps boundaries",
+  "geometry": "per-frame content bounds and caption band assertions",
+  "math": "SymPy verified four values [3,2,5,2], product derivative=16, expansion and expanded derivative",
+  "input_sha256": {
+    "scene.py": "2678a19f9ff1fe1aac15bcc8df639a445eeed1896120aa5e479501b28d150c0c",
+    "timing.json": "1a636c669fd47bcc53584a086dbc7e5d44c248980e5a06c6f1aa8a3e62d7eadf",
+    "build.py": "b7aec53978dc8575bd613495406b4231afb66aa64cef0ac84658323020bcb69c"
+  },
+  "shot_frames": [
+    240,
+    180,
+    300,
+    360,
+    300,
+    150,
+    270,
+    300,
+    180,
+    240,
+    330,
+    270,
+    330,
+    240,
+    150,
+    210,
+    210,
+    90
+  ],
+  "visual_review": "10 final key frames and representative low-resolution product-rule, value-substitution and misconception shots checked",
+  "previous_video_sha256": "30a85556ad59131390c09cf368d2b3d15a07cf3ea6ea6dfb27a3d3dfac4d1288",
+  "problem_card": {
+    "enabled": true,
+    "header_mae_start_middle_end": [
+      1.750408950617284,
+      1.7185734953703704,
+      1.7185734953703704
+    ],
+    "layout": {
+      "card": [
+        0,
+        0,
+        1920,
+        180
+      ],
+      "lesson": [
+        160,
+        180,
+        1600,
+        900
+      ],
+      "scale": "uniform 5/6; no crop"
+    },
+    "source": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\episodes\\csat_series\\problem_cards\\problems.json",
+    "card_sha256": "bc54959e0be80aad3015c65c008c6dadb431b1ce53eac71257e4c40ed88e183d",
+    "original_backup": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\problem_card_originals\\csat05.mp4"
+  }
+}

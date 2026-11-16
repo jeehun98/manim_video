@@ -1,0 +1,94 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\harmonic01_short.mp4",
+  "revision": "v1",
+  "duration": 179,
+  "frames": 10740,
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "versioned_output": null,
+  "audio": "not supplied; silent",
+  "subtitles": "38 full narration sentences burned in; exact supplied boundaries",
+  "subtitle_audit": "all 38 sentences within one frame; safe band assertions passed",
+  "ending": "standalone",
+  "shots": [
+    {
+      "scene": "01",
+      "frames": 1020,
+      "source_sha256": "aecc616af880d0834b729e6f291c3be22836c80f486eba5421c8d9f83457aea4"
+    },
+    {
+      "scene": "02",
+      "frames": 900,
+      "source_sha256": "0d5f011affa9af69d9bb20b91fc2f76bb20599d5e0640b8800dc6e960d3b7b4d"
+    },
+    {
+      "scene": "03",
+      "frames": 480,
+      "source_sha256": "8c2746ea4ee7fb6b21c34ec00c01c44dc123a6da181bdd8ea32ab82af6a3343f"
+    },
+    {
+      "scene": "04",
+      "frames": 600,
+      "source_sha256": "4f2f8f4277aac1e903ae2dcdd7b007293ee21e5a93f8db499d5b952ad0c33da7"
+    },
+    {
+      "scene": "05",
+      "frames": 660,
+      "source_sha256": "4e238df67edbe760f27d23f12d94c8ba33033e29c39aad6fff467259180652f4"
+    },
+    {
+      "scene": "06",
+      "frames": 720,
+      "source_sha256": "7f610e855a4c787f6730417d2417cdf42796d95b99140ad1d31a77000d6e3a74"
+    },
+    {
+      "scene": "07",
+      "frames": 540,
+      "source_sha256": "f0ebc2ede55a7c06de21eb12b6096bed0ba320029d82f8b1ed0f1ccc76f98dca"
+    },
+    {
+      "scene": "08",
+      "frames": 960,
+      "source_sha256": "00193e1979ae61c7159ef9474a39bc20629645a71d757fc1ddea758e7f01c072"
+    },
+    {
+      "scene": "09",
+      "frames": 900,
+      "source_sha256": "2b682d1ee27b2eb563ffb081a95f890e7e5600b21ac10dbdbd0d02f669c7e449"
+    },
+    {
+      "scene": "10",
+      "frames": 840,
+      "source_sha256": "463ec1e3c4ffababd06e613caf1a283bbe2a5c44408b1b37260a291b8124b4ef"
+    },
+    {
+      "scene": "11",
+      "frames": 780,
+      "source_sha256": "60fbe17e9a96b97af1011a0a3ed734b8090302da102250fff0ce88e02a440c91"
+    },
+    {
+      "scene": "12",
+      "frames": 660,
+      "source_sha256": "6accdfc85837707f2cd3e94a36da8f450336a73a46b778da35190a82f80fa94d"
+    },
+    {
+      "scene": "13",
+      "frames": 360,
+      "source_sha256": "a36bb1855b622c6ba19ffd0d652c64a3bb2ac90707216271e10eea289691756e"
+    },
+    {
+      "scene": "14",
+      "frames": 840,
+      "source_sha256": "510a5fce0af006337ed51949f00a8f3718ba1f72f062f4f6b6ef0687a2b9d6ab"
+    },
+    {
+      "scene": "15",
+      "frames": 480,
+      "source_sha256": "e42f0b41e961f4eb7c87da53074db0555634abf314452e77ad44f42b601b2db4"
+    }
+  ],
+  "full_decode": "passed",
+  "geometry": "every rendered animation frame checked for frame boundaries and subtitle band clearance",
+  "timing": "38 exact user-supplied sentence ends; 15 scenes; no gaps or overlaps"
+}

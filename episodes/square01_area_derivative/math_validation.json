@@ -1,0 +1,13 @@
+{
+  "sha256": "01a6bbde423c9364952cdc9e63eb16338e86e930bd209cdf2d7e44eb5b946e2f",
+  "status": "passed",
+  "checks": [
+    "exact disjoint area decomposition and equal length scales",
+    "gain divided by dx equals 2x+dx",
+    "corner contribution after division tends to zero",
+    "polynomial derivative valid for all real x",
+    "finite secant distinct from tangent",
+    "quadratic potential coefficient one-half gives restoring force -kq",
+    "reused energy helper uses identical potential and force"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "output_sha256": "03ba5eb8cf39648c50cad4869227544e32230fbb6602d9d41eccfe1da01281fd",
+  "status": "passed",
+  "preview_shots": [
+    "05",
+    "10",
+    "12",
+    "14",
+    "18",
+    "19-before-final-revision"
+  ],
+  "final_shots": [
+    "01",
+    "02",
+    "04",
+    "09",
+    "13",
+    "16",
+    "19",
+    "20"
+  ],
+  "checks": [
+    "log ruler labels staggered without collisions",
+    "growth and logarithm axes have correct coordinates",
+    "formula and narration caption regions separated",
+    "final condition scene preserves uniform simulated log fractional parts",
+    "no end card or extra duration"
+  ]
+}

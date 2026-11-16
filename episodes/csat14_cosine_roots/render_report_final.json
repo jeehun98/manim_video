@@ -1,0 +1,85 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat14.mp4",
+  "duration": "255.000000",
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "frames": "7650",
+  "audio": "not supplied; silent",
+  "decode": "passed",
+  "sha256": "8dbed0e40505c9c98e25ab57608c871fd0b96f4f70f5df1cf0ec589f4a9a0e18",
+  "sentences": 58,
+  "caption_timing": "supplied starts/ends; 30 fps boundaries",
+  "geometry": "per-frame content bounds and caption band assertions",
+  "math": "period=2/b; N1=2b; N2=0,b,2b for a<2,a=2,a>2; disjoint roots; N=15 => a=2,b=5,a+b=7",
+  "input_sha256": {
+    "scene.py": "1db3710e107ca9e587c0e86cb7bc0825f871dacfbb3d01dcf9d4c75dbce393ed",
+    "timing.json": "d6f3e5423b21c2c975ffad0d8d02e4346f628a52a5d7afe9f6628f4260ab6ff8",
+    "build.py": "837dbfe84f0d10dfdc254e84603b76e53cee949ea30f49f697f06e866b1b4284"
+  },
+  "shot_frames": [
+    270,
+    210,
+    390,
+    120,
+    360,
+    360,
+    240,
+    180,
+    210,
+    120,
+    150,
+    180,
+    270,
+    240,
+    120,
+    330,
+    120,
+    360,
+    240,
+    330,
+    240,
+    300,
+    90,
+    210,
+    210,
+    210,
+    180,
+    150,
+    150,
+    150,
+    360,
+    300,
+    240,
+    60
+  ],
+  "visual_review": "Preview08,18,28,30 and final08,11,16,18,22,25,28,30 reviewed: example b=3, period counts, excluded endpoints, 0/2/1 intersections, merging at minimum, a+b=7, actual b=5 total15, captions and graph layout passed.",
+  "analytic_validation": "For b=1..9 and a=1,2,4, exact arccos roots give N1=2b and N2=0,b,2b. At b=5 first roots10, second roots[0.2,0.6,1.0,1.4,1.8]; sets disjoint, 15 unique roots. c(a)=-1/2-1/a; a=2,b=5, sum7.",
+  "previous_video_sha256": "60b4e95b56e8d10e65a446509f6f760c0cf5a2c5b9d6630a13a273493ce2fe9c",
+  "problem_card": {
+    "enabled": true,
+    "header_mae_start_middle_end": [
+      1.757356288580247,
+      1.7106770833333333,
+      1.7107918595679013
+    ],
+    "layout": {
+      "card": [
+        0,
+        0,
+        1920,
+        180
+      ],
+      "lesson": [
+        160,
+        180,
+        1600,
+        900
+      ],
+      "scale": "uniform 5/6; no crop"
+    },
+    "source": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\episodes\\csat_series\\problem_cards\\problems.json",
+    "card_sha256": "f47b027952b4d145dcaaab1361ca301055610821bee32c1010c54eb9dc5d729c",
+    "original_backup": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\problem_card_originals\\csat14.mp4"
+  }
+}

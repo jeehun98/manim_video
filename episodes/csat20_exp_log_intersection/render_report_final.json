@@ -1,0 +1,106 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat20.mp4",
+  "duration": "345.000000",
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "frames": "10350",
+  "audio": "not supplied; silent",
+  "decode": "passed",
+  "sha256": "ee1ed56d49bb035a3130d2fd6a8bd4041e1e4a3b8ff16e63b3f004a5e2e7fdb0",
+  "sentences": 82,
+  "caption_timing": "supplied starts/ends; 30 fps boundaries",
+  "geometry": "per-frame content bounds and caption band assertions",
+  "math": "beta=3alpha;m=3;beta4=3;g(m)=-4/3*3^(1/4);(pqr)^2=48;corrected base change numerator log_b alpha, denominator log_m alpha",
+  "shot_frames": [
+    300,
+    180,
+    210,
+    450,
+    180,
+    300,
+    240,
+    270,
+    180,
+    180,
+    210,
+    270,
+    270,
+    270,
+    240,
+    180,
+    270,
+    180,
+    240,
+    300,
+    120,
+    300,
+    240,
+    330,
+    180,
+    330,
+    330,
+    180,
+    210,
+    330,
+    300,
+    120,
+    150,
+    180,
+    240,
+    360,
+    450,
+    120,
+    240,
+    240,
+    180,
+    210,
+    90
+  ],
+  "input_sha256": {
+    "scene.py": "1ac8599c9b5fa85829d430b3fb18ffda8060a8807bf392948d563a29339f202b",
+    "timing.json": "4ce97844e95a32aaad4c82e9779cad87b0d72c48e611c0e107525830a2863999",
+    "captions.srt": "4298cc7734a202ff2c9e7a798b239da758f4f41dd1f83dc1d5fa426e902fa5d8",
+    "tts_script.txt": "d2314d3e41e07fbf785ea46b0cb7dbbb8f09fbfdf38b2cf3f6a8c3337983058a"
+  },
+  "visual_review": "preview shots 05,13,15,24,35; final shots 05,24,30,32,35; content and caption separation passed",
+  "validation": {
+    "timing": "82 supplied sentence intervals contiguous, 43 scenes, 10350 frames",
+    "math": "symbolic relations and numeric graph intersection passed",
+    "graph": {
+      "alpha": 0.4386913376508308,
+      "beta": 1.3160740129524924,
+      "base": 1.8702528136972445
+    },
+    "caption_correction": "186-191 sec; correct log_b m=log_b alpha/log_m alpha",
+    "tts": "original preserved; audio not supplied"
+  },
+  "shots": 43,
+  "previous_video_sha256": "95a2cb42233ff01835745ff9d641a59d1f26922f5dfb3dffedfcc9eedf44771e",
+  "problem_card": {
+    "enabled": true,
+    "header_mae_start_middle_end": [
+      1.7899710648148148,
+      1.7519810956790123,
+      1.7519810956790123
+    ],
+    "layout": {
+      "card": [
+        0,
+        0,
+        1920,
+        180
+      ],
+      "lesson": [
+        160,
+        180,
+        1600,
+        900
+      ],
+      "scale": "uniform 5/6; no crop"
+    },
+    "source": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\episodes\\csat_series\\problem_cards\\problems.json",
+    "card_sha256": "088bb563b33b978bc5ec29c64a9460d4a9d95a553106f504e264a7704229e846",
+    "original_backup": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\problem_card_originals\\csat20.mp4"
+  }
+}

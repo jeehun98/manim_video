@@ -1,0 +1,31 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\square01_short.mp4",
+  "sha256": "36617fbb23fccb9f8366f6579bd72060106756ebe251e381b32e4c49820b9f16",
+  "representative_previews": [
+    "04",
+    "06",
+    "08",
+    "10",
+    "11"
+  ],
+  "final_visual_checks": [
+    "02",
+    "03",
+    "05",
+    "09",
+    "10",
+    "12",
+    "13"
+  ],
+  "result": "passed",
+  "checks": [
+    "exact square partition: two x*dx rectangles plus dx squared corner",
+    "corner contribution divided by dx tends to zero",
+    "same scale for small and large square comparison",
+    "area and parabola point synchronized; finite secant versus tangent distinguished",
+    "length x nonnegative; algebraic derivative extends to real x",
+    "signed displacement q and one-half coefficient in quadratic potential",
+    "restoring force toward equilibrium; actual object separate from energy graph",
+    "caption and equation clearance; final narration present through 158 s"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "equal_axis_scales": [
+    0.6499999999999999,
+    0.6500000000000001
+  ],
+  "quarter_turn_is_counterclockwise": true,
+  "zero_fixed": true,
+  "half_turn_is_negation": true,
+  "full_turn_is_identity": true,
+  "samples": [
+    {
+      "original": [
+        2,
+        3
+      ],
+      "quarter_turn": [
+        -3.000000000000001,
+        1.9999999999999991
+      ]
+    },
+    {
+      "original": [
+        -3,
+        2
+      ],
+      "quarter_turn": [
+        -2.0000000000000018,
+        -3.0
+      ]
+    },
+    {
+      "original": [
+        -2,
+        -3
+      ],
+      "quarter_turn": [
+        3.0,
+        -1.9999999999999991
+      ]
+    },
+    {
+      "original": [
+        3,
+        -2
+      ],
+      "quarter_turn": [
+        2.0,
+        3.000000000000001
+      ]
+    },
+    {
+      "original": [
+        0,
+        0
+      ],
+      "quarter_turn": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "original": [
+        0,
+        1
+      ],
+      "quarter_turn": [
+        -1.0000000000000002,
+        0.0
+      ]
+    },
+    {
+      "original": [
+        1,
+        0
+      ],
+      "quarter_turn": [
+        0.0,
+        1.0
+      ]
+    }
+  ]
+}

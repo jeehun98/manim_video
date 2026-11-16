@@ -1887,3 +1887,273 @@ python scripts/render.py softmax01
 - 제작: `python scripts/render.py conv01`
 - 대표 씬 확인: `python episodes/conv01_fourier_basis/build.py --preview --scene 06 09 12 15`
 - 결과: `exports/conv01_short.mp4`
+
+
+### 테일러 전개의 기하학 (`taylor01`)
+
+174초 · 세로 1080×1920 · 60fps · 음원 미제공으로 무음, 전체 문장 자막 포함.
+실제 소스: `episodes/taylor01_local_geometry/`의 `direction.py`, `model.py`, `scenes/01`–`14/scene.py`, 확정 `narration.md`, `tts_script.txt`, `timing.json`, `captions.srt`, `brief.md`.
+
+```powershell
+python scripts/render.py taylor01 --preview
+python scripts/render.py taylor01
+```
+
+최종 결과: `exports/taylor01_short.mp4`. 대표 씬만 확인하려면 `python episodes/taylor01_local_geometry/build.py --preview --scene 03 05 08 10 12 13`.
+
+
+### 조화 진동자 (`harmonic01`)
+
+179초 · 세로 1080×1920 · 60fps · 음원 미제공으로 무음 · 전체 문장 자막.
+실제 제작 자료는 `episodes/harmonic01_small_oscillations/`의 `direction.py`, `model.py`, `scenes/01`–`15/scene.py`, `narration.md`, `tts_script.txt`, `timing.json`, `captions.srt`, `brief.md`.
+
+```powershell
+python scripts/render.py harmonic01 --preview
+python scripts/render.py harmonic01
+```
+
+최종 결과 `exports/harmonic01_short.mp4`. 대표 씬 확인: `python episodes/harmonic01_small_oscillations/build.py --preview --scene 01 04 07 11 13`.
+
+
+### 에너지의 기울기가 힘이 되는 이유 (`energy01`)
+
+177초 · 세로 1080×1920 · 60fps · 음원 미제공으로 무음 · 전체 문장 자막.
+실제 소스와 제작 자료: `episodes/energy01_force_gradient/`의 `direction.py`, `model.py`, `scenes/01`–`13/scene.py`, `narration.md`, `tts_script.txt`, `timing.json`, `captions.srt`, `brief.md`.
+
+```powershell
+python scripts/render.py energy01 --preview
+python scripts/render.py energy01
+```
+
+최종 결과: `exports/energy01_short.mp4`. 대표 씬 확인: `python episodes/energy01_force_gradient/build.py --preview --scene 03 06 07 11 13`.
+
+
+### 제곱을 미분하면 왜 2x가 될까? (`square01`)
+
+158초 · 세로 1080×1920 · 60fps · 음원 미제공으로 무음 · 전체 문장 자막.
+실제 제작 자료: `episodes/square01_area_derivative/`의 `direction.py`, `model.py`, `scenes/01`–`13/scene.py`, `narration.md`, `tts_script.txt`, `timing.json`, `captions.srt`, `brief.md`.
+
+```powershell
+python scripts/render.py square01 --preview
+python scripts/render.py square01
+```
+
+결과: `exports/square01_short.mp4`. 대표 씬: `python episodes/square01_area_derivative/build.py --preview --scene 04 06 08 10 11`.
+
+
+### 수능 수학 EP.01 — 지수법칙
+
+2027학년도 6월 모의평가 공통 1번 + 자체 응용문제. 사용자 제공 개정 확정 대본 82초, 16:9 1920×1080 30fps, 무음·전체 자막. 소스: `episodes/csat01_exponent/scene.py`, 대본·타이밍·씬별 spec도 같은 폴더에 보존.
+
+- 최종: `python scripts/render.py csat01` → `exports/csat01.mp4`
+- 미리보기: `python scripts/render.py csat01 --preview`
+- 개별 씬: `python episodes/csat01_exponent/build.py --preview --shots 4 8`
+
+
+### 수능 수학 EP.02 — 미분계수
+
+2027학년도 6월 모의평가 수학 2번(사용자 제공 콘티). 확정 대본 23문장·124초, 1920×1080 30fps, 무음·전체 자막. `episodes/csat02_derivative/`에 대본·발음 원고·타이밍·씬별 spec·소스 보존.
+
+- 최종: `python scripts/render.py csat02` → `exports/csat02.mp4`
+- 미리보기: `python scripts/render.py csat02 --preview`
+- 독립 씬: `python episodes/csat02_derivative/build.py --preview --shots 3 11`
+
+
+### 수능 수학 EP.03 — 시그마와 수열의 합
+
+2027학년도 6월 모의평가 수학 3번(사용자 제공 콘티). 확정 대본 21문장·109초, 1920×1080 30fps, 무음·전체 자막. `episodes/csat03_sigma/`에 대본·발음 원고·타이밍·13개 씬 spec·소스 보존.
+
+- 최종: `python scripts/render.py csat03` → `exports/csat03.mp4`
+- 미리보기: `python scripts/render.py csat03 --preview`
+- 핵심 씬: `python episodes/csat03_sigma/build.py --preview --shots 4 6 11`
+
+
+### 수능 수학 EP.04 — 좌극한과 우극한
+
+2027학년도 6월 모의평가 수학 4번. 사용자 확정 대본 27문장·123초, 1920×1080 30fps, 무음·전체 자막. `episodes/csat04_one_sided_limits/`에 대본·타이밍·16개 씬 spec·소스·원본 그래프 추적 데이터 보존. EBS 공개 원본 문제지의 그래프 형상과 끝점 표시를 확인했다.
+
+- 최종: `python scripts/render.py csat04` → `exports/csat04.mp4`
+- 미리보기: `python scripts/render.py csat04 --preview`
+- 핵심 씬: `python episodes/csat04_one_sided_limits/build.py --preview --shots 4 9 12`
+
+
+### 수능 수학 EP.05 — 곱의 미분법
+
+2027학년도 6월 모의평가 수학 5번(사용자 제공 콘티). 확정 대본 28문장·145초, 1920×1080 30fps, 무음·전체 자막. `episodes/csat05_product_rule/`에 대본·발음 원고·타이밍·18개 씬 spec·소스 보존.
+
+- 최종: `python scripts/render.py csat05` → `exports/csat05.mp4`
+- 미리보기: `python scripts/render.py csat05 --preview`
+- 핵심 씬: `python episodes/csat05_product_rule/build.py --preview --shots 3 10 14`
+
+
+### 수능 수학 EP.06 — 삼각함수의 항등식과 부호
+
+2027학년도 6월 모의평가 수학 6번(사용자 제공 콘티). 확정 대본 29문장·142초, 1920×1080 30fps, 무음·전체 자막. `episodes/csat06_trig_sign/`에 대본·발음 원고·타이밍·17개 씬 spec·소스 보존. 정확한 단위원 좌표 (1/√10,−3/√10)로 제4사분면 부호를 설명한다.
+
+- 최종: `python scripts/render.py csat06` → `exports/csat06.mp4`
+- 미리보기: `python scripts/render.py csat06 --preview`
+- 핵심 씬: `python episodes/csat06_trig_sign/build.py --preview --shots 4 7 8 14`
+
+
+### 수능 수학 EP.07 — 삼차함수의 극대와 극소
+
+2027학년도 6월 모의평가 수학 7번(사용자 제공 콘티). 확정 대본32문장·156초,1920×1080 30fps,무음·전체 자막. `episodes/csat07_cubic_extrema/`에 대본·발음 원고·타이밍·21개 씬 spec·소스 보존. 부호표와 정확한 함수 그래프를 연결하고, 극소 위치1과 극솟값7을 구분한다.
+
+- 최종: `python scripts/render.py csat07` → `exports/csat07.mp4`
+- 미리보기: `python scripts/render.py csat07 --preview`
+- 핵심 씬: `python episodes/csat07_cubic_extrema/build.py --preview --shots 11 13 17`
+
+
+### 수능 수학 EP.08 — 코사인법칙
+
+2027학년도 6월 모의평가 수학8번(사용자 제공 콘티). 확정대본27문장·138초,1920×1080 30fps,무음·전체자막. `episodes/csat08_cosine_law/`에 대본·발음원고·타이밍·20개씬 spec·소스 보존. 정확한 둔각삼각형과 변·공식의 대응, 음수부호와 길이조건을 시각화한다.
+
+- 최종: `python scripts/render.py csat08` → `exports/csat08.mp4`
+- 미리보기: `python scripts/render.py csat08 --preview`
+- 핵심 씬: `python episodes/csat08_cosine_law/build.py --preview --shots 4 6 8 11`
+
+
+### 수능 수학 EP.09 — 속도와 위치의 관계
+
+2027학년도 6월 모의평가 수학9번(사용자 제공 콘티). 확정대본33문장·164초,1920×1080 30fps,무음·전체자막. `episodes/csat09_velocity_position/`에 대본·발음원고·타이밍·23개씬 spec·소스 보존. 정확한 위치함수로 t=2의 속도 일치와 t=3의 위치 일치를 구분한다.
+
+- 최종: `python scripts/render.py csat09` → `exports/csat09.mp4`
+- 미리보기: `python scripts/render.py csat09 --preview`
+- 핵심 씬: `python episodes/csat09_velocity_position/build.py --preview --shots 5 18 19 20`
+
+### 수능 수학 EP.10 — 로그의 밑변환과 치환
+
+실제 소스: `episodes/csat10_log_substitution/` (scene.py, build.py, 확정 대본, 177초 timing.json, SRT, 씬별 spec). 16:9 1920×1080 30fps, 음원 미제공으로 무음.
+
+```powershell
+python scripts/render.py csat10
+python episodes/csat10_log_substitution/build.py --preview --shots 4 10 22 25
+```
+
+### 수능 수학 EP.11 — 극한의 존재 조건으로 일차함수 결정하기
+
+실제 소스: `episodes/csat11_limit_linear/` (scene.py, build.py, 확정 대본, 200초 timing.json, SRT, 씬별 spec). 16:9 1920×1080 30fps, 음원 미제공으로 무음.
+
+```powershell
+python scripts/render.py csat11
+python episodes/csat11_limit_linear/build.py --preview --shots 6 14 21 22
+```
+
+### 수능 수학 EP.12 — 등비수열의 공비와 첫째항
+
+실제 소스: `episodes/csat12_geometric_ratio/` (scene.py, build.py, 확정 발화, 215초 timing.json, SRT, 씬별 spec). 16:9 1920×1080 30fps, 음원 미제공으로 무음.
+
+```powershell
+python scripts/render.py csat12
+python episodes/csat12_geometric_ratio/build.py --preview --shots 5 16 27 28
+```
+
+### 수능 수학 EP.13 — 넓이를 미분하면 무엇이 남을까?
+
+실제 소스: `episodes/csat13_area_derivative/` (scene.py, build.py, 확정 발화, 242초 timing.json, SRT, 씬별 spec). 16:9 1920×1080 30fps, 음원 미제공으로 무음.
+
+```powershell
+python scripts/render.py csat13
+python episodes/csat13_area_derivative/build.py --preview --shots 5 6 21 24
+```
+
+### 수능 수학 EP.14 — 코사인 방정식의 실근 개수
+
+실제 소스: `episodes/csat14_cosine_roots/` (scene.py, build.py, 확정 대본, 255초 timing.json, SRT, 씬별 spec). 16:9 1920×1080 30fps, 음원 미제공으로 무음.
+
+```powershell
+python scripts/render.py csat14
+python episodes/csat14_cosine_roots/build.py --preview --shots 8 18 28 30
+```
+
+### 수능 수학 EP.15 — 절댓값 적분과 삼차함수의 그래프
+
+실제 소스: `episodes/csat15_absolute_cubic/` (scene.py, build.py, 확정 대본, 339초 timing.json, SRT, 씬별 spec). 16:9 1920×1080 30fps, 음원 미제공으로 무음.
+
+```powershell
+python scripts/render.py csat15
+python episodes/csat15_absolute_cubic/build.py --preview --shots 6 13 26 39
+```
+
+### 수능 수학 EP.16 — 지수방정식에서 밑을 통일하는 이유
+
+실제 소스: `episodes/csat16_exponential_equation/` (scene.py, build.py, 확정 대본, 160초 timing.json, SRT, 씬별 spec). 16:9 1920×1080 30fps, 음원 미제공으로 무음.
+
+```powershell
+python scripts/render.py csat16
+python episodes/csat16_exponential_equation/build.py --preview --shots 8 12 13 20
+```
+
+### 수능 수학 EP.17 — 도함수로 원래 함수 복원하기
+
+실제 소스: `episodes/csat17_restore_function/` (scene.py, build.py, 확정 대본, 187초 timing.json, SRT, 씬별 spec). 16:9 1920×1080 30fps, 음원 미제공으로 무음.
+
+```powershell
+python scripts/render.py csat17
+python episodes/csat17_restore_function/build.py --preview --shots 9 10 14 21
+```
+
+### 수능 수학 EP.18 — 등차수열의 공차와 항 사이의 간격
+
+실제 소스: `episodes/csat18_arithmetic_steps/` (scene.py, build.py, 확정 발화, 191초 timing.json, SRT, 씬별 spec). 16:9 1920×1080 30fps, 음원 미제공으로 무음.
+
+```powershell
+python scripts/render.py csat18
+python episodes/csat18_arithmetic_steps/build.py --preview --shots 8 13 26 28
+```
+
+### 수능 수학 EP.19 — 미분으로 접선의 방정식 구하기
+
+실제 소스: `episodes/csat19_tangent_intercept/` (scene.py, build.py, 확정 대본, 202초 timing.json, SRT, 씬별 spec). 16:9 1920×1080 30fps, 음원 미제공으로 무음.
+
+```powershell
+python scripts/render.py csat19
+python episodes/csat19_tangent_intercept/build.py --preview --shots 4 10 21 23
+```
+
+
+### 수능 수학 EP.20 — 지수함수와 로그함수의 교점
+
+실제 소스: `episodes/csat20_exp_log_intersection/scene.py`. 345초, 1920×1080, 30fps, 무음. 43개 독립 씬과 제공된 문장 종료 시각을 사용한다.
+
+실행: `python scripts/render.py csat20` (대표 씬 미리보기: `python episodes/csat20_exp_log_intersection/build.py --preview --shots 5 13 15 24 35`). 결과: `exports/csat20.mp4`.
+
+186–191초 밑변환의 분자·분모를 화면과 자막에서 교정했다. TTS 원문은 보존하므로 음성 제작 시 해당 문장 수정이 필요하다.
+
+
+### 수능 수학 EP.21 — 가장 큰 실근이 불연속이 되는 순간
+
+실제 소스: `episodes/csat21_largest_root/scene.py`. 165초, 1920×1080, 30fps, 무음. 22개 독립 씬과 39개 문장 종료 시각.
+
+실행: `python scripts/render.py csat21`. 대표 씬: `python episodes/csat21_largest_root/build.py --preview --shots 5 6 9 18`. 결과: `exports/csat21.mp4`.
+
+실제 함수와 교점으로 시각화한다. g(3)=1, 양옆 극한은 −5인 고립된 불연속을 표시한다.
+
+
+### 수능 수학 EP.22 — 수열의 생성 규칙으로 항의 개수 구하기
+
+실제 소스: `episodes/csat22_sequence_count/scene.py`. 170초, 1920×1080, 30fps, 무음. 26개 독립 씬과 37개 문장 종료 시각.
+
+실행: `python scripts/render.py csat22`. 대표 씬: `python episodes/csat22_sequence_count/build.py --preview --shots 6 7 11 16 19 22`. 결과: `exports/csat22.mp4`.
+
+인덱스와 항의 값을 구분하고, v≥5에서 점화식을 적용한다. 값 10 이하인 모든 생성 노드를 열거해 N(10)=32를 교차 검산했다.
+
+
+### 수능 수학 01–22번 고정 문제 정보 카드
+
+22편 모두 `exports/csat01.mp4`–`exports/csat22.mp4` 상단에 원래 조건·목표를 고정한다. 1920×1080, 30fps, 길이·자막 타이밍 유지. 본문은 원래 비율로 1600×900에 배치하며 자르지 않는다.
+
+공통 정의: `episodes/csat_series/problem_cards/problems.json`, 카드 소스 `cards.py`, PNG `assets/`, 합성 `apply.py`. 각 편의 최종 build.py가 카드를 자동 적용한다. 저해상도 장면 미리보기는 기존 화면 검수용이다. 기존 무카드 완성본은 `exports/problem_card_originals/`에 보관한다. 일괄 적용: `python episodes/csat_series/problem_cards/apply.py --all --workers 2`.
+
+
+### 벤포드 법칙 (`benford01`)
+
+177초 · 세로 1080×1920 · 60fps · 음원 미제공으로 무음 · 전체 문장 자막.
+실제 제작 자료: `episodes/benford01_log_intervals/`의 `direction.py`, `model.py`, `scenes/01`–`20/scene.py`, `narration.md`, `tts_script.txt`, `timing.json`, `captions.srt`, `brief.md`.
+
+```powershell
+python scripts/render.py benford01 --preview
+python scripts/render.py benford01
+```
+
+최종 결과: `exports/benford01_short.mp4`. 대표 씬: `python episodes/benford01_log_intervals/build.py --preview --scene 05 10 12 14 18 19`.

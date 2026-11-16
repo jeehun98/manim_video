@@ -2,6 +2,33 @@ import argparse, os, shutil, subprocess, sys
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 EPISODES = {"20": ("episodes/20_softmax_attention_finale/scene.py", "SoftmaxAttentionFinale"), "19": ("episodes/19_softmax_entropy/scene.py", "SoftmaxEntropy"), "18": ("episodes/18_softmax_lse/scene.py", "SoftmaxLSE"), "17": ("episodes/17_softmax_sigmoid/scene.py", "SoftmaxSigmoid"), "16": ("episodes/16_softmax_jacobian/scene.py", "SoftmaxJacobian"), "15": ("episodes/15_softmax_temperature/scene.py", "SoftmaxTemperature"), "14": ("episodes/14_softmax_ratio/scene.py", "SoftmaxRatio"), "13": ("episodes/13_softmax_shift/scene.py", "SoftmaxShift"), "12": ("episodes/12_softmax_intro/scene.py", "SoftmaxIntroduction"), "11": ("episodes/11_sigmoid_finale/scene.py", "SigmoidFinale"), "10": ("episodes/10_sigmoid_cdf/scene.py", "SigmoidCDF"), "09": ("episodes/09_sigmoid_distribution/scene.py", "SigmoidDistribution"), "08": ("episodes/08_sigmoid_saturation/scene.py", "SigmoidSaturation"), "07": ("episodes/07_sigmoid_derivative/scene.py", "SigmoidDerivative"), "06": ("episodes/06_sigmoid_intro/scene.py", "SigmoidIntroduction"), "05": ("episodes/05_computation_simplification/scene.py", "ComputationSimplification"), "04": ("episodes/04_irreversibility/scene.py", "Irreversibility"), "03": ("episodes/03_relu_change_magnitude/scene.py", "ReLUChangeMagnitude"), "01": ("episodes/01_relu/scene.py", "ReLUIntroduction"), "02": ("episodes/02_relu_information_loss/scene.py", "ReLUInformationLoss"), "legacy": ("archive/relu_short.py", "ReLUShort")}
+EPISODES["csat22"] = ("episodes/csat22_sequence_count/scene.py", "Shot01")
+EPISODES["csat21"] = ("episodes/csat21_largest_root/scene.py", "Shot01")
+EPISODES["csat20"] = ("episodes/csat20_exp_log_intersection/scene.py", "Shot01")
+EPISODES["csat19"] = ("episodes/csat19_tangent_intercept/scene.py", "Shot01")
+EPISODES["csat18"] = ("episodes/csat18_arithmetic_steps/scene.py", "Shot01")
+EPISODES["csat17"] = ("episodes/csat17_restore_function/scene.py", "Shot01")
+EPISODES["csat16"] = ("episodes/csat16_exponential_equation/scene.py", "Shot01")
+EPISODES["csat15"] = ("episodes/csat15_absolute_cubic/scene.py", "Shot01")
+EPISODES["csat14"] = ("episodes/csat14_cosine_roots/scene.py", "Shot01")
+EPISODES["csat13"] = ("episodes/csat13_area_derivative/scene.py", "Shot01")
+EPISODES["csat12"] = ("episodes/csat12_geometric_ratio/scene.py", "Shot01")
+EPISODES["csat11"] = ("episodes/csat11_limit_linear/scene.py", "Shot01")
+EPISODES["csat10"] = ("episodes/csat10_log_substitution/scene.py", "Shot01")
+EPISODES["csat09"] = ("episodes/csat09_velocity_position/scene.py", "Shot01")
+EPISODES["csat08"] = ("episodes/csat08_cosine_law/scene.py", "Shot01")
+EPISODES["csat07"] = ("episodes/csat07_cubic_extrema/scene.py", "Shot01")
+EPISODES["csat06"] = ("episodes/csat06_trig_sign/scene.py", "Shot01")
+EPISODES["csat05"] = ("episodes/csat05_product_rule/scene.py", "Shot01")
+EPISODES["csat04"] = ("episodes/csat04_one_sided_limits/scene.py", "Shot01")
+EPISODES["csat03"] = ("episodes/csat03_sigma/scene.py", "Shot01")
+EPISODES["csat02"] = ("episodes/csat02_derivative/scene.py", "Shot01")
+EPISODES["csat01"] = ("episodes/csat01_exponent/scene.py", "Shot01")
+EPISODES["benford01"] = ("episodes/benford01_log_intervals/scenes/01/scene.py", "Shot01")
+EPISODES["square01"] = ("episodes/square01_area_derivative/scenes/01/scene.py", "Shot01")
+EPISODES["energy01"] = ("episodes/energy01_force_gradient/scenes/01/scene.py", "Shot01")
+EPISODES["harmonic01"] = ("episodes/harmonic01_small_oscillations/scenes/01/scene.py", "Shot01")
+EPISODES["taylor01"] = ("episodes/taylor01_local_geometry/scenes/01/scene.py", "Shot01")
 EPISODES["conv01"] = ("episodes/conv01_fourier_basis/scenes/01/scene.py", "Shot01")
 EPISODES["egeom01"] = ("episodes/egeom01_area_inverse/scene.py", "EAreaGeometry")
 EPISODES["log01"] = ("episodes/log01_ratio_area/scene.py", "LogRatioGeometry")
@@ -357,6 +384,116 @@ def main():
     p.add_argument("episode", choices=[*EPISODES, *projects, *quantum_projects, "science22", "qcs01", "qcs02", "qcs03", "idea01", "idea02", "expression01", "aiwork01", "sgd01", "euler01", "eulerh01", "gausspi01", "godel01", "basis01", "qtier01", "lagrange01", "legendre01", "complex01", "samemath01", "samemath02", "samemath03", "cone01"])
     p.add_argument("--preview", action="store_true")
     a = p.parse_args()
+    if a.episode == "csat22":
+        command = [sys.executable, str(ROOT / "episodes/csat22_sequence_count/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "csat21":
+        command = [sys.executable, str(ROOT / "episodes/csat21_largest_root/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "csat20":
+        command = [sys.executable, str(ROOT / "episodes/csat20_exp_log_intersection/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "csat19":
+        command = [sys.executable, str(ROOT / "episodes/csat19_tangent_intercept/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "csat18":
+        command = [sys.executable, str(ROOT / "episodes/csat18_arithmetic_steps/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "csat17":
+        command = [sys.executable, str(ROOT / "episodes/csat17_restore_function/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "csat16":
+        command = [sys.executable, str(ROOT / "episodes/csat16_exponential_equation/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "csat15":
+        command = [sys.executable, str(ROOT / "episodes/csat15_absolute_cubic/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "csat14":
+        command = [sys.executable, str(ROOT / "episodes/csat14_cosine_roots/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "csat13":
+        command = [sys.executable, str(ROOT / "episodes/csat13_area_derivative/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "csat12":
+        command = [sys.executable, str(ROOT / "episodes/csat12_geometric_ratio/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "csat11":
+        command = [sys.executable, str(ROOT / "episodes/csat11_limit_linear/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "csat10":
+        command = [sys.executable, str(ROOT / "episodes/csat10_log_substitution/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "csat09":
+        command = [sys.executable, str(ROOT / "episodes/csat09_velocity_position/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "csat08":
+        command = [sys.executable, str(ROOT / "episodes/csat08_cosine_law/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "csat07":
+        command = [sys.executable, str(ROOT / "episodes/csat07_cubic_extrema/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "csat06":
+        command = [sys.executable, str(ROOT / "episodes/csat06_trig_sign/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "csat05":
+        command = [sys.executable, str(ROOT / "episodes/csat05_product_rule/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "csat04":
+        command = [sys.executable, str(ROOT / "episodes/csat04_one_sided_limits/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "csat03":
+        command = [sys.executable, str(ROOT / "episodes/csat03_sigma/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "csat02":
+        command = [sys.executable, str(ROOT / "episodes/csat02_derivative/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "csat01":
+        command = [sys.executable, str(ROOT / "episodes/csat01_exponent/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
     if a.episode == "cone01":
         command = [sys.executable, str(ROOT / "episodes/cone01_conic_orbits/build.py")]
         if a.preview: command.append("--preview")
@@ -400,6 +537,36 @@ def main():
     if a.episode == "samemath01":
         command = [sys.executable, str(ROOT / "episodes/samemath01_least_squares/build.py")]
         if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "benford01":
+        command = [sys.executable, str(ROOT / "episodes/benford01_log_intervals/build.py")]
+        if a.preview:
+            command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "square01":
+        command = [sys.executable, str(ROOT / "episodes/square01_area_derivative/build.py")]
+        if a.preview:
+            command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "energy01":
+        command = [sys.executable, str(ROOT / "episodes/energy01_force_gradient/build.py")]
+        if a.preview:
+            command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "harmonic01":
+        command = [sys.executable, str(ROOT / "episodes/harmonic01_small_oscillations/build.py")]
+        if a.preview:
+            command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "taylor01":
+        command = [sys.executable, str(ROOT / "episodes/taylor01_local_geometry/build.py")]
+        if a.preview:
+            command.append("--preview")
         subprocess.run(command, cwd=ROOT, check=True)
         return
     if a.episode == "conv01":

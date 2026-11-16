@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "samples": 1001,
+  "checks": [
+    "unit radius",
+    "upper counterclockwise half-turn",
+    "endpoints 1 and -1",
+    "cos pi and sin pi",
+    "adding 1 to both sides",
+    "identity elements",
+    "i multiplication",
+    "36 exact sentence timings",
+    "11 scene durations"
+  ]
+}

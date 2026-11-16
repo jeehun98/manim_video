@@ -1,0 +1,114 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_opening",
+    "class_name": "Shot01",
+    "method": "opening",
+    "start": 0,
+    "duration_seconds": 12
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_real_square",
+    "class_name": "Shot02",
+    "method": "real_square",
+    "start": 12,
+    "duration_seconds": 13
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_imaginary_unit",
+    "class_name": "Shot03",
+    "method": "imaginary_unit",
+    "start": 25,
+    "duration_seconds": 17
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_complex_numbers",
+    "class_name": "Shot04",
+    "method": "complex_numbers",
+    "start": 42,
+    "duration_seconds": 11
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_complex_plane",
+    "class_name": "Shot05",
+    "method": "complex_plane",
+    "start": 53,
+    "duration_seconds": 16
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_one",
+    "class_name": "Shot06",
+    "method": "one",
+    "start": 69,
+    "duration_seconds": 7
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07_first_turn",
+    "class_name": "Shot07",
+    "method": "first_turn",
+    "start": 76,
+    "duration_seconds": 9
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08_four_turns",
+    "class_name": "Shot08",
+    "method": "four_turns",
+    "start": 85,
+    "duration_seconds": 16
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09_general",
+    "class_name": "Shot09",
+    "method": "general",
+    "start": 101,
+    "duration_seconds": 11
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10_algebra",
+    "class_name": "Shot10",
+    "method": "algebra",
+    "start": 112,
+    "duration_seconds": 13
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11_rotation",
+    "class_name": "Shot11",
+    "method": "rotation",
+    "start": 125,
+    "duration_seconds": 7
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12_half_turn",
+    "class_name": "Shot12",
+    "method": "half_turn",
+    "start": 132,
+    "duration_seconds": 15
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13_continuous",
+    "class_name": "Shot13",
+    "method": "continuous",
+    "start": 147,
+    "duration_seconds": 18
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14_e_transition",
+    "class_name": "Shot14",
+    "method": "e_transition",
+    "start": 165,
+    "duration_seconds": 6
+  }
+]

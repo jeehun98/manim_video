@@ -1,0 +1,79 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat21.mp4",
+  "duration": "165.000000",
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "frames": "4950",
+  "audio": "not supplied; silent",
+  "decode": "passed",
+  "sha256": "2c9493453330ac915bcebb0fe725535f8411a581ec6cb5dcd79a38c409cac5be",
+  "sentences": 39,
+  "caption_timing": "supplied starts/ends; 30 fps boundaries",
+  "geometry": "per-frame content bounds and caption band assertions",
+  "math": "a=3;b=-9;c=9;f2=11;h=4-(t-3)^2;g3=1;limit g at3=-5",
+  "shots": 22,
+  "shot_frames": [
+    270,
+    420,
+    330,
+    210,
+    150,
+    270,
+    330,
+    330,
+    360,
+    120,
+    240,
+    150,
+    150,
+    270,
+    150,
+    210,
+    210,
+    150,
+    150,
+    180,
+    210,
+    90
+  ],
+  "input_sha256": {
+    "scene.py": "cbcf846306c2c8bc54f25f3e2df1f9d6585d9c90333a9b4b9d264d18ec6f1b3e",
+    "timing.json": "850a86ce9e626a0d824bebf98947a4139445eba92e5d2824e6a2e04c52a3f772",
+    "captions.srt": "6f3bd07acf9efe4b5188e97e7b1a262d97eea5d0208ea1b178cdaf1ca2084063",
+    "tts_script.txt": "5515671facf3e27fc903f045a8e50106ff8b724eb37d9b13f1a131e68e520667"
+  },
+  "validation": {
+    "math": "f-4=(x-1)^2(x+5); h=4-(t-3)^2; fprime1=0; fsecond1=12>0; f1=4; f2=11; g3=1; limit g=-5",
+    "timing": "39 contiguous sentence intervals, 22 contiguous shots, 4950 frames",
+    "audio": "not supplied"
+  },
+  "visual_review": "preview 05,06,09,18; final 06,08,09,12; content and captions separated",
+  "previous_video_sha256": "5a21406fb3f8b65e9405bb5f3b26ee1c74b5402c96c84ba7d8eb276f152062b0",
+  "problem_card": {
+    "enabled": true,
+    "header_mae_start_middle_end": [
+      1.779507137345679,
+      1.732548225308642,
+      1.7323958333333334
+    ],
+    "layout": {
+      "card": [
+        0,
+        0,
+        1920,
+        180
+      ],
+      "lesson": [
+        160,
+        180,
+        1600,
+        900
+      ],
+      "scale": "uniform 5/6; no crop"
+    },
+    "source": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\episodes\\csat_series\\problem_cards\\problems.json",
+    "card_sha256": "4356cbf6eade7fe3c2e24cedffaac32b548eb52c96c081ab5acf9765bbd869b8",
+    "original_backup": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\problem_card_originals\\csat21.mp4"
+  }
+}

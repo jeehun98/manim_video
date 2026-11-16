@@ -1,0 +1,277 @@
+{
+  "csat01": {
+    "number": 1,
+    "topic": "지수법칙",
+    "conditions": [
+      "\\sqrt[3]{9}\\times3^{-5/3}"
+    ],
+    "target": [
+      "\\sqrt[3]{9}\\times3^{-5/3}=?"
+    ]
+  },
+  "csat02": {
+    "number": 2,
+    "topic": "미분계수",
+    "conditions": [
+      "f(x)=3x^2-x+1"
+    ],
+    "target": [
+      "\\displaystyle\\lim_{x\\to1}\\frac{f(x)-f(1)}{x-1}"
+    ]
+  },
+  "csat03": {
+    "number": 3,
+    "topic": "수열의 합",
+    "conditions": [
+      "\\sum_{k=1}^{5}(2a_k+b_k)=19",
+      "\\sum_{k=1}^{5}(a_k+b_k)=10"
+    ],
+    "target": [
+      "\\sum_{k=1}^{5}a_k"
+    ]
+  },
+  "csat04": {
+    "number": 4,
+    "topic": "좌극한 · 우극한",
+    "conditions": [],
+    "target": [
+      "\\lim_{x\\to-1^-}f(x)",
+      "+\\lim_{x\\to1^+}f(x)"
+    ]
+  },
+  "csat05": {
+    "number": 5,
+    "topic": "곱의 미분법",
+    "conditions": [
+      "f(x)=(3x-1)(x^2-2x+2)"
+    ],
+    "target": [
+      "f^{\\prime}(2)"
+    ]
+  },
+  "csat06": {
+    "number": 6,
+    "topic": "삼각함수의 부호",
+    "conditions": [
+      "\\frac{3\\pi}{2}<\\theta<2\\pi,\\quad\\cos^2\\theta=\\frac1{10}"
+    ],
+    "target": [
+      "\\tan\\theta"
+    ]
+  },
+  "csat07": {
+    "number": 7,
+    "topic": "극대와 극소",
+    "conditions": [
+      "f(x)=x^3+ax+9",
+      [
+        "text",
+        "x=−1에서 극대"
+      ]
+    ],
+    "target": [
+      [
+        "text",
+        "f(x)의 극솟값"
+      ]
+    ]
+  },
+  "csat08": {
+    "number": 8,
+    "topic": "코사인법칙",
+    "conditions": [
+      "\\triangle ABC:\\quad AB=4,\\quad BC=8",
+      "\\cos A=-\\frac14"
+    ],
+    "target": [
+      "AC"
+    ]
+  },
+  "csat09": {
+    "number": 9,
+    "topic": "속도와 위치",
+    "conditions": [
+      "v_1(t)=t^2-t,\\quad v_2(t)=t",
+      "x_1(0)=x_2(0)=0"
+    ],
+    "target": [
+      "x_1(k)=x_2(k)",
+      "k>0"
+    ]
+  },
+  "csat10": {
+    "number": 10,
+    "topic": "로그의 밑변환",
+    "conditions": [
+      "\\log_9a+\\log_3b=2,\\quad a,b>0",
+      "\\log_3a=8\\log_9b"
+    ],
+    "target": [
+      "\\frac ab"
+    ]
+  },
+  "csat11": {
+    "number": 11,
+    "topic": "극한의 존재 조건",
+    "conditions": [
+      "R(x)=\\frac{f(x+2)}{x(f(x)-3)}",
+      [
+        "text",
+        "f: 일차함수 · x→0에서 유한한 극한 존재 · x→3에서 미존재"
+      ]
+    ],
+    "target": [
+      "f(4)"
+    ]
+  },
+  "csat12": {
+    "number": 12,
+    "topic": "등비수열",
+    "conditions": [
+      "2a_1(a_1+a_3)=5a_2(a_1+a_2)=20",
+      [
+        "text",
+        "등비수열 · 공비 r>0"
+      ]
+    ],
+    "target": [
+      "a_1a_6"
+    ]
+  },
+  "csat13": {
+    "number": 13,
+    "topic": "넓이와 미분",
+    "conditions": [
+      "f(x)>g(x),\\quad f(1)-g(1)=1",
+      "S(t)=\\int_0^t(f-g)\\,dx\\quad(t\\ge0)",
+      "S^{\\prime}(t)=t^2-2t+a"
+    ],
+    "target": [
+      "\\mathrm{(a)}\\ a=1,\\quad \\mathrm{(b)}\\ S(3)=6",
+      "\\mathrm{(c)}\\ \\int_{-2}^2(f-g)=\\int_0^4(f-g)"
+    ]
+  },
+  "csat14": {
+    "number": 14,
+    "topic": "코사인 방정식",
+    "conditions": [
+      "(\\cos(b\\pi x)-\\frac12)(a\\cos(b\\pi x)+\\frac{a+2}{2})=0",
+      "0\\le x\\le2,\\quad a>0,\\quad b\\in\\mathbb N",
+      [
+        "text",
+        "서로 다른 실근 15개"
+      ]
+    ],
+    "target": [
+      "a+b"
+    ]
+  },
+  "csat15": {
+    "number": 15,
+    "topic": "절댓값 적분",
+    "conditions": [
+      "\\int_p^{p+3}|f|\\,dx\\ne\\left|\\int_p^{p+3}f\\,dx\\right|\\ \\Longleftrightarrow\\ 0<p<3",
+      "\\int_0^3|f+q|\\,dx\\ne\\left|\\int_0^3(f+q)\\,dx\\right|\\ \\Longleftrightarrow\\ 0<q<1",
+      [
+        "text",
+        "f: 삼차함수 · 상수항 0"
+      ]
+    ],
+    "target": [
+      "f(6)"
+    ]
+  },
+  "csat16": {
+    "number": 16,
+    "topic": "지수방정식",
+    "conditions": [
+      "3^{x-6}=\\left(\\frac19\\right)^x"
+    ],
+    "target": [
+      "x"
+    ]
+  },
+  "csat17": {
+    "number": 17,
+    "topic": "도함수와 적분",
+    "conditions": [
+      "f^{\\prime}(x)=6x^2+5,\\quad f(0)=3",
+      [
+        "text",
+        "f: 다항함수"
+      ]
+    ],
+    "target": [
+      "f(1)"
+    ]
+  },
+  "csat18": {
+    "number": 18,
+    "topic": "등차수열",
+    "conditions": [
+      "a_6=5,\\quad a_5=a_2-6",
+      [
+        "text",
+        "등차수열"
+      ]
+    ],
+    "target": [
+      "a_1"
+    ]
+  },
+  "csat19": {
+    "number": 19,
+    "topic": "접선의 방정식",
+    "conditions": [
+      "f(x)=x^3-5x^2+3x+6",
+      "P=(1,5)"
+    ],
+    "target": [
+      [
+        "text",
+        "P에서 접선의 y절편"
+      ]
+    ]
+  },
+  "csat20": {
+    "number": 20,
+    "topic": "지수·로그 교점",
+    "conditions": [
+      "f(x)=b^x,\\quad g(x)=-\\log_bx,\\quad b>1",
+      "P=(\\alpha,\\beta),\\quad\\alpha,\\beta>0,\\quad\\alpha\\beta^3=1",
+      "m=\\beta/\\alpha,\\quad(p,q,r)=(m,\\beta,g(m))"
+    ],
+    "target": [
+      "(pqr)^2"
+    ]
+  },
+  "csat21": {
+    "number": 21,
+    "topic": "가장 큰 실근",
+    "conditions": [
+      "h(t)=f^{\\prime}(t)-4t^2+4,\\quad g(t)=\\max\\{\\alpha:f(\\alpha)=h(t)\\}",
+      [
+        "text",
+        "f: 최고차항 계수 1인 삼차함수"
+      ],
+      [
+        "text",
+        "g(t)는 t=3에서만 불연속 · g(3)=1"
+      ]
+    ],
+    "target": [
+      "f(2)"
+    ]
+  },
+  "csat22": {
+    "number": 22,
+    "topic": "수열의 생성 규칙",
+    "conditions": [
+      "a_1=1,\\quad a_3=4,\\quad a_{2n}=a_n+1",
+      "a_{4n+1}=a_{4n+3}=a_n+4\\quad(n\\in\\mathbb N)"
+    ],
+    "target": [
+      "\\#\\{k\\in\\mathbb N:a_k=10\\}"
+    ]
+  }
+}

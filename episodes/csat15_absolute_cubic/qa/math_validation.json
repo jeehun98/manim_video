@@ -1,0 +1,7 @@
+{
+  "interval_condition": "f is negative on (-infinity,0) and (0,3), zero at0,3, positive on (3,infinity). Both signs on [p,p+3] iff p<3<p+3, equivalently0<p<3.",
+  "shift_condition": "range f([0,3])=[-1,0]; range(f+q)=[q-1,q]; both signs iff0<q<1.",
+  "endpoint_q1_factorization": "(x - 2)**2*(x + 1)/4",
+  "min_on_0_3": -1,
+  "f6": 27
+}

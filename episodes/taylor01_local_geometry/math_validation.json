@@ -1,0 +1,11 @@
+{
+  "sha256": "956ffa2af779c423c3a330f4aa58f683c42132e5b2cd41ccc28bc37daf61888e",
+  "status": "passed",
+  "checks": [
+    "Taylor derivative matching at a=0 and a=1 through order 7",
+    "factorial coefficient recovery",
+    "sin P1/P3/P5/P7 and remainder bounds",
+    "second derivative is slope rate; no curvature identity asserted",
+    "finite approximation distinguished from infinite-series reconstruction"
+  ]
+}

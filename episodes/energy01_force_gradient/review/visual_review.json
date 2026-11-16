@@ -1,0 +1,31 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\energy01_short.mp4",
+  "sha256": "499043cb19c0b3657e61601fc608c8ae8291e6204e5d8e06c8a99018af2b49e0",
+  "representative_previews": [
+    "03",
+    "06",
+    "07",
+    "11",
+    "13"
+  ],
+  "final_visual_checks": [
+    "02",
+    "03",
+    "05",
+    "09",
+    "10",
+    "11",
+    "13"
+  ],
+  "result": "passed",
+  "checks": [
+    "external force distinct from gravitational force",
+    "10 J/m = 10 N; height and energy counters synchronized",
+    "opposite external and gravitational work signs",
+    "force arrows on actual object rather than potential curve",
+    "local minimum and stability condition",
+    "parallel tangents and unchanged force after energy offset",
+    "potential and force graphs aligned by position",
+    "caption and equation clearance"
+  ]
+}

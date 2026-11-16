@@ -1,0 +1,7 @@
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/euler_identity_1_voiced.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/euler_identity_2_voiced.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/euler_identity_3_voiced.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/euler_identity_4_voiced.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/euler_identity_5_voiced.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/euler_identity_6_voiced.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/euler_identity_7_voiced.mp4'

@@ -1,0 +1,32 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\harmonic01_short.mp4",
+  "sha256": "b9d468d55dfa47ba83029e3213b2eb8c25ac83209c7256c9af3d0da948b1adc5",
+  "representative_previews": [
+    "01",
+    "04",
+    "07",
+    "11",
+    "13"
+  ],
+  "final_visual_checks": [
+    "02",
+    "05",
+    "06",
+    "07",
+    "08",
+    "10",
+    "12",
+    "14",
+    "15"
+  ],
+  "result": "passed",
+  "checks": [
+    "potential graph distinct from physical bowl and object",
+    "normalized potential axes labelled u=q/epsilon and deltaV/epsilon^2",
+    "equilibrium derivative zero; nondegenerate minimum and small displacement conditions",
+    "force and motion synchronized to analytic displacement",
+    "small-angle pendulum and reduced-mass molecular model",
+    "ideal LC energy exchange",
+    "captions and formulas clear of frame and subtitle band"
+  ]
+}

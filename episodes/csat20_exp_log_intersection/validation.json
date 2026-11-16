@@ -1,0 +1,11 @@
+{
+  "timing": "82 supplied sentence intervals contiguous, 43 scenes, 10350 frames",
+  "math": "symbolic relations and numeric graph intersection passed",
+  "graph": {
+    "alpha": 0.4386913376508308,
+    "beta": 1.3160740129524924,
+    "base": 1.8702528136972445
+  },
+  "caption_correction": "186-191 sec; correct log_b m=log_b alpha/log_m alpha",
+  "tts": "original preserved; audio not supplied"
+}

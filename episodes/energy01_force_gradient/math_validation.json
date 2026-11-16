@@ -1,0 +1,12 @@
+{
+  "sha256": "76da35927ad675d999305d8d0906f721b55d465fd34bb05e1c12d727f3cb02d5",
+  "status": "passed",
+  "checks": [
+    "10 J per meter equals 10 N; gravity sign negative",
+    "external versus gravitational work signs for quasistatic lifting",
+    "finite differences and derivative limit",
+    "potential derivative, tangent contact, and force directions",
+    "constant energy offset leaves derivative and force unchanged",
+    "strict local minimum; stationarity alone not used as stability proof"
+  ]
+}

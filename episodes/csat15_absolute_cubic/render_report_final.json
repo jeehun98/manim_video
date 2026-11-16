@@ -1,0 +1,98 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat15.mp4",
+  "duration": "339.000000",
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "frames": "10170",
+  "audio": "not supplied; silent",
+  "decode": "passed",
+  "sha256": "a1ae176c885dcd2c91e7482415067d68bdeb8999401f2efc27a24954badd700e",
+  "sentences": 75,
+  "caption_timing": "supplied starts/ends; 30 fps boundaries",
+  "geometry": "per-frame content bounds and caption band assertions",
+  "math": "integralabs=A+B,absintegral=abs(A-B); signroot3,double0; f=k*x2*(x-3); k>0; min_[0,3]=-4k=-1; k=1/4; f6=27",
+  "input_sha256": {
+    "scene.py": "2ab6816f4025105066dcc396a679093e2647a11bc3c21d3039779a5d62d090d3",
+    "timing.json": "79c600f4fe8149a3da682ef6b43d64b9e12da0b5556bb6f39112afef59395259",
+    "build.py": "0eb625e4d3634f2012a677e7e2a24ce1b39fe23ec032a18500f45922939b3bc1"
+  },
+  "shot_frames": [
+    270,
+    210,
+    390,
+    210,
+    180,
+    120,
+    150,
+    210,
+    300,
+    210,
+    210,
+    270,
+    240,
+    330,
+    450,
+    270,
+    120,
+    300,
+    210,
+    270,
+    330,
+    210,
+    360,
+    360,
+    180,
+    360,
+    210,
+    360,
+    300,
+    270,
+    90,
+    210,
+    210,
+    90,
+    420,
+    330,
+    330,
+    300,
+    240,
+    90
+  ],
+  "visual_review": "Preview04,06,13,15,23,26,39 and final06,13,15,23,26,27,31,40 reviewed: reflected negative area and label, strict p endpoints, root0 contradiction, provisional orientation labels, q-shift and vanishing negative area, restricted minimum on [0,3], final answer27, captions and layout passed.",
+  "symbolic_validation": {
+    "interval_condition": "f is negative on (-infinity,0) and (0,3), zero at0,3, positive on (3,infinity). Both signs on [p,p+3] iff p<3<p+3, equivalently0<p<3.",
+    "shift_condition": "range f([0,3])=[-1,0]; range(f+q)=[q-1,q]; both signs iff0<q<1.",
+    "endpoint_q1_factorization": "(x - 2)**2*(x + 1)/4",
+    "min_on_0_3": -1,
+    "f6": 27
+  },
+  "render_reuse": "Shots01..14 completed before a Korean-text MathTex error in Shot15. Changed only the affected text object and removed equivalent temporary string expression in Shot39, then rendered15..40 and assembled. No timing/layout/animation changes to reused01..14.",
+  "previous_video_sha256": "07d21d6f40d69dc0eae87bba4073049d4de25c0cd1d02944e199faf53818e7b6",
+  "problem_card": {
+    "enabled": true,
+    "header_mae_start_middle_end": [
+      1.7513551311728395,
+      1.718389274691358,
+      1.719518711419753
+    ],
+    "layout": {
+      "card": [
+        0,
+        0,
+        1920,
+        180
+      ],
+      "lesson": [
+        160,
+        180,
+        1600,
+        900
+      ],
+      "scale": "uniform 5/6; no crop"
+    },
+    "source": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\episodes\\csat_series\\problem_cards\\problems.json",
+    "card_sha256": "32cf7398441035fe441dad0feae8f798830ea13858c9dc4e01082ff3f210e48b",
+    "original_backup": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\problem_card_originals\\csat15.mp4"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat19.mp4",
+  "duration": "202.000000",
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "frames": "6060",
+  "audio": "not supplied; silent",
+  "decode": "passed",
+  "sha256": "f6153af39f4a78a0d7aea0caebad82eb8c320fe3320d848cd0a9acf679426d04",
+  "sentences": 48,
+  "caption_timing": "supplied starts/ends; 30 fps boundaries",
+  "geometry": "per-frame content bounds and caption band assertions",
+  "math": "f=x3-5x2+3x+6;f1=5;df=3x2-10x+3;df1=-4;tangent=-4x+9;yintercept=9;dx=-1,dy=4",
+  "input_sha256": {
+    "scene.py": "65c0689aba16ade4e402b44284c2641fbfda950bd2945ae8cbab6ebb3aa1e391",
+    "timing.json": "59e8f48221cebc2a3d96729e685f54e7f3cbf2519e19624f06d28e0c3be4ee55",
+    "build.py": "48ace58df1e1216d94bc25add4ba9c23a3d394f31ecd307911bb0aab5b42a78b"
+  },
+  "shot_frames": [
+    240,
+    300,
+    240,
+    330,
+    360,
+    90,
+    360,
+    90,
+    240,
+    180,
+    90,
+    90,
+    240,
+    150,
+    120,
+    210,
+    240,
+    90,
+    240,
+    120,
+    270,
+    150,
+    240,
+    90,
+    240,
+    150,
+    120,
+    240,
+    240,
+    300
+  ],
+  "visual_review": "Corrected previews04,10,21,23 and final04,07,10,15,18,21,23,29 reviewed. Curve drawn as an unfilled stroke, tangent accurately clipped to graph viewport, directional arrows/labels separated, pointP purple and interceptQ green, helper and tangent-only points distinguished, captions and layout passed.",
+  "symbolic_validation": "SymPy: f1=5,df=3x^2-10x+3,df1=-4; tangent=5-4(x-1)=-4x+9; intercept9. Tangent(2)=1 while f2=0; reverse displacement dx=-1,dy=4 gives (0,9).",
+  "previous_video_sha256": "6bf44f10714ae5abbbedac30774a5720ddde59a8c6fa24e84c3a30246c73bfc6",
+  "problem_card": {
+    "enabled": true,
+    "header_mae_start_middle_end": [
+      1.889548611111111,
+      1.8471412037037036,
+      1.8794135802469136
+    ],
+    "layout": {
+      "card": [
+        0,
+        0,
+        1920,
+        180
+      ],
+      "lesson": [
+        160,
+        180,
+        1600,
+        900
+      ],
+      "scale": "uniform 5/6; no crop"
+    },
+    "source": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\episodes\\csat_series\\problem_cards\\problems.json",
+    "card_sha256": "3608bb9b41bca5d31d23f4c5ffce68a3c6bb64d0f07f3e5bc4715a521b06f0c1",
+    "original_backup": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\problem_card_originals\\csat19.mp4"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\csat06.mp4",
+  "duration": "142.000000",
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "frames": "4260",
+  "audio": "not supplied; silent",
+  "decode": "passed",
+  "sha256": "1d0826e80b86aa2f7d1294fe2dcd6f4e2b4a078df6f549ac2ab7a6072d71dcab",
+  "sentences": 29,
+  "caption_timing": "supplied starts/ends; 30 fps boundaries",
+  "geometry": "per-frame content bounds and caption band assertions",
+  "math": "SymPy exact point has unit norm, cos²=1/10, sin²=9/10, tan=-3; 3π/2<theta<2π verified",
+  "input_sha256": {
+    "scene.py": "1f3dca6e629602c90013f5fc4cd0f834c95723e7a0dc5b68296924e22f443ef1",
+    "timing.json": "f9c74081e942a1aca747b7233d5450cc496d10379dafdeeec7264f23541655a9",
+    "build.py": "c8b29c91afdd2f6d0533cf29abfc7e3101683271b253530c661fedaef421123e"
+  },
+  "shot_frames": [
+    210,
+    360,
+    360,
+    300,
+    270,
+    330,
+    180,
+    270,
+    120,
+    300,
+    150,
+    210,
+    240,
+    390,
+    210,
+    300,
+    60
+  ],
+  "visual_review": "10 final key frames plus representative identity, unit-circle sign and square/sign misconception previews checked",
+  "previous_video_sha256": "416c3ddeabd16f9d4c8fd64697262540b6e741817a10f2953a172e2fdd2644df",
+  "problem_card": {
+    "enabled": true,
+    "header_mae_start_middle_end": [
+      1.7546344521604937,
+      1.7156394675925926,
+      1.7444666280864198
+    ],
+    "layout": {
+      "card": [
+        0,
+        0,
+        1920,
+        180
+      ],
+      "lesson": [
+        160,
+        180,
+        1600,
+        900
+      ],
+      "scale": "uniform 5/6; no crop"
+    },
+    "source": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\episodes\\csat_series\\problem_cards\\problems.json",
+    "card_sha256": "6d9f7319b36f6e1c083be1b3911edb29c841f0d928a0b42b6913342ffcbc3d48",
+    "original_backup": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\problem_card_originals\\csat06.mp4"
+  }
+}

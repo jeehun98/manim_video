@@ -1,0 +1,21 @@
+id: euler_identity_ch05
+video: {width: 1920, height: 1080, fps: 60}
+scenes:
+  - {id: '01', directory: 'scenes/01_opening', class: Shot01, duration_seconds: 15}
+  - {id: '02', directory: 'scenes/02_complex_limit', class: Shot02, duration_seconds: 17}
+  - {id: '03', directory: 'scenes/03_start_one', class: Shot03, duration_seconds: 10}
+  - {id: '04', directory: 'scenes/04_first_step', class: Shot04, duration_seconds: 16}
+  - {id: '05', directory: 'scenes/05_repeat_steps', class: Shot05, duration_seconds: 13}
+  - {id: '06', directory: 'scenes/06_finite_growth', class: Shot06, duration_seconds: 14}
+  - {id: '07', directory: 'scenes/07_four_steps', class: Shot07, duration_seconds: 13}
+  - {id: '08', directory: 'scenes/08_refine_steps', class: Shot08, duration_seconds: 14}
+  - {id: '09', directory: 'scenes/09_limit_circle', class: Shot09, duration_seconds: 10}
+  - {id: '10', directory: 'scenes/10_angle_question', class: Shot10, duration_seconds: 8}
+  - {id: '11', directory: 'scenes/11_derivative', class: Shot11, duration_seconds: 14}
+  - {id: '12', directory: 'scenes/12_perpendicular', class: Shot12, duration_seconds: 16}
+  - {id: '13', directory: 'scenes/13_unit_speed', class: Shot13, duration_seconds: 13}
+  - {id: '14', directory: 'scenes/14_radians', class: Shot14, duration_seconds: 17}
+  - {id: '15', directory: 'scenes/15_coordinates', class: Shot15, duration_seconds: 10}
+  - {id: '16', directory: 'scenes/16_complex_coordinates', class: Shot16, duration_seconds: 9}
+  - {id: '17', directory: 'scenes/17_euler_formula', class: Shot17, duration_seconds: 8}
+  - {id: '18', directory: 'scenes/18_closing', class: Shot18, duration_seconds: 7}
