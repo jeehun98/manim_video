@@ -1,0 +1,46 @@
+{
+  "duration": 174,
+  "frames": 5220,
+  "sentence_continuity": true,
+  "example_curve_discriminant": -368,
+  "real_curve_root": -1.3247179572447454,
+  "graph_residual_max": 1.7763568394002505e-15,
+  "finite_field_example": {
+    "prime": 5,
+    "good_reduction": true,
+    "affine_points": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    "infinity_points": 1,
+    "total_points": 8,
+    "coefficient_a5": -2
+  },
+  "proof_conditions": "primitive normalized counterexample with prime p>=5; exponents 3,4 classical; semistability over Q; Ribet level-lowering plus Frey properties; Wiles semistable modularity"
+}

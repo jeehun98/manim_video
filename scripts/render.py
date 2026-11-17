@@ -25,6 +25,11 @@ EPISODES["csat03"] = ("episodes/csat03_sigma/scene.py", "Shot01")
 EPISODES["csat02"] = ("episodes/csat02_derivative/scene.py", "Shot01")
 EPISODES["csat01"] = ("episodes/csat01_exponent/scene.py", "Shot01")
 EPISODES["benford01"] = ("episodes/benford01_log_intervals/scenes/01/scene.py", "Shot01")
+EPISODES["probmodel01"] = ("episodes/probmodel01_collective_behavior/scene.py", "Shot01")
+EPISODES["fermat01"] = ("episodes/fermat01_modularity/scene.py", "Shot01")
+EPISODES["mathlang01"] = ("episodes/mathlang01_formal_language/scene.py", "Shot01")
+EPISODES["perspective01"] = ("episodes/perspective01_analysis_algebra/scene.py", "Shot01")
+EPISODES["fta01"] = ("episodes/fta01_complex_roots/scene.py", "Shot01")
 EPISODES["galois01"] = ("episodes/galois01_quintic/scene.py", "Shot01")
 EPISODES["invariant01"] = ("episodes/invariant01_fifteen/scene.py", "Shot01")
 EPISODES["commute01"] = ("episodes/commute01_rotation/scene.py", "Shot01")
@@ -664,6 +669,31 @@ def main():
         command = [sys.executable, str(ROOT / "episodes/invariant01_fifteen/build.py")]
         if a.preview:
             command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "probmodel01":
+        command = [sys.executable, str(ROOT / "episodes/probmodel01_collective_behavior/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "fermat01":
+        command = [sys.executable, str(ROOT / "episodes/fermat01_modularity/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "mathlang01":
+        command = [sys.executable, str(ROOT / "episodes/mathlang01_formal_language/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "perspective01":
+        command = [sys.executable, str(ROOT / "episodes/perspective01_analysis_algebra/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "fta01":
+        command = [sys.executable, str(ROOT / "episodes/fta01_complex_roots/build.py")]
+        if a.preview: command.append("--preview")
         subprocess.run(command, cwd=ROOT, check=True)
         return
     if a.episode == "galois01":

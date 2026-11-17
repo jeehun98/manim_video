@@ -1,0 +1,8 @@
+{
+  "changed_scenes": [
+    "02"
+  ],
+  "previous_input_hash": "49a130c3e31eefbbb731879b42e164defe339b0ec4d8b40174ba6adad1f47f1e",
+  "current_input_hash": "31b46f624b7a9b9eacd86f8ff089ef7f0efd1c604ece609b05b511b33e6f789a",
+  "reuse_basis": "Only Shot02 label transition changed; other scene classes AST identical, all shared helpers/timing/data/render configuration unchanged."
+}

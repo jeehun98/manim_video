@@ -1,0 +1,10 @@
+{
+  "duration": 164,
+  "frames": 4920,
+  "sentence_continuity": true,
+  "empty_set_vs_singleton": true,
+  "quantified_example_witness": "m=n+1",
+  "subset_definition_finite_sanity_check": true,
+  "ZFC_language": "membership is the sole nonlogical relation symbol; logic, equality, variables and axioms retained",
+  "incompleteness": "modern Goedel-Rosser form; sufficient arithmetic, consistency and effective axiomatization displayed"
+}

@@ -2186,3 +2186,68 @@ python scripts/render.py benford01
 
 - [대칭은 좌우가 같다는 뜻이 아니다](episodes/symmetry01_group/brief.md) · 147초, 세로 1080×1920, 60fps, 무음 및 별도 SRT.
 - 렌더는 `python scripts/render.py symmetry01`로 실행한다. `--preview`를 붙이면 저해상도 미리보기를 만든다. 최종 출력은 `exports/symmetry01_short.mp4`다.
+
+
+### 대수학의 기본정리 (fta01)
+
+177초 9:16 쇼츠. 사용자 제공 대본·문장 종료 시각 기준, 음원 미제공으로 무음.
+소스 및 제작 기준: `episodes/fta01_complex_roots/` (`scene.py`, `timing.json`, `narration.md`, `tts_script.txt`, `captions.srt`, `brief.md`, `spec.md`).
+
+```powershell
+python scripts/render.py fta01 --preview
+python scripts/render.py fta01
+```
+
+결과: `exports/fta01_short.mp4` (1080×1920, 30fps). 씬 단독 렌더: `python episodes/fta01_complex_roots/build.py --preview --scene 07`.
+
+
+### 해석학과 대수학 (perspective01)
+
+173초 9:16 쇼츠. 제공 대본·문장 종료 시각 기준, 음원 미제공으로 무음.
+실제 제작 파일: `episodes/perspective01_analysis_algebra/` (`scene.py`, `timing.json`, `narration.md`, `tts_script.txt`, `captions.srt`, `brief.md`, `spec.md`).
+
+```powershell
+python scripts/render.py perspective01 --preview
+python scripts/render.py perspective01
+```
+
+결과: `exports/perspective01_short.mp4` (1080×1920, 30fps).
+
+
+### 수학의 언어와 문법 (mathlang01)
+
+164초 9:16 쇼츠. 제공 대본·종료 시각 기준, 음원 미제공으로 무음.
+소스: `episodes/mathlang01_formal_language/` (`scene.py`, `timing.json`, `narration.md`, `tts_script.txt`, `captions.srt`, `brief.md`, `spec.md`).
+
+```powershell
+python scripts/render.py mathlang01 --preview
+python scripts/render.py mathlang01
+```
+
+결과: `exports/mathlang01_short.mp4` (1080×1920, 30fps). 씬 단독: `python episodes/mathlang01_formal_language/build.py --preview --scene 05`.
+
+
+### 페르마의 마지막 정리 (fermat01)
+
+174초 9:16 쇼츠. 사용자 확정 대본·문장 종료 시각 반영. 음원 미제공으로 무음.
+소스: `episodes/fermat01_modularity/` (`scene.py`, `timing.json`, `narration.md`, `tts_script.txt`, `captions.srt`, `brief.md`, `spec.md`).
+
+```powershell
+python scripts/render.py fermat01 --preview
+python scripts/render.py fermat01
+```
+
+결과: `exports/fermat01_short.mp4` (1080×1920, 30fps).
+
+
+### 확률과 수학적 모형 (probmodel01)
+
+166초 9:16 쇼츠. 확정 대본·문장 종료 시각 기준, 음원 미제공으로 무음.
+소스: `episodes/probmodel01_collective_behavior/` (`scene.py`, `model_data.npz`, `timing.json`, `narration.md`, `tts_script.txt`, `captions.srt`, `brief.md`, `spec.md`).
+
+```powershell
+python scripts/render.py probmodel01 --preview
+python scripts/render.py probmodel01
+```
+
+결과: `exports/probmodel01_short.mp4` (1080×1920, 30fps).

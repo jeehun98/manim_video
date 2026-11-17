@@ -1,0 +1,18 @@
+{
+  "changed_scenes": [
+    "01",
+    "02",
+    "03"
+  ],
+  "reused_scenes": [
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+  ],
+  "previous_input_hash": "bb09ea8d73edb4a39c5e87c9725458d8468efdd1f9fef3feb8baff8e37431996",
+  "current_input_hash": "f1b048ee6a59015cd38c47d061b075890acc1b977842b438af637b1c41f6d7cc",
+  "reuse_basis": "Identical scene source, dependencies, layout, render settings and scene-local timing/caption data; only other scenes captions changed."
+}

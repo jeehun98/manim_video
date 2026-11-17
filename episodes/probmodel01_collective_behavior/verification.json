@@ -1,0 +1,34 @@
+{
+  "duration": 166,
+  "frames": 4980,
+  "sentence_continuity": true,
+  "diffusion_D": 0.35,
+  "density_checks": [
+    {
+      "t": 1.0,
+      "density_integral": 1.0,
+      "variance": 0.7
+    },
+    {
+      "t": 4.0,
+      "density_integral": 1.0,
+      "variance": 2.8
+    }
+  ],
+  "sigma_ratio_t4_to_t1": 2,
+  "brownian_samples": 32769,
+  "zoom_windows_use_same_high_resolution_path": true,
+  "Ising": {
+    "shape": [
+      12,
+      12
+    ],
+    "update": "checkerboard Metropolis",
+    "periodic_boundary": true,
+    "external_field": 0,
+    "Tc": 2.269185314213022,
+    "snapshots": 66,
+    "finite_magnetization_not_forced_to_zero": true,
+    "thermodynamic_curve_separate": true
+  }
+}

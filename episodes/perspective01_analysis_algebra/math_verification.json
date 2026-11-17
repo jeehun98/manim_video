@@ -1,0 +1,17 @@
+{
+  "identity_verified": true,
+  "last_interval_factorization_verified": true,
+  "fourth_interval_bound": "45/16 > 2",
+  "second_interval_bound": "0-1-6 = -7 >= -8",
+  "zero_sets_disjoint": {
+    "first": [
+      -1,
+      1
+    ],
+    "second": [
+      3
+    ]
+  },
+  "duration": 173,
+  "frames": 5190
+}

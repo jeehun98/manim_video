@@ -1,0 +1,18 @@
+{
+  "changed_scenes": [
+    "03",
+    "04"
+  ],
+  "reused_scenes": [
+    "01",
+    "02",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+  ],
+  "previous_input_hash": "49ddcae7cb1c180c13c7c67cc8c2a04b906097d1ea2d3ae923126e90cc302cc4",
+  "current_input_hash": "d8c201f79ae7516884048651a3fefd6f9e77a48d73c4996620cca0c8118b0ded",
+  "reuse_basis": "Reused scene classes unchanged (AST verified); added proof helpers used only by 03/04; clear_body behavior unchanged when proof_fixed absent; timing, captions and rendering dependencies unchanged."
+}

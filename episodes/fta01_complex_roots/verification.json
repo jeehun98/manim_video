@@ -1,0 +1,21 @@
+{
+  "duration": 177,
+  "frames": 5310,
+  "sentence_continuity": true,
+  "mapping_verified": true,
+  "winding_checks": [
+    {
+      "radius": 1.12,
+      "winding": 5
+    },
+    {
+      "radius": 0.72,
+      "winding": 0
+    },
+    {
+      "radius": 0,
+      "winding": 0
+    }
+  ],
+  "R=1": "curve passes through zero; winding undefined"
+}
