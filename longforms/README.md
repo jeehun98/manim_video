@@ -1,5 +1,17 @@
 # 롱폼 제작 규격
 
+- [추상대수학 — 군·환·체 1~5장 음성 포함 통합 롱폼](abstract_algebra/full_01_05/README.md): 사용자 MP3 5개와 무음 영상 결합. 9분 19.183초, 1080p60, MP4 챕터·자막·유튜브 설명 포함. `py -3.12 longforms/abstract_algebra/full_01_05/build.py`.
+
+- [추상대수학 — 5장 최종 정리](abstract_algebra/chapter_05/README.md): 사용자 제공 14문장·75초, 6개 독립 씬, 16:9 1080p60, 무음·전체 자막. `py -3.12 longforms/abstract_algebra/chapter_05/build.py`.
+
+- [추상대수학 — 4장 체(Field)](abstract_algebra/chapter_04/README.md): 사용자 제공 29문장·128초, 10개 독립 씬, 16:9 1080p60, 무음·전체 자막. `py -3.12 longforms/abstract_algebra/chapter_04/build.py`.
+
+- [추상대수학 — 3장 환(Ring)](abstract_algebra/chapter_03/README.md): 사용자 제공 27문장·118초, 10개 독립 씬, 16:9 1080p60, 무음·전체 자막. `py -3.12 longforms/abstract_algebra/chapter_03/build.py`.
+
+- [추상대수학 — 2장 군(Group)](abstract_algebra/chapter_02/README.md): 사용자 제공 34문장·155초, 12개 독립 씬, 16:9 1080p60, 무음·전체 자막. `py -3.12 longforms/abstract_algebra/chapter_02/build.py`.
+
+- [추상대수학 — 1장 도입: 숫자에서 구조로](abstract_algebra/chapter_01/README.md): 사용자 제공 17문장·81초, 10개 독립 씬, 16:9 1080p60, 무음·전체 자막. `py -3.12 longforms/abstract_algebra/chapter_01/build.py`.
+
 - [오일러 항등식 — 음성 포함 7편 통합 롱폼](euler_identity/full_01_07/README.md): 사용자 지정 MP4·MP3 7쌍 결합, 17분 6.967초, 1080p60, 음성 및 MP4 챕터 포함. `py -3.12 longforms/euler_identity/full_01_07/build.py`.
 
 - [오일러 항등식 — 6장 · 다섯 숫자가 하나로 연결되는 순간](euler_identity/chapter_06/README.md): 사용자 제공 36문장·143초, 16:9 1080p60 전용, 무음·전체 자막. `py -3.12 longforms/euler_identity/chapter_06/build.py`.

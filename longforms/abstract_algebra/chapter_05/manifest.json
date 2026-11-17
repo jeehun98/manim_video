@@ -1,0 +1,44 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01_group",
+    "class_name": "Shot01",
+    "start": 0,
+    "duration_seconds": 12
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02_ring_field",
+    "class_name": "Shot02",
+    "start": 12,
+    "duration_seconds": 18
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03_inclusion",
+    "class_name": "Shot03",
+    "start": 30,
+    "duration_seconds": 9
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04_operations",
+    "class_name": "Shot04",
+    "start": 39,
+    "duration_seconds": 16
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05_correspondence",
+    "class_name": "Shot05",
+    "start": 55,
+    "duration_seconds": 13
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06_closing",
+    "class_name": "Shot06",
+    "start": 68,
+    "duration_seconds": 7
+  }
+]

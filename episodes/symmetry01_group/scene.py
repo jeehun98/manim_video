@@ -51,13 +51,9 @@ class SymmetryScene(QCSScene):
 
     def setup(self):
         super().setup()
-        self.remove(self.mobjects[0], self.caption_panel, self.caption)
+        self.remove(self.mobjects[0])
         self.title.move_to(UP * 5.2)
         self.add(caption('대칭의 진짜 의미', 6.95, MUTED, 22))
-
-    def update_caption(self, mob, dt=0):
-        pass
-
 
 class Shot01(SymmetryScene):
     shot = 0

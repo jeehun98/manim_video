@@ -1,0 +1,243 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\abstract_algebra_full_01_05_longform.mp4",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "숫자에서 연산 구조로",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\abstract_algebra_ch01_81s_longform_final.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\군체환_1.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\abstract_algebra_ch01_voiced.mp4",
+      "source_video_duration": 81.0,
+      "source_audio_duration": 81.500385,
+      "duration": 81.51666666666667,
+      "frames": 4891,
+      "hold_seconds": 0.5166666666666657,
+      "start_seconds": 0.0
+    },
+    {
+      "number": 2,
+      "title": "군 — 대칭과 하나의 연산",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\abstract_algebra_ch02_155s_longform_final.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\군체환_2.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\abstract_algebra_ch02_voiced.mp4",
+      "source_video_duration": 155.0,
+      "source_audio_duration": 155.250771,
+      "duration": 155.26666666666668,
+      "frames": 9316,
+      "hold_seconds": 0.26666666666667993,
+      "start_seconds": 81.51666666666667
+    },
+    {
+      "number": 3,
+      "title": "환 — 두 연산과 분배법칙",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\abstract_algebra_ch03_118s_longform_final.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\군체환_3.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\abstract_algebra_ch03_voiced.mp4",
+      "source_video_duration": 118.0,
+      "source_audio_duration": 118.450612,
+      "duration": 118.46666666666667,
+      "frames": 7108,
+      "hold_seconds": 0.46666666666666856,
+      "start_seconds": 236.78333333333333
+    },
+    {
+      "number": 4,
+      "title": "체 — 곱셈 역원과 유한체",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\abstract_algebra_ch04_128s_longform_final.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\군체환_4.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\abstract_algebra_ch04_voiced.mp4",
+      "source_video_duration": 128.0,
+      "source_audio_duration": 128.500658,
+      "duration": 128.51666666666668,
+      "frames": 7711,
+      "hold_seconds": 0.5166666666666799,
+      "start_seconds": 355.25
+    },
+    {
+      "number": 5,
+      "title": "군·환·체의 관계와 추상대수학",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\abstract_algebra_ch05_75s_longform_final.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\군체환_5.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\abstract_algebra_ch05_voiced.mp4",
+      "source_video_duration": 75.0,
+      "source_audio_duration": 75.400295,
+      "duration": 75.41666666666667,
+      "frames": 4525,
+      "hold_seconds": 0.4166666666666714,
+      "start_seconds": 483.76666666666665
+    }
+  ],
+  "duration_seconds": 559.1833333333333,
+  "video_frames": 33551,
+  "video": {
+    "index": 0,
+    "codec_name": "h264",
+    "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+    "profile": "High",
+    "codec_type": "video",
+    "codec_tag_string": "avc1",
+    "codec_tag": "0x31637661",
+    "mime_codec_string": "avc1.64002a",
+    "width": 1920,
+    "height": 1080,
+    "coded_width": 1920,
+    "coded_height": 1080,
+    "has_b_frames": 2,
+    "pix_fmt": "yuv420p",
+    "level": 42,
+    "chroma_location": "left",
+    "field_order": "progressive",
+    "is_avc": "true",
+    "nal_length_size": "4",
+    "id": "0x1",
+    "r_frame_rate": "60/1",
+    "avg_frame_rate": "60/1",
+    "time_base": "1/60000",
+    "start_pts": 1280,
+    "start_time": "0.021333",
+    "duration_ts": 33551000,
+    "duration": "559.183333",
+    "bit_rate": "299848",
+    "bits_per_raw_sample": "8",
+    "nb_frames": "33551",
+    "extradata_size": 46,
+    "disposition": {
+      "default": 1,
+      "dub": 0,
+      "original": 0,
+      "comment": 0,
+      "lyrics": 0,
+      "karaoke": 0,
+      "forced": 0,
+      "hearing_impaired": 0,
+      "visual_impaired": 0,
+      "clean_effects": 0,
+      "attached_pic": 0,
+      "timed_thumbnails": 0,
+      "non_diegetic": 0,
+      "captions": 0,
+      "descriptions": 0,
+      "metadata": 0,
+      "dependent": 0,
+      "still_image": 0,
+      "multilayer": 0
+    },
+    "tags": {
+      "language": "und",
+      "handler_name": "VideoHandler",
+      "encoder": "Lavc63.1.101 libx264"
+    }
+  },
+  "audio": {
+    "index": 1,
+    "codec_name": "aac",
+    "codec_long_name": "AAC (Advanced Audio Coding)",
+    "profile": "LC",
+    "codec_type": "audio",
+    "codec_tag_string": "mp4a",
+    "codec_tag": "0x6134706d",
+    "mime_codec_string": "mp4a.40.2",
+    "sample_fmt": "fltp",
+    "sample_rate": "48000",
+    "channels": 1,
+    "channel_layout": "mono",
+    "bits_per_sample": 0,
+    "initial_padding": 1024,
+    "id": "0x2",
+    "r_frame_rate": "0/0",
+    "avg_frame_rate": "0/0",
+    "time_base": "1/48000",
+    "start_pts": 0,
+    "start_time": "0.000000",
+    "duration_ts": 26840800,
+    "duration": "559.183333",
+    "bit_rate": "201230",
+    "nb_frames": "26213",
+    "extradata_size": 5,
+    "disposition": {
+      "default": 1,
+      "dub": 0,
+      "original": 0,
+      "comment": 0,
+      "lyrics": 0,
+      "karaoke": 0,
+      "forced": 0,
+      "hearing_impaired": 0,
+      "visual_impaired": 0,
+      "clean_effects": 0,
+      "attached_pic": 0,
+      "timed_thumbnails": 0,
+      "non_diegetic": 0,
+      "captions": 0,
+      "descriptions": 0,
+      "metadata": 0,
+      "dependent": 0,
+      "still_image": 0,
+      "multilayer": 0
+    },
+    "tags": {
+      "language": "und",
+      "handler_name": "SoundHandler"
+    }
+  },
+  "decode_check_passed": true,
+  "method": "pair numbered originals; clone last frame for full voice; 1080p60; concat all five",
+  "mp4_chapters": [
+    {
+      "id": 0,
+      "time_base": "1/240000",
+      "start": 0,
+      "start_time": "0.000000",
+      "end": 19564000,
+      "end_time": "81.516667",
+      "tags": {
+        "title": "01 · 숫자에서 연산 구조로"
+      }
+    },
+    {
+      "id": 1,
+      "time_base": "1/240000",
+      "start": 19564000,
+      "start_time": "81.516667",
+      "end": 56828000,
+      "end_time": "236.783333",
+      "tags": {
+        "title": "02 · 군 — 대칭과 하나의 연산"
+      }
+    },
+    {
+      "id": 2,
+      "time_base": "1/240000",
+      "start": 56828000,
+      "start_time": "236.783333",
+      "end": 85260000,
+      "end_time": "355.250000",
+      "tags": {
+        "title": "03 · 환 — 두 연산과 분배법칙"
+      }
+    },
+    {
+      "id": 3,
+      "time_base": "1/240000",
+      "start": 85260000,
+      "start_time": "355.250000",
+      "end": 116104000,
+      "end_time": "483.766667",
+      "tags": {
+        "title": "04 · 체 — 곱셈 역원과 유한체"
+      }
+    },
+    {
+      "id": 4,
+      "time_base": "1/240000",
+      "start": 116104000,
+      "start_time": "483.766667",
+      "end": 134204000,
+      "end_time": "559.183333",
+      "tags": {
+        "title": "05 · 군·환·체의 관계와 추상대수학"
+      }
+    }
+  ],
+  "captions_cues": 121
+}

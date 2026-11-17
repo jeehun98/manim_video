@@ -2146,6 +2146,30 @@ python episodes/csat19_tangent_intercept/build.py --preview --shots 4 10 21 23
 공통 정의: `episodes/csat_series/problem_cards/problems.json`, 카드 소스 `cards.py`, PNG `assets/`, 합성 `apply.py`. 각 편의 최종 build.py가 카드를 자동 적용한다. 저해상도 장면 미리보기는 기존 화면 검수용이다. 기존 무카드 완성본은 `exports/problem_card_originals/`에 보관한다. 일괄 적용: `python episodes/csat_series/problem_cards/apply.py --all --workers 2`.
 
 
+### 서로 다른 것들을 하나로 묶어도 수학은 유지될까? (`quotient01`)
+
+174초 · 9:16 · 1080×1920 · 60fps · 전체 내레이션 자막 · 무음.
+실제 제작 자료: `episodes/quotient01_grouping/`의 `scene.py`, `model.py`, `build.py`, `verify.py`, `narration.md`, `tts_script.txt`, `timing.json`, `captions.srt`, `brief.md`, `spec.md`.
+`python scripts/render.py quotient01`로 렌더하며 결과는 `exports/quotient01_short.mp4`다. 대표 검수: `python episodes/quotient01_grouping/build.py --preview --scene 06`.
+
+### 교환법칙이 당연하다고 생각하시나요? (`commute01`)
+
+167초 · 9:16 · 1080×1920 · 60fps · 전체 내레이션 자막 · 무음.
+실제 제작 자료: `episodes/commute01_rotation/`의 `scene.py`, `model.py`, `build.py`, `verify.py`, `narration.md`, `tts_script.txt`, `timing.json`, `captions.srt`, `brief.md`, `spec.md`.
+`python scripts/render.py commute01`로 렌더하며 결과는 `exports/commute01_short.mp4`다. 대표 검수: `python episodes/commute01_rotation/build.py --preview --scene 02`.
+
+### 아무리 반복해도 불가능한 결과가 존재하는 이유 (`invariant01`)
+
+165초 · 9:16 · 1080×1920 · 60fps · 내레이션 자막 포함 · 무음.
+실제 제작 자료: `episodes/invariant01_fifteen/`의 `scene.py`, `model.py`, `build.py`, `verify.py`, `narration.md`, `tts_script.txt`, `timing.json`, `captions.srt`, `brief.md`, `spec.md`.
+`python scripts/render.py invariant01`로 렌더하며 결과는 `exports/invariant01_short.mp4`다. 대표 검수: `python episodes/invariant01_fifteen/build.py --preview --scene 08`.
+
+### 왜 5차 방정식에는 근의 공식이 없을까? (`galois01`)
+
+162초 · 9:16 · 1080×1920 · 60fps · 내레이션 자막 포함 · 무음.
+실제 제작 자료: `episodes/galois01_quintic/`의 `scene.py`, `build.py`, `narration.md`, `tts_script.txt`, `timing.json`, `captions.srt`, `brief.md`, `spec.md`.
+`python scripts/render.py galois01`로 렌더하며 결과는 `exports/galois01_short.mp4`다. 대표 장면 검수는 `python episodes/galois01_quintic/build.py --preview --scene 06`으로 실행한다.
+
 ### 벤포드 법칙 (`benford01`)
 
 177초 · 세로 1080×1920 · 60fps · 음원 미제공으로 무음 · 전체 문장 자막.

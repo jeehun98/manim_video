@@ -1,0 +1,10 @@
+id: abstract_algebra_ch05
+video: {width: 1920, height: 1080, fps: 60}
+duration_source: user_sentence_end_times
+scenes:
+  - {id: '01', directory: 'scenes/01_group', class: Shot01, duration_seconds: 12}
+  - {id: '02', directory: 'scenes/02_ring_field', class: Shot02, duration_seconds: 18}
+  - {id: '03', directory: 'scenes/03_inclusion', class: Shot03, duration_seconds: 9}
+  - {id: '04', directory: 'scenes/04_operations', class: Shot04, duration_seconds: 16}
+  - {id: '05', directory: 'scenes/05_correspondence', class: Shot05, duration_seconds: 13}
+  - {id: '06', directory: 'scenes/06_closing', class: Shot06, duration_seconds: 7}

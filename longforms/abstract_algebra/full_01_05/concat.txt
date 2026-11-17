@@ -1,0 +1,5 @@
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/abstract_algebra_ch01_voiced.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/abstract_algebra_ch02_voiced.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/abstract_algebra_ch03_voiced.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/abstract_algebra_ch04_voiced.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/abstract_algebra_ch05_voiced.mp4'

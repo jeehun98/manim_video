@@ -25,6 +25,10 @@ EPISODES["csat03"] = ("episodes/csat03_sigma/scene.py", "Shot01")
 EPISODES["csat02"] = ("episodes/csat02_derivative/scene.py", "Shot01")
 EPISODES["csat01"] = ("episodes/csat01_exponent/scene.py", "Shot01")
 EPISODES["benford01"] = ("episodes/benford01_log_intervals/scenes/01/scene.py", "Shot01")
+EPISODES["galois01"] = ("episodes/galois01_quintic/scene.py", "Shot01")
+EPISODES["invariant01"] = ("episodes/invariant01_fifteen/scene.py", "Shot01")
+EPISODES["commute01"] = ("episodes/commute01_rotation/scene.py", "Shot01")
+EPISODES["quotient01"] = ("episodes/quotient01_grouping/scene.py", "Shot01")
 EPISODES["square01"] = ("episodes/square01_area_derivative/scenes/01/scene.py", "Shot01")
 EPISODES["energy01"] = ("episodes/energy01_force_gradient/scenes/01/scene.py", "Shot01")
 EPISODES["harmonic01"] = ("episodes/harmonic01_small_oscillations/scenes/01/scene.py", "Shot01")
@@ -642,6 +646,30 @@ def main():
     if a.episode == "idea02":
         command = [sys.executable, str(ROOT / "episodes/idea02_language_thought/build.py")]
         if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "quotient01":
+        command = [sys.executable, str(ROOT / "episodes/quotient01_grouping/build.py")]
+        if a.preview:
+            command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "commute01":
+        command = [sys.executable, str(ROOT / "episodes/commute01_rotation/build.py")]
+        if a.preview:
+            command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "invariant01":
+        command = [sys.executable, str(ROOT / "episodes/invariant01_fifteen/build.py")]
+        if a.preview:
+            command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "galois01":
+        command = [sys.executable, str(ROOT / "episodes/galois01_quintic/build.py")]
+        if a.preview:
+            command.append("--preview")
         subprocess.run(command, cwd=ROOT, check=True)
         return
     if a.episode == "symmetry01":
