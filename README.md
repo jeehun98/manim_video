@@ -2264,3 +2264,12 @@ python scripts/render.py analysisdyn01
 ```
 
 결과: `exports/analysisdyn01_short.mp4` (1080×1920, 30fps).
+
+### √2는 답일까, 다른 표현일까?
+
+`episodes/sqrt01_root_existence/`에서 확정 대본, 별도 자막, 타이밍과 Manim 소스를 관리한다. 렌더 결과는 160초, 9:16, 30fps 무음 영상이며 상단 고정 수식과 하단 자막을 포함한다. Windows에서 LaTeX, dvisvgm과 libass를 지원하는 FFmpeg가 PATH에 있어야 한다.
+
+```powershell
+.\.venv\Scripts\python.exe scripts/render.py sqrt01 --preview
+.\.venv\Scripts\python.exe scripts/render.py sqrt01
+```

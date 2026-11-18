@@ -29,6 +29,7 @@ EPISODES["analysisdyn01"] = ("episodes/analysisdyn01_change_to_behavior/scene.py
 EPISODES["probmodel01"] = ("episodes/probmodel01_collective_behavior/scene.py", "Shot01")
 EPISODES["fermat01"] = ("episodes/fermat01_modularity/scene.py", "Shot01")
 EPISODES["mathlang01"] = ("episodes/mathlang01_formal_language/scene.py", "Shot01")
+EPISODES["sqrt01"] = ("episodes/sqrt01_root_existence/scene.py", "RootExistence")
 EPISODES["perspective01"] = ("episodes/perspective01_analysis_algebra/scene.py", "Shot01")
 EPISODES["fta01"] = ("episodes/fta01_complex_roots/scene.py", "Shot01")
 EPISODES["galois01"] = ("episodes/galois01_quintic/scene.py", "Shot01")
@@ -772,10 +773,17 @@ def main():
     latest = max((media / "videos").rglob(scene + ".mp4"), key=lambda p: p.stat().st_mtime)
     output = ROOT / "exports" / (a.episode + ("_preview" if a.preview else "") + ".mp4")
     output.parent.mkdir(exist_ok=True)
-    shutil.copy2(latest, output)
+    if a.episode == "sqrt01":
+        finish = (ROOT / source).with_name("finish.py")
+        command = [sys.executable, str(finish), str(latest), str(output)]
+        if env.get("SQRT01_CORE_PREVIEW") == "1":
+            command.append("--core-preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+    else:
+        shutil.copy2(latest, output)
     if a.episode in ("mult01", "reggeom01", "reggeom01v"):
         # Manim's partial-clip concatenation can introduce millisecond PTS drift.
-        # Assign all 3060 frames their exact 30fps presentation timestamps.
+        # Assign each frame its exact 30fps presentation timestamp.
         normalized = output.with_name(output.stem + "_cfr.mp4")
         subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", str(output),
                         "-vf", "setpts=N/(30*TB)", "-r", "30", "-fps_mode", "cfr",
