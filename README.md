@@ -2251,3 +2251,16 @@ python scripts/render.py probmodel01
 ```
 
 결과: `exports/probmodel01_short.mp4` (1080×1920, 30fps).
+
+
+### 해석학에서 동역학까지 (analysisdyn01)
+
+145초 9:16 쇼츠. 고정 개념 지도로 미분·편미분·PDE·동역학적 관점을 연결. 확정 대본·문장 종료 시각 기준, 음원 미제공으로 무음.
+소스: `episodes/analysisdyn01_change_to_behavior/` (`scene.py`, `dynamics_data.npz`, `timing.json`, `narration.md`, `tts_script.txt`, `captions.srt`, `brief.md`, `spec.md`, `concept_map_reference.png`).
+
+```powershell
+python scripts/render.py analysisdyn01 --preview
+python scripts/render.py analysisdyn01
+```
+
+결과: `exports/analysisdyn01_short.mp4` (1080×1920, 30fps).

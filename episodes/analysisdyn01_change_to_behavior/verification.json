@@ -1,0 +1,26 @@
+{
+  "duration": 145,
+  "frames": 4350,
+  "sentence_continuity": true,
+  "secant_slope": "2+Delta t -> 2 at t=1",
+  "infinite_heat_residual_symbolic": 0,
+  "finite_heat_residual_symbolic": 0,
+  "finite_Neumann_boundary_verified": true,
+  "finite_mean_temperature": 50,
+  "infinite_heat_integral": "sqrt(pi), independent of t",
+  "Lorenz": {
+    "parameters": [
+      10,
+      28,
+      2.6666666666666665
+    ],
+    "method": "DOP853",
+    "rtol": 1e-11,
+    "atol": 1e-13,
+    "initial_separation": 9.999999999621423e-06,
+    "final_separation": 22.0131897989032,
+    "duration_simulated": 32,
+    "projection": "x-z"
+  },
+  "concept_map": "persistent explanatory connections; not a strict disciplinary inclusion hierarchy"
+}

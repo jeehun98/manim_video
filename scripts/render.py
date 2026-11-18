@@ -25,6 +25,7 @@ EPISODES["csat03"] = ("episodes/csat03_sigma/scene.py", "Shot01")
 EPISODES["csat02"] = ("episodes/csat02_derivative/scene.py", "Shot01")
 EPISODES["csat01"] = ("episodes/csat01_exponent/scene.py", "Shot01")
 EPISODES["benford01"] = ("episodes/benford01_log_intervals/scenes/01/scene.py", "Shot01")
+EPISODES["analysisdyn01"] = ("episodes/analysisdyn01_change_to_behavior/scene.py", "Shot01")
 EPISODES["probmodel01"] = ("episodes/probmodel01_collective_behavior/scene.py", "Shot01")
 EPISODES["fermat01"] = ("episodes/fermat01_modularity/scene.py", "Shot01")
 EPISODES["mathlang01"] = ("episodes/mathlang01_formal_language/scene.py", "Shot01")
@@ -669,6 +670,11 @@ def main():
         command = [sys.executable, str(ROOT / "episodes/invariant01_fifteen/build.py")]
         if a.preview:
             command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "analysisdyn01":
+        command = [sys.executable, str(ROOT / "episodes/analysisdyn01_change_to_behavior/build.py")]
+        if a.preview: command.append("--preview")
         subprocess.run(command, cwd=ROOT, check=True)
         return
     if a.episode == "probmodel01":
