@@ -207,3 +207,10 @@ player.set_resampling_algorithm(RESAMPLING_ALGORITHMS["nearest"])
 최종 게임용 픽셀 격자나 24×24/32×32 규격이 검증된 에셋으로 취급하지 않는다.
 
 ![캐릭터 스타일 예시](../visual_library/previews/training/references/character_style_examples.png)
+
+## 주인공 동작 비율 기준 (2026-11-19)
+
+머리·상체는 유지하고 하체만 짧게 만든 4프레임 걷기 시안을 기준으로 저장했다.
+팔과 반대 다리의 교대, 같은 손의 검 이동을 유지하며 차렷식 발 모으기는 넣지 않는다.
+현재 자료: `visual_library/previews/training/character_demo/hero_animation_shortlegs.gif`.
+현재 본편 화면의 점 캐릭터를 교체한 것은 아니다.

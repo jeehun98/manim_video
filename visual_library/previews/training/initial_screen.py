@@ -3,7 +3,7 @@ from pathlib import Path
 import sys
 ROOT=Path(__file__).resolve().parents[3]
 sys.path.insert(0,str(ROOT))
-from manim import Scene, Rectangle, Line, Text, VGroup, tempconfig
+from manim import Scene, Rectangle, Line, Text, VGroup, ImageMobject, RESAMPLING_ALGORITHMS, tempconfig
 from visual_library.manim import DialogueBackground
 
 class InitialScreen(Scene):
@@ -14,15 +14,19 @@ class InitialScreen(Scene):
         background.dialogue.stretch_to_fit_width(14.24)
         background.dialogue.stretch_to_fit_height(1.92)
         background.dialogue.move_to([0,-3.21,0])
-        # A single small square dot is the only character placeholder.
-        player=Rectangle(width=.12,height=.12,stroke_width=0,
-                         fill_color='#FFFFFF',fill_opacity=1).move_to([-1.5,1.125,0])
-        enemy=Rectangle(width=.12,height=.12,stroke_width=0,
-                        fill_color='#FF6666',fill_opacity=1).move_to([1.5,1.125,0])
+        assets=Path(__file__).parent/'assets'
+        player=ImageMobject(str(assets/'hero_idle.png'))
+        player.set_resampling_algorithm(RESAMPLING_ALGORITHMS['nearest'])
+        player.height=1.70
+        player.move_to([-1.5,1.125,0])
+        enemy=ImageMobject(str(assets/'training_log.png'))
+        enemy.set_resampling_algorithm(RESAMPLING_ALGORITHMS['nearest'])
+        enemy.height=2.15
+        enemy.move_to([1.5,1.125,0])
         self.add(background,player,enemy)
         if self.show_equation:
             self.add(
-                VGroup(Line([1.5,1.20,0],[2.6,2.25,0]),
+                VGroup(Line([1.5,1.70,0],[2.6,2.25,0]),
                        Line([2.6,2.25,0],[3.25,2.25,0]))
                 .set_stroke('#FF6666',width=1.5,opacity=.55),
                 Rectangle(width=.09,height=.09,stroke_width=0,
