@@ -214,3 +214,8 @@ player.set_resampling_algorithm(RESAMPLING_ALGORITHMS["nearest"])
 팔과 반대 다리의 교대, 같은 손의 검 이동을 유지하며 차렷식 발 모으기는 넣지 않는다.
 현재 자료: `visual_library/previews/training/character_demo/hero_animation_shortlegs.gif`.
 현재 본편 화면의 점 캐릭터를 교체한 것은 아니다.
+
+## 기초 개념과 풀이 방식의 성장 원칙 (2026-11-19)
+
+[기초 개념을 다시 발견하는 성장 구성](../longforms/equation_rpg_quintic/references/basic_concepts_growth.md)에 사용자 방향을 기록했다. 초기 훈련은 미지수 없이 시작할 수 있으며, 각 연산·빈칸·역연산·미지수·등식·이항을 당연하게 건너뛰지 않는다. 관객이 화면을 통해 기초 개념을 다시 이해하는 경험을 우선하며, 관련 수학자 스승과 역사적 맥락은 사실 확인 후 연결한다. 현재 이항 풀이 시안은 선행 학습 이후의 화면 참고다.
+
