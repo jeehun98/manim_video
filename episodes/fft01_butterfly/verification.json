@@ -1,0 +1,40 @@
+{
+  "DFT_FFT_numpy_agree": true,
+  "random_complex_sizes": [
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "max_error": 1.0344514575040737e-13,
+  "example_spectrum": [
+    0.0,
+    4.0,
+    0.0,
+    2.0,
+    0.0,
+    2.0,
+    0.0,
+    4.0
+  ],
+  "E1": 3,
+  "T1": 1,
+  "X1": 4,
+  "X5": 2,
+  "root_identities": true,
+  "bit_reversal": [
+    0,
+    4,
+    2,
+    6,
+    1,
+    5,
+    3,
+    7
+  ],
+  "butterflies_per_stage": 4,
+  "stages": 3,
+  "sentences": 34,
+  "duration": 177
+}

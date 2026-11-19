@@ -1,0 +1,26 @@
+{
+  "duration": 177,
+  "frames": 5310,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "audio": false,
+  "all_clips_verified": true,
+  "ffmpeg_decode_verified": true,
+  "caption_audits": 9,
+  "all_sentences_covered": 34,
+  "body_end_bounds_checked": true,
+  "qa_frames": [
+    10,
+    32,
+    52,
+    72,
+    93,
+    103,
+    121,
+    137,
+    153,
+    162
+  ],
+  "source_sha256": "5e674c88ccdb9df49a08e13dbd36600a3439f7df36d112814270d2767208742f"
+}

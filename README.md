@@ -2327,3 +2327,15 @@ python scripts/render.py deteff01
 ```
 
 최종 결과: `exports/deteff01_short.mp4`. 대표 씬 확인: `python episodes/deteff01_gaussian_elimination/build.py --preview --scene 05`.
+
+
+## FFT — 버터플라이 연산
+
+`episodes/fft01_butterfly/`의 확정 대본, 발음 원고, 제작 기준, 장면 명세, 자막, `timing.json`, `model.py`, `scene.py`, `build.py`로 제작한다. 177초, 9:16, 1080×1920, 30fps, 기본 무음.
+
+```powershell
+python scripts/render.py fft01
+python episodes/fft01_butterfly/build.py --preview --scene 05
+```
+
+최종: `exports/fft01_short.mp4`. 전체 미리보기가 필요하면 `python scripts/render.py fft01 --preview`. 대표 씬 검수 후 최종 렌더하며, 직접 DFT·단계별 FFT·NumPy 결과를 검산한다.
