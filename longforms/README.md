@@ -336,3 +336,17 @@ longforms/<ID>_<slug>/
 ## 행렬식 롱폼 구성 검토
 
 - [행렬식은 왜 필요했을까? — 구성 계획](determinant_foundations/plan.md): 약 9분 30초를 목표로 한 구성안. 연립방정식의 유일성과 공간의 복원 가능성을 중심으로 기하학·순열·소거·한계를 연결한다. 현재는 구성 단계이며 확정 대본·음성·영상·타이밍은 없다.
+
+- [행렬식 1장 — 방정식에서 나타나는 특별한 숫자](determinant_foundations/chapter_01/README.md): 사용자 확정126초·12개 독립씬,16:9 1080p30,무음·전체자막. `py -3.12 longforms/determinant_foundations/chapter_01/build.py`.
+
+- [행렬식 2장 — 행렬식의 기하학적 정체](determinant_foundations/chapter_02/README.md): 사용자 확정164초·34문장·13개 독립씬,16:9 1080p30,무음·전체자막. `py -3.12 longforms/determinant_foundations/chapter_02/build.py`.
+
+- [행렬식 3장 — 계산 규칙·순열과 방향](determinant_foundations/chapter_03/README.md): 사용자 확정168초·34문장·13개 독립씬,16:9 1080p30,무음·전체자막. `py -3.12 longforms/determinant_foundations/chapter_03/build.py`.
+
+- [행렬식4장 — 불변성과 가우스 소거법](determinant_foundations/chapter_04/README.md): 사용자 확정171초·33문장·14개 독립씬,16:9 1080p30,무음·전체자막. `py -3.12 longforms/determinant_foundations/chapter_04/build.py`.
+
+- [행렬식5장 — 담고 있는 정보와 전체 마무리](determinant_foundations/chapter_05/README.md): 사용자 확정143초·25문장·13개 독립씬,16:9 1080p30,무음·전체자막. `py -3.12 longforms/determinant_foundations/chapter_05/build.py`.
+
+- [행렬식 0장 — 역사적 등장](determinant_foundations/chapter_00/README.md): 사용자 확정10문장·71초,9개 독립 씬,1080p30·무음·전체 자막. `py -3.12 longforms/determinant_foundations/chapter_00/build.py`.
+
+- [행렬식 0~5장 음성 포함 합본](determinant_foundations/full_00_05/README.md): 사용자 MP3 6개 결합,14분05.933초·1080p30·MP4챕터·합본SRT·유튜브 설명 포함. `py -3.12 longforms/determinant_foundations/full_00_05/build.py`.

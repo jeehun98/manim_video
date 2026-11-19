@@ -2339,3 +2339,5 @@ python episodes/fft01_butterfly/build.py --preview --scene 05
 ```
 
 최종: `exports/fft01_short.mp4`. 전체 미리보기가 필요하면 `python scripts/render.py fft01 --preview`. 대표 씬 검수 후 최종 렌더하며, 직접 DFT·단계별 FFT·NumPy 결과를 검산한다.
+
+- [행렬식 요약 쇼츠 — 탄생부터 계산 원리까지](episodes/detsum01_birth_to_algorithm/README.md): 사용자 확정35문장·177초,22개 독립 씬,9:16 1080p30·무음·전체 자막. `py -3.12 scripts/render.py detsum01`.

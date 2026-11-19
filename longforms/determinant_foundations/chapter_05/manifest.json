@@ -1,0 +1,106 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01",
+    "class_name": "Shot01",
+    "start": 0,
+    "duration_seconds": 12,
+    "claim": "같은 행렬식이 같은 변환을 뜻하는가"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02",
+    "class_name": "Shot02",
+    "start": 12,
+    "duration_seconds": 22,
+    "claim": "가로k 세로1/k 변형은 넓이1을 유지한다"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03",
+    "class_name": "Shot03",
+    "start": 34,
+    "duration_seconds": 11,
+    "claim": "항등·크기·전단·회전은 다른 변환이지만 행렬식1이다"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04",
+    "class_name": "Shot04",
+    "start": 45,
+    "duration_seconds": 19,
+    "claim": "행렬식은 변환의 세부정보를 생략하고 부피와 방향을 추출한다"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05",
+    "class_name": "Shot05",
+    "start": 64,
+    "duration_seconds": 9,
+    "claim": "방정식의 계수 조합은 유일성을 판단한다"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06",
+    "class_name": "Shot06",
+    "start": 73,
+    "duration_seconds": 7,
+    "claim": "같은 계수 조합은 부피와 방향을 나타낸다"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07",
+    "class_name": "Shot07",
+    "start": 80,
+    "duration_seconds": 7,
+    "claim": "성분 조합과 방향이 순열 공식을 만든다"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08",
+    "class_name": "Shot08",
+    "start": 87,
+    "duration_seconds": 7,
+    "claim": "불변성을 이용하면 소거로 계산을 단순화한다"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09",
+    "class_name": "Shot09",
+    "start": 94,
+    "duration_seconds": 16,
+    "claim": "네 관점은 하나의 수학적 대상인 행렬식을 해석한다"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10",
+    "class_name": "Shot10",
+    "start": 110,
+    "duration_seconds": 8,
+    "claim": "행렬에서 관심 있는 성질을 하나의 값으로 추출한다"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11",
+    "class_name": "Shot11",
+    "start": 118,
+    "duration_seconds": 9,
+    "claim": "값이 보존되고 달라지는 규칙을 연구한다"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12",
+    "class_name": "Shot12",
+    "start": 127,
+    "duration_seconds": 8,
+    "claim": "행렬과 공간의 부피·방향을 하나의 숫자로 연결한다"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13",
+    "class_name": "Shot13",
+    "start": 135,
+    "duration_seconds": 8,
+    "claim": "서로 다른 문제를 하나의 수학적 구조로 연결한다"
+  }
+]

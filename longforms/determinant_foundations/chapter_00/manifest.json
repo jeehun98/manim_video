@@ -1,0 +1,74 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01",
+    "class_name": "Shot01",
+    "start": 0,
+    "duration_seconds": 6,
+    "claim": "현대의 학습 순서: 행렬에서 행렬식으로"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02",
+    "class_name": "Shot02",
+    "start": 6,
+    "duration_seconds": 7,
+    "claim": "행렬식 연구는 현대 행렬 이론보다 먼저였다"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03",
+    "class_name": "Shot03",
+    "start": 13,
+    "duration_seconds": 10,
+    "claim": "세키와 라이프니츠의 독립적인 연구"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04",
+    "class_name": "Shot04",
+    "start": 23,
+    "duration_seconds": 8,
+    "claim": "출발점은 방정식에서 미지수를 제거하는 문제"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05",
+    "class_name": "Shot05",
+    "start": 31,
+    "duration_seconds": 9,
+    "claim": "크라메르의 일반 규칙은 표현의 비율로 해를 구한다"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06",
+    "class_name": "Shot06",
+    "start": 40,
+    "duration_seconds": 8,
+    "claim": "현대 행렬 이론과 공간의 변환"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07",
+    "class_name": "Shot07",
+    "start": 48,
+    "duration_seconds": 9,
+    "claim": "방정식과 공간에 같은 수식이 등장하는 이유"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08",
+    "class_name": "Shot08",
+    "start": 57,
+    "duration_seconds": 10,
+    "claim": "네 가지 관점의 본편 흐름"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09",
+    "class_name": "Shot09",
+    "start": 67,
+    "duration_seconds": 4,
+    "claim": "구체적인 연립방정식으로 연결"
+  }
+]

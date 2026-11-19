@@ -1,0 +1,98 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01",
+    "class_name": "Shot01",
+    "start": 0,
+    "duration_seconds": 23,
+    "claim": "두 직선의 교점은 동시에 만족하는 해다"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02",
+    "class_name": "Shot02",
+    "start": 23,
+    "duration_seconds": 10,
+    "claim": "수치 계수를 일반 계수로 확장한다"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03",
+    "class_name": "Shot03",
+    "start": 33,
+    "duration_seconds": 12,
+    "claim": "y를 소거하면 ad−bc가 남는다"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04",
+    "class_name": "Shot04",
+    "start": 45,
+    "duration_seconds": 10,
+    "claim": "이 값에는 계수만 참여한다"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05",
+    "class_name": "Shot05",
+    "start": 55,
+    "duration_seconds": 11,
+    "claim": "0이 아니면 두 미지수가 유일하다"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06",
+    "class_name": "Shot06",
+    "start": 66,
+    "duration_seconds": 14,
+    "claim": "계수 변화로 평행해져 해가 사라진다"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07",
+    "class_name": "Shot07",
+    "start": 80,
+    "duration_seconds": 10,
+    "claim": "우변 변화로 일치하면 무한히 많은 해다"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08",
+    "class_name": "Shot08",
+    "start": 90,
+    "duration_seconds": 7,
+    "claim": "0은 유일해 부재를 뜻한다"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09",
+    "class_name": "Shot09",
+    "start": 97,
+    "duration_seconds": 9,
+    "claim": "계수의 행과 열을 유지해 배열한다"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10",
+    "class_name": "Shot10",
+    "start": 106,
+    "duration_seconds": 6,
+    "claim": "이 값에 행렬식이라는 이름을 붙인다"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11",
+    "class_name": "Shot11",
+    "start": 112,
+    "duration_seconds": 8,
+    "claim": "행렬식은 해의 유일성을 판별한다"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12",
+    "class_name": "Shot12",
+    "start": 120,
+    "duration_seconds": 6,
+    "claim": "같은 배열을 두 열벡터로 읽는다"
+  }
+]

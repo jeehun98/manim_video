@@ -1,0 +1,32 @@
+;FFMETADATA1
+title=행렬식의 탄생부터 계산 원리까지
+[CHAPTER]
+TIMEBASE=1/30
+START=0
+END=2146
+title=00 · 행렬식은 왜 등장했을까?
+[CHAPTER]
+TIMEBASE=1/30
+START=2146
+END=5930
+title=01 · 방정식에서 발견한 특별한 숫자
+[CHAPTER]
+TIMEBASE=1/30
+START=5930
+END=10857
+title=02 · 행렬식의 기하학적 의미
+[CHAPTER]
+TIMEBASE=1/30
+START=10857
+END=15922
+title=03 · 계산 규칙 — 순열과 방향
+[CHAPTER]
+TIMEBASE=1/30
+START=15922
+END=21069
+title=04 · 효율적 계산 — 불변성과 가우스 소거법
+[CHAPTER]
+TIMEBASE=1/30
+START=21069
+END=25378
+title=05 · 행렬식이 담고 있는 정보

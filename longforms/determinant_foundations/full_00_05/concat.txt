@@ -1,0 +1,6 @@
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/determinant_ch00_voiced.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/determinant_ch01_voiced.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/determinant_ch02_voiced.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/determinant_ch03_voiced.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/determinant_ch04_voiced.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/determinant_ch05_voiced.mp4'
