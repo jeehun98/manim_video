@@ -1,0 +1,130 @@
+{
+  "duration": 117,
+  "frames": 3510,
+  "sentence_continuity": true,
+  "matrix_and_signed_area_checks": [
+    {
+      "name": "identity",
+      "matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "determinant": 1.0,
+      "signed_area": 1.0,
+      "rank": 2
+    },
+    {
+      "name": "area2",
+      "matrix": [
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "determinant": 2.0,
+      "signed_area": 2.0,
+      "rank": 2
+    },
+    {
+      "name": "area_half",
+      "matrix": [
+        [
+          0.5,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "determinant": 0.5,
+      "signed_area": 0.5,
+      "rank": 2
+    },
+    {
+      "name": "collapse",
+      "matrix": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "determinant": 0.0,
+      "signed_area": 0.0,
+      "rank": 1
+    },
+    {
+      "name": "reflection",
+      "matrix": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "determinant": -1.0,
+      "signed_area": -1.0,
+      "rank": 2
+    },
+    {
+      "name": "anisotropy",
+      "matrix": [
+        [
+          100.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.01
+        ]
+      ],
+      "determinant": 1.0000000000000009,
+      "signed_area": 1.0,
+      "rank": 2
+    }
+  ],
+  "collapse_determinant": "1-t",
+  "reflection_determinant": "1-2t, crosses zero at t=.5",
+  "merged_preimages": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      -1
+    ]
+  ],
+  "common_image": [
+    1,
+    0
+  ],
+  "anisotropic_actual_dimensions": [
+    100,
+    0.01
+  ],
+  "anisotropic_area": 1,
+  "anisotropic_aspect_ratio": 10000,
+  "display_zoom": "uniform, independent of mathematical coordinates; stroke thickness explicitly distinguished"
+}

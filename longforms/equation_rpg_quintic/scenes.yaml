@@ -1,0 +1,9 @@
+id: "equation_rpg_quintic"
+title: "방정식 RPG — 최종 보스, 5차 방정식"
+status: "planning"
+video:
+  width: 1920
+  height: 1080
+  fps: null  # 제작 전 확정
+# 대본 확정 후 씬별 실제 발화시간과 소스 정보를 등록한다.
+scenes: []

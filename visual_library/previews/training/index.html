@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>수식 복사 · 풀이 · 답 제출</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#111;color:#aaa;min-height:100vh;display:grid;place-content:center;font:14px 'Malgun Gothic',sans-serif}main{width:min(100vw,1280px)}button.screen{display:block;position:relative;padding:0;border:0;background:black;width:100%;cursor:pointer}img{display:block;width:100%;aspect-ratio:16/9}svg{position:absolute;inset:0;width:100%;height:100%}button:focus-visible{outline:2px solid #aaa}footer{display:flex;justify-content:space-between;align-items:center;padding:12px 8px;gap:16px}#restart{background:none;border:1px solid #555;color:#ccc;padding:5px 12px;cursor:pointer}svg text{font-family:Consolas,monospace;font-size:30px;fill:white}.hidden{opacity:0}#copy{transition:transform .65s ease-in-out,opacity .15s}#answer{transition:transform .65s ease-in-out,opacity .15s}#hint{margin-left:10px;color:#888}
+@media(prefers-reduced-motion:reduce){#copy,#answer{transition:none}}
+</style>
+<main><button class="screen" id="stage" aria-label="다음 단계로 이동">
+<img src="initial/screen.png?v=4" alt="검은 배경, 왼쪽 주인공 점과 오른쪽 적 점, 빈 하단 대화창">
+<svg viewBox="0 0 1280 720" aria-hidden="true">
+<path d="M760 264 L848 180 H900" fill="none" stroke="#FF6666" stroke-width="1.5" opacity=".55"/>
+<g id="original"><rect x="908" y="176.5" width="7" height="7" fill="#FF6666"/><text x="937" y="190">x + 3 = 5</text></g>
+<path id="playerLink" class="hidden" d="M520 264 L448 228 H420" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity=".35"/>
+<g id="copy" class="hidden" style="transform:translate(1035px,190px)">
+<g id="work"><text x="-22" y="0" text-anchor="end">x + 3</text><text x="0" y="0" text-anchor="middle">=</text><text x="22" y="0">5</text></g>
+<g id="operation" class="hidden" fill="#B6DDE5"><text x="-22" y="35" text-anchor="end" style="fill:#B6DDE5">x + 3 − 3</text><text x="0" y="35" text-anchor="middle" style="fill:#B6DDE5">=</text><text x="22" y="35" style="fill:#B6DDE5">5 − 3</text></g>
+<g id="solution" class="hidden"><text x="-22" y="72" text-anchor="end">x</text><text x="0" y="72" text-anchor="middle">=</text><text x="22" y="72">2</text></g>
+</g>
+<g id="answer" class="hidden" style="transform:translate(560px,232px)"><rect x="-19" y="-25" width="38" height="38" rx="0" fill="black" stroke="#B6DDE5"/><text x="0" y="3" text-anchor="middle" style="fill:#B6DDE5">2</text></g>
+</svg></button>
+<footer><span><span id="status" aria-live="polite">1 / 5 · 적의 문제</span><span id="hint">클릭 또는 Space / →</span></span><button id="restart">처음부터</button></footer>
+</main>
+<script>
+const el=id=>document.getElementById(id),names=['적의 문제','주인공 위로 복사','복사본의 양변에서 3 빼기','x = 2','답 2 제출'];
+let step=0,busy=false,timer=null,generation=0;
+function hide(id,on=true){el(id).classList.toggle('hidden',on);}
+function update(){el('status').textContent=`${step+1} / 5 · ${names[step]}`;el('hint').textContent=step===4?'제출까지만 표시':'클릭 또는 Space / →';}
+function next(){
+ if(busy||step===4)return;
+ step++;update();
+ if(step===1){
+   busy=true;hide('copy',false);
+   const epoch=generation;
+   requestAnimationFrame(()=>requestAnimationFrame(()=>{if(epoch!==generation)return;el('copy').style.transform='translate(300px,145px)';}));
+   timer=setTimeout(()=>{hide('playerLink',false);busy=false;},700);
+ }else if(step===2){hide('operation',false);}
+ else if(step===3){hide('solution',false);}
+ else if(step===4){
+   busy=true;hide('answer',false);
+   const epoch=generation;
+   requestAnimationFrame(()=>requestAnimationFrame(()=>{if(epoch!==generation)return;el('answer').style.transform='translate(727px,260px)';}));
+   timer=setTimeout(()=>{busy=false;},700);
+ }
+}
+function reset(){
+ generation++;clearTimeout(timer);step=0;busy=false;
+ hide('copy');hide('operation');hide('solution');hide('playerLink');hide('answer');
+ el('copy').style.transition='none';el('answer').style.transition='none';
+ el('copy').style.transform='translate(1035px,190px)';el('answer').style.transform='translate(560px,232px)';
+
+ void el('copy').getBoundingClientRect();el('copy').style.transition='';el('answer').style.transition='';update();
+}
+el('stage').onclick=next;el('restart').onclick=reset;
+document.addEventListener('keydown',e=>{if(e.target===el('restart'))return;if(e.code==='Space'||e.code==='ArrowRight'){e.preventDefault();next();}});
+</script></html>

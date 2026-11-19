@@ -1,5 +1,9 @@
 # Manim 교육 영상 프로젝트
 
+## 현재 쇼츠 제작·로컬 환경 재현
+
+최신 수학 쇼츠의 제작 순서, 검증된 환경, 공통 코드 의존성, 실제 렌더 명령, 타이밍·자막·캐시·검수 기준은 **[SHORTS_README.md](SHORTS_README.md)**를 먼저 확인한다. 오래된 시리즈의 설정이나 README 목록을 그대로 현재 기준으로 사용하지 않는다.
+
 - [양자컴퓨터 03 — 무작위 데이터에서도 양자컴퓨터는 압도적으로 빠를까?](longforms/qcs03_random/README.md): 확정155초·28문장·20씬, 가로·세로1080p60, 무음·전체 자막. `py -3.12 scripts/render.py qcs03`.
 
 - [GPU 개론 07 — 회로는 언제 값을 갱신할까?](longforms/gpui07_clock_timing/README.md): 확정135초·31문장·14씬, 가로/세로1080p30, 무음·전체 자막. `python longforms/gpui07_clock_timing/build.py --preview` / `python longforms/gpui07_clock_timing/build.py`.
@@ -2273,3 +2277,53 @@ python scripts/render.py analysisdyn01
 .\.venv\Scripts\python.exe scripts/render.py sqrt01 --preview
 .\.venv\Scripts\python.exe scripts/render.py sqrt01
 ```
+
+
+### 유클리드 알고리즘에서 계산 복잡도까지 (euclid01)
+
+157초 9:16 쇼츠. 확정 대본·종료 시각 기준, 음원 미제공으로 무음.
+소스: `episodes/euclid01_invariant_complexity/` (`scene.py`, `algorithm_data.json`, `timing.json`, `narration.md`, `tts_script.txt`, `captions.srt`, `brief.md`, `spec.md`).
+
+```powershell
+python scripts/render.py euclid01 --preview
+python scripts/render.py euclid01
+```
+
+결과: `exports/euclid01_short.mp4` (1080×1920, 30fps).
+
+
+### 행렬식의 기하학적 의미 (detgeom01)
+
+117초 9:16 쇼츠. 확정 대본·종료 시각 기준, 음원 미제공으로 무음. 행렬·격자·도형·행렬식·넓이를 같은 변환으로 갱신.
+소스: `episodes/detgeom01_area_orientation/` (`scene.py`, `timing.json`, `narration.md`, `tts_script.txt`, `captions.srt`, `brief.md`, `spec.md`, `layout_reference.png`).
+
+```powershell
+python scripts/render.py detgeom01 --preview
+python scripts/render.py detgeom01
+```
+
+결과: `exports/detgeom01_short.mp4` (1080×1920, 30fps).
+
+
+### detperm01 — 행렬식의 계산과 순열
+
+`episodes/detperm01_permutation_sign/`의 실제 소스 `scene.py`, 확정 대본 `narration.md`, `tts_script.txt`, `timing.json`, `captions.srt`, 제작 기준 `brief.md`와 장면 명세 `spec.md`를 사용한다. 163초, 9:16, 무음.
+
+```powershell
+python scripts/render.py detperm01 --preview
+python scripts/render.py detperm01
+```
+
+최종 결과: `exports/detperm01_short.mp4`. 대표 씬만 확인하려면 `python episodes/detperm01_permutation_sign/build.py --preview --scene 04`.
+
+
+### deteff01 — 행렬식의 효율적 계산
+
+`episodes/deteff01_gaussian_elimination/`에 확정 대본, 발음 원고, 자막, 타이밍, 제작 기준, 장면 명세, `scene.py`와 `build.py`가 있다. 162초, 9:16, 무음.
+
+```powershell
+python scripts/render.py deteff01 --preview
+python scripts/render.py deteff01
+```
+
+최종 결과: `exports/deteff01_short.mp4`. 대표 씬 확인: `python episodes/deteff01_gaussian_elimination/build.py --preview --scene 05`.

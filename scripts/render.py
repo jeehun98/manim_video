@@ -25,6 +25,10 @@ EPISODES["csat03"] = ("episodes/csat03_sigma/scene.py", "Shot01")
 EPISODES["csat02"] = ("episodes/csat02_derivative/scene.py", "Shot01")
 EPISODES["csat01"] = ("episodes/csat01_exponent/scene.py", "Shot01")
 EPISODES["benford01"] = ("episodes/benford01_log_intervals/scenes/01/scene.py", "Shot01")
+EPISODES["deteff01"] = ("episodes/deteff01_gaussian_elimination/scene.py", "Shot01")
+EPISODES["detperm01"] = ("episodes/detperm01_permutation_sign/scene.py", "Shot01")
+EPISODES["detgeom01"] = ("episodes/detgeom01_area_orientation/scene.py", "Shot01")
+EPISODES["euclid01"] = ("episodes/euclid01_invariant_complexity/scene.py", "Shot01")
 EPISODES["analysisdyn01"] = ("episodes/analysisdyn01_change_to_behavior/scene.py", "Shot01")
 EPISODES["probmodel01"] = ("episodes/probmodel01_collective_behavior/scene.py", "Shot01")
 EPISODES["fermat01"] = ("episodes/fermat01_modularity/scene.py", "Shot01")
@@ -671,6 +675,26 @@ def main():
         command = [sys.executable, str(ROOT / "episodes/invariant01_fifteen/build.py")]
         if a.preview:
             command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "deteff01":
+        command = [sys.executable, str(ROOT / "episodes/deteff01_gaussian_elimination/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "detperm01":
+        command = [sys.executable, str(ROOT / "episodes/detperm01_permutation_sign/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "detgeom01":
+        command = [sys.executable, str(ROOT / "episodes/detgeom01_area_orientation/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "euclid01":
+        command = [sys.executable, str(ROOT / "episodes/euclid01_invariant_complexity/build.py")]
+        if a.preview: command.append("--preview")
         subprocess.run(command, cwd=ROOT, check=True)
         return
     if a.episode == "analysisdyn01":

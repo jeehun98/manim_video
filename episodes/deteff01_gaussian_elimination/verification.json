@@ -1,0 +1,19 @@
+{
+  "exact_row_steps": true,
+  "LU_product_equals_A": true,
+  "detA": 2,
+  "detL": 1,
+  "detU": 2,
+  "permutation_products": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "factorial10": 3628800,
+  "shear_determinant": 1,
+  "timing_contiguous": true,
+  "sentences": 35
+}

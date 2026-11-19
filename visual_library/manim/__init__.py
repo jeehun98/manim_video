@@ -5,6 +5,7 @@ effects. Call ``configure_vertical()`` explicitly in new standalone scenes.
 """
 
 from .primitives import Pill, WeightMatrix, pill, weight_connection
+from .dialogue_background import DialogueBackground
 from .theme import (
     ACCENT,
     BG,
@@ -21,6 +22,7 @@ from .theme import (
 from .typography import text, txt
 
 __all__ = [
+    "DialogueBackground",
     "ACCENT",
     "BG",
     "FONT",

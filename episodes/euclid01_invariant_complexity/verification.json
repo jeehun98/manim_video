@@ -1,0 +1,90 @@
+{
+  "duration": 157,
+  "frames": 4710,
+  "sentence_continuity": true,
+  "division_steps_verified": [
+    {
+      "a": 48,
+      "b": 18,
+      "q": 2,
+      "r": 12,
+      "gcd": 6
+    },
+    {
+      "a": 18,
+      "b": 12,
+      "q": 1,
+      "r": 6,
+      "gcd": 6
+    },
+    {
+      "a": 12,
+      "b": 6,
+      "q": 2,
+      "r": 0,
+      "gcd": 6
+    }
+  ],
+  "rectangle_lengths_and_areas_verified": true,
+  "common_divisors_each_state": [
+    [
+      1,
+      2,
+      3,
+      6
+    ],
+    [
+      1,
+      2,
+      3,
+      6
+    ],
+    [
+      1,
+      2,
+      3,
+      6
+    ],
+    [
+      1,
+      2,
+      3,
+      6
+    ]
+  ],
+  "gcd_identity_checked_inputs_1_to_100": true,
+  "Fibonacci_division_counts": [
+    {
+      "a": 8,
+      "b": 5,
+      "divisions": 4
+    },
+    {
+      "a": 21,
+      "b": 13,
+      "divisions": 6
+    },
+    {
+      "a": 55,
+      "b": 34,
+      "divisions": 8
+    },
+    {
+      "a": 144,
+      "b": 89,
+      "divisions": 10
+    },
+    {
+      "a": 377,
+      "b": 233,
+      "divisions": 12
+    },
+    {
+      "a": 987,
+      "b": 610,
+      "divisions": 14
+    }
+  ],
+  "division_count_includes_final_zero": true,
+  "complexity_scope": "worst-case remainder/division count O(log min(a,b)), not bit-operation time; numeric value versus representation length distinguished"
+}

@@ -1,5 +1,7 @@
 # 롱폼 제작 규격
 
+- [방정식 RPG — 최종 보스, 5차 방정식](equation_rpg_quintic/README.md): 16:9·목표 12~15분, 기획 단계의 별도 작업 폴더. 대본·발화시간·영상 미확정.
+
 - [추상대수학 — 군·환·체 1~5장 음성 포함 통합 롱폼](abstract_algebra/full_01_05/README.md): 사용자 MP3 5개와 무음 영상 결합. 9분 19.183초, 1080p60, MP4 챕터·자막·유튜브 설명 포함. `py -3.12 longforms/abstract_algebra/full_01_05/build.py`.
 
 - [추상대수학 — 5장 최종 정리](abstract_algebra/chapter_05/README.md): 사용자 제공 14문장·75초, 6개 독립 씬, 16:9 1080p60, 무음·전체 자막. `py -3.12 longforms/abstract_algebra/chapter_05/build.py`.
@@ -329,3 +331,8 @@ longforms/<ID>_<slug>/
 
 
 - [수능 수학 공통 1–22번 음성 포함 롱폼](csat_full_01_22/README.md): 문제 정보 카드가 있는 csat01~22.mp4와 수능_1~22.mp3를 번호별 결합 후 통합. 1080p30,22개 챕터. 실행: `python longforms/csat_full_01_22/build.py`.
+
+
+## 행렬식 롱폼 구성 검토
+
+- [행렬식은 왜 필요했을까? — 구성 계획](determinant_foundations/plan.md): 약 9분 30초를 목표로 한 구성안. 연립방정식의 유일성과 공간의 복원 가능성을 중심으로 기하학·순열·소거·한계를 연결한다. 현재는 구성 단계이며 확정 대본·음성·영상·타이밍은 없다.

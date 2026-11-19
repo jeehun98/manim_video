@@ -1,5 +1,12 @@
 version: 1
 objects:
+  - id: dialogue-background
+    renderer: manim
+    import: visual_library.manim.DialogueBackground
+    kind: system
+    tags: [longform, grid, background, dialogue, subtitle, undertale]
+    status: stable
+
   - id: text
     renderer: manim
     import: visual_library.manim.text

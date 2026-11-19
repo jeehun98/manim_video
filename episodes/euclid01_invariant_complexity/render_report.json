@@ -1,0 +1,11 @@
+{
+  "duration": "157.000000",
+  "width": 1080,
+  "height": 1920,
+  "fps": "30/1",
+  "frames": "4710",
+  "audio": false,
+  "caption_audits": 8,
+  "persistent_progress_header": true,
+  "gcd_six_fixed_during_proof": true
+}

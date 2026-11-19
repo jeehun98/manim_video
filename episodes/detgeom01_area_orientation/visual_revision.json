@@ -1,0 +1,9 @@
+{
+  "changed_scenes": [
+    "07"
+  ],
+  "previous_input_hash": "1977f9e2e33a17cbb0b75722538a3e512aa6ebaeaf943764f336734567255925",
+  "current_input_hash": "59a02b371b6f9bc35bb30db5e34319d3b930f1bfe9035c1db7e7749c7c1f66db",
+  "reuse_basis": "Only Shot07 small matrix entry display precision changed; other classes AST identical; all helpers, script, timing and settings identical.",
+  "precision_display": "four decimal places; small coefficient font adjusted to remain inside matrix brackets"
+}
