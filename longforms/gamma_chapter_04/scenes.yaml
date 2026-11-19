@@ -1,0 +1,45 @@
+scenes:
+  - id: '01'
+    file: scene.py
+    class: Shot01
+    duration_seconds: 21
+  - id: '02'
+    file: scene.py
+    class: Shot02
+    duration_seconds: 30
+  - id: '03'
+    file: scene.py
+    class: Shot03
+    duration_seconds: 22
+  - id: '04'
+    file: scene.py
+    class: Shot04
+    duration_seconds: 11
+  - id: '05'
+    file: scene.py
+    class: Shot05
+    duration_seconds: 21
+  - id: '06'
+    file: scene.py
+    class: Shot06
+    duration_seconds: 14
+  - id: '07'
+    file: scene.py
+    class: Shot07
+    duration_seconds: 28
+  - id: '08'
+    file: scene.py
+    class: Shot08
+    duration_seconds: 29
+  - id: '09'
+    file: scene.py
+    class: Shot09
+    duration_seconds: 10
+  - id: '10'
+    file: scene.py
+    class: Shot10
+    duration_seconds: 17
+  - id: '11'
+    file: scene.py
+    class: Shot11
+    duration_seconds: 22

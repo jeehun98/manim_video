@@ -2339,3 +2339,14 @@ python episodes/fft01_butterfly/build.py --preview --scene 05
 ```
 
 최종: `exports/fft01_short.mp4`. 전체 미리보기가 필요하면 `python scripts/render.py fft01 --preview`. 대표 씬 검수 후 최종 렌더하며, 직접 DFT·단계별 FFT·NumPy 결과를 검산한다.
+
+## gamma01 — 감마함수와 팩토리얼의 실수 확장
+
+`episodes/gamma01_factorial_extension/`에 콘티, 대본, TTS 발음 원고, 자막, 장면 명세, 172초 타이밍과 독립 장면 9개의 소스가 있다. 9:16, 1080×1920, 30fps, 기본 무음. 본문 수식은 Cambria Math, 한글은 Malgun Gothic으로 렌더한다.
+
+```powershell
+python episodes/gamma01_factorial_extension/build.py --preview --scene 08
+python scripts/render.py gamma01
+```
+
+최종 영상은 `exports/gamma01_short.mp4`에 저장된다.
