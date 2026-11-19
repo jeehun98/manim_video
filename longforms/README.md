@@ -1,5 +1,15 @@
 # 롱폼 제작 규격
 
+- [감마함수 — 5장 수학적 개념을 확장한다는 것](gamma_chapter_05/README.md): 9문장·65초, 독립 장면 9개, 16:9 1080p30, 무음·화면 자막. `python longforms/gamma_chapter_05/build.py`.
+
+- [감마함수 — 4장 확률분포에서 감마함수가 등장하는 이유](gamma_chapter_04/README.md): 40문장·225초, 독립 장면 11개, 16:9 1080p30, 무음·화면 자막. `python longforms/gamma_chapter_04/build.py`.
+
+- [감마함수 — 3장 팩토리얼에서 왜 원주율이 등장할까?](gamma_chapter_03/README.md): 44문장·212초, 독립 장면 11개, 16:9 1080p30, 무음·화면 자막. `python longforms/gamma_chapter_03/build.py`.
+
+- [감마함수 — 2장 감마함수는 어떻게 구성되는가](gamma_chapter_02/README.md): 43문장·214초, 독립 장면 11개, 16:9 1080p30, 무음·화면 자막. `python longforms/gamma_chapter_02/build.py`.
+
+- [감마함수 — 1장 팩토리얼을 확장한다는 것](gamma_chapter_01/README.md): 20문장·97초, 독립 장면 7개, 16:9 1080p30, 무음·화면 자막. `python longforms/gamma_chapter_01/build.py`.
+
 - [방정식 RPG — 최종 보스, 5차 방정식](equation_rpg_quintic/README.md): 16:9·목표 12~15분, 기획 단계의 별도 작업 폴더. 대본·발화시간·영상 미확정.
 
 - [추상대수학 — 군·환·체 1~5장 음성 포함 통합 롱폼](abstract_algebra/full_01_05/README.md): 사용자 MP3 5개와 무음 영상 결합. 9분 19.183초, 1080p60, MP4 챕터·자막·유튜브 설명 포함. `py -3.12 longforms/abstract_algebra/full_01_05/build.py`.

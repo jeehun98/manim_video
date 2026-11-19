@@ -28,6 +28,7 @@ EPISODES["csat01"] = ("episodes/csat01_exponent/scene.py", "Shot01")
 EPISODES["benford01"] = ("episodes/benford01_log_intervals/scenes/01/scene.py", "Shot01")
 EPISODES["fft01"] = ("episodes/fft01_butterfly/scene.py", "Shot01")
 EPISODES["deteff01"] = ("episodes/deteff01_gaussian_elimination/scene.py", "Shot01")
+EPISODES["gamma01"] = ("episodes/gamma01_factorial_extension/scene.py", "Shot01")
 EPISODES["detperm01"] = ("episodes/detperm01_permutation_sign/scene.py", "Shot01")
 EPISODES["detgeom01"] = ("episodes/detgeom01_area_orientation/scene.py", "Shot01")
 EPISODES["euclid01"] = ("episodes/euclid01_invariant_complexity/scene.py", "Shot01")
@@ -689,8 +690,9 @@ def main():
         if a.preview: command.append("--preview")
         subprocess.run(command, cwd=ROOT, check=True)
         return
-    if a.episode == "deteff01":
-        command = [sys.executable, str(ROOT / "episodes/deteff01_gaussian_elimination/build.py")]
+    if a.episode in {"deteff01", "gamma01"}:
+        scene_path, _ = EPISODES[a.episode]
+        command = [sys.executable, str((ROOT / scene_path).with_name("build.py"))]
         if a.preview: command.append("--preview")
         subprocess.run(command, cwd=ROOT, check=True)
         return
