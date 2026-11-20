@@ -1,0 +1,28 @@
+- id: 01
+  start: 0
+  end: 25
+  claim: 길이 변화에서 넓이 변화로
+- id: 02
+  start: 25
+  end: 49
+  claim: 원판과 타원의 넓이
+- id: 03
+  start: 49
+  end: 59
+  claim: 삼차원 부피 배율
+- id: 04
+  start: 59
+  end: 76
+  claim: 행렬식과 특잇값의 연결
+- id: 05
+  start: 76
+  end: 112
+  claim: 두 계산으로 증명하는 관계
+- id: 06
+  start: 112
+  end: 125
+  claim: 행렬식의 부호와 공간의 방향성
+- id: 07
+  start: 125
+  end: 151
+  claim: 같은 행렬식과 다른 방향별 변화

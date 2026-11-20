@@ -1,0 +1,16 @@
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/singular_ch00_voiced.mp4'
+duration 63.766666666667
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/singular_ch01_voiced.mp4'
+duration 100.633333333333
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/singular_ch02_voiced.mp4'
+duration 121.233333333333
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/singular_ch03_voiced.mp4'
+duration 181.033333333333
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/singular_ch04_voiced.mp4'
+duration 137.266666666667
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/singular_ch05_voiced.mp4'
+duration 151.666666666667
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/singular_ch06_voiced.mp4'
+duration 156.866666666667
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/singular_ch07_voiced.mp4'
+duration 90.966666666667

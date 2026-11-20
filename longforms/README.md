@@ -1,5 +1,26 @@
 # 롱폼 제작 규격
 
+- [특잇값 0–7장 음성 결합 롱폼](singular_values/full_00_07/README.md): sig_0~7.mp3 번호별 결합, 16분 43초, 1080p30, 통합 SRT·유튜브 설명. `python longforms/singular_values/full_00_07/build.py`.
+
+- [특잇값 요약 세로 쇼츠](singular_values/short_summary/README.md): 확정 27문장·150초, 9:16 1080×1920 30fps, 무음·자막. `python longforms/singular_values/short_summary/build.py`.
+
+- [특잇값 7장 — 하나의 행렬에서 발견할 수 있는 다양한 정보](singular_values/chapter_07/README.md): 사용자 확정 12문장·90초, 5개 연속 그룹, 16:9 1080p30, 무음·화면 자막. `python longforms/singular_values/chapter_07/build.py`.
+
+- [특잇값 6장 — 작은 오차가 커지는 이유](singular_values/chapter_06/README.md): 사용자 확정 29문장·156초, 7개 연속 그룹, 16:9 1080p30, 무음·화면 자막. `python longforms/singular_values/chapter_06/build.py`.
+
+- [특잇값 5장 — 행렬식과 공간의 부피](singular_values/chapter_05/README.md): 사용자 확정 29문장·151초, 7개 연속 그룹, 16:9 1080p30, 무음·화면 자막. `python longforms/singular_values/chapter_05/build.py`.
+
+- [특잇값 4장 — 정보의 보존과 소실](singular_values/chapter_04/README.md): 사용자 확정 25문장·137초, 6개 연속 그룹, 16:9 1080p30, 무음·화면 자막. `python longforms/singular_values/chapter_04/build.py`.
+
+- [특잇값 3장 — 새로운 행렬의 등장](singular_values/chapter_03/README.md): 사용자 확정 33문장·180초, 6개 연속 그룹, 16:9 1080p30, 무음·화면 자막. `python longforms/singular_values/chapter_03/build.py`.
+
+- [특잇값 2장 — 단위 원에서 발견하는 특잇값](singular_values/chapter_02/README.md): 사용자 확정 23문장·121초, 6개 연속 그룹, 16:9 1080p30, 무음·화면 자막. `python longforms/singular_values/chapter_02/build.py`.
+
+- [특잇값 1장 — 방향이 아닌 길이의 변화](singular_values/chapter_01/README.md): 사용자 확정 18문장·100초, 5개 연속 그룹, 16:9 1080p30, 무음·화면 자막. `python longforms/singular_values/chapter_01/build.py`.
+
+- [특잇값 0장 — 고윳값만으로 행렬을 이해할 수 있을까?](singular_values/chapter_00/README.md): 사용자 확정 11문장·63초, 11개 독립 씬, 16:9 1080p30, 무음·화면 자막. `python longforms/singular_values/chapter_00/build.py`.
+
+
 - [감마함수 — 5장 수학적 개념을 확장한다는 것](gamma_chapter_05/README.md): 9문장·65초, 독립 장면 9개, 16:9 1080p30, 무음·화면 자막. `python longforms/gamma_chapter_05/build.py`.
 
 - [감마함수 — 4장 확률분포에서 감마함수가 등장하는 이유](gamma_chapter_04/README.md): 40문장·225초, 독립 장면 11개, 16:9 1080p30, 무음·화면 자막. `python longforms/gamma_chapter_04/build.py`.

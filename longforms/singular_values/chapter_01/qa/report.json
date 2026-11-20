@@ -1,0 +1,61 @@
+{
+  "source_hashes": {
+    "brief.md": "e4b7037919fb642284d46ca54dba21e151e57862d5e0770b47aa235c4704ea6c",
+    "build.py": "e5ba21c816fe56adfbc599d28769db8e3826dbb60ade7a0feb8d8439cd791f10",
+    "manifest.json": "7435097b54fbaf4efdcc3989148ba759a7b0eddaeaa9af5d3bd7542797d09532",
+    "narration.md": "6fbc24a2dbac20a855dcbe06e85c22365a995a17ace36ee8f3f52ad3dbd35cad",
+    "README.md": "5c611cc1855433964f8dde25c794df799527f614ad573a7de44e96f28b866f4f",
+    "scene_engine.py": "784286491bf5e1c9355c614e99d6b1f7ed66ed114a2edbbf595ede39fdc1fea0",
+    "storyboard_source.md": "ddb7f256d73d8fa6bdcd350b5e70b3f6816802342d316340af7c5d353af9aae3",
+    "timing.json": "553bf72ae5c484f47427fadf1076ff504d3095f945e1557c203967e81cd89253",
+    "verify_video.py": "0df5e2dec7b48e697a31e27648791c26d7d0f056fda0a9ca9f8a81eb1835b90d",
+    "visual_common.py": "deaa79f6ae5751ecf5a5a2f534958e25bf5028167f0a6250e3be7f7c89f87b22",
+    "scenes\\01\\scene.py": "d0a19be832f9e6b515a8337de3dcb383c7cf962366c07cbc87c4d608fafe5abe",
+    "scenes\\01\\spec.md": "89e05237212e0ca0184779badf254154596b0b2987523781a8ed0f9b60190a74",
+    "scenes\\02\\scene.py": "2415b02a13a11e23de05d62ebb65d79e24a7270e1ba90aa5ef438a4804a8de74",
+    "scenes\\02\\spec.md": "8823a5fb62c6de9208433cfce4947a957e625bd0ae85495c5a742a1faaab4fac",
+    "scenes\\03\\scene.py": "69034cdaf5495b94f03f3bb33104f200f0c38fa42c17db0eafcce6c51d6a5857",
+    "scenes\\03\\spec.md": "e0df29404feb974681be197cf34880c8ab7fa91b797f887568aff578c297a1c9",
+    "scenes\\04\\scene.py": "0e2bfa525c3b061c621a74362882fc4054cf3a252c7f6fc65c17059f38b296d5",
+    "scenes\\04\\spec.md": "25b69f22e14c5215ab6558025eaeab5a6b9d3fb8f785cd0df5ccb05d9ec645eb",
+    "scenes\\05\\scene.py": "e0bbcb950680d7fca6ef347e20249abb31d22991ffede6c52389628d5e84a201",
+    "scenes\\05\\spec.md": "01d96b0935b6897b43c7afc4a240bd6efc0b721ab82b5d8ac3ff35ffaa2af344"
+  },
+  "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\singular01_100s_1080p30.mp4",
+  "seconds": 100,
+  "frames": 3000,
+  "fps": 30,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "audio": false,
+  "full_decode": "passed",
+  "monotonic_pts": true,
+  "contiguous_captions": true,
+  "distinct_sentence_caption_frames": 18,
+  "length_ratios": [
+    2.4083189157584592,
+    0.4472135954999579
+  ],
+  "keyframes": [
+    3.5,
+    8,
+    15,
+    19,
+    23,
+    29,
+    35,
+    41,
+    48,
+    53,
+    58,
+    64,
+    69,
+    75,
+    81,
+    86,
+    94,
+    99.8
+  ]
+}

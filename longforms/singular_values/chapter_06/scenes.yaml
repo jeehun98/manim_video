@@ -1,0 +1,28 @@
+- id: 01
+  start: 0
+  end: 22
+  claim: 역변환과 오차의 문제
+- id: 02
+  start: 22
+  end: 40
+  claim: 두 가역행렬의 비교
+- id: 03
+  start: 40
+  end: 68
+  claim: 같은 역변환을 받는 데이터와 오차
+- id: 04
+  start: 68
+  end: 81
+  claim: 최소 특잇값과 최대 절대 오차 증폭
+- id: 05
+  start: 81
+  end: 113
+  claim: 절대 오차에서 상대 오차로
+- id: 06
+  start: 113
+  end: 140
+  claim: 조건수와 상대 오차의 상한
+- id: 07
+  start: 140
+  end: 156
+  claim: 복원 가능성과 민감도의 차이

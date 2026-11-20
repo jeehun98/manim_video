@@ -1,0 +1,5 @@
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/singular_values/chapter_07/scenes/01/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/singular_values/chapter_07/scenes/02/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/singular_values/chapter_07/scenes/03/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/singular_values/chapter_07/scenes/04/visual_1080p30.mp4'
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/singular_values/chapter_07/scenes/05/visual_1080p30.mp4'

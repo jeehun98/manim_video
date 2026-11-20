@@ -1,0 +1,28 @@
+- id: 01
+  start: 0
+  end: 21
+  claim: 같은 고윳값과 다른 변환
+- id: 02
+  start: 21
+  end: 50
+  claim: 단위 원에서 특잇값으로
+- id: 03
+  start: 50
+  end: 76
+  claim: 길이의 제곱과 새로운 행렬
+- id: 04
+  start: 76
+  end: 98
+  claim: 양의 특잇값 개수와 랭크
+- id: 05
+  start: 98
+  end: 112
+  claim: 특잇값의 곱과 부피
+- id: 06
+  start: 112
+  end: 132
+  claim: 역변환 오차와 조건수
+- id: 07
+  start: 132
+  end: 150
+  claim: 하나의 변환에서 읽는 정보

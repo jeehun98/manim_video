@@ -1,0 +1,38 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01",
+    "duration_seconds": 29,
+    "class": "Scene01"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02",
+    "duration_seconds": 28,
+    "class": "Scene02"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03",
+    "duration_seconds": 21,
+    "class": "Scene03"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04",
+    "duration_seconds": 34,
+    "class": "Scene04"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05",
+    "duration_seconds": 46,
+    "class": "Scene05"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06",
+    "duration_seconds": 22,
+    "class": "Scene06"
+  }
+]

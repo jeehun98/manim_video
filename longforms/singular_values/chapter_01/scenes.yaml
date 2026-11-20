@@ -1,0 +1,20 @@
+- id: 01
+  start: 0
+  end: 16
+  claim: 고유방향에서 길이로
+- id: 02
+  start: 16
+  end: 36
+  claim: 길이 변화 배율의 정의
+- id: 03
+  start: 36
+  end: 65
+  claim: 단위벡터의 필요성
+- id: 04
+  start: 65
+  end: 87
+  claim: 방향별 길이 변화 탐색
+- id: 05
+  start: 87
+  end: 100
+  claim: 극값 질문에서 단위 원으로

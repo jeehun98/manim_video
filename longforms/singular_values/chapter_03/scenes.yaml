@@ -1,0 +1,24 @@
+- id: 01
+  start: 0
+  end: 29
+  claim: 벡터의 길이를 내적으로 표현
+- id: 02
+  start: 29
+  end: 57
+  claim: 길이 측정에서 새로운 행렬의 발견
+- id: 03
+  start: 57
+  end: 78
+  claim: 새 행렬의 구조적 성질
+- id: 04
+  start: 78
+  end: 112
+  claim: 고윳값에서 길이 변화 배율로
+- id: 05
+  start: 112
+  end: 158
+  claim: 가중평균으로 최대·최소 증명
+- id: 06
+  start: 158
+  end: 180
+  claim: 특잇값의 정의와 기하학적 의미

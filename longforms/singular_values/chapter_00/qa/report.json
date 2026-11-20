@@ -1,0 +1,31 @@
+{
+  "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\singular00_63s_1080p30.mp4",
+  "seconds": 63,
+  "frames": 1890,
+  "fps": 30,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "audio": false,
+  "full_decode": "passed",
+  "monotonic_pts": true,
+  "contiguous_captions": true,
+  "length_ratios": [
+    2.4083189157584592,
+    0.4472135954999579
+  ],
+  "keyframes": [
+    5.5,
+    9,
+    11.5,
+    16,
+    20,
+    27,
+    32,
+    40,
+    48,
+    52,
+    61.5
+  ]
+}

@@ -1,0 +1,24 @@
+- id: 01
+  start: 0
+  end: 17
+  claim: 특잇값의 변화 설정
+- id: 02
+  start: 17
+  end: 36
+  claim: 공간 수축과 정확한 차원 붕괴
+- id: 03
+  start: 36
+  end: 61
+  claim: 구별할 수 없는 입력과 영공간
+- id: 04
+  start: 61
+  end: 95
+  claim: 살아남은 독립 차원의 개수
+- id: 05
+  start: 95
+  end: 121
+  claim: 작은 특잇값과 저랭크 근사
+- id: 06
+  start: 121
+  end: 137
+  claim: 정보 보존·소실과 특잇값의 곱

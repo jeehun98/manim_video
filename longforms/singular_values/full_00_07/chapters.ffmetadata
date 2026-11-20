@@ -1,0 +1,42 @@
+;FFMETADATA1
+title=특잇값은 왜 중요할까? — 길이 변화에서 랭크와 조건수까지
+[CHAPTER]
+TIMEBASE=1/30
+START=0
+END=1913
+title=00 · 고윳값만으로는 알 수 없는 것
+[CHAPTER]
+TIMEBASE=1/30
+START=1913
+END=4932
+title=01 · 방향이 아닌 길이의 변화
+[CHAPTER]
+TIMEBASE=1/30
+START=4932
+END=8569
+title=02 · 단위 원에서 발견하는 특잇값
+[CHAPTER]
+TIMEBASE=1/30
+START=8569
+END=14000
+title=03 · 새로운 행렬의 등장
+[CHAPTER]
+TIMEBASE=1/30
+START=14000
+END=18118
+title=04 · 정보의 보존과 소실
+[CHAPTER]
+TIMEBASE=1/30
+START=18118
+END=22668
+title=05 · 행렬식과 공간의 부피
+[CHAPTER]
+TIMEBASE=1/30
+START=22668
+END=27374
+title=06 · 작은 오차가 커지는 이유 — 조건수
+[CHAPTER]
+TIMEBASE=1/30
+START=27374
+END=30103
+title=07 · 하나의 행렬에서 발견할 수 있는 다양한 정보
