@@ -2354,3 +2354,26 @@ python scripts/render.py gamma01
 
 최종 영상은 `exports/gamma01_short.mp4`에 저장된다.
 >>>>>>> ee62e50fbf0521517923b5924e2f74bdf80da877
+
+## 생성함수 쇼츠 (genfunc01)
+
+176초 · 9:16 · 사용자 제공 문장 종료 시각 · 자막 포함, TTS 미제공으로 무음.
+소스: `episodes/genfunc01_dice/`의 `scene.py`, `timing.json`, `narration.md`, `tts_script.txt`, `captions.srt`, `brief.md`.
+
+```powershell
+python scripts/render.py genfunc01
+# 대표 씬 미리보기
+python episodes/genfunc01_dice/build.py --preview --scene 03
+```
+최종 결과: `exports/genfunc01_short.mp4`.
+
+## 카탈란 수와 생성함수 쇼츠 (genfunc02)
+
+171초 · 9:16 · 확정 문장 종료 시각 · 수식 표기 자막 · TTS 미제공으로 무음.
+소스와 제작 자료: `episodes/genfunc02_catalan/` (`scene.py`, `timing.json`, `brief.md`, `narration.md`, `tts_script.txt`, `captions.srt`, `build.py`).
+
+```powershell
+python scripts/render.py genfunc02
+python episodes/genfunc02_catalan/build.py --preview --scene 04
+```
+결과: `exports/genfunc02_short.mp4`.
