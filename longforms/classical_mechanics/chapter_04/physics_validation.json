@@ -1,0 +1,10 @@
+{
+  "relative_energy_error": 5.2289612860982474e-12,
+  "critical_energy": 39.24,
+  "critical_trajectory_does_not_cross_top": true,
+  "exact_contours": true,
+  "flow_tangent_to_energy_levels": true,
+  "patch_relative_area_error": 9.187748361680741e-07,
+  "model": "massless rigid rod, m=1 kg, length=2m, g=9.81",
+  "periodic_angle": "chart [-pi,pi], endpoints identified"
+}

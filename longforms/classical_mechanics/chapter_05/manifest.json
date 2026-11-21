@@ -1,0 +1,74 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01",
+    "class_name": "Shot01",
+    "start": 0,
+    "duration_seconds": 36,
+    "claim": "여러 상태가 해밀턴 흐름에 따라 함께 변형된다"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02",
+    "class_name": "Shot02",
+    "start": 36,
+    "duration_seconds": 25,
+    "claim": "모양이 달라도 위상 넓이는 보존된다"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03",
+    "class_name": "Shot03",
+    "start": 61,
+    "duration_seconds": 44,
+    "claim": "시간 진화는 심플렉틱 구조를 보존한다"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04",
+    "class_name": "Shot04",
+    "start": 105,
+    "duration_seconds": 29,
+    "claim": "하나의 궤적에서는 전체 에너지가 보존된다"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05",
+    "class_name": "Shot05",
+    "start": 134,
+    "duration_seconds": 31,
+    "claim": "시간 이동 대칭성이 에너지 보존과 연결된다"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06",
+    "class_name": "Shot06",
+    "start": 165,
+    "duration_seconds": 32,
+    "claim": "작용의 연속 대칭성은 보존량과 연결된다"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07",
+    "class_name": "Shot07",
+    "start": 197,
+    "duration_seconds": 60,
+    "claim": "푸아송 괄호로 물리량의 변화와 보존을 확인한다"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08",
+    "class_name": "Shot08",
+    "start": 257,
+    "duration_seconds": 39,
+    "claim": "새로운 표현은 운동 속 불변 구조를 드러낸다"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09",
+    "class_name": "Shot09",
+    "start": 296,
+    "duration_seconds": 21,
+    "claim": "상태와 시간 진화의 질문은 새로운 이론으로 이어진다"
+  }
+]

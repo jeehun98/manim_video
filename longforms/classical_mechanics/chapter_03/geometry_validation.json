@@ -1,0 +1,6 @@
+{
+  "samples": 299,
+  "frame_bounds_pass": true,
+  "caption_region_clear": true,
+  "note": "All geometry and sentence-boundary labels checked; stationary-action formula raised 0.1 after identifying its lower bound."
+}

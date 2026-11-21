@@ -1,0 +1,38 @@
+duration: 317
+scenes:
+  - id: '01'
+    start: 0
+    duration: 36
+    claim: 여러 상태가 해밀턴 흐름에 따라 함께 변형된다
+  - id: '02'
+    start: 36
+    duration: 25
+    claim: 모양이 달라도 위상 넓이는 보존된다
+  - id: '03'
+    start: 61
+    duration: 44
+    claim: 시간 진화는 심플렉틱 구조를 보존한다
+  - id: '04'
+    start: 105
+    duration: 29
+    claim: 하나의 궤적에서는 전체 에너지가 보존된다
+  - id: '05'
+    start: 134
+    duration: 31
+    claim: 시간 이동 대칭성이 에너지 보존과 연결된다
+  - id: '06'
+    start: 165
+    duration: 32
+    claim: 작용의 연속 대칭성은 보존량과 연결된다
+  - id: '07'
+    start: 197
+    duration: 60
+    claim: 푸아송 괄호로 물리량의 변화와 보존을 확인한다
+  - id: '08'
+    start: 257
+    duration: 39
+    claim: 새로운 표현은 운동 속 불변 구조를 드러낸다
+  - id: '09'
+    start: 296
+    duration: 21
+    claim: 상태와 시간 진화의 질문은 새로운 이론으로 이어진다

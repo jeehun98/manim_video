@@ -1,0 +1,12 @@
+id: classical_ch04
+video: {width: 1920, height: 1080, fps: 30}
+scenes:
+  - {id: '01', directory: 'scenes/01', class: Shot01, duration_seconds: 37}
+  - {id: '02', directory: 'scenes/02', class: Shot02, duration_seconds: 36}
+  - {id: '03', directory: 'scenes/03', class: Shot03, duration_seconds: 40}
+  - {id: '04', directory: 'scenes/04', class: Shot04, duration_seconds: 50}
+  - {id: '05', directory: 'scenes/05', class: Shot05, duration_seconds: 56}
+  - {id: '06', directory: 'scenes/06', class: Shot06, duration_seconds: 15}
+  - {id: '07', directory: 'scenes/07', class: Shot07, duration_seconds: 63}
+  - {id: '08', directory: 'scenes/08', class: Shot08, duration_seconds: 45}
+  - {id: '09', directory: 'scenes/09', class: Shot09, duration_seconds: 24}

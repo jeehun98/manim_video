@@ -1,0 +1,39 @@
+duration: 174
+aspect: 9:16
+scenes:
+  - id: '01'
+    start: 0
+    duration: 25
+    claim: 뉴턴은 힘과 초기조건으로 운동을 예측한다
+  - id: '02'
+    start: 25
+    duration: 20
+    claim: 에너지의 차이를 경로에 누적해 작용을 구성한다
+  - id: '03'
+    start: 45
+    duration: 19
+    claim: 작용의 정지 조건으로 같은 운동방정식을 얻는다
+  - id: '04'
+    start: 64
+    duration: 26
+    claim: 각도와 정준운동량은 운동 상태를 한 점으로 표현한다
+  - id: '05'
+    start: 90
+    duration: 33
+    claim: 해밀토니안은 위상 공간의 시간 진화를 결정한다
+  - id: '06'
+    start: 123
+    duration: 14
+    claim: 해밀턴 흐름에서 물질 영역의 넓이는 보존된다
+  - id: '07'
+    start: 137
+    duration: 13
+    claim: 작용의 연속 대칭은 보존량과 연결된다
+  - id: '08'
+    start: 150
+    duration: 12
+    claim: 양자역학에서도 해밀토니안의 시간 진화 역할은 이어진다
+  - id: '09'
+    start: 162
+    duration: 12
+    claim: 같은 운동의 새로운 표현은 숨은 구조를 드러낸다

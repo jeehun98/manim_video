@@ -1,0 +1,74 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01",
+    "class_name": "Shot01",
+    "start": 0,
+    "duration_seconds": 37,
+    "claim": "르장드르 변환으로 얻은 함수에 해밀토니안이라는 이름을 붙인다"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02",
+    "class_name": "Shot02",
+    "start": 37,
+    "duration_seconds": 36,
+    "claim": "이상적 진자에서 해밀토니안은 역학적 에너지다"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03",
+    "class_name": "Shot03",
+    "start": 73,
+    "duration_seconds": 40,
+    "claim": "상태마다 에너지 높이를 부여하면 하나의 곡면이 된다"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04",
+    "class_name": "Shot04",
+    "start": 113,
+    "duration_seconds": 50,
+    "claim": "에너지 보존은 등고선 위의 운동으로 표현된다"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05",
+    "class_name": "Shot05",
+    "start": 163,
+    "duration_seconds": 56,
+    "claim": "두 편미분이 상태의 시간 변화 벡터를 결정한다"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06",
+    "class_name": "Shot06",
+    "start": 219,
+    "duration_seconds": 15,
+    "claim": "해밀턴 방정식과 뉴턴의 운동은 일치한다"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07",
+    "class_name": "Shot07",
+    "start": 234,
+    "duration_seconds": 63,
+    "claim": "에너지에 따라 왕복·분리곡선·회전이 구별된다"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08",
+    "class_name": "Shot08",
+    "start": 297,
+    "duration_seconds": 45,
+    "claim": "같은 운동을 정준 위상 공간의 흐름으로 표현한다"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09",
+    "class_name": "Shot09",
+    "start": 342,
+    "duration_seconds": 24,
+    "claim": "해밀턴 흐름 속의 작은 영역이 변형된다"
+  }
+]

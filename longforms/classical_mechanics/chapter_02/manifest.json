@@ -1,0 +1,58 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01",
+    "class_name": "Shot01",
+    "start": 0,
+    "duration_seconds": 22,
+    "claim": "제약을 반영하면 각도 하나로 위치를 표현한다"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02",
+    "class_name": "Shot02",
+    "start": 22,
+    "duration_seconds": 32,
+    "claim": "에너지의 합과 차이는 서로 다른 함수다"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03",
+    "class_name": "Shot03",
+    "start": 54,
+    "duration_seconds": 24,
+    "claim": "경로는 시간에 따른 각도의 이력이다"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04",
+    "class_name": "Shot04",
+    "start": 78,
+    "duration_seconds": 13,
+    "claim": "작용은 L(t)의 부호 있는 시간 적분이다"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05",
+    "class_name": "Shot05",
+    "start": 91,
+    "duration_seconds": 25,
+    "claim": "실제 경로에서 작용의 일차 변화가 사라진다"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06",
+    "class_name": "Shot06",
+    "start": 116,
+    "duration_seconds": 39,
+    "claim": "두 역학은 같은 초기조건에서 같은 운동을 준다"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07",
+    "class_name": "Shot07",
+    "start": 155,
+    "duration_seconds": 25,
+    "claim": "좌표와 작용의 언어는 복잡한 계로 확장된다"
+  }
+]

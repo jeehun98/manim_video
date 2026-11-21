@@ -1,0 +1,66 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01",
+    "class_name": "Shot01",
+    "start": 0,
+    "duration_seconds": 33,
+    "claim": "위치가 같아도 속도가 다르면 상태는 다르다"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02",
+    "class_name": "Shot02",
+    "start": 33,
+    "duration_seconds": 37,
+    "claim": "각도와 각속도의 쌍은 상태 공간의 한 점이다"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03",
+    "class_name": "Shot03",
+    "start": 70,
+    "duration_seconds": 32,
+    "claim": "라그랑지안에서 작용과 정지 조건으로 이어진다"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04",
+    "class_name": "Shot04",
+    "start": 102,
+    "duration_seconds": 30,
+    "claim": "속도에 대한 라그랑지안의 기울기는 정준운동량이다"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05",
+    "class_name": "Shot05",
+    "start": 132,
+    "duration_seconds": 56,
+    "claim": "접선의 기울기와 절편으로 함수를 재구성한다"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06",
+    "class_name": "Shot06",
+    "start": 188,
+    "duration_seconds": 52,
+    "claim": "위상 공간의 점과 궤적으로 운동을 표현한다"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07",
+    "class_name": "Shot07",
+    "start": 240,
+    "duration_seconds": 38,
+    "claim": "같은 운동에서 서로 다른 표현이 다른 구조를 드러낸다"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08",
+    "class_name": "Shot08",
+    "start": 278,
+    "duration_seconds": 21,
+    "claim": "상태의 시간 변화를 생성하는 함수를 묻는다"
+  }
+]

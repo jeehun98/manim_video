@@ -1,0 +1,10 @@
+{
+  "momentum_equals_L_velocity_derivative": true,
+  "legendre_identity": true,
+  "tangent_intercept_equals_negative_H": true,
+  "invertible_velocity_hessian": 4.0,
+  "exact_nonlinear_energy_contours": true,
+  "period_seconds": 2.9137866126305756,
+  "initial_angle": 0.65,
+  "angular_momentum_scale": 4.0
+}

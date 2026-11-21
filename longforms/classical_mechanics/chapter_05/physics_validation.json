@@ -1,0 +1,11 @@
+{
+  "material_patch_relative_area_error": 5.609954297769448e-07,
+  "maximum_energy_error": 2.716937785862683e-12,
+  "poisson_H_H_zero": true,
+  "poisson_p_H": "-mg*l*sin(theta)",
+  "poisson_q_H": "p/I",
+  "explicit_time_term_included": true,
+  "higher_dimensional_invariant": "sum dq_i wedge dp_i",
+  "spatial_symmetry_example": "free particle",
+  "rotational_symmetry_example": "central force circular orbit"
+}

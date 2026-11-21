@@ -1,0 +1,58 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01",
+    "class_name": "Shot01",
+    "start": 0,
+    "duration_seconds": 20,
+    "claim": "위치만으로 미래 운동을 정할 수 없다"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02",
+    "class_name": "Shot02",
+    "start": 20,
+    "duration_seconds": 24,
+    "claim": "힘은 이미 존재하는 운동을 변화시킨다"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03",
+    "class_name": "Shot03",
+    "start": 44,
+    "duration_seconds": 15,
+    "claim": "하나의 진자를 예측 대상으로 삼는다"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04",
+    "class_name": "Shot04",
+    "start": 59,
+    "duration_seconds": 30,
+    "claim": "접선 방향 중력이 각운동을 변화시킨다"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05",
+    "class_name": "Shot05",
+    "start": 89,
+    "duration_seconds": 21,
+    "claim": "운동방정식과 초기조건으로 미래를 계산한다"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06",
+    "class_name": "Shot06",
+    "start": 110,
+    "duration_seconds": 22,
+    "claim": "동일한 법칙이 다양한 운동을 기술한다"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07",
+    "class_name": "Shot07",
+    "start": 132,
+    "duration_seconds": 24,
+    "claim": "제약이 복잡해지면 다른 표현을 찾을 이유가 생긴다"
+  }
+]

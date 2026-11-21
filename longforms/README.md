@@ -381,3 +381,18 @@ longforms/<ID>_<slug>/
 - [행렬식 0장 — 역사적 등장](determinant_foundations/chapter_00/README.md): 사용자 확정10문장·71초,9개 독립 씬,1080p30·무음·전체 자막. `py -3.12 longforms/determinant_foundations/chapter_00/build.py`.
 
 - [행렬식 0~5장 음성 포함 합본](determinant_foundations/full_00_05/README.md): 사용자 MP3 6개 결합,14분05.933초·1080p30·MP4챕터·합본SRT·유튜브 설명 포함. `py -3.12 longforms/determinant_foundations/full_00_05/build.py`.
+
+
+- [고전역학 1장 — 예측이 가능해진 물체의 운동](classical_mechanics/chapter_01/README.md): 사용자 확정 156초·29문장·7개 독립 씬, 16:9 1080p30, 무음·전체 자막. `py -3.12 longforms/classical_mechanics/chapter_01/build.py`.
+
+- [고전역학 2장 — 하나의 원리로 설명되는 운동](classical_mechanics/chapter_02/README.md): 사용자 확정180초·37문장·7개 독립 씬, 16:9 1080p30, 무음·전체 자막. `py -3.12 longforms/classical_mechanics/chapter_02/build.py`.
+
+- [고전역학 3장 — 새로운 공간에 기록된 운동](classical_mechanics/chapter_03/README.md): 사용자 확정299초·56문장·8개 독립 씬, 16:9 1080p30, 무음·전체 자막. `py -3.12 longforms/classical_mechanics/chapter_03/build.py`.
+
+- [고전역학 4장 — 에너지 함수로 펼쳐지는 운동](classical_mechanics/chapter_04/README.md): 사용자 확정366초·70문장·9개 독립 씬, 16:9 1080p30, 무음·전체 자막. `py -3.12 longforms/classical_mechanics/chapter_04/build.py`.
+
+- [고전역학 5장 — 변화 속에서도 보존되는 구조](classical_mechanics/chapter_05/README.md): 확정 59문장·317초, 9씬, 1080p30, 무음·전체 자막. `py -3.12 longforms/classical_mechanics/chapter_05/build.py`.
+
+- [고전역학 6장 — 고전역학을 넘어 이어지는 수학](classical_mechanics/chapter_06/README.md): 확정 46문장·265초, 7씬, 1080p30, 무음·전체 자막. `py -3.12 longforms/classical_mechanics/chapter_06/build.py`.
+
+- [뉴턴에서 해밀토니안까지 — 요약 쇼츠](classical_mechanics/short_summary/README.md): 확정 37문장·174초, 9씬, 세로 1080×1920 30fps, 무음·전체 자막. `py -3.12 longforms/classical_mechanics/short_summary/build.py`.

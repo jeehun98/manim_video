@@ -1,0 +1,11 @@
+{
+  "model": "harmonic oscillator, hbar=m=omega=1; (|0>+|1>)/sqrt(2)",
+  "norm_error": 2.220446049250313e-16,
+  "schrodinger_residual": 8.161046721744114e-07,
+  "position_expectation_error": 3.3306690738754696e-16,
+  "energy_expectation": 1,
+  "commutator_order_verified": true,
+  "commutator_sign": "d<A>/dt=<[A,H]>/(i*hbar), explicit time independent A",
+  "sampling": "independently prepared identical state, Born density",
+  "double_slit": "conceptual far-field interference envelope, not tracked electron paths"
+}

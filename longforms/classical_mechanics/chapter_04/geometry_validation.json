@@ -1,0 +1,6 @@
+{
+  "samples": 185,
+  "frame_bounds_pass": true,
+  "caption_region_clear": true,
+  "note": "Full 2-second geometry sweep and all sentence-boundary labels checked; energy formula raised .15 and rechecked."
+}

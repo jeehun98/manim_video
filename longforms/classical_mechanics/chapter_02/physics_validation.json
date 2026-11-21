@@ -1,0 +1,22 @@
+{
+  "time_interval": 1.2,
+  "action_at_actual_history": 0.7604285478828392,
+  "endpoint_preserved": true,
+  "variations": [
+    {
+      "mode": 1,
+      "first_variation": -3.182276664404071e-07
+    },
+    {
+      "mode": 2,
+      "first_variation": 3.407515380970949e-06
+    },
+    {
+      "mode": 3,
+      "first_variation": 1.3259904285689572e-06
+    }
+  ],
+  "relative_energy_error": 9.301947180578084e-12,
+  "quadrature": "2401 points, signed trapezoid",
+  "conditions": "fixed times and positions; virtual velocities derived from the varied histories"
+}

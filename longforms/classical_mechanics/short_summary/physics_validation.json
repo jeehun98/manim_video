@@ -1,0 +1,28 @@
+{
+  "shared_classical": {
+    "material_patch_relative_area_error": 5.609954297769448e-07,
+    "maximum_energy_error": 2.716937785862683e-12,
+    "poisson_H_H_zero": true,
+    "poisson_p_H": "-mg*l*sin(theta)",
+    "poisson_q_H": "p/I",
+    "explicit_time_term_included": true,
+    "higher_dimensional_invariant": "sum dq_i wedge dp_i",
+    "spatial_symmetry_example": "free particle",
+    "rotational_symmetry_example": "central force circular orbit"
+  },
+  "shared_quantum": {
+    "model": "harmonic oscillator, hbar=m=omega=1; (|0>+|1>)/sqrt(2)",
+    "norm_error": 2.220446049250313e-16,
+    "schrodinger_residual": 8.161046721744114e-07,
+    "position_expectation_error": 3.3306690738754696e-16,
+    "energy_expectation": 1,
+    "commutator_order_verified": true,
+    "commutator_sign": "d<A>/dt=<[A,H]>/(i*hbar), explicit time independent A",
+    "sampling": "independently prepared identical state, Born density",
+    "double_slit": "conceptual far-field interference envelope, not tracked electron paths"
+  },
+  "stationary_action_first_variation": 7.246776512204178e-06,
+  "action_not_zero": -0.7787484510189348,
+  "canonical_momentum": "p_theta=I*omega, I=m*l^2",
+  "same_model_for_energy_path_phase_and_vector_field": true
+}
