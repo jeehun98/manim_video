@@ -1,0 +1,57 @@
+{
+  "domain": "R, bounded strictly positive step data, kappa=0.65",
+  "range": [
+    {
+      "t": 0.002,
+      "minimum": 20.0,
+      "maximum": 94.54703307135074
+    },
+    {
+      "t": 0.01,
+      "minimum": 20.0,
+      "maximum": 82.97013088387928
+    },
+    {
+      "t": 0.1,
+      "minimum": 20.000168269187327,
+      "maximum": 66.71099881249927
+    },
+    {
+      "t": 0.25,
+      "minimum": 20.090697842247412,
+      "maximum": 55.91651094400406
+    },
+    {
+      "t": 0.45,
+      "minimum": 20.619203531713218,
+      "maximum": 51.21360009884791
+    },
+    {
+      "t": 0.9,
+      "minimum": 22.155856915704955,
+      "maximum": 47.50375316220849
+    },
+    {
+      "t": 1.9,
+      "minimum": 24.48936554168183,
+      "maximum": 45.16031735964775
+    }
+  ],
+  "convolution_max_error": 1.4210854715202004e-14,
+  "pde_max_error": 0.00018972059478983283,
+  "tangent_max_error": 0.0001303637336818042,
+  "harnack_min_slack": 11.22149027010148,
+  "monte_carlo": {
+    "n": 200000,
+    "average": 41.146805,
+    "exact": 41.1605836189845,
+    "standard_error": 0.053384042713716204
+  },
+  "layout_samples": 688,
+  "label_objects": 4248,
+  "sources": [
+    "https://www.math.ias.edu/files/Lecture-No1.pdf",
+    "https://math.stanford.edu/~ryzhik/STANFORD/STANF227-12/notes227-09.pdf"
+  ],
+  "mechanics_sha256": "3ebca78a05913debbf0e75c330d003c6ce6e73331b9845782107ed2d91290a0f"
+}

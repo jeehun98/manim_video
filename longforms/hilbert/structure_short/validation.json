@@ -1,0 +1,62 @@
+{
+  "standard_inner_product": 0.0,
+  "weighted_inner_product": 3.0,
+  "standard_norm": 1.4142135623730951,
+  "weighted_norm": 2.23606797749979,
+  "weighted_angle_degrees": 53.13010235415599,
+  "projection": [
+    1.0,
+    0.0
+  ],
+  "taylor_errors": [
+    {
+      "n": 0,
+      "l2_error": 0.8706115049476629,
+      "uniform_error_upper_bound": 2.718281828459045
+    },
+    {
+      "n": 1,
+      "l2_error": 0.30215513545291267,
+      "uniform_error_upper_bound": 1.3591409142295225
+    },
+    {
+      "n": 2,
+      "l2_error": 0.07968206043304903,
+      "uniform_error_upper_bound": 0.45304697140984085
+    },
+    {
+      "n": 3,
+      "l2_error": 0.016827006277151904,
+      "uniform_error_upper_bound": 0.11326174285246021
+    },
+    {
+      "n": 4,
+      "l2_error": 0.0029539210522463487,
+      "uniform_error_upper_bound": 0.02265234857049204
+    },
+    {
+      "n": 5,
+      "l2_error": 0.00044297781635950923,
+      "uniform_error_upper_bound": 0.0037753914284153404
+    },
+    {
+      "n": 6,
+      "l2_error": 5.792793902126006e-05,
+      "uniform_error_upper_bound": 0.0005393416326307629
+    },
+    {
+      "n": 7,
+      "l2_error": 6.712041450941357e-06,
+      "uniform_error_upper_bound": 6.741770407884536e-05
+    }
+  ],
+  "convergence_argument": "Uniform Taylor remainder <= e/(n+1)! implies L2 convergence on [0,1] and Cauchy. Every derivative of exp is nonzero, so exp is not any finite-degree polynomial. L2 uniqueness excludes an alternative polynomial limit.",
+  "completion": "P[0,1] completes to real L2[0,1], functions identified a.e.; all Cauchy limits, not one added function.",
+  "sin_cos_integral": 0.0,
+  "layout_samples": 340,
+  "mechanics_sha256": "fb524c6629a32bd62f53d365aa4d5fd135c59d3f3311305da140202f248b4cd8",
+  "sources": [
+    "https://www.cs.cornell.edu/courses/cs6210/2025fa/lec/2025-08-25-slides.html",
+    "https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/8fb8d5c170f1613151aca71de21027bc_MIT18_102s21_full_lec.pdf"
+  ]
+}

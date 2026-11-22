@@ -1,5 +1,9 @@
 # 롱폼 제작 규격
 
+- [벡터·내적·힐베르트 공간 세로 쇼츠](hilbert/structure_short/README.md): 확정 36문장·170초·6씬, 세로 1080p30, 무음·전체 자막. `python longforms/hilbert/structure_short/build.py`.
+
+- [열방정식 해의 성질 세로 쇼츠](fourier_heat/solution_properties_short/README.md): 확정 34문장·172초·8씬, 세로 1080p30, 무음·전체 자막. `python longforms/fourier_heat/solution_properties_short/build.py`.
+
 - [특잇값 0–7장 음성 결합 롱폼](singular_values/full_00_07/README.md): sig_0~7.mp3 번호별 결합, 16분 43초, 1080p30, 통합 SRT·유튜브 설명. `python longforms/singular_values/full_00_07/build.py`.
 
 - [특잇값 요약 세로 쇼츠](singular_values/short_summary/README.md): 확정 27문장·150초, 9:16 1080×1920 30fps, 무음·자막. `python longforms/singular_values/short_summary/build.py`.
