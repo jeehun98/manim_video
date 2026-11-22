@@ -1,0 +1,31 @@
+{
+  "reuse": "unchanged previously validated models",
+  "sources": {
+    "../chapter_01/physics.py": "94d8abefc81d3e9dbf3ec3e99ba8b095e098cadf2355c87e666e1700f6c74d81",
+    "../chapter_04/mechanics.py": "461180bd86db8026c9b8375a9ed7e09ddc7e71c5832e06f3ed97da227cbdd47e",
+    "../chapter_05/mechanics.py": "6ce8c173a23c737fe95b2ffe234cd0d60353a830121a6969ab77261df8799949",
+    "../chapter_06/mechanics.py": "da9ed111d490c62efc9dfa8aeab7677bda5337eca517a769e8dad3b2d9e339e5"
+  },
+  "classical": {
+    "material_patch_relative_area_error": 5.609954297769448e-07,
+    "maximum_energy_error": 2.716937785862683e-12,
+    "poisson_H_H_zero": true,
+    "poisson_p_H": "-mg*l*sin(theta)",
+    "poisson_q_H": "p/I",
+    "explicit_time_term_included": true,
+    "higher_dimensional_invariant": "sum dq_i wedge dp_i",
+    "spatial_symmetry_example": "free particle",
+    "rotational_symmetry_example": "central force circular orbit"
+  },
+  "quantum": {
+    "model": "harmonic oscillator, hbar=m=omega=1; (|0>+|1>)/sqrt(2)",
+    "norm_error": 2.220446049250313e-16,
+    "schrodinger_residual": 8.161046721744114e-07,
+    "position_expectation_error": 3.3306690738754696e-16,
+    "energy_expectation": 1,
+    "commutator_order_verified": true,
+    "commutator_sign": "d<A>/dt=<[A,H]>/(i*hbar), explicit time independent A",
+    "sampling": "independently prepared identical state, Born density",
+    "double_slit": "conceptual far-field interference envelope, not tracked electron paths"
+  }
+}

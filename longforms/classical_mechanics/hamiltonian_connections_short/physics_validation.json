@@ -1,0 +1,25 @@
+{
+  "kepler_energy_error": 6.661338147750939e-16,
+  "kepler_angular_momentum_constant": true,
+  "hamilton_equations_verified": true,
+  "canonical_probabilities": [
+    0.6439142598879724,
+    0.23688281808991013,
+    0.08714431874203257,
+    0.03205860328008499
+  ],
+  "canonical_normalized": true,
+  "canonical_conditions": "four distinct microstates E=0,1,2,3; kB*T=1; thermal equilibrium at fixed temperature",
+  "shared_pendulum_and_quantum": "unchanged chapter06 model",
+  "shared_validation": {
+    "model": "harmonic oscillator, hbar=m=omega=1; (|0>+|1>)/sqrt(2)",
+    "norm_error": 2.220446049250313e-16,
+    "schrodinger_residual": 8.161046721744114e-07,
+    "position_expectation_error": 3.3306690738754696e-16,
+    "energy_expectation": 1,
+    "commutator_order_verified": true,
+    "commutator_sign": "d<A>/dt=<[A,H]>/(i*hbar), explicit time independent A",
+    "sampling": "independently prepared identical state, Born density",
+    "double_slit": "conceptual far-field interference envelope, not tracked electron paths"
+  }
+}

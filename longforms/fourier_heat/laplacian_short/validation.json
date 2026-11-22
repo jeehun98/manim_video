@@ -1,0 +1,25 @@
+{
+  "physics": {
+    "analytic_heat_equation": true,
+    "insulated_mean_conserved": true,
+    "steady_flux": 60,
+    "sine_boundary_zero": true,
+    "modal_eigenvalues": [
+      -9.869604401089358,
+      -88.82643960980423,
+      -246.74011002723395
+    ]
+  },
+  "geometry_sweep_seconds": 0.5,
+  "representative_times": [
+    8,
+    22,
+    39,
+    63,
+    85,
+    109,
+    137,
+    148,
+    166
+  ]
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01",
+    "class_name": "Shot01",
+    "start": 0,
+    "duration_seconds": 22,
+    "claim": "복잡하고 다양한 수식 속에서 공통된 구조를 묻는다"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02",
+    "class_name": "Shot02",
+    "start": 22,
+    "duration_seconds": 11,
+    "claim": "서로 다른 표현으로 등장하는 해밀토니안을 발견한다"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03",
+    "class_name": "Shot03",
+    "start": 33,
+    "duration_seconds": 33,
+    "claim": "해밀토니안은 진자의 상태와 시간 변화를 결정한다"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04",
+    "class_name": "Shot04",
+    "start": 66,
+    "duration_seconds": 11,
+    "claim": "다른 해밀토니안도 공통된 해밀턴 형식으로 운동을 기술한다"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05",
+    "class_name": "Shot05",
+    "start": 77,
+    "duration_seconds": 31,
+    "claim": "양자 상태에서도 해밀토니안의 시간 진화 역할은 이어진다"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06",
+    "class_name": "Shot06",
+    "start": 108,
+    "duration_seconds": 18,
+    "claim": "해밀토니안이 정하는 에너지는 열평형 확률을 결정한다"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07",
+    "class_name": "Shot07",
+    "start": 126,
+    "duration_seconds": 22,
+    "claim": "각 이론의 차이를 유지하며 해밀토니안의 역할을 비교한다"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08",
+    "class_name": "Shot08",
+    "start": 148,
+    "duration_seconds": 21,
+    "claim": "수식 속에서 상태와 변화와 분포의 구조를 찾는다"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "every_seconds": 1,
+  "scenes": 8,
+  "caption_intervals": 30,
+  "representative_frames": 15,
+  "changed_layout_review": [
+    "pendulum T/V bars at 51\u201356 seconds",
+    "Kepler diagram separated from Hamiltonian formula"
+  ]
+}

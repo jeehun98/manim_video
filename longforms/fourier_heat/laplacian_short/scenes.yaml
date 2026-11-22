@@ -1,0 +1,36 @@
+- id: '01'
+  start: 0
+  duration: 12
+  claim: 왜 삼각함수로 표현하는가
+- id: '02'
+  start: 12
+  duration: 15
+  claim: 열의 확산과 열방정식
+- id: '03'
+  start: 27
+  duration: 16
+  claim: 기울기에서 이차 미분으로
+- id: '04'
+  start: 43
+  duration: 28
+  claim: 곡률과 온도 변화의 연결
+- id: '05'
+  start: 71
+  duration: 27
+  claim: 열 흐름과 순유입은 다르다
+- id: '06'
+  start: 98
+  duration: 16
+  claim: 여러 방향의 이차 미분을 더한다
+- id: '07'
+  start: 114
+  duration: 25
+  claim: 미분 후에도 유지되는 삼각함수의 형태
+- id: '08'
+  start: 139
+  duration: 16
+  claim: 고유함수에서 미분은 상수 곱셈
+- id: '09'
+  start: 155
+  duration: 14
+  claim: 푸리에 성분별로 열방정식을 계산한다

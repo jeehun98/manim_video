@@ -1,0 +1,37 @@
+;FFMETADATA1
+title=고전역학은 어떻게 발전해 왔는가? — 뉴턴에서 해밀토니안까지
+[CHAPTER]
+TIMEBASE=1/30
+START=0
+END=2749
+title=00 · 고전역학의 발전을 따라가는 지도
+[CHAPTER]
+TIMEBASE=1/30
+START=2749
+END=7429
+title=01 · 예측이 가능해진 물체의 운동
+[CHAPTER]
+TIMEBASE=1/30
+START=7429
+END=12852
+title=02 · 하나의 원리로 설명되는 운동
+[CHAPTER]
+TIMEBASE=1/30
+START=12852
+END=21866
+title=03 · 새로운 공간에 기록된 운동
+[CHAPTER]
+TIMEBASE=1/30
+START=21866
+END=32851
+title=04 · 에너지 함수로 펼쳐지는 운동
+[CHAPTER]
+TIMEBASE=1/30
+START=32851
+END=42390
+title=05 · 변화 속에서도 보존되는 구조
+[CHAPTER]
+TIMEBASE=1/30
+START=42390
+END=50366
+title=06 · 고전역학을 넘어 이어지는 수학

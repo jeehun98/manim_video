@@ -1,0 +1,35 @@
+duration: 169
+aspect: 9:16
+scenes:
+  - id: '01'
+    start: 0
+    duration: 22
+    claim: 복잡하고 다양한 수식 속에서 공통된 구조를 묻는다
+  - id: '02'
+    start: 22
+    duration: 11
+    claim: 서로 다른 표현으로 등장하는 해밀토니안을 발견한다
+  - id: '03'
+    start: 33
+    duration: 33
+    claim: 해밀토니안은 진자의 상태와 시간 변화를 결정한다
+  - id: '04'
+    start: 66
+    duration: 11
+    claim: 다른 해밀토니안도 공통된 해밀턴 형식으로 운동을 기술한다
+  - id: '05'
+    start: 77
+    duration: 31
+    claim: 양자 상태에서도 해밀토니안의 시간 진화 역할은 이어진다
+  - id: '06'
+    start: 108
+    duration: 18
+    claim: 해밀토니안이 정하는 에너지는 열평형 확률을 결정한다
+  - id: '07'
+    start: 126
+    duration: 22
+    claim: 각 이론의 차이를 유지하며 해밀토니안의 역할을 비교한다
+  - id: '08'
+    start: 148
+    duration: 21
+    claim: 수식 속에서 상태와 변화와 분포의 구조를 찾는다

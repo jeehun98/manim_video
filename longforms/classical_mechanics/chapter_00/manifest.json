@@ -1,0 +1,42 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01",
+    "class_name": "Shot01",
+    "start": 0,
+    "duration_seconds": 24,
+    "claim": "힘으로 운동을 예측한 출발점에 새로운 질문을 더한다"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02",
+    "class_name": "Shot02",
+    "start": 24,
+    "duration_seconds": 11,
+    "claim": "동일한 진자를 에너지와 작용의 관점으로 바라본다"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03",
+    "class_name": "Shot03",
+    "start": 35,
+    "duration_seconds": 19,
+    "claim": "운동 상태를 위상 공간의 점과 해밀턴 흐름으로 표현한다"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04",
+    "class_name": "Shot04",
+    "start": 54,
+    "duration_seconds": 20,
+    "claim": "기하학과 보존량을 발견하고 양자 상태의 시간 진화로 확장한다"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05",
+    "class_name": "Shot05",
+    "start": 74,
+    "duration_seconds": 17,
+    "claim": "전체 수학적 지도를 조망하고 뉴턴의 진자로 돌아온다"
+  }
+]

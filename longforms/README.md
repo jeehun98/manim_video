@@ -396,3 +396,11 @@ longforms/<ID>_<slug>/
 - [고전역학 6장 — 고전역학을 넘어 이어지는 수학](classical_mechanics/chapter_06/README.md): 확정 46문장·265초, 7씬, 1080p30, 무음·전체 자막. `py -3.12 longforms/classical_mechanics/chapter_06/build.py`.
 
 - [뉴턴에서 해밀토니안까지 — 요약 쇼츠](classical_mechanics/short_summary/README.md): 확정 37문장·174초, 9씬, 세로 1080×1920 30fps, 무음·전체 자막. `py -3.12 longforms/classical_mechanics/short_summary/build.py`.
+
+- [고전역학 0장 — 고전역학의 발전을 따라가는 지도](classical_mechanics/chapter_00/README.md): 확정 15문장·91초, 공통 월드 카메라 이동·5구간, 1080p30, 무음·전체 자막. `py -3.12 longforms/classical_mechanics/chapter_00/build.py`.
+
+- [고전역학 0–6장 음성 포함 통합 롱폼](classical_mechanics/full_00_06/README.md): 물리_0~6.mp3 번호별 결합, 1080p30, MP4 챕터·통합 SRT·유튜브 설명. `py -3.12 longforms/classical_mechanics/full_00_06/build.py`.
+
+- [물리 방정식의 공통 구조 — 해밀토니안 쇼츠](classical_mechanics/hamiltonian_connections_short/README.md): 확정 30문장·169초, 8씬, 세로 1080p30, 무음·원문 자막. `py -3.12 longforms/classical_mechanics/hamiltonian_connections_short/build.py`.
+
+- `fourier_heat/laplacian_short/`: 삼각함수·라플라시안 169초 세로 쇼츠. `py -3.12 longforms/fourier_heat/laplacian_short/build.py`

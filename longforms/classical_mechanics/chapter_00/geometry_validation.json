@@ -1,0 +1,8 @@
+{
+  "continuous_camera_at_segment_boundaries": true,
+  "camera_fixed_captions_verified_every_seconds": 0.5,
+  "caption_intervals": 15,
+  "representative_frames": 12,
+  "world_regions": 6,
+  "physics": "reuse unchanged validated chapter05 and chapter06 models"
+}

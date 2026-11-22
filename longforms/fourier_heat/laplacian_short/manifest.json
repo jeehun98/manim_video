@@ -1,0 +1,74 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01",
+    "class_name": "Shot01",
+    "start": 0,
+    "duration_seconds": 12,
+    "claim": "왜 삼각함수로 표현하는가"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02",
+    "class_name": "Shot02",
+    "start": 12,
+    "duration_seconds": 15,
+    "claim": "열의 확산과 열방정식"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03",
+    "class_name": "Shot03",
+    "start": 27,
+    "duration_seconds": 16,
+    "claim": "기울기에서 이차 미분으로"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04",
+    "class_name": "Shot04",
+    "start": 43,
+    "duration_seconds": 28,
+    "claim": "곡률과 온도 변화의 연결"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05",
+    "class_name": "Shot05",
+    "start": 71,
+    "duration_seconds": 27,
+    "claim": "열 흐름과 순유입은 다르다"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06",
+    "class_name": "Shot06",
+    "start": 98,
+    "duration_seconds": 16,
+    "claim": "여러 방향의 이차 미분을 더한다"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07",
+    "class_name": "Shot07",
+    "start": 114,
+    "duration_seconds": 25,
+    "claim": "미분 후에도 유지되는 삼각함수의 형태"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08",
+    "class_name": "Shot08",
+    "start": 139,
+    "duration_seconds": 16,
+    "claim": "고유함수에서 미분은 상수 곱셈"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09",
+    "class_name": "Shot09",
+    "start": 155,
+    "duration_seconds": 14,
+    "claim": "푸리에 성분별로 열방정식을 계산한다"
+  }
+]
