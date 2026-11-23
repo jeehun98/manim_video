@@ -2378,6 +2378,7 @@ python episodes/genfunc02_catalan/build.py --preview --scene 04
 ```
 결과: `exports/genfunc02_short.mp4`.
 
+<<<<<<< HEAD
 ## 무리수 쇼츠 (irrational01)
 
 174초 · 9:16 · 수식 표기 하단 자막 · TTS 미제공으로 무음.
@@ -2388,3 +2389,8 @@ python scripts/render.py irrational01
 python episodes/irrational01_boundaries/build.py --preview --scene 11
 ```
 결과: `exports/irrational01_short.mp4`.
+=======
+- [열방정식의 해가 가지는 특별한 성질](longforms/fourier_heat/solution_properties_short/README.md): 사용자 확정 34문장·172초·세로 1080p30, 8개 독립 씬, 무음·전체 자막. `python longforms/fourier_heat/solution_properties_short/build.py`.
+
+- [벡터·내적·힐베르트 공간 세로 쇼츠](longforms/hilbert/structure_short/README.md): 확정 36문장·170초·6씬, 세로 1080p30, 무음·전체 자막. `python longforms/hilbert/structure_short/build.py`.
+>>>>>>> 0296b18a216ccf9014bd5d2b3f1dcaab01311f39

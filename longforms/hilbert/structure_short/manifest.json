@@ -1,0 +1,50 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01",
+    "class_name": "Shot01",
+    "start": 0,
+    "duration_seconds": 26,
+    "claim": "벡터 공간의 연산에는 길이와 각도 규칙이 포함되지 않는다"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02",
+    "class_name": "Shot02",
+    "start": 26,
+    "duration_seconds": 28,
+    "claim": "선형변환은 연산을 보존해도 각도를 보존하지 않는다"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03",
+    "class_name": "Shot03",
+    "start": 54,
+    "duration_seconds": 21,
+    "claim": "내적은 두 벡터에서 수를 얻는 추가 규칙이다"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04",
+    "class_name": "Shot04",
+    "start": 75,
+    "duration_seconds": 32,
+    "claim": "같은 벡터도 내적 선택에 따라 기하학이 달라진다"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05",
+    "class_name": "Shot05",
+    "start": 107,
+    "duration_seconds": 39,
+    "claim": "완비성은 모든 코시 수열의 극한이 공간 안에 있음을 보장한다"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06",
+    "class_name": "Shot06",
+    "start": 146,
+    "duration_seconds": 24,
+    "claim": "내적과 완비성의 구조는 함수 공간에도 적용된다"
+  }
+]
