@@ -1,0 +1,8 @@
+Edit the attached existing thumbnail with ONLY these typography changes. Preserve the navy background, all right-side Fourier/Brownian/Geometry labels, diagrams, equations, arrows, lower-left Korean subtitle, and overall composition exactly.
+1. Upper-left small header: replace "HEAT EQUATION | 열방정식" with only "Heat Equation" in white. Remove the separator and Korean words from this header. Keep its existing location and restrained small size, with tasteful letterspacing.
+2. Main large left headline: replace its two lines with EXACT Korean:
+"열 방정식"
+"수많은 연결"
+The first line "열 방정식" must be warm golden yellow, matching the golden mathematical curves on the right (approximately #F3CE77). The second line "수많은 연결" remains bright cyan.
+3. Slightly reduce the font weight of the two-line main headline: clean Korean sans serif semibold, one weight lighter than current heavy bold, about 15–20% thinner strokes. Keep it large, clear and high contrast, same left alignment and ample spacing. Do not make it thin/light.
+Do not change any other text or graphics, do not add objects, no watermark. Maintain the existing landscape aspect ratio and polished quality.

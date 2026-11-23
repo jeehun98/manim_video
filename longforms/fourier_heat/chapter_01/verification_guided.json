@@ -1,0 +1,371 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\heat_ch01_169s_longform_guided.mp4",
+  "base_sha256": "17d4fc15631347c110a040894fa8ca861d0a11550a7236d0f27572296c1d8006",
+  "input_sha256": "84ebd866ccd6588c63d9ea470272bde7e0c3c69a46d51897188f303026a89ea9",
+  "video": {
+    "index": 0,
+    "codec_name": "h264",
+    "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+    "profile": "High",
+    "codec_type": "video",
+    "codec_tag_string": "avc1",
+    "codec_tag": "0x31637661",
+    "mime_codec_string": "avc1.640028",
+    "width": 1920,
+    "height": 1080,
+    "coded_width": 1920,
+    "coded_height": 1088,
+    "has_b_frames": 2,
+    "pix_fmt": "yuv420p",
+    "level": 40,
+    "chroma_location": "left",
+    "field_order": "progressive",
+    "refs": 4,
+    "is_avc": "true",
+    "nal_length_size": "4",
+    "id": "0x1",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "time_base": "1/15360",
+    "start_pts": 0,
+    "start_time": "0.000000",
+    "duration_ts": 2595840,
+    "duration": "169.000000",
+    "bit_rate": "341279",
+    "bits_per_raw_sample": "8",
+    "nb_frames": "5070",
+    "nb_read_frames": "5070",
+    "extradata_size": 47,
+    "disposition": {
+      "default": 1,
+      "dub": 0,
+      "original": 0,
+      "comment": 0,
+      "lyrics": 0,
+      "karaoke": 0,
+      "forced": 0,
+      "hearing_impaired": 0,
+      "visual_impaired": 0,
+      "clean_effects": 0,
+      "attached_pic": 0,
+      "timed_thumbnails": 0,
+      "non_diegetic": 0,
+      "captions": 0,
+      "descriptions": 0,
+      "metadata": 0,
+      "dependent": 0,
+      "still_image": 0,
+      "multilayer": 0
+    },
+    "tags": {
+      "language": "und",
+      "handler_name": "VideoHandler",
+      "encoder": "Lavc63.1.101 libx264"
+    }
+  },
+  "silent": true,
+  "header_pixel_bounds": [
+    0,
+    0,
+    1920,
+    78
+  ],
+  "sections": [
+    {
+      "start": 0,
+      "end": 19,
+      "text": "뜨거운 물체에서 시작한 질문",
+      "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\heat_ch01\\guidance\\header_01.png",
+      "left_bbox": [
+        96,
+        31,
+        432,
+        50
+      ],
+      "right_bbox": [
+        1470,
+        27,
+        1824,
+        53
+      ]
+    },
+    {
+      "start": 19,
+      "end": 38,
+      "text": "물리 현상 속의 공통 구조",
+      "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\heat_ch01\\guidance\\header_02.png",
+      "left_bbox": [
+        96,
+        31,
+        432,
+        50
+      ],
+      "right_bbox": [
+        1514,
+        27,
+        1824,
+        53
+      ]
+    },
+    {
+      "start": 38,
+      "end": 55,
+      "text": "확률과 금융으로 확장",
+      "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\heat_ch01\\guidance\\header_03.png",
+      "left_bbox": [
+        96,
+        31,
+        432,
+        50
+      ],
+      "right_bbox": [
+        1561,
+        27,
+        1824,
+        53
+      ]
+    },
+    {
+      "start": 55,
+      "end": 87,
+      "text": "기하학과 위상수학으로 확장",
+      "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\heat_ch01\\guidance\\header_04.png",
+      "left_bbox": [
+        96,
+        31,
+        432,
+        50
+      ],
+      "right_bbox": [
+        1480,
+        27,
+        1824,
+        53
+      ]
+    },
+    {
+      "start": 87,
+      "end": 119,
+      "text": "열방정식의 두 가지 출발점",
+      "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\heat_ch01\\guidance\\header_05.png",
+      "left_bbox": [
+        96,
+        31,
+        432,
+        50
+      ],
+      "right_bbox": [
+        1497,
+        27,
+        1824,
+        53
+      ]
+    },
+    {
+      "start": 119,
+      "end": 145,
+      "text": "방정식과 해의 의미",
+      "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\heat_ch01\\guidance\\header_06.png",
+      "left_bbox": [
+        96,
+        31,
+        432,
+        50
+      ],
+      "right_bbox": [
+        1588,
+        27,
+        1824,
+        53
+      ]
+    },
+    {
+      "start": 145,
+      "end": 169,
+      "text": "복잡한 분포에서 푸리에 해석으로",
+      "file": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\media\\heat_ch01\\guidance\\header_07.png",
+      "left_bbox": [
+        96,
+        31,
+        432,
+        50
+      ],
+      "right_bbox": [
+        1416,
+        27,
+        1824,
+        53
+      ]
+    }
+  ],
+  "unchanged_sentence_end_times": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "우리는 뜨거운 물체가 시간이 지나면서 식어간다는 사실을 잘 알고 있습니다."
+    },
+    {
+      "id": 2,
+      "start": 4,
+      "end": 12,
+      "text": "뜨거운 물체와 차가운 물체가 접촉하면 열은 뜨거운 곳에서 차가운 곳으로 이동하고, 시간이 흐르면서 온도 차이는 점차 줄어듭니다."
+    },
+    {
+      "id": 3,
+      "start": 12,
+      "end": 19,
+      "text": "그런데 이러한 단순한 현상을 설명하는 열방정식이 수학의 수많은 분야와 연결되어 있다는 사실을 알고 계신가요?"
+    },
+    {
+      "id": 4,
+      "start": 19,
+      "end": 24,
+      "text": "얼음이 얼어붙으면서 물과 얼음 사이의 경계가 움직이는 현상을 다루는 스테판 문제,"
+    },
+    {
+      "id": 5,
+      "start": 24,
+      "end": 29,
+      "text": "점성을 가진 물과 공기의 움직임을 설명하는 나비에–스토크스 방정식,"
+    },
+    {
+      "id": 6,
+      "start": 29,
+      "end": 38,
+      "text": "액체가 좁은 틈이나 다공성 매질 사이로 침투하면서 경계가 변화하는 헬레–쇼 문제는 모두 열방정식과 관련된 수학적 구조를 공유합니다."
+    },
+    {
+      "id": 7,
+      "start": 38,
+      "end": 42,
+      "text": "그런데 이러한 연결은 물리적인 현상에서 끝나지 않습니다."
+    },
+    {
+      "id": 8,
+      "start": 42,
+      "end": 48,
+      "text": "불규칙하게 움직이는 입자들의 브라운 운동에서는 입자의 위치에 대한 확률분포가 열방정식을 따르며,"
+    },
+    {
+      "id": 9,
+      "start": 48,
+      "end": 55,
+      "text": "주식의 옵션 가격을 계산하는 블랙–숄즈 방정식 역시 적절한 변수변환을 통해 열방정식의 형태로 바꿀 수 있습니다."
+    },
+    {
+      "id": 10,
+      "start": 55,
+      "end": 59,
+      "text": "그리고 그 영향은 더욱 추상적인 수학으로 확장됩니다."
+    },
+    {
+      "id": 11,
+      "start": 59,
+      "end": 67,
+      "text": "열이 공간 위에서 어떻게 퍼지는지를 연구하는 방법은 기하학적 성질과 위상적 불변량을 연결하는 지표정리의 연구에도 활용되었으며,"
+    },
+    {
+      "id": 12,
+      "start": 67,
+      "end": 75,
+      "text": "공간의 기하학적 구조 자체가 시간에 따라 변화하는 기하학적 흐름에서도 열방정식과 유사한 확산 구조가 등장합니다."
+    },
+    {
+      "id": 13,
+      "start": 75,
+      "end": 80,
+      "text": "이러한 연구는 나아가 수학의 오랜 난제였던 푸앵카레 추측의 해결과도 연결됩니다."
+    },
+    {
+      "id": 14,
+      "start": 80,
+      "end": 87,
+      "text": "서로 전혀 관련이 없어 보이는 문제들 속에서 수학자들은 반복해서 열방정식과 비슷한 수학적 구조를 발견한 것입니다."
+    },
+    {
+      "id": 15,
+      "start": 87,
+      "end": 94,
+      "text": "이처럼 열방정식이 다양한 현상과 연결되는 이유를 이해하려면, 먼저 이 방정식이 무엇을 설명하는지 살펴볼 필요가 있습니다."
+    },
+    {
+      "id": 16,
+      "start": 94,
+      "end": 98,
+      "text": "열방정식은 두 가지 기본적인 물리 법칙에서 출발합니다."
+    },
+    {
+      "id": 17,
+      "start": 98,
+      "end": 101,
+      "text": "첫 번째는 에너지 보존 법칙입니다."
+    },
+    {
+      "id": 18,
+      "start": 101,
+      "end": 110,
+      "text": "외부에서 별도의 에너지가 공급되거나 내부에서 열이 발생하지 않는다면, 어떤 영역의 열에너지 변화는 그 영역으로 들어오고 나가는 열의 차이로 결정됩니다."
+    },
+    {
+      "id": 19,
+      "start": 110,
+      "end": 112,
+      "text": "두 번째는 푸리에의 열전도 법칙입니다."
+    },
+    {
+      "id": 20,
+      "start": 112,
+      "end": 119,
+      "text": "열은 온도가 높은 곳에서 낮은 곳으로 이동하며, 온도가 공간에 따라 급격하게 달라질수록 더 강하게 흐른다는 것입니다."
+    },
+    {
+      "id": 21,
+      "start": 119,
+      "end": 126,
+      "text": "이 두 가지 원리를 결합하면, 시간에 따라 온도 분포가 어떻게 변화하는지를 설명하는 열방정식이 등장합니다."
+    },
+    {
+      "id": 22,
+      "start": 126,
+      "end": 131,
+      "text": "그리고 이 방정식의 해는 위치와 시간에 따른 온도를 나타내는 함수입니다."
+    },
+    {
+      "id": 23,
+      "start": 131,
+      "end": 138,
+      "text": "즉, 열방정식의 해를 구한다는 것은 주어진 초기 온도 분포가 시간이 흐르면서 어떻게 변화하는지 알아내는 것입니다."
+    },
+    {
+      "id": 24,
+      "start": 138,
+      "end": 145,
+      "text": "앞서 살펴본 여러 현상에서도 중요한 것은 시간이 흐르면서 각각의 물리량이나 상태가 어떻게 변화하는지를 이해하는 일입니다."
+    },
+    {
+      "id": 25,
+      "start": 145,
+      "end": 150,
+      "text": "하지만 실제 물체의 온도 분포는 매우 복잡한 형태를 가질 수 있습니다."
+    },
+    {
+      "id": 26,
+      "start": 150,
+      "end": 155,
+      "text": "그렇다면 이러한 복잡한 온도 분포에 대해서는 어떻게 방정식의 해를 구할 수 있을까요?"
+    },
+    {
+      "id": 27,
+      "start": 155,
+      "end": 163,
+      "text": "프랑스의 수학자 조제프 푸리에는 이 문제를 해결하기 위해 복잡한 온도 분포를 단순한 함수들의 합으로 표현하는 방법을 연구했습니다."
+    },
+    {
+      "id": 28,
+      "start": 163,
+      "end": 169,
+      "text": "그리고 이 아이디어는 훗날 푸리에 해석이라는 거대한 수학 분야로 발전하게 됩니다."
+    }
+  ]
+}

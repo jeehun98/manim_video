@@ -1,0 +1,250 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01",
+    "class_name": "Shot01",
+    "start": 0,
+    "duration_seconds": 11,
+    "title": "복잡한 함수 속에 숨은 성분"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02",
+    "class_name": "Shot02",
+    "start": 11,
+    "duration_seconds": 15,
+    "title": "같은 구간에서 다른 진동 횟수"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03",
+    "class_name": "Shot03",
+    "start": 26,
+    "duration_seconds": 17,
+    "title": "진폭을 조절하며 파동을 합성한다"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04",
+    "class_name": "Shot04",
+    "start": 43,
+    "duration_seconds": 6,
+    "title": "세 성분으로 만든 복잡한 곡선"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05",
+    "class_name": "Shot05",
+    "start": 49,
+    "duration_seconds": 18,
+    "title": "합성에서 분해로 사고를 뒤집다"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06",
+    "class_name": "Shot06",
+    "start": 67,
+    "duration_seconds": 17,
+    "title": "벡터에서 함수의 직교로"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07",
+    "class_name": "Shot07",
+    "start": 84,
+    "duration_seconds": 11,
+    "title": "함수의 내적은 곱의 적분"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08",
+    "class_name": "Shot08",
+    "start": 95,
+    "duration_seconds": 20,
+    "title": "양수와 음수 넓이의 상쇄"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09",
+    "class_name": "Shot09",
+    "start": 115,
+    "duration_seconds": 8,
+    "title": "같은 함수의 내적은 양수"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10",
+    "class_name": "Shot10",
+    "start": 123,
+    "duration_seconds": 10,
+    "title": "원하는 진동을 골라낼 준비"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11",
+    "class_name": "Shot11",
+    "start": 133,
+    "duration_seconds": 14,
+    "title": "직교성으로 첫 계수를 추출"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12",
+    "class_name": "Shot12",
+    "start": 147,
+    "duration_seconds": 7,
+    "title": "나머지 계수도 같은 방법으로"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13",
+    "class_name": "Shot13",
+    "start": 154,
+    "duration_seconds": 11,
+    "title": "함수의 계수와 벡터의 좌표"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14",
+    "class_name": "Shot14",
+    "start": 165,
+    "duration_seconds": 6,
+    "title": "성분을 다시 합해 함수를 복원"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15",
+    "class_name": "Shot15",
+    "start": 171,
+    "duration_seconds": 11,
+    "title": "무한급수와 부분합"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16",
+    "class_name": "Shot16",
+    "start": 182,
+    "duration_seconds": 3,
+    "title": "푸리에 급수의 일반형"
+  },
+  {
+    "id": "17",
+    "directory": "scenes/17",
+    "class_name": "Shot17",
+    "start": 185,
+    "duration_seconds": 13,
+    "title": "열방정식으로 돌아가기"
+  },
+  {
+    "id": "18",
+    "directory": "scenes/18",
+    "class_name": "Shot18",
+    "start": 198,
+    "duration_seconds": 15,
+    "title": "사인함수를 두 번 미분한다"
+  },
+  {
+    "id": "19",
+    "directory": "scenes/19",
+    "class_name": "Shot19",
+    "start": 213,
+    "duration_seconds": 4,
+    "title": "고유함수: 형태를 보존하는 연산"
+  },
+  {
+    "id": "20",
+    "directory": "scenes/20",
+    "class_name": "Shot20",
+    "start": 217,
+    "duration_seconds": 8,
+    "title": "한 성분의 진폭만 감소한다"
+  },
+  {
+    "id": "21",
+    "directory": "scenes/21",
+    "class_name": "Shot21",
+    "start": 225,
+    "duration_seconds": 11,
+    "title": "높은 주파수는 더 빨리 감쇠"
+  },
+  {
+    "id": "22",
+    "directory": "scenes/22",
+    "class_name": "Shot22",
+    "start": 236,
+    "duration_seconds": 12,
+    "title": "성분별로 독립적인 계산"
+  },
+  {
+    "id": "23",
+    "directory": "scenes/23",
+    "class_name": "Shot23",
+    "start": 248,
+    "duration_seconds": 13,
+    "title": "선형 연산의 두 계산 순서"
+  },
+  {
+    "id": "24",
+    "directory": "scenes/24",
+    "class_name": "Shot24",
+    "start": 261,
+    "duration_seconds": 12,
+    "title": "해의 중첩 원리"
+  },
+  {
+    "id": "25",
+    "directory": "scenes/25",
+    "class_name": "Shot25",
+    "start": 273,
+    "duration_seconds": 7,
+    "title": "각각 계산한 해를 재결합"
+  },
+  {
+    "id": "26",
+    "directory": "scenes/26",
+    "class_name": "Shot26",
+    "start": 280,
+    "duration_seconds": 7,
+    "title": "전체 온도 분포의 시간 변화"
+  },
+  {
+    "id": "27",
+    "directory": "scenes/27",
+    "class_name": "Shot27",
+    "start": 287,
+    "duration_seconds": 5,
+    "title": "분해·계산·재결합"
+  },
+  {
+    "id": "28",
+    "directory": "scenes/28",
+    "class_name": "Shot28",
+    "start": 292,
+    "duration_seconds": 8,
+    "title": "직교성의 역할"
+  },
+  {
+    "id": "29",
+    "directory": "scenes/29",
+    "class_name": "Shot29",
+    "start": 300,
+    "duration_seconds": 5,
+    "title": "고유함수의 역할"
+  },
+  {
+    "id": "30",
+    "directory": "scenes/30",
+    "class_name": "Shot30",
+    "start": 305,
+    "duration_seconds": 7,
+    "title": "선형성의 역할"
+  },
+  {
+    "id": "31",
+    "directory": "scenes/31",
+    "class_name": "Shot31",
+    "start": 312,
+    "duration_seconds": 12,
+    "title": "하나의 복잡한 문제를 단순한 문제들로"
+  }
+]

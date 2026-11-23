@@ -1,5 +1,17 @@
 # 롱폼 제작 규격
 
+- [열방정식 1–5장 음성 포함 통합 롱폼](fourier_heat/full_01_05/README.md): 열방정식_1~5.mp3를 각 장과 먼저 결합 후 통합.1080p30,MP4 챕터·통합 SRT·유튜브 구간 설명. `py -3.12 longforms/fourier_heat/full_01_05/build.py`.
+
+- [열방정식 5장 — 공간의 모양까지 설명할 수 있을까?](fourier_heat/chapter_05/README.md): 사용자 확정 44문장·284초,27개 독립 씬,16:9 1080p30,무음·전체 자막·상단 안내. `py -3.12 longforms/fourier_heat/chapter_05/build.py`.
+
+- [열방정식 4장 — 무작위로 움직이는 입자가 열방정식을 따른다고?](fourier_heat/chapter_04/README.md): 사용자 확정 69문장·357초, 33개 독립 씬, 16:9 1080p30, 무음·전체 자막·상단 안내. `py -3.12 longforms/fourier_heat/chapter_04/build.py`.
+
+- [열방정식 3장 — 열방정식의 해에는 어떤 성질이 숨어 있을까?](fourier_heat/chapter_03/README.md): 사용자 확정 48문장·255초, 24개 독립 씬, 16:9 1080p30, 무음·전체 자막·상단 안내. `py -3.12 longforms/fourier_heat/chapter_03/build.py`.
+
+- [열방정식 2장 — 복잡한 함수는 어떻게 단순한 함수들로 분해될까?](fourier_heat/chapter_02/README.md): 사용자 확정 62문장·324초, 31개 독립 씬, 16:9 1080p30, 무음·전체 자막·상단 구간 안내. `py -3.12 longforms/fourier_heat/chapter_02/build.py`.
+
+- [열방정식 1장 — 열의 이동에서 푸리에 해석으로](fourier_heat/chapter_01/README.md): 사용자 확정 28문장·169초, 23개 독립 씬, 16:9 1080p30, 무음·전체 자막·상단 구간 안내. `py -3.12 longforms/fourier_heat/chapter_01/add_guidance.py`.
+
 - [특잇값 0–7장 음성 결합 롱폼](singular_values/full_00_07/README.md): sig_0~7.mp3 번호별 결합, 16분 43초, 1080p30, 통합 SRT·유튜브 설명. `python longforms/singular_values/full_00_07/build.py`.
 
 - [특잇값 요약 세로 쇼츠](singular_values/short_summary/README.md): 확정 27문장·150초, 9:16 1080×1920 30fps, 무음·자막. `python longforms/singular_values/short_summary/build.py`.

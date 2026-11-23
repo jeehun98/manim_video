@@ -1,0 +1,334 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\heat_full_01_05_longform.mp4",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "열의 이동에서 푸리에 해석으로",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\heat_ch01_169s_longform_guided.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\열방정식_1.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\heat_ch01_voiced.mp4",
+      "source_video_duration": 169.0,
+      "source_audio_duration": 169.000635,
+      "duration": 169.03333333333333,
+      "frames": 5071,
+      "hold_seconds": 0.03333333333333144,
+      "start_seconds": 0.0
+    },
+    {
+      "number": 2,
+      "title": "복잡한 함수와 푸리에 해석",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\heat_ch02_324s_longform_final.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\열방정식_2.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\heat_ch02_voiced.mp4",
+      "source_video_duration": 324.0,
+      "source_audio_duration": 324.451406,
+      "duration": 324.46666666666664,
+      "frames": 9734,
+      "hold_seconds": 0.46666666666664014,
+      "start_seconds": 169.03333333333333
+    },
+    {
+      "number": 3,
+      "title": "매끄러움·최댓값 원리·하르나크 부등식",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\heat_ch03_255s_longform_final.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\열방정식_3.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\heat_ch03_voiced.mp4",
+      "source_video_duration": 255.0,
+      "source_audio_duration": 256.001088,
+      "duration": 256.03333333333336,
+      "frames": 7681,
+      "hold_seconds": 1.0333333333333599,
+      "start_seconds": 493.5
+    },
+    {
+      "number": 4,
+      "title": "브라운 운동·파인만–카츠·블랙–숄즈",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\heat_ch04_357s_longform_final.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\열방정식_4.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\heat_ch04_voiced.mp4",
+      "source_video_duration": 357.0,
+      "source_audio_duration": 357.852494,
+      "duration": 357.8666666666667,
+      "frames": 10736,
+      "hold_seconds": 0.8666666666666742,
+      "start_seconds": 749.5333333333333
+    },
+    {
+      "number": 5,
+      "title": "열핵·지표정리·리치 흐름",
+      "video": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\heat_ch05_284s_longform_final.mp4",
+      "audio": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\열방정식_5.mp3",
+      "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\heat_ch05_voiced.mp4",
+      "source_video_duration": 284.0,
+      "source_audio_duration": 284.450975,
+      "duration": 284.46666666666664,
+      "frames": 8534,
+      "hold_seconds": 0.46666666666664014,
+      "start_seconds": 1107.4
+    }
+  ],
+  "duration_seconds": 1391.8666666666666,
+  "video_frames": 41756,
+  "video": {
+    "index": 0,
+    "codec_name": "h264",
+    "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+    "profile": "High",
+    "codec_type": "video",
+    "codec_tag_string": "avc1",
+    "codec_tag": "0x31637661",
+    "mime_codec_string": "avc1.640028",
+    "width": 1920,
+    "height": 1080,
+    "coded_width": 1920,
+    "coded_height": 1080,
+    "has_b_frames": 2,
+    "pix_fmt": "yuv420p",
+    "level": 40,
+    "chroma_location": "left",
+    "field_order": "progressive",
+    "is_avc": "true",
+    "nal_length_size": "4",
+    "id": "0x1",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "time_base": "1/60000",
+    "start_pts": 1280,
+    "start_time": "0.021333",
+    "duration_ts": 83512000,
+    "duration": "1391.866667",
+    "bit_rate": "683001",
+    "bits_per_raw_sample": "8",
+    "nb_frames": "41756",
+    "extradata_size": 46,
+    "disposition": {
+      "default": 1,
+      "dub": 0,
+      "original": 0,
+      "comment": 0,
+      "lyrics": 0,
+      "karaoke": 0,
+      "forced": 0,
+      "hearing_impaired": 0,
+      "visual_impaired": 0,
+      "clean_effects": 0,
+      "attached_pic": 0,
+      "timed_thumbnails": 0,
+      "non_diegetic": 0,
+      "captions": 0,
+      "descriptions": 0,
+      "metadata": 0,
+      "dependent": 0,
+      "still_image": 0,
+      "multilayer": 0
+    },
+    "tags": {
+      "language": "und",
+      "handler_name": "VideoHandler",
+      "encoder": "Lavc63.1.101 libx264"
+    }
+  },
+  "audio": {
+    "index": 1,
+    "codec_name": "aac",
+    "codec_long_name": "AAC (Advanced Audio Coding)",
+    "profile": "LC",
+    "codec_type": "audio",
+    "codec_tag_string": "mp4a",
+    "codec_tag": "0x6134706d",
+    "mime_codec_string": "mp4a.40.2",
+    "sample_fmt": "fltp",
+    "sample_rate": "48000",
+    "channels": 1,
+    "channel_layout": "mono",
+    "bits_per_sample": 0,
+    "initial_padding": 1024,
+    "id": "0x2",
+    "r_frame_rate": "0/0",
+    "avg_frame_rate": "0/0",
+    "time_base": "1/48000",
+    "start_pts": 0,
+    "start_time": "0.000000",
+    "duration_ts": 66809600,
+    "duration": "1391.866667",
+    "bit_rate": "198884",
+    "nb_frames": "65245",
+    "extradata_size": 5,
+    "disposition": {
+      "default": 1,
+      "dub": 0,
+      "original": 0,
+      "comment": 0,
+      "lyrics": 0,
+      "karaoke": 0,
+      "forced": 0,
+      "hearing_impaired": 0,
+      "visual_impaired": 0,
+      "clean_effects": 0,
+      "attached_pic": 0,
+      "timed_thumbnails": 0,
+      "non_diegetic": 0,
+      "captions": 0,
+      "descriptions": 0,
+      "metadata": 0,
+      "dependent": 0,
+      "still_image": 0,
+      "multilayer": 0
+    },
+    "tags": {
+      "language": "und",
+      "handler_name": "SoundHandler"
+    }
+  },
+  "decode_check_passed": true,
+  "method": "pair numbered originals; clone last frame for full voice; 1080p30; concat all five",
+  "audio_pairing_checks": [
+    {
+      "chapter": 1,
+      "source_seconds": 2,
+      "delay_seconds": 0.0,
+      "correlation": 0.999988929335468
+    },
+    {
+      "chapter": 1,
+      "source_seconds": 84.5003175,
+      "delay_seconds": 0.0,
+      "correlation": 0.999960503999023
+    },
+    {
+      "chapter": 1,
+      "source_seconds": 157.000635,
+      "delay_seconds": 0.0,
+      "correlation": 0.9999354360539586
+    },
+    {
+      "chapter": 2,
+      "source_seconds": 2,
+      "delay_seconds": 0.0,
+      "correlation": 0.9999609273394343
+    },
+    {
+      "chapter": 2,
+      "source_seconds": 162.225703,
+      "delay_seconds": 0.0,
+      "correlation": 0.9999772022651939
+    },
+    {
+      "chapter": 2,
+      "source_seconds": 312.451406,
+      "delay_seconds": 0.0,
+      "correlation": 0.9999696362148808
+    },
+    {
+      "chapter": 3,
+      "source_seconds": 2,
+      "delay_seconds": 0.0,
+      "correlation": 0.9999663470037417
+    },
+    {
+      "chapter": 3,
+      "source_seconds": 128.000544,
+      "delay_seconds": 0.0,
+      "correlation": 0.9999310814537122
+    },
+    {
+      "chapter": 3,
+      "source_seconds": 244.00108799999998,
+      "delay_seconds": 0.0,
+      "correlation": 0.9999364548182382
+    },
+    {
+      "chapter": 4,
+      "source_seconds": 2,
+      "delay_seconds": 0.0,
+      "correlation": 0.9999588463245896
+    },
+    {
+      "chapter": 4,
+      "source_seconds": 178.926247,
+      "delay_seconds": 0.0,
+      "correlation": 0.9999634369383591
+    },
+    {
+      "chapter": 4,
+      "source_seconds": 345.852494,
+      "delay_seconds": 0.0,
+      "correlation": 0.9999472233288728
+    },
+    {
+      "chapter": 5,
+      "source_seconds": 2,
+      "delay_seconds": 0.0,
+      "correlation": 0.9999702949102613
+    },
+    {
+      "chapter": 5,
+      "source_seconds": 142.2254875,
+      "delay_seconds": 0.0,
+      "correlation": 0.9999539070338891
+    },
+    {
+      "chapter": 5,
+      "source_seconds": 272.450975,
+      "delay_seconds": 0.0,
+      "correlation": 0.999973474373527
+    }
+  ],
+  "mp4_chapters": [
+    {
+      "id": 0,
+      "time_base": "1/240000",
+      "start": 0,
+      "start_time": "0.000000",
+      "end": 40568000,
+      "end_time": "169.033333",
+      "tags": {
+        "title": "01 · 열의 이동에서 푸리에 해석으로"
+      }
+    },
+    {
+      "id": 1,
+      "time_base": "1/240000",
+      "start": 40568000,
+      "start_time": "169.033333",
+      "end": 118440000,
+      "end_time": "493.500000",
+      "tags": {
+        "title": "02 · 복잡한 함수와 푸리에 해석"
+      }
+    },
+    {
+      "id": 2,
+      "time_base": "1/240000",
+      "start": 118440000,
+      "start_time": "493.500000",
+      "end": 179888000,
+      "end_time": "749.533333",
+      "tags": {
+        "title": "03 · 매끄러움·최댓값 원리·하르나크 부등식"
+      }
+    },
+    {
+      "id": 3,
+      "time_base": "1/240000",
+      "start": 179888000,
+      "start_time": "749.533333",
+      "end": 265776000,
+      "end_time": "1107.400000",
+      "tags": {
+        "title": "04 · 브라운 운동·파인만–카츠·블랙–숄즈"
+      }
+    },
+    {
+      "id": 4,
+      "time_base": "1/240000",
+      "start": 265776000,
+      "start_time": "1107.400000",
+      "end": 334048000,
+      "end_time": "1391.866667",
+      "tags": {
+        "title": "05 · 열핵·지표정리·리치 흐름"
+      }
+    }
+  ]
+}

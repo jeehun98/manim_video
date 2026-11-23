@@ -1,0 +1,34 @@
+[
+  {
+    "kind": "caption",
+    "time": 267,
+    "left": -6.0,
+    "right": 6.0,
+    "bottom": -3.624676423359384,
+    "top": -2.915323576640616
+  },
+  {
+    "kind": "label",
+    "time": 267,
+    "left": -4.3042969,
+    "right": 4.3042969,
+    "bottom": -2.5634765749999997,
+    "top": 3.170625
+  },
+  {
+    "kind": "header",
+    "time": 267,
+    "left": -6.4,
+    "right": 6.4,
+    "bottom": 3.45,
+    "top": 3.81490235
+  },
+  {
+    "kind": "geometry",
+    "time": 267,
+    "left": -5.875,
+    "right": 5.875,
+    "bottom": -2.15,
+    "top": 1.9
+  }
+]

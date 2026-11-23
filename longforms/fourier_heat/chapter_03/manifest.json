@@ -1,0 +1,194 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01",
+    "class_name": "Shot01",
+    "start": 0,
+    "duration_seconds": 18,
+    "title": "계산한 해에서 새로운 성질로"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02",
+    "class_name": "Shot02",
+    "start": 18,
+    "duration_seconds": 18,
+    "title": "불규칙한 분포가 매끄러워진다"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03",
+    "class_name": "Shot03",
+    "start": 36,
+    "duration_seconds": 20,
+    "title": "고주파 성분이 먼저 사라진다"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04",
+    "class_name": "Shot04",
+    "start": 56,
+    "duration_seconds": 8,
+    "title": "완만해지는 것보다 강한 성질"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05",
+    "class_name": "Shot05",
+    "start": 64,
+    "duration_seconds": 8,
+    "title": "양의 시간에는 무한 번 미분 가능"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06",
+    "class_name": "Shot06",
+    "start": 72,
+    "duration_seconds": 8,
+    "title": "불규칙한 초기값에서 매끄러운 해로"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07",
+    "class_name": "Shot07",
+    "start": 80,
+    "duration_seconds": 13,
+    "title": "새로운 최고 온도가 나타날 수 있을까?"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08",
+    "class_name": "Shot08",
+    "start": 93,
+    "duration_seconds": 15,
+    "title": "봉우리에서는 온도가 내려간다"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09",
+    "class_name": "Shot09",
+    "start": 108,
+    "duration_seconds": 4,
+    "title": "골짜기에서는 온도가 올라간다"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10",
+    "class_name": "Shot10",
+    "start": 112,
+    "duration_seconds": 13,
+    "title": "처음의 최댓값과 최솟값 사이"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11",
+    "class_name": "Shot11",
+    "start": 125,
+    "duration_seconds": 14,
+    "title": "해의 비교에서 유일성으로"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12",
+    "class_name": "Shot12",
+    "start": 139,
+    "duration_seconds": 13,
+    "title": "두 위치와 두 시각의 값"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13",
+    "class_name": "Shot13",
+    "start": 152,
+    "duration_seconds": 9,
+    "title": "집중된 열이 주변으로 퍼진다"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14",
+    "class_name": "Shot14",
+    "start": 161,
+    "duration_seconds": 13,
+    "title": "현재의 A와 미래의 B를 비교한다"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15",
+    "class_name": "Shot15",
+    "start": 174,
+    "duration_seconds": 11,
+    "title": "미래 값이 작아질 수 있는 한계"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16",
+    "class_name": "Shot16",
+    "start": 185,
+    "duration_seconds": 10,
+    "title": "거리와 시간 간격이 중요하다"
+  },
+  {
+    "id": "17",
+    "directory": "scenes/17",
+    "class_name": "Shot17",
+    "start": 195,
+    "duration_seconds": 13,
+    "title": "하르나크 부등식의 정량적 관계"
+  },
+  {
+    "id": "18",
+    "directory": "scenes/18",
+    "class_name": "Shot18",
+    "start": 208,
+    "duration_seconds": 7,
+    "title": "매끄러움 — 해의 규칙성"
+  },
+  {
+    "id": "19",
+    "directory": "scenes/19",
+    "class_name": "Shot19",
+    "start": 215,
+    "duration_seconds": 4,
+    "title": "최댓값 원리 — 해의 범위"
+  },
+  {
+    "id": "20",
+    "directory": "scenes/20",
+    "class_name": "Shot20",
+    "start": 219,
+    "duration_seconds": 6,
+    "title": "하르나크 — 값 사이의 제약"
+  },
+  {
+    "id": "21",
+    "directory": "scenes/21",
+    "class_name": "Shot21",
+    "start": 225,
+    "duration_seconds": 9,
+    "title": "열방정식의 해를 지배하는 규칙"
+  },
+  {
+    "id": "22",
+    "directory": "scenes/22",
+    "class_name": "Shot22",
+    "start": 234,
+    "duration_seconds": 8,
+    "title": "온도 분포의 변화에서 새로운 질문으로"
+  },
+  {
+    "id": "23",
+    "directory": "scenes/23",
+    "class_name": "Shot23",
+    "start": 242,
+    "duration_seconds": 7,
+    "title": "확산을 무작위 입자로 바라보다"
+  },
+  {
+    "id": "24",
+    "directory": "scenes/24",
+    "class_name": "Shot24",
+    "start": 249,
+    "duration_seconds": 6,
+    "title": "브라운 운동과 파인만–카츠 공식"
+  }
+]

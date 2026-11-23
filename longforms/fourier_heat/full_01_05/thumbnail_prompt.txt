@@ -1,0 +1,12 @@
+Use case: scientific-educational. Create ONE finished premium Korean YouTube thumbnail for the heat-equation longform, 16:9 landscape, ideally 1920x1080 or larger same aspect.
+Input image is a STYLE AND LAYOUT REFERENCE ONLY: dark midnight navy, spacious left typography, right side three elegant scientific diagrams connected vertically with curved cyan arrows. Replace ALL classical mechanics subject matter with heat-equation connections.
+Backdrop almost solid midnight navy #031426 with extremely subtle texture. Crisp professional vector-like scientific line work, white elegant serif mathematical notation, clean highly legible Korean sans serif. Cyan #66F4F5 main headline, golden yellow highlights and restrained warm orange for heat.
+Left ~43% width: small spaced white header at upper-left EXACT "HEAT EQUATION  |  열방정식". Large cyan headline on two lines EXACT:
+"하나의 방정식"
+"수많은 연결"
+Below near lower left smaller white subtitle EXACT "열의 이동에서 공간의 기하학까지".
+Right ~54% width: three vertically arranged well-spaced scientific vignettes, no boxes, with graceful thin cyan curved arrows connecting upper to middle to bottom.
+Upper: label white italic serif "Fourier" with Korean "진동으로 분해". A compact plot of three thin cyan sine waves and one gold composite curve, clear mathematical curves. White equation next to plot "∂u/∂t = κΔu". 
+Middle: label white italic serif "Brownian" and Korean "무작위에서 확산으로". Several fine cyan random particle paths rising into or visually paired with a smooth golden Gaussian bell curve; tiny glowing cyan particle as an accent. No stock price graphic needed.
+Bottom: label white italic serif "Geometry" and Korean "공간의 모양을 읽다". A beautiful cyan curved surface wireframe (sphere or softly curved manifold) with a localized warm gold/orange heat patch on its surface; white notation "Δg" with g typeset as subscript.
+Keep all titles and diagrams uncluttered, balanced like the reference. Large left headline is the dominant focal point, readable at thumbnail size. High contrast, substantial negative space, accurate Korean spelling, no extra copy, no watermark, no people, no photos, no thick UI panels, no borders. This is about related mathematical structures across fields, not claiming all phenomena are literally identical.

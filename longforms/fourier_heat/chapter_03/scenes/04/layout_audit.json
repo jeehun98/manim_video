@@ -1,0 +1,66 @@
+[
+  {
+    "kind": "caption",
+    "time": 56,
+    "left": -6.0,
+    "right": 6.0,
+    "bottom": -3.600482404011296,
+    "top": -2.939517595988704
+  },
+  {
+    "kind": "label",
+    "time": 56,
+    "left": -3.26708985,
+    "right": 3.26708985,
+    "bottom": -2.47666015,
+    "top": 3.169648425
+  },
+  {
+    "kind": "header",
+    "time": 56,
+    "left": -6.4,
+    "right": 6.4,
+    "bottom": 3.45,
+    "top": 3.8154882999999997
+  },
+  {
+    "kind": "geometry",
+    "time": 56,
+    "left": -5.0,
+    "right": 5.0,
+    "bottom": -1.2,
+    "top": 1.3
+  },
+  {
+    "kind": "caption",
+    "time": 60,
+    "left": -6.0,
+    "right": 6.0,
+    "bottom": -3.600482404011296,
+    "top": -2.939517595988704
+  },
+  {
+    "kind": "label",
+    "time": 60,
+    "left": -3.26708985,
+    "right": 3.26708985,
+    "bottom": -2.47666015,
+    "top": 3.169648425
+  },
+  {
+    "kind": "header",
+    "time": 60,
+    "left": -6.4,
+    "right": 6.4,
+    "bottom": 3.45,
+    "top": 3.8154882999999997
+  },
+  {
+    "kind": "geometry",
+    "time": 60,
+    "left": -5.0,
+    "right": 5.0,
+    "bottom": -1.2,
+    "top": 1.3
+  }
+]

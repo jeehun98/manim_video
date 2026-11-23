@@ -2377,3 +2377,14 @@ python scripts/render.py genfunc02
 python episodes/genfunc02_catalan/build.py --preview --scene 04
 ```
 결과: `exports/genfunc02_short.mp4`.
+
+## 무리수 쇼츠 (irrational01)
+
+174초 · 9:16 · 수식 표기 하단 자막 · TTS 미제공으로 무음.
+제작 자료: `episodes/irrational01_boundaries/`의 `scene.py`, `timing.json`, `narration.md`, `tts_script.txt`, `captions.srt`, `brief.md`, `build.py`.
+
+```powershell
+python scripts/render.py irrational01
+python episodes/irrational01_boundaries/build.py --preview --scene 11
+```
+결과: `exports/irrational01_short.mp4`.

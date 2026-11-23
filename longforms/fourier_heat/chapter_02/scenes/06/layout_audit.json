@@ -1,0 +1,130 @@
+[
+  {
+    "kind": "caption",
+    "time": 67,
+    "left": -4.609863275,
+    "right": 4.609863275,
+    "bottom": -3.436113275,
+    "top": -3.103886725
+  },
+  {
+    "kind": "label",
+    "time": 67,
+    "left": -4.486328125,
+    "right": 4.09453125,
+    "bottom": -2.5373047,
+    "top": 3.170625
+  },
+  {
+    "kind": "header",
+    "time": 67,
+    "left": -6.4,
+    "right": 6.4,
+    "bottom": 3.45,
+    "top": 3.8143164
+  },
+  {
+    "kind": "geometry",
+    "time": 67,
+    "left": -4.675,
+    "right": -2.2,
+    "bottom": -0.975,
+    "top": 1.3
+  },
+  {
+    "kind": "caption",
+    "time": 71,
+    "left": -4.631835925,
+    "right": 4.631835925,
+    "bottom": -3.435820325,
+    "top": -3.104179675
+  },
+  {
+    "kind": "label",
+    "time": 71,
+    "left": -4.486328125,
+    "right": 4.09453125,
+    "bottom": -2.5373047,
+    "top": 3.170625
+  },
+  {
+    "kind": "header",
+    "time": 71,
+    "left": -6.4,
+    "right": 6.4,
+    "bottom": 3.45,
+    "top": 3.8143164
+  },
+  {
+    "kind": "geometry",
+    "time": 71,
+    "left": -4.675,
+    "right": -2.2,
+    "bottom": -0.975,
+    "top": 1.3
+  },
+  {
+    "kind": "caption",
+    "time": 75,
+    "left": -5.942382800000001,
+    "right": 5.942382800000001,
+    "bottom": -3.435820325,
+    "top": -3.104179675
+  },
+  {
+    "kind": "label",
+    "time": 75,
+    "left": -4.486328125,
+    "right": 4.09453125,
+    "bottom": -2.5373047,
+    "top": 3.170625
+  },
+  {
+    "kind": "header",
+    "time": 75,
+    "left": -6.4,
+    "right": 6.4,
+    "bottom": 3.45,
+    "top": 3.8143164
+  },
+  {
+    "kind": "geometry",
+    "time": 75,
+    "left": -4.675,
+    "right": 5.55,
+    "bottom": -1.15,
+    "top": 1.3
+  },
+  {
+    "kind": "caption",
+    "time": 80,
+    "left": -5.8423828,
+    "right": 5.8423828,
+    "bottom": -3.436113275,
+    "top": -3.103886725
+  },
+  {
+    "kind": "label",
+    "time": 80,
+    "left": -4.486328125,
+    "right": 4.09453125,
+    "bottom": -2.5373047,
+    "top": 3.170625
+  },
+  {
+    "kind": "header",
+    "time": 80,
+    "left": -6.4,
+    "right": 6.4,
+    "bottom": 3.45,
+    "top": 3.8143164
+  },
+  {
+    "kind": "geometry",
+    "time": 80,
+    "left": -4.675,
+    "right": 5.55,
+    "bottom": -1.15,
+    "top": 1.3
+  }
+]

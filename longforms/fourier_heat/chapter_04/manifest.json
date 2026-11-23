@@ -1,0 +1,266 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01",
+    "class_name": "Shot01",
+    "start": 0,
+    "duration_seconds": 13,
+    "title": "열방정식을 확률로 바라본다면?"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02",
+    "class_name": "Shot02",
+    "start": 13,
+    "duration_seconds": 19,
+    "title": "작은 입자의 불규칙한 움직임"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03",
+    "class_name": "Shot03",
+    "start": 32,
+    "duration_seconds": 13,
+    "title": "같은 출발점, 서로 다른 도착점"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04",
+    "class_name": "Shot04",
+    "start": 45,
+    "duration_seconds": 22,
+    "title": "많은 입자의 위치를 모은다"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05",
+    "class_name": "Shot05",
+    "start": 67,
+    "duration_seconds": 13,
+    "title": "입자 위치에서 정규분포로"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06",
+    "class_name": "Shot06",
+    "start": 80,
+    "duration_seconds": 14,
+    "title": "분산은 시간에 비례한다"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07",
+    "class_name": "Shot07",
+    "start": 94,
+    "duration_seconds": 10,
+    "title": "확률밀도가 열방정식을 따른다"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08",
+    "class_name": "Shot08",
+    "start": 104,
+    "duration_seconds": 15,
+    "title": "다른 물리량, 같은 확산 구조"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09",
+    "class_name": "Shot09",
+    "start": 119,
+    "duration_seconds": 9,
+    "title": "아주 짧은 시간의 이동"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10",
+    "class_name": "Shot10",
+    "start": 128,
+    "duration_seconds": 7,
+    "title": "방향의 평균은 0"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11",
+    "class_name": "Shot11",
+    "start": 135,
+    "duration_seconds": 12,
+    "title": "이동량의 제곱 평균은 남는다"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12",
+    "class_name": "Shot12",
+    "start": 147,
+    "duration_seconds": 13,
+    "title": "평균을 계산하면 이차 미분이 남는다"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13",
+    "class_name": "Shot13",
+    "start": 160,
+    "duration_seconds": 7,
+    "title": "무작위 운동에서 미분 작용소로"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14",
+    "class_name": "Shot14",
+    "start": 167,
+    "duration_seconds": 11,
+    "title": "무작위 움직임으로 해를 구할 수 있을까?"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15",
+    "class_name": "Shot15",
+    "start": 178,
+    "duration_seconds": 9,
+    "title": "처음의 함수와 출발 위치"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16",
+    "class_name": "Shot16",
+    "start": 187,
+    "duration_seconds": 10,
+    "title": "도착한 위치에서 함수값을 읽는다"
+  },
+  {
+    "id": "17",
+    "directory": "scenes/17",
+    "class_name": "Shot17",
+    "start": 197,
+    "duration_seconds": 11,
+    "title": "반복한 함수값의 평균과 열방정식의 해"
+  },
+  {
+    "id": "18",
+    "directory": "scenes/18",
+    "class_name": "Shot18",
+    "start": 208,
+    "duration_seconds": 14,
+    "title": "기댓값은 확률을 반영한 평균"
+  },
+  {
+    "id": "19",
+    "directory": "scenes/19",
+    "class_name": "Shot19",
+    "start": 222,
+    "duration_seconds": 6,
+    "title": "가우스 밀도로 가중평균한다"
+  },
+  {
+    "id": "20",
+    "directory": "scenes/20",
+    "class_name": "Shot20",
+    "start": 228,
+    "duration_seconds": 14,
+    "title": "파인만–카츠 공식의 확장"
+  },
+  {
+    "id": "21",
+    "directory": "scenes/21",
+    "class_name": "Shot21",
+    "start": 242,
+    "duration_seconds": 10,
+    "title": "경로 전체에 의존하는 가중치"
+  },
+  {
+    "id": "22",
+    "directory": "scenes/22",
+    "class_name": "Shot22",
+    "start": 252,
+    "duration_seconds": 9,
+    "title": "입자 경로에서 주가 경로로"
+  },
+  {
+    "id": "23",
+    "directory": "scenes/23",
+    "class_name": "Shot23",
+    "start": 261,
+    "duration_seconds": 10,
+    "title": "옵션의 만기 지급액"
+  },
+  {
+    "id": "24",
+    "directory": "scenes/24",
+    "class_name": "Shot24",
+    "start": 271,
+    "duration_seconds": 10,
+    "title": "확률 모형으로 나타낸 미래 주가"
+  },
+  {
+    "id": "25",
+    "directory": "scenes/25",
+    "class_name": "Shot25",
+    "start": 281,
+    "duration_seconds": 8,
+    "title": "위험중립 기댓값과 할인"
+  },
+  {
+    "id": "26",
+    "directory": "scenes/26",
+    "class_name": "Shot26",
+    "start": 289,
+    "duration_seconds": 13,
+    "title": "블랙–숄즈 편미분방정식"
+  },
+  {
+    "id": "27",
+    "directory": "scenes/27",
+    "class_name": "Shot27",
+    "start": 302,
+    "duration_seconds": 6,
+    "title": "블랙–숄즈에서 열방정식으로"
+  },
+  {
+    "id": "28",
+    "directory": "scenes/28",
+    "class_name": "Shot28",
+    "start": 308,
+    "duration_seconds": 10,
+    "title": "열·확률·금융의 연결"
+  },
+  {
+    "id": "29",
+    "directory": "scenes/29",
+    "class_name": "Shot29",
+    "start": 318,
+    "duration_seconds": 7,
+    "title": "브라운 운동 — 확률분포의 진화"
+  },
+  {
+    "id": "30",
+    "directory": "scenes/30",
+    "class_name": "Shot30",
+    "start": 325,
+    "duration_seconds": 6,
+    "title": "파인만–카츠 — 기댓값으로 해 표현"
+  },
+  {
+    "id": "31",
+    "directory": "scenes/31",
+    "class_name": "Shot31",
+    "start": 331,
+    "duration_seconds": 6,
+    "title": "블랙–숄즈 — 확률적 가격결정"
+  },
+  {
+    "id": "32",
+    "directory": "scenes/32",
+    "class_name": "Shot32",
+    "start": 337,
+    "duration_seconds": 9,
+    "title": "서로 다른 현상의 공통 구조"
+  },
+  {
+    "id": "33",
+    "directory": "scenes/33",
+    "class_name": "Shot33",
+    "start": 346,
+    "duration_seconds": 11,
+    "title": "곡면 위에서도 열이 퍼질까?"
+  }
+]

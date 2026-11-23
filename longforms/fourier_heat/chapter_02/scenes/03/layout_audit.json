@@ -1,0 +1,130 @@
+[
+  {
+    "kind": "caption",
+    "time": 26,
+    "left": -3.450488275,
+    "right": 3.450488275,
+    "bottom": -3.434355475,
+    "top": -3.105644525
+  },
+  {
+    "kind": "label",
+    "time": 26,
+    "left": -3.8470087562499997,
+    "right": 4.633229274479167,
+    "bottom": -2.5069336,
+    "top": 3.17228515
+  },
+  {
+    "kind": "header",
+    "time": 26,
+    "left": -6.4,
+    "right": 6.4,
+    "bottom": 3.45,
+    "top": 3.816074225
+  },
+  {
+    "kind": "geometry",
+    "time": 26,
+    "left": -5.845,
+    "right": 5.6,
+    "bottom": -2.0290039125,
+    "top": 1.6
+  },
+  {
+    "kind": "caption",
+    "time": 28,
+    "left": -5.840625,
+    "right": 5.840625,
+    "bottom": -3.434355475,
+    "top": -3.105644525
+  },
+  {
+    "kind": "label",
+    "time": 28,
+    "left": -3.8470087562499997,
+    "right": 4.633229274479167,
+    "bottom": -2.5069336,
+    "top": 3.17228515
+  },
+  {
+    "kind": "header",
+    "time": 28,
+    "left": -6.4,
+    "right": 6.4,
+    "bottom": 3.45,
+    "top": 3.816074225
+  },
+  {
+    "kind": "geometry",
+    "time": 28,
+    "left": -5.8,
+    "right": 5.6,
+    "bottom": -2.0290039125,
+    "top": 1.6
+  },
+  {
+    "kind": "caption",
+    "time": 33,
+    "left": -4.1658203,
+    "right": 4.1658203,
+    "bottom": -3.434355475,
+    "top": -3.105644525
+  },
+  {
+    "kind": "label",
+    "time": 33,
+    "left": -3.8470087562499997,
+    "right": 4.633229274479167,
+    "bottom": -2.5069336,
+    "top": 3.17228515
+  },
+  {
+    "kind": "header",
+    "time": 33,
+    "left": -6.4,
+    "right": 6.4,
+    "bottom": 3.45,
+    "top": 3.816074225
+  },
+  {
+    "kind": "geometry",
+    "time": 33,
+    "left": -5.8,
+    "right": 5.6,
+    "bottom": -2.0290039125,
+    "top": 1.6
+  },
+  {
+    "kind": "caption",
+    "time": 37,
+    "left": -6.0,
+    "right": 6.0,
+    "bottom": -3.634971401600021,
+    "top": -2.905028598399979
+  },
+  {
+    "kind": "label",
+    "time": 37,
+    "left": -3.8470087562499997,
+    "right": 4.633229274479167,
+    "bottom": -2.5069336,
+    "top": 3.17228515
+  },
+  {
+    "kind": "header",
+    "time": 37,
+    "left": -6.4,
+    "right": 6.4,
+    "bottom": 3.45,
+    "top": 3.816074225
+  },
+  {
+    "kind": "geometry",
+    "time": 37,
+    "left": -5.8,
+    "right": 5.6,
+    "bottom": -2.0290039125,
+    "top": 1.6
+  }
+]

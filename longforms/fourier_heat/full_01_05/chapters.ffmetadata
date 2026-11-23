@@ -1,0 +1,27 @@
+;FFMETADATA1
+title=열방정식 — 열의 이동에서 수학의 거대한 연결고리로
+[CHAPTER]
+TIMEBASE=1/30
+START=0
+END=5071
+title=01 · 열의 이동에서 푸리에 해석으로
+[CHAPTER]
+TIMEBASE=1/30
+START=5071
+END=14805
+title=02 · 복잡한 함수와 푸리에 해석
+[CHAPTER]
+TIMEBASE=1/30
+START=14805
+END=22486
+title=03 · 매끄러움·최댓값 원리·하르나크 부등식
+[CHAPTER]
+TIMEBASE=1/30
+START=22486
+END=33222
+title=04 · 브라운 운동·파인만–카츠·블랙–숄즈
+[CHAPTER]
+TIMEBASE=1/30
+START=33222
+END=41756
+title=05 · 열핵·지표정리·리치 흐름

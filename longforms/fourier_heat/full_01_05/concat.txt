@@ -1,0 +1,10 @@
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/heat_ch01_voiced.mp4'
+duration 169.033333333333
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/heat_ch02_voiced.mp4'
+duration 324.466666666667
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/heat_ch03_voiced.mp4'
+duration 256.033333333333
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/heat_ch04_voiced.mp4'
+duration 357.866666666667
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/heat_ch05_voiced.mp4'
+duration 284.466666666667
