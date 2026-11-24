@@ -2,6 +2,7 @@
   "name": "knowledge-atlas", "private": true, "version": "0.1.0", "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
+    "knowledge": "node knowledge/cli.mjs",
     "validate": "node scripts/validate.mjs",
     "test": "node --test --test-isolation=none scripts/*.test.mjs",
     "build": "npm run validate && tsc --noEmit && vite build",

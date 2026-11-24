@@ -71,6 +71,14 @@
               "minLength": 1
             },
             "uniqueItems": true
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
           }
         },
         "required": [
@@ -174,6 +182,10 @@
           "sourceLocator": {
             "type": "string",
             "minLength": 1
+          },
+          "reviewNote": {
+            "type": "string",
+            "minLength": 1
           }
         },
         "required": [
@@ -223,6 +235,14 @@
             ]
           },
           "url": {
+            "type": "string",
+            "minLength": 1
+          },
+          "accessedAt": {
+            "type": "string",
+            "minLength": 1
+          },
+          "notes": {
             "type": "string",
             "minLength": 1
           }
@@ -289,8 +309,7 @@
   "required": [
     "concepts",
     "relations",
-    "sources",
-    "contents"
+    "sources"
   ],
   "additionalProperties": false
 }

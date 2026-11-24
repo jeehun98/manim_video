@@ -7,15 +7,16 @@
     "directed": true,
     "description": "벡터 공간에 내적을 추가하여 내적 공간을 얻는다.",
     "conditions": "기저 체는 실수 또는 복소수이며 내적 공리를 만족하는 연산을 선택한다.",
-    "evidence": "대본이 내적을 부여한 벡터 공간을 내적 공간으로 정의한다.",
+    "evidence": "DLMF §1.18(i)의 내적 공간 정의: 벡터 공간 위에 내적 공리를 만족하는 연산을 부여한다.",
     "sourceIds": [
-      "src-hilbert"
+      "ref-dlmf-hilbert"
     ],
-    "verificationStatus": "investigating",
-    "provenance": "repository_review",
+    "verificationStatus": "verified",
+    "provenance": "literature_review",
     "questions": [],
-    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
-    "sourceLocator": "98–107초"
+    "limitations": "기록된 조건 안에서만 해석한다. 그래프 연결은 동치나 다른 관계의 합성에 대한 증명이 아니다.",
+    "sourceLocator": "§1.18(i), equations 1.18.1–1.18.7",
+    "reviewNote": "2026-11-25: 대본 중심의 근거를 외부 문헌 중심으로 재검토. verified 외에는 추가 검증 필요."
   },
   {
     "id": "inner-product-space--specialization--hilbert-space",
@@ -25,15 +26,16 @@
     "directed": true,
     "description": "내적 공간에 완비성 조건을 추가하면 힐베르트 공간이 된다.",
     "conditions": "완비성은 내적이 유도한 노름에 관한 것이다.",
-    "evidence": "대본의 정의 및 코시 수열 설명.",
+    "evidence": "DLMF §1.18(i)는 내적 노름에 관한 모든 코시 수열의 공간 내 수렴을 힐베르트 공간의 정의로 명시한다.",
     "sourceIds": [
-      "src-hilbert"
+      "ref-dlmf-hilbert"
     ],
-    "verificationStatus": "investigating",
-    "provenance": "repository_review",
+    "verificationStatus": "verified",
+    "provenance": "literature_review",
     "questions": [],
-    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
-    "sourceLocator": "110–146초"
+    "limitations": "기록된 조건 안에서만 해석한다. 그래프 연결은 동치나 다른 관계의 합성에 대한 증명이 아니다.",
+    "sourceLocator": "§1.18(i), equations 1.18.1–1.18.7",
+    "reviewNote": "2026-11-25: 대본 중심의 근거를 외부 문헌 중심으로 재검토. verified 외에는 추가 검증 필요."
   },
   {
     "id": "completeness--prerequisite--hilbert-space",
@@ -43,15 +45,16 @@
     "directed": true,
     "description": "힐베르트 공간의 정의를 이해하려면 완비성을 이해해야 한다.",
     "conditions": "학습을 위한 선행 관계이며 논리적 동치는 아니다.",
-    "evidence": "모든 코시 수열의 공간 내 수렴을 설명한 뒤 힐베르트 공간을 정의한다.",
+    "evidence": "완비성이 힐베르트 공간 정의의 일부이므로 선행 학습 항목으로 기록한다. 이 방향은 학습 설계 판단이다.",
     "sourceIds": [
-      "src-hilbert"
+      "ref-dlmf-hilbert"
     ],
     "verificationStatus": "investigating",
-    "provenance": "repository_review",
+    "provenance": "literature_review",
     "questions": [],
-    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
-    "sourceLocator": "136–146초"
+    "limitations": "기록된 조건 안에서만 해석한다. 그래프 연결은 동치나 다른 관계의 합성에 대한 증명이 아니다.",
+    "sourceLocator": "§1.18(i), equations 1.18.1–1.18.7",
+    "reviewNote": "2026-11-25: 대본 중심의 근거를 외부 문헌 중심으로 재검토. verified 외에는 추가 검증 필요."
   },
   {
     "id": "inner-product--derivation--orthogonality",
@@ -61,15 +64,16 @@
     "directed": true,
     "description": "직교성은 선택한 내적이 0인지로 정의된다.",
     "conditions": "같은 벡터라도 내적이 달라지면 직교 여부가 달라질 수 있다.",
-    "evidence": "대본의 내적 선택에 따른 직교성 비교.",
+    "evidence": "DLMF §1.18(i)는 내적이 0인 두 원소를 직교한다고 정의한다.",
     "sourceIds": [
-      "src-hilbert"
+      "ref-dlmf-hilbert"
     ],
-    "verificationStatus": "investigating",
-    "provenance": "repository_review",
+    "verificationStatus": "verified",
+    "provenance": "literature_review",
     "questions": [],
-    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
-    "sourceLocator": "70–102초"
+    "limitations": "기록된 조건 안에서만 해석한다. 그래프 연결은 동치나 다른 관계의 합성에 대한 증명이 아니다.",
+    "sourceLocator": "§1.18(i), equations 1.18.1–1.18.7",
+    "reviewNote": "2026-11-25: 대본 중심의 근거를 외부 문헌 중심으로 재검토. verified 외에는 추가 검증 필요."
   },
   {
     "id": "inner-product--prerequisite--projection",
@@ -79,15 +83,16 @@
     "directed": true,
     "description": "정사영의 계수는 내적으로 계산한다.",
     "conditions": "표시 수식은 단위벡터 q에 대한 정사영이다.",
-    "evidence": "대본에서 내적으로 겹치는 성분을 계산한다.",
+    "evidence": "MIT 강의의 단위벡터 정사영 제거 연산 I−qq*에서 계수는 q*v로 주어진다. 학습 순서는 설계 판단이다.",
     "sourceIds": [
-      "src-qr"
+      "ref-mit-gram-schmidt"
     ],
     "verificationStatus": "investigating",
-    "provenance": "repository_review",
+    "provenance": "literature_review",
     "questions": [],
-    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
-    "sourceLocator": "38–49초"
+    "limitations": "기록된 조건 안에서만 해석한다. 그래프 연결은 동치나 다른 관계의 합성에 대한 증명이 아니다.",
+    "sourceLocator": "pp. 1–3, Modified Gram-Schmidt Algorithm",
+    "reviewNote": "2026-11-25: 대본 중심의 근거를 외부 문헌 중심으로 재검토. verified 외에는 추가 검증 필요."
   },
   {
     "id": "projection--application--gram-schmidt",
@@ -96,16 +101,17 @@
     "type": "application",
     "directed": true,
     "description": "기존 방향의 정사영을 제거해 직교 성분을 만든다.",
-    "conditions": "정규화 단계의 잔차는 0이 아니어야 한다. 독립인 입력을 전제로 한다.",
-    "evidence": "두 벡터 예제에서 정사영을 빼는 계산.",
+    "conditions": "실수 유클리드 공간 또는 복소수 표준 내적 공간에서 독립인 입력. 고전형과 수정형은 유한 정밀도에서 수치 거동이 다르다.",
+    "evidence": "MIT 강의의 수정 그람–슈미트 알고리즘은 정규화된 방향 성분을 차례로 제거한다.",
     "sourceIds": [
-      "src-qr"
+      "ref-mit-gram-schmidt"
     ],
-    "verificationStatus": "investigating",
-    "provenance": "repository_review",
+    "verificationStatus": "verified",
+    "provenance": "literature_review",
     "questions": [],
-    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
-    "sourceLocator": "32–57초"
+    "limitations": "기록된 조건 안에서만 해석한다. 그래프 연결은 동치나 다른 관계의 합성에 대한 증명이 아니다.",
+    "sourceLocator": "pp. 1–3, Modified Gram-Schmidt Algorithm",
+    "reviewNote": "2026-11-25: 대본 중심의 근거를 외부 문헌 중심으로 재검토. verified 외에는 추가 검증 필요."
   },
   {
     "id": "orthogonality--related_to--fourier-series",
@@ -115,17 +121,19 @@
     "directed": true,
     "description": "푸리에 계수와 직교 정사영의 관계를 탐구한다.",
     "conditions": "함수 공간·내적·완전한 직교계와 수렴의 의미를 명시해야 한다.",
-    "evidence": "함수의 내적과 직교성으로 푸리에 해석의 출발점을 소개한다.",
+    "evidence": "DLMF의 푸리에 계수 적분식과 힐베르트 공간의 내적 계수 표현을 비교할 수 있다. 함수 공간별 수렴 해석은 추가 확인한다.",
     "sourceIds": [
-      "src-hilbert"
+      "ref-dlmf-fourier",
+      "ref-dlmf-hilbert"
     ],
     "verificationStatus": "investigating",
-    "provenance": "repository_review",
+    "provenance": "literature_review",
     "questions": [
       "L²에서의 수렴과 점별 수렴은 어떻게 다른가?"
     ],
-    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
-    "sourceLocator": "155–170초"
+    "limitations": "기록된 조건 안에서만 해석한다. 그래프 연결은 동치나 다른 관계의 합성에 대한 증명이 아니다.",
+    "sourceLocator": "DLMF §1.8(i), equations 1.8.2–1.8.4; §1.18(i), equation 1.18.3",
+    "reviewNote": "2026-11-25: 대본 중심의 근거를 외부 문헌 중심으로 재검토. verified 외에는 추가 검증 필요."
   },
   {
     "id": "hilbert-space--related_to--fourier-series",
@@ -135,15 +143,16 @@
     "directed": true,
     "description": "푸리에 전개를 완비 내적 공간의 관점에서 살펴본다.",
     "conditions": "모든 푸리에 관련 표현을 별도 조건 없이 동일시하지 않는다.",
-    "evidence": "함수 공간으로의 확장에 대한 대본의 마지막 설명.",
+    "evidence": "관련 문헌을 배경으로 한 탐구 후보. 이 관계 자체의 수학적 근거는 아직 확인하지 않았다.",
     "sourceIds": [
-      "src-hilbert"
+      "ref-dlmf-hilbert"
     ],
     "verificationStatus": "proposed",
-    "provenance": "repository_review",
+    "provenance": "ai_suggestion",
     "questions": [],
-    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
-    "sourceLocator": "155–170초"
+    "limitations": "기록된 조건 안에서만 해석한다. 그래프 연결은 동치나 다른 관계의 합성에 대한 증명이 아니다.",
+    "sourceLocator": "§1.18(i), equations 1.18.1–1.18.7",
+    "reviewNote": "2026-11-25: 미검증 후보로 보존. 출처는 배경 읽기 자료이며 이 관계의 증명이 아니다."
   },
   {
     "id": "sine-cosine--representation--fourier-series",
@@ -152,16 +161,17 @@
     "type": "representation",
     "directed": true,
     "description": "적절한 함수들을 사인과 코사인의 합으로 표현한다.",
-    "conditions": "주기·구간·경계조건 및 수렴 조건을 지정해야 한다.",
-    "evidence": "온도 분포의 사인·코사인 전개를 설명한다.",
+    "conditions": "2π 주기 적분 가능 함수에 대한 형식적 계수 표현. 실제 함수와의 점별 일치는 §1.8(ii) 같은 추가 수렴 가정을 확인한다.",
+    "evidence": "DLMF §1.8(i)의 정의와 계수 적분식이 사인·코사인 급수 표현을 명시한다.",
     "sourceIds": [
-      "src-fourier"
+      "ref-dlmf-fourier"
     ],
-    "verificationStatus": "investigating",
-    "provenance": "repository_review",
+    "verificationStatus": "verified",
+    "provenance": "literature_review",
     "questions": [],
-    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
-    "sourceLocator": "60–75초"
+    "limitations": "기록된 조건 안에서만 해석한다. 그래프 연결은 동치나 다른 관계의 합성에 대한 증명이 아니다.",
+    "sourceLocator": "§1.8(i)–(ii), equations 1.8.1–1.8.4",
+    "reviewNote": "2026-11-25: 대본 중심의 근거를 외부 문헌 중심으로 재검토. verified 외에는 추가 검증 필요."
   },
   {
     "id": "fourier-series--application--heat-equation",
@@ -170,16 +180,17 @@
     "type": "application",
     "directed": true,
     "description": "온도 분포를 모드로 나누어 각 성분의 감쇠를 계산한다.",
-    "conditions": "선형 열방정식과 해당 모드에 맞는 경계조건을 사용한다.",
-    "evidence": "각 성분의 변화를 계산한 뒤 합치며 높은 주파수는 더 빨리 감쇠한다.",
+    "conditions": "κ>0, 0<x<L의 선형 열방정식과 양 끝 온도 0의 경계조건. 초기함수 전개와 항별 미분의 정당화는 별도 확인한다.",
+    "evidence": "변수분리의 공간 고유함수로 초기 분포를 전개하고 시간 계수를 계산하는 접근을 검토한다.",
     "sourceIds": [
-      "src-fourier"
+      "ref-toronto-heat"
     ],
     "verificationStatus": "investigating",
-    "provenance": "repository_review",
+    "provenance": "literature_review",
     "questions": [],
-    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
-    "sourceLocator": "99–138초"
+    "limitations": "기록된 조건 안에서만 해석한다. 그래프 연결은 동치나 다른 관계의 합성에 대한 증명이 아니다.",
+    "sourceLocator": "§6.1, Dirichlet boundary conditions",
+    "reviewNote": "2026-11-25: 대본 중심의 근거를 외부 문헌 중심으로 재검토. verified 외에는 추가 검증 필요."
   },
   {
     "id": "representation--application--fourier-series",
@@ -189,15 +200,16 @@
     "directed": true,
     "description": "주파수 성분으로 표현을 바꾸어 변화를 계산한다.",
     "conditions": "공통 아이디어의 사례이며 수학적 동치 관계를 뜻하지 않는다.",
-    "evidence": "분포의 계산을 성분별 크기 계산으로 바꾼다.",
+    "evidence": "푸리에 계수로 표현을 바꾸는 것을 공통 아이디어의 사례로 분류한 편집 판단이다.",
     "sourceIds": [
-      "src-fourier"
+      "ref-dlmf-fourier"
     ],
-    "verificationStatus": "investigating",
-    "provenance": "repository_review",
+    "verificationStatus": "proposed",
+    "provenance": "ai_suggestion",
     "questions": [],
-    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
-    "sourceLocator": "128–144초"
+    "limitations": "기록된 조건 안에서만 해석한다. 그래프 연결은 동치나 다른 관계의 합성에 대한 증명이 아니다.",
+    "sourceLocator": "§1.8(i)–(ii), equations 1.8.1–1.8.4",
+    "reviewNote": "2026-11-25: 대본 중심의 근거를 외부 문헌 중심으로 재검토. verified 외에는 추가 검증 필요."
   },
   {
     "id": "decomposition--application--fourier-series",
@@ -207,15 +219,16 @@
     "directed": true,
     "description": "복잡한 함수를 성분으로 나누고 다시 합치는 전략의 사례.",
     "conditions": "선형성과 전개의 유효 범위를 확인해야 한다.",
-    "evidence": "성분별 계산과 재합성에 대한 설명.",
+    "evidence": "급수 전개를 분해·합성 전략의 사례로 분류한 편집 판단이다.",
     "sourceIds": [
-      "src-fourier"
+      "ref-dlmf-fourier"
     ],
-    "verificationStatus": "investigating",
-    "provenance": "repository_review",
+    "verificationStatus": "proposed",
+    "provenance": "ai_suggestion",
     "questions": [],
-    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
-    "sourceLocator": "117–144초"
+    "limitations": "기록된 조건 안에서만 해석한다. 그래프 연결은 동치나 다른 관계의 합성에 대한 증명이 아니다.",
+    "sourceLocator": "§1.8(i)–(ii), equations 1.8.1–1.8.4",
+    "reviewNote": "2026-11-25: 대본 중심의 근거를 외부 문헌 중심으로 재검토. verified 외에는 추가 검증 필요."
   },
   {
     "id": "decomposition--shared_strategy--gram-schmidt",
@@ -225,15 +238,16 @@
     "directed": false,
     "description": "성분을 분리하는 관점에서 두 절차를 비교한다.",
     "conditions": "푸리에 전개와 그람–슈미트 과정이 동일한 절차라는 주장은 아니다.",
-    "evidence": "정사영 제거와 성분별 분해를 비교할 탐구 후보.",
+    "evidence": "관련 문헌을 배경으로 한 탐구 후보. 이 관계 자체의 수학적 근거는 아직 확인하지 않았다.",
     "sourceIds": [
-      "src-qr"
+      "ref-mit-gram-schmidt"
     ],
     "verificationStatus": "proposed",
-    "provenance": "repository_review",
+    "provenance": "ai_suggestion",
     "questions": [],
-    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
-    "sourceLocator": "32–57초"
+    "limitations": "기록된 조건 안에서만 해석한다. 그래프 연결은 동치나 다른 관계의 합성에 대한 증명이 아니다.",
+    "sourceLocator": "pp. 1–3, Modified Gram-Schmidt Algorithm",
+    "reviewNote": "2026-11-25: 미검증 후보로 보존. 출처는 배경 읽기 자료이며 이 관계의 증명이 아니다."
   },
   {
     "id": "likelihood--prerequisite--sufficient-statistic",
@@ -241,17 +255,18 @@
     "target": "sufficient-statistic",
     "type": "prerequisite",
     "directed": true,
-    "description": "대본은 상대 우도 형태의 보존으로 충분성을 설명한다.",
+    "description": "우도 인수분해를 통해 충분성을 공부할 수 있다.",
     "conditions": "독립 동일 정규분포, 알려진 분산, 고정된 표본 크기에서 평균 모수를 추론하는 사례.",
-    "evidence": "데이터와 모수가 함께 등장하는 항에 표본합만 남는다는 전개.",
+    "evidence": "CUNY 강의의 인수분해 정리와 정규 모형의 통계량 예를 학습 경로로 연결한다. 학습 순서는 설계 판단이다.",
     "sourceIds": [
-      "src-sufficiency"
+      "ref-cuny-sufficiency"
     ],
     "verificationStatus": "investigating",
-    "provenance": "repository_review",
+    "provenance": "literature_review",
     "questions": [],
-    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
-    "sourceLocator": "7–79초"
+    "limitations": "기록된 조건 안에서만 해석한다. 그래프 연결은 동치나 다른 관계의 합성에 대한 증명이 아니다.",
+    "sourceLocator": "Neyman Factorization Theorem; Exponential Families; Minimal Sufficient Statistic",
+    "reviewNote": "2026-11-25: 대본 중심의 근거를 외부 문헌 중심으로 재검토. verified 외에는 추가 검증 필요."
   },
   {
     "id": "sufficient-statistic--shared_strategy--information-reduction",
@@ -261,15 +276,16 @@
     "directed": true,
     "description": "관심 대상에 필요한 정보를 남기며 데이터를 축약하는 사례로 탐구한다.",
     "conditions": "충분성은 명시한 모형과 모수에 대한 성질이다. 최소 저장량이나 원자료 복원을 뜻하지 않는다.",
-    "evidence": "평균·분산을 모두 추론할 경우와 통계적 최소성의 한계를 설명한다.",
+    "evidence": "충분성을 목적에 따른 축약이라는 관점에서 해석하는 탐구 후보. 일반적인 압축과 같다는 근거는 없다.",
     "sourceIds": [
-      "src-sufficiency"
+      "ref-cuny-sufficiency"
     ],
-    "verificationStatus": "investigating",
-    "provenance": "repository_review",
+    "verificationStatus": "proposed",
+    "provenance": "ai_suggestion",
     "questions": [],
-    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
-    "sourceLocator": "100–153초"
+    "limitations": "기록된 조건 안에서만 해석한다. 그래프 연결은 동치나 다른 관계의 합성에 대한 증명이 아니다.",
+    "sourceLocator": "Neyman Factorization Theorem; Exponential Families; Minimal Sufficient Statistic",
+    "reviewNote": "2026-11-25: 대본 중심의 근거를 외부 문헌 중심으로 재검토. verified 외에는 추가 검증 필요."
   },
   {
     "id": "information-reduction--analogy--decomposition",
@@ -279,16 +295,55 @@
     "directed": false,
     "description": "목적에 따라 표현의 복잡도를 줄이는 관점에서 비교할 수 있는가?",
     "conditions": "축약과 가역적인 분해는 다르다. 같은 수학적 구조라고 주장하지 않는다.",
-    "evidence": "서로 다른 대본의 탐구 질문을 연결한 후보로 근거는 아직 미확인.",
+    "evidence": "관련 문헌을 배경으로 한 탐구 후보. 이 관계 자체의 수학적 근거는 아직 확인하지 않았다.",
     "sourceIds": [
-      "src-sufficiency"
+      "ref-cuny-sufficiency"
     ],
     "verificationStatus": "proposed",
-    "provenance": "repository_review",
+    "provenance": "ai_suggestion",
     "questions": [
       "가역적인 표현 변환과 목적에 따른 정보 손실은 어떻게 구분할까?"
     ],
-    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
-    "sourceLocator": "144–153초"
+    "limitations": "기록된 조건 안에서만 해석한다. 그래프 연결은 동치나 다른 관계의 합성에 대한 증명이 아니다.",
+    "sourceLocator": "Neyman Factorization Theorem; Exponential Families; Minimal Sufficient Statistic",
+    "reviewNote": "2026-11-25: 미검증 후보로 보존. 출처는 배경 읽기 자료이며 이 관계의 증명이 아니다."
+  },
+  {
+    "id": "likelihood--representation--factorization-theorem",
+    "source": "likelihood",
+    "target": "factorization-theorem",
+    "type": "representation",
+    "directed": true,
+    "description": "우도의 데이터 의존성을 통계량을 통한 인수분해로 표현한다.",
+    "conditions": "공통 가산 표본공간의 이산 모형과 질량함수 fθ(x). h는 θ와 무관하고 gθ는 x에 T(x)를 통해서만 의존한다.",
+    "evidence": "CUNY 강의의 인수분해식은 모수 의존 인자를 T(x)와 모수의 함수로 분리한다.",
+    "sourceIds": [
+      "ref-cuny-sufficiency"
+    ],
+    "verificationStatus": "verified",
+    "provenance": "literature_review",
+    "questions": [],
+    "limitations": "여기서 확인한 증명은 이산 경우이다. 연속·일반 측도론적 정당화는 별도 검토한다. 최소충분성이나 저장량 최소성을 주장하지 않는다.",
+    "sourceLocator": "Neyman Factorization Theorem — Proof (discrete distribution)",
+    "reviewNote": "2026-11-25: 해당 강의의 정리 및 이산 증명 확인."
+  },
+  {
+    "id": "factorization-theorem--derivation--sufficient-statistic",
+    "source": "factorization-theorem",
+    "target": "sufficient-statistic",
+    "type": "derivation",
+    "directed": true,
+    "description": "인수분해 조건으로 충분통계량을 판별한다.",
+    "conditions": "공통 가산 표본공간의 이산 모형과 질량함수 fθ(x). h는 θ와 무관하고 gθ는 x에 T(x)를 통해서만 의존한다.",
+    "evidence": "CUNY 강의가 제시한 이산 경우 증명에서 T가 주어진 조건부 질량함수의 모수 의존성이 사라진다.",
+    "sourceIds": [
+      "ref-cuny-sufficiency"
+    ],
+    "verificationStatus": "verified",
+    "provenance": "literature_review",
+    "questions": [],
+    "limitations": "여기서 확인한 증명은 이산 경우이다. 연속·일반 측도론적 정당화는 별도 검토한다. 최소충분성이나 저장량 최소성을 주장하지 않는다.",
+    "sourceLocator": "Neyman Factorization Theorem — Proof (discrete distribution)",
+    "reviewNote": "2026-11-25: 해당 강의의 정리 및 이산 증명 확인."
   }
 ]

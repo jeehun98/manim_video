@@ -10,6 +10,7 @@ import sources from '../data/sources.json';
 import contents from '../data/contents.json';
 import {validateAtlas} from './validation.mjs';
 import {visibleGraph} from './graph.mjs';
+import {searchConcepts} from '../knowledge/retrieval.mjs';
 import {type Atlas, type Concept, type Relation, colors, learningLabels, verificationLabels, relationLabels} from './model';
 
 const atlas = {concepts, relations, sources, contents} as Atlas;
@@ -24,7 +25,7 @@ function App() {
   const container=useRef<HTMLDivElement>(null); const graph=useRef<Core|null>(null);
   const errors=useMemo(()=>validateAtlas(atlas),[]);
   const visible=useMemo(()=>visibleGraph(atlas,{domain,type,learning,verification,focus,depth}),[domain,type,learning,verification,focus,depth]);
-  const matches=atlas.concepts.filter(n=>`${n.name} ${n.id} ${n.tags.join(' ')}`.toLowerCase().includes(query.toLowerCase()));
+  const matches=searchConcepts(atlas,query) as Concept[];
   const node=selection.kind==='node'?atlas.concepts.find(n=>n.id===selection.id):undefined;
   const edge=selection.kind==='edge'?atlas.relations.find(r=>r.id===selection.id):undefined;
   const selectNode=(id:string)=>setSelection({kind:'node',id});
@@ -72,13 +73,13 @@ function App() {
   },[selection,visible]);
   const titleOf=(id:string)=>atlas.concepts.find(n=>n.id===id)?.name||id;
   function sourceList(ids:string[],locator?:string) {
-    return ids.map(id=>{const s=atlas.sources.find(s=>s.id===id);return s?<div className="source" key={id}><strong>{s.title}</strong><span>{locator||s.locator}</span>{s.path?<a href={`/repository/${s.path}`} target="_blank" rel="noreferrer">대본 열기 ↗</a>:<a href={s.url} target="_blank" rel="noreferrer">문헌 열기 ↗</a>}</div>:null;});
+    return ids.map(id=>{const s=atlas.sources.find(s=>s.id===id);return s?<div className="source" key={id}><strong>{s.title}</strong><span>{locator||s.locator}</span>{s.path?<a href={`/repository/${s.path}`} target="_blank" rel="noreferrer">보조 자료 열기 ↗</a>:<a href={s.url} target="_blank" rel="noreferrer">문헌 열기 ↗</a>}</div>:null;});
   }
   if(errors.length)return <main className="fatal"><h1>지식 데이터를 확인해 주세요</h1><pre>{errors.join('\n')}</pre></main>;
   return <div className="app">
-    <header><div className="brand"><span className="brand-icon">⌘</span><div>Knowledge Atlas<small>PERSONAL RESEARCH ENVIRONMENT</small></div></div><div className="header-note">연결을 따라, 이해의 바깥으로.</div><span className="local-label">로컬 연구 공간</span></header>
+    <header><div className="brand"><span className="brand-icon">⌘</span><div>Knowledge Atlas<small>SHARED KNOWLEDGE BASE</small></div></div><div className="header-note">AI와 사람이 함께 참조하는 지식 기반</div><span className="local-label">로컬 지식 기반</span></header>
     <div className="workspace">
-      <aside className="sidebar"><div className="section-kicker">EXPLORE</div><h2>지식 탐색</h2><label className="search-label">개념 검색<input autoComplete="off" type="search" placeholder="이름, 영문 ID, 태그 검색" value={query} onChange={e=>setQuery(e.target.value)}/></label>
+      <aside className="sidebar"><div className="section-kicker">EXPLORE</div><h2>지식 탐색</h2><label className="search-label">개념 검색<input autoComplete="off" type="search" placeholder="이름, 별칭, ID, 설명 검색" value={query} onChange={e=>setQuery(e.target.value)}/></label>
         <div className="filters"><label>학문 분야<select value={domain} onChange={e=>setDomain(e.target.value)}><option value="">모든 분야</option>{[...new Set(atlas.concepts.map(n=>n.domain))].map(d=><option key={d}>{d}</option>)}</select></label>
         <label>관계 유형<select value={type} onChange={e=>setType(e.target.value)}><option value="">모든 관계</option>{Object.entries(relationLabels).map(([id,name])=><option key={id} value={id}>{name}</option>)}</select></label>
         <label>나의 학습 상태<select value={learning} onChange={e=>setLearning(e.target.value)}><option value="">모든 학습 상태</option>{Object.entries(learningLabels).map(([id,name])=><option key={id} value={id}>{name}</option>)}</select></label>
@@ -98,13 +99,13 @@ function App() {
       {node&&<><div className="detail-meta"><span>{node.type}</span><span>{node.domain}</span></div><h2>{node.name}</h2><p className="description">{node.description}</p><div className="badge">{learningLabels[node.learningStatus]}</div>
         {node.formula&&<div className="formula" dangerouslySetInnerHTML={{__html:katex.renderToString(node.formula,{throwOnError:false,trust:false,displayMode:true})}}/>}
         <section><h3>연결된 관계</h3>{atlas.relations.filter(r=>r.source===node.id||r.target===node.id).map(r=><button className="relation-row" key={r.id} onClick={()=>setSelection({kind:'edge',id:r.id})}><span>{relationLabels[r.type]}<small>{verificationLabels[r.verificationStatus]}</small></span><strong>{titleOf(r.source===node.id?r.target:r.source)}<small>{r.directed?`${titleOf(r.source)} → ${titleOf(r.target)}`:'방향 없는 관계'}</small></strong></button>)}</section>
-        <Questions questions={node.questions}/><section><h3>참고 자료</h3>{sourceList(node.sourceIds)}</section><section><h3>관련 콘텐츠</h3>{atlas.contents.filter(c=>c.conceptIds.includes(node.id)).map(c=><div className="source" key={c.id}><strong>{c.title}</strong><span>{c.status==='script_present'?'대본 파일 확인':c.status}</span><a href={`/repository/${c.path}`} target="_blank" rel="noreferrer">제작 자료 열기 ↗</a><small>{c.note}</small></div>)}</section>
+        {node.aliases?.length>0&&<p className="muted">별칭: {node.aliases.join(' · ')}</p>}<Questions questions={node.questions}/><section><h3>문헌·근거 자료</h3>{node.sourceIds.length?sourceList(node.sourceIds):<p>탐구 관점으로 등록한 노드입니다. 직접 근거는 아직 등록되지 않았습니다.</p>}</section>{atlas.contents.some(c=>c.conceptIds.includes(node.id))&&<section><h3>관련 출력물·보조 자료</h3>{atlas.contents.filter(c=>c.conceptIds.includes(node.id)).map(c=><div className="source" key={c.id}><strong>{c.title}</strong><span>{c.status==='script_present'?'대본 파일 확인':c.status}</span><a href={`/repository/${c.path}`} target="_blank" rel="noreferrer">제작 자료 열기 ↗</a><small>{c.note}</small></div>)}</section>}
       </>}
-      {edge&&<><div className="detail-meta"><span>{relationLabels[edge.type]}</span><span className={'status '+edge.verificationStatus}>{verificationLabels[edge.verificationStatus]}</span></div><h2 className="edge-title"><button onClick={()=>selectNode(edge.source)}>{titleOf(edge.source)}</button><span>{edge.directed?'→':'↔'}</span><button onClick={()=>selectNode(edge.target)}>{titleOf(edge.target)}</button></h2><p className="description">{edge.description}</p><section><h3>성립 조건</h3><p>{edge.conditions}</p></section><section><h3>근거와 설명</h3><p>{edge.evidence}</p></section><section><h3>한계 및 미확인 사항</h3><p>{edge.limitations}</p></section><Questions questions={edge.questions}/><section><h3>참고 자료</h3>{sourceList(edge.sourceIds,edge.sourceLocator)}</section><p className="muted">기록 유래: {edge.provenance}<br/>검증 상태와 나의 이해 상태는 별개입니다.</p></>}
+      {edge&&<><div className="detail-meta"><span>{relationLabels[edge.type]}</span><span className={'status '+edge.verificationStatus}>{verificationLabels[edge.verificationStatus]}</span></div><h2 className="edge-title"><button onClick={()=>selectNode(edge.source)}>{titleOf(edge.source)}</button><span>{edge.directed?'→':'↔'}</span><button onClick={()=>selectNode(edge.target)}>{titleOf(edge.target)}</button></h2><p className="description">{edge.description}</p><section><h3>성립 조건</h3><p>{edge.conditions}</p></section><section><h3>근거와 설명</h3><p>{edge.evidence}</p></section><section><h3>한계 및 미확인 사항</h3><p>{edge.limitations}</p></section><Questions questions={edge.questions}/>{edge.reviewNote&&<section><h3>검토 기록</h3><p>{edge.reviewNote}</p></section>}<section><h3>참고 자료</h3>{sourceList(edge.sourceIds,edge.sourceLocator)}</section><p className="muted">기록 유래: {edge.provenance}<br/>검증 상태와 나의 이해 상태는 별개입니다.</p></>}
       {!visible.concepts.some((n:Concept)=>n.id===node?.id)&&node&&<p className="notice">선택한 개념은 현재 그래프 필터 밖에 있습니다.</p>}
       <div className="editor-note">기록 수정은 data/ JSON 파일에서 합니다. 이 화면은 저장된 연구 기록을 탐색합니다.</div>
       </aside>
-    </div><footer><span>KNOWLEDGE ATLAS <b> / </b> Graph View</span><span>출발점: 저장소의 대본 4개 · 외부 문헌 검증 전</span></footer>
+    </div><footer><span>KNOWLEDGE ATLAS <b> / </b> Graph View</span><span>{atlas.concepts.length}개 개념 · {atlas.relations.filter(r=>r.verificationStatus==='verified').length}개 관계 근거 확인 · CLI와 동일 지식 기반</span></footer>
   </div>;
 }
 function Questions({questions}:{questions:string[]}){return questions.length?<section><h3>탐구 질문</h3>{questions.map(q=><p className="question" key={q}>{q}</p>)}</section>:null;}

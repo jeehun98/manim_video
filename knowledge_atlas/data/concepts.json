@@ -10,11 +10,15 @@
       "해석학"
     ],
     "sourceIds": [
-      "src-fourier"
+      "ref-dlmf-fourier"
     ],
     "learningStatus": "unassessed",
     "questions": [
       "어떤 함수 공간과 수렴 개념에서 전개가 성립하는가?"
+    ],
+    "aliases": [
+      "Fourier series",
+      "푸리에급수"
     ]
   },
   {
@@ -28,11 +32,15 @@
       "물리학"
     ],
     "sourceIds": [
-      "src-fourier"
+      "ref-toronto-heat"
     ],
     "learningStatus": "unassessed",
     "questions": [
       "경계조건이 달라지면 어떤 기저를 골라야 하는가?"
+    ],
+    "aliases": [
+      "Heat equation",
+      "확산 방정식"
     ]
   },
   {
@@ -46,10 +54,14 @@
       "해석학"
     ],
     "sourceIds": [
-      "src-fourier"
+      "ref-dlmf-fourier"
     ],
     "learningStatus": "unassessed",
-    "questions": []
+    "questions": [],
+    "aliases": [
+      "Sine and cosine",
+      "삼각함수"
+    ]
   },
   {
     "id": "vector-space",
@@ -62,10 +74,13 @@
       "선형대수"
     ],
     "sourceIds": [
-      "src-hilbert"
+      "ref-dlmf-hilbert"
     ],
     "learningStatus": "unassessed",
-    "questions": []
+    "questions": [],
+    "aliases": [
+      "Vector space"
+    ]
   },
   {
     "id": "inner-product",
@@ -78,11 +93,14 @@
       "선형대수"
     ],
     "sourceIds": [
-      "src-hilbert"
+      "ref-dlmf-hilbert"
     ],
     "learningStatus": "unassessed",
     "questions": [
       "내적을 바꾸면 같은 벡터들의 직교성은 어떻게 달라지는가?"
+    ],
+    "aliases": [
+      "Inner product"
     ]
   },
   {
@@ -96,10 +114,13 @@
       "선형대수"
     ],
     "sourceIds": [
-      "src-hilbert"
+      "ref-dlmf-hilbert"
     ],
     "learningStatus": "unassessed",
-    "questions": []
+    "questions": [],
+    "aliases": [
+      "Inner product space"
+    ]
   },
   {
     "id": "orthogonality",
@@ -112,10 +133,13 @@
       "선형대수"
     ],
     "sourceIds": [
-      "src-hilbert"
+      "ref-dlmf-hilbert"
     ],
     "learningStatus": "unassessed",
-    "questions": []
+    "questions": [],
+    "aliases": [
+      "Orthogonality"
+    ]
   },
   {
     "id": "completeness",
@@ -128,11 +152,14 @@
       "해석학"
     ],
     "sourceIds": [
-      "src-hilbert"
+      "ref-dlmf-hilbert"
     ],
     "learningStatus": "unassessed",
     "questions": [
       "함수 공간의 완비성을 보이려면 어떤 노름이 필요한가?"
+    ],
+    "aliases": [
+      "Completeness"
     ]
   },
   {
@@ -146,11 +173,14 @@
       "해석학"
     ],
     "sourceIds": [
-      "src-hilbert"
+      "ref-dlmf-hilbert"
     ],
     "learningStatus": "unassessed",
     "questions": [
       "푸리에 전개와 직교 정사영을 어떤 조건에서 연결할 수 있는가?"
+    ],
+    "aliases": [
+      "Hilbert space"
     ]
   },
   {
@@ -164,10 +194,13 @@
       "선형대수"
     ],
     "sourceIds": [
-      "src-qr"
+      "ref-mit-gram-schmidt"
     ],
     "learningStatus": "unassessed",
-    "questions": []
+    "questions": [],
+    "aliases": [
+      "Orthogonal projection"
+    ]
   },
   {
     "id": "gram-schmidt",
@@ -180,11 +213,16 @@
       "선형대수"
     ],
     "sourceIds": [
-      "src-qr"
+      "ref-mit-gram-schmidt"
     ],
     "learningStatus": "unassessed",
     "questions": [
       "선형종속 입력이나 부동소수점 계산에서는 무엇이 달라지는가?"
+    ],
+    "aliases": [
+      "Gram-Schmidt",
+      "Gram Schmidt",
+      "그람 슈미트"
     ]
   },
   {
@@ -193,16 +231,19 @@
     "type": "Concept",
     "domain": "통계학",
     "description": "주어진 통계 모형에서 관심 모수에 관한 정보를 보존하는 통계량. 원자료 복원과는 다르다.",
-    "formula": "\\bar X=\\frac1n\\sum_{i=1}^nX_i",
+    "formula": "f_\\theta(x)=g_\\theta(T(x))h(x)",
     "tags": [
       "통계학"
     ],
     "sourceIds": [
-      "src-sufficiency"
+      "ref-cuny-sufficiency"
     ],
     "learningStatus": "unassessed",
     "questions": [
       "분산도 미지수이면 표본평균만으로 충분하지 않은 이유는?"
+    ],
+    "aliases": [
+      "Sufficient statistic"
     ]
   },
   {
@@ -216,10 +257,13 @@
       "통계학"
     ],
     "sourceIds": [
-      "src-sufficiency"
+      "ref-cuny-sufficiency"
     ],
     "learningStatus": "unassessed",
-    "questions": []
+    "questions": [],
+    "aliases": [
+      "Likelihood"
+    ]
   },
   {
     "id": "representation",
@@ -231,12 +275,13 @@
     "tags": [
       "공통 아이디어"
     ],
-    "sourceIds": [
-      "src-fourier"
-    ],
+    "sourceIds": [],
     "learningStatus": "unassessed",
     "questions": [
       "표현을 바꾸면서 무엇이 보존되고 무엇이 단순해지는가?"
+    ],
+    "aliases": [
+      "Change of representation"
     ]
   },
   {
@@ -249,11 +294,12 @@
     "tags": [
       "공통 아이디어"
     ],
-    "sourceIds": [
-      "src-fourier"
-    ],
+    "sourceIds": [],
     "learningStatus": "unassessed",
-    "questions": []
+    "questions": [],
+    "aliases": [
+      "Decomposition and synthesis"
+    ]
   },
   {
     "id": "information-reduction",
@@ -265,12 +311,37 @@
     "tags": [
       "공통 아이디어"
     ],
-    "sourceIds": [
-      "src-sufficiency"
-    ],
+    "sourceIds": [],
     "learningStatus": "unassessed",
     "questions": [
       "정보 보존의 기준을 과제별로 어떻게 정의하는가?"
+    ],
+    "aliases": [
+      "Information reduction"
+    ]
+  },
+  {
+    "id": "factorization-theorem",
+    "name": "네이만–피셔 인수분해 정리",
+    "aliases": [
+      "Neyman-Fisher factorization theorem",
+      "Factorization theorem",
+      "인수분해 정리"
+    ],
+    "type": "Theorem",
+    "domain": "통계학",
+    "description": "공통 지배측도에 대한 밀도 또는 질량함수가 있을 때, 데이터의 모수 의존 부분이 통계량을 통해 인수분해되는 조건으로 충분성을 판별한다.",
+    "formula": "f_\\theta(x)=g_\\theta(T(x))h(x)",
+    "tags": [
+      "충분성",
+      "통계적 추론"
+    ],
+    "sourceIds": [
+      "ref-cuny-sufficiency"
+    ],
+    "learningStatus": "unassessed",
+    "questions": [
+      "이산 경우의 증명에서 조건부 분포가 모수와 무관해지는 단계는 무엇인가?"
     ]
   }
 ]

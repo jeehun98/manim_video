@@ -16,7 +16,7 @@ test('filters never leave dangling graph edges',()=>{
   const g=visibleGraph(data,filters), ids=new Set(g.concepts.map(n=>n.id));
   assert(g.relations.every(r=>ids.has(r.source)&&ids.has(r.target)));
  }
- assert.equal(visibleGraph(data,{verification:'verified'}).concepts.length,0);
+ assert(visibleGraph(data,{verification:'verified'}).relations.every(r=>r.verificationStatus==='verified'));
 });
 test('rejects duplicate IDs, dangling references and automatically verified AI claims',()=>{
  const bad=structuredClone(data); bad.concepts.push(bad.concepts[0]); bad.relations[0].target='missing'; bad.relations[0].verificationStatus='verified';bad.relations[0].provenance='ai_suggestion';

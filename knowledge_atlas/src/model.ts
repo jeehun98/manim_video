@@ -1,7 +1,7 @@
 export type LearningStatus = 'unassessed' | 'learning' | 'explainable' | 'understood';
 export type VerificationStatus = 'proposed' | 'investigating' | 'verified' | 'rejected';
 export interface Concept {
-  id: string; name: string; type: string; domain: string; description: string;
+  id: string; name: string; aliases: string[]; type: string; domain: string; description: string;
   formula?: string | null; tags: string[]; sourceIds: string[];
   learningStatus: LearningStatus; questions: string[];
 }
@@ -9,7 +9,7 @@ export interface Relation {
   id: string; source: string; target: string; type: string; directed: boolean;
   description: string; conditions: string; evidence: string; sourceIds: string[];
   verificationStatus: VerificationStatus; provenance: string; questions: string[];
-  limitations: string; sourceLocator: string;
+  limitations: string; sourceLocator: string; reviewNote?: string;
 }
 export interface Source { id: string; title: string; kind: string; path?: string; url?: string; locator: string }
 export interface Content { id: string; title: string; path: string; conceptIds: string[]; status: string; note: string }
