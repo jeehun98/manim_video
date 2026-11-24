@@ -1,0 +1,30 @@
+[
+  {
+    "id": "src-fourier",
+    "title": "사인과 코사인 — 확정 대본",
+    "path": "episodes/basis01_fourier_heat/narration.md",
+    "locator": "60–144초",
+    "kind": "repository"
+  },
+  {
+    "id": "src-hilbert",
+    "title": "벡터에는 원래 길이도 각도도 없다?",
+    "path": "longforms/hilbert/structure_short/narration.md",
+    "locator": "11–170초",
+    "kind": "repository"
+  },
+  {
+    "id": "src-qr",
+    "title": "내적과 정사영으로 만드는 직교 좌표축",
+    "path": "longforms/dot05_gram_schmidt_qr/narration.md",
+    "locator": "전체 문장별 내레이션",
+    "kind": "repository"
+  },
+  {
+    "id": "src-sufficiency",
+    "title": "모든 것이 필요할까? 04 — 충분통계량",
+    "path": "longforms/minimal04_sufficiency/narration.md",
+    "locator": "7–153초",
+    "kind": "repository"
+  }
+]

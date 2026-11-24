@@ -1,0 +1,54 @@
+[
+  {
+    "id": "content-src-fourier",
+    "title": "사인과 코사인 — 확정 대본",
+    "path": "episodes/basis01_fourier_heat/narration.md",
+    "conceptIds": [
+      "fourier-series",
+      "heat-equation",
+      "sine-cosine",
+      "representation",
+      "decomposition"
+    ],
+    "status": "script_present",
+    "note": "대본 파일 존재 확인. 최종 영상의 제작·검수 완료 여부는 판정하지 않음."
+  },
+  {
+    "id": "content-src-hilbert",
+    "title": "벡터에는 원래 길이도 각도도 없다?",
+    "path": "longforms/hilbert/structure_short/narration.md",
+    "conceptIds": [
+      "vector-space",
+      "inner-product",
+      "inner-product-space",
+      "orthogonality",
+      "completeness",
+      "hilbert-space"
+    ],
+    "status": "script_present",
+    "note": "대본 파일 존재 확인. 최종 영상의 제작·검수 완료 여부는 판정하지 않음."
+  },
+  {
+    "id": "content-src-qr",
+    "title": "내적과 정사영으로 만드는 직교 좌표축",
+    "path": "longforms/dot05_gram_schmidt_qr/narration.md",
+    "conceptIds": [
+      "projection",
+      "gram-schmidt"
+    ],
+    "status": "script_present",
+    "note": "대본 파일 존재 확인. 최종 영상의 제작·검수 완료 여부는 판정하지 않음."
+  },
+  {
+    "id": "content-src-sufficiency",
+    "title": "모든 것이 필요할까? 04 — 충분통계량",
+    "path": "longforms/minimal04_sufficiency/narration.md",
+    "conceptIds": [
+      "sufficient-statistic",
+      "likelihood",
+      "information-reduction"
+    ],
+    "status": "script_present",
+    "note": "대본 파일 존재 확인. 최종 영상의 제작·검수 완료 여부는 판정하지 않음."
+  }
+]

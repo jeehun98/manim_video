@@ -1,0 +1,296 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "concepts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "enum": [
+              "Concept",
+              "Structure",
+              "Theorem",
+              "Method",
+              "Idea",
+              "Phenomenon",
+              "Problem"
+            ]
+          },
+          "domain": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "formula": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "sourceIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "learningStatus": {
+            "enum": [
+              "unassessed",
+              "learning",
+              "explainable",
+              "understood"
+            ]
+          },
+          "questions": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "type",
+          "domain",
+          "description",
+          "tags",
+          "sourceIds",
+          "learningStatus",
+          "questions"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1
+          },
+          "target": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "enum": [
+              "prerequisite",
+              "generalization",
+              "specialization",
+              "equivalence",
+              "isomorphism",
+              "representation",
+              "transformation",
+              "application",
+              "derivation",
+              "shared_strategy",
+              "analogy",
+              "related_to"
+            ]
+          },
+          "directed": {
+            "type": "boolean"
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "conditions": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sourceIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "verificationStatus": {
+            "enum": [
+              "proposed",
+              "investigating",
+              "verified",
+              "rejected"
+            ]
+          },
+          "provenance": {
+            "enum": [
+              "ai_suggestion",
+              "repository_review",
+              "literature_review",
+              "user_review"
+            ]
+          },
+          "questions": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "limitations": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sourceLocator": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "source",
+          "target",
+          "type",
+          "directed",
+          "description",
+          "conditions",
+          "evidence",
+          "sourceIds",
+          "verificationStatus",
+          "provenance",
+          "questions",
+          "limitations",
+          "sourceLocator"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "locator": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "enum": [
+              "repository",
+              "external"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "locator",
+          "kind"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "contents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "conceptIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "status": {
+            "enum": [
+              "script_present",
+              "candidate",
+              "in_progress",
+              "completed"
+            ]
+          },
+          "note": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "path",
+          "conceptIds",
+          "status",
+          "note"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "concepts",
+    "relations",
+    "sources",
+    "contents"
+  ],
+  "additionalProperties": false
+}

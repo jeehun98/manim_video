@@ -1,0 +1,276 @@
+[
+  {
+    "id": "fourier-series",
+    "name": "푸리에 급수",
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "함수를 사인·코사인 등 주파수 성분의 합으로 표현한다. 수렴의 의미와 경계조건을 함께 살펴본다.",
+    "formula": "f(x)\\sim\\sum_{n\\in\\mathbb{Z}}c_n e^{inx}",
+    "tags": [
+      "해석학"
+    ],
+    "sourceIds": [
+      "src-fourier"
+    ],
+    "learningStatus": "unassessed",
+    "questions": [
+      "어떤 함수 공간과 수렴 개념에서 전개가 성립하는가?"
+    ]
+  },
+  {
+    "id": "heat-equation",
+    "name": "열방정식",
+    "type": "Theorem",
+    "domain": "물리학",
+    "description": "온도 분포의 시간 변화와 공간적 곡률을 연결하는 확산 방정식.",
+    "formula": "\\partial_t u=\\kappa\\partial_{xx}u",
+    "tags": [
+      "물리학"
+    ],
+    "sourceIds": [
+      "src-fourier"
+    ],
+    "learningStatus": "unassessed",
+    "questions": [
+      "경계조건이 달라지면 어떤 기저를 골라야 하는가?"
+    ]
+  },
+  {
+    "id": "sine-cosine",
+    "name": "사인과 코사인",
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "진동과 주기적 변화를 표현하며, 적절한 함수 공간에서 분해의 기본 성분이 된다.",
+    "formula": "\\frac{d^2}{dx^2}\\sin(kx)=-k^2\\sin(kx)",
+    "tags": [
+      "해석학"
+    ],
+    "sourceIds": [
+      "src-fourier"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "vector-space",
+    "name": "벡터 공간",
+    "type": "Structure",
+    "domain": "선형대수",
+    "description": "덧셈과 스칼라곱의 공리를 만족하는 공간. 이 구조만으로 길이나 각도가 정해지지는 않는다.",
+    "formula": "a u+b v\\in V",
+    "tags": [
+      "선형대수"
+    ],
+    "sourceIds": [
+      "src-hilbert"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "inner-product",
+    "name": "내적",
+    "type": "Concept",
+    "domain": "선형대수",
+    "description": "벡터 공간에 길이와 직교성을 정의할 수 있도록 하는 추가 구조.",
+    "formula": "\\|v\\|=\\sqrt{\\langle v,v\\rangle}",
+    "tags": [
+      "선형대수"
+    ],
+    "sourceIds": [
+      "src-hilbert"
+    ],
+    "learningStatus": "unassessed",
+    "questions": [
+      "내적을 바꾸면 같은 벡터들의 직교성은 어떻게 달라지는가?"
+    ]
+  },
+  {
+    "id": "inner-product-space",
+    "name": "내적 공간",
+    "type": "Structure",
+    "domain": "선형대수",
+    "description": "내적을 부여한 벡터 공간. 내적이 유도하는 노름으로 수렴을 논할 수 있다.",
+    "formula": "(V,\\langle\\cdot,\\cdot\\rangle)",
+    "tags": [
+      "선형대수"
+    ],
+    "sourceIds": [
+      "src-hilbert"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "orthogonality",
+    "name": "직교성",
+    "type": "Concept",
+    "domain": "선형대수",
+    "description": "두 벡터의 내적이 0인 관계. 선택한 내적에 의존한다.",
+    "formula": "\\langle u,v\\rangle=0",
+    "tags": [
+      "선형대수"
+    ],
+    "sourceIds": [
+      "src-hilbert"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "completeness",
+    "name": "완비성",
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "공간 안의 모든 코시 수열이 그 공간 안에서 수렴하는 성질.",
+    "formula": null,
+    "tags": [
+      "해석학"
+    ],
+    "sourceIds": [
+      "src-hilbert"
+    ],
+    "learningStatus": "unassessed",
+    "questions": [
+      "함수 공간의 완비성을 보이려면 어떤 노름이 필요한가?"
+    ]
+  },
+  {
+    "id": "hilbert-space",
+    "name": "힐베르트 공간",
+    "type": "Structure",
+    "domain": "해석학",
+    "description": "내적이 유도하는 노름에 대해 완비인 내적 공간.",
+    "formula": "H\\text{ is a complete inner product space}",
+    "tags": [
+      "해석학"
+    ],
+    "sourceIds": [
+      "src-hilbert"
+    ],
+    "learningStatus": "unassessed",
+    "questions": [
+      "푸리에 전개와 직교 정사영을 어떤 조건에서 연결할 수 있는가?"
+    ]
+  },
+  {
+    "id": "projection",
+    "name": "정사영",
+    "type": "Method",
+    "domain": "선형대수",
+    "description": "선택한 부분공간 방향의 성분을 내적으로 추출한다.",
+    "formula": "\\operatorname{proj}_{q}v=\\langle v,q\\rangle q,\\quad\\|q\\|=1",
+    "tags": [
+      "선형대수"
+    ],
+    "sourceIds": [
+      "src-qr"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "gram-schmidt",
+    "name": "그람–슈미트 과정",
+    "type": "Method",
+    "domain": "선형대수",
+    "description": "이전 기저 방향의 정사영을 빼고 정규화해 직교정규 기저를 만든다.",
+    "formula": "u_k=v_k-\\sum_{j<k}\\langle v_k,q_j\\rangle q_j",
+    "tags": [
+      "선형대수"
+    ],
+    "sourceIds": [
+      "src-qr"
+    ],
+    "learningStatus": "unassessed",
+    "questions": [
+      "선형종속 입력이나 부동소수점 계산에서는 무엇이 달라지는가?"
+    ]
+  },
+  {
+    "id": "sufficient-statistic",
+    "name": "충분통계량",
+    "type": "Concept",
+    "domain": "통계학",
+    "description": "주어진 통계 모형에서 관심 모수에 관한 정보를 보존하는 통계량. 원자료 복원과는 다르다.",
+    "formula": "\\bar X=\\frac1n\\sum_{i=1}^nX_i",
+    "tags": [
+      "통계학"
+    ],
+    "sourceIds": [
+      "src-sufficiency"
+    ],
+    "learningStatus": "unassessed",
+    "questions": [
+      "분산도 미지수이면 표본평균만으로 충분하지 않은 이유는?"
+    ]
+  },
+  {
+    "id": "likelihood",
+    "name": "우도",
+    "type": "Concept",
+    "domain": "통계학",
+    "description": "관측 데이터를 고정하고 모수를 변화시켜 보는 확률 또는 확률밀도의 함수.",
+    "formula": "L(\\theta;x)=p_\\theta(x)",
+    "tags": [
+      "통계학"
+    ],
+    "sourceIds": [
+      "src-sufficiency"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "representation",
+    "name": "표현의 변환",
+    "type": "Idea",
+    "domain": "공통 아이디어",
+    "description": "대상을 다른 표현으로 옮겨 구조나 계산을 살피는 탐구 관점. 고정된 학문 분류는 아니다.",
+    "formula": null,
+    "tags": [
+      "공통 아이디어"
+    ],
+    "sourceIds": [
+      "src-fourier"
+    ],
+    "learningStatus": "unassessed",
+    "questions": [
+      "표현을 바꾸면서 무엇이 보존되고 무엇이 단순해지는가?"
+    ]
+  },
+  {
+    "id": "decomposition",
+    "name": "분해와 합성",
+    "type": "Idea",
+    "domain": "공통 아이디어",
+    "description": "복잡한 대상을 성분으로 나누고 각 성분을 다룬 뒤 다시 합치는 전략.",
+    "formula": null,
+    "tags": [
+      "공통 아이디어"
+    ],
+    "sourceIds": [
+      "src-fourier"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "information-reduction",
+    "name": "정보의 축약",
+    "type": "Idea",
+    "domain": "공통 아이디어",
+    "description": "목적에 필요한 정보를 남기는 관점. 통계적 충분성·압축·모델 축소는 구분해서 탐구한다.",
+    "formula": null,
+    "tags": [
+      "공통 아이디어"
+    ],
+    "sourceIds": [
+      "src-sufficiency"
+    ],
+    "learningStatus": "unassessed",
+    "questions": [
+      "정보 보존의 기준을 과제별로 어떻게 정의하는가?"
+    ]
+  }
+]

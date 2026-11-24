@@ -1,0 +1,294 @@
+[
+  {
+    "id": "vector-space--specialization--inner-product-space",
+    "source": "vector-space",
+    "target": "inner-product-space",
+    "type": "specialization",
+    "directed": true,
+    "description": "벡터 공간에 내적을 추가하여 내적 공간을 얻는다.",
+    "conditions": "기저 체는 실수 또는 복소수이며 내적 공리를 만족하는 연산을 선택한다.",
+    "evidence": "대본이 내적을 부여한 벡터 공간을 내적 공간으로 정의한다.",
+    "sourceIds": [
+      "src-hilbert"
+    ],
+    "verificationStatus": "investigating",
+    "provenance": "repository_review",
+    "questions": [],
+    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
+    "sourceLocator": "98–107초"
+  },
+  {
+    "id": "inner-product-space--specialization--hilbert-space",
+    "source": "inner-product-space",
+    "target": "hilbert-space",
+    "type": "specialization",
+    "directed": true,
+    "description": "내적 공간에 완비성 조건을 추가하면 힐베르트 공간이 된다.",
+    "conditions": "완비성은 내적이 유도한 노름에 관한 것이다.",
+    "evidence": "대본의 정의 및 코시 수열 설명.",
+    "sourceIds": [
+      "src-hilbert"
+    ],
+    "verificationStatus": "investigating",
+    "provenance": "repository_review",
+    "questions": [],
+    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
+    "sourceLocator": "110–146초"
+  },
+  {
+    "id": "completeness--prerequisite--hilbert-space",
+    "source": "completeness",
+    "target": "hilbert-space",
+    "type": "prerequisite",
+    "directed": true,
+    "description": "힐베르트 공간의 정의를 이해하려면 완비성을 이해해야 한다.",
+    "conditions": "학습을 위한 선행 관계이며 논리적 동치는 아니다.",
+    "evidence": "모든 코시 수열의 공간 내 수렴을 설명한 뒤 힐베르트 공간을 정의한다.",
+    "sourceIds": [
+      "src-hilbert"
+    ],
+    "verificationStatus": "investigating",
+    "provenance": "repository_review",
+    "questions": [],
+    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
+    "sourceLocator": "136–146초"
+  },
+  {
+    "id": "inner-product--derivation--orthogonality",
+    "source": "inner-product",
+    "target": "orthogonality",
+    "type": "derivation",
+    "directed": true,
+    "description": "직교성은 선택한 내적이 0인지로 정의된다.",
+    "conditions": "같은 벡터라도 내적이 달라지면 직교 여부가 달라질 수 있다.",
+    "evidence": "대본의 내적 선택에 따른 직교성 비교.",
+    "sourceIds": [
+      "src-hilbert"
+    ],
+    "verificationStatus": "investigating",
+    "provenance": "repository_review",
+    "questions": [],
+    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
+    "sourceLocator": "70–102초"
+  },
+  {
+    "id": "inner-product--prerequisite--projection",
+    "source": "inner-product",
+    "target": "projection",
+    "type": "prerequisite",
+    "directed": true,
+    "description": "정사영의 계수는 내적으로 계산한다.",
+    "conditions": "표시 수식은 단위벡터 q에 대한 정사영이다.",
+    "evidence": "대본에서 내적으로 겹치는 성분을 계산한다.",
+    "sourceIds": [
+      "src-qr"
+    ],
+    "verificationStatus": "investigating",
+    "provenance": "repository_review",
+    "questions": [],
+    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
+    "sourceLocator": "38–49초"
+  },
+  {
+    "id": "projection--application--gram-schmidt",
+    "source": "projection",
+    "target": "gram-schmidt",
+    "type": "application",
+    "directed": true,
+    "description": "기존 방향의 정사영을 제거해 직교 성분을 만든다.",
+    "conditions": "정규화 단계의 잔차는 0이 아니어야 한다. 독립인 입력을 전제로 한다.",
+    "evidence": "두 벡터 예제에서 정사영을 빼는 계산.",
+    "sourceIds": [
+      "src-qr"
+    ],
+    "verificationStatus": "investigating",
+    "provenance": "repository_review",
+    "questions": [],
+    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
+    "sourceLocator": "32–57초"
+  },
+  {
+    "id": "orthogonality--related_to--fourier-series",
+    "source": "orthogonality",
+    "target": "fourier-series",
+    "type": "related_to",
+    "directed": true,
+    "description": "푸리에 계수와 직교 정사영의 관계를 탐구한다.",
+    "conditions": "함수 공간·내적·완전한 직교계와 수렴의 의미를 명시해야 한다.",
+    "evidence": "함수의 내적과 직교성으로 푸리에 해석의 출발점을 소개한다.",
+    "sourceIds": [
+      "src-hilbert"
+    ],
+    "verificationStatus": "investigating",
+    "provenance": "repository_review",
+    "questions": [
+      "L²에서의 수렴과 점별 수렴은 어떻게 다른가?"
+    ],
+    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
+    "sourceLocator": "155–170초"
+  },
+  {
+    "id": "hilbert-space--related_to--fourier-series",
+    "source": "hilbert-space",
+    "target": "fourier-series",
+    "type": "related_to",
+    "directed": true,
+    "description": "푸리에 전개를 완비 내적 공간의 관점에서 살펴본다.",
+    "conditions": "모든 푸리에 관련 표현을 별도 조건 없이 동일시하지 않는다.",
+    "evidence": "함수 공간으로의 확장에 대한 대본의 마지막 설명.",
+    "sourceIds": [
+      "src-hilbert"
+    ],
+    "verificationStatus": "proposed",
+    "provenance": "repository_review",
+    "questions": [],
+    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
+    "sourceLocator": "155–170초"
+  },
+  {
+    "id": "sine-cosine--representation--fourier-series",
+    "source": "sine-cosine",
+    "target": "fourier-series",
+    "type": "representation",
+    "directed": true,
+    "description": "적절한 함수들을 사인과 코사인의 합으로 표현한다.",
+    "conditions": "주기·구간·경계조건 및 수렴 조건을 지정해야 한다.",
+    "evidence": "온도 분포의 사인·코사인 전개를 설명한다.",
+    "sourceIds": [
+      "src-fourier"
+    ],
+    "verificationStatus": "investigating",
+    "provenance": "repository_review",
+    "questions": [],
+    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
+    "sourceLocator": "60–75초"
+  },
+  {
+    "id": "fourier-series--application--heat-equation",
+    "source": "fourier-series",
+    "target": "heat-equation",
+    "type": "application",
+    "directed": true,
+    "description": "온도 분포를 모드로 나누어 각 성분의 감쇠를 계산한다.",
+    "conditions": "선형 열방정식과 해당 모드에 맞는 경계조건을 사용한다.",
+    "evidence": "각 성분의 변화를 계산한 뒤 합치며 높은 주파수는 더 빨리 감쇠한다.",
+    "sourceIds": [
+      "src-fourier"
+    ],
+    "verificationStatus": "investigating",
+    "provenance": "repository_review",
+    "questions": [],
+    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
+    "sourceLocator": "99–138초"
+  },
+  {
+    "id": "representation--application--fourier-series",
+    "source": "representation",
+    "target": "fourier-series",
+    "type": "application",
+    "directed": true,
+    "description": "주파수 성분으로 표현을 바꾸어 변화를 계산한다.",
+    "conditions": "공통 아이디어의 사례이며 수학적 동치 관계를 뜻하지 않는다.",
+    "evidence": "분포의 계산을 성분별 크기 계산으로 바꾼다.",
+    "sourceIds": [
+      "src-fourier"
+    ],
+    "verificationStatus": "investigating",
+    "provenance": "repository_review",
+    "questions": [],
+    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
+    "sourceLocator": "128–144초"
+  },
+  {
+    "id": "decomposition--application--fourier-series",
+    "source": "decomposition",
+    "target": "fourier-series",
+    "type": "application",
+    "directed": true,
+    "description": "복잡한 함수를 성분으로 나누고 다시 합치는 전략의 사례.",
+    "conditions": "선형성과 전개의 유효 범위를 확인해야 한다.",
+    "evidence": "성분별 계산과 재합성에 대한 설명.",
+    "sourceIds": [
+      "src-fourier"
+    ],
+    "verificationStatus": "investigating",
+    "provenance": "repository_review",
+    "questions": [],
+    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
+    "sourceLocator": "117–144초"
+  },
+  {
+    "id": "decomposition--shared_strategy--gram-schmidt",
+    "source": "decomposition",
+    "target": "gram-schmidt",
+    "type": "shared_strategy",
+    "directed": false,
+    "description": "성분을 분리하는 관점에서 두 절차를 비교한다.",
+    "conditions": "푸리에 전개와 그람–슈미트 과정이 동일한 절차라는 주장은 아니다.",
+    "evidence": "정사영 제거와 성분별 분해를 비교할 탐구 후보.",
+    "sourceIds": [
+      "src-qr"
+    ],
+    "verificationStatus": "proposed",
+    "provenance": "repository_review",
+    "questions": [],
+    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
+    "sourceLocator": "32–57초"
+  },
+  {
+    "id": "likelihood--prerequisite--sufficient-statistic",
+    "source": "likelihood",
+    "target": "sufficient-statistic",
+    "type": "prerequisite",
+    "directed": true,
+    "description": "대본은 상대 우도 형태의 보존으로 충분성을 설명한다.",
+    "conditions": "독립 동일 정규분포, 알려진 분산, 고정된 표본 크기에서 평균 모수를 추론하는 사례.",
+    "evidence": "데이터와 모수가 함께 등장하는 항에 표본합만 남는다는 전개.",
+    "sourceIds": [
+      "src-sufficiency"
+    ],
+    "verificationStatus": "investigating",
+    "provenance": "repository_review",
+    "questions": [],
+    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
+    "sourceLocator": "7–79초"
+  },
+  {
+    "id": "sufficient-statistic--shared_strategy--information-reduction",
+    "source": "sufficient-statistic",
+    "target": "information-reduction",
+    "type": "shared_strategy",
+    "directed": true,
+    "description": "관심 대상에 필요한 정보를 남기며 데이터를 축약하는 사례로 탐구한다.",
+    "conditions": "충분성은 명시한 모형과 모수에 대한 성질이다. 최소 저장량이나 원자료 복원을 뜻하지 않는다.",
+    "evidence": "평균·분산을 모두 추론할 경우와 통계적 최소성의 한계를 설명한다.",
+    "sourceIds": [
+      "src-sufficiency"
+    ],
+    "verificationStatus": "investigating",
+    "provenance": "repository_review",
+    "questions": [],
+    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
+    "sourceLocator": "100–153초"
+  },
+  {
+    "id": "information-reduction--analogy--decomposition",
+    "source": "information-reduction",
+    "target": "decomposition",
+    "type": "analogy",
+    "directed": false,
+    "description": "목적에 따라 표현의 복잡도를 줄이는 관점에서 비교할 수 있는가?",
+    "conditions": "축약과 가역적인 분해는 다르다. 같은 수학적 구조라고 주장하지 않는다.",
+    "evidence": "서로 다른 대본의 탐구 질문을 연결한 후보로 근거는 아직 미확인.",
+    "sourceIds": [
+      "src-sufficiency"
+    ],
+    "verificationStatus": "proposed",
+    "provenance": "repository_review",
+    "questions": [
+      "가역적인 표현 변환과 목적에 따른 정보 손실은 어떻게 구분할까?"
+    ],
+    "limitations": "저장소 대본의 설명을 출발점으로 기록했다. 외부 문헌의 정리·증명 확인은 별도 필요하다.",
+    "sourceLocator": "144–153초"
+  }
+]
