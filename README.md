@@ -2394,3 +2394,36 @@ python episodes/irrational01_boundaries/build.py --preview --scene 11
 
 - [벡터·내적·힐베르트 공간 세로 쇼츠](longforms/hilbert/structure_short/README.md): 확정 36문장·170초·6씬, 세로 1080p30, 무음·전체 자막. `python longforms/hilbert/structure_short/build.py`.
 >>>>>>> 0296b18a216ccf9014bd5d2b3f1dcaab01311f39
+
+## 베르누이 분포와 이항분포 쇼츠 (bernoulli01)
+
+176초 · 9:16 · 수식 표기 자막 · TTS 미제공으로 무음.
+소스·대본·타이밍·제작 기준: `episodes/bernoulli01_estimation/`.
+
+```powershell
+python scripts/render.py bernoulli01
+python episodes/bernoulli01_estimation/build.py --preview --scene 03
+```
+결과: `exports/bernoulli01_short.mp4`.
+
+## 새로운 수론의 시작, p진수 쇼츠 (padic01)
+
+178초 · 9:16 · 모바일 배치를 고려한 수식 표기 자막 · TTS 미제공으로 무음.
+제작 자료: `episodes/padic01_local_global/`.
+
+```powershell
+python scripts/render.py padic01
+python episodes/padic01_local_global/build.py --preview --scene 08
+```
+결과: `exports/padic01_short.mp4`.
+
+## 모듈러 연산 쇼츠 (mod01)
+
+178초 · 9:16 · 60fps (제공 콘티 설정) · 모바일 자막 배치 · TTS 미제공으로 무음.
+제작 자료: `episodes/mod01_residue_arithmetic/`.
+
+```powershell
+python scripts/render.py mod01
+python episodes/mod01_residue_arithmetic/build.py --preview --scene 04
+```
+결과: `exports/mod01_short.mp4`.
