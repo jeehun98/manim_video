@@ -1,5 +1,9 @@
 # 롱폼 제작 규격
 
+- [확률분포 롱폼 1장](probability_chapter_01/README.md) · 547초, 16:9 1080p30, 무음·전체 자막.
+
+- [확률분포 롱폼 0장](probability_chapter_00/README.md) · 확정 38문장·221초, 9씬, 16:9 1080p30. 0·1장 통합용 0장 클립.
+
 <<<<<<< HEAD
 - [열방정식 1–5장 음성 포함 통합 롱폼](fourier_heat/full_01_05/README.md): 열방정식_1~5.mp3를 각 장과 먼저 결합 후 통합.1080p30,MP4 챕터·통합 SRT·유튜브 구간 설명. `py -3.12 longforms/fourier_heat/full_01_05/build.py`.
 
