@@ -345,5 +345,79 @@
     "limitations": "여기서 확인한 증명은 이산 경우이다. 연속·일반 측도론적 정당화는 별도 검토한다. 최소충분성이나 저장량 최소성을 주장하지 않는다.",
     "sourceLocator": "Neyman Factorization Theorem — Proof (discrete distribution)",
     "reviewNote": "2026-11-25: 해당 강의의 정리 및 이산 증명 확인."
+  },
+  {
+    "id": "evolution-cauchy-problem--application--kdv-equation",
+    "source": "evolution-cauchy-problem",
+    "target": "kdv-equation",
+    "type": "application",
+    "directed": true,
+    "description": "KdV를 초기값 문제로 다루면 초기 파형에서 출발하는 전체 시간발전을 연구할 수 있다.",
+    "conditions": "실수선에서 초기값이 H⁻¹(ℝ)에 속하며 해 흐름은 매끄러운 해 흐름의 연속 확장으로 정의한다.",
+    "evidence": "Killip–Vişan은 H⁻¹(ℝ)에서 전역 적정성을 증명했다. 논문의 q=-u로 이 기록의 부호 관례에 맞춘다.",
+    "sourceIds": [
+      "ref-killip-visan-kdv"
+    ],
+    "verificationStatus": "verified",
+    "provenance": "literature_review",
+    "questions": [],
+    "limitations": "다른 영역이나 해의 정의에는 별도의 정리가 필요하다.",
+    "sourceLocator": "초록, §1",
+    "reviewNote": "2026-11-25 초록, §1 검토. 기록된 실수선과 함수 공간 범위에 한정."
+  },
+  {
+    "id": "kdv-equation--related_to--solitary-wave-orbital-stability",
+    "source": "kdv-equation",
+    "target": "solitary-wave-orbital-stability",
+    "type": "related_to",
+    "directed": false,
+    "description": "KdV의 표준 고립파는 평행이동을 허용하면 작은 초기 교란에 안정적이다.",
+    "conditions": "실수선에서 양의 속도의 표준 고립파와 충분히 작은 H¹ 교란을 고려한다.",
+    "evidence": "Bona–Souganidis–Strauss의 궤도 안정성 정의와 제약된 에너지 최소화 논증을 표준 KdV에 적용한다.",
+    "sourceIds": [
+      "ref-bona-souganidis-strauss"
+    ],
+    "verificationStatus": "verified",
+    "provenance": "literature_review",
+    "questions": [],
+    "limitations": "궤도 근방에 머무른다는 결론만으로 장시간 수렴을 얻을 수는 없다.",
+    "sourceLocator": "§2, §4–5",
+    "reviewNote": "2026-11-25 §2, §4–5 검토. 기록된 실수선과 함수 공간 범위에 한정."
+  },
+  {
+    "id": "inverse-scattering-transform--application--kdv-equation",
+    "source": "inverse-scattering-transform",
+    "target": "kdv-equation",
+    "type": "application",
+    "directed": true,
+    "description": "역산란 변환을 KdV의 초기값 문제에 적용해 비선형 시간발전을 산란 데이터의 시간발전으로 바꾼다.",
+    "conditions": "실수선 위에서 충분히 매끄럽고 빠르게 감쇠하는 초기값을 우선 다룬다.",
+    "evidence": "GGKM의 원논문은 산란 정보를 이용한 해 구성과 다중 솔리톤 해를 제시한다.",
+    "sourceIds": [
+      "ref-ggkm-kdv"
+    ],
+    "verificationStatus": "proposed",
+    "provenance": "ai_suggestion",
+    "questions": [],
+    "limitations": "초기값의 감쇠 조건과 연산자의 부호 관례를 확인한다.",
+    "sourceLocator": "pp. 1095–1097"
+  },
+  {
+    "id": "heat-equation--shared_strategy--kdv-equation",
+    "source": "heat-equation",
+    "target": "kdv-equation",
+    "type": "shared_strategy",
+    "directed": false,
+    "description": "열방정식과 KdV를 함수 공간에서 초기 상태가 시간에 따라 움직이는 코시 문제로 함께 읽을 수 있다.",
+    "conditions": "각 방정식의 공간 영역과 해를 측정할 함수 공간을 따로 명시한다.",
+    "evidence": "탐구 문서의 발전 방정식 비교에서 출발한 연결 후보다.",
+    "sourceIds": [
+      "src-kdv-notes"
+    ],
+    "verificationStatus": "proposed",
+    "provenance": "ai_suggestion",
+    "questions": [],
+    "limitations": "두 모델의 적정성 범위나 시간발전 성질을 이 연결로 옮길 수는 없다.",
+    "sourceLocator": "전체"
   }
 ]

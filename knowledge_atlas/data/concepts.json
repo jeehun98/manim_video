@@ -343,5 +343,2463 @@
     "questions": [
       "이산 경우의 증명에서 조건부 분포가 모수와 무관해지는 단계는 무엇인가?"
     ]
+  },
+  {
+    "id": "kdv-equation",
+    "name": "KdV 방정식",
+    "type": "Concept",
+    "domain": "편미분방정식",
+    "description": "비선형 항과 3차 공간미분 분산 항을 갖는 발전 편미분방정식.",
+    "formula": "u_t+6uu_x+u_{xxx}=0",
+    "tags": [
+      "편미분방정식",
+      "KdV"
+    ],
+    "sourceIds": [
+      "ref-killip-visan-kdv",
+      "src-kdv-notes"
+    ],
+    "learningStatus": "unassessed",
+    "questions": [
+      "어떤 초기 조건에서 이동파가 나타나는가?"
+    ],
+    "aliases": [
+      "Korteweg–de Vries equation",
+      "KdV"
+    ]
+  },
+  {
+    "id": "evolution-cauchy-problem",
+    "name": "발전 방정식의 코시 문제",
+    "type": "Problem",
+    "domain": "편미분방정식",
+    "description": "주어진 초기 상태에서 출발하는 해의 존재성, 유일성, 초기값에 대한 연속 의존성을 연구한다.",
+    "tags": [
+      "편미분방정식",
+      "KdV"
+    ],
+    "sourceIds": [
+      "ref-killip-visan-kdv",
+      "src-kdv-notes"
+    ],
+    "learningStatus": "unassessed",
+    "questions": [
+      "어떤 함수 공간과 시간 범위에서 해의 흐름을 정의할 수 있는가?"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "solitary-wave-orbital-stability",
+    "name": "고립파의 궤도 안정성",
+    "type": "Concept",
+    "domain": "편미분방정식",
+    "description": "충분히 작은 초기 교란을 가하면 해가 고립파의 평행이동 궤도 가까이에 머무르는 성질이다.",
+    "tags": [
+      "편미분방정식",
+      "KdV"
+    ],
+    "sourceIds": [
+      "ref-bona-souganidis-strauss",
+      "src-kdv-notes"
+    ],
+    "learningStatus": "unassessed",
+    "questions": [
+      "평행이동을 허용한 거리로 안정성을 어떻게 표현하는가?"
+    ],
+    "aliases": [
+      "고립파 안정성"
+    ]
+  },
+  {
+    "id": "inverse-scattering-transform",
+    "name": "역산란 변환",
+    "type": "Method",
+    "domain": "편미분방정식",
+    "description": "초기 파형의 산란 정보를 구하고, 그 정보를 시간에 따라 진화시킨 뒤 파형을 복원한다.",
+    "tags": [
+      "편미분방정식",
+      "KdV"
+    ],
+    "sourceIds": [
+      "ref-ggkm-kdv",
+      "src-kdv-notes"
+    ],
+    "learningStatus": "unassessed",
+    "questions": [
+      "선형 산란 문제에서 얻는 데이터가 비선형 파형을 어떻게 결정하는가?"
+    ],
+    "aliases": [
+      "Inverse scattering transform",
+      "IST"
+    ]
+  },
+  {
+    "id": "wave",
+    "name": "파동",
+    "aliases": [
+      "Wave"
+    ],
+    "type": "Concept",
+    "domain": "파동과 물리",
+    "description": "교란의 공간적 전파",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "oscillation",
+    "name": "진동",
+    "aliases": [
+      "Oscillation"
+    ],
+    "type": "Concept",
+    "domain": "파동과 물리",
+    "description": "평형 상태 주변의 반복 운동",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "restoring-force",
+    "name": "복원력",
+    "aliases": [
+      "Restoring Force"
+    ],
+    "type": "Concept",
+    "domain": "파동과 물리",
+    "description": "평형 상태로 되돌리는 힘",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "inertia",
+    "name": "관성",
+    "aliases": [
+      "Inertia"
+    ],
+    "type": "Concept",
+    "domain": "파동과 물리",
+    "description": "기존 운동 상태를 유지하는 성질",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "linear-wave",
+    "name": "선형파",
+    "aliases": [
+      "Linear Wave"
+    ],
+    "type": "Concept",
+    "domain": "파동과 물리",
+    "description": "선형 방정식을 따르는 파동",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "nonlinear-wave",
+    "name": "비선형파",
+    "aliases": [
+      "Nonlinear Wave"
+    ],
+    "type": "Concept",
+    "domain": "파동과 물리",
+    "description": "비선형 방정식을 따르는 파동",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "travelling-wave",
+    "name": "이동파",
+    "aliases": [
+      "Travelling Wave"
+    ],
+    "type": "Concept",
+    "domain": "파동과 물리",
+    "description": "형태를 유지하며 이동하는 파동",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "periodic-wave",
+    "name": "주기파",
+    "aliases": [
+      "Periodic Wave"
+    ],
+    "type": "Concept",
+    "domain": "파동과 물리",
+    "description": "일정한 간격으로 반복되는 파동",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "solitary-wave",
+    "name": "고립파",
+    "aliases": [
+      "Solitary Wave"
+    ],
+    "type": "Concept",
+    "domain": "파동과 물리",
+    "description": "공간적으로 국소화된 이동파",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "soliton",
+    "name": "솔리톤",
+    "aliases": [
+      "Soliton"
+    ],
+    "type": "Concept",
+    "domain": "파동과 물리",
+    "description": "충돌 후 형태와 속도를 회복하는 고립파",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "wave-packet",
+    "name": "파동 묶음",
+    "aliases": [
+      "Wave Packet"
+    ],
+    "type": "Concept",
+    "domain": "파동과 물리",
+    "description": "여러 파동 성분의 국소적 중첩",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "superposition-principle",
+    "name": "중첩 원리",
+    "aliases": [
+      "Superposition Principle"
+    ],
+    "type": "Concept",
+    "domain": "파동과 물리",
+    "description": "해의 선형결합도 해가 되는 성질",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "dispersion",
+    "name": "분산",
+    "aliases": [
+      "Dispersion"
+    ],
+    "type": "Concept",
+    "domain": "파동과 물리",
+    "description": "파장별 전파 속도의 차이",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "non-dispersive",
+    "name": "비분산",
+    "aliases": [
+      "Non-dispersive"
+    ],
+    "type": "Concept",
+    "domain": "파동과 물리",
+    "description": "파장에 무관한 전파 속도",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "diffusion",
+    "name": "확산",
+    "aliases": [
+      "Diffusion"
+    ],
+    "type": "Concept",
+    "domain": "파동과 물리",
+    "description": "공간적 불균일성이 완화되는 현상",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "nonlinear-steepening",
+    "name": "비선형 첨예화",
+    "aliases": [
+      "Nonlinear Steepening"
+    ],
+    "type": "Concept",
+    "domain": "파동과 물리",
+    "description": "파동의 기울기가 가팔라지는 현상",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "phase-velocity",
+    "name": "위상속도",
+    "aliases": [
+      "Phase Velocity"
+    ],
+    "type": "Concept",
+    "domain": "파동과 물리",
+    "description": "개별 파동 위상의 이동 속도",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "group-velocity",
+    "name": "군속도",
+    "aliases": [
+      "Group Velocity"
+    ],
+    "type": "Concept",
+    "domain": "파동과 물리",
+    "description": "분산 관계에서 각주파수를 파수로 미분한 값. 좁은 대역 파동 묶음의 포락선 속도를 나타낸다.",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "dispersion-relation",
+    "name": "분산 관계",
+    "aliases": [
+      "Dispersion Relation"
+    ],
+    "type": "Concept",
+    "domain": "파동과 물리",
+    "description": "파수와 각주파수의 관계",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "phase-shift",
+    "name": "위상 이동",
+    "aliases": [
+      "Phase Shift"
+    ],
+    "type": "Concept",
+    "domain": "파동과 물리",
+    "description": "파동의 위상에 일정한 차이가 생기는 것",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "surface-tension",
+    "name": "표면장력",
+    "aliases": [
+      "Surface Tension"
+    ],
+    "type": "Concept",
+    "domain": "파동과 물리",
+    "description": "유체 표면적을 줄이려는 성질",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "incompressibility",
+    "name": "비압축성",
+    "aliases": [
+      "Incompressibility"
+    ],
+    "type": "Concept",
+    "domain": "파동과 물리",
+    "description": "유체 입자의 밀도가 운동을 따라 변하지 않는 성질",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "ordinary-differential-equation",
+    "name": "상미분방정식",
+    "aliases": [
+      "Ordinary Differential Equation",
+      "ODE"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식",
+    "description": "하나의 독립변수에 대한 미분방정식",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "partial-differential-equation",
+    "name": "편미분방정식",
+    "aliases": [
+      "Partial Differential Equation",
+      "PDE"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식",
+    "description": "둘 이상의 독립변수를 가진 미지 함수의 편미분을 포함하는 방정식",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "evolution-equation",
+    "name": "발전 방정식",
+    "aliases": [
+      "Evolution Equation"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식",
+    "description": "상태의 시간적 변화를 기술하는 방정식",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "wave-equation",
+    "name": "파동방정식",
+    "aliases": [
+      "Wave Equation"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식",
+    "description": "파동의 전파를 기술",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "transport-equation",
+    "name": "수송 방정식",
+    "aliases": [
+      "Transport Equation"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식",
+    "description": "물리량의 이동을 기술",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "shallow-water-equations",
+    "name": "천수 방정식",
+    "aliases": [
+      "Shallow Water Equations"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식",
+    "description": "얕은 물의 유체 운동을 기술",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "burgers-equation",
+    "name": "버거스 방정식",
+    "aliases": [
+      "Burgers' Equation"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식",
+    "description": "비선형 수송과 점성 효과를 기술",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "inviscid-burgers-equation",
+    "name": "비점성 버거스 방정식",
+    "aliases": [
+      "Inviscid Burgers' Equation"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식",
+    "description": "점성이 없는 비선형 수송",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "linear-airy-equation",
+    "name": "선형 에어리 방정식",
+    "aliases": [
+      "Linear Airy Equation"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식",
+    "description": "선형 분산 파동을 기술",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "schrodinger-equation",
+    "name": "슈뢰딩거 방정식",
+    "aliases": [
+      "Schrödinger Equation"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식",
+    "description": "양자 상태의 변화를 기술",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "reaction-diffusion-equation",
+    "name": "반응-확산 방정식",
+    "aliases": [
+      "Reaction-Diffusion Equation"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식",
+    "description": "국소적 반응과 공간적 확산을 기술",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "cauchy-problem",
+    "name": "코시 문제",
+    "aliases": [
+      "Cauchy Problem"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식의 해와 성질",
+    "description": "초기 자료가 주어진 미분방정식 문제",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "initial-value-problem",
+    "name": "초기값 문제",
+    "aliases": [
+      "Initial Value Problem",
+      "IVP"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식의 해와 성질",
+    "description": "초기 상태에서 이후의 해를 결정하는 문제",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "initial-condition",
+    "name": "초기 조건",
+    "aliases": [
+      "Initial Condition"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식의 해와 성질",
+    "description": "시간 발전의 출발 상태",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "boundary-condition",
+    "name": "경계 조건",
+    "aliases": [
+      "Boundary Condition"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식의 해와 성질",
+    "description": "영역의 경계에서 요구되는 조건",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "general-solution",
+    "name": "일반해",
+    "aliases": [
+      "General Solution"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식의 해와 성질",
+    "description": "임의 상수나 함수를 포함하는 해",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "particular-solution",
+    "name": "특수해",
+    "aliases": [
+      "Particular Solution"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식의 해와 성질",
+    "description": "특정 조건을 만족하는 개별 해",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "common-solution",
+    "name": "공통 해",
+    "aliases": [
+      "Common Solution"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식의 해와 성질",
+    "description": "서로 다른 방정식을 동시에 만족하는 해",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "solution-set",
+    "name": "해집합",
+    "aliases": [
+      "Solution Set"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식의 해와 성질",
+    "description": "방정식을 만족하는 모든 해의 집합",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "exact-solution",
+    "name": "정확해",
+    "aliases": [
+      "Exact Solution"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식의 해와 성질",
+    "description": "근사가 아닌 정확한 해",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "numerical-solution",
+    "name": "수치해",
+    "aliases": [
+      "Numerical Solution"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식의 해와 성질",
+    "description": "수치 계산으로 얻은 근사해",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "existence",
+    "name": "존재성",
+    "aliases": [
+      "Existence"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식의 해와 성질",
+    "description": "해가 존재하는가",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "uniqueness",
+    "name": "유일성",
+    "aliases": [
+      "Uniqueness"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식의 해와 성질",
+    "description": "해가 유일한가",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "continuous-dependence",
+    "name": "연속 의존성",
+    "aliases": [
+      "Continuous Dependence"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식의 해와 성질",
+    "description": "초기 자료의 작은 변화에 해가 연속적으로 반응하는가",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "well-posedness",
+    "name": "적정성",
+    "aliases": [
+      "Well-posedness"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식의 해와 성질",
+    "description": "존재성·유일성·연속 의존성",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "local-well-posedness",
+    "name": "국소 적정성",
+    "aliases": [
+      "Local Well-posedness"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식의 해와 성질",
+    "description": "제한된 시간 구간에서의 적정성",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "global-well-posedness",
+    "name": "전역 적정성",
+    "aliases": [
+      "Global Well-posedness"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식의 해와 성질",
+    "description": "모든 미래 시간에서의 적정성",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "regularity",
+    "name": "정칙성",
+    "aliases": [
+      "Regularity"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식의 해와 성질",
+    "description": "해의 매끄러움과 미분 가능성",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "blow-up",
+    "name": "발산·폭주",
+    "aliases": [
+      "Blow-up"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식의 해와 성질",
+    "description": "유한 시간에 특정 노름이나 물리량이 발산하는 현상",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "decay",
+    "name": "감쇠",
+    "aliases": [
+      "Decay"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식의 해와 성질",
+    "description": "시간 또는 공간에 따라 크기가 감소하는 성질",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "travelling-wave-reduction",
+    "name": "이동파 환원",
+    "aliases": [
+      "Travelling Wave Reduction"
+    ],
+    "type": "Concept",
+    "domain": "미분방정식의 해와 성질",
+    "description": "이동 좌표를 사용한 PDE의 ODE 환원",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "analysis",
+    "name": "해석학",
+    "aliases": [
+      "Analysis"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "극한, 연속성, 미분, 적분 등의 연구",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "functional-analysis",
+    "name": "함수해석학",
+    "aliases": [
+      "Functional Analysis"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "함수 공간과 연산자의 연구",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "fourier-analysis",
+    "name": "푸리에 해석",
+    "aliases": [
+      "Fourier Analysis"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "함수를 주파수 성분으로 분석",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "fourier-transform",
+    "name": "푸리에 변환",
+    "aliases": [
+      "Fourier Transform"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "함수를 주파수 표현으로 변환",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "spectral-theory",
+    "name": "스펙트럼 이론",
+    "aliases": [
+      "Spectral Theory"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "연산자의 스펙트럼과 관련 구조 연구",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "function-space",
+    "name": "함수 공간",
+    "aliases": [
+      "Function Space"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "함수들을 원소로 갖는 공간",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "sobolev-space",
+    "name": "소볼레프 공간",
+    "aliases": [
+      "Sobolev Space"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "약한 미분과 적분 가능성을 고려한 함수 공간",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "norm",
+    "name": "노름",
+    "aliases": [
+      "Norm"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "원소의 크기를 측정하는 함수",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "operator",
+    "name": "연산자",
+    "aliases": [
+      "Operator"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "함수를 다른 함수 등으로 대응시키는 사상",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "linear-operator",
+    "name": "선형 연산자",
+    "aliases": [
+      "Linear Operator"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "선형결합을 보존하는 연산자",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "nonlinear-operator",
+    "name": "비선형 연산자",
+    "aliases": [
+      "Nonlinear Operator"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "선형성을 만족하지 않는 연산자",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "schrodinger-operator",
+    "name": "슈뢰딩거 연산자",
+    "aliases": [
+      "Schrödinger Operator"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "운동에너지와 퍼텐셜 항을 포함한 미분연산자",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "eigenvalue",
+    "name": "고유값",
+    "aliases": [
+      "Eigenvalue"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "고유벡터에 대한 연산자의 배율",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "infinite-dimensional-space",
+    "name": "무한차원 공간",
+    "aliases": [
+      "Infinite-dimensional Space"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "유한한 기저로 표현할 수 없는 공간",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "dynamical-system",
+    "name": "동역학계",
+    "aliases": [
+      "Dynamical System"
+    ],
+    "type": "Concept",
+    "domain": "동역학계와 안정성",
+    "description": "시간에 따라 변화하는 상태와 그 법칙",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "state-space",
+    "name": "상태 공간",
+    "aliases": [
+      "State Space"
+    ],
+    "type": "Concept",
+    "domain": "동역학계와 안정성",
+    "description": "가능한 모든 상태의 공간",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "trajectory",
+    "name": "궤적",
+    "aliases": [
+      "Trajectory"
+    ],
+    "type": "Concept",
+    "domain": "동역학계와 안정성",
+    "description": "시간에 따른 상태의 이동 경로",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "degree-of-freedom",
+    "name": "자유도",
+    "aliases": [
+      "Degree of Freedom"
+    ],
+    "type": "Concept",
+    "domain": "동역학계와 안정성",
+    "description": "상태를 결정하는 독립적인 변수의 수",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "equilibrium-point",
+    "name": "평형점",
+    "aliases": [
+      "Equilibrium Point"
+    ],
+    "type": "Concept",
+    "domain": "동역학계와 안정성",
+    "description": "시간에 따라 변화하지 않는 상태",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "dynamic-equilibrium",
+    "name": "동적 평형",
+    "aliases": [
+      "Dynamic Equilibrium"
+    ],
+    "type": "Concept",
+    "domain": "동역학계와 안정성",
+    "description": "여러 과정의 균형으로 유지되는 상태",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "perturbation",
+    "name": "섭동",
+    "aliases": [
+      "Perturbation"
+    ],
+    "type": "Concept",
+    "domain": "동역학계와 안정성",
+    "description": "기존 상태나 법칙에 가해지는 작은 변화",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "perturbation-theory",
+    "name": "섭동 이론",
+    "aliases": [
+      "Perturbation Theory"
+    ],
+    "type": "Concept",
+    "domain": "동역학계와 안정성",
+    "description": "작은 변화에 따른 해의 변화를 연구",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "stability",
+    "name": "안정성",
+    "aliases": [
+      "Stability"
+    ],
+    "type": "Concept",
+    "domain": "동역학계와 안정성",
+    "description": "작은 교란에도 성질이 유지되는가",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "orbital-stability",
+    "name": "궤도 안정성",
+    "aliases": [
+      "Orbital Stability"
+    ],
+    "type": "Concept",
+    "domain": "동역학계와 안정성",
+    "description": "대칭적 이동을 허용한 궤도 주변에 머무는 성질",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "bifurcation-theory",
+    "name": "분기 이론",
+    "aliases": [
+      "Bifurcation Theory"
+    ],
+    "type": "Concept",
+    "domain": "동역학계와 안정성",
+    "description": "매개변수에 따른 동역학 구조의 질적 변화",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "critical-point",
+    "name": "임계점",
+    "aliases": [
+      "Critical Point"
+    ],
+    "type": "Concept",
+    "domain": "동역학계와 안정성",
+    "description": "맥락에 따라 구조적 변화가 발생하는 지점",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "invariant-subspace",
+    "name": "불변 부분공간",
+    "aliases": [
+      "Invariant Subspace"
+    ],
+    "type": "Concept",
+    "domain": "동역학계와 안정성",
+    "description": "연산을 적용해도 벗어나지 않는 부분공간",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "invariant-manifold",
+    "name": "불변 다양체",
+    "aliases": [
+      "Invariant Manifold"
+    ],
+    "type": "Concept",
+    "domain": "동역학계와 안정성",
+    "description": "시간 발전에 의해 보존되는 다양체",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "dimensionality-reduction",
+    "name": "차원 축소",
+    "aliases": [
+      "Dimensionality Reduction"
+    ],
+    "type": "Concept",
+    "domain": "동역학계와 안정성",
+    "description": "적은 변수로 구조를 표현",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "effective-theory",
+    "name": "유효 이론",
+    "aliases": [
+      "Effective Theory"
+    ],
+    "type": "Concept",
+    "domain": "동역학계와 안정성",
+    "description": "특정 조건과 규모에서 필요한 자유도만 고려하는 이론",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "stationary-distribution",
+    "name": "정상분포",
+    "aliases": [
+      "Stationary Distribution"
+    ],
+    "type": "Concept",
+    "domain": "동역학계와 안정성",
+    "description": "확률적 시간 발전에 의해 보존되는 분포",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "invariant",
+    "name": "불변량",
+    "aliases": [
+      "Invariant"
+    ],
+    "type": "Concept",
+    "domain": "보존 법칙과 적분가능계",
+    "description": "특정 변환이나 운동에서도 유지되는 양",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "conserved-quantity",
+    "name": "보존량",
+    "aliases": [
+      "Conserved Quantity"
+    ],
+    "type": "Concept",
+    "domain": "보존 법칙과 적분가능계",
+    "description": "시간 발전에도 변하지 않는 물리량",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "conservation-law",
+    "name": "보존 법칙",
+    "aliases": [
+      "Conservation Law"
+    ],
+    "type": "Concept",
+    "domain": "보존 법칙과 적분가능계",
+    "description": "특정 양의 보존을 나타내는 법칙",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "symmetry",
+    "name": "대칭성",
+    "aliases": [
+      "Symmetry"
+    ],
+    "type": "Concept",
+    "domain": "보존 법칙과 적분가능계",
+    "description": "특정 변환 아래에서 구조가 유지되는 성질",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "translational-symmetry",
+    "name": "병진 대칭성",
+    "aliases": [
+      "Translational Symmetry"
+    ],
+    "type": "Concept",
+    "domain": "보존 법칙과 적분가능계",
+    "description": "공간적 위치 이동에 대한 대칭성",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "hamiltonian",
+    "name": "해밀토니안",
+    "aliases": [
+      "Hamiltonian"
+    ],
+    "type": "Concept",
+    "domain": "보존 법칙과 적분가능계",
+    "description": "계의 시간 발전을 생성하는 함수 또는 연산자",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "hamiltonian-system",
+    "name": "해밀턴계",
+    "aliases": [
+      "Hamiltonian System"
+    ],
+    "type": "Concept",
+    "domain": "보존 법칙과 적분가능계",
+    "description": "해밀턴 구조에 의해 발전하는 동역학계",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "integrable-system",
+    "name": "적분가능계",
+    "aliases": [
+      "Integrable System"
+    ],
+    "type": "Concept",
+    "domain": "보존 법칙과 적분가능계",
+    "description": "충분한 보존 구조를 통해 특별한 해석이 가능한 계",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "lax-pair",
+    "name": "락스 쌍",
+    "aliases": [
+      "Lax Pair"
+    ],
+    "type": "Concept",
+    "domain": "보존 법칙과 적분가능계",
+    "description": "비선형 발전을 연산자 쌍의 관계로 표현하는 구조",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "isospectral-evolution",
+    "name": "등스펙트럼 발전",
+    "aliases": [
+      "Isospectral Evolution"
+    ],
+    "type": "Concept",
+    "domain": "보존 법칙과 적분가능계",
+    "description": "연산자의 스펙트럼을 보존하는 시간 발전",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "scattering-theory",
+    "name": "산란 이론",
+    "aliases": [
+      "Scattering Theory"
+    ],
+    "type": "Concept",
+    "domain": "보존 법칙과 적분가능계",
+    "description": "파동의 산란과 장기적 거동을 연구",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "direct-scattering-problem",
+    "name": "정산란 문제",
+    "aliases": [
+      "Direct Scattering Problem"
+    ],
+    "type": "Concept",
+    "domain": "보존 법칙과 적분가능계",
+    "description": "연산자로부터 산란 정보를 구하는 문제",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "inverse-scattering-problem",
+    "name": "역산란 문제",
+    "aliases": [
+      "Inverse Scattering Problem"
+    ],
+    "type": "Concept",
+    "domain": "보존 법칙과 적분가능계",
+    "description": "산란 정보로부터 원래 대상을 복원하는 문제",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "nonlinear-fourier-transform",
+    "name": "비선형 푸리에 변환",
+    "aliases": [
+      "Nonlinear Fourier Transform"
+    ],
+    "type": "Concept",
+    "domain": "보존 법칙과 적분가능계",
+    "description": "비선형 문제에 대한 푸리에 해석의 유사 구조",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "multi-soliton-solution",
+    "name": "다중 솔리톤 해",
+    "aliases": [
+      "Multi-soliton Solution"
+    ],
+    "type": "Concept",
+    "domain": "보존 법칙과 적분가능계",
+    "description": "여러 솔리톤의 상호작용을 나타내는 해",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "linearity",
+    "name": "선형성",
+    "aliases": [
+      "Linearity"
+    ],
+    "type": "Concept",
+    "domain": "공통 아이디어",
+    "description": "덧셈과 스칼라배를 보존하는 성질",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "nonlinearity",
+    "name": "비선형성",
+    "aliases": [
+      "Nonlinearity"
+    ],
+    "type": "Concept",
+    "domain": "공통 아이디어",
+    "description": "선형성을 만족하지 않는 성질",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "structure-preservation",
+    "name": "구조 보존",
+    "aliases": [
+      "Structure Preservation"
+    ],
+    "type": "Concept",
+    "domain": "공통 아이디어",
+    "description": "변환이나 발전에도 특정 구조가 유지되는 성질",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "cancellation",
+    "name": "효과의 상쇄",
+    "aliases": [
+      "Cancellation"
+    ],
+    "type": "Concept",
+    "domain": "공통 아이디어",
+    "description": "여러 효과가 서로의 영향을 제거하는 현상",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "intersection",
+    "name": "교집합",
+    "aliases": [
+      "Intersection"
+    ],
+    "type": "Concept",
+    "domain": "공통 아이디어",
+    "description": "여러 집합에 공통으로 속하는 원소들의 집합",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "reduction",
+    "name": "환원",
+    "aliases": [
+      "Reduction"
+    ],
+    "type": "Concept",
+    "domain": "공통 아이디어",
+    "description": "문제를 더 단순한 형태로 변환",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "abstraction",
+    "name": "추상화",
+    "aliases": [
+      "Abstraction"
+    ],
+    "type": "Concept",
+    "domain": "공통 아이디어",
+    "description": "구체적인 대상에서 공통된 구조를 추출",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "generalization",
+    "name": "일반화",
+    "aliases": [
+      "Generalization"
+    ],
+    "type": "Concept",
+    "domain": "공통 아이디어",
+    "description": "성질의 적용 범위를 확장",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "inverse-problem",
+    "name": "역문제",
+    "aliases": [
+      "Inverse Problem"
+    ],
+    "type": "Concept",
+    "domain": "공통 아이디어",
+    "description": "관측 결과로부터 원인이나 모델을 추론",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "system-identification",
+    "name": "시스템 식별",
+    "aliases": [
+      "System Identification"
+    ],
+    "type": "Concept",
+    "domain": "공통 아이디어",
+    "description": "관측 데이터로부터 시스템의 운동 법칙을 추정",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "basis",
+    "name": "기저",
+    "aliases": [
+      "Basis"
+    ],
+    "type": "Concept",
+    "domain": "선형대수",
+    "description": "공간 전체를 생성하는 선형독립 벡터들의 집합",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "rank",
+    "name": "계수(랭크)",
+    "aliases": [
+      "Rank"
+    ],
+    "type": "Concept",
+    "domain": "선형대수",
+    "description": "선형사상의 상공간의 차원",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "null-space",
+    "name": "영공간",
+    "aliases": [
+      "Null Space",
+      "Kernel"
+    ],
+    "type": "Concept",
+    "domain": "선형대수",
+    "description": "선형사상이 영벡터로 보내는 벡터들의 공간",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "determinant",
+    "name": "행렬식",
+    "aliases": [
+      "Determinant"
+    ],
+    "type": "Concept",
+    "domain": "선형대수",
+    "description": "정사각행렬이 나타내는 선형변환의 부호 있는 부피 배율",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "eigenvector",
+    "name": "고유벡터",
+    "aliases": [
+      "Eigenvector"
+    ],
+    "type": "Concept",
+    "domain": "선형대수",
+    "description": "선형변환을 적용하면 자기 자신의 스칼라배가 되는 영이 아닌 벡터",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "singular-value-decomposition",
+    "name": "특이값 분해",
+    "aliases": [
+      "Singular Value Decomposition",
+      "SVD"
+    ],
+    "type": "Concept",
+    "domain": "선형대수",
+    "description": "행렬을 두 유니터리 행렬과 음이 아닌 특이값을 담은 대각 행렬의 곱으로 분해하는 방법",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "limit",
+    "name": "극한",
+    "aliases": [
+      "Limit"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "변수나 수열의 인덱스가 특정 방식으로 움직일 때 값이 가까워지는 대상",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "continuity",
+    "name": "연속성",
+    "aliases": [
+      "Continuity"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "한 점에서 함수값이 그 점으로 다가갈 때의 극한과 일치하는 성질",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "derivative",
+    "name": "도함수",
+    "aliases": [
+      "Derivative"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "함수의 순간 변화율을 각 점에 대응시키는 함수",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "taylor-series",
+    "name": "테일러 급수",
+    "aliases": [
+      "Taylor Series"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "한 점에서의 도함수 값들을 계수로 사용하는 거듭제곱급수",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "uniform-convergence",
+    "name": "균등수렴",
+    "aliases": [
+      "Uniform Convergence"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "정의역 전체에서 하나의 오차 기준으로 제어되는 함수열의 수렴",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "lebesgue-integral",
+    "name": "르베그 적분",
+    "aliases": [
+      "Lebesgue Integral"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "측도를 바탕으로 단순함수의 적분에서 확장한 적분",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "gaussian-elimination",
+    "name": "가우스 소거법",
+    "aliases": [
+      "Gaussian Elimination"
+    ],
+    "type": "Concept",
+    "domain": "수치해석과 최적화",
+    "description": "기본 행 연산으로 선형연립방정식을 풀기 쉬운 형태로 바꾸는 알고리즘",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "condition-number",
+    "name": "조건수",
+    "aliases": [
+      "Condition Number"
+    ],
+    "type": "Concept",
+    "domain": "수치해석과 최적화",
+    "description": "입력의 작은 상대 오차가 결과의 상대 오차에 얼마나 증폭될 수 있는지 나타내는 수",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "gradient",
+    "name": "기울기 벡터",
+    "aliases": [
+      "Gradient",
+      "그래디언트"
+    ],
+    "type": "Concept",
+    "domain": "수치해석과 최적화",
+    "description": "다변수 스칼라 함수의 편미분을 모은 벡터",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "hessian",
+    "name": "헤시안 행렬",
+    "aliases": [
+      "Hessian Matrix",
+      "Hessian"
+    ],
+    "type": "Concept",
+    "domain": "수치해석과 최적화",
+    "description": "스칼라 함수의 이계 편미분을 모은 행렬",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "convexity",
+    "name": "볼록성",
+    "aliases": [
+      "Convexity"
+    ],
+    "type": "Concept",
+    "domain": "수치해석과 최적화",
+    "description": "볼록함수에서 두 점 사이의 함수값이 두 함수값을 잇는 직선보다 높지 않은 성질",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "lagrange-multiplier",
+    "name": "라그랑주 승수",
+    "aliases": [
+      "Lagrange Multiplier"
+    ],
+    "type": "Concept",
+    "domain": "수치해석과 최적화",
+    "description": "등식 제약이 있는 최적화에서 목적함수와 제약식의 기울기를 연결하는 계수",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "conditional-probability",
+    "name": "조건부 확률",
+    "aliases": [
+      "Conditional Probability"
+    ],
+    "type": "Concept",
+    "domain": "통계학",
+    "description": "주어진 사건이 일어났다는 조건에서 다른 사건이 일어날 확률",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "random-variable",
+    "name": "확률변수",
+    "aliases": [
+      "Random Variable"
+    ],
+    "type": "Concept",
+    "domain": "통계학",
+    "description": "표본공간의 결과를 수로 보내는 가측함수",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "expectation",
+    "name": "기댓값",
+    "aliases": [
+      "Expected Value",
+      "Expectation"
+    ],
+    "type": "Concept",
+    "domain": "통계학",
+    "description": "확률분포로 가중한 확률변수의 평균",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "variance",
+    "name": "분산(통계)",
+    "aliases": [
+      "Variance"
+    ],
+    "type": "Concept",
+    "domain": "통계학",
+    "description": "확률변수와 그 기댓값 차이의 제곱에 대한 기댓값",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "covariance",
+    "name": "공분산",
+    "aliases": [
+      "Covariance"
+    ],
+    "type": "Concept",
+    "domain": "통계학",
+    "description": "두 확률변수가 각자의 기댓값에서 벗어나는 정도를 곱한 값의 기댓값",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "normal-distribution",
+    "name": "정규분포",
+    "aliases": [
+      "Normal Distribution",
+      "Gaussian Distribution"
+    ],
+    "type": "Concept",
+    "domain": "통계학",
+    "description": "평균과 분산으로 정해지는 종 모양의 연속 확률분포",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "maximum-likelihood-estimation",
+    "name": "최대우도추정",
+    "aliases": [
+      "Maximum Likelihood Estimation",
+      "MLE"
+    ],
+    "type": "Concept",
+    "domain": "통계학",
+    "description": "관측 데이터의 우도를 최대화하는 모수 값을 선택하는 추정법",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "principal-component-analysis",
+    "name": "주성분 분석",
+    "aliases": [
+      "Principal Component Analysis",
+      "PCA"
+    ],
+    "type": "Concept",
+    "domain": "통계학",
+    "description": "데이터의 분산을 많이 설명하는 직교 방향을 찾아 데이터를 표현하는 방법",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "law-of-large-numbers",
+    "name": "큰 수의 법칙",
+    "aliases": [
+      "Law of Large Numbers",
+      "대수의 법칙"
+    ],
+    "type": "Theorem",
+    "domain": "통계학",
+    "description": "적절한 조건에서 표본평균이 모집단의 기댓값으로 수렴한다는 정리",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "central-limit-theorem",
+    "name": "중심극한정리",
+    "aliases": [
+      "Central Limit Theorem",
+      "CLT"
+    ],
+    "type": "Theorem",
+    "domain": "통계학",
+    "description": "적절한 조건에서 표준화한 합이 분포상 정규분포로 수렴한다는 정리",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "group",
+    "name": "군",
+    "aliases": [
+      "Group"
+    ],
+    "type": "Concept",
+    "domain": "추상대수와 정수론",
+    "description": "결합법칙을 만족하는 연산과 항등원, 모든 원소의 역원을 갖는 집합",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "ring",
+    "name": "환",
+    "aliases": [
+      "Ring"
+    ],
+    "type": "Concept",
+    "domain": "추상대수와 정수론",
+    "description": "덧셈에서 아벨군을 이루고 곱셈이 결합법칙과 분배법칙을 만족하는 대수 구조",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "field",
+    "name": "체",
+    "aliases": [
+      "Field"
+    ],
+    "type": "Concept",
+    "domain": "추상대수와 정수론",
+    "description": "덧셈·뺄셈·곱셈과 영이 아닌 원소로 나누기가 가능한 가환 대수 구조",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "homomorphism",
+    "name": "준동형",
+    "aliases": [
+      "Homomorphism"
+    ],
+    "type": "Concept",
+    "domain": "추상대수와 정수론",
+    "description": "주어진 대수 연산을 보존하는 사상",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "congruence",
+    "name": "합동(정수론)",
+    "aliases": [
+      "Congruence",
+      "Modular Congruence"
+    ],
+    "type": "Concept",
+    "domain": "추상대수와 정수론",
+    "description": "두 정수의 차가 주어진 법의 배수일 때 성립하는 관계",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "unique-factorization",
+    "name": "산술의 기본정리",
+    "aliases": [
+      "Fundamental Theorem of Arithmetic"
+    ],
+    "type": "Theorem",
+    "domain": "추상대수와 정수론",
+    "description": "1보다 큰 모든 정수는 소수의 곱으로 순서를 제외하면 유일하게 표현된다는 정리",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "metric-space",
+    "name": "거리 공간",
+    "aliases": [
+      "Metric Space"
+    ],
+    "type": "Concept",
+    "domain": "기하와 위상",
+    "description": "점 사이의 거리가 거리 공리를 만족하도록 정의된 공간",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "topological-space",
+    "name": "위상 공간",
+    "aliases": [
+      "Topological Space"
+    ],
+    "type": "Concept",
+    "domain": "기하와 위상",
+    "description": "열린집합들의 모임을 정해 연속성을 다룰 수 있게 한 공간",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "compactness",
+    "name": "콤팩트성",
+    "aliases": [
+      "Compactness",
+      "컴팩트성"
+    ],
+    "type": "Concept",
+    "domain": "기하와 위상",
+    "description": "모든 열린 덮개가 유한 부분덮개를 갖는 성질",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "connectedness",
+    "name": "연결성",
+    "aliases": [
+      "Connectedness"
+    ],
+    "type": "Concept",
+    "domain": "기하와 위상",
+    "description": "공간을 서로 만나지 않는 두 비어 있지 않은 열린집합으로 분리할 수 없는 성질",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "manifold",
+    "name": "다양체",
+    "aliases": [
+      "Manifold"
+    ],
+    "type": "Concept",
+    "domain": "기하와 위상",
+    "description": "각 점 근처가 국소적으로 유클리드 공간의 열린집합처럼 보이는 공간",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "homology",
+    "name": "호몰로지",
+    "aliases": [
+      "Homology"
+    ],
+    "type": "Concept",
+    "domain": "기하와 위상",
+    "description": "사이클을 경계로 나눈 몫을 이용해 공간의 위상적 정보를 기록하는 방법",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "induction",
+    "name": "수학적 귀납법",
+    "aliases": [
+      "Mathematical Induction"
+    ],
+    "type": "Concept",
+    "domain": "이산수학과 논리",
+    "description": "시작 사례와 한 단계에서 다음 단계로 넘어가는 논증으로 명제를 증명하는 방법",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "inclusion-exclusion",
+    "name": "포함배제 원리",
+    "aliases": [
+      "Inclusion–Exclusion Principle"
+    ],
+    "type": "Concept",
+    "domain": "이산수학과 논리",
+    "description": "교집합 크기를 번갈아 더하고 빼서 합집합의 크기를 계산하는 원리",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "generating-function",
+    "name": "생성함수",
+    "aliases": [
+      "Generating Function"
+    ],
+    "type": "Concept",
+    "domain": "이산수학과 논리",
+    "description": "수열의 항을 형식적 급수의 계수에 담아 다루는 방법",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "graph",
+    "name": "그래프(이산수학)",
+    "aliases": [
+      "Graph"
+    ],
+    "type": "Concept",
+    "domain": "이산수학과 논리",
+    "description": "정점과 정점 사이를 잇는 간선으로 이루어진 구조",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "tree",
+    "name": "트리",
+    "aliases": [
+      "Tree"
+    ],
+    "type": "Concept",
+    "domain": "이산수학과 논리",
+    "description": "사이클이 없는 연결 무방향 그래프",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "invariant-proof",
+    "name": "불변량 논증",
+    "aliases": [
+      "Invariant Argument"
+    ],
+    "type": "Concept",
+    "domain": "이산수학과 논리",
+    "description": "허용된 연산 아래 보존되는 값을 이용해 가능한 결과를 판별하는 논증",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "shannon-entropy",
+    "name": "섀넌 엔트로피",
+    "aliases": [
+      "Shannon Entropy"
+    ],
+    "type": "Concept",
+    "domain": "정보이론",
+    "description": "이산 확률변수에서 각 결과의 자기정보량을 평균낸 값",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "mutual-information",
+    "name": "상호정보량",
+    "aliases": [
+      "Mutual Information"
+    ],
+    "type": "Concept",
+    "domain": "정보이론",
+    "description": "한 변수를 관측할 때 다른 변수에 대한 불확실성이 평균적으로 얼마나 줄어드는지 나타내는 양",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "kl-divergence",
+    "name": "쿨백–라이블러 발산",
+    "aliases": [
+      "Kullback–Leibler Divergence",
+      "KL Divergence"
+    ],
+    "type": "Concept",
+    "domain": "정보이론",
+    "description": "한 분포를 기준으로 두 분포의 로그 확률비를 평균낸 값",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "regular-language",
+    "name": "정규 언어",
+    "aliases": [
+      "Regular Language"
+    ],
+    "type": "Concept",
+    "domain": "계산이론",
+    "description": "유한 오토마톤이 인식할 수 있는 형식 언어",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "finite-automaton",
+    "name": "유한 오토마톤",
+    "aliases": [
+      "Finite Automaton"
+    ],
+    "type": "Concept",
+    "domain": "계산이론",
+    "description": "유한한 내부 상태와 입력에 따른 상태 전이로 문자열을 처리하는 계산 모델",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "context-free-grammar",
+    "name": "문맥 자유 문법",
+    "aliases": [
+      "Context-Free Grammar",
+      "CFG"
+    ],
+    "type": "Concept",
+    "domain": "계산이론",
+    "description": "각 생성 규칙의 왼쪽에 비단말 기호 하나만 오는 문법",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "computability",
+    "name": "계산 가능성",
+    "aliases": [
+      "Computability"
+    ],
+    "type": "Concept",
+    "domain": "계산이론",
+    "description": "주어진 문제를 해결하는 알고리즘이 존재하는지 다루는 개념",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "time-complexity",
+    "name": "시간 복잡도",
+    "aliases": [
+      "Time Complexity"
+    ],
+    "type": "Concept",
+    "domain": "계산이론",
+    "description": "입력 크기에 따른 알고리즘 실행 시간의 증가를 나타내는 개념",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "empirical-risk",
+    "name": "경험위험",
+    "aliases": [
+      "Empirical Risk"
+    ],
+    "type": "Concept",
+    "domain": "기계학습",
+    "description": "훈련 표본에서 계산한 손실의 평균",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "overfitting",
+    "name": "과적합",
+    "aliases": [
+      "Overfitting"
+    ],
+    "type": "Concept",
+    "domain": "기계학습",
+    "description": "훈련 데이터에는 잘 맞지만 보지 못한 데이터에서는 성능이 떨어지는 현상",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "backpropagation",
+    "name": "역전파",
+    "aliases": [
+      "Backpropagation"
+    ],
+    "type": "Concept",
+    "domain": "기계학습",
+    "description": "연쇄법칙을 역방향으로 적용해 손실의 파라미터별 기울기를 구하는 계산법",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "regularization",
+    "name": "정규화(과적합 제어)",
+    "aliases": [
+      "Regularization"
+    ],
+    "type": "Concept",
+    "domain": "기계학습",
+    "description": "모델이나 학습에 제약 또는 벌점을 두어 해를 제어하는 방법",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "attention",
+    "name": "어텐션",
+    "aliases": [
+      "Attention"
+    ],
+    "type": "Concept",
+    "domain": "기계학습",
+    "description": "질의와 키로 가중치를 계산하고 값들을 가중 결합하는 연산",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
   }
 ]
