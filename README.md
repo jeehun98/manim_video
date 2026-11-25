@@ -2429,3 +2429,14 @@ python scripts/render.py mod01
 python episodes/mod01_residue_arithmetic/build.py --preview --scene 04
 ```
 결과: `exports/mod01_short.mp4`.
+
+## 장풍 속에 숨겨진 방정식 — 고립파 (solitary01)
+
+174초 무음 쇼츠. 대본, 자막, 타이밍, 제작 기준과 Manim 소스는 `episodes/solitary01_kdv/`에 있다.
+
+```bash
+python scripts/render.py solitary01 --preview
+python scripts/render.py solitary01
+```
+
+최종본은 `exports/solitary01.mp4`에 생성된다. 1080×1920, 60fps.

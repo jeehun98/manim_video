@@ -71,5 +71,36 @@
     "locator": "§6.1, Dirichlet boundary conditions",
     "accessedAt": "2026-11-25",
     "notes": "열방정식 변수분리와 경계조건 절을 확인한 관련 문헌. 이 기록만으로 모든 수렴 조건을 검증한 것은 아님."
+  },
+  {
+    "id": "ref-killip-visan-kdv",
+    "title": "Killip & Vişan (2019), KdV is well-posed in H⁻¹",
+    "locator": "초록, §1",
+    "kind": "external",
+    "url": "https://annals.math.princeton.edu/wp-content/uploads/annals-v190-n1-p04-s.pdf",
+    "accessedAt": "2026-11-25"
+  },
+  {
+    "id": "ref-bona-souganidis-strauss",
+    "title": "Bona, Souganidis & Strauss (1987), Stability and instability of solitary waves of Korteweg-de Vries type",
+    "locator": "§2, §4–5",
+    "kind": "external",
+    "url": "https://homepages.math.uic.edu/~bona/papers/1987-5.pdf",
+    "accessedAt": "2026-11-25"
+  },
+  {
+    "id": "ref-ggkm-kdv",
+    "title": "Gardner, Greene, Kruskal & Miura (1967), Method for Solving the Korteweg-deVries Equation",
+    "locator": "pp. 1095–1097",
+    "kind": "external",
+    "url": "https://doi.org/10.1103/PhysRevLett.19.1095",
+    "accessedAt": "2026-11-25"
+  },
+  {
+    "id": "src-kdv-notes",
+    "title": "KdV 방정식 탐구 기록",
+    "locator": "전체",
+    "kind": "repository",
+    "path": "knowledge_atlas/KdV.md"
   }
 ]

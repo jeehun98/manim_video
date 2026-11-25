@@ -5,6 +5,7 @@ EPISODES = {"20": ("episodes/20_softmax_attention_finale/scene.py", "SoftmaxAtte
 EPISODES["mod01"] = ("episodes/mod01_residue_arithmetic/scene.py", "Shot01")
 EPISODES["padic01"] = ("episodes/padic01_local_global/scene.py", "Shot01")
 EPISODES["bernoulli01"] = ("episodes/bernoulli01_estimation/scene.py", "Shot01")
+EPISODES["solitary01"] = ("episodes/solitary01_kdv/scene.py", "SolitaryWaveShort")
 EPISODES["irrational01"] = ("episodes/irrational01_boundaries/scene.py", "Shot01")
 EPISODES["genfunc02"] = ("episodes/genfunc02_catalan/scene.py", "Shot01")
 EPISODES["genfunc01"] = ("episodes/genfunc01_dice/scene.py", "Shot01")
@@ -836,6 +837,10 @@ def main():
         return
     source, scene = EPISODES[a.episode]
     env = os.environ.copy()
+    if a.episode == "solitary01":
+        tex_bin = ROOT / ".tools/TinyTeX/TinyTeX/bin/windows"
+        if tex_bin.is_dir():
+            env["PATH"] = str(tex_bin) + os.pathsep + env.get("PATH", "")
     if a.episode == "reggeom01v":
         env.update(VIDEO_LAYOUT="portrait")
     if a.episode in ("nncalc01", "nncalc02", "nncalc03", "nncalc04", "nncalc05", "nncalc06", "nncalc07", "nncalc08", "reggeom01"):
