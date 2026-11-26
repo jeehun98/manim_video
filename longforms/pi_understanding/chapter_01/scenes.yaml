@@ -1,0 +1,243 @@
+id: pi_understanding_chapter_01
+title: 하나의 수, 여러 개의 정의
+video:
+  width: 3840
+  height: 2160
+  fps: 30
+
+scenes:
+  - id: '01'
+    directory: scenes/01_start
+    class: Shot01
+    duration_seconds: 4
+    transition: cut
+  - id: '02'
+    directory: scenes/02_shot
+    class: Shot02
+    duration_seconds: 6
+    transition: cut
+  - id: '03'
+    directory: scenes/03_shot
+    class: Shot03
+    duration_seconds: 3
+    transition: cut
+  - id: '04'
+    directory: scenes/04_shot
+    class: Shot04
+    duration_seconds: 6
+    transition: cut
+  - id: '05'
+    directory: scenes/05_shot
+    class: Shot05
+    duration_seconds: 5
+    transition: cut
+  - id: '06'
+    directory: scenes/06_shot
+    class: Shot06
+    duration_seconds: 4
+    transition: cut
+  - id: '07'
+    directory: scenes/07_shot
+    class: Shot07
+    duration_seconds: 5
+    transition: cut
+  - id: '08'
+    directory: scenes/08_shot
+    class: Shot08
+    duration_seconds: 5
+    transition: cut
+  - id: '09'
+    directory: scenes/09_shot
+    class: Shot09
+    duration_seconds: 4
+    transition: cut
+  - id: '10'
+    directory: scenes/10_shot
+    class: Shot10
+    duration_seconds: 5
+    transition: cut
+  - id: '11'
+    directory: scenes/11_shot
+    class: Shot11
+    duration_seconds: 4
+    transition: cut
+  - id: '12'
+    directory: scenes/12_shot
+    class: Shot12
+    duration_seconds: 7
+    transition: cut
+  - id: '13'
+    directory: scenes/13_shot
+    class: Shot13
+    duration_seconds: 8
+    transition: cut
+  - id: '14'
+    directory: scenes/14_shot
+    class: Shot14
+    duration_seconds: 8
+    transition: cut
+  - id: '15'
+    directory: scenes/15_shot
+    class: Shot15
+    duration_seconds: 5
+    transition: cut
+  - id: '16'
+    directory: scenes/16_shot
+    class: Shot16
+    duration_seconds: 3
+    transition: cut
+  - id: '17'
+    directory: scenes/17_shot
+    class: Shot17
+    duration_seconds: 6
+    transition: cut
+  - id: '18'
+    directory: scenes/18_shot
+    class: Shot18
+    duration_seconds: 7
+    transition: cut
+  - id: '19'
+    directory: scenes/19_shot
+    class: Shot19
+    duration_seconds: 4
+    transition: cut
+  - id: '20'
+    directory: scenes/20_shot
+    class: Shot20
+    duration_seconds: 8
+    transition: cut
+  - id: '21'
+    directory: scenes/21_shot
+    class: Shot21
+    duration_seconds: 5
+    transition: cut
+  - id: '22'
+    directory: scenes/22_shot
+    class: Shot22
+    duration_seconds: 5
+    transition: cut
+  - id: '23'
+    directory: scenes/23_shot
+    class: Shot23
+    duration_seconds: 5
+    transition: cut
+  - id: '24'
+    directory: scenes/24_shot
+    class: Shot24
+    duration_seconds: 6
+    transition: cut
+  - id: '25'
+    directory: scenes/25_shot
+    class: Shot25
+    duration_seconds: 4
+    transition: cut
+  - id: '26'
+    directory: scenes/26_shot
+    class: Shot26
+    duration_seconds: 10
+    transition: cut
+  - id: '27'
+    directory: scenes/27_shot
+    class: Shot27
+    duration_seconds: 3
+    transition: cut
+  - id: '28'
+    directory: scenes/28_shot
+    class: Shot28
+    duration_seconds: 5
+    transition: cut
+  - id: '29'
+    directory: scenes/29_shot
+    class: Shot29
+    duration_seconds: 8
+    transition: cut
+  - id: '30'
+    directory: scenes/30_shot
+    class: Shot30
+    duration_seconds: 4
+    transition: cut
+  - id: '31'
+    directory: scenes/31_shot
+    class: Shot31
+    duration_seconds: 7
+    transition: cut
+  - id: '32'
+    directory: scenes/32_shot
+    class: Shot32
+    duration_seconds: 6
+    transition: cut
+  - id: '33'
+    directory: scenes/33_shot
+    class: Shot33
+    duration_seconds: 5
+    transition: cut
+  - id: '34'
+    directory: scenes/34_shot
+    class: Shot34
+    duration_seconds: 10
+    transition: cut
+  - id: '35'
+    directory: scenes/35_shot
+    class: Shot35
+    duration_seconds: 4
+    transition: cut
+  - id: '36'
+    directory: scenes/36_shot
+    class: Shot36
+    duration_seconds: 9
+    transition: cut
+  - id: '37'
+    directory: scenes/37_shot
+    class: Shot37
+    duration_seconds: 2
+    transition: cut
+  - id: '38'
+    directory: scenes/38_shot
+    class: Shot38
+    duration_seconds: 7
+    transition: cut
+  - id: '39'
+    directory: scenes/39_shot
+    class: Shot39
+    duration_seconds: 3
+    transition: cut
+  - id: '40'
+    directory: scenes/40_shot
+    class: Shot40
+    duration_seconds: 6
+    transition: cut
+  - id: '41'
+    directory: scenes/41_shot
+    class: Shot41
+    duration_seconds: 3
+    transition: cut
+  - id: '42'
+    directory: scenes/42_shot
+    class: Shot42
+    duration_seconds: 7
+    transition: cut
+  - id: '43'
+    directory: scenes/43_shot
+    class: Shot43
+    duration_seconds: 4
+    transition: cut
+  - id: '44'
+    directory: scenes/44_shot
+    class: Shot44
+    duration_seconds: 5
+    transition: cut
+  - id: '45'
+    directory: scenes/45_shot
+    class: Shot45
+    duration_seconds: 6
+    transition: cut
+  - id: '46'
+    directory: scenes/46_shot
+    class: Shot46
+    duration_seconds: 10
+    transition: cut
+  - id: '47'
+    directory: scenes/47_shot
+    class: Shot47
+    duration_seconds: 8
+    transition: cut

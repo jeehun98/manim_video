@@ -1,0 +1,249 @@
+{
+  "duration": 104,
+  "scenes": [
+    {
+      "id": "01",
+      "class": "Shot01",
+      "directory": "scenes/01_world",
+      "start": 0,
+      "end": 4,
+      "title": "수의 세계"
+    },
+    {
+      "id": "02",
+      "class": "Shot02",
+      "directory": "scenes/02_two",
+      "start": 4,
+      "end": 11,
+      "title": "2를 특징짓는 성질"
+    },
+    {
+      "id": "03",
+      "class": "Shot03",
+      "directory": "scenes/03_properties",
+      "start": 11,
+      "end": 17,
+      "title": "수와 다른 대상 사이의 관계"
+    },
+    {
+      "id": "04",
+      "class": "Shot04",
+      "directory": "scenes/04_pi",
+      "start": 17,
+      "end": 19,
+      "title": "원주율은 어떨까?"
+    },
+    {
+      "id": "05",
+      "class": "Shot05",
+      "directory": "scenes/05_familiar",
+      "start": 19,
+      "end": 24,
+      "title": "우리에게 익숙한 원주율"
+    },
+    {
+      "id": "06",
+      "class": "Shot06",
+      "directory": "scenes/06_question",
+      "start": 24,
+      "end": 29,
+      "title": "중요하다는 것은 무엇인가?"
+    },
+    {
+      "id": "07",
+      "class": "Shot07",
+      "directory": "scenes/07_geometry",
+      "start": 29,
+      "end": 33,
+      "title": "원의 둘레와 지름"
+    },
+    {
+      "id": "08",
+      "class": "Shot08",
+      "directory": "scenes/08_complex",
+      "start": 33,
+      "end": 37,
+      "title": "원에서 복소평면으로"
+    },
+    {
+      "id": "09",
+      "class": "Shot09",
+      "directory": "scenes/09_euler",
+      "start": 37,
+      "end": 41,
+      "title": "오일러 공식과 회전"
+    },
+    {
+      "id": "10",
+      "class": "Shot10",
+      "directory": "scenes/10_fourier",
+      "start": 41,
+      "end": 45,
+      "title": "푸리에 해석과 진동"
+    },
+    {
+      "id": "11",
+      "class": "Shot11",
+      "directory": "scenes/11_gaussian",
+      "start": 45,
+      "end": 49,
+      "title": "정규분포와 정규화"
+    },
+    {
+      "id": "12",
+      "class": "Shot12",
+      "directory": "scenes/12_common",
+      "start": 49,
+      "end": 54,
+      "title": "독립적인 문제, 공통된 상수"
+    },
+    {
+      "id": "13",
+      "class": "Shot13",
+      "directory": "scenes/13_seventeen",
+      "start": 54,
+      "end": 60,
+      "title": "수식의 개수로 충분할까?"
+    },
+    {
+      "id": "14",
+      "class": "Shot14",
+      "directory": "scenes/14_structure",
+      "start": 60,
+      "end": 67,
+      "title": "수식의 개수에서 관계의 구조로"
+    },
+    {
+      "id": "15",
+      "class": "Shot15",
+      "directory": "scenes/15_definitions",
+      "start": 67,
+      "end": 77,
+      "title": "여러 절차가 같은 수에 도달한다"
+    },
+    {
+      "id": "16",
+      "class": "Shot16",
+      "directory": "scenes/16_information",
+      "start": 77,
+      "end": 82,
+      "title": "동일한 수, 서로 다른 정보"
+    },
+    {
+      "id": "17",
+      "class": "Shot17",
+      "directory": "scenes/17_relations",
+      "start": 82,
+      "end": 90,
+      "title": "수 자체와 관계의 풍부함"
+    },
+    {
+      "id": "18",
+      "class": "Shot18",
+      "directory": "scenes/18_map",
+      "start": 90,
+      "end": 98,
+      "title": "수학적 관계를 연결하는 탐구"
+    },
+    {
+      "id": "19",
+      "class": "Shot19",
+      "directory": "scenes/19_title",
+      "start": 98,
+      "end": 104,
+      "title": "하나의 수학적 대상을 이해한다는 것"
+    }
+  ],
+  "sentences": [
+    {
+      "start": 0,
+      "end": 4,
+      "text": "우리는 수학에서 특정한 수들을 중요하고 근본적인 수라고 이야기하곤 합니다."
+    },
+    {
+      "start": 4,
+      "end": 11,
+      "text": "예를 들어 숫자 2는 가장 작은 소수이자 유일한 짝수 소수라는 명확한 수학적 성질을 가지고 있습니다."
+    },
+    {
+      "start": 11,
+      "end": 17,
+      "text": "이러한 성질을 통해 우리는 숫자 2가 다른 자연수들과 어떠한 차이를 가지고 있는지 이해할 수 있습니다."
+    },
+    {
+      "start": 17,
+      "end": 19,
+      "text": "그렇다면 원주율은 어떨까요?"
+    },
+    {
+      "start": 19,
+      "end": 24,
+      "text": "우리는 원주율이 수학에서 매우 중요한 상수라는 사실에 대해서는 쉽게 동의할 수 있습니다."
+    },
+    {
+      "start": 24,
+      "end": 29,
+      "text": "하지만 어떠한 성질로 인해 원주율이 그토록 중요한 수가 되는 것일까요?"
+    },
+    {
+      "start": 29,
+      "end": 33,
+      "text": "우리는 일반적으로 원주율을 원의 둘레와 지름 사이의 비율로 정의합니다."
+    },
+    {
+      "start": 33,
+      "end": 37,
+      "text": "하지만 원주율은 기하학적인 문제에서만 등장하는 수가 아닙니다."
+    },
+    {
+      "start": 37,
+      "end": 49,
+      "text": "지수함수와 삼각함수를 연결하는 오일러 공식에서도, 복잡한 함수를 여러 진동 성분으로 분해하는 푸리에 해석에서도, 그리고 확률분포를 나타내는 수식에서도 원주율을 발견할 수 있습니다."
+    },
+    {
+      "start": 49,
+      "end": 54,
+      "text": "처음에는 서로 관련이 없어 보이는 수학적 문제들이 하나의 공통된 상수를 포함하고 있는 것입니다."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "물론 단순히 많은 수식에 등장한다는 사실만으로 어떤 수가 중요하다고 이야기할 수는 없습니다."
+    },
+    {
+      "start": 60,
+      "end": 67,
+      "text": "오히려 우리가 주목해야 할 것은 서로 다른 수학적 문제에서 어떠한 관계를 통해 동일한 수가 등장하는가 하는 점입니다."
+    },
+    {
+      "start": 67,
+      "end": 77,
+      "text": "더욱 흥미로운 것은 이러한 관계들이 단순히 원주율을 포함하는 것에 그치지 않고, 그중 여러 관계를 통해 원주율이라는 수 자체를 정의할 수도 있다는 점입니다."
+    },
+    {
+      "start": 77,
+      "end": 82,
+      "text": "그리고 각각의 표현은 원주율이 가지고 있는 서로 다른 수학적 성질을 드러내기도 합니다."
+    },
+    {
+      "start": 82,
+      "end": 85,
+      "text": "그렇다면 원주율의 중요성은 그 수 자체에 있는 것일까요?"
+    },
+    {
+      "start": 85,
+      "end": 90,
+      "text": "아니면 그 수가 다른 수학적 대상들과 맺고 있는 풍부한 관계에 있는 것일까요?"
+    },
+    {
+      "start": 90,
+      "end": 98,
+      "text": "이번 영상에서는 원주율이 가지고 있는 다양한 수학적 관계들을 살펴보고, 그 관계들이 서로 어떻게 연결되어 있는지 알아보고자 합니다."
+    },
+    {
+      "start": 98,
+      "end": 104,
+      "text": "그리고 이를 통해 하나의 수학적 대상을 이해한다는 것이 무엇을 의미하는지에 대해서도 함께 생각해 보고자 합니다."
+    }
+  ]
+}

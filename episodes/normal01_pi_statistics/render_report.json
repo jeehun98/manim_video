@@ -1,0 +1,18 @@
+{
+  "duration": "152.000000",
+  "streams": [
+    {
+      "codec_type": "video",
+      "width": 1080,
+      "height": 1920,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "4560"
+    }
+  ],
+  "caption_sentences": 27,
+  "scene_count": 26,
+  "caption_bottom": -6.9,
+  "caption_top": -5.0,
+  "audio": "silent; TTS not provided",
+  "decode_check": "passed by build.py"
+}

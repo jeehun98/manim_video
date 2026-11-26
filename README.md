@@ -2440,3 +2440,33 @@ python scripts/render.py solitary01
 ```
 
 최종본은 `exports/solitary01.mp4`에 생성된다. 1080×1920, 60fps.
+
+
+### BBP 공식 — 원주율을 이해하는 또 하나의 방법 (`pi01`)
+
+`episodes/pi01_bbp/`에 확정 대본·문장 타이밍·23개 독립 씬을 둡니다. 총 169초, 9:16, 1080×1920, 30fps이며 음원 미제공으로 무음입니다.
+
+```powershell
+python scripts/render.py pi01 --preview
+python scripts/render.py pi01
+```
+
+결과: `exports/pi01_short.mp4`. 변경된 씬만 검수할 때 `python episodes/pi01_bbp/build.py --preview --scene 16`을 사용합니다.
+
+### 원주율의 정규성 — 수를 이해하는 통계적 관점 (`normal01`)
+
+`episodes/normal01_pi_statistics/`에 확정 대본·27개 문장 타이밍·26개 독립 씬·검증된 π 자릿수 통계가 있습니다. 152초, 9:16, 1080×1920, 30fps이며 TTS 음원 미제공으로 무음입니다.
+
+```powershell
+python scripts/render.py normal01
+```
+
+결과: `exports/normal01_short.mp4`. 대표 씬만 확인하려면 `python episodes/normal01_pi_statistics/build.py --preview --scenes 06,12,16,18,20,23`을 사용합니다. `--preview`만 지정하면 전체 미리보기를 별도로 만들 수 있습니다.
+
+
+### 원주율 롱폼 · 0장 프롤로그
+
+104초, 16:9 4K30, 무음·전체 원문 자막. [소스와 실행법](longforms/pi_understanding/chapter_00/README.md). 실행: python longforms/pi_understanding/chapter_00/build.py. 결과: exports/pi_chapter_00.mp4.
+
+
+- [원주율 1장 — 하나의 수, 여러 개의 정의](longforms/pi_understanding/chapter_01/README.md): 사용자 확정 47문장·264초,47개 독립 씬,16:9 4K30,무음·전체 자막. 실행: python longforms/pi_understanding/chapter_01/build.py. 결과: exports/pi_chapter_01.mp4.

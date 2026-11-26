@@ -428,3 +428,9 @@ longforms/<ID>_<slug>/
 - [물리 방정식의 공통 구조 — 해밀토니안 쇼츠](classical_mechanics/hamiltonian_connections_short/README.md): 확정 30문장·169초, 8씬, 세로 1080p30, 무음·원문 자막. `py -3.12 longforms/classical_mechanics/hamiltonian_connections_short/build.py`.
 
 - `fourier_heat/laplacian_short/`: 삼각함수·라플라시안 169초 세로 쇼츠. `py -3.12 longforms/fourier_heat/laplacian_short/build.py`
+
+
+- [원주율은 왜 중요한 수인가 — 0장 프롤로그](pi_understanding/chapter_00/README.md): 사용자 확정 18문장·104초,19개 독립 씬,16:9 4K30,무음·전체 자막. 실행: python longforms/pi_understanding/chapter_00/build.py.
+
+
+- [원주율 1장 — 하나의 수, 여러 개의 정의](pi_understanding/chapter_01/README.md): 사용자 확정 47문장·264초,47개 독립 씬,16:9 4K30,무음·전체 자막. 실행: python longforms/pi_understanding/chapter_01/build.py. 결과: exports/pi_chapter_01.mp4.

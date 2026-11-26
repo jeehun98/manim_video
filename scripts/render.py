@@ -2,6 +2,8 @@ import argparse, os, shutil, subprocess, sys
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 EPISODES = {"20": ("episodes/20_softmax_attention_finale/scene.py", "SoftmaxAttentionFinale"), "19": ("episodes/19_softmax_entropy/scene.py", "SoftmaxEntropy"), "18": ("episodes/18_softmax_lse/scene.py", "SoftmaxLSE"), "17": ("episodes/17_softmax_sigmoid/scene.py", "SoftmaxSigmoid"), "16": ("episodes/16_softmax_jacobian/scene.py", "SoftmaxJacobian"), "15": ("episodes/15_softmax_temperature/scene.py", "SoftmaxTemperature"), "14": ("episodes/14_softmax_ratio/scene.py", "SoftmaxRatio"), "13": ("episodes/13_softmax_shift/scene.py", "SoftmaxShift"), "12": ("episodes/12_softmax_intro/scene.py", "SoftmaxIntroduction"), "11": ("episodes/11_sigmoid_finale/scene.py", "SigmoidFinale"), "10": ("episodes/10_sigmoid_cdf/scene.py", "SigmoidCDF"), "09": ("episodes/09_sigmoid_distribution/scene.py", "SigmoidDistribution"), "08": ("episodes/08_sigmoid_saturation/scene.py", "SigmoidSaturation"), "07": ("episodes/07_sigmoid_derivative/scene.py", "SigmoidDerivative"), "06": ("episodes/06_sigmoid_intro/scene.py", "SigmoidIntroduction"), "05": ("episodes/05_computation_simplification/scene.py", "ComputationSimplification"), "04": ("episodes/04_irreversibility/scene.py", "Irreversibility"), "03": ("episodes/03_relu_change_magnitude/scene.py", "ReLUChangeMagnitude"), "01": ("episodes/01_relu/scene.py", "ReLUIntroduction"), "02": ("episodes/02_relu_information_loss/scene.py", "ReLUInformationLoss"), "legacy": ("archive/relu_short.py", "ReLUShort")}
+EPISODES["pi01"] = ("episodes/pi01_bbp/scene.py", "Shot01")
+EPISODES["normal01"] = ("episodes/normal01_pi_statistics/scene.py", "Shot01")
 EPISODES["mod01"] = ("episodes/mod01_residue_arithmetic/scene.py", "Shot01")
 EPISODES["padic01"] = ("episodes/padic01_local_global/scene.py", "Shot01")
 EPISODES["bernoulli01"] = ("episodes/bernoulli01_estimation/scene.py", "Shot01")
@@ -782,6 +784,16 @@ def main():
         return
     if a.episode == "circle01":
         command = [sys.executable, str(ROOT / "episodes/circle01_shared_dynamics/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "normal01":
+        command = [sys.executable, str(ROOT / "episodes/normal01_pi_statistics/build.py")]
+        if a.preview: command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
+    if a.episode == "pi01":
+        command = [sys.executable, str(ROOT / "episodes/pi01_bbp/build.py")]
         if a.preview: command.append("--preview")
         subprocess.run(command, cwd=ROOT, check=True)
         return

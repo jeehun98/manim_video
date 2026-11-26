@@ -1,0 +1,618 @@
+{
+  "duration": 264,
+  "scenes": [
+    {
+      "id": "01",
+      "class": "Shot01",
+      "directory": "scenes/01_start",
+      "start": 0,
+      "end": 4,
+      "title": "기하학적 정의로 돌아가기"
+    },
+    {
+      "id": "02",
+      "class": "Shot02",
+      "directory": "scenes/02_shot",
+      "start": 4,
+      "end": 10,
+      "title": "크기가 달라도 유지되는 비율"
+    },
+    {
+      "id": "03",
+      "class": "Shot03",
+      "directory": "scenes/03_shot",
+      "start": 10,
+      "end": 13,
+      "title": "원주율의 정의"
+    },
+    {
+      "id": "04",
+      "class": "Shot04",
+      "directory": "scenes/04_shot",
+      "start": 13,
+      "end": 19,
+      "title": "크기에 대한 불변량"
+    },
+    {
+      "id": "05",
+      "class": "Shot05",
+      "directory": "scenes/05_shot",
+      "start": 19,
+      "end": 24,
+      "title": "새로운 수학적 언어"
+    },
+    {
+      "id": "06",
+      "class": "Shot06",
+      "directory": "scenes/06_shot",
+      "start": 24,
+      "end": 28,
+      "title": "반지름 1인 단위원"
+    },
+    {
+      "id": "07",
+      "class": "Shot07",
+      "directory": "scenes/07_shot",
+      "start": 28,
+      "end": 33,
+      "title": "원 위의 점이 만족하는 관계"
+    },
+    {
+      "id": "08",
+      "class": "Shot08",
+      "directory": "scenes/08_shot",
+      "start": 33,
+      "end": 38,
+      "title": "방정식에서 함수로"
+    },
+    {
+      "id": "09",
+      "class": "Shot09",
+      "directory": "scenes/09_shot",
+      "start": 38,
+      "end": 42,
+      "title": "같은 반원, 다른 표현"
+    },
+    {
+      "id": "10",
+      "class": "Shot10",
+      "directory": "scenes/10_shot",
+      "start": 42,
+      "end": 47,
+      "title": "함수에 미적분 적용하기"
+    },
+    {
+      "id": "11",
+      "class": "Shot11",
+      "directory": "scenes/11_shot",
+      "start": 47,
+      "end": 51,
+      "title": "곡선의 길이를 구하려면"
+    },
+    {
+      "id": "12",
+      "class": "Shot12",
+      "directory": "scenes/12_shot",
+      "start": 51,
+      "end": 58,
+      "title": "작은 선분으로 곡선을 근사"
+    },
+    {
+      "id": "13",
+      "class": "Shot13",
+      "directory": "scenes/13_shot",
+      "start": 58,
+      "end": 66,
+      "title": "피타고라스에서 길이 적분으로"
+    },
+    {
+      "id": "14",
+      "class": "Shot14",
+      "directory": "scenes/14_shot",
+      "start": 66,
+      "end": 74,
+      "title": "반원의 길이를 나타내는 적분"
+    },
+    {
+      "id": "15",
+      "class": "Shot15",
+      "directory": "scenes/15_shot",
+      "start": 74,
+      "end": 79,
+      "title": "기하학적 길이와 적분의 일치"
+    },
+    {
+      "id": "16",
+      "class": "Shot16",
+      "directory": "scenes/16_shot",
+      "start": 79,
+      "end": 82,
+      "title": "길이에서 넓이로"
+    },
+    {
+      "id": "17",
+      "class": "Shot17",
+      "directory": "scenes/17_shot",
+      "start": 82,
+      "end": 88,
+      "title": "직사각형으로 넓이를 근사"
+    },
+    {
+      "id": "18",
+      "class": "Shot18",
+      "directory": "scenes/18_shot",
+      "start": 88,
+      "end": 95,
+      "title": "리만 합에서 적분으로"
+    },
+    {
+      "id": "19",
+      "class": "Shot19",
+      "directory": "scenes/19_shot",
+      "start": 95,
+      "end": 99,
+      "title": "반원의 넓이와 π/2"
+    },
+    {
+      "id": "20",
+      "class": "Shot20",
+      "directory": "scenes/20_shot",
+      "start": 99,
+      "end": 107,
+      "title": "같은 반원에서 얻은 두 적분"
+    },
+    {
+      "id": "21",
+      "class": "Shot21",
+      "directory": "scenes/21_shot",
+      "start": 107,
+      "end": 112,
+      "title": "기하학적 사실의 해석학적 표현"
+    },
+    {
+      "id": "22",
+      "class": "Shot22",
+      "directory": "scenes/22_shot",
+      "start": 112,
+      "end": 117,
+      "title": "반대 방향으로 접근하기"
+    },
+    {
+      "id": "23",
+      "class": "Shot23",
+      "directory": "scenes/23_shot",
+      "start": 117,
+      "end": 122,
+      "title": "삼각함수의 기하학적 정의"
+    },
+    {
+      "id": "24",
+      "class": "Shot24",
+      "directory": "scenes/24_shot",
+      "start": 122,
+      "end": 128,
+      "title": "원과 각도에서 사인으로"
+    },
+    {
+      "id": "25",
+      "class": "Shot25",
+      "directory": "scenes/25_shot",
+      "start": 128,
+      "end": 132,
+      "title": "새로운 정의를 위한 출발"
+    },
+    {
+      "id": "26",
+      "class": "Shot26",
+      "directory": "scenes/26_shot",
+      "start": 132,
+      "end": 142,
+      "title": "무한히 이어지는 다항식의 항"
+    },
+    {
+      "id": "27",
+      "class": "Shot27",
+      "directory": "scenes/27_shot",
+      "start": 142,
+      "end": 145,
+      "title": "멱급수로 일반화"
+    },
+    {
+      "id": "28",
+      "class": "Shot28",
+      "directory": "scenes/28_shot",
+      "start": 145,
+      "end": 150,
+      "title": "부분합이 만드는 그래프"
+    },
+    {
+      "id": "29",
+      "class": "Shot29",
+      "directory": "scenes/29_shot",
+      "start": 150,
+      "end": 158,
+      "title": "직선에서 사인 곡선으로"
+    },
+    {
+      "id": "30",
+      "class": "Shot30",
+      "directory": "scenes/30_shot",
+      "start": 158,
+      "end": 162,
+      "title": "극한으로 정의하는 사인"
+    },
+    {
+      "id": "31",
+      "class": "Shot31",
+      "directory": "scenes/31_shot",
+      "start": 162,
+      "end": 169,
+      "title": "정의에 사용되지 않은 개념"
+    },
+    {
+      "id": "32",
+      "class": "Shot32",
+      "directory": "scenes/32_shot",
+      "start": 169,
+      "end": 175,
+      "title": "첫 번째 양의 영점 찾기"
+    },
+    {
+      "id": "33",
+      "class": "Shot33",
+      "directory": "scenes/33_shot",
+      "start": 175,
+      "end": 180,
+      "title": "원주율에 도달하는 새로운 경로"
+    },
+    {
+      "id": "34",
+      "class": "Shot34",
+      "directory": "scenes/34_shot",
+      "start": 180,
+      "end": 190,
+      "title": "멱급수에서 단위원의 운동으로"
+    },
+    {
+      "id": "35",
+      "class": "Shot35",
+      "directory": "scenes/35_shot",
+      "start": 190,
+      "end": 194,
+      "title": "또 다른 형태의 무한급수"
+    },
+    {
+      "id": "36",
+      "class": "Shot36",
+      "directory": "scenes/36_shot",
+      "start": 194,
+      "end": 203,
+      "title": "교대급수의 수렴"
+    },
+    {
+      "id": "37",
+      "class": "Shot37",
+      "directory": "scenes/37_shot",
+      "start": 203,
+      "end": 205,
+      "title": "라이프니츠 급수"
+    },
+    {
+      "id": "38",
+      "class": "Shot38",
+      "directory": "scenes/38_shot",
+      "start": 205,
+      "end": 212,
+      "title": "홀수와 단순한 산술 연산"
+    },
+    {
+      "id": "39",
+      "class": "Shot39",
+      "directory": "scenes/39_shot",
+      "start": 212,
+      "end": 215,
+      "title": "다시 같은 수에 도달"
+    },
+    {
+      "id": "40",
+      "class": "Shot40",
+      "directory": "scenes/40_shot",
+      "start": 215,
+      "end": 221,
+      "title": "서로 다른 수학적 경로"
+    },
+    {
+      "id": "41",
+      "class": "Shot41",
+      "directory": "scenes/41_shot",
+      "start": 221,
+      "end": 224,
+      "title": "동일한 수학적 대상"
+    },
+    {
+      "id": "42",
+      "class": "Shot42",
+      "directory": "scenes/42_shot",
+      "start": 224,
+      "end": 231,
+      "title": "어느 정의가 더 본질적인가?"
+    },
+    {
+      "id": "43",
+      "class": "Shot43",
+      "directory": "scenes/43_shot",
+      "start": 231,
+      "end": 235,
+      "title": "여러 경로가 도달하는 한 지점"
+    },
+    {
+      "id": "44",
+      "class": "Shot44",
+      "directory": "scenes/44_shot",
+      "start": 235,
+      "end": 240,
+      "title": "정의는 이해의 출발점"
+    },
+    {
+      "id": "45",
+      "class": "Shot45",
+      "directory": "scenes/45_shot",
+      "start": 240,
+      "end": 246,
+      "title": "하나의 표현이 드러내는 성질"
+    },
+    {
+      "id": "46",
+      "class": "Shot46",
+      "directory": "scenes/46_shot",
+      "start": 246,
+      "end": 256,
+      "title": "같은 대상이 연결하는 수학적 구조"
+    },
+    {
+      "id": "47",
+      "class": "Shot47",
+      "directory": "scenes/47_shot",
+      "start": 256,
+      "end": 264,
+      "title": "개별 개념에서 연결된 수학으로"
+    }
+  ],
+  "sentences": [
+    {
+      "start": 0,
+      "end": 4,
+      "text": "우리가 가장 익숙하게 알고 있는 원주율의 정의에서 출발해 보겠습니다."
+    },
+    {
+      "start": 4,
+      "end": 10,
+      "text": "유클리드 기하학에서 원의 크기를 변화시키더라도, 원의 둘레와 지름 사이의 비율은 일정하게 유지됩니다."
+    },
+    {
+      "start": 10,
+      "end": 13,
+      "text": "우리는 이 비율을 원주율이라고 정의합니다."
+    },
+    {
+      "start": 13,
+      "end": 19,
+      "text": "이러한 정의에서 원주율은 원이라는 기하학적 대상이 가지고 있는 불변의 성질을 나타내는 상수입니다."
+    },
+    {
+      "start": 19,
+      "end": 24,
+      "text": "그런데 이러한 기하학적 성질을 다른 수학적 언어로 표현할 수도 있습니다."
+    },
+    {
+      "start": 24,
+      "end": 28,
+      "text": "좌표평면 위에 반지름이 1인 단위원을 생각해 보겠습니다."
+    },
+    {
+      "start": 28,
+      "end": 33,
+      "text": "단위원 위의 모든 점들은 x²+y²=1이라는 관계를 만족합니다."
+    },
+    {
+      "start": 33,
+      "end": 38,
+      "text": "따라서 위쪽 반원은 √(1−x²)이라는 함수로 표현할 수 있습니다."
+    },
+    {
+      "start": 38,
+      "end": 42,
+      "text": "이제 우리는 원이라는 기하학적 대상을 하나의 함수로 표현할 수 있게 되었습니다."
+    },
+    {
+      "start": 42,
+      "end": 47,
+      "text": "그렇다면 이 함수를 이용하여 원의 둘레와 넓이를 구할 수도 있지 않을까요?"
+    },
+    {
+      "start": 47,
+      "end": 51,
+      "text": "우리는 미적분학에서 곡선의 길이를 구하는 방법을 배웁니다."
+    },
+    {
+      "start": 51,
+      "end": 58,
+      "text": "곡선을 매우 작은 구간들로 나누고, 각각의 구간을 직선으로 근사한 뒤 그 길이들을 더하는 것입니다."
+    },
+    {
+      "start": 58,
+      "end": 66,
+      "text": "각 구간의 길이는 피타고라스 정리를 통해 표현할 수 있으며, 구간의 크기를 0에 가깝게 줄여 나가면 곡선의 길이를 나타내는 적분식을 얻을 수 있습니다."
+    },
+    {
+      "start": 66,
+      "end": 74,
+      "text": "이를 앞서 정의한 반원의 함수에 적용하면, 마이너스 1부터 1까지, 1/√(1−x²)를 적분하는 식을 얻습니다."
+    },
+    {
+      "start": 74,
+      "end": 79,
+      "text": "단위원 전체의 둘레가 원주율의 두 배이므로, 이 적분의 값은 원주율과 같습니다."
+    },
+    {
+      "start": 79,
+      "end": 82,
+      "text": "비슷한 방법으로 반원의 넓이도 구할 수 있습니다."
+    },
+    {
+      "start": 82,
+      "end": 88,
+      "text": "이번에는 곡선 아래의 영역을 매우 작은 직사각형들로 나누고, 각각의 넓이를 더하는 것입니다."
+    },
+    {
+      "start": 88,
+      "end": 95,
+      "text": "직사각형의 폭을 0에 가깝게 줄여 나가면, 마이너스 1부터 1까지, √(1−x²)을 적분하는 식을 얻습니다."
+    },
+    {
+      "start": 95,
+      "end": 99,
+      "text": "그리고 이 적분의 값은 원주율의 절반과 같습니다."
+    },
+    {
+      "start": 99,
+      "end": 107,
+      "text": "우리는 동일한 원으로부터 출발하여, 하나는 곡선의 길이를 통해, 다른 하나는 곡선 아래의 넓이를 통해 원주율을 표현할 수 있게 되었습니다."
+    },
+    {
+      "start": 107,
+      "end": 112,
+      "text": "이처럼 기하학적인 대상이 가지고 있는 성질을 해석학적인 언어로 표현할 수 있습니다."
+    },
+    {
+      "start": 112,
+      "end": 117,
+      "text": "그런데 흥미롭게도 이와 반대되는 방향으로도 원주율에 접근할 수 있습니다."
+    },
+    {
+      "start": 117,
+      "end": 122,
+      "text": "우리는 일반적으로 사인 함수를 직각삼각형이나 단위원을 이용하여 정의합니다."
+    },
+    {
+      "start": 122,
+      "end": 128,
+      "text": "이러한 방식에서는 원과 각도라는 기하학적 개념이 먼저 존재하고, 그로부터 삼각함수가 정의됩니다."
+    },
+    {
+      "start": 128,
+      "end": 132,
+      "text": "하지만 사인 함수를 전혀 다른 방식으로 정의할 수도 있습니다."
+    },
+    {
+      "start": 132,
+      "end": 142,
+      "text": "x−x³/3!+x⁵/5!−⋯를 계산하는 과정을 무한히 반복한다고 생각해 보겠습니다."
+    },
+    {
+      "start": 142,
+      "end": 145,
+      "text": "이러한 형태의 무한급수를 멱급수라고 합니다."
+    },
+    {
+      "start": 145,
+      "end": 150,
+      "text": "급수의 항들을 하나씩 추가하면서 함수의 그래프가 어떻게 변화하는지 살펴보겠습니다."
+    },
+    {
+      "start": 150,
+      "end": 158,
+      "text": "처음에는 단순한 직선의 형태를 가지고 있지만, 새로운 항들이 추가될수록 우리가 익숙하게 알고 있는 사인 함수의 형태에 가까워집니다."
+    },
+    {
+      "start": 158,
+      "end": 162,
+      "text": "이 무한급수의 극한으로 사인 함수를 정의할 수 있습니다."
+    },
+    {
+      "start": 162,
+      "end": 169,
+      "text": "여기서 주목할 점은 이러한 정의에 원이나 각도, 심지어 원주율이라는 상수도 직접적으로 사용되지 않았다는 점입니다."
+    },
+    {
+      "start": 169,
+      "end": 175,
+      "text": "이제 이렇게 정의된 함수에서 함수의 값이 0이 되는 가장 작은 양수를 찾아보겠습니다."
+    },
+    {
+      "start": 175,
+      "end": 180,
+      "text": "그 값은 놀랍게도 우리가 기하학적으로 정의했던 원주율과 정확히 일치합니다."
+    },
+    {
+      "start": 180,
+      "end": 190,
+      "text": "앞에서는 원이라는 기하학적 대상으로부터 출발하여 원주율을 정의했다면, 이번에는 무한급수라는 해석학적 대상으로부터 출발하여 원주율에 도달한 것입니다."
+    },
+    {
+      "start": 190,
+      "end": 194,
+      "text": "원주율은 더욱 단순한 형태의 무한급수를 통해서도 표현할 수 있습니다."
+    },
+    {
+      "start": 194,
+      "end": 203,
+      "text": "1에서 3분의 1을 빼고, 5분의 1을 더하고, 다시 7분의 1을 빼는 과정을 무한히 반복하면 그 값은 원주율의 4분의 1에 수렴합니다."
+    },
+    {
+      "start": 203,
+      "end": 205,
+      "text": "이를 라이프니츠 급수라고 부릅니다."
+    },
+    {
+      "start": 205,
+      "end": 212,
+      "text": "이 표현에서는 원이나 삼각함수 대신 홀수의 역수와 덧셈, 뺄셈이라는 단순한 연산만이 등장합니다."
+    },
+    {
+      "start": 212,
+      "end": 215,
+      "text": "그럼에도 우리는 동일한 수인 원주율에 도달하게 됩니다."
+    },
+    {
+      "start": 215,
+      "end": 221,
+      "text": "지금까지 살펴본 각각의 표현은 서로 다른 수학적 대상과 연산을 사용하고 있습니다."
+    },
+    {
+      "start": 221,
+      "end": 224,
+      "text": "하지만 이들이 나타내는 수는 모두 동일합니다."
+    },
+    {
+      "start": 224,
+      "end": 231,
+      "text": "그렇다면 원의 둘레와 지름 사이의 비율이라는 정의는 다른 정의들보다 원주율의 본질을 더 잘 나타내고 있는 것일까요?"
+    },
+    {
+      "start": 231,
+      "end": 235,
+      "text": "아니면 우리가 원주율이라는 수에 접근할 수 있는 여러 방법 중 하나일까요?"
+    },
+    {
+      "start": 235,
+      "end": 240,
+      "text": "수학적 대상을 어떠한 방식으로 정의하는지는 우리가 그 대상을 이해하는 출발점이 됩니다."
+    },
+    {
+      "start": 240,
+      "end": 246,
+      "text": "하지만 하나의 정의가 그 대상이 가지고 있는 모든 수학적 관계를 보여주는 것은 아닙니다."
+    },
+    {
+      "start": 246,
+      "end": 256,
+      "text": "서로 다른 정의가 동일한 대상에 도달한다는 사실은, 그 대상뿐만 아니라 각각의 정의에 사용된 수학적 구조들 사이에도 어떠한 관계가 존재한다는 것을 의미합니다."
+    },
+    {
+      "start": 256,
+      "end": 264,
+      "text": "그리고 이러한 관계를 이해하는 과정에서 우리는 처음에는 서로 독립적이라고 생각했던 수학적 개념들을 연결할 수 있게 됩니다."
+    }
+  ]
+}
