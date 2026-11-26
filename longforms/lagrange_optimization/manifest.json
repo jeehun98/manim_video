@@ -1,0 +1,154 @@
+[
+  {
+    "id": "01",
+    "directory": "scenes/01",
+    "class_name": "Shot01",
+    "start": 0,
+    "duration_seconds": 26,
+    "title": "최적화와 목적함수"
+  },
+  {
+    "id": "02",
+    "directory": "scenes/02",
+    "class_name": "Shot02",
+    "start": 26,
+    "duration_seconds": 29,
+    "title": "미분은 국소적인 선형 근사"
+  },
+  {
+    "id": "03",
+    "directory": "scenes/03",
+    "class_name": "Shot03",
+    "start": 55,
+    "duration_seconds": 25,
+    "title": "수평인 접선과 극값"
+  },
+  {
+    "id": "04",
+    "directory": "scenes/04",
+    "class_name": "Shot04",
+    "start": 80,
+    "duration_seconds": 7,
+    "title": "미분값 0은 필요조건"
+  },
+  {
+    "id": "05",
+    "directory": "scenes/05",
+    "class_name": "Shot05",
+    "start": 87,
+    "duration_seconds": 25,
+    "title": "곡선에서 곡면으로"
+  },
+  {
+    "id": "06",
+    "directory": "scenes/06",
+    "class_name": "Shot06",
+    "start": 112,
+    "duration_seconds": 30,
+    "title": "접평면과 편미분"
+  },
+  {
+    "id": "07",
+    "directory": "scenes/07",
+    "class_name": "Shot07",
+    "start": 142,
+    "duration_seconds": 9,
+    "title": "내부 극값의 후보"
+  },
+  {
+    "id": "08",
+    "directory": "scenes/08",
+    "class_name": "Shot08",
+    "start": 151,
+    "duration_seconds": 20,
+    "title": "편미분에서 그래디언트로"
+  },
+  {
+    "id": "09",
+    "directory": "scenes/09",
+    "class_name": "Shot09",
+    "start": 171,
+    "duration_seconds": 26,
+    "title": "방향에 따른 일차 변화량"
+  },
+  {
+    "id": "10",
+    "directory": "scenes/10",
+    "class_name": "Shot10",
+    "start": 197,
+    "duration_seconds": 12,
+    "title": "곡면에서 등위선으로"
+  },
+  {
+    "id": "11",
+    "directory": "scenes/11",
+    "class_name": "Shot11",
+    "start": 209,
+    "duration_seconds": 31,
+    "title": "등위선과 그래디언트의 수직 관계"
+  },
+  {
+    "id": "12",
+    "directory": "scenes/12",
+    "class_name": "Shot12",
+    "start": 240,
+    "duration_seconds": 27,
+    "title": "울타리 문제와 제약조건"
+  },
+  {
+    "id": "13",
+    "directory": "scenes/13",
+    "class_name": "Shot13",
+    "start": 267,
+    "duration_seconds": 30,
+    "title": "제약조건이 허용하는 방향"
+  },
+  {
+    "id": "14",
+    "directory": "scenes/14",
+    "class_name": "Shot14",
+    "start": 297,
+    "duration_seconds": 22,
+    "title": "교차에서 접촉으로"
+  },
+  {
+    "id": "15",
+    "directory": "scenes/15",
+    "class_name": "Shot15",
+    "start": 319,
+    "duration_seconds": 24,
+    "title": "두 그래디언트의 비례관계"
+  },
+  {
+    "id": "16",
+    "directory": "scenes/16",
+    "class_name": "Shot16",
+    "start": 343,
+    "duration_seconds": 12,
+    "title": "라그랑주 승수법"
+  },
+  {
+    "id": "17",
+    "directory": "scenes/17",
+    "class_name": "Shot17",
+    "start": 355,
+    "duration_seconds": 33,
+    "title": "직사각형의 최대 넓이"
+  },
+  {
+    "id": "18",
+    "directory": "scenes/18",
+    "class_name": "Shot18",
+    "start": 388,
+    "duration_seconds": 20,
+    "title": "접선에서 제약 최적화까지"
+  },
+  {
+    "id": "19",
+    "directory": "scenes/19",
+    "class_name": "Shot19",
+    "start": 408,
+    "duration_seconds": 18,
+    "title": "허용된 방향의 일차 변화율"
+  }
+]

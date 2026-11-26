@@ -1,0 +1,100 @@
+id: lagrange_optimization
+title: 미분에서 시작하는 최적화의 기하학
+video: {width: 1920, height: 1080, fps: 30}
+audio: null
+scenes:
+  - id: '01'
+    directory: scenes/01
+    class: Shot01
+    start: 0
+    duration_seconds: 26
+  - id: '02'
+    directory: scenes/02
+    class: Shot02
+    start: 26
+    duration_seconds: 29
+  - id: '03'
+    directory: scenes/03
+    class: Shot03
+    start: 55
+    duration_seconds: 25
+  - id: '04'
+    directory: scenes/04
+    class: Shot04
+    start: 80
+    duration_seconds: 7
+  - id: '05'
+    directory: scenes/05
+    class: Shot05
+    start: 87
+    duration_seconds: 25
+  - id: '06'
+    directory: scenes/06
+    class: Shot06
+    start: 112
+    duration_seconds: 30
+  - id: '07'
+    directory: scenes/07
+    class: Shot07
+    start: 142
+    duration_seconds: 9
+  - id: '08'
+    directory: scenes/08
+    class: Shot08
+    start: 151
+    duration_seconds: 20
+  - id: '09'
+    directory: scenes/09
+    class: Shot09
+    start: 171
+    duration_seconds: 26
+  - id: '10'
+    directory: scenes/10
+    class: Shot10
+    start: 197
+    duration_seconds: 12
+  - id: '11'
+    directory: scenes/11
+    class: Shot11
+    start: 209
+    duration_seconds: 31
+  - id: '12'
+    directory: scenes/12
+    class: Shot12
+    start: 240
+    duration_seconds: 27
+  - id: '13'
+    directory: scenes/13
+    class: Shot13
+    start: 267
+    duration_seconds: 30
+  - id: '14'
+    directory: scenes/14
+    class: Shot14
+    start: 297
+    duration_seconds: 22
+  - id: '15'
+    directory: scenes/15
+    class: Shot15
+    start: 319
+    duration_seconds: 24
+  - id: '16'
+    directory: scenes/16
+    class: Shot16
+    start: 343
+    duration_seconds: 12
+  - id: '17'
+    directory: scenes/17
+    class: Shot17
+    start: 355
+    duration_seconds: 33
+  - id: '18'
+    directory: scenes/18
+    class: Shot18
+    start: 388
+    duration_seconds: 20
+  - id: '19'
+    directory: scenes/19
+    class: Shot19
+    start: 408
+    duration_seconds: 18

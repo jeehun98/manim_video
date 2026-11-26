@@ -1,0 +1,257 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\lagrange_optimization_426s_final.mp4",
+  "silent": true,
+  "sentence_end_times": [
+    6,
+    14,
+    22,
+    26,
+    31,
+    39,
+    42,
+    49,
+    55,
+    59,
+    67,
+    75,
+    80,
+    87,
+    91,
+    96,
+    101,
+    107,
+    112,
+    117,
+    124,
+    128,
+    135,
+    142,
+    151,
+    156,
+    159,
+    164,
+    171,
+    175,
+    181,
+    188,
+    192,
+    197,
+    200,
+    207,
+    209,
+    214,
+    219,
+    224,
+    230,
+    235,
+    240,
+    245,
+    252,
+    257,
+    263,
+    267,
+    273,
+    278,
+    284,
+    291,
+    297,
+    305,
+    308,
+    314,
+    319,
+    323,
+    331,
+    339,
+    343,
+    351,
+    355,
+    358,
+    363,
+    370,
+    376,
+    380,
+    388,
+    394,
+    401,
+    408,
+    414,
+    419,
+    426
+  ],
+  "video": {
+    "index": 0,
+    "codec_name": "h264",
+    "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+    "profile": "High",
+    "codec_type": "video",
+    "codec_tag_string": "avc1",
+    "codec_tag": "0x31637661",
+    "mime_codec_string": "avc1.640028",
+    "width": 1920,
+    "height": 1080,
+    "coded_width": 1920,
+    "coded_height": 1088,
+    "has_b_frames": 2,
+    "pix_fmt": "yuv420p",
+    "level": 40,
+    "chroma_location": "left",
+    "field_order": "progressive",
+    "refs": 4,
+    "is_avc": "true",
+    "nal_length_size": "4",
+    "id": "0x1",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "time_base": "1/15360",
+    "start_pts": 0,
+    "start_time": "0.000000",
+    "duration_ts": 6543360,
+    "duration": "426.000000",
+    "bit_rate": "199622",
+    "bits_per_raw_sample": "8",
+    "nb_frames": "12780",
+    "nb_read_frames": "12780",
+    "extradata_size": 47,
+    "disposition": {
+      "default": 1,
+      "dub": 0,
+      "original": 0,
+      "comment": 0,
+      "lyrics": 0,
+      "karaoke": 0,
+      "forced": 0,
+      "hearing_impaired": 0,
+      "visual_impaired": 0,
+      "clean_effects": 0,
+      "attached_pic": 0,
+      "timed_thumbnails": 0,
+      "non_diegetic": 0,
+      "captions": 0,
+      "descriptions": 0,
+      "metadata": 0,
+      "dependent": 0,
+      "still_image": 0,
+      "multilayer": 0
+    },
+    "tags": {
+      "language": "und",
+      "handler_name": "VideoHandler"
+    }
+  },
+  "scenes": [
+    {
+      "scene_id": "01",
+      "sha256": "4f0e449850c1e4b8965982dc7fa59b6ecfc7c3c60425b4c2b38e924df3c4681d",
+      "frames": 780,
+      "duration": 26.0
+    },
+    {
+      "scene_id": "02",
+      "sha256": "2c72de196a2bd41f78c9292b9304ac9a129c516b87d8e4699995fef525de9c2e",
+      "frames": 870,
+      "duration": 29.0
+    },
+    {
+      "scene_id": "03",
+      "sha256": "ecdf9c1534af83aae33bbc5c30ca228c6f4fda0364e12a127b50826fb76c216e",
+      "frames": 750,
+      "duration": 25.0
+    },
+    {
+      "scene_id": "04",
+      "sha256": "75404d67175c4f3a578a99930f8b056249700b7860230060020a31660bf78ac4",
+      "frames": 210,
+      "duration": 7.0
+    },
+    {
+      "scene_id": "05",
+      "sha256": "e9bf2709c6c863a9a193ad6c611bf88804e6808583813e11b3a723e9d6ef53af",
+      "frames": 750,
+      "duration": 25.0
+    },
+    {
+      "scene_id": "06",
+      "sha256": "41357f8537c18338342dab01aaf4fdc9a0fa16958dbdc74d85ee8540dbd0c39b",
+      "frames": 900,
+      "duration": 30.0
+    },
+    {
+      "scene_id": "07",
+      "sha256": "8426e45cc993ab5e665eb23dac250896e02989c13413633345c6cb2c6fd1a541",
+      "frames": 270,
+      "duration": 9.0
+    },
+    {
+      "scene_id": "08",
+      "sha256": "447663487fbd9a53fee2467615e3f6da99a7fcc05c146c98ffacdb6e42fff22c",
+      "frames": 600,
+      "duration": 20.0
+    },
+    {
+      "scene_id": "09",
+      "sha256": "9ac81b415350528b7c29ea736e4f113d25d883a4b1bdb10b88d88b148a183604",
+      "frames": 780,
+      "duration": 26.0
+    },
+    {
+      "scene_id": "10",
+      "sha256": "682b498ca435ebec89afc7eb9a059cc62a23869adcab2e50b79f965fbce2e1d3",
+      "frames": 360,
+      "duration": 12.0
+    },
+    {
+      "scene_id": "11",
+      "sha256": "485d086b938d69afa6f36d95aaaf9688a6761b020482abb13ed3543d7af5fcc0",
+      "frames": 930,
+      "duration": 31.0
+    },
+    {
+      "scene_id": "12",
+      "sha256": "bdd0d6003d4b874f09ae6155a81a0e6f85adce2d33be6a824a1fd962e9c1eaaf",
+      "frames": 810,
+      "duration": 27.0
+    },
+    {
+      "scene_id": "13",
+      "sha256": "9399af2267c16b1211bec92e258fe1e396c965e418814a2d72ecbcc8692f73c6",
+      "frames": 900,
+      "duration": 30.0
+    },
+    {
+      "scene_id": "14",
+      "sha256": "44c8c3886c2d01a4f07fc15badc84abc1a12ec96d7fbc974ad515978091395c7",
+      "frames": 660,
+      "duration": 22.0
+    },
+    {
+      "scene_id": "15",
+      "sha256": "a1857118d65829cdca02dca9e590c5664fffaebbac458ff9febd318968779d84",
+      "frames": 720,
+      "duration": 24.0
+    },
+    {
+      "scene_id": "16",
+      "sha256": "493b8cf8ba9bd9ca72b0ae678e0756ef1a56491fd977124c6b16cce09430c799",
+      "frames": 360,
+      "duration": 12.0
+    },
+    {
+      "scene_id": "17",
+      "sha256": "96b35c69979171b09cac4b1f0aa69c5875716ae4bfec0b1db8414aa5455d9cb1",
+      "frames": 990,
+      "duration": 33.0
+    },
+    {
+      "scene_id": "18",
+      "sha256": "25c4fd06db0b8f76d9d45dce50aa522dacc0d38a6616083eaf0cfd30df01e31d",
+      "frames": 600,
+      "duration": 20.0
+    },
+    {
+      "scene_id": "19",
+      "sha256": "ec0834abab1742bc32838c94c54529685c45223d4437af689b3b507b226441b3",
+      "frames": 540,
+      "duration": 18.0
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # 롱폼 제작 규격
 
+- [미분에서 시작하는 최적화의 기하학 — 라그랑주 승수법](lagrange_optimization/README.md): 사용자 확정 426초, 19개 독립 씬, 16:9 1080p30, 무음·전체 자막. `py -3.12 longforms/lagrange_optimization/build.py`.
+
 - [확률분포 롱폼 1장](probability_chapter_01/README.md) · 547초, 16:9 1080p30, 무음·전체 자막.
 
 - [확률분포 롱폼 0장](probability_chapter_00/README.md) · 확정 38문장·221초, 9씬, 16:9 1080p30. 0·1장 통합용 0장 클립.
