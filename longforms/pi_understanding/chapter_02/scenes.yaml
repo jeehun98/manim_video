@@ -1,0 +1,225 @@
+width: 3840
+height: 2160
+fps: 30
+duration: 388
+scenes:
+  - id: "01"
+    start: 0
+    end: 8
+    class: Shot01
+  - id: "02"
+    start: 8
+    end: 14
+    class: Shot02
+  - id: "03"
+    start: 14
+    end: 19
+    class: Shot03
+  - id: "04"
+    start: 19
+    end: 25
+    class: Shot04
+  - id: "05"
+    start: 25
+    end: 30
+    class: Shot05
+  - id: "06"
+    start: 30
+    end: 38
+    class: Shot06
+  - id: "07"
+    start: 38
+    end: 41
+    class: Shot07
+  - id: "08"
+    start: 41
+    end: 46
+    class: Shot08
+  - id: "09"
+    start: 46
+    end: 52
+    class: Shot09
+  - id: "10"
+    start: 52
+    end: 60
+    class: Shot10
+  - id: "11"
+    start: 60
+    end: 63
+    class: Shot11
+  - id: "12"
+    start: 63
+    end: 70
+    class: Shot12
+  - id: "13"
+    start: 70
+    end: 76
+    class: Shot13
+  - id: "14"
+    start: 76
+    end: 82
+    class: Shot14
+  - id: "15"
+    start: 82
+    end: 85
+    class: Shot15
+  - id: "16"
+    start: 85
+    end: 94
+    class: Shot16
+  - id: "17"
+    start: 94
+    end: 103
+    class: Shot17
+  - id: "18"
+    start: 103
+    end: 112
+    class: Shot18
+  - id: "19"
+    start: 112
+    end: 117
+    class: Shot19
+  - id: "20"
+    start: 117
+    end: 121
+    class: Shot20
+  - id: "21"
+    start: 121
+    end: 128
+    class: Shot21
+  - id: "22"
+    start: 128
+    end: 130
+    class: Shot22
+  - id: "23"
+    start: 130
+    end: 134
+    class: Shot23
+  - id: "24"
+    start: 134
+    end: 139
+    class: Shot24
+  - id: "25"
+    start: 139
+    end: 146
+    class: Shot25
+  - id: "26"
+    start: 146
+    end: 153
+    class: Shot26
+  - id: "27"
+    start: 153
+    end: 157
+    class: Shot27
+  - id: "28"
+    start: 157
+    end: 165
+    class: Shot28
+  - id: "29"
+    start: 165
+    end: 172
+    class: Shot29
+  - id: "30"
+    start: 172
+    end: 176
+    class: Shot30
+  - id: "31"
+    start: 176
+    end: 182
+    class: Shot31
+  - id: "32"
+    start: 182
+    end: 190
+    class: Shot32
+  - id: "33"
+    start: 190
+    end: 194
+    class: Shot33
+  - id: "34"
+    start: 194
+    end: 198
+    class: Shot34
+  - id: "35"
+    start: 198
+    end: 203
+    class: Shot35
+  - id: "36"
+    start: 203
+    end: 209
+    class: Shot36
+  - id: "37"
+    start: 209
+    end: 212
+    class: Shot37
+  - id: "38"
+    start: 212
+    end: 219
+    class: Shot38
+  - id: "39"
+    start: 219
+    end: 222
+    class: Shot39
+  - id: "40"
+    start: 222
+    end: 227
+    class: Shot40
+  - id: "41"
+    start: 227
+    end: 233
+    class: Shot41
+  - id: "42"
+    start: 233
+    end: 237
+    class: Shot42
+  - id: "43"
+    start: 237
+    end: 240
+    class: Shot43
+  - id: "44"
+    start: 240
+    end: 247
+    class: Shot44
+  - id: "45"
+    start: 247
+    end: 256
+    class: Shot45
+  - id: "46"
+    start: 256
+    end: 259
+    class: Shot46
+  - id: "47"
+    start: 259
+    end: 264
+    class: Shot47
+  - id: "48"
+    start: 264
+    end: 270
+    class: Shot48
+  - id: "49"
+    start: 270
+    end: 277
+    class: Shot49
+  - id: "50"
+    start: 277
+    end: 347
+    class: Shot50
+  - id: "58"
+    start: 347
+    end: 353
+    class: Shot51
+  - id: "59"
+    start: 353
+    end: 362
+    class: Shot52
+  - id: "60"
+    start: 362
+    end: 369
+    class: Shot53
+  - id: "61"
+    start: 369
+    end: 378
+    class: Shot54
+  - id: "62"
+    start: 378
+    end: 388
+    class: Shot55

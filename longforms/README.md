@@ -434,3 +434,5 @@ longforms/<ID>_<slug>/
 
 
 - [원주율 1장 — 하나의 수, 여러 개의 정의](pi_understanding/chapter_01/README.md): 사용자 확정 47문장·264초,47개 독립 씬,16:9 4K30,무음·전체 자막. 실행: python longforms/pi_understanding/chapter_01/build.py. 결과: exports/pi_chapter_01.mp4.
+
+- [원주율 2장 — 서로 다른 곳에서 등장하는 동일한 수](pi_understanding/chapter_02/README.md): 확정 388초·62문장, 4K30·16:9·무음·전체 자막. `python longforms/pi_understanding/chapter_02/build.py`.
