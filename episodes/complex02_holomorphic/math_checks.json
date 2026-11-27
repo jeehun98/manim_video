@@ -1,0 +1,16 @@
+{
+  "timing": "29 supplied sentence boundaries, 15 contiguous scenes, 5100 frames",
+  "conjugate_quotient": "4096 directions at three radii passed",
+  "cauchy_quadrature_error": 2.7755575615628914e-17,
+  "taylor_max_errors_n1_n5_n20": [
+    3.200000000000001,
+    1.3107200000000003,
+    0.046116860184273634
+  ],
+  "reference": "https://www.math.uci.edu/~ndonalds/math147/notes.pdf",
+  "cauchy_derivative_errors_n1_n2_n5": [
+    2.220446049250313e-16,
+    4.440892098500626e-16,
+    1.8198773652309366e-13
+  ]
+}

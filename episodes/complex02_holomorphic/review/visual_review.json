@@ -1,0 +1,19 @@
+{
+  "reviewed": [
+    "02: real-to-complex mapping and longest four-line caption",
+    "06: shrinking h and quotient on unit circle",
+    "07: CR relation and long caption",
+    "11: actual quadrature accumulation and formula",
+    "13: complex Taylor output convergence"
+  ],
+  "caption_center_y": -6.15,
+  "body_min_y": -4.9,
+  "status": "representative previews passed",
+  "audio": "not supplied; silent",
+  "final_core_checked": [
+    "03: secant convergence",
+    "04: all approach directions and curved path",
+    "08: once but not twice differentiable real example",
+    "15: independent closing"
+  ]
+}
