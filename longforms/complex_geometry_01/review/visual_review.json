@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "reviewed": [
+    "04: equal additional zoom 1/r and visible actual radius; nonlinear output converges to derivative circle",
+    "09: actual constant-linear-remainder values of z²",
+    "10: one input revolution and two contribution revolutions; zero vector sum",
+    "11: nested triangle subdivision, remainder condition, closed accumulated integral",
+    "01 final: real axis to plane, rotation",
+    "05 final: conjugation and failed simultaneous rotation"
+  ],
+  "subtitle": "long two-line narration inspected with lower formula and footnote; no overlap",
+  "body_limits": {
+    "left": -7.88,
+    "right": 7.88,
+    "bottom": -2.6,
+    "top": 4.4
+  },
+  "audio": "not supplied; silent",
+  "ending": "part ends on Cauchy theorem scene without end card",
+  "final_additional_scenes": [
+    "02: title and difference quotient separated",
+    "03: anisotropic and complex-linear scaling",
+    "06: Cauchy-Riemann relations",
+    "07: holomorphic domain",
+    "08: centered closed vector chain and separate sum formulas",
+    "11: final theorem and actual closed integral accumulation"
+  ],
+  "source_manifest": "all 11 final clips match current source hashes"
+}

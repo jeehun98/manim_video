@@ -1,0 +1,22 @@
+{
+  "status": "reused verified chapter geometry",
+  "existing_checks": [
+    "../complex_geometry_02/math_checks.json",
+    "../complex_geometry_03/math_checks.json",
+    "../complex_geometry_04/math_checks.json"
+  ],
+  "reused_functions": [
+    "complex_geometry_02: TemperatureMesh, conformal_grid, rim",
+    "complex_geometry_03: sheets, lifted_point, project, sphere, torus",
+    "complex_geometry_04: DiskPattern, hcircle, rings"
+  ],
+  "conditions": [
+    "The opening and later pattern use equal hyperbolic radius circles and actual inverse disk automorphisms; no regular tessellation is claimed.",
+    "Temperature colors remain attached to material disk coordinates under F_m(z)=z+0.4*m*z^2, 0<=m<=1, the existing univalent family.",
+    "The two-sheet connection model and the w-coordinate saddle are displayed as separate coordinate visualizations.",
+    "Uniformization arrows point to universal covering spaces, not directly to the original surfaces.",
+    "The new Cauchy preview homotopy has center alpha*w and radius 1.5*(1-alpha)+0.27*alpha with |w|=sqrt(0.13). Its contour always encloses w because (1-alpha)*|w| is strictly smaller than that radius. The contour remains inside the original disk, and never crosses the pole.",
+    "The metric uses standard curvature -1 normalization; the derivative at zero is a local scale factor rather than a finite-circle diameter rule."
+  ],
+  "verification_policy": "Existing mathematical checks are reused for unchanged imported calculations; final build hashes include all imported chapter direction files."
+}

@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "source": {
+    "url": "https://people.math.harvard.edu/~ctm/home/text/class/harvard/213a/17/html/home/course/course.pdf",
+    "author": "Curtis T. McMullen",
+    "sections": "2.4: disk automorphisms, hyperbolic metric and isometries"
+  },
+  "normalization": "ds=2|dz|/(1-|z|²), curvature -1. Relative correction examples use center scale as baseline.",
+  "inverse_error": 4.598408707195434e-15,
+  "metric_invariance_relative_error": 1.1501910535116622e-13,
+  "circle_boundary_error": 2.498001805406602e-16,
+  "finite_circles": "Exact Euclidean center and radius of Ta(|z|=rho), distinct from hyperbolic center a",
+  "ruler": "r_n=tanh(n*0.5/2); adjacent hyperbolic distances verified =0.5",
+  "halving": "r_n=1-2^-n; delta d_n=log((2^(n+2)-1)/(2^(n+1)-1))>log(2), tends to log(2), sum diverges",
+  "pattern": {
+    "circles": 1819,
+    "description": "Equal hyperbolic radius circles, generated in enough world rings to reveal circles under observer recentering. Not a tessellation.",
+    "observer": "Actual inverse disk automorphism on hyperbolic centers; exact finite-circle geometry recalculated each animation frame"
+  },
+  "atlas": "CLI unavailable: existing knowledge_atlas/data/sources.json missing; unrelated knowledge data unchanged"
+}

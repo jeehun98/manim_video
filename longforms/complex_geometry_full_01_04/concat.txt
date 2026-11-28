@@ -1,0 +1,8 @@
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/complex_geometry_01_voiced.mp4'
+duration 203.133333333333
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/complex_geometry_02_voiced.mp4'
+duration 288.533333333333
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/complex_geometry_03_voiced.mp4'
+duration 219.933333333333
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/exports/complex_geometry_04_voiced.mp4'
+duration 243.833333333333

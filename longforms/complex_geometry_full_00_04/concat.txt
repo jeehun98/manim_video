@@ -1,0 +1,4 @@
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/complex_geometry_full_00_04/intro_picture.mp4'
+duration 69.866666666667
+file 'C:/Users/as042/OneDrive/Desktop/manim_video/longforms/complex_geometry_full_00_04/body_picture.mp4'
+duration 955.433333333333

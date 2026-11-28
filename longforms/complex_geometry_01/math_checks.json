@@ -1,0 +1,17 @@
+{
+  "equal_units": "all planes have identical real/imaginary scales",
+  "normalized_mapping_max_errors_r065_r02_r0035": [
+    0.22980970388562874,
+    0.07071067811865575,
+    0.01237436867077068
+  ],
+  "linear_contribution": "two rotations, Fourier sum zero",
+  "constant_polygon_closure": "passed",
+  "z_squared_contour_quadrature": "4096 equal-angle samples passed",
+  "goursat": "nested triangle scale 1/2, diameter*perimeter 1/4; error control required, visual intuition only",
+  "timing": "38 exact supplied sentence ends; 11 scenes; 203 seconds; 6090 frames",
+  "sources": [
+    "https://complexanalysis.org/web/sec_cauchy-goursat.html",
+    "https://math.berkeley.edu/~avizeff/complex_analysis_S26/lecture_11.html"
+  ]
+}

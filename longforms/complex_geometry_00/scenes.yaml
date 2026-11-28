@@ -1,0 +1,38 @@
+title: 인트로 — 수의 확장에서 공간의 발견까지
+width: 1920
+height: 1080
+fps: 30
+duration: 69
+scenes:
+  - id: "01"
+    start: 0
+    end: 13
+    title: 복소평면에 숨겨진 기하학
+  - id: "02"
+    start: 13
+    end: 22
+    title: 복소수의 곱셈과 복소미분
+  - id: "03"
+    start: 22
+    end: 30
+    title: 경계와 내부를 연결하는 규칙
+  - id: "04"
+    start: 30
+    end: 39
+    title: 물리적 문제를 다른 공간으로
+  - id: "05"
+    start: 39
+    end: 48
+    title: 함수를 표현하기 위해 공간을 바꾼다
+  - id: "06"
+    start: 48
+    end: 54
+    title: 다양한 공간의 세 가지 기본 구조
+  - id: "07"
+    start: 54
+    end: 66
+    title: 복소미분에서 새로운 거리로
+  - id: "08"
+    start: 66
+    end: 69
+    title: 이야기의 출발점으로

@@ -1,0 +1,54 @@
+title: 리만 곡면에서 균일화 정리까지
+width: 1920
+height: 1080
+fps: 30
+duration: 219
+scenes:
+  - id: "01"
+    start: 0
+    end: 11
+    title: 평면에서 공간으로
+  - id: "02"
+    start: 11
+    end: 23
+    title: 입력의 회전과 제곱근
+  - id: "03"
+    start: 23
+    end: 44
+    title: 한 바퀴로는 돌아오지 않는다
+  - id: "04"
+    start: 44
+    end: 61
+    title: 두 겹을 교차하여 연결한다
+  - id: "05"
+    start: 61
+    end: 77
+    title: 위치에 담긴 제곱근의 정보
+  - id: "06"
+    start: 77
+    end: 104
+    title: 원점에서는 w를 좌표로
+  - id: "07"
+    start: 104
+    end: 129
+    title: 작은 복소평면으로 이루어진 공간
+  - id: "08"
+    start: 129
+    end: 153
+    title: 직사각형에서 원환면으로
+  - id: "09"
+    start: 153
+    end: 178
+    title: 원환면을 펼친 보편피복
+  - id: "10"
+    start: 178
+    end: 194
+    title: 모양을 넘어 공간을 비교한다
+  - id: "11"
+    start: 194
+    end: 209
+    title: 실제 복소변환으로 펼치는 원판
+  - id: "12"
+    start: 209
+    end: 219
+    title: 균일화 정리

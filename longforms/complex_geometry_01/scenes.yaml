@@ -1,0 +1,86 @@
+id: complex_geometry_01
+title: 복소평면에 숨겨진 기하학 — 구간 01
+video:
+  width: 1920
+  height: 1080
+  fps: 30
+audio: not_supplied
+timing_source: user_sentence_ends
+scenes:
+  - id: '01'
+    directory: scenes/01
+    class: Shot01
+    duration_seconds: 19
+    start_seconds: 0
+    end_seconds: 19
+    transition: cut
+  - id: '02'
+    directory: scenes/02
+    class: Shot02
+    duration_seconds: 22
+    start_seconds: 19
+    end_seconds: 41
+    transition: cut
+  - id: '03'
+    directory: scenes/03
+    class: Shot03
+    duration_seconds: 20
+    start_seconds: 41
+    end_seconds: 61
+    transition: cut
+  - id: '04'
+    directory: scenes/04
+    class: Shot04
+    duration_seconds: 20
+    start_seconds: 61
+    end_seconds: 81
+    transition: cut
+  - id: '05'
+    directory: scenes/05
+    class: Shot05
+    duration_seconds: 18
+    start_seconds: 81
+    end_seconds: 99
+    transition: cut
+  - id: '06'
+    directory: scenes/06
+    class: Shot06
+    duration_seconds: 16
+    start_seconds: 99
+    end_seconds: 115
+    transition: cut
+  - id: '07'
+    directory: scenes/07
+    class: Shot07
+    duration_seconds: 22
+    start_seconds: 115
+    end_seconds: 137
+    transition: cut
+  - id: '08'
+    directory: scenes/08
+    class: Shot08
+    duration_seconds: 23
+    start_seconds: 137
+    end_seconds: 160
+    transition: cut
+  - id: '09'
+    directory: scenes/09
+    class: Shot09
+    duration_seconds: 18
+    start_seconds: 160
+    end_seconds: 178
+    transition: cut
+  - id: '10'
+    directory: scenes/10
+    class: Shot10
+    duration_seconds: 6
+    start_seconds: 178
+    end_seconds: 184
+    transition: cut
+  - id: '11'
+    directory: scenes/11
+    class: Shot11
+    duration_seconds: 19
+    start_seconds: 184
+    end_seconds: 203
+    transition: cut

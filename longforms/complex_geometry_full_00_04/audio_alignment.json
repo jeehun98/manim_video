@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "method": "4-second decoded PCM windows at +3 seconds; cross-correlation with each numbered original; <=1ms offset and >0.97 correlation required",
+  "chapters": [
+    {
+      "number": 0,
+      "voiced_part": {
+        "offset_samples": 0,
+        "offset_ms": 0.0,
+        "normalized_correlation": 0.9994290716555663
+      },
+      "joined_chapter": {
+        "offset_samples": 0,
+        "offset_ms": 0.0,
+        "normalized_correlation": 0.9994290716555663
+      }
+    },
+    {
+      "number": 1,
+      "voiced_part": {
+        "offset_samples": 0,
+        "offset_ms": 0.0,
+        "normalized_correlation": 0.9999638487841307
+      },
+      "joined_chapter": {
+        "offset_samples": 0,
+        "offset_ms": 0.0,
+        "normalized_correlation": 0.9999581170335803
+      }
+    },
+    {
+      "number": 2,
+      "voiced_part": {
+        "offset_samples": 0,
+        "offset_ms": 0.0,
+        "normalized_correlation": 0.9999747464374417
+      },
+      "joined_chapter": {
+        "offset_samples": 0,
+        "offset_ms": 0.0,
+        "normalized_correlation": 0.9999796836259572
+      }
+    },
+    {
+      "number": 3,
+      "voiced_part": {
+        "offset_samples": 0,
+        "offset_ms": 0.0,
+        "normalized_correlation": 0.9999393347057568
+      },
+      "joined_chapter": {
+        "offset_samples": 0,
+        "offset_ms": 0.0,
+        "normalized_correlation": 0.9999322406309106
+      }
+    },
+    {
+      "number": 4,
+      "voiced_part": {
+        "offset_samples": 0,
+        "offset_ms": 0.0,
+        "normalized_correlation": 0.9993620592040127
+      },
+      "joined_chapter": {
+        "offset_samples": 0,
+        "offset_ms": 0.0,
+        "normalized_correlation": 0.9993618114098598
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "output": "C:\\Users\\as042\\OneDrive\\Desktop\\manim_video\\exports\\complex_geometry_03.mp4",
+  "revision": "v1_219s",
+  "duration": 219,
+  "frames": 6570,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "versioned_output": null,
+  "audio": "not supplied; silent",
+  "subtitles": "46 full narration sentences burned in; exact supplied boundaries",
+  "subtitle_audit": "all 46 sentences within one frame; safe band assertions passed",
+  "ending": "standalone",
+  "shots": [
+    {
+      "scene": "01",
+      "frames": 330,
+      "source_sha256": "43bc3c29482fdf5770dc17be97f2628cd5513ba00941886ca01dcd24149be097"
+    },
+    {
+      "scene": "02",
+      "frames": 360,
+      "source_sha256": "a09f6a1530c1d5e61a6b5f37a3bb282b63898f82f74782d495c1518aeb6497c5"
+    },
+    {
+      "scene": "03",
+      "frames": 630,
+      "source_sha256": "a1c6be424214fb255d3a2d7122efcf69f43bd20d9aff3de02580d7dbf362b01f"
+    },
+    {
+      "scene": "04",
+      "frames": 510,
+      "source_sha256": "73cbf57b2811ec8f4a410b2babef0e73386542596ff89e66231c7445eb8a066f"
+    },
+    {
+      "scene": "05",
+      "frames": 480,
+      "source_sha256": "2b79b664e3d456dc8a3a37651fe58437e9416e4eb357902bbf868f8d71c1fc84"
+    },
+    {
+      "scene": "06",
+      "frames": 810,
+      "source_sha256": "bad60c93993cf82128950d95b104fe504139de1126d0ac67b1a2c8ce0ceda075"
+    },
+    {
+      "scene": "07",
+      "frames": 750,
+      "source_sha256": "ff2a8a7168777df071422b9a0e58aa9386dec233170253a988165b63ac990f07"
+    },
+    {
+      "scene": "08",
+      "frames": 720,
+      "source_sha256": "c47be4143a836ce1d7e4e5870818e8fa3a911d967deb03c35104bbbe289e36bf"
+    },
+    {
+      "scene": "09",
+      "frames": 750,
+      "source_sha256": "63b8d8b71efed64aa200f5f6b4303322625848569a86d164e3894c298a4902df"
+    },
+    {
+      "scene": "10",
+      "frames": 480,
+      "source_sha256": "54f32ccd9ec975f00960f74556a7c4465e71ff698410ad414256b556f227c245"
+    },
+    {
+      "scene": "11",
+      "frames": 450,
+      "source_sha256": "7706ec8359effb9dc7c8adcd2a1fbc89b97e5e6ac7218ca5ed6fbbc6b339e363"
+    },
+    {
+      "scene": "12",
+      "frames": 300,
+      "source_sha256": "0e9837edb847ad7c10e3d7a0f36f2861374e0ea6996c1eb3b3b7d9ffa06a602e"
+    }
+  ],
+  "full_decode": "passed",
+  "geometry": "every rendered animation frame checked for frame boundaries and subtitle band clearance",
+  "timing": "46 exact user-supplied sentence ends; 12 scenes; no gaps or overlaps"
+}

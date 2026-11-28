@@ -1,0 +1,23 @@
+{
+  "timing": "57 exact sentence ends, 16 contiguous scenes, 288 seconds, 8640 frames",
+  "cauchy_quadrature_errors": [
+    8.326672684688674e-17,
+    6.938893903907228e-18,
+    0.0,
+    0.0
+  ],
+  "higher_derivatives": "n=1,2,3 quadrature passed",
+  "contour_homotopy": "101 samples keep w strictly inside, analytic radius bound positive",
+  "tangent_identity": "dz/(z-w)=i dtheta",
+  "mean_temperature": 56.0,
+  "F_injective": "difference factor 1+0.4(z1+z2) nonzero; derivative lower bound 0.2",
+  "harmonic_laplacian_finite_difference": 0.0,
+  "heat_equation": "exact Bessel eigenmode, beta=first positive J0 root, diffusion coefficient=1",
+  "heat_beta": 2.4048255576957724,
+  "fixed_boundary_residual": 9.586882554916808e-17,
+  "normalization": "same temperature stays attached to each disk material coordinate during F deformation",
+  "sources": [
+    "https://homepages.uc.edu/~herronda/complex_analysis/Texts/Intro2ComplexAnalysis.pdf",
+    "https://math.berkeley.edu/~avizeff/complex_analysis_S26/lecture_6.html"
+  ]
+}

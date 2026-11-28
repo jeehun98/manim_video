@@ -436,3 +436,20 @@ longforms/<ID>_<slug>/
 - [원주율 1장 — 하나의 수, 여러 개의 정의](pi_understanding/chapter_01/README.md): 사용자 확정 47문장·264초,47개 독립 씬,16:9 4K30,무음·전체 자막. 실행: python longforms/pi_understanding/chapter_01/build.py. 결과: exports/pi_chapter_01.mp4.
 
 - [원주율 2장 — 서로 다른 곳에서 등장하는 동일한 수](pi_understanding/chapter_02/README.md): 확정 388초·62문장, 4K30·16:9·무음·전체 자막. `python longforms/pi_understanding/chapter_02/build.py`.
+
+
+## 복소평면에 숨겨진 기하학
+
+- [인트로 포함 0–4부 음성 롱폼](complex_geometry_full_00_04/README.md): 인트로와 `복소_0.mp3`를 결합해 기존 1–4부 앞에 추가. 1080p30·챕터 5개·통합 SRT·유튜브 설명. 실행: `python longforms/complex_geometry_full_00_04/build.py`.
+
+- [인트로 — 수의 확장에서 공간의 발견까지](complex_geometry_00/README.md): 사용자 확정 69초·11문장, 8개 독립 씬, 1920×1080·30fps, 전체 자막 포함 무음. 본편 01–04의 계산 함수와 도형을 재사용. 실행: `python longforms/complex_geometry_00/build.py`. 결과: `exports/complex_geometry_00.mp4`.
+
+- [음성 포함 1–4부 통합 롱폼](complex_geometry_full_01_04/README.md): `복소_1~4.mp3`를 각 영상과 먼저 결합한 뒤 통합. 1080p30·MP4 챕터·통합 SRT·유튜브 설명란. 실행: `python longforms/complex_geometry_full_01_04/build.py`.
+
+- [구간 01 — 복소수의 곱셈에서 코시 적분 정리까지](complex_geometry_01/README.md): 사용자 확정 203초·38문장, 11개 독립 씬, 1920×1080·30fps, 전체 자막 포함 무음. 이후 구간과 결합할 별도 파트. 실행: `python longforms/complex_geometry_01/build.py`. 결과: `exports/complex_geometry_01.mp4`.
+
+- [구간 02 — 코시 적분 공식에서 물리적 활용까지](complex_geometry_02/README.md): 사용자 확정 288초·57문장, 16개 독립 씬, 1920×1080·30fps, 전체 자막 포함 무음. 실제 복소함수로 영역·온도 정보를 함께 이동. 실행: `python longforms/complex_geometry_02/build.py`. 결과: `exports/complex_geometry_02.mp4`.
+
+- [구간 03 — 리만 곡면에서 균일화 정리까지](complex_geometry_03/README.md): 사용자 확정 219초·46문장, 12개 독립 씬, 1920×1080·30fps, 전체 자막 포함 무음. 두 겹의 교차 연결·국소좌표·원환면 보편피복·실제 케일리 변환. 실행: `python longforms/complex_geometry_03/build.py`. 결과: `exports/complex_geometry_03.mp4`.
+
+- [구간 04 — 쌍곡 거리의 유도와 푸앵카레 원판](complex_geometry_04/README.md): 사용자 확정 243초·49문장, 14개 독립 씬, 1920×1080·30fps, 전체 자막 포함 무음. 실제 원판 자기동형·불변 계량·같은 거리의 눈금·경계의 무한한 거리. 실행: `python longforms/complex_geometry_04/build.py`. 결과: `exports/complex_geometry_04.mp4`.

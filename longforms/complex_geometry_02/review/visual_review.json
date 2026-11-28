@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "reviewed": [
+    "shared-edge opposite arrows and outer-only boundary",
+    "annulus orientation and contour equality",
+    "kernel zero denominator and safe contour homotopy",
+    "radial/tangent geometric identity and two cancellation crosses",
+    "actual z² input/output collapse and Cauchy formula",
+    "higher derivatives and Taylor approximation",
+    "fixed-boundary heat equation eigenmode and continued steady heat flux",
+    "56°C center with symmetric 44,56,68,56 sample values",
+    "material-coordinate temperature transport under F=ζ+0.4ζ²",
+    "long narration with lower formula and final native landscape boundary/grid"
+  ],
+  "subtitle": "all 57 exact supplied sentence starts within one frame; dedicated bottom band",
+  "geometry": "all animation frames checked against body/frame limits",
+  "hashes": "all 16 final source hashes match current inputs",
+  "audio": "not supplied; silent",
+  "part": "separate 288-second file; no combined video generated",
+  "full_decode": "passed"
+}

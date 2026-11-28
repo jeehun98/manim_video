@@ -1,0 +1,62 @@
+title: 쌍곡 거리의 유도와 푸앵카레 원판
+width: 1920
+height: 1080
+fps: 30
+duration: 243
+scenes:
+  - id: "01"
+    start: 0
+    end: 23
+    title: 세 가지 공간과 세 가지 기하학
+  - id: "02"
+    start: 23
+    end: 46
+    title: 원판은 그대로, 내부는 움직인다
+  - id: "03"
+    start: 46
+    end: 59
+    title: 어떤 변환을 이동으로 삼을까?
+  - id: "04"
+    start: 59
+    end: 70
+    title: 복소미분이 알려 주는 길이의 변화
+  - id: "05"
+    start: 70
+    end: 91
+    title: 이동 함수를 미분해 축소 비율을 구한다
+  - id: "06"
+    start: 91
+    end: 109
+    title: 작아진 만큼 더 크게 측정한다
+  - id: "07"
+    start: 109
+    end: 122
+    title: 모든 위치에서 이동을 보존하는 규칙
+  - id: "08"
+    start: 122
+    end: 136
+    title: 새로운 거리의 눈금
+  - id: "09"
+    start: 136
+    end: 153
+    title: 같은 한 걸음, 작아지는 보폭
+  - id: "10"
+    start: 153
+    end: 172
+    title: 작아지는 틈과 커지는 보정
+  - id: "11"
+    start: 172
+    end: 183
+    title: 유한한 좌표, 무한한 거리
+  - id: "12"
+    start: 183
+    end: 203
+    title: 유한한 원판 속의 무한한 공간
+  - id: "13"
+    start: 203
+    end: 220
+    title: 같은 점들, 서로 다른 기하학
+  - id: "14"
+    start: 220
+    end: 243
+    title: 수의 연산에서 공간의 기하학으로

@@ -1,0 +1,27 @@
+;FFMETADATA1
+title=복소평면에 숨겨진 기하학 — 수의 연산에서 공간의 발견까지
+[CHAPTER]
+TIMEBASE=1/30
+START=0
+END=2096
+title=인트로 — 수의 확장에서 공간의 발견까지
+[CHAPTER]
+TIMEBASE=1/30
+START=2096
+END=8190
+title=복소수의 곱셈과 복소미분
+[CHAPTER]
+TIMEBASE=1/30
+START=8190
+END=16846
+title=코시 적분 공식과 조화함수
+[CHAPTER]
+TIMEBASE=1/30
+START=16846
+END=23444
+title=리만 곡면과 균일화 정리
+[CHAPTER]
+TIMEBASE=1/30
+START=23444
+END=30759
+title=쌍곡 거리와 푸앵카레 원판

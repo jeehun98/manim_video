@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "preview_shots": ["02", "05", "07", "08", "10", "12", "14"],
+  "final_key_frames": [
+    "review/final_02_edge.png",
+    "review/final_05_13.5.png",
+    "review/final_06_15.png",
+    "review/final_07_4.png",
+    "review/final_08_10.png",
+    "review/final_09_14.7.png",
+    "review/final_12_14.png",
+    "review/final_13_14.7.png",
+    "review/final_14_21.png"
+  ],
+  "checks": [
+    "Actual disk automorphism transforms the complete grid and finite circles while preserving the boundary as a set",
+    "The same origin radius rho=0.16 is used in the opening circle, comparison circles and final equal-hyperbolic-radius pattern",
+    "The edge marker remains smaller than the smallest moving circle",
+    "Derivative formulas clear the title and the independent subtitle band",
+    "Reciprocal correction examples distinguish the relative center normalization from the curvature -1 factor 2",
+    "The longest two-line narration caption clears all mathematical content",
+    "Equal-distance rulers and the walking dot use r=tanh(d/2), not a visual spacing approximation",
+    "Boundary-halving intervals use exact distances greater than ln 2, approaching ln 2",
+    "All 1819 pattern circles have the same hyperbolic radius and move under an actual inverse Mobius transformation",
+    "Euclidean and hyperbolic comparisons retain the same disk point set",
+    "The final four seconds contain the pattern and ending sentence without formulas; total duration remains 243 seconds"
+  ],
+  "automatic_verification": "render_report_long.json",
+  "mathematical_verification": "math_checks.json",
+  "audio": "Not supplied; silent"
+}

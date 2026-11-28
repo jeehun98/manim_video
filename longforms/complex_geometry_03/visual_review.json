@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "preview_shots": ["04", "06", "08", "09", "11"],
+  "final_frames": [
+    "review/final_root.png",
+    "review/final_04_12.png",
+    "review/final_06_10.5.png",
+    "review/final_06_20.5.png",
+    "review/final_08_7.5.png",
+    "review/final_cover.png",
+    "review/final_11_10.7.png",
+    "review/final_12_9.png"
+  ],
+  "checks": [
+    "Continuous square root reaches -1 at 360 degrees and returns at 720 degrees",
+    "Cross connections distinguish the two slit-edge pairs",
+    "Smooth w-coordinate saddle and longest two-line narration caption have separate space",
+    "Rectangle, cylinder and torus stages remain inside the body region",
+    "Cover path connects (0,0) to (2,0) to (2,2); endpoint and two independent torus loops match",
+    "Cayley transformation uses a finite clipped viewport and excludes the boundary pole",
+    "Fraction formulas clear the title and lower note",
+    "Final classification distinguishes spaces from their universal covers"
+  ],
+  "automatic_verification": "render_report_long.json",
+  "final_scene_09": "Only the horizontal route arrow was extended after final frame review; the corrected scene was rendered, reassembled, fully decoded and visually rechecked."
+}

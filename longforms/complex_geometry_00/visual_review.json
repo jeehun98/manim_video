@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "preview_shots": ["01", "04", "05", "07"],
+  "final_frames": [
+    "review/final_01_9.5.png",
+    "review/final_03_7.4.png",
+    "review/final_04_8.5.png",
+    "review/final_05_7.3.png",
+    "review/final_06_4.7.png",
+    "review/final_metric.png",
+    "review/final_axis.png"
+  ],
+  "checks": [
+    "Opening and later disk patterns reuse actual hyperbolic observer transformations.",
+    "The heat mesh carries its actual temperature colors through the conformal family and clears the lower equations and narration.",
+    "The Cauchy contour shrinks while retaining the interior pole and a visible holomorphicity condition.",
+    "Two-sheet gluing and local-coordinate surface visualization are separated by an explicit coordinate-view transition.",
+    "Uniformization labels identify universal covering spaces; the longest two-line caption has an independent safe band.",
+    "The metric formula and normalization note clear all lower narration captions.",
+    "The final real axis uses the same plane coordinates, point and label placement as the first chapter's initial scene."
+  ],
+  "automatic_verification": "render_report_long.json",
+  "mathematical_reuse": "math_reuse.json",
+  "duration_seconds": 69,
+  "frames": 2070,
+  "audio": "Not supplied; silent"
+}

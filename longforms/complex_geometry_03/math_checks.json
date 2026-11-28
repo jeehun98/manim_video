@@ -1,0 +1,22 @@
+{
+  "square_root": "w(theta)^2=z(theta); 2pi changes sign; 4pi returns",
+  "sheets": "negative-real-axis cut crossed at pi and 3pi; endpoints at 2pi/4pi match opposite/original sheet",
+  "local_coordinate": "w globally parametrizes S={(w²,w)}; F(w)=w entire; 3D saddle is a visualization of Re(w²)",
+  "torus": "doubly periodic torus embedding checked; complex torus is C/(Z+iZ), not its induced Euclidean metric",
+  "cayley_inverse_max_error": 3.64275408404521e-16,
+  "cayley": "Im F(z)=(1-|z|²)/|1-z|²>0; inverse (q-i)/(q+i); Fprime(0)=2i",
+  "homotopy": "Ft derivative i(1+t)/(1-tz)^2 nonzero on disk; pole excluded and actual transformed segments clipped to viewport",
+  "uniformization": "connected Riemann surface: universal holomorphic cover is biholomorphic to sphere, C or D; punctured disk has disk as universal cover",
+  "sources": [
+    {
+      "url": "https://people.math.osu.edu/costin.9/7651-2021/notes2.pdf",
+      "sections": "26.142–143, 43.18–19; universal covers and three biholomorphic types"
+    },
+    {
+      "url": "https://people.math.harvard.edu/~pspark/uniformization.pdf",
+      "subject": "Complex tori and holomorphic covering construction"
+    }
+  ],
+  "atlas": "Existing sources.json absent; no unrelated knowledge files modified",
+  "status": "passed"
+}
