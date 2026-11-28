@@ -1,9 +1,9 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {readFileSync} from 'node:fs';
+import {loadAtlas} from '../knowledge/store.mjs';
 import {visibleGraph} from '../src/graph.mjs';
 import {validateAtlas} from '../src/validation.mjs';
-const data=Object.fromEntries(['concepts','relations','sources','contents'].map(k=>[k,JSON.parse(readFileSync(new URL(`../data/${k}.json`,import.meta.url),'utf8'))]));
+const data=loadAtlas();
 test('neighborhood expands one hop at a time, including incoming edges',()=>{
  const one=visibleGraph(data,{focus:'inner-product-space',depth:1});
  assert(one.concepts.some(n=>n.id==='vector-space'));

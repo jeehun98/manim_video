@@ -2801,5 +2801,662 @@
     "sourceIds": [],
     "learningStatus": "unassessed",
     "questions": []
+  },
+  {
+    "id": "pi",
+    "name": "원주율",
+    "aliases": [
+      "Pi",
+      "π"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "유클리드 평면에서 원의 둘레를 지름으로 나눈 상수",
+    "tags": [],
+    "sourceIds": [
+      "src-pi-circle"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "arc-length",
+    "name": "호의 길이",
+    "aliases": [
+      "Arc Length"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "곡선을 따라 잰 길이로, 분할한 점들을 잇는 선분 길이 합의 최댓값 또는 상한",
+    "tags": [],
+    "sourceIds": [
+      "src-pi-circle"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "power-series",
+    "name": "멱급수",
+    "aliases": [
+      "Power Series"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "한 점을 기준으로 변수의 거듭제곱을 계수와 함께 더하는 무한급수",
+    "tags": [],
+    "sourceIds": [
+      "src-pi-circle"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "leibniz-series",
+    "name": "라이프니츠 급수",
+    "aliases": [
+      "Leibniz Series",
+      "Gregory–Leibniz Series"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "홀수의 역수를 부호를 번갈아 더해 π/4에 수렴하는 급수",
+    "tags": [],
+    "sourceIds": [
+      "src-pi-circle"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "basel-problem",
+    "name": "바젤 문제",
+    "aliases": [
+      "Basel Problem"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "양의 정수의 역제곱을 모두 더한 값 π²/6를 구하는 문제",
+    "tags": [],
+    "sourceIds": [
+      "src-pi-analysis"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "parseval-identity",
+    "name": "파르세발 항등식",
+    "aliases": [
+      "Parseval's Identity"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "제곱적분 가능한 함수의 제곱 노름과 정규직교 푸리에 계수의 절댓값 제곱합이 같다는 항등식",
+    "tags": [],
+    "sourceIds": [
+      "src-pi-analysis"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "gaussian-integral",
+    "name": "가우스 적분",
+    "aliases": [
+      "Gaussian Integral"
+    ],
+    "type": "Concept",
+    "domain": "해석학",
+    "description": "실수 전체에서 exp(−x²)을 적분하면 √π가 되는 대표적인 이상적분",
+    "tags": [],
+    "sourceIds": [
+      "src-pi-analysis"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "bbp-formula",
+    "name": "BBP 공식",
+    "aliases": [
+      "Bailey–Borwein–Plouffe Formula",
+      "BBP Formula"
+    ],
+    "type": "Concept",
+    "domain": "추상대수와 정수론",
+    "description": "π를 16의 거듭제곱을 분모에 포함하는 급수로 표현하는 공식",
+    "tags": [],
+    "sourceIds": [
+      "src-pi-bbp"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "digit-extraction",
+    "name": "자릿수 추출",
+    "aliases": [
+      "Digit Extraction"
+    ],
+    "type": "Concept",
+    "domain": "추상대수와 정수론",
+    "description": "앞의 자릿수를 모두 구하지 않고 특정 위치의 자릿수를 계산하는 방법",
+    "tags": [],
+    "sourceIds": [
+      "src-pi-bbp"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "irrational-number",
+    "name": "무리수",
+    "aliases": [
+      "Irrational Number"
+    ],
+    "type": "Concept",
+    "domain": "추상대수와 정수론",
+    "description": "두 정수의 비로 나타낼 수 없는 실수",
+    "tags": [],
+    "sourceIds": [
+      "src-pi-normal"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "algebraic-number",
+    "name": "대수적 수",
+    "aliases": [
+      "Algebraic Number"
+    ],
+    "type": "Concept",
+    "domain": "추상대수와 정수론",
+    "description": "유리수 계수의 영이 아닌 다항식의 근이 되는 수",
+    "tags": [],
+    "sourceIds": [
+      "src-pi-normal"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "transcendental-number",
+    "name": "초월수",
+    "aliases": [
+      "Transcendental Number"
+    ],
+    "type": "Concept",
+    "domain": "추상대수와 정수론",
+    "description": "유리수 계수의 영이 아닌 어떤 다항식의 근도 되지 않는 수",
+    "tags": [],
+    "sourceIds": [
+      "src-pi-normal"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "normal-number",
+    "name": "정규수",
+    "aliases": [
+      "Normal Number"
+    ],
+    "type": "Concept",
+    "domain": "추상대수와 정수론",
+    "description": "밑 b에서 길이 k인 모든 숫자 블록의 극한 출현 빈도가 b의 −k제곱인 수",
+    "tags": [],
+    "sourceIds": [
+      "src-pi-normal"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "equidistribution",
+    "name": "균등분포성",
+    "aliases": [
+      "Equidistribution"
+    ],
+    "type": "Concept",
+    "domain": "추상대수와 정수론",
+    "description": "수열이 단위구간의 각 부분구간에 들어가는 극한 비율이 그 구간의 길이와 같은 성질",
+    "tags": [],
+    "sourceIds": [
+      "src-pi-normal"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "fractional-part",
+    "name": "소수 부분",
+    "aliases": [
+      "Fractional Part"
+    ],
+    "type": "Concept",
+    "domain": "추상대수와 정수론",
+    "description": "실수에서 그 수 이하의 가장 큰 정수를 뺀 값",
+    "tags": [],
+    "sourceIds": [
+      "src-pi-normal"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "borel-normal-number-theorem",
+    "name": "보렐의 정규수 정리",
+    "aliases": [
+      "Borel's Normal Number Theorem"
+    ],
+    "type": "Theorem",
+    "domain": "추상대수와 정수론",
+    "description": "르베그 측도에서 거의 모든 실수가 모든 정수 밑 b≥2에 대해 정규수라는 정리",
+    "tags": [],
+    "sourceIds": [
+      "src-pi-normal"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "complex-number",
+    "name": "복소수",
+    "aliases": [
+      "Complex Number"
+    ],
+    "type": "Concept",
+    "domain": "복소수와 복소해석",
+    "description": "실수 a와 b를 써서 a+bi로 나타내는 수",
+    "tags": [],
+    "sourceIds": [
+      "src-complex-rotation"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "imaginary-unit",
+    "name": "허수 단위",
+    "aliases": [
+      "Imaginary Unit"
+    ],
+    "type": "Concept",
+    "domain": "복소수와 복소해석",
+    "description": "제곱이 −1인 복소수 단위 i",
+    "tags": [],
+    "sourceIds": [
+      "src-complex-rotation"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "complex-plane",
+    "name": "복소평면",
+    "aliases": [
+      "Complex Plane"
+    ],
+    "type": "Concept",
+    "domain": "복소수와 복소해석",
+    "description": "가로축에 실수부, 세로축에 허수부를 놓아 복소수를 나타내는 평면",
+    "tags": [],
+    "sourceIds": [
+      "src-complex-rotation"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "complex-modulus",
+    "name": "복소수의 절댓값",
+    "aliases": [
+      "Complex Modulus"
+    ],
+    "type": "Concept",
+    "domain": "복소수와 복소해석",
+    "description": "복소평면에서 원점부터 해당 복소수까지의 거리",
+    "tags": [],
+    "sourceIds": [
+      "src-complex-rotation"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "complex-argument",
+    "name": "복소수의 편각",
+    "aliases": [
+      "Complex Argument"
+    ],
+    "type": "Concept",
+    "domain": "복소수와 복소해석",
+    "description": "영이 아닌 복소수가 양의 실수축과 이루는 각으로, 한 바퀴 차이를 허용한다",
+    "tags": [],
+    "sourceIds": [
+      "src-complex-rotation"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "complex-exponential",
+    "name": "복소지수함수",
+    "aliases": [
+      "Complex Exponential Function"
+    ],
+    "type": "Concept",
+    "domain": "복소수와 복소해석",
+    "description": "실수 지수함수를 복소수로 확장한 함수로, 순허수 입력을 단위원 위의 점으로 보낸다",
+    "tags": [],
+    "sourceIds": [
+      "src-pi-analysis"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "euler-formula",
+    "name": "오일러 공식",
+    "aliases": [
+      "Euler's Formula"
+    ],
+    "type": "Concept",
+    "domain": "복소수와 복소해석",
+    "description": "실수 θ에 대해 exp(iθ)=cos θ+i sin θ가 성립한다는 항등식",
+    "tags": [],
+    "sourceIds": [
+      "src-pi-analysis"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "complex-derivative",
+    "name": "복소미분",
+    "aliases": [
+      "Complex Derivative"
+    ],
+    "type": "Concept",
+    "domain": "복소수와 복소해석",
+    "description": "복소수 증분이 0에 접근하는 모든 경로에서 같은 차분비 극한을 요구하는 미분",
+    "tags": [],
+    "sourceIds": [
+      "src-complex-holomorphic"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "complex-conjugation",
+    "name": "복소켤레",
+    "aliases": [
+      "Complex Conjugation"
+    ],
+    "type": "Concept",
+    "domain": "복소수와 복소해석",
+    "description": "허수부의 부호를 바꾸는 연산으로, 복소평면의 실수축에 대한 반사",
+    "tags": [],
+    "sourceIds": [
+      "src-complex-holomorphic"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "cauchy-riemann-equations",
+    "name": "코시–리만 방정식",
+    "aliases": [
+      "Cauchy–Riemann Equations"
+    ],
+    "type": "Concept",
+    "domain": "복소수와 복소해석",
+    "description": "복소미분 가능한 함수의 실수부와 허수부의 편미분이 만족하는 연립식",
+    "tags": [],
+    "sourceIds": [
+      "src-complex-holomorphic"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "holomorphic-function",
+    "name": "정칙함수",
+    "aliases": [
+      "Holomorphic Function"
+    ],
+    "type": "Concept",
+    "domain": "복소수와 복소해석",
+    "description": "열린 영역의 모든 점에서 복소미분 가능한 함수",
+    "tags": [],
+    "sourceIds": [
+      "src-complex-holomorphic"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "cauchy-integral-formula",
+    "name": "코시 적분 공식",
+    "aliases": [
+      "Cauchy Integral Formula"
+    ],
+    "type": "Concept",
+    "domain": "복소수와 복소해석",
+    "description": "닫힌 원판의 근방에서 정칙인 함수의 내부 값과 도함수를 원 둘레의 적분으로 구하는 공식",
+    "tags": [],
+    "sourceIds": [
+      "src-complex-holomorphic"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "contour-integral",
+    "name": "복소 경로 적분",
+    "aliases": [
+      "Contour Integral"
+    ],
+    "type": "Concept",
+    "domain": "복소수와 복소해석",
+    "description": "복소 함수의 값을 방향이 있는 경로를 따라 적분하는 연산",
+    "tags": [],
+    "sourceIds": [
+      "src-complex-contour",
+      "src-complex-boundary"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "cauchy-integral-theorem",
+    "name": "코시 적분 정리",
+    "aliases": [
+      "Cauchy's Integral Theorem"
+    ],
+    "type": "Theorem",
+    "domain": "복소수와 복소해석",
+    "description": "단일연결 영역에서 정칙인 함수는 그 영역 안의 닫힌 경로를 따라 적분하면 0이라는 정리",
+    "tags": [],
+    "sourceIds": [
+      "src-complex-contour"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "fundamental-theorem-of-algebra",
+    "name": "대수학의 기본정리",
+    "aliases": [
+      "Fundamental Theorem of Algebra"
+    ],
+    "type": "Concept",
+    "domain": "복소수와 복소해석",
+    "description": "양의 차수인 복소수 계수 다항식은 복소수에서 적어도 하나의 근을 갖는다는 정리",
+    "tags": [],
+    "sourceIds": [
+      "src-complex-fta"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "riemann-surface",
+    "name": "리만 곡면",
+    "aliases": [
+      "Riemann Surface"
+    ],
+    "type": "Concept",
+    "domain": "복소수와 복소해석",
+    "description": "국소적으로 복소평면의 열린집합처럼 보이고 좌표 변환이 정칙인 공간",
+    "tags": [],
+    "sourceIds": [
+      "src-complex-uniformization"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "riemann-sphere",
+    "name": "리만 구면",
+    "aliases": [
+      "Riemann Sphere"
+    ],
+    "type": "Concept",
+    "domain": "복소수와 복소해석",
+    "description": "복소평면에 무한원점 하나를 붙여 얻는 구면 모양의 리만 곡면",
+    "tags": [],
+    "sourceIds": [
+      "src-complex-uniformization"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "universal-cover",
+    "name": "보편피복공간",
+    "aliases": [
+      "Universal Covering Space"
+    ],
+    "type": "Concept",
+    "domain": "복소수와 복소해석",
+    "description": "기저 공간을 국소적으로 덮는 단일연결 피복공간",
+    "tags": [],
+    "sourceIds": [
+      "src-complex-uniformization"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "biholomorphism",
+    "name": "쌍정칙사상",
+    "aliases": [
+      "Biholomorphism"
+    ],
+    "type": "Concept",
+    "domain": "복소수와 복소해석",
+    "description": "정칙이고 역함수도 정칙인 일대일 대응",
+    "tags": [],
+    "sourceIds": [
+      "src-complex-uniformization"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "uniformization-theorem",
+    "name": "균일화 정리",
+    "aliases": [
+      "Uniformization Theorem"
+    ],
+    "type": "Theorem",
+    "domain": "복소수와 복소해석",
+    "description": "단일연결 리만 곡면이 리만 구면·복소평면·단위원판 중 하나와 쌍정칙이라는 정리",
+    "tags": [],
+    "sourceIds": [
+      "src-complex-uniformization"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "disk-automorphism",
+    "name": "단위원판의 자기동형",
+    "aliases": [
+      "Disk Automorphism"
+    ],
+    "type": "Concept",
+    "domain": "기하와 위상",
+    "description": "열린 단위원판에서 자기 자신으로 가는 쌍정칙사상",
+    "tags": [],
+    "sourceIds": [
+      "src-complex-disk"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "hyperbolic-distance",
+    "name": "쌍곡 거리",
+    "aliases": [
+      "Hyperbolic Distance"
+    ],
+    "type": "Concept",
+    "domain": "기하와 위상",
+    "description": "쌍곡평면의 계량으로 잰 두 점 사이의 거리",
+    "tags": [],
+    "sourceIds": [
+      "src-complex-disk"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "poincare-disk",
+    "name": "푸앵카레 원판",
+    "aliases": [
+      "Poincaré Disk Model"
+    ],
+    "type": "Concept",
+    "domain": "기하와 위상",
+    "description": "열린 단위원판에 쌍곡 거리 규칙을 주어 쌍곡평면을 나타내는 모형",
+    "tags": [],
+    "sourceIds": [
+      "src-complex-disk"
+    ],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "polar-form",
+    "name": "복소수의 극형식",
+    "aliases": [
+      "Polar Form of a Complex Number"
+    ],
+    "type": "Concept",
+    "domain": "복소수와 복소해석",
+    "description": "영이 아닌 복소수를 절댓값과 편각으로 나타내는 표현",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
+  },
+  {
+    "id": "root-of-unity",
+    "name": "단위근",
+    "aliases": [
+      "Root of Unity",
+      "Roots of Unity"
+    ],
+    "type": "Concept",
+    "domain": "복소수와 복소해석",
+    "description": "양의 정수 n에 대해 n제곱이 1이 되는 복소수",
+    "tags": [],
+    "sourceIds": [],
+    "learningStatus": "unassessed",
+    "questions": []
   }
 ]
