@@ -9,6 +9,7 @@ EPISODES["mod01"] = ("episodes/mod01_residue_arithmetic/scene.py", "Shot01")
 EPISODES["padic01"] = ("episodes/padic01_local_global/scene.py", "Shot01")
 EPISODES["bernoulli01"] = ("episodes/bernoulli01_estimation/scene.py", "Shot01")
 EPISODES["solitary01"] = ("episodes/solitary01_kdv/scene.py", "SolitaryWaveShort")
+EPISODES["unity01"] = ("episodes/unity01_roots/scene.py", "Shot01")
 EPISODES["irrational01"] = ("episodes/irrational01_boundaries/scene.py", "Shot01")
 EPISODES["genfunc02"] = ("episodes/genfunc02_catalan/scene.py", "Shot01")
 EPISODES["genfunc01"] = ("episodes/genfunc01_dice/scene.py", "Shot01")
@@ -854,6 +855,12 @@ def main():
         subprocess.run(command, cwd=ROOT, check=True)
         return
     source, scene = EPISODES[a.episode]
+    if a.episode == "unity01":
+        command = [sys.executable, str(ROOT / "episodes/unity01_roots/build.py")]
+        if a.preview:
+            command.append("--preview")
+        subprocess.run(command, cwd=ROOT, check=True)
+        return
     env = os.environ.copy()
     if a.episode == "solitary01":
         tex_bin = ROOT / ".tools/TinyTeX/TinyTeX/bin/windows"

@@ -2481,3 +2481,13 @@ python scripts/render.py normal01
 - 최종: `python scripts/render.py complex02`
 - 대표 씬 검수: `python episodes/complex02_holomorphic/build.py --preview --scene 02 06 11 13`
 - 결과: `exports/complex02_short.mp4`
+
+## 단위근 — 방정식을 풀었더니 정다각형이 나타났다 (unity01)
+
+대본, 10개 Manim 장면, 자막과 타이밍은 `episodes/unity01_roots/`에 있다.
+173초 무음 쇼츠이며 최종 출력은 `exports/unity01.mp4` (1080×1920, 60fps)다.
+
+```bash
+python scripts/render.py unity01 --preview
+python scripts/render.py unity01
+```
